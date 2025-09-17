@@ -128,7 +128,7 @@ export default function TermsPage() {
                   <li>• Provide accurate facility information</li>
                   <li>• Write honest, helpful reviews</li>
                   <li>• Use respectful language</li>
-                  <li>• Protect others' privacy</li>
+                  <li>• Protect others&apos; privacy</li>
                 </ul>
               </div>
               
@@ -245,7 +245,7 @@ export default function TermsPage() {
                   Limitation of Liability
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  ShowerMap's liability is limited to the maximum extent permitted by law. 
+                  ShowerMap&apos;s liability is limited to the maximum extent permitted by law. 
                   We are not liable for any direct, indirect, or consequential damages arising 
                   from your use of our service or visits to listed facilities.
                 </p>

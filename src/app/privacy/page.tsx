@@ -47,7 +47,7 @@ export default function PrivacyPage() {
                   </ul>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">What We Don't Do:</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">What We Don&apos;t Do:</h3>
                   <ul className="text-gray-700 space-y-1">
                     <li>• We don&apos;t sell your personal information</li>
                     <li>• We don&apos;t track you across other websites</li>
@@ -183,7 +183,7 @@ export default function PrivacyPage() {
                 <ul className="text-gray-600 space-y-1 text-sm">
                   <li>• Comply with applicable laws</li>
                   <li>• Respond to legal requests</li>
-                  <li>• Protect our rights and users' safety</li>
+                  <li>• Protect our rights and users&apos; safety</li>
                   <li>• Investigate potential violations</li>
                 </ul>
               </div>
@@ -427,7 +427,7 @@ export default function PrivacyPage() {
               </p>
               
               <ul className="text-gray-600 space-y-1 text-sm ml-4 list-disc">
-                <li>We&apos;ll update the "Last updated" date at the top of this page</li>
+                <li>We&apos;ll update the &quot;Last updated&quot; date at the top of this page</li>
                 <li>We&apos;ll notify you of significant changes on our website</li>
                 <li>For major changes, we may send additional notifications</li>
                 <li>Continued use of ShowerMap means you accept the updated policy</li>
