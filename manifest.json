@@ -1,0 +1,32 @@
+{
+  "name": "ShowerMap - Find Public Showers Worldwide",
+  "short_name": "ShowerMap",
+  "description": "Find clean, safe public showers worldwide for travelers, van lifers, and anyone needing hygiene access.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["travel", "utilities", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr"
+}
