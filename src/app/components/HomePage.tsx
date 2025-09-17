@@ -1,3 +1,5 @@
+'use client';
+
 // src/app/components/HomePage.tsx
 import { Search, MapPin, Clock, DollarSign, Shield, Star, Users } from 'lucide-react';
 import Link from 'next/link';
