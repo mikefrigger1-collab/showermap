@@ -66,13 +66,13 @@ export default function GuidelinesPage() {
                       Be Considerate of Others
                     </h3>
                     <p className="text-gray-600 mb-3">
-                      Remember that you're sharing facilities with community members, 
+                      Remember that you&apos;re sharing facilities with community members, 
                       other travelers, and people in various circumstances.
                     </p>
                     <ul className="text-gray-600 space-y-1 ml-4 list-disc">
                       <li>Keep shower time reasonable during busy periods</li>
                       <li>Clean up after yourself</li>
-                      <li>Respect others' privacy and space</li>
+                      <li>Respect others&apos; privacy and space</li>
                       <li>Be patient and kind with staff and other users</li>
                     </ul>
                   </div>
@@ -225,7 +225,7 @@ export default function GuidelinesPage() {
                   Respect privacy and maintain discretion:
                 </p>
                 <ul className="text-gray-600 space-y-2 ml-6 list-disc">
-                  <li>Don't photograph people in shower facilities</li>
+                  <li>Don&apos;t photograph people in shower facilities</li>
                   <li>Keep conversations about other users private</li>
                   <li>Respect that some people may prefer not to interact</li>
                   <li>Be mindful of personal space and boundaries</li>

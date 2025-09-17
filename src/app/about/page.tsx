@@ -5,6 +5,7 @@ import Link from 'next/link';
 import GlobalHeader from '../components/GlobalHeader';
 import GlobalFooter from '../components/GlobalFooter';
 
+
 export default function AboutPage() {
   return (
     <>
@@ -34,12 +35,12 @@ export default function AboutPage() {
                   Our Mission
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  ShowerMap was born from a simple belief: access to hygiene shouldn't depend on your circumstances. 
-                  Whether you're a traveler exploring new places, living the van life, working long-haul trucking routes, 
+                  ShowerMap was born from a simple belief: access to hygiene shouldn&apos;t depend on your circumstances. 
+                  Whether you&apos;re a traveler exploring new places, living the van life, working long-haul trucking routes, 
                   or facing housing insecurity, everyone deserves clean facilities.
                 </p>
                 <p className="text-lg text-gray-600 mb-6">
-                  We're building the world's most comprehensive directory of public shower facilities, 
+                  We&apos;re building the world&apos; most comprehensive directory of public shower facilities, 
                   verified and maintained by a community that cares about helping others stay clean, 
                   healthy, and dignified.
                 </p>
@@ -202,7 +203,7 @@ export default function AboutPage() {
               Join Our Community
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Help us build the world's most comprehensive directory of public shower facilities. 
+              Help us build the world&apos;s most comprehensive directory of public shower facilities. 
               Together, we can ensure everyone has access to clean, dignified hygiene facilities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

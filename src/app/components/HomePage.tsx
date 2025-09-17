@@ -86,7 +86,7 @@ const HomePage = () => {
                   <DollarSign className="h-8 w-8 text-purple-600" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Clear Pricing</h3>
-                <p className="text-gray-600">Know exactly what you'll pay - from free facilities to day pass rates.</p>
+                <p className="text-gray-600">Know exactly what you&apos;ll pay - from free facilities to day pass rates.</p>
               </div>
               
               <div className="text-center">

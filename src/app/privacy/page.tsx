@@ -49,10 +49,10 @@ export default function PrivacyPage() {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">What We Don't Do:</h3>
                   <ul className="text-gray-700 space-y-1">
-                    <li>• We don't sell your personal information</li>
-                    <li>• We don't track you across other websites</li>
-                    <li>• We don't require accounts to use ShowerMap</li>
-                    <li>• We don't share data except as described below</li>
+                    <li>• We don&apos;t sell your personal information</li>
+                    <li>• We don&apos;t track you across other websites</li>
+                    <li>• We don&apos;t require accounts to use ShowerMap</li>
+                    <li>• We don&apos;t share data except as described below</li>
                   </ul>
                 </div>
               </div>
@@ -383,7 +383,7 @@ export default function PrivacyPage() {
                   <AlertCircle className="h-6 w-6 text-yellow-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                      Children's Privacy
+                      Children&apos;s Privacy
                     </h3>
                     <p className="text-gray-700 text-sm">
                       ShowerMap is not intended for children under 13. We do not knowingly collect 
@@ -399,7 +399,7 @@ export default function PrivacyPage() {
                   International Users
                 </h3>
                 <p className="text-gray-700 text-sm">
-                  ShowerMap is based in the United States. If you're using our service from another country, 
+                  ShowerMap is based in the United States. If you&apos;re using our service from another country, 
                   your information may be transferred to and stored in the US. By using ShowerMap, 
                   you consent to this transfer.
                 </p>
@@ -427,8 +427,8 @@ export default function PrivacyPage() {
               </p>
               
               <ul className="text-gray-600 space-y-1 text-sm ml-4 list-disc">
-                <li>We'll update the "Last updated" date at the top of this page</li>
-                <li>We'll notify you of significant changes on our website</li>
+                <li>We&apos;ll update the "Last updated" date at the top of this page</li>
+                <li>We&apos;ll notify you of significant changes on our website</li>
                 <li>For major changes, we may send additional notifications</li>
                 <li>Continued use of ShowerMap means you accept the updated policy</li>
               </ul>
@@ -447,7 +447,7 @@ export default function PrivacyPage() {
               
               <p className="text-blue-100 mb-4">
                 If you have questions about this privacy policy or how we handle your information, 
-                we're here to help.
+                we&apos;re here to help.
               </p>
               
               <div className="space-y-2 text-blue-100 text-sm">
@@ -459,7 +459,7 @@ export default function PrivacyPage() {
               <div className="mt-4 pt-4 border-t border-blue-500">
                 <p className="text-blue-100 text-sm">
                   You can also use our <a href="/contact/" className="text-white hover:underline font-medium">contact form </a> 
-                   and select "Privacy/Data Protection" as your inquiry type.
+                   and select - Privacy/Data Protection - as your inquiry type.
                 </p>
               </div>
             </div>

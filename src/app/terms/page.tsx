@@ -38,7 +38,7 @@ export default function TermsPage() {
             
             <div className="bg-blue-50 border-l-4 border-blue-600 p-6">
               <p className="text-gray-700 mb-4">
-                By accessing and using ShowerMap ("the Service"), you accept and agree to be bound by 
+                By accessing and using ShowerMap (&quot;the Service&quot;), you accept and agree to be bound by 
                 the terms and provision of this agreement. If you do not agree to these terms, 
                 you should not use this website.
               </p>
@@ -210,7 +210,7 @@ export default function TermsPage() {
                     Use at Your Own Risk
                   </h3>
                   <p className="text-gray-700 text-sm">
-                    ShowerMap provides information "as is" without any warranties. We are not 
+                    ShowerMap provides information &quot;as is&quot; without any warranties. We are not 
                     responsible for the condition, safety, or availability of any facilities 
                     listed on our platform.
                   </p>
@@ -323,7 +323,7 @@ export default function TermsPage() {
               <div className="text-sm text-gray-600">
                 <p className="mb-2">When we make changes:</p>
                 <ul className="space-y-1 ml-4 list-disc">
-                  <li>We will update the "Last updated" date at the top of this page</li>
+                  <li>We will update the &quot;Last updated&quot; date at the top of this page</li>
                   <li>Significant changes will be announced on our website</li>
                   <li>Continued use of the service constitutes acceptance of updated terms</li>
                   <li>If you disagree with changes, you should discontinue use of the service</li>
@@ -363,7 +363,7 @@ export default function TermsPage() {
               <div className="mt-4 pt-4 border-t border-blue-500">
                 <p className="text-sm text-blue-100">
                   You can also use our <a href="/contact/" className="text-white hover:underline">contact form</a> 
-                  and select "Legal/Terms of Service" as your inquiry type.
+                  and select &quot;Legal/Terms of Service&quot; as your inquiry type.
                 </p>
               </div>
             </div>

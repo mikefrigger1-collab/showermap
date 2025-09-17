@@ -39,7 +39,7 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Have a question, want to report a facility, or need help? We're here to assist you. 
+              Have a question, want to report a facility, or need help? We&apos;re here to assist you. 
               Reach out to the ShowerMap community team.
             </p>
           </div>
@@ -256,7 +256,7 @@ export default function ContactPage() {
                   How do I report a new shower location?
                 </h3>
                 <p className="text-gray-600">
-                  Use the contact form above and select "Report New Shower Location." Please include 
+                  Use the contact form above and select - Report New Shower Location - Please include 
                   the facility name, full address, hours of operation, cost information, and any 
                   special access requirements.
                 </p>
@@ -267,7 +267,7 @@ export default function ContactPage() {
                   What if I find incorrect information about a facility?
                 </h3>
                 <p className="text-gray-600">
-                  Please report outdated information using our contact form. Select "Update Existing Location" 
+                  Please report outdated information using our contact form. Select - Update Existing Location -  
                   and provide the correct details. Your updates help keep ShowerMap accurate for everyone.
                 </p>
               </div>
