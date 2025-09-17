@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   // Enforce trailing slashes
   trailingSlash: true,
   
-  // Completely disable ESLint during builds
+  // Completely disable ESLint during builds (remove invalid 'rules' key)
   eslint: {
     ignoreDuringBuilds: true,
   },
