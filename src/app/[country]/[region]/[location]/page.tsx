@@ -56,16 +56,19 @@ function transformForContentWriter(location: any) {
 export async function generateMetadata({ 
   params 
 }: { 
-  params: { country: string; region: string; location: string } 
+  params: Promise<{ country: string; region: string; location: string }> 
 }): Promise<Metadata> {
-  if (params.country !== 'usa') {
+  // Await the params promise
+  const resolvedParams = await params;
+  
+  if (resolvedParams.country !== 'usa') {
     return {
       title: 'Location Not Found | ShowerMap',
       description: 'The requested location could not be found.',
     };
   }
   
-  const stateCode = getStateCodeFromSlug(params.region);
+  const stateCode = getStateCodeFromSlug(resolvedParams.region);
   if (!stateCode) {
     return {
       title: 'Location Not Found | ShowerMap',
@@ -73,7 +76,7 @@ export async function generateMetadata({
     };
   }
   
-  const location = getLocationBySlug(stateCode, params.location);
+  const location = getLocationBySlug(stateCode, resolvedParams.location);
   if (!location) {
     return {
       title: 'Location Not Found | ShowerMap',
@@ -105,21 +108,24 @@ export async function generateMetadata({
   };
 }
 
-export default function LocationPage({ 
+export default async function LocationPage({ 
   params 
 }: { 
-  params: { country: string; region: string; location: string } 
+  params: Promise<{ country: string; region: string; location: string }> 
 }) {
-  if (params.country !== 'usa') {
+  // Await the params promise
+  const resolvedParams = await params;
+  
+  if (resolvedParams.country !== 'usa') {
     notFound();
   }
   
-  const stateCode = getStateCodeFromSlug(params.region);
+  const stateCode = getStateCodeFromSlug(resolvedParams.region);
   if (!stateCode) {
     notFound();
   }
   
-  const location = getLocationBySlug(stateCode, params.location);
+  const location = getLocationBySlug(stateCode, resolvedParams.location);
   if (!location) {
     notFound();
   }
@@ -167,9 +173,9 @@ export default function LocationPage({
       location={safeLocation} 
       generatedContent={contentPackage}
       params={{
-        country: params.country,
-        region: params.region,
-        location: params.location
+        country: resolvedParams.country,
+        region: resolvedParams.region,
+        location: resolvedParams.location
       }}
       isVerified={isVerified}
     />
