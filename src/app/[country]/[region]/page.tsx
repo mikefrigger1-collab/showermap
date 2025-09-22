@@ -63,6 +63,28 @@ export async function generateMetadata({
   };
 }
 
+export async function generateStaticParams() {
+  // List of states to generate at build time
+  const states = [
+    'california', 'texas', 'new-york', 'florida', 'illinois',
+    'pennsylvania', 'ohio', 'georgia', 'north-carolina', 'michigan',
+    'washington', 'arizona', 'massachusetts', 'tennessee', 'indiana',
+    'missouri', 'maryland', 'wisconsin', 'colorado', 'minnesota',
+    'south-carolina', 'alabama', 'louisiana', 'kentucky', 'oregon',
+    'oklahoma', 'connecticut', 'utah', 'iowa', 'nevada',
+    'arkansas', 'mississippi', 'kansas', 'new-mexico', 'nebraska',
+    'west-virginia', 'idaho', 'hawaii', 'new-hampshire', 'maine',
+    'montana', 'rhode-island', 'delaware', 'south-dakota', 'north-dakota',
+    'alaska', 'vermont', 'wyoming'
+  ];
+  
+  // Generate params for each state
+  return states.map((region) => ({
+    country: 'usa',
+    region: region,
+  }));
+}
+
 // Fix: Make the page component async and await params
 export default async function RegionPage({ 
   params 

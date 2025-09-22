@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "npm run generate-sitemap",
+    "generate-sitemap": "node scripts/generate-sitemap-urls.js && next-sitemap --config next-sitemap.config.js",
     "start": "next start",
-    "lint": "eslint",
-    "postbuild": "next-sitemap --config next-sitemap.config.js",
-    "sitemap": "next-sitemap --config next-sitemap.config.js"
+    "lint": "eslint"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.18",
