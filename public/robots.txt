@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# Host
+Host: https://www.showermap.com/
+
+# Sitemaps
+Sitemap: https://www.showermap.com/sitemap.xml
