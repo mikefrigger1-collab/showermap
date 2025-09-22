@@ -1,0 +1,76 @@
+{
+  "generated": "2025-09-21T07:55:17.388Z",
+  "totalLocations": 4202,
+  "totalStates": 4,
+  "duplicatesRemoved": 287,
+  "states": [
+    {
+      "state": "FL",
+      "stateName": "Florida",
+      "locationCount": 1012,
+      "cityCount": 135,
+      "reviewCount": 627,
+      "categories": [
+        "YMCA",
+        "Gym",
+        "Public Facility",
+        "Public Pool",
+        "Community Center",
+        "Recreation Center",
+        "Truck Stop"
+      ],
+      "filename": "state_FL_shower_locations.json"
+    },
+    {
+      "state": "NY",
+      "stateName": "New York",
+      "locationCount": 971,
+      "cityCount": 117,
+      "reviewCount": 686,
+      "categories": [
+        "Public Facility",
+        "Truck Stop",
+        "YMCA",
+        "Gym",
+        "Community Center",
+        "Recreation Center",
+        "Public Pool"
+      ],
+      "filename": "state_NY_shower_locations.json"
+    },
+    {
+      "state": "CA",
+      "stateName": "California",
+      "locationCount": 1162,
+      "cityCount": 171,
+      "reviewCount": 1150,
+      "categories": [
+        "YMCA",
+        "Public Facility",
+        "Public Pool",
+        "Community Center",
+        "Recreation Center",
+        "Gym",
+        "Hostel"
+      ],
+      "filename": "state_CA_shower_locations.json"
+    },
+    {
+      "state": "TX",
+      "stateName": "Texas",
+      "locationCount": 1057,
+      "cityCount": 148,
+      "reviewCount": 720,
+      "categories": [
+        "YMCA",
+        "Gym",
+        "Public Pool",
+        "Community Center",
+        "Recreation Center",
+        "Public Facility",
+        "Truck Stop"
+      ],
+      "filename": "state_TX_shower_locations.json"
+    }
+  ]
+}
