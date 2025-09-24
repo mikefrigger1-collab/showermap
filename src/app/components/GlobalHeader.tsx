@@ -119,41 +119,42 @@ const regions = {
               </button>
               
               {/* Dropdown Menu - positioned to overlap slightly with button */}
-              {isRegionsDropdownOpen && (
-                <div className="absolute top-full left-0 -mt-1 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
-                  <div className="p-4">
-                    <div className="grid grid-cols-2 gap-6">
-                      {Object.entries(regions).map(([country, regionList]) => (
-                        <div key={country}>
-                          <h3 className="text-sm font-semibold text-gray-900 mb-2">
-                            {country}
-                          </h3>
-                          <ul className="space-y-1">
-                            {regionList.map((region) => (
-                              <li key={region.slug}>
-                                <Link
-                                  href={`/${region.slug}/`}
-                                  className="text-sm text-gray-600 hover:text-blue-600 hover:bg-blue-50 block px-2 py-2 rounded transition-colors"
-                                >
-                                  {region.name}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      ))}
-                    </div>
-                    <div className="mt-4 pt-4 border-t border-gray-100">
-                      <Link
-                        href="/map/"
-                        className="text-sm text-blue-600 hover:text-blue-800 font-medium block py-2"
-                      >
-                        View All Locations on Map →
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              )}
+{/* Dropdown Menu - smaller and scrollable */}
+{isRegionsDropdownOpen && (
+  <div className="absolute top-full left-0 -mt-1 w-64 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+    <div className="p-3">
+      {Object.entries(regions).map(([country, regionList]) => (
+        <div key={country}>
+          <h3 className="text-xs font-semibold text-gray-900 mb-2 uppercase tracking-wide">
+            {country}
+          </h3>
+          <div className="max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100">
+            <ul className="space-y-0.5 pr-2">
+              {regionList.map((region) => (
+                <li key={region.slug}>
+                  <Link
+                    href={`/${region.slug}/`}
+                    className="text-xs text-gray-600 hover:text-blue-600 hover:bg-blue-50 block px-2 py-1.5 rounded transition-colors"
+                  >
+                    {region.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      ))}
+      <div className="mt-3 pt-3 border-t border-gray-100">
+        <Link
+          href="/map/"
+          className="text-xs text-blue-600 hover:text-blue-800 font-medium block py-1.5"
+        >
+          View All on Map →
+        </Link>
+      </div>
+    </div>
+  </div>
+)}
             </div>
             
             <Link 
