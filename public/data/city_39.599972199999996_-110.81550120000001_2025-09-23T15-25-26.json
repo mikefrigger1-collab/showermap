@@ -1,0 +1,546 @@
+{
+  "timestamp": "2025-09-24T06:21:26.385Z",
+  "city": "39.599972199999996",
+  "state": "-110.81550120000001",
+  "sessionId": "2025-09-23T15-25-26",
+  "totalLocations": 5,
+  "locationsWithShowerReviews": 3,
+  "totalShowerReviews": 29,
+  "locations": [
+    {
+      "title": "Miller's Travel Center",
+      "street": "Miller's Travel Center 4.3(1",
+      "city": "911)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.3041211",
+      "lng": "-111.6787434",
+      "phone": "+1 435-636-0380",
+      "website": "https://www.tesla.com/",
+      "content": "Miller's Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jade Williams",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Clean large selection but when me and my teammate asked to take a shower and paid they asked to hold onto our IDs for insurance purposes never been asked that before. Got a refund and left. Has this happened to anyone else? Never …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Jade Williams_Clean_large_selection_but_when_me_and_my_teammate__2 months ago"
+        },
+        {
+          "reviewerName": "Alex & Allie Olsen",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "This place was great during our last stop about a month ago. It was night time, the lady working was very nice and talkative. Shower was clean and nice. Today we stopped to shower. The bigger blonde gal at the counter was very rude and …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Alex & Allie Olsen_This_place_was_great_during_our_last_stop_about_a__5 years ago"
+        },
+        {
+          "reviewerName": "Jarrod Henning",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… , and they have Momma Deluca’s pizza. (Not a fan of subway, I can make my own sandwich) I am an OTR driver and I have showered there, not a terrible place to grab a shower if you need it. Breakfast burritos there are pretty good. And …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "Jarrod Henning_…_,_and_they_have_Momma_Deluca’s_pizza._(Not_a_fan_4 years ago"
+        },
+        {
+          "reviewerName": "Joshua “IRON JOSH” Leyva",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Not a bad truck stop. Oversize fits good here.  Also. Showers not bad. Cost $12 to get a shower or fuel up here. There is a pizza spot and a subway.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Joshua “IRON JOSH” Leyva_Not_a_bad_truck_stop._Oversize_fits_good_here._Al_2 years ago"
+        },
+        {
+          "reviewerName": "Mike",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Great place to stop for shower, laundry, food, snacks, descent sized parking lot, friendly staff, def b back",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 31,
+          "uniqueId": "Mike_Great_place_to_stop_for_shower,_laundry,_food,_sna_5 years ago"
+        },
+        {
+          "reviewerName": "tiffany Jackson",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Very clean Place the bathroom  are very clean they have shower they are clean very friendly  people  food is delicious",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 38,
+          "uniqueId": "tiffany Jackson_Very_clean_Place_the_bathroom_are_very_clean_they_3 years ago"
+        },
+        {
+          "reviewerName": "Frank Rodriguez",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Nice clean parking\nShower good\nPay at pump 👌 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 45,
+          "uniqueId": "Frank Rodriguez_Nice_clean_parking_Shower_good_Pay_at_pump_👌_…_7 years ago"
+        },
+        {
+          "reviewerName": "Cary Crook",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Nice store, hot shower Great Pizza",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 52,
+          "uniqueId": "Cary Crook_Nice_store,_hot_shower_Great_Pizza_2 years ago"
+        },
+        {
+          "reviewerName": "Tommy Pena",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Well stocked clean friendly nice clean shower",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 59,
+          "uniqueId": "Tommy Pena_Well_stocked_clean_friendly_nice_clean_shower_3 years ago"
+        }
+      ],
+      "showerReviewCount": 9,
+      "showerReviewSummary": "9 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, bathroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "2195 E Main St, Wellington, UT 84542, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Miller's+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Miller's+Travel+Center/@39.3041211,-111.6787434,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x874ec812d4891d7f:0x3fccbb2a5d4ee618!8m2!3d39.5432892!4d-110.6892!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5vT0U5SVEwZG5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECGYQOw!16s%2Fg%2F11gb40g6w2?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Market Express Chevron",
+      "street": "Market Express Chevron 4.6(76)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.3041211",
+      "lng": "-111.6787434",
+      "phone": "+1 435-637-4414",
+      "website": "https://www.tesla.com/",
+      "content": "Market Express Chevron may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "121 N Carbonville Rd, Price, UT 84501, United States",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "Market+Express+Chevron",
+      "googleMapsUrl": "https://www.google.com/maps/place/Market+Express+Chevron/@39.3041211,-111.6787434,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x874ebbf05eb8d447:0x94d03c909e8a833b!8m2!3d39.6013421!4d-110.8233607!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VONmJ5MWZiRXAzRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAg9ECg!16s%2Fg%2F1tpn311j?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.2(705)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.3041211",
+      "lng": "-111.6787434",
+      "phone": "+1 435-564-8262",
+      "website": "https://www.tesla.com/",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mostafa Dargahi",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "They have the best shower service! Very clean and well equipped, warm and pretty good. the laundry was great too, the price is the cheapest, staffs were so friendly.\n\nThank you, I had a really nice experience 🙏 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Mostafa Dargahi_They_have_the_best_shower_service!_Very_clean_and__7 months ago"
+        },
+        {
+          "reviewerName": "Mark Rayer",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "7/12/25 15:30 Shower #3 - I just had the BEST shower experience at a Loves, perhaps of all time! It was SO NICE to actually take a shower in room with GREAT AIR CONDITIONING at a Loves. It also had great water pressure and was clean. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "Mark Rayer_7/12/25_15:30_Shower_#3_-_I_just_had_the_BEST_show_2 months ago"
+        },
+        {
+          "reviewerName": "Andrea M",
+          "rating": "4 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "My husband and I are truck drivers and stopped to take a shower. We get free showers from all our fuel points. When we got there, it was early afternoon. The whole place was busy. It was a 45- 55 minute wait for a shower. Not a big deal, we …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 19,
+          "uniqueId": "Andrea M_My_husband_and_I_are_truck_drivers_and_stopped_to__3 months ago"
+        },
+        {
+          "reviewerName": "Chi H",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This travel stop almost has everything you need for your road trip, and their gas is lower compared to this area.\n\nTheir restrooms are clean. They also have a laundry room and shower room.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Chi H_This_travel_stop_almost_has_everything_you_need_fo_a year ago"
+        },
+        {
+          "reviewerName": "Kailiang Huang",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Gas\n\nFood\n\nShower\n\nLaundry\n\nSome essential items for driving\n\nThis Love Travel Stop has it all.\n\nI wish that one day Love Travel Stop could install EV fast charge.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Kailiang Huang_Gas_Food_Shower_Laundry_Some_essential_items_f_2 years ago"
+        },
+        {
+          "reviewerName": "Chris Romano",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "… variety of food, beverages,  and miscellaneous items needed for health and travel.  The shower was like going to a 5 star hotel beacause, it just couldn’t be better.  The whole property looks like it’s new.  But, the best part of this …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 52,
+          "uniqueId": "Chris Romano_…_variety_of_food,_beverages,_and_miscellaneous_i_7 months ago"
+        },
+        {
+          "reviewerName": "Kuban Jusupov",
+          "rating": "3 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Shower was not clean.\nIt would be nice if there would be pads for the pedestrian to the Subway.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 60,
+          "uniqueId": "Kuban Jusupov_Shower_was_not_clean._It_would_be_nice_if_there_wo_a month ago"
+        },
+        {
+          "reviewerName": "Melissa Logan",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… of these stores. Always very helpful and very personable. Showers are reasonable priced and it's nice if traveling with your significant other because they allow you to shower together for the same price as 1 person. Makes me feel more …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 67,
+          "uniqueId": "Melissa Logan_…_of_these_stores._Always_very_helpful_and_very_pe_3 years ago"
+        },
+        {
+          "reviewerName": "Kathryn Hicks",
+          "rating": "1 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "Disgusting showers for the facility to be as new as it is. …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 75,
+          "uniqueId": "Kathryn Hicks_Disgusting_showers_for_the_facility_to_be_as_new_a_Edited a year ago"
+        },
+        {
+          "reviewerName": "Juli Geraci",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Can I park my car to stay overnight and pay for a shower?",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 86,
+          "uniqueId": "Juli Geraci_Can_I_park_my_car_to_stay_overnight_and_pay_for_a__5 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "1810 Main St, Green River, UT 84525, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@39.3041211,-111.6787434,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8748fb56f969eb93:0x7883fa3773cd7055!8m2!3d38.9952296!4d-110.1851024!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJFYzNGUE15MUJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEA!16s%2Fg%2F11jq7zmmcg?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Chevron",
+      "street": "Chevron 4.1(96)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.3041211",
+      "lng": "-111.6787434",
+      "phone": "+1 435-637-4414",
+      "website": "https://www.tesla.com/",
+      "content": "Chevron may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "121 N Carbonville Rd, Price, UT 84501, United States",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "Market+Express+Chevron",
+      "googleMapsUrl": "https://www.google.com/maps/place/Market+Express+Chevron/@39.3041211,-111.6787434,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x874ebbf05eb8d447:0x94d03c909e8a833b!8m2!3d39.6013421!4d-110.8233607!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VONmJ5MWZiRXAzRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAg9ECg!16s%2Fg%2F1tpn311j?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.3(306)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.3041211",
+      "lng": "-111.6787434",
+      "phone": "+1 435-564-8262",
+      "website": "https://www.tesla.com/",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mostafa Dargahi",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "They have the best shower service! Very clean and well equipped, warm and pretty good. the laundry was great too, the price is the cheapest, staffs were so friendly.\n\nThank you, I had a really nice experience 🙏 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Mostafa Dargahi_They_have_the_best_shower_service!_Very_clean_and__7 months ago"
+        },
+        {
+          "reviewerName": "Mark Rayer",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "7/12/25 15:30 Shower #3 - I just had the BEST shower experience at a Loves, perhaps of all time! It was SO NICE to actually take a shower in room with GREAT AIR CONDITIONING at a Loves. It also had great water pressure and was clean. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "Mark Rayer_7/12/25_15:30_Shower_#3_-_I_just_had_the_BEST_show_2 months ago"
+        },
+        {
+          "reviewerName": "Andrea M",
+          "rating": "4 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "My husband and I are truck drivers and stopped to take a shower. We get free showers from all our fuel points. When we got there, it was early afternoon. The whole place was busy. It was a 45- 55 minute wait for a shower. Not a big deal, we …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 19,
+          "uniqueId": "Andrea M_My_husband_and_I_are_truck_drivers_and_stopped_to__3 months ago"
+        },
+        {
+          "reviewerName": "Chi H",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This travel stop almost has everything you need for your road trip, and their gas is lower compared to this area.\n\nTheir restrooms are clean. They also have a laundry room and shower room.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Chi H_This_travel_stop_almost_has_everything_you_need_fo_a year ago"
+        },
+        {
+          "reviewerName": "Kailiang Huang",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Gas\n\nFood\n\nShower\n\nLaundry\n\nSome essential items for driving\n\nThis Love Travel Stop has it all.\n\nI wish that one day Love Travel Stop could install EV fast charge.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Kailiang Huang_Gas_Food_Shower_Laundry_Some_essential_items_f_2 years ago"
+        },
+        {
+          "reviewerName": "Chris Romano",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "… variety of food, beverages,  and miscellaneous items needed for health and travel.  The shower was like going to a 5 star hotel beacause, it just couldn’t be better.  The whole property looks like it’s new.  But, the best part of this …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 52,
+          "uniqueId": "Chris Romano_…_variety_of_food,_beverages,_and_miscellaneous_i_7 months ago"
+        },
+        {
+          "reviewerName": "Kuban Jusupov",
+          "rating": "3 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Shower was not clean.\nIt would be nice if there would be pads for the pedestrian to the Subway.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 60,
+          "uniqueId": "Kuban Jusupov_Shower_was_not_clean._It_would_be_nice_if_there_wo_a month ago"
+        },
+        {
+          "reviewerName": "Melissa Logan",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… of these stores. Always very helpful and very personable. Showers are reasonable priced and it's nice if traveling with your significant other because they allow you to shower together for the same price as 1 person. Makes me feel more …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 67,
+          "uniqueId": "Melissa Logan_…_of_these_stores._Always_very_helpful_and_very_pe_3 years ago"
+        },
+        {
+          "reviewerName": "Kathryn Hicks",
+          "rating": "1 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "Disgusting showers for the facility to be as new as it is. …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 75,
+          "uniqueId": "Kathryn Hicks_Disgusting_showers_for_the_facility_to_be_as_new_a_Edited a year ago"
+        },
+        {
+          "reviewerName": "Juli Geraci",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Can I park my car to stay overnight and pay for a shower?",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 86,
+          "uniqueId": "Juli Geraci_Can_I_park_my_car_to_stay_overnight_and_pay_for_a__5 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "1810 Main St, Green River, UT 84525, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@39.3041211,-111.6787434,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8748fb56f969eb93:0x7883fa3773cd7055!8m2!3d38.9952296!4d-110.1851024!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJFYzNGUE15MUJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEA!16s%2Fg%2F11jq7zmmcg?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

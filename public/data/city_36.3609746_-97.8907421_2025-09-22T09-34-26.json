@@ -1,0 +1,515 @@
+{
+  "timestamp": "2025-09-22T09:55:43.832Z",
+  "city": "36.3609746",
+  "state": "-97.8907421",
+  "sessionId": "2025-09-22T09-34-26",
+  "totalLocations": 4,
+  "locationsWithShowerReviews": 3,
+  "totalShowerReviews": 30,
+  "locations": [
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.2(354)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.3987706",
+      "lng": "-97.9640396",
+      "phone": "+1 580-237-1901",
+      "website": "https://www.loves.com/locations/630",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "T T",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I got 48,9 gallon fuel plus 3:4 gallon def. Just to get shower. I forgot to scan my card and they didn’t asked me to scan it if I have one. Later on when I was ready to get shower they told me they can’t put it on system I can’t use the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "T T_I_got_48,9_gallon_fuel_plus_3:4_gallon_def._Just_t_4 months ago"
+        },
+        {
+          "reviewerName": "Michael Vargas",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Have been using loves for years, never any issues. Today, I walk in to get a shower and get told they can't accept my card because it's a scanned photo on my phone. Mind you, I've been using my card this way for years, and my entire life is …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Michael Vargas_Have_been_using_loves_for_years,_never_any_issues._a year ago"
+        },
+        {
+          "reviewerName": "Clifford Woeller",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… shower, this place far exceeded that golden standard. I …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 18,
+          "uniqueId": "Clifford Woeller_…_shower,_this_place_far_exceeded_that_golden_stan_3 years ago"
+        },
+        {
+          "reviewerName": "Shirleyn Law",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Ok so I was looking and calling around Enid, OK for a truck stop for a place to take a nice hot shower, well if you are ever doing any traveling and you are close to Enid OK and you would a nice hot shower go to loves on Randolph. The staff …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 26,
+          "uniqueId": "Shirleyn Law_Ok_so_I_was_looking_and_calling_around_Enid,_OK_fo_6 years ago"
+        },
+        {
+          "reviewerName": "Todd Arnold",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "New facility, clean, looks well stocked. Shower room was large, decent hot water and pressure. No shelves in the shower for your stuff. Do give you 2 towels, that's a plus. Carl's Jr was okay, burger an onion rings were just warm, not hot. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "Todd Arnold_New_facility,_clean,_looks_well_stocked._Shower_ro_7 years ago"
+        },
+        {
+          "reviewerName": "Leisa Mobley-Snider",
+          "rating": "2 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "The store and the restrooms were very clean. Where my issues comes In is I was put in a shower with my 4 year old and the employees and apparently loves knew that the light doesn't stay on longer then 2 minutes at a time so on top of not …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "Leisa Mobley-Snider_The_store_and_the_restrooms_were_very_clean._Where_4 years ago"
+        },
+        {
+          "reviewerName": "Hakeem Hasan Sr",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Buying beware here. I purchased $550.00 in fuel and when I tried to get a shower, I was informed I needed to pay another $12.00 because I didn't have a love card to use. At other truck stops your fuel receipt is your proof for a shower. Aft …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Hakeem Hasan Sr_Buying_beware_here._I_purchased_$550.00_in_fuel_an_6 years ago"
+        },
+        {
+          "reviewerName": "Arch P",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Nice and clean shower. Friendly staff. I walked in the polit across the street and left to come over here. very smart decision. They have a Hardee's restaurant. The parking lot probably handles 60 trucks. Seems to be a newer location. No …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Arch P_Nice_and_clean_shower._Friendly_staff._I_walked_in_7 years ago"
+        },
+        {
+          "reviewerName": "Zachary Jensen",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Amazingly clean shower & Store, friendly staff, and easy parking for truckers.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Zachary Jensen_Amazingly_clean_shower_&_Store,_friendly_staff,_an_a year ago"
+        },
+        {
+          "reviewerName": "Angel Lopez (Angelito)",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I came for a shower and this place is a 5 start, clean showe nice staff. Clean place … good job",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 77,
+          "uniqueId": "Angel Lopez (Angelito)_I_came_for_a_shower_and_this_place_is_a_5_start,_c_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, restroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "4104 E Randolph Ave, Enid, OK 73701, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@36.3987706,-97.9640396,12z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87afd5a8501a2887:0xb133ff8f0f9112eb!8m2!3d36.3987706!4d-97.819844!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11bzwlpnpx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.9(687)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.3987706",
+      "lng": "-97.9640396",
+      "phone": "+1 580-237-1901",
+      "website": "https://www.loves.com/locations/630",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "T T",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I got 48,9 gallon fuel plus 3:4 gallon def. Just to get shower. I forgot to scan my card and they didn’t asked me to scan it if I have one. Later on when I was ready to get shower they told me they can’t put it on system I can’t use the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "T T_I_got_48,9_gallon_fuel_plus_3:4_gallon_def._Just_t_4 months ago"
+        },
+        {
+          "reviewerName": "Michael Vargas",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Have been using loves for years, never any issues. Today, I walk in to get a shower and get told they can't accept my card because it's a scanned photo on my phone. Mind you, I've been using my card this way for years, and my entire life is …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Michael Vargas_Have_been_using_loves_for_years,_never_any_issues._a year ago"
+        },
+        {
+          "reviewerName": "Clifford Woeller",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… shower, this place far exceeded that golden standard. I …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 18,
+          "uniqueId": "Clifford Woeller_…_shower,_this_place_far_exceeded_that_golden_stan_3 years ago"
+        },
+        {
+          "reviewerName": "Shirleyn Law",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Ok so I was looking and calling around Enid, OK for a truck stop for a place to take a nice hot shower, well if you are ever doing any traveling and you are close to Enid OK and you would a nice hot shower go to loves on Randolph. The staff …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 26,
+          "uniqueId": "Shirleyn Law_Ok_so_I_was_looking_and_calling_around_Enid,_OK_fo_6 years ago"
+        },
+        {
+          "reviewerName": "Todd Arnold",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "New facility, clean, looks well stocked. Shower room was large, decent hot water and pressure. No shelves in the shower for your stuff. Do give you 2 towels, that's a plus. Carl's Jr was okay, burger an onion rings were just warm, not hot. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "Todd Arnold_New_facility,_clean,_looks_well_stocked._Shower_ro_7 years ago"
+        },
+        {
+          "reviewerName": "Leisa Mobley-Snider",
+          "rating": "2 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "The store and the restrooms were very clean. Where my issues comes In is I was put in a shower with my 4 year old and the employees and apparently loves knew that the light doesn't stay on longer then 2 minutes at a time so on top of not …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "Leisa Mobley-Snider_The_store_and_the_restrooms_were_very_clean._Where_4 years ago"
+        },
+        {
+          "reviewerName": "Hakeem Hasan Sr",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Buying beware here. I purchased $550.00 in fuel and when I tried to get a shower, I was informed I needed to pay another $12.00 because I didn't have a love card to use. At other truck stops your fuel receipt is your proof for a shower. Aft …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Hakeem Hasan Sr_Buying_beware_here._I_purchased_$550.00_in_fuel_an_6 years ago"
+        },
+        {
+          "reviewerName": "Arch P",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Nice and clean shower. Friendly staff. I walked in the polit across the street and left to come over here. very smart decision. They have a Hardee's restaurant. The parking lot probably handles 60 trucks. Seems to be a newer location. No …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Arch P_Nice_and_clean_shower._Friendly_staff._I_walked_in_7 years ago"
+        },
+        {
+          "reviewerName": "Zachary Jensen",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Amazingly clean shower & Store, friendly staff, and easy parking for truckers.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Zachary Jensen_Amazingly_clean_shower_&_Store,_friendly_staff,_an_a year ago"
+        },
+        {
+          "reviewerName": "Angel Lopez (Angelito)",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I came for a shower and this place is a 5 start, clean showe nice staff. Clean place … good job",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 77,
+          "uniqueId": "Angel Lopez (Angelito)_I_came_for_a_shower_and_this_place_is_a_5_start,_c_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, restroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "4104 E Randolph Ave, Enid, OK 73701, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@36.3987706,-97.9640396,12z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87afd5a8501a2887:0xb133ff8f0f9112eb!8m2!3d36.3987706!4d-97.819844!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11bzwlpnpx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.7(3",
+      "city": "066)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1619898",
+      "lng": "-95.976351",
+      "phone": "+1 918-437-5477",
+      "website": "https://www.loves.com/locations/630",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Way Introvert",
+          "rating": "4 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Came for a shower it was clean thank god! Bad part is I’m sweating the entire time I’m getting dressed. It’s no ac inside the bathroom with the showers just a FAN! THAT ISN’T ENOUGH please fix this problem. I paid almost $20 to be back …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Way Introvert_Came_for_a_shower_it_was_clean_thank_god!_Bad_part_2 months ago"
+        },
+        {
+          "reviewerName": "Ben L",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "… hours. She explained they had spoken less than 45 min ago. His response was “you probably took a shower and got confused” whatever that means. I usually make it a point to go to Pilot/Flying J as I’ve always had quality service. This one …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Ben L_…_hours._She_explained_they_had_spoken_less_than_4_2 months ago"
+        },
+        {
+          "reviewerName": "Holy Maniack",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "The parking is always bad here because it's probably one of the only few truck stops in this city. However the shower and toilet in the shower room makes up for it. Nice water pressure, decent sized shower room and fat friendly toilet.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "Holy Maniack_The_parking_is_always_bad_here_because_it's_probab_3 months ago"
+        },
+        {
+          "reviewerName": "Shannon Franz",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "CLEANEST SHOWER I HAVE SEEN IN MONTHS! There wasn't even a spec of dust in the fan!  ATTENTION WEARY TRAVELERS!! Forget your misconceptions of \"truck stops\" and don't \"settle\" for a rest area. (Not in a semi? You are allowed to park …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Shannon Franz_CLEANEST_SHOWER_I_HAVE_SEEN_IN_MONTHS!_There_wasn'_7 years ago"
+        },
+        {
+          "reviewerName": "Julio M",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "No hot water yet again. Who the hell wants to take shower in this freezing water when it’s in the 40’s outside with the air conditioning on. Y’all are nuts. This is why people get sick. Fix your hot water if not keeps the showers closed",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "Julio M_No_hot_water_yet_again._Who_the_hell_wants_to_take_5 months ago"
+        },
+        {
+          "reviewerName": "Jim Fusaro",
+          "rating": "5 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… a keeper. Wonderful warm sincere greeting.  Took my shower grabbed a salad and she was busy with paperwork but asked if she could help me and rang me up…again with that sincere smile.  She is professional and efficient. I will make …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 43,
+          "uniqueId": "Jim Fusaro_…_a_keeper._Wonderful_warm_sincere_greeting._Took_8 months ago"
+        },
+        {
+          "reviewerName": "Wolfgang Wendland",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "90% of the truck parking is paid. There was 0 unpaid spots available at 1pm on a Thursday and a 1 hour wait for a shower. Used to come here years ago and it was halfway decent. Now it’s an overused garbage dump that aims to extort drivers …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 51,
+          "uniqueId": "Wolfgang Wendland_90%_of_the_truck_parking_is_paid._There_was_0_unpa_10 months ago"
+        },
+        {
+          "reviewerName": "Ywa Moo",
+          "rating": "4 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "Shower is clean…\nParking always full ..\nis not bad..",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 59,
+          "uniqueId": "Ywa Moo_Shower_is_clean…_Parking_always_full_.._is_not_bad_3 weeks ago"
+        },
+        {
+          "reviewerName": "Ed Whetstone",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Normal PFJ with a dennys. Nice people here on a Saturday the shower guy was running his Azz off trying to get as many in and out as he could. But he needs to be a bit more observant as you see in the picture other then that all is nice. Bob …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 67,
+          "uniqueId": "Ed Whetstone_Normal_PFJ_with_a_dennys._Nice_people_here_on_a_Sa_2 years ago"
+        },
+        {
+          "reviewerName": "Samentha Drew",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "130 parking about 20 of them is free $24  for parking shower is really filthy and bathroom was super nasty customer service was horrible and the security guard don't know how to talk to people very rude no sign say reserved parking but they …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 76,
+          "uniqueId": "Samentha Drew_130_parking_about_20_of_them_is_free_$24_for_park_10 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, bathroom, clean",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "121 N 129th E Ave, Tulsa, OK 74116, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@36.1619898,-95.976351,12z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87b6f374fd44bcf7:0x5a6bb0754e5cab7c!8m2!3d36.1619898!4d-95.8321554!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tgvf464?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Watonga, Ok. Truck Stop",
+      "street": "Watonga",
+      "city": "Ok. Truck Stop 4.3(110)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.8419153",
+      "lng": "-98.5640604",
+      "phone": "+1 580-884-5255",
+      "website": "https://www.loves.com/locations/630",
+      "content": "Watonga, Ok. Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "320 N Clarence Nash Blvd, Watonga, OK 73772, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Watonga,+Ok.+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Watonga,+Ok.+Truck+Stop/@35.8419153,-98.5640604,12z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87ae63a1bd72293d:0xc18eddbb3bdb974!8m2!3d35.8419153!4d-98.4198648!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJhZEZCTFRqRm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAhAED0!16s%2Fg%2F11c6djtnp2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

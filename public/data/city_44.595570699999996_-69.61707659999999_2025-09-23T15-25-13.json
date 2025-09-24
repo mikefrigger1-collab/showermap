@@ -1,0 +1,705 @@
+{
+  "timestamp": "2025-09-23T16:02:17.194Z",
+  "city": "44.595570699999996",
+  "state": "-69.61707659999999",
+  "sessionId": "2025-09-23T15-25-13",
+  "totalLocations": 10,
+  "locationsWithShowerReviews": 8,
+  "totalShowerReviews": 27,
+  "locations": [
+    {
+      "title": "IRVING 24",
+      "street": "IRVING 24 4.4(75)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.594197",
+      "lng": "-69.6209561",
+      "phone": "+1 207-238-9979",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Greg Black",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Great shower for $10. Great choice of food and the pizza is cheap for a truck stop.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Greg Black_Great_shower_for_$10._Great_choice_of_food_and_the_4 years ago"
+        },
+        {
+          "reviewerName": "Tess",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Truck parking, free shower with 75 gallons, clean",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Tess_Truck_parking,_free_shower_with_75_gallons,_clean_5 years ago"
+        },
+        {
+          "reviewerName": "Cresencio Garcia",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Took a shower and didn't have any issues.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 14,
+          "uniqueId": "Cresencio Garcia_Took_a_shower_and_didn't_have_any_issues._6 years ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "204 Center Rd, Fairfield, ME 04937, United States",
+      "rating": "4.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "IRVING+24",
+      "googleMapsUrl": "https://www.google.com/maps/place/IRVING+24/@44.594197,-69.6209561,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb1e6a361362daf:0x4ac7bb1951fdddae!8m2!3d44.594197!4d-69.61645!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQycE5lazVGVFRSWFYzQXpZVzA1VG1SWWJHbGphMFpSV1RCb1ptRnVZeEFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F11gh2r482m?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.4(7)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.594197",
+      "lng": "-69.6209561",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Mclean",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Good amount of parking, only came here for the scale. Relatively clean from the outside.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "David Mclean_Good_amount_of_parking,_only_came_here_for_the_sca_10 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 963 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 3,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_963_photos_nodate"
+        },
+        {
+          "reviewerName": "o k",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "June 11th 2024. 12:30 am..they're system of payment is down. I walk in ask for a shower . Pedro and Early say no way . I had tossed the receipt was going to use the card....system down. Can't buy one cash .can I then use it anyway ,power on …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "o k_June_11th_2024._12:30_am..they're_system_of_paymen_a year ago"
+        },
+        {
+          "reviewerName": "Babar Khan",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Nice, Clean, and quiet gas station.  There is plenty of truck parkings.\nFree WiFi ))))",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Babar Khan_Nice,_Clean,_and_quiet_gas_station._There_is_plen_a year ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: clean, shower",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "204 Center Rd, Fairfield, ME 04937, United States",
+      "rating": "3.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@44.594197,-69.6209561,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb1e718fe469f81:0x6b12ecb1c142675b!8m2!3d44.59557!4d-69.617076!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJFZFdKVGNERlJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECM!16s%2Fg%2F11vylzddcw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "West Gardner Travel Plaza",
+      "street": "West Gardner Travel Plaza 4.1(530)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.2073382",
+      "lng": "-69.8322884",
+      "phone": "+1 857-368-4636",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "West Gardner Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "Exit 102 Northbound Exit 103 Southbound, 288 Lewiston Rd I-95, West Gardiner, ME 04345, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "West+Gardner+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/West+Gardner+Travel+Plaza/@44.2073382,-69.8322884,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb208ff83173ebd:0x4d2cc5b34a05d1b!8m2!3d44.2073382!4d-69.8277823!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU0xTFhSSVIxcDNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQKw!16s%2Fg%2F11bzyp8r07?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "IRVING 24",
+      "street": "IRVING 24 4.1(41)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.594197",
+      "lng": "-69.6209561",
+      "phone": "+1 207-238-9979",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Greg Black",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Great shower for $10. Great choice of food and the pizza is cheap for a truck stop.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Greg Black_Great_shower_for_$10._Great_choice_of_food_and_the_4 years ago"
+        },
+        {
+          "reviewerName": "Tess",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Truck parking, free shower with 75 gallons, clean",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Tess_Truck_parking,_free_shower_with_75_gallons,_clean_5 years ago"
+        },
+        {
+          "reviewerName": "Cresencio Garcia",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Took a shower and didn't have any issues.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 14,
+          "uniqueId": "Cresencio Garcia_Took_a_shower_and_didn't_have_any_issues._6 years ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "204 Center Rd, Fairfield, ME 04937, United States",
+      "rating": "4.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "IRVING+24",
+      "googleMapsUrl": "https://www.google.com/maps/place/IRVING+24/@44.594197,-69.6209561,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb1e6a361362daf:0x4ac7bb1951fdddae!8m2!3d44.594197!4d-69.61645!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQycE5lazVGVFRSWFYzQXpZVzA1VG1SWWJHbGphMFpSV1RCb1ptRnVZeEFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F11gh2r482m?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.0(3)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.594197",
+      "lng": "-69.6209561",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "o k",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "June 11th 2024. 12:30 am..they're system of payment is down. I walk in ask for a shower . Pedro and Early say no way . I had tossed the receipt was going to use the card....system down. Can't buy one cash .can I then use it anyway ,power on …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "o k_June_11th_2024._12:30_am..they're_system_of_paymen_a year ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "204 Center Rd, Fairfield, ME 04937, United States",
+      "rating": "3.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@44.594197,-69.6209561,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb1e718fe469f81:0x6b12ecb1c142675b!8m2!3d44.59557!4d-69.617076!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJFZFdKVGNERlJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECM!16s%2Fg%2F11vylzddcw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Big Reds",
+      "street": "Big Reds 4.5(2)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.836793",
+      "lng": "-69.2920264",
+      "phone": "+1 207-368-5775",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "Big Reds may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "18 Moosehead Trail, Newport, ME 04953, United States",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Big+Reds",
+      "googleMapsUrl": "https://www.google.com/maps/place/Big+Reds/@44.836793,-69.2920264,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cae2b9a05cf8d85:0x8474451e6278726b!8m2!3d44.836793!4d-69.2875203!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11r7059khb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 4.0(1)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.59557",
+      "lng": "-69.6215821",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Mclean",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Good amount of parking, only came here for the scale. Relatively clean from the outside.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "David Mclean_Good_amount_of_parking,_only_came_here_for_the_sca_10 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 963 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 3,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_963_photos_nodate"
+        },
+        {
+          "reviewerName": "o k",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "June 11th 2024. 12:30 am..they're system of payment is down. I walk in ask for a shower . Pedro and Early say no way . I had tossed the receipt was going to use the card....system down. Can't buy one cash .can I then use it anyway ,power on …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "o k_June_11th_2024._12:30_am..they're_system_of_paymen_a year ago"
+        },
+        {
+          "reviewerName": "Babar Khan",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Nice, Clean, and quiet gas station.  There is plenty of truck parkings.\nFree WiFi ))))",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Babar Khan_Nice,_Clean,_and_quiet_gas_station._There_is_plen_a year ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: clean, shower",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "204 Center Rd, Fairfield, ME 04937, United States",
+      "rating": "3.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@44.59557,-69.6215821,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb1e718fe469f81:0x6b12ecb1c142675b!8m2!3d44.59557!4d-69.617076!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJFZFdKVGNERlJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECM!16s%2Fg%2F11vylzddcw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Exit 43 Quik Stop",
+      "street": "Exit 43 Quik Stop 3.9(112)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.0984666",
+      "lng": "-69.8696332",
+      "phone": "+1 207-737-2626",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "Exit 43 Quik Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "parmjit singh",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "i stopped here 20.12 pm 20 may 2025 for shower and lady on the cashier counter is rude …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "parmjit singh_i_stopped_here_20.12_pm_20_may_2025_for_shower_and_4 months ago"
+        },
+        {
+          "reviewerName": "Sarah Deal",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Wonderful rest stop. Huge variety of food, nice bathroom, free shower!",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 8,
+          "uniqueId": "Sarah Deal_Wonderful_rest_stop._Huge_variety_of_food,_nice_ba_6 years ago"
+        },
+        {
+          "reviewerName": "Sony Toor",
+          "rating": "2 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Stopped for fuel up , filled 55 gallons as it was less busy asked for shower 🚿, they denied reasons being fill at least 75 gallons then they can give the shower …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 19,
+          "uniqueId": "Sony Toor_Stopped_for_fuel_up_,_filled_55_gallons_as_it_was__6 months ago"
+        },
+        {
+          "reviewerName": "Will H.118",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "The shower was fantastic! Very clean and nice. Staff were kind and helpful. Got a veggie pizza from the restaurant afterwards, which I struggled to finish. It was delicious. Highly recommend stopping here for rest and refreshment.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 26,
+          "uniqueId": "Will H.118_The_shower_was_fantastic!_Very_clean_and_nice._Sta_2 years ago"
+        },
+        {
+          "reviewerName": "De De",
+          "rating": "1 stars",
+          "reviewDate": "Edited 8 years ago",
+          "reviewText": "… hands on my biscuits/WHAT. I just picked up my bags and walked out NO SALE. Great place to get fuel, take a shower and park, but don't eat their if you don't want salmonella... In lamines terms it's called cross contamination(((Google it)))",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "De De_…_hands_on_my_biscuits/WHAT._I_just_picked_up_my_b_Edited 8 years ago"
+        },
+        {
+          "reviewerName": "elliott prats",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "The shower ISN’T free, i took one here like 3-4 days ago and it was $10. I know some other reviews say that the shower are free, but that must be an old policy because they change now. Aside from that I have zero complaints.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "elliott prats_The_shower_ISN’T_free,_i_took_one_here_like_3-4_da_3 years ago"
+        },
+        {
+          "reviewerName": "Timothy Judd",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Excellent quick stop for Gas, Food, Bathroom, Drinks (including Adult Drinks), and even a shower [$10, 30 minute time-limit].",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 48,
+          "uniqueId": "Timothy Judd_Excellent_quick_stop_for_Gas,_Food,_Bathroom,_Drin_2 years ago"
+        },
+        {
+          "reviewerName": "Ursula Hershey",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Clean spacious bathrooms and free shower! Whaaaaa??!! Store is AC’d with a wide selection of food, drinks and knickknacks. Lobster rolls!",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Ursula Hershey_Clean_spacious_bathrooms_and_free_shower!_Whaaaaa?_6 years ago"
+        },
+        {
+          "reviewerName": "danielle vega",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Clean restrooms, nice shower, and the Lobster Rolls was good! Also very friendly people...",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 65,
+          "uniqueId": "danielle vega_Clean_restrooms,_nice_shower,_and_the_Lobster_Roll_5 years ago"
+        },
+        {
+          "reviewerName": "Cameron Durham",
+          "rating": "5 stars",
+          "reviewDate": "10 years ago",
+          "reviewText": "Awesome small store.  Free shower.  Definately great small spot for truckers",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 72,
+          "uniqueId": "Cameron Durham_Awesome_small_store._Free_shower._Definately_gre_10 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, restroom",
+      "hours": "Open ⋅ Closes 9 pm Tuesday5 am–9 pmWednesday5 am–9 pmThursday5 am–9 pmFriday5 am–9 pmSaturday6 am–9 pmSunday7 am–9 pmMonday5 am–9 pmSuggest new hours",
+      "address": "712 Main St, Richmond, ME 04357, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Convenience store",
+      "placeId": "Exit+43+Quik+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Exit+43+Quik+Stop/@44.0984666,-69.8696332,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb20aad2d056a65:0x1388ad3d70fa7614!8m2!3d44.0984666!4d-69.8651271!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARFjb252ZW5pZW5jZV9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOa2RUZ3pia0pSRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAh8EEk!16s%2Fg%2F1th5zd4s?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 4.7(3)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.59557",
+      "lng": "-69.6215821",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "o k",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "June 11th 2024. 12:30 am..they're system of payment is down. I walk in ask for a shower . Pedro and Early say no way . I had tossed the receipt was going to use the card....system down. Can't buy one cash .can I then use it anyway ,power on …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "o k_June_11th_2024._12:30_am..they're_system_of_paymen_a year ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "204 Center Rd, Fairfield, ME 04937, United States",
+      "rating": "3.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@44.59557,-69.6215821,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb1e718fe469f81:0x6b12ecb1c142675b!8m2!3d44.59557!4d-69.617076!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJFZFdKVGNERlJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECM!16s%2Fg%2F11vylzddcw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 4.2(187)",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.59557",
+      "lng": "-69.6215821",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "o k",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "June 11th 2024. 12:30 am..they're system of payment is down. I walk in ask for a shower . Pedro and Early say no way . I had tossed the receipt was going to use the card....system down. Can't buy one cash .can I then use it anyway ,power on …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "o k_June_11th_2024._12:30_am..they're_system_of_paymen_a year ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "204 Center Rd, Fairfield, ME 04937, United States",
+      "rating": "3.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@44.59557,-69.6215821,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb1e718fe469f81:0x6b12ecb1c142675b!8m2!3d44.59557!4d-69.617076!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJFZFdKVGNERlJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECM!16s%2Fg%2F11vylzddcw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

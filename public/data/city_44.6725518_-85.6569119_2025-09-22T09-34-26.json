@@ -1,0 +1,318 @@
+{
+  "timestamp": "2025-09-22T11:50:26.234Z",
+  "city": "44.6725518",
+  "state": "-85.6569119",
+  "sessionId": "2025-09-22T09-34-26",
+  "totalLocations": 4,
+  "locationsWithShowerReviews": 2,
+  "totalShowerReviews": 13,
+  "locations": [
+    {
+      "title": "Charlie's Country Corner",
+      "street": "Charlie's Country Corner 4.2(117)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.6012946",
+      "lng": "-84.7157361",
+      "phone": "+1 989-348-2700",
+      "website": "http://www.fickandsons.com/",
+      "content": "Charlie's Country Corner may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "R M",
+          "rating": "5 stars",
+          "reviewDate": "a week ago",
+          "reviewText": "I stopped in here on 8/29/25 being on a solo trip to the Upper Peninsula. Paid for a shower and it was worth the ten dollars. Nice little truck/fuel stop.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "R M_I_stopped_in_here_on_8/29/25_being_on_a_solo_trip__a week ago"
+        },
+        {
+          "reviewerName": "Joshua Arndt",
+          "rating": "1 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "I stopped for fuel and shower on the night of 2/14. I pumped 140 gallons of overpriced fuel. Went to and paid asked for a shower. The girl working said none were clean and it would be at least 15 minutes before she could clean. So I used …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Joshua Arndt_I_stopped_for_fuel_and_shower_on_the_night_of_2/14_8 years ago"
+        },
+        {
+          "reviewerName": "Ryan Alexander",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Clean shower and super friendly staff. they are a godsend during hunting season.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 15,
+          "uniqueId": "Ryan Alexander_Clean_shower_and_super_friendly_staff._they_are_a__3 years ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "5800 Nelson A Miles Pkwy, Grayling, MI 49738, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Charlie's+Country+Corner",
+      "googleMapsUrl": "https://www.google.com/maps/place/Charlie's+Country+Corner/@44.6012946,-84.7157361,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88201641bdb9be1f:0xdc55fdae5280dd2b!8m2!3d44.6012946!4d-84.71123!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5vYVhNdE5sVlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSg!16s%2Fg%2F1wh4gghv?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "The Truck Stop",
+      "street": "The Truck Stop 4.5(539)",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.2672086",
+      "lng": "-85.4262808",
+      "phone": "+1 231-884-5752",
+      "website": "https://www.facebook.com/The-Truck-Stop-252597685324300/",
+      "content": "The Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 11 am Monday11 am–9 pmTuesday11 am–11 pmWednesday11 am–11 pmThursday11 am–11 pmFriday11 am–2 amSaturday11 am–2 amSunday11 am–9 pmSuggest new hours",
+      "address": "902 W 13th St, Cadillac, MI 49601, United States",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Restaurant",
+      "placeId": "The+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/The+Truck+Stop/@44.2672086,-85.4262808,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x881f09fa0bd6a64d:0xe7abeb5aec7e7b6b!8m2!3d44.2672086!4d-85.4217747!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQpyZXN0YXVyYW50mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJQTjI5WWNGZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQPA!16s%2Fg%2F11fnptm1b7?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love Your Car & Truck",
+      "street": "4177 Village Park Dr Building D",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 9 am",
+      "lat": "44.6777555",
+      "lng": "-85.6650461",
+      "phone": "+1 231-946-2111",
+      "website": "https://www.loveyourcarandtruck.com/",
+      "content": "Love Your Car & Truck may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 9 am Monday9 am–5:30 pmTuesday9 am–5:30 pmWednesday9 am–5:30 pmThursday9 am–5:30 pmFriday9 am–5:30 pmSaturdayClosedSundayClosedSuggest new hours",
+      "address": "4177 Village Park Dr Building D, Traverse City, MI 49685, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Car detailing service",
+      "placeId": "Love+Your+Car+%26+Truck",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love+Your+Car+%26+Truck/@44.6777555,-85.6650461,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x881e32d3981b8cad:0xc15fadd1fa18c34e!8m2!3d44.6777555!4d-85.66054!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARVjYXJfZGV0YWlsaW5nX3NlcnZpY2WaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTmxka3BNTW0xM1JSQUKqAVcKCC9tLzA3cjA0CgkvbS8wNG4ycjQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAm!16s%2Fg%2F1v2ky0zq?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Iowa 80 - The World's Largest Truckstop",
+      "street": "Iowa 80 - The World's Largest Truckstop 4.6(23",
+      "city": "375)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.6178614",
+      "lng": "-90.7861323",
+      "phone": "+1 563-284-6961",
+      "website": "https://iowa80truckstop.com/?utm_medium=yext&utm_source=extnet",
+      "content": "Iowa 80 - The World's Largest Truckstop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Karen “Kmini”",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "… We spent the night in the RV lot after seeking shelter from dangerous winds & possible severe t-storms. We were able to do laundry & shower,  All very clean.  The laundry was very clean & reasonably priced... would definitely recommend! A …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Karen “Kmini”_…_We_spent_the_night_in_the_RV_lot_after_seeking_s_6 months ago"
+        },
+        {
+          "reviewerName": "Mama Bear",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… has many hidden amenities.  A great place for everyone but especially for truckers, and long haulers, as they have laundry and shower facilities as well as a dentist, barber, work out facilities and so much more! We love stopping on our …",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 12,
+          "uniqueId": "Mama Bear_…_has_many_hidden_amenities._A_great_place_for_ev_a month ago"
+        },
+        {
+          "reviewerName": "Bruce Poolaw",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… entertainment. There’s a huge convenience store for your snack needs and a diner that serves both menu items and a buffet. Didn’t get a shower there but the restrooms were clean. The place has 3 floors that includes a barber. There’s also …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Bruce Poolaw_…_entertainment._There’s_a_huge_convenience_store__a year ago"
+        },
+        {
+          "reviewerName": "Kriti Anand",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Pretty big with lots to do. Has a shower area. Tons of restaurants. Stuff for kids to explore and see. Has a chiropractor on site. This place has leveled up in the last few years by adding tons of stuff. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "Kriti Anand_Pretty_big_with_lots_to_do._Has_a_shower_area._Ton_a year ago"
+        },
+        {
+          "reviewerName": "Trucker Kearsey",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Hadn't been here in years. Went to take a shower on Palm Sunday and Pastor Daryl was giving a sermon in the lounge in front of the showers. The Lord told me to stay. Was warm & friendly service. Then I met with the pastor for 4 hours that …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 44,
+          "uniqueId": "Trucker Kearsey_Hadn't_been_here_in_years._Went_to_take_a_shower_o_5 months ago"
+        },
+        {
+          "reviewerName": "Van Strickland",
+          "rating": "5 stars",
+          "reviewDate": "Edited 3 years ago",
+          "reviewText": "… of necessities and snacks. Spend some time wandering around the main store area, there's plenty to see. Clean restrooms and shower. Navigate through the various gift shops located throughout the facility. You can also get customized …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Van Strickland_…_of_necessities_and_snacks._Spend_some_time_wande_Edited 3 years ago"
+        },
+        {
+          "reviewerName": "Sunil Kumar Khullar",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "World’s biggest truck stop. Besides truck parking which can park 900 trucks you have a restaurant, theatre, shower rooms, lounge, convince stores. Its is spread in 75 acres. If I am not wrong you can park here for free. It has fuel station …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 64,
+          "uniqueId": "Sunil Kumar Khullar_World’s_biggest_truck_stop._Besides_truck_parking__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Wind Napol",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "This place is huge. There’s a food court inside the truck stop. Upstairs there are dentist, chiropractor, shower, laundry, hair salon. And the truck section of stuff takes up half of the place. Parking was no problem. There’s also tesla …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 76,
+          "uniqueId": "Wind Napol_This_place_is_huge._There’s_a_food_court_inside_th_2 years ago"
+        },
+        {
+          "reviewerName": "Nathan Flaminio",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… You can take a shower, get a haircut, and watch a movie. There's even a dentist and a chiropractor. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 88,
+          "uniqueId": "Nathan Flaminio_…_You_can_take_a_shower,_get_a_haircut,_and_watch__3 years ago"
+        },
+        {
+          "reviewerName": "h singh",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… and friendly service here you can buy too much trick stuff from here lights bumper fittings hoses etc. little price higher Coustmer service very good here i love this location shower also very clean and too much like more than 25 may be",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 100,
+          "uniqueId": "h singh_…_and_friendly_service_here_you_can_buy_too_much_t_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, facilities, restroom, showers",
+      "hours": "",
+      "address": "755 W Iowa 80 Rd, Walcott, IA 52773, United States",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Iowa+80+-+The+World's+Largest+Truckstop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Iowa+80+-+The+World's+Largest+Truckstop/@41.6178614,-90.7861323,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87e3b869e83371b5:0x5bed950d63a52c0d!8m2!3d41.6178614!4d-90.7816262!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJLTFRoTWFqVm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAh8EEk!16s%2Fm%2F02rk999?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Vast highway rest stop with a home-style eatery & fast food franchises, plus a vintage truck museum.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

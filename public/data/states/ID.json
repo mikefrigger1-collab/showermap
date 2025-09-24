@@ -1,0 +1,58 @@
+{
+  "state": "ID",
+  "stateName": "Idaho",
+  "locations": [
+    {
+      "title": "Teton Truck Stop",
+      "street": "Teton Truck Stop 3.7(158)Truck stop",
+      "city": "Roberts",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.7175579",
+      "lng": "-112.1360804",
+      "phone": "(208) 228-6011",
+      "website": "http://www.truckstopreport.com/tsr/Text/5762.html",
+      "content": "Teton Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 5:30 am Tuesday5:30 am–11 pmWednesday5:30 am–11 pmThursday5:30 am–11 pmFriday5:30 am–11 pmSaturday5:30 am–11 pmSunday5:30 am–11 pmMonday5:30 am–11 pmSuggest new hours",
+      "address": "2855 E 627 N, Roberts, ID 83444",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Teton+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Teton+Truck+Stop/@43.7175579,-112.1360804,17z/data=!3m1!5s0x53543f8c0e0f642b:0xa90d74c91dc4a806!4m10!1m2!2m1!1struck+stop!3m6!1s0x53543f8c390dc0c1:0x2b2dbfdf4a9ad674!8m2!3d43.7175579!4d-112.1315743!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5sZFRreVdVVlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHA!16s%2Fg%2F1tj962dq?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "Buffalo",
+      "sourceState": "WY",
+      "timestamp": "2025-09-23T08:11:29.461Z",
+      "state": "ID"
+    }
+  ],
+  "cities": [
+    "Roberts"
+  ],
+  "totalReviews": 0,
+  "categories": [
+    "Truck Stop"
+  ],
+  "locationsWithPhone": 1,
+  "timestamp": "2025-09-24T08:19:44.630Z",
+  "locationCount": 1
+}

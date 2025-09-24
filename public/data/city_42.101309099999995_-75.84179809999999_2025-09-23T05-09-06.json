@@ -1,0 +1,563 @@
+{
+  "timestamp": "2025-09-23T05:32:59.802Z",
+  "city": "42.101309099999995",
+  "state": "-75.84179809999999",
+  "sessionId": "2025-09-23T05-09-06",
+  "totalLocations": 5,
+  "locationsWithShowerReviews": 3,
+  "totalShowerReviews": 30,
+  "locations": [
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.8(704)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.101433",
+      "lng": "-75.8395937",
+      "phone": "+1 607-651-9153",
+      "website": "https://www.loves.com/locations/403",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Sevara Anafieva",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "The shower was very clean, well-maintained, and comfortable. Honestly, I didn’t expect this level of cleanliness at a truck stop. I was really satisfied.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Sevara Anafieva_The_shower_was_very_clean,_well-maintained,_and_co_2 months ago"
+        },
+        {
+          "reviewerName": "Wade Matthews",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Curtis Franklin should loose his job he forced us to buy another shower threatened to call the cops and walk in on my wife showering. Shower 5 has a broken lock and will not secure itself and anyone can just open the shower from the outside …",
+          "showerKeywords": [
+            "shower",
+            "showering"
+          ],
+          "index": 9,
+          "uniqueId": "Wade Matthews_Curtis_Franklin_should_loose_his_job_he_forced_us__a month ago"
+        },
+        {
+          "reviewerName": "Steven Johnson",
+          "rating": "3 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "This seems to be a pretty clean place . Showers are nice , but again only one towel . It’s really not cool bring back the two towels. The stores are very in consistent. We spend a lot of money for fuel . Most of us take a shower break …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 18,
+          "uniqueId": "Steven Johnson_This_seems_to_be_a_pretty_clean_place_._Showers_ar_4 months ago"
+        },
+        {
+          "reviewerName": "IAMSPAZMAN",
+          "rating": "3 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "3 stars because waters hot and clean in the shower rooms but the dam water pressure consistency sucks and  the show rooms are keeped way to cold ...half of me was warm from the water while the other half was ice cold cause the room never …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 26,
+          "uniqueId": "IAMSPAZMAN_3_stars_because_waters_hot_and_clean_in_the_shower_3 months ago"
+        },
+        {
+          "reviewerName": "Shakisha Brewington",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "The appearance in the parking lot and at fuel pumps had me a little apprehensive about taking a shower here. However, the showers were very clean, and the water was hot. I did not get the standard greeting \"Welcome to Loves\" on entry.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "Shakisha Brewington_The_appearance_in_the_parking_lot_and_at_fuel_pump_2 years ago"
+        },
+        {
+          "reviewerName": "Nathaniel G.",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Loves needs to update their app to show stores under renovation, if showers are down and if there are restrooms available. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom"
+          ],
+          "index": 44,
+          "uniqueId": "Nathaniel G._Loves_needs_to_update_their_app_to_show_stores_und_a year ago"
+        },
+        {
+          "reviewerName": "Frank McGuirk",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Just filled up with fuel here in the hopes are getting a shower. Showers are closed and the washrooms are closed and no sign at the fuel tanks to let us know. Now I gotta go to another  Truck Stop and pay for my shower. I know you need to …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 52,
+          "uniqueId": "Frank McGuirk_Just_filled_up_with_fuel_here_in_the_hopes_are_get_a year ago"
+        },
+        {
+          "reviewerName": "geo renaldi",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I like stopping at loves and this was a let down mainly for the fact that nearly everything is shut down for construction. No showers bathrooms are a trailer in the parking lot. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 60,
+          "uniqueId": "geo renaldi_I_like_stopping_at_loves_and_this_was_a_let_down_m_a year ago"
+        },
+        {
+          "reviewerName": "EPlayz",
+          "rating": "1 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Shower is always down but diesel pump never down",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 68,
+          "uniqueId": "EPlayz_Shower_is_always_down_but_diesel_pump_never_down_4 weeks ago"
+        },
+        {
+          "reviewerName": "Trent",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "This place is a dump shower don’t work giant pot hole in the parking area another large pot hole in front of the cat scale. Tear your truck up here.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 75,
+          "uniqueId": "Trent_This_place_is_a_dump_shower_don’t_work_giant_pot_h_7 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showering, showers, restroom, wash, bathroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "2 Industrial Park Dr, Binghamton, NY 13904, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@42.101433,-75.8395937,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89dae4f363cc0975:0x4c8c246960b84616!8m2!3d42.101597!4d-75.8357805!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU10TFU5WFJHaEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEQ!16s%2Fg%2F1hc0xrnc0?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.8(693)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.1013091",
+      "lng": "-75.8463042",
+      "phone": "+1 607-775-3500",
+      "website": "https://www.loves.com/locations/403",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jason Myers",
+          "rating": "5 stars",
+          "reviewDate": "Edited 3 weeks ago",
+          "reviewText": "Shower heads need to be cleaned or replaced. Can tell most of the holes in the heads are blocked and no water comes put of many of the holes. Country pride staff and food was courteous and good. Shower Temps and pressure was otherwise good. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Jason Myers_Shower_heads_need_to_be_cleaned_or_replaced._Can_t_Edited 3 weeks ago"
+        },
+        {
+          "reviewerName": "David Carmichiel",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… The laundry isn't bad, and the showers are not too old and they keep them clean for the most part. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "David Carmichiel_…_The_laundry_isn't_bad,_and_the_showers_are_not_t_3 months ago"
+        },
+        {
+          "reviewerName": "Richard Schneider",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… I paid for a shower. The shower room was very clean and the towels were clean and plentiful. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Richard Schneider_…_I_paid_for_a_shower._The_shower_room_was_very_cl_11 months ago"
+        },
+        {
+          "reviewerName": "Mental Amusement Park",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… 5 PAY PARKING WAS AVAILABLE.  I DID NOT GET FUEL HERE. THE PRICE FOR IT SKYROCKET MONEY RIGHT OUT OF THE BANK FOR THOSE WHO DO. SHOWER ARE EXTREMELY HOMEY. THEY HAVE A HEAT LIGHT THAT'S ON A TIMER. THANK TA FOR THE SERVICES AND …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 29,
+          "uniqueId": "Mental Amusement Park_…_5_PAY_PARKING_WAS_AVAILABLE._I_DID_NOT_GET_FUEL_3 years ago"
+        },
+        {
+          "reviewerName": "Shawn McCall",
+          "rating": "3 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "If you are disabled and are thinking about getting a shower here dont bother...they are all upstairs and no elevator to accommodate disabled folks.  Guess another day without a shower.😵‍💫 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 39,
+          "uniqueId": "Shawn McCall_If_you_are_disabled_and_are_thinking_about_getting_6 months ago"
+        },
+        {
+          "reviewerName": "Run Rooster Run",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… professional and friendly. Ate at Country Pride it was good. Got a spot about 21:00 on a Friday night. Was still a few left. Old school feel and crowd.  Way less chaotic than the Love’s around the corner. Shower pressure like a fire hose",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 46,
+          "uniqueId": "Run Rooster Run_…_professional_and_friendly._Ate_at_Country_Pride__2 years ago"
+        },
+        {
+          "reviewerName": "Angel Jones",
+          "rating": "3 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… employees are great. Always greeting me coming in and leaving, they're courteous. Great bunch. My biggest issue is with the showers. I know there's quite a few light fixtures in the showers. It still seems so dark. Plus the shower head …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 54,
+          "uniqueId": "Angel Jones_…_employees_are_great._Always_greeting_me_coming_i_3 years ago"
+        },
+        {
+          "reviewerName": "Slavik",
+          "rating": "1 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "Small, old, and dirty. Got a shower, and the toilet seat still has urine on it. I wouldn't be mad if it was free, but it's not. Thats disgusting 😒 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 62,
+          "uniqueId": "Slavik_Small,_old,_and_dirty._Got_a_shower,_and_the_toile_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Keisha Bethke",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "The shower facilities at the TA here are the CLEANEST and MOST COMFORTABLE I've used in ANY travel scenario, (even hotel stays!). The Country Pride restaurant on the first floor has the BEST SERVICE I could've ever asked for! I'm on my …",
+          "showerKeywords": [
+            "shower",
+            "facilities",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "Keisha Bethke_The_shower_facilities_at_the_TA_here_are_the_CLEAN_7 years ago"
+        },
+        {
+          "reviewerName": "Bradford Smith",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… Had a shower, it was nice and clean.  Water was adequately hot.  Stopped into Country Pride, it was as expected.   The servers were very friendly. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 80,
+          "uniqueId": "Bradford Smith_…_Had_a_shower,_it_was_nice_and_clean._Water_was__6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, facilities",
+      "hours": "",
+      "address": "753 Upper Court Street, Binghamton, NY 13904, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@42.1013091,-75.8463042,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89dae4f8e6f76c79:0xe93cc76468d6af13!8m2!3d42.1013091!4d-75.8417981!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxc2MwOVVTbTlWTW5CU1lYa3hUbFI2V2tsa1YzY3pWRVpzZFZSV1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECF0QLg!16s%2Fg%2F1tflnfd5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 4.0(1",
+      "city": "787)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.8245232",
+      "lng": "-75.6865527",
+      "phone": "+1 570-465-2974",
+      "website": "https://www.loves.com/locations/403",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jon Holden",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Place is dirty had no food at 6:30 in the morning coffee was old and the towels that you shower with was on the floor in the men’s bathroom around the toilet disgusting",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 0,
+          "uniqueId": "Jon Holden_Place_is_dirty_had_no_food_at_6:30_in_the_morning__8 months ago"
+        },
+        {
+          "reviewerName": "Dimitri Fourcand",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I've been a OTR truck driver for 6 years now and I take a shower every day or the next day! And never been to a Pilot's or Flying J's bathroom so clean before... \"Lary\" has been doing and amazing job at this Pilot and should be rewarded... …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "Dimitri Fourcand_I've_been_a_OTR_truck_driver_for_6_years_now_and_I_a year ago"
+        },
+        {
+          "reviewerName": "Tweety bird",
+          "rating": "2 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… the warmer at 8:15pm and it was completely bare then I went in,in the am to get coffee and breakfast and it was the same thing.shower 4 the shower was running almost full tilt when I got in there and that is because it would not turn off.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 22,
+          "uniqueId": "Tweety bird_…_the_warmer_at_8:15pm_and_it_was_completely_bare__5 months ago"
+        },
+        {
+          "reviewerName": "J Dikin",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Trying to figure out WHY no showers for several days. I Was told \"problem with the hot water\"  but when you use the sink to wash your hands it's hot... Hmmm get  your act together.  When you go home do you not have a hot shower? All we all …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 31,
+          "uniqueId": "J Dikin_Trying_to_figure_out_WHY_no_showers_for_several_da_9 months ago"
+        },
+        {
+          "reviewerName": "Jeancarlo Murrillo",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Not one deserves, bad treatment and they have no shower ready, wait a day for shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 39,
+          "uniqueId": "Jeancarlo Murrillo_Not_one_deserves,_bad_treatment_and_they_have_no_s_3 months ago"
+        },
+        {
+          "reviewerName": "Quessel Blint",
+          "rating": "5 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "My place to stop when coming back to Canada, lovely place, always parking, shower kept well clean highly recommend !",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 46,
+          "uniqueId": "Quessel Blint_My_place_to_stop_when_coming_back_to_Canada,_lovel_8 months ago"
+        },
+        {
+          "reviewerName": "Patrick Hasler",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Good service with one or two exceptions. The food service in Denny's was good and the shower was ok but I went to the building in the very early hours to find only one person on visible duty, the coffee area was a complete mess because he …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 53,
+          "uniqueId": "Patrick Hasler_Good_service_with_one_or_two_exceptions._The_food__7 years ago"
+        },
+        {
+          "reviewerName": "Karolina Charyło GUGA Trucks",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Looks good.\nHot shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Karolina Charyło GUGA Trucks_Looks_good._Hot_shower._3 months ago"
+        },
+        {
+          "reviewerName": "Robert Davison",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Took a shower, ate at Dennis, and had pot roast, green beans, and Mac n cheese from FlyingJ. The store is clean and has a good selection of snacks, kids toys, and about everything they normally do, but this one at least has filled shelves. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 68,
+          "uniqueId": "Robert Davison_Took_a_shower,_ate_at_Dennis,_and_had_pot_roast,_g_4 years ago"
+        },
+        {
+          "reviewerName": "Raminder Rana",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Looking 👀 good clean shower …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 76,
+          "uniqueId": "Raminder Rana_Looking_👀_good_clean_shower_…_3 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1623 Oliver Rd, New Milford, PA 18834, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@41.8245232,-75.6865527,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89db27c64fdcb88b:0x38a7f3e228aafdf1!8m2!3d41.8245232!4d-75.6820466!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJTYmpkVGFESlJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECM!16s%2Fg%2F1tj97dkm?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "CAT Scale",
+      "street": "2 Industrial Park Dr",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "42.1016926",
+      "lng": "-75.8465198",
+      "phone": "+1 607-775-3500",
+      "website": "https://www.loves.com/locations/403",
+      "content": "CAT Scale may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "753 Upper Court St, Binghamton, NY 13904, United States",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Weigh station",
+      "placeId": "CAT+Scale",
+      "googleMapsUrl": "https://www.google.com/maps/place/CAT+Scale/@42.1016926,-75.8465198,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89dae57565452e83:0x187069b163620b8e!8m2!3d42.1016926!4d-75.8420137!15sCgp0cnVjayBzdG9wkgENd2VpZ2hfc3RhdGlvbqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11fp920r66?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Onvo Travel Plaza - Great Bend",
+      "street": "Onvo Travel Plaza - Great Bend 3.7(21)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.9663208",
+      "lng": "-75.7446924",
+      "phone": "+1 570-879-4124",
+      "website": "https://www.loves.com/locations/403",
+      "content": "Onvo Travel Plaza - Great Bend may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25106 US-11, Hallstead, PA 18822, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Onvo+Travel+Plaza+-+Great+Bend",
+      "googleMapsUrl": "https://www.google.com/maps/place/Onvo+Travel+Plaza+-+Great+Bend/@41.9663208,-75.7446924,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89dae07a8482e9a1:0x21b8aa99a0db72db!8m2!3d41.9663208!4d-75.7401863!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJpZG1KWE5reEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQLw!16s%2Fg%2F11cm0b9t3f?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

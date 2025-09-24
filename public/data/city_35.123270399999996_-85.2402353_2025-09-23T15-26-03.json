@@ -1,0 +1,635 @@
+{
+  "timestamp": "2025-09-23T18:05:57.869Z",
+  "city": "35.123270399999996",
+  "state": "-85.2402353",
+  "sessionId": "2025-09-23T15-26-03",
+  "totalLocations": 8,
+  "locationsWithShowerReviews": 8,
+  "totalShowerReviews": 24,
+  "locations": [
+    {
+      "title": "ONE9 Travel Center",
+      "street": "ONE9 Travel Center 4.0(1",
+      "city": "848)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2907529",
+      "lng": "-84.8217735",
+      "phone": "+1 423-780-9171",
+      "website": "https://locations.pilotflyingj.com/us/ga/wildwood/650-highway-299",
+      "content": "ONE9 Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I've seen alot of bad reviews, probably time ago. Everything was great, clean and also good pressure and hot showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Roberto Thomas_I've_seen_alot_of_bad_reviews,_probably_time_ago.__a month ago"
+        },
+        {
+          "reviewerName": "B E",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This is a really dirty loves, trash and dirt everywhere. Showers were disgusting. All they do to clean is take a towel and smear dirt and hair all around. Hair and gunk on the toilet, sink (didn't get a picture of the sink), and shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "B E_This_is_a_really_dirty_loves,_trash_and_dirt_every_8 months ago"
+        },
+        {
+          "reviewerName": "Joyce Hodges",
+          "rating": "3 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Customer service was great but the showers need a little more cleaning and attention.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Joyce Hodges_Customer_service_was_great_but_the_showers_need_a__4 weeks ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "200 Lower River Rd, Charleston, TN 37310, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "ONE9+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/ONE9+Travel+Center/@35.2907529,-84.8217735,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88605aeba3c3cbb5:0xb26c72a89d8acb06!8m2!3d34.9784839!4d-85.4139074!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tfkg996?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(2",
+      "city": "527)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2907529",
+      "lng": "-84.8217735",
+      "phone": "+1 423-780-9171",
+      "website": "https://locations.pilotflyingj.com/us/ga/wildwood/650-highway-299",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I've seen alot of bad reviews, probably time ago. Everything was great, clean and also good pressure and hot showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Roberto Thomas_I've_seen_alot_of_bad_reviews,_probably_time_ago.__a month ago"
+        },
+        {
+          "reviewerName": "B E",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This is a really dirty loves, trash and dirt everywhere. Showers were disgusting. All they do to clean is take a towel and smear dirt and hair all around. Hair and gunk on the toilet, sink (didn't get a picture of the sink), and shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "B E_This_is_a_really_dirty_loves,_trash_and_dirt_every_8 months ago"
+        },
+        {
+          "reviewerName": "Joyce Hodges",
+          "rating": "3 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Customer service was great but the showers need a little more cleaning and attention.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Joyce Hodges_Customer_service_was_great_but_the_showers_need_a__4 weeks ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "200 Lower River Rd, Charleston, TN 37310, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@35.2907529,-84.8217735,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88608051715478db:0x3ef9b7f8e5e45db2!8m2!3d35.1531419!4d-84.9529477!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1262w42qc?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Mobil Truck Stop",
+      "street": "Mobil Truck Stop 4.2(772)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2907529",
+      "lng": "-84.8217735",
+      "phone": "+1 423-780-9171",
+      "website": "https://locations.pilotflyingj.com/us/ga/wildwood/650-highway-299",
+      "content": "Mobil Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I've seen alot of bad reviews, probably time ago. Everything was great, clean and also good pressure and hot showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Roberto Thomas_I've_seen_alot_of_bad_reviews,_probably_time_ago.__a month ago"
+        },
+        {
+          "reviewerName": "B E",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This is a really dirty loves, trash and dirt everywhere. Showers were disgusting. All they do to clean is take a towel and smear dirt and hair all around. Hair and gunk on the toilet, sink (didn't get a picture of the sink), and shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "B E_This_is_a_really_dirty_loves,_trash_and_dirt_every_8 months ago"
+        },
+        {
+          "reviewerName": "Joyce Hodges",
+          "rating": "3 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Customer service was great but the showers need a little more cleaning and attention.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Joyce Hodges_Customer_service_was_great_but_the_showers_need_a__4 weeks ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "200 Lower River Rd, Charleston, TN 37310, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Mobil+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Mobil+Truck+Stop/@35.2907529,-84.8217735,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x886063106a42714b:0xc89b6d1cc2b1f6d2!8m2!3d35.0607554!4d-85.1365978!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSSE5XTjJaSHBuUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABBK!16s%2Fg%2F11btx0kzvc?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.9(1",
+      "city": "165)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2907529",
+      "lng": "-84.8217735",
+      "phone": "+1 423-780-9171",
+      "website": "https://locations.pilotflyingj.com/us/ga/wildwood/650-highway-299",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I've seen alot of bad reviews, probably time ago. Everything was great, clean and also good pressure and hot showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Roberto Thomas_I've_seen_alot_of_bad_reviews,_probably_time_ago.__a month ago"
+        },
+        {
+          "reviewerName": "B E",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This is a really dirty loves, trash and dirt everywhere. Showers were disgusting. All they do to clean is take a towel and smear dirt and hair all around. Hair and gunk on the toilet, sink (didn't get a picture of the sink), and shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "B E_This_is_a_really_dirty_loves,_trash_and_dirt_every_8 months ago"
+        },
+        {
+          "reviewerName": "Joyce Hodges",
+          "rating": "3 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Customer service was great but the showers need a little more cleaning and attention.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Joyce Hodges_Customer_service_was_great_but_the_showers_need_a__4 weeks ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "200 Lower River Rd, Charleston, TN 37310, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@35.2907529,-84.8217735,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8860535d4e79b173:0xade3152d72933771!8m2!3d35.036022!4d-85.582133!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1ptyhh88k?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.8(24)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2907529",
+      "lng": "-84.8217735",
+      "phone": "+1 423-780-9171",
+      "website": "https://locations.pilotflyingj.com/us/ga/wildwood/650-highway-299",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I've seen alot of bad reviews, probably time ago. Everything was great, clean and also good pressure and hot showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Roberto Thomas_I've_seen_alot_of_bad_reviews,_probably_time_ago.__a month ago"
+        },
+        {
+          "reviewerName": "B E",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This is a really dirty loves, trash and dirt everywhere. Showers were disgusting. All they do to clean is take a towel and smear dirt and hair all around. Hair and gunk on the toilet, sink (didn't get a picture of the sink), and shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "B E_This_is_a_really_dirty_loves,_trash_and_dirt_every_8 months ago"
+        },
+        {
+          "reviewerName": "Joyce Hodges",
+          "rating": "3 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Customer service was great but the showers need a little more cleaning and attention.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Joyce Hodges_Customer_service_was_great_but_the_showers_need_a__4 weeks ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "200 Lower River Rd, Charleston, TN 37310, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@35.2907529,-84.8217735,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88605d86934072c7:0x4221b243acd568e6!8m2!3d35.015648!4d-85.293786!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJtWDNSMVZubDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAhwEB4!16s%2Fg%2F11vqn6d0fb?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.0(10)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2907529",
+      "lng": "-84.8217735",
+      "phone": "+1 423-780-9171",
+      "website": "https://locations.pilotflyingj.com/us/ga/wildwood/650-highway-299",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I've seen alot of bad reviews, probably time ago. Everything was great, clean and also good pressure and hot showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Roberto Thomas_I've_seen_alot_of_bad_reviews,_probably_time_ago.__a month ago"
+        },
+        {
+          "reviewerName": "B E",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This is a really dirty loves, trash and dirt everywhere. Showers were disgusting. All they do to clean is take a towel and smear dirt and hair all around. Hair and gunk on the toilet, sink (didn't get a picture of the sink), and shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "B E_This_is_a_really_dirty_loves,_trash_and_dirt_every_8 months ago"
+        },
+        {
+          "reviewerName": "Joyce Hodges",
+          "rating": "3 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Customer service was great but the showers need a little more cleaning and attention.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Joyce Hodges_Customer_service_was_great_but_the_showers_need_a__4 weeks ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "200 Lower River Rd, Charleston, TN 37310, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@35.2907529,-84.8217735,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88605d86934072c7:0x4221b243acd568e6!8m2!3d35.015648!4d-85.293786!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJtWDNSMVZubDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAhwEB4!16s%2Fg%2F11vqn6d0fb?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.1(1",
+      "city": "513)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2907529",
+      "lng": "-84.8217735",
+      "phone": "+1 423-780-9171",
+      "website": "https://locations.pilotflyingj.com/us/ga/wildwood/650-highway-299",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I've seen alot of bad reviews, probably time ago. Everything was great, clean and also good pressure and hot showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Roberto Thomas_I've_seen_alot_of_bad_reviews,_probably_time_ago.__a month ago"
+        },
+        {
+          "reviewerName": "B E",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This is a really dirty loves, trash and dirt everywhere. Showers were disgusting. All they do to clean is take a towel and smear dirt and hair all around. Hair and gunk on the toilet, sink (didn't get a picture of the sink), and shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "B E_This_is_a_really_dirty_loves,_trash_and_dirt_every_8 months ago"
+        },
+        {
+          "reviewerName": "Joyce Hodges",
+          "rating": "3 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Customer service was great but the showers need a little more cleaning and attention.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Joyce Hodges_Customer_service_was_great_but_the_showers_need_a__4 weeks ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "200 Lower River Rd, Charleston, TN 37310, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@35.2907529,-84.8217735,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8860535d4e79b173:0xade3152d72933771!8m2!3d35.036022!4d-85.582133!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1ptyhh88k?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.1(1",
+      "city": "891)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2907529",
+      "lng": "-84.8217735",
+      "phone": "+1 423-780-9171",
+      "website": "https://locations.pilotflyingj.com/us/ga/wildwood/650-highway-299",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I've seen alot of bad reviews, probably time ago. Everything was great, clean and also good pressure and hot showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Roberto Thomas_I've_seen_alot_of_bad_reviews,_probably_time_ago.__a month ago"
+        },
+        {
+          "reviewerName": "B E",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This is a really dirty loves, trash and dirt everywhere. Showers were disgusting. All they do to clean is take a towel and smear dirt and hair all around. Hair and gunk on the toilet, sink (didn't get a picture of the sink), and shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "B E_This_is_a_really_dirty_loves,_trash_and_dirt_every_8 months ago"
+        },
+        {
+          "reviewerName": "Joyce Hodges",
+          "rating": "3 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Customer service was great but the showers need a little more cleaning and attention.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Joyce Hodges_Customer_service_was_great_but_the_showers_need_a__4 weeks ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "200 Lower River Rd, Charleston, TN 37310, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@35.2907529,-84.8217735,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88608051715478db:0x3ef9b7f8e5e45db2!8m2!3d35.1531419!4d-84.9529477!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1262w42qc?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

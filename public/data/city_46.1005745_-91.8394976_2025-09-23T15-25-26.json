@@ -1,0 +1,737 @@
+{
+  "timestamp": "2025-09-23T15:36:45.938Z",
+  "city": "46.1005745",
+  "state": "-91.8394976",
+  "sessionId": "2025-09-23T15-25-26",
+  "totalLocations": 7,
+  "locationsWithShowerReviews": 5,
+  "totalShowerReviews": 38,
+  "locations": [
+    {
+      "title": "Lucky Truck Stop",
+      "street": "Lucky Truck Stop 3.0(2)Coffee shop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "46.1006925",
+      "lng": "-91.8438091",
+      "phone": "+1 715-466-5899",
+      "website": "",
+      "content": "Lucky Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open ⋅ Closes 10:30 pm Tuesday7 am–10:30 pmWednesday7 am–10:30 pmThursday7 am–10:30 pmFriday7 am–10:30 pmSaturday7 am–10:30 pmSundayClosedMonday7 am–10:30 pmSuggest new hours",
+      "address": "1030 W Hokah St, Minong, WI 54859, United States",
+      "rating": "3.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Coffee shop",
+      "placeId": "Lucky+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Lucky+Truck+Stop/@46.1006925,-91.8438091,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x52ac2d00064c2451:0x3625d7dcc2d9bc07!8m2!3d46.1006925!4d-91.839303!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtjb2ZmZWVfc2hvcJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVOWk5YTlBkV0pCRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEB8!16s%2Fg%2F11lw8tkv9w?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Trego Travel Center",
+      "street": "Trego Travel Center 4.3(102)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "45.8992765",
+      "lng": "-91.83406",
+      "phone": "+1 715-635-4933",
+      "website": "http://www.mobil.com/",
+      "content": "Trego Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open ⋅ Closes 9 pm Tuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–9 pmSaturday6 am–9 pmSunday7:30 am–9 pmMonday6 am–9 pmSuggest new hours",
+      "address": "W5741 County Hwy E, Trego, WI 54888, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Trego+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Trego+Travel+Center/@45.8992765,-91.83406,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x52ac35ec6970ee75:0x24afb9c4a652099f!8m2!3d45.8992765!4d-91.8295539!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5NYUhKeGRsSlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECEwQJg!16s%2Fg%2F1ttdy2dy?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.7(1",
+      "city": "028)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.9656159",
+      "lng": "-92.683306",
+      "phone": "+1 715-386-5835",
+      "website": "https://www.ta-petro.com/location/wi/ta-hudson",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jon Rajabov",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… worse and worse. I tried to reserve a shower app blocked me for no reason my co driver tried with his own phone same thing BLOCKED. lady at the counter RUDE a not trying to help anyone and asking 17$ for shower. I hope they teach …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Jon Rajabov_…_worse_and_worse._I_tried_to_reserve_a_shower_app_a month ago"
+        },
+        {
+          "reviewerName": "J Thomas Nettling",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I stopped in last evening 02/26/24.    I fueled and showered.   The place was clean, all eight showers were available.    The shower was clean, fully functional, and had excellent water pressure.   The fuel pumps were all functional.   Ther …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "J Thomas Nettling_I_stopped_in_last_evening_02/26/24._I_fueled_an_a year ago"
+        },
+        {
+          "reviewerName": "Wes Cook",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… and friendly. The evening staff not so much. You can't even shower in the evening as according to the guy working he has no one to clean them even though there was another person working cleaning. How do you expect to stay in business as a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Wes Cook_…_and_friendly._The_evening_staff_not_so_much._You_a year ago"
+        },
+        {
+          "reviewerName": "Abdi ali",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "They desrve 0 star  Hudson,WI  the  worst customer communication service. I fuel park my Truck trying to get shower, get the shower ticket, the desk personal said showers are not useable due to not having staff to clean. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "Abdi ali_They_desrve_0_star_Hudson,WI_the_worst_customer_a year ago"
+        },
+        {
+          "reviewerName": "Tara Andrews",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Came to shower in truck. Showers had nice hot water and great pressure. Towels are provided and small bar of soap. Didn't use towels as they aren't soft (brought my own). Was very clean however the double toilet paper dispenser was …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 33,
+          "uniqueId": "Tara Andrews_Came_to_shower_in_truck._Showers_had_nice_hot_wate_a year ago"
+        },
+        {
+          "reviewerName": "Justin Schott",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Tried to shower on Saturday (10/21) night at 9pm  and was told there were no showers till 7 am because no one was going to clean them. They were nice enough to let me drop my trailer to go to the FlyingJ and take one. Then, on Sunday (10/22 …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 41,
+          "uniqueId": "Justin Schott_Tried_to_shower_on_Saturday_(10/21)_night_at_9pm__a year ago"
+        },
+        {
+          "reviewerName": "Kev 1",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… place, restaurant was closed already yesterday evening pretty early, just cold sandwiches.   This morning went to get my shower, and my number came up with no shower.  Waited way too long (about an hour) before I wandered down the hall …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 49,
+          "uniqueId": "Kev 1_…_place,_restaurant_was_closed_already_yesterday_e_6 years ago"
+        },
+        {
+          "reviewerName": "Wendy",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "As an over the road trucker my spouse and I park at many truck stops; this TA was clean and the shower room was very clean and spacious. We will stop again.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 57,
+          "uniqueId": "Wendy_As_an_over_the_road_trucker_my_spouse_and_I_park_a_a year ago"
+        },
+        {
+          "reviewerName": "Sharon Thompson",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "We stayed here for our ten hour break while passing thru the area .We washed clothes ate supper at the restaurant there and took a shower there. Really friendly staff and the food was really good also ,clean showers, and clean laundry room …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 64,
+          "uniqueId": "Sharon Thompson_We_stayed_here_for_our_ten_hour_break_while_passin_7 years ago"
+        },
+        {
+          "reviewerName": "Libby Rose",
+          "rating": "3 stars",
+          "reviewDate": "Edited 4 years ago",
+          "reviewText": "Shower was hot. Room was small for 2.  Parking lot small so we got reserve.  Grass area for dogs.  Nothing to eat but cold sandwiches,  major Fail. It's a place to shower & a bathroom though. The dog enjoyed it too. Lawsuit waiting to …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 72,
+          "uniqueId": "Libby Rose_Shower_was_hot._Room_was_small_for_2._Parking_lot_Edited 4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, wash, bathroom",
+      "hours": "",
+      "address": "601 Brakke Dr, Hudson, WI 54016, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@44.9656159,-92.683306,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87f7e274ccac7073:0xc1c4fb997f2471d9!8m2!3d44.9656159!4d-92.6787999!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ1YW5CNVZFOW5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHQ!16s%2Fg%2F11xc6580p?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Truck-stop chain offering fuel & food. Many have amenities such as laundry rooms, showers & lodging.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Iowa 80 - The World's Largest Truckstop",
+      "street": "Iowa 80 - The World's Largest Truckstop 4.6(23",
+      "city": "375)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.6178614",
+      "lng": "-90.7861323",
+      "phone": "+1 563-284-6961",
+      "website": "https://iowa80truckstop.com/?utm_medium=yext&utm_source=extnet",
+      "content": "Iowa 80 - The World's Largest Truckstop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Karen “Kmini”",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "… We spent the night in the RV lot after seeking shelter from dangerous winds & possible severe t-storms. We were able to do laundry & shower,  All very clean.  The laundry was very clean & reasonably priced... would definitely recommend! A …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Karen “Kmini”_…_We_spent_the_night_in_the_RV_lot_after_seeking_s_6 months ago"
+        },
+        {
+          "reviewerName": "Mama Bear",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… has many hidden amenities.  A great place for everyone but especially for truckers, and long haulers, as they have laundry and shower facilities as well as a dentist, barber, work out facilities and so much more! We love stopping on our …",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 12,
+          "uniqueId": "Mama Bear_…_has_many_hidden_amenities._A_great_place_for_ev_a month ago"
+        },
+        {
+          "reviewerName": "Bruce Poolaw",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… entertainment. There’s a huge convenience store for your snack needs and a diner that serves both menu items and a buffet. Didn’t get a shower there but the restrooms were clean. The place has 3 floors that includes a barber. There’s also …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Bruce Poolaw_…_entertainment._There’s_a_huge_convenience_store__a year ago"
+        },
+        {
+          "reviewerName": "Kriti Anand",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Pretty big with lots to do. Has a shower area. Tons of restaurants. Stuff for kids to explore and see. Has a chiropractor on site. This place has leveled up in the last few years by adding tons of stuff. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "Kriti Anand_Pretty_big_with_lots_to_do._Has_a_shower_area._Ton_a year ago"
+        },
+        {
+          "reviewerName": "Trucker Kearsey",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Hadn't been here in years. Went to take a shower on Palm Sunday and Pastor Daryl was giving a sermon in the lounge in front of the showers. The Lord told me to stay. Was warm & friendly service. Then I met with the pastor for 4 hours that …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 44,
+          "uniqueId": "Trucker Kearsey_Hadn't_been_here_in_years._Went_to_take_a_shower_o_5 months ago"
+        },
+        {
+          "reviewerName": "Van Strickland",
+          "rating": "5 stars",
+          "reviewDate": "Edited 3 years ago",
+          "reviewText": "… of necessities and snacks. Spend some time wandering around the main store area, there's plenty to see. Clean restrooms and shower. Navigate through the various gift shops located throughout the facility. You can also get customized …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Van Strickland_…_of_necessities_and_snacks._Spend_some_time_wande_Edited 3 years ago"
+        },
+        {
+          "reviewerName": "Sunil Kumar Khullar",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "World’s biggest truck stop. Besides truck parking which can park 900 trucks you have a restaurant, theatre, shower rooms, lounge, convince stores. Its is spread in 75 acres. If I am not wrong you can park here for free. It has fuel station …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 64,
+          "uniqueId": "Sunil Kumar Khullar_World’s_biggest_truck_stop._Besides_truck_parking__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Wind Napol",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "This place is huge. There’s a food court inside the truck stop. Upstairs there are dentist, chiropractor, shower, laundry, hair salon. And the truck section of stuff takes up half of the place. Parking was no problem. There’s also tesla …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 76,
+          "uniqueId": "Wind Napol_This_place_is_huge._There’s_a_food_court_inside_th_2 years ago"
+        },
+        {
+          "reviewerName": "Nathan Flaminio",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… You can take a shower, get a haircut, and watch a movie. There's even a dentist and a chiropractor. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 88,
+          "uniqueId": "Nathan Flaminio_…_You_can_take_a_shower,_get_a_haircut,_and_watch__3 years ago"
+        },
+        {
+          "reviewerName": "h singh",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… and friendly service here you can buy too much trick stuff from here lights bumper fittings hoses etc. little price higher Coustmer service very good here i love this location shower also very clean and too much like more than 25 may be",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 100,
+          "uniqueId": "h singh_…_and_friendly_service_here_you_can_buy_too_much_t_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, facilities, restroom, showers",
+      "hours": "",
+      "address": "755 W Iowa 80 Rd, Walcott, IA 52773, United States",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Iowa+80+-+The+World's+Largest+Truckstop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Iowa+80+-+The+World's+Largest+Truckstop/@41.6178614,-90.7861323,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87e3b869e83371b5:0x5bed950d63a52c0d!8m2!3d41.6178614!4d-90.7816262!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJLTFRoTWFqVm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAh8EEk!16s%2Fm%2F02rk999?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Vast highway rest stop with a home-style eatery & fast food franchises, plus a vintage truck museum.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Prentice Truck & Travel Center",
+      "street": "Prentice Truck & Travel Center 4.3(391)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "45.5480974",
+      "lng": "-90.3175482",
+      "phone": "+1 715-428-2360",
+      "website": "http://www.myrstore.com/find-a-location/prentice-travel-center",
+      "content": "Prentice Truck & Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Randy Olan",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… at great prices. Friendly and helpful staff. You have both diesel and gasoline with lots of snacks if you're on the run. Large parking  area if you're staying for a while. A  clean shower is waiting for you if you want to wash you're frame.",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Randy Olan_…_at_great_prices._Friendly_and_helpful_staff._You_6 years ago"
+        },
+        {
+          "reviewerName": "Rodney Galica",
+          "rating": "3 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "One older lady always tells my fiance and I we leave a mess when dinner in the shower We don't leave any towels or wash clothes on the floor We always put our things in the hamper!! Charging for two shower when we use it at the same time …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 8,
+          "uniqueId": "Rodney Galica_One_older_lady_always_tells_my_fiance_and_I_we_lea_3 years ago"
+        },
+        {
+          "reviewerName": "Eric Michaels",
+          "rating": "5 stars",
+          "reviewDate": "Edited 5 years ago",
+          "reviewText": "Very nice place. Shower is great at the end of a long day",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "Eric Michaels_Very_nice_place._Shower_is_great_at_the_end_of_a_l_Edited 5 years ago"
+        },
+        {
+          "reviewerName": "Daniel Gravel",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Good food, nice and clean shower. Perfect stop",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Daniel Gravel_Good_food,_nice_and_clean_shower._Perfect_stop_5 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, clean, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "5375 Granberg Rd, Prentice, WI 54556, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Prentice+Truck+%26+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Prentice+Truck+%26+Travel+Center/@45.5480974,-90.3175482,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x52aaf4cec855f53f:0x9010dcabc8fd39e1!8m2!3d45.5480974!4d-90.3130421!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVF5TldOaVExUm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECCUQQA!16s%2Fg%2F1tfzrkfj?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 4.1(1",
+      "city": "028)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.9656159",
+      "lng": "-92.683306",
+      "phone": "+1 715-386-5835",
+      "website": "https://www.ta-petro.com/location/wi/ta-hudson",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jon Rajabov",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Ta getting worse and worse. I tried to reserve a shower app blocked me for no reason my co driver tried with his own phone same thing BLOCKED. lady at the counter RUDE a not trying to help anyone and asking 17$ for shower. I hope they teach workers at least how to talk with costumers.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Jon Rajabov_Ta_getting_worse_and_worse._I_tried_to_reserve_a_s_a month ago"
+        },
+        {
+          "reviewerName": "Joe San",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "We used to fill up with gas and bring the kids here to eat. It was reasonably priced and buffet was good enough for all of us.\nNow, the place is run down, bathroom is repulsive (compared to Kwik trip) and restaurant is closed. C’mon TA. Do something.",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 16,
+          "uniqueId": "Joe San_We_used_to_fill_up_with_gas_and_bring_the_kids_her_2 months ago"
+        },
+        {
+          "reviewerName": "Saul Moncada",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This place is a real disaster, it is a lack of respect for all drivers. I have my truck clean inside and unfortunately I have to fill it with grease 😡😡😡🤮🤮🤮 …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 71,
+          "uniqueId": "Saul Moncada_This_place_is_a_real_disaster,_it_is_a_lack_of_res_a year ago"
+        },
+        {
+          "reviewerName": "Kenneth Neumann",
+          "rating": "5 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Great TA location. Its got plenty of space, the facility is clean, and the employees are cheerful and freindly. I especially appreciated the showers. Very spacious and impeccably clean - perfect after a long day on the road.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 82,
+          "uniqueId": "Kenneth Neumann_Great_TA_location._Its_got_plenty_of_space,_the_fa_8 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers",
+      "hours": "",
+      "address": "601 Brakke Dr, Hudson, WI 54016, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@44.9656159,-92.683306,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87f7e274ccac7073:0xc1c4fb997f2471d9!8m2!3d44.9656159!4d-92.6787999!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ1YW5CNVZFOW5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHQ!16s%2Fg%2F11xc6580p?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Truck-stop chain offering fuel & food. Many have amenities such as laundry rooms, showers & lodging.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.8(780)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.9610195",
+      "lng": "-90.3824183",
+      "phone": "+1 608-372-3820",
+      "website": "https://www.loves.com/locations/345",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Terra Fulmer",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Honestly after seeing some negative comments on the showers, we were hesitant to stop at this location. Thankfully, we had a great experience! While the truck parking was completely full, we did get to snag a temporary parking area to come …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Terra Fulmer_Honestly_after_seeing_some_negative_comments_on_th_a month ago"
+        },
+        {
+          "reviewerName": "Michael Weston",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… NO HOT WATER IN SHOWERS …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 12,
+          "uniqueId": "Michael Weston_…_NO_HOT_WATER_IN_SHOWERS_…_3 months ago"
+        },
+        {
+          "reviewerName": "NF Videos",
+          "rating": "4 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "04-09-25\nThe store is in the process of renovating. New showers. Unfortunately, the cheap shower heads spoil so much efforts of renovating them.\nBeaten up driveways. Outdated pump equipment, but always friendly customer service! 🤠 …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "NF Videos_04-09-25_The_store_is_in_the_process_of_renovating_5 months ago"
+        },
+        {
+          "reviewerName": "Juice Zoyaknow",
+          "rating": "3 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "It’s a Love’s. Parking here can fill quickly. I usually park across the road at the road ranger and walk over to Love’s to use my free showers. There’s a sidewalk that connects the truck stops. It gets me a bit of exercise to walk briskly …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 32,
+          "uniqueId": "Juice Zoyaknow_It’s_a_Love’s._Parking_here_can_fill_quickly._I_us_a month ago"
+        },
+        {
+          "reviewerName": "Arleen Gaines",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "… of loves workers are just lazy and that's sad because the bathrooms look updated. I come into my shower nothing but hair on the sink floor and toilet. It doesn't even require much to just wipe and sanitize things for the next person. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 40,
+          "uniqueId": "Arleen Gaines_…_of_loves_workers_are_just_lazy_and_that's_sad_be_2 months ago"
+        },
+        {
+          "reviewerName": "Dexman namxeD",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "HOT SHOWER!! I stopped at Loves #345 store to fuel, and the pump didn't work. I left there and came to this one, and everything was great. I'm not sure how there can be such a difference between different stores within the same chain",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 48,
+          "uniqueId": "Dexman namxeD_HOT_SHOWER!!_I_stopped_at_Loves_#345_store_to_fuel_5 months ago"
+        },
+        {
+          "reviewerName": "Aerial Artistry",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… are my favorite travel stop when I'm out on the road I can get everything I need here including a hot shower propane clean windows with windshield washer fluid available and the folks here are so nice so kind and very hospitable love …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 55,
+          "uniqueId": "Aerial Artistry_…_are_my_favorite_travel_stop_when_I'm_out_on_the__4 years ago"
+        },
+        {
+          "reviewerName": "Marcus Hoffpauir",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… Diamond status every month. Loves is the only truckstop I fuel at. Pulled into this one today to get a quick shower and grab something to eat before I fuel and hit the road. I parked across from the cat scale in an open spot between 2 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 67,
+          "uniqueId": "Marcus Hoffpauir_…_Diamond_status_every_month._Loves_is_the_only_tr_2 years ago"
+        },
+        {
+          "reviewerName": "Aaron Chilson",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Worst shower experience I’ve ever had at a love I didn’t get to enjoy my shower it was barely warm to take a shower literally no hot water don’t ask for shower 4",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 76,
+          "uniqueId": "Aaron Chilson_Worst_shower_experience_I’ve_ever_had_at_a_love_I__a month ago"
+        },
+        {
+          "reviewerName": "Scott Manausa",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Friendly Staff, Clean Showers, Fuel Pumps were clean & not busy, and parking was not a problem. I arrived 03/30/18 at 1915 and was parked & in my shower by 1930. The employees and the managers were all friendly and greeted me and they were …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 83,
+          "uniqueId": "Scott Manausa_Friendly_Staff,_Clean_Showers,_Fuel_Pumps_were_cle_7 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, bathroom, clean, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "220 N Oakwood St, Tomah, WI 54660, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@43.9610195,-90.3824183,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87fe6e75a0156c47:0x1cfaaad7013aa046!8m2!3d43.9610195!4d-90.3779122!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJvYnpaMk9USkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgxECw!16s%2Fg%2F1tf9nv0t?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

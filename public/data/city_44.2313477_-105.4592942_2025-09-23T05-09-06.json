@@ -1,0 +1,464 @@
+{
+  "timestamp": "2025-09-23T07:58:15.697Z",
+  "city": "44.2313477",
+  "state": "-105.4592942",
+  "sessionId": "2025-09-23T05-09-06",
+  "totalLocations": 4,
+  "locationsWithShowerReviews": 3,
+  "totalShowerReviews": 25,
+  "locations": [
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.7(819)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.2285404",
+      "lng": "-107.7656054",
+      "phone": "+1 307-682-3562",
+      "website": "https://locations.pilotflyingj.com/us/wy/gillette/1810-south-douglas-hwy.",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Danielle Blevins",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "As a driver of over a decade,  I appreciate the smaller spots that have decent amount of parking and HOT SHOWERS.  At 0330 I went in to take a shower and everyone inside working was beyond nice,  the shower was CLEAN,  no black floors or …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Danielle Blevins_As_a_driver_of_over_a_decade,_I_appreciate_the_sm_5 months ago"
+        },
+        {
+          "reviewerName": "Ernesto S",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… give them 0 but I will be nice and give them 1 I’m been waiting for more than an hour for someone to clean the shower but I guess they don’t have sufficient staff to do so ,anyway the waiting is not the issue here the problem is that I …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Ernesto S_…_give_them_0_but_I_will_be_nice_and_give_them_1_I_a month ago"
+        },
+        {
+          "reviewerName": "Work",
+          "rating": "1 stars",
+          "reviewDate": "a week ago",
+          "reviewText": "Don't bother with this location it's a dump showers don't have toilets also waste of a shower...Nastiest one I've ever been to...",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 16,
+          "uniqueId": "Work_Don't_bother_with_this_location_it's_a_dump_shower_a week ago"
+        },
+        {
+          "reviewerName": "Mykhailo Kostetskyi",
+          "rating": "2 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Worst shower  in Wyoming ,there's no space to turn around, terrible conditions, everything is very, very old.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 23,
+          "uniqueId": "Mykhailo Kostetskyi_Worst_shower_in_Wyoming_,there's_no_space_to_turn_9 months ago"
+        },
+        {
+          "reviewerName": "Janelle Ann",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Absolutely loved this Flying J - the staff was extraordinarily friendly!! This place also has a ladies only shower and that's a game changer! The water pressure was spot on and the shower was so hot! Best shower I have ever had on the road! …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 34,
+          "uniqueId": "Janelle Ann_Absolutely_loved_this_Flying_J_-_the_staff_was_ext_2 years ago"
+        },
+        {
+          "reviewerName": "Dian Turtle",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "We pulled in with our teardrop June 2, 2018 and slept with the big rigs. Felt very safe and comfortable. Hubby said the shower left a lot to be desired but everyone in the store was super friendly.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 45,
+          "uniqueId": "Dian Turtle_We_pulled_in_with_our_teardrop_June_2,_2018_and_sl_7 years ago"
+        },
+        {
+          "reviewerName": "Marcin Mz Trucking Inc",
+          "rating": "1 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Waiting for a shower? An hour and a half. If I hadn’t come here, they would never get cleaned.!!!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "Marcin Mz Trucking Inc_Waiting_for_a_shower?_An_hour_and_a_half._If_I_had_4 weeks ago"
+        },
+        {
+          "reviewerName": "Benjamin Hk",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Comfortable place\nFree parking 🅿️\nClean shower 🚿\nMost foods near by …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 60,
+          "uniqueId": "Benjamin Hk_Comfortable_place_Free_parking_🅿️_Clean_shower_🚿_2 months ago"
+        },
+        {
+          "reviewerName": "Crystal Merrill",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Big truck stop lots of room for RV. Paid $17 for a shower. It was clean, they provided towels and no time limit, great water pressure.  Shower room Could use a little maintenance so that's why I gave it 4/5 rating. Friendly staff.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 67,
+          "uniqueId": "Crystal Merrill_Big_truck_stop_lots_of_room_for_RV._Paid_$17_for_a_a year ago"
+        },
+        {
+          "reviewerName": "Ryan Smith",
+          "rating": "2 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Glad to have a place to park and fuel in Gillette but the showers are definitely not up to Normal Pilot standards. Alot of updating going on at other pilots, please throw some money at Gilletes showers. Unbelievably small room and ungodly …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 74,
+          "uniqueId": "Ryan Smith_Glad_to_have_a_place_to_park_and_fuel_in_Gillette__7 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1810 S Douglas Hwy, Gillette, WY 82718, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@44.2285404,-107.7656054,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x5334942ced844bd5:0x668021a8826694ab!8m2!3d44.277109!4d-105.495261!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5NZWpkbVJURkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAg7EEs!16s%2Fg%2F1tczk42l?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.2(713)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.120323",
+      "lng": "-105.3586224",
+      "phone": "+1 605-923-4292",
+      "website": "https://locations.pilotflyingj.com/us/wy/gillette/1810-south-douglas-hwy.",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jeff Kuenzi",
+          "rating": "4 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "This is a decent Love’s clean parking lot, clean store, restrooms and showers. The only issue I had is when I went in to shower this morning at like 4 o’clock you have an employee. I did not catch his name, but he’s a rather large man and …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Jeff Kuenzi_This_is_a_decent_Love’s_clean_parking_lot,_clean_s_a month ago"
+        },
+        {
+          "reviewerName": "Steven Blackburn",
+          "rating": "2 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "I wanted to make a request to change how this loves is set up so truckers don't have to walk a quarter mile to shower and eat. Can we instead make the people who don't work as much as us, or drive vehicles as big as us walk instead. Check …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Steven Blackburn_I_wanted_to_make_a_request_to_change_how_this_love_3 months ago"
+        },
+        {
+          "reviewerName": "Telo",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Clean shower lots of parking and they have the washers and dryers that uses the MLR card so no need for coins.",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 17,
+          "uniqueId": "Telo_Clean_shower_lots_of_parking_and_they_have_the_was_2 years ago"
+        },
+        {
+          "reviewerName": "Kyle Kmiec",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Absolutely amazing experience in terms of long distance travelling through America. Shower facilities were clean and amazing to use after a long hike in the Black Hills. Staff was very friendly and helpful in every way. Can't thank you guys …",
+          "showerKeywords": [
+            "shower",
+            "facilities",
+            "clean"
+          ],
+          "index": 28,
+          "uniqueId": "Kyle Kmiec_Absolutely_amazing_experience_in_terms_of_long_dis_a year ago"
+        },
+        {
+          "reviewerName": "h singh",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Very long wait for shower i already waiting last 40 minutes tgat time only i am the person waiting i saw 4-5 Coustmer leave shower and 3-4 employees just walk here but nobody clean shower now 7 shower waiting they have total 7 shower but …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 36,
+          "uniqueId": "h singh_Very_long_wait_for_shower_i_already_waiting_last_4_2 years ago"
+        },
+        {
+          "reviewerName": "Mike Brant",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… , and it's what it needs to be - a very restful and convenient place. The shower is first rate, the sites are spotless concrete pads, back-in, with FHU. Cellular service is fast - both Verizon and T-Mobile. Shopping is nearby,, road …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 45,
+          "uniqueId": "Mike Brant_…_,_and_it's_what_it_needs_to_be_-_a_very_restful__a year ago"
+        },
+        {
+          "reviewerName": "Eric M.",
+          "rating": "3 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Good place for fuel, shower and sleep BUT grain to coup coffee machine nées a maintenance : 6 minutes to brew an awful taste coffee doesn't worth the wait and the price. Filter coffee machines were both empty : housse and columbian.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 53,
+          "uniqueId": "Eric M._Good_place_for_fuel,_shower_and_sleep_BUT_grain_to_11 months ago"
+        },
+        {
+          "reviewerName": "David James",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This location is understaffed.  The bathrooms were atrocious upon arrival and things weren't cleaned even an hour later. Also, truck side employees don't show till 7:00a so good luck getting a shower till then.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 60,
+          "uniqueId": "David James_This_location_is_understaffed._The_bathrooms_were_a year ago"
+        },
+        {
+          "reviewerName": "Trash_Mouth Vegan",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… that's what keeps me coming back, no matter where in America I am.  Thank u so much for everything u do, thank u for always having a clean store, bathroom, AND shower.  And even tho I'm always incognito 😂😂 y'all still greet me with a smile …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 67,
+          "uniqueId": "Trash_Mouth Vegan_…_that's_what_keeps_me_coming_back,_no_matter_wher_3 years ago"
+        },
+        {
+          "reviewerName": "R T",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Stopped for a couple of hours, took a shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 75,
+          "uniqueId": "R T_Stopped_for_a_couple_of_hours,_took_a_shower._…_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, restroom, clean, wash, facilities, bathroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "679 Reagan Ave, Box Elder, SD 57719, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@44.120323,-105.3586224,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x877d65bdf77e03d1:0x445362c4cf1e42b1!8m2!3d44.120323!4d-103.0514935!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5vZDJGbFQyMUJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED4!16s%2Fg%2F11b7grg8b2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "CBH CO-OP Travel Plaza - Cenex",
+      "street": "CBH CO-OP Travel Plaza - Cenex 4.2(72)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.2756712",
+      "lng": "-107.7552105",
+      "phone": "+1 307-257-2068",
+      "website": "https://locations.pilotflyingj.com/us/wy/gillette/1810-south-douglas-hwy.",
+      "content": "CBH CO-OP Travel Plaza - Cenex may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "2063 S Garner Lk Rd, Gillette, WY 82718, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "CBH+CO-OP+Travel+Plaza+-+Cenex",
+      "googleMapsUrl": "https://www.google.com/maps/place/CBH+CO-OP+Travel+Plaza+-+Cenex/@44.2756712,-107.7552105,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x5334972958b7a62f:0xbad1a00a18e002d5!8m2!3d44.2756712!4d-105.4480816!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSS2JuTmlkbUpCRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED4!16s%2Fg%2F11cky71h7c?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Mid-America Travel Plaza",
+      "street": "Mid-America Travel Plaza 4.2(697)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.6806802",
+      "lng": "-106.1616997",
+      "phone": "+1 605-892-2063",
+      "website": "https://locations.pilotflyingj.com/us/wy/gillette/1810-south-douglas-hwy.",
+      "content": "Mid-America Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jonathan Smith",
+          "rating": "3 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "… morning of working on the semi. Cold, wet and disgusting. Grabbed a shower and headed over to the restaurant for what I hoped was a good burger and fries. Shower and lounge area was very musty and outdated. Came in to the restaurant at 12: …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Jonathan Smith_…_morning_of_working_on_the_semi._Cold,_wet_and_di_9 months ago"
+        },
+        {
+          "reviewerName": "Jesse Smith",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Good place be nice if its was bigger. But showers you have to be a very small man or woman to shower in there. No toilet so use it before you shower. The  lady on inside was very nice and helpful. But could stand a good clean on the inside …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Jesse Smith_Good_place_be_nice_if_its_was_bigger._But_showers__4 years ago"
+        },
+        {
+          "reviewerName": "Denis_Da_ Menace",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Around 30 truck parking spots (if drivers would learn how to park and care for others too). Awesome country side place to stop at if you need a break, delicious restaurant food, $5.38 shower, nice driver lounge, laundry, etc.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "Denis_Da_ Menace_Around_30_truck_parking_spots_(if_drivers_would_le_6 years ago"
+        },
+        {
+          "reviewerName": "austin cumbee",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Really nice people and you cant beat and $8 shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 23,
+          "uniqueId": "austin cumbee_Really_nice_people_and_you_cant_beat_and_$8_shower_a year ago"
+        },
+        {
+          "reviewerName": "Shawn Hank",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Good food helpful workers clean shower's they are a little small but clean",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "Shawn Hank_Good_food_helpful_workers_clean_shower's_they_are__6 years ago"
+        }
+      ],
+      "showerReviewCount": 5,
+      "showerReviewSummary": "5 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Closed ⋅ Opens 6 am Tuesday6 am–11 pmWednesday6 am–11 pmThursday6 am–11 pmFriday6 am–11 pmSaturday6 am–11 pmSunday6 am–11 pmMonday6 am–11 pmSuggest new hours",
+      "address": "16 N 5th Ave, Belle Fourche, SD 57717, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Mid-America+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Mid-America+Travel+Plaza/@44.6806802,-106.1616997,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x533283df8c9b009f:0x1b3befe7842f139e!8m2!3d44.6806802!4d-103.8545708!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1YVRsRlZUWGRpU0U1RVZIcENORlV3ZEZobGJYaDNWMjE0VWxSdFl4QUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F1tncskf7?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    }
+  ]
+}

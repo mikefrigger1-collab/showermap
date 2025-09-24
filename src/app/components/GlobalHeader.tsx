@@ -20,13 +20,61 @@ const GlobalHeader = () => {
     }, 100);
   };
 
-  const regions = {
-    'United States': [
-      { name: 'California', slug: 'usa/california' },
-      { name: 'Texas', slug: 'usa/texas' },
-    ],
-
-  };
+const regions = {
+  'United States': [
+    { name: 'Alabama', slug: 'usa/alabama' },
+    { name: 'Alaska', slug: 'usa/alaska' },
+    { name: 'Arizona', slug: 'usa/arizona' },
+    { name: 'Arkansas', slug: 'usa/arkansas' },
+    { name: 'California', slug: 'usa/california' },
+    { name: 'Colorado', slug: 'usa/colorado' },
+    { name: 'Connecticut', slug: 'usa/connecticut' },
+    { name: 'Delaware', slug: 'usa/delaware' },
+    { name: 'District of Columbia', slug: 'usa/district-of-columbia' },
+    { name: 'Florida', slug: 'usa/florida' },
+    { name: 'Georgia', slug: 'usa/georgia' },
+    { name: 'Hawaii', slug: 'usa/hawaii' },
+    { name: 'Idaho', slug: 'usa/idaho' },
+    { name: 'Illinois', slug: 'usa/illinois' },
+    { name: 'Indiana', slug: 'usa/indiana' },
+    { name: 'Iowa', slug: 'usa/iowa' },
+    { name: 'Kansas', slug: 'usa/kansas' },
+    { name: 'Kentucky', slug: 'usa/kentucky' },
+    { name: 'Louisiana', slug: 'usa/louisiana' },
+    { name: 'Maine', slug: 'usa/maine' },
+    { name: 'Maryland', slug: 'usa/maryland' },
+    { name: 'Massachusetts', slug: 'usa/massachusetts' },
+    { name: 'Michigan', slug: 'usa/michigan' },
+    { name: 'Minnesota', slug: 'usa/minnesota' },
+    { name: 'Mississippi', slug: 'usa/mississippi' },
+    { name: 'Missouri', slug: 'usa/missouri' },
+    { name: 'Montana', slug: 'usa/montana' },
+    { name: 'Nebraska', slug: 'usa/nebraska' },
+    { name: 'Nevada', slug: 'usa/nevada' },
+    { name: 'New Hampshire', slug: 'usa/new-hampshire' },
+    { name: 'New Jersey', slug: 'usa/new-jersey' },
+    { name: 'New Mexico', slug: 'usa/new-mexico' },
+    { name: 'New York', slug: 'usa/new-york' },
+    { name: 'North Carolina', slug: 'usa/north-carolina' },
+    { name: 'North Dakota', slug: 'usa/north-dakota' },
+    { name: 'Ohio', slug: 'usa/ohio' },
+    { name: 'Oklahoma', slug: 'usa/oklahoma' },
+    { name: 'Oregon', slug: 'usa/oregon' },
+    { name: 'Pennsylvania', slug: 'usa/pennsylvania' },
+    { name: 'Rhode Island', slug: 'usa/rhode-island' },
+    { name: 'South Carolina', slug: 'usa/south-carolina' },
+    { name: 'South Dakota', slug: 'usa/south-dakota' },
+    { name: 'Tennessee', slug: 'usa/tennessee' },
+    { name: 'Texas', slug: 'usa/texas' },
+    { name: 'Utah', slug: 'usa/utah' },
+    { name: 'Vermont', slug: 'usa/vermont' },
+    { name: 'Virginia', slug: 'usa/virginia' },
+    { name: 'Washington', slug: 'usa/washington' },
+    { name: 'West Virginia', slug: 'usa/west-virginia' },
+    { name: 'Wisconsin', slug: 'usa/wisconsin' },
+    { name: 'Wyoming', slug: 'usa/wyoming' }
+  ],
+};
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -56,6 +104,8 @@ const GlobalHeader = () => {
             >
               Find Showers
             </Link>
+
+            
             
             {/* Regions Dropdown */}
             <div 

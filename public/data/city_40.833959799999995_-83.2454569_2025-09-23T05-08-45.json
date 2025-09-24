@@ -1,0 +1,1165 @@
+{
+  "timestamp": "2025-09-23T11:16:54.182Z",
+  "city": "40.833959799999995",
+  "state": "-83.2454569",
+  "sessionId": "2025-09-23T05-08-45",
+  "totalLocations": 11,
+  "locationsWithShowerReviews": 7,
+  "totalShowerReviews": 61,
+  "locations": [
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(1",
+      "city": "048)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8344094",
+      "lng": "-83.2488938",
+      "phone": "+1 419-294-2971",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Olga",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Very nice place! The staff is friendly and polite — it creates a welcoming atmosphere right away. The restrooms are clean and well-maintained, which is also important. Thank you for the comfort!",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Olga_Very_nice_place!_The_staff_is_friendly_and_polite__a month ago"
+        },
+        {
+          "reviewerName": "Ivanabea Truckderummy",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "It's a Truck Stop designed for Truckers. It fits. This Pilot is one of the cleanest I've seen. I dislike that cars are going on the Truck fuel island to use the air lines. This is for semis, not cars. We have to put up with that crap enough …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Ivanabea Truckderummy_It's_a_Truck_Stop_designed_for_Truckers._It_fits.__5 months ago"
+        },
+        {
+          "reviewerName": "Andrew Sites",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Workers just standing around. Meanwhile the toilets are full of you know what and unusable. Also you’ll be happy to know they have 4 working dryers! As if it matters tho cause they only have one worker washer. Meanwhile the machines they use all work just fine. Typical",
+          "showerKeywords": [
+            "wash"
+          ],
+          "index": 27,
+          "uniqueId": "Andrew Sites_Workers_just_standing_around._Meanwhile_the_toilet_5 months ago"
+        },
+        {
+          "reviewerName": "Shell Barr",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Very nice, prices are good. Nice! Clean showers & bathrooms. Easy in & Easy out!!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 49,
+          "uniqueId": "Shell Barr_Very_nice,_prices_are_good._Nice!_Clean_showers_&__2 months ago"
+        },
+        {
+          "reviewerName": "Abner Shoemaker",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Nice clean place to stop and take a break.\n\nThat being said, IF you have a travel trailer of any decent size maneuvering in …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Abner Shoemaker_Nice_clean_place_to_stop_and_take_a_break._That_b_6 years ago"
+        },
+        {
+          "reviewerName": "Jason Zeigler",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Fantastic and friendly customer service. The staff was warm and welcoming. It was my first time using the shower facilities while traveling and they were very clean!",
+          "showerKeywords": [
+            "shower",
+            "facilities",
+            "clean"
+          ],
+          "index": 76,
+          "uniqueId": "Jason Zeigler_Fantastic_and_friendly_customer_service._The_staff_7 months ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: restroom, clean, wash, shower, showers, bathroom, facilities",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1600 E Wyandot Ave, Upper Sandusky, OH 43351, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@40.8344094,-83.2488938,17z/data=!3m1!5s0x88396a067fe3db21:0xbd2bf4f6fbaf18fe!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88396a07fb32816b:0x56f8d47bfa131d05!8m2!3d40.8339474!4d-83.2454951!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1xn_p10y?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.1(732)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8555952",
+      "lng": "-83.3045069",
+      "phone": "+1 419-209-0950",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mohamed Mohamud",
+          "rating": "1 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "… people if you black American or any other black or people of color please avoid this place don’t take gas don’t ask shower even ignore the food because what I hear people and what I see was same please be aware of the situation of …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Mohamed Mohamud_…_people_if_you_black_American_or_any_other_black__4 weeks ago"
+        },
+        {
+          "reviewerName": "S P",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "I can believe people smile that wide if you pay them $13/hour. You call it GREAT PAY?! How dare are you Love’s?! Now I feel guilty when use shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 10,
+          "uniqueId": "S P_I_can_believe_people_smile_that_wide_if_you_pay_th_11 months ago"
+        },
+        {
+          "reviewerName": "B Com",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This is a very clean place and I recommend using the place if you need a quick shower as well. The showers are clean and private and well taken care of. I had to use the showers out there temporarily while the contractors had my bathroom …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "B Com_This_is_a_very_clean_place_and_I_recommend_using_t_4 years ago"
+        },
+        {
+          "reviewerName": "TIMEZUP",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This is the best Love’s I’ve been to in a long time!!! Clean, super friendly staff, 3 towels in the shower, plus it was super clean. Just amazed with the overall experience at this location today 06/30/19 around 10:30 am. Just a great group …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 28,
+          "uniqueId": "TIMEZUP_This_is_the_best_Love’s_I’ve_been_to_in_a_long_tim_6 years ago"
+        },
+        {
+          "reviewerName": "Barb F",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This store didn't have any men working so they have to close the men's room for the courtesy check. The assistant manager Sara let the line up of men use the shower rooms. Amazing!! Thank you Sara my husband appreciated it very much!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Barb F_This_store_didn't_have_any_men_working_so_they_hav_4 years ago"
+        },
+        {
+          "reviewerName": "Marie (SnowyDawn)",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "… very friendly staff and everything is well stocked. And they have showers and whatever for truckers because I always hear them call out on the PA when the truckers bathroom shower is ready. I highly recommend this truck stop you will not …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 43,
+          "uniqueId": "Marie (SnowyDawn)_…_very_friendly_staff_and_everything_is_well_stock_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Matthew Truelove",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This location does not care about drivers. Just got denied a shower because no physical card. Who cares you get paid by corporate so long as showers are on account.  Nice way to treat someone who sacrificed home time for you.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 51,
+          "uniqueId": "Matthew Truelove_This_location_does_not_care_about_drivers._Just_go_4 years ago"
+        },
+        {
+          "reviewerName": "euGenius Vision LLC",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "One of the Love's Travel Stops I stop at least once a month. Good area, clean restrooms and shower. They have everything you would need for a Truck stop. There is KFC opposite this stop, on other side of the road.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "euGenius Vision LLC_One_of_the_Love's_Travel_Stops_I_stop_at_least_onc_5 years ago"
+        },
+        {
+          "reviewerName": "Adler Muscles Lacroix",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "If a Driver need to take shower 🚿 stay a way from that place they never have shower Today 2/04/2024 is my 3rd times in less than a month I visit this loves to fill up and take shower 🚿 but shower always out of order worst place to come to😡😡 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "Adler Muscles Lacroix_If_a_Driver_need_to_take_shower_🚿_stay_a_way_from_a year ago"
+        },
+        {
+          "reviewerName": "Brad Harry",
+          "rating": "2 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Shower was missing wash cloth and floor mat. Made do with what was there. Clean but when informed about the problem it fell on deaf ears. Typical driver treatment.",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 73,
+          "uniqueId": "Brad Harry_Shower_was_missing_wash_cloth_and_floor_mat._Made__8 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, bathroom, clean, restroom, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1301 N Warpole St, Upper Sandusky, OH 43351, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@40.8555952,-83.3045069,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x883943d41597b683:0x2003c7e7662923f9!8m2!3d40.8555952!4d-83.3000008!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11dznmf5wk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Truckers Lounge - Commodore Perry Service Plaza",
+      "street": "Truckers Lounge - Commodore Perry Service Plaza 4.3(340)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.3677763",
+      "lng": "-82.9633155",
+      "phone": "+1 440-234-2081",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Truckers Lounge - Commodore Perry Service Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Gayle Carter",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I love this place this is where they shower me with love at Starbucks with my Ruben Crunch with extra Carmel and Crunch also I get oat milk same price and the service and staff are amazing. They kn me now I stop there on my way to Cleveland …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Gayle Carter_I_love_this_place_this_is_where_they_shower_me_wit_2 years ago"
+        },
+        {
+          "reviewerName": "J. Savage",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Rest stop should remove the metal from out the shower to prevent someone cutting themselves contracting a flesh eating bacteria causing whom ever to have medical treatment or amputation. I advise yall to remove all metal from yall showers …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 12,
+          "uniqueId": "J. Savage_Rest_stop_should_remove_the_metal_from_out_the_sho_a year ago"
+        },
+        {
+          "reviewerName": "Robert Kurtz",
+          "rating": "5 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Nice place to do laundry and a shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 20,
+          "uniqueId": "Robert Kurtz_Nice_place_to_do_laundry_and_a_shower._8 years ago"
+        },
+        {
+          "reviewerName": "steven “Smurf” harowski",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Clean restrooms and shower with plenty of parking",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 29,
+          "uniqueId": "steven “Smurf” harowski_Clean_restrooms_and_shower_with_plenty_of_parking_3 years ago"
+        },
+        {
+          "reviewerName": "Joe Barker",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Trucker friendly with free shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Joe Barker_Trucker_friendly_with_free_shower_2 years ago"
+        }
+      ],
+      "showerReviewCount": 5,
+      "showerReviewSummary": "5 shower-related reviews found. Generally Positive mentions of: shower, showers, restroom, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "Commodore Perry Service Plaza, Ohio Tpke, Vickery, OH 43464, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Truckers+Lounge+-+Commodore+Perry+Service+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truckers+Lounge+-+Commodore+Perry+Service+Plaza/@41.3677763,-82.9633155,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x883bca67a5acf8fb:0x9de2dabfb5bd7f18!8m2!3d41.3677763!4d-82.9588094!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5IWDAxZmVGZFJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQLw!16s%2Fg%2F11cmql390p?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.2(772)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8555952",
+      "lng": "-83.3045069",
+      "phone": "+1 419-209-0950",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mohamed Mohamud",
+          "rating": "1 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "… people if you black American or any other black or people of color please avoid this place don’t take gas don’t ask shower even ignore the food because what I hear people and what I see was same please be aware of the situation of …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Mohamed Mohamud_…_people_if_you_black_American_or_any_other_black__4 weeks ago"
+        },
+        {
+          "reviewerName": "S P",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "I can believe people smile that wide if you pay them $13/hour. You call it GREAT PAY?! How dare are you Love’s?! Now I feel guilty when use shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 10,
+          "uniqueId": "S P_I_can_believe_people_smile_that_wide_if_you_pay_th_11 months ago"
+        },
+        {
+          "reviewerName": "B Com",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This is a very clean place and I recommend using the place if you need a quick shower as well. The showers are clean and private and well taken care of. I had to use the showers out there temporarily while the contractors had my bathroom …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "B Com_This_is_a_very_clean_place_and_I_recommend_using_t_4 years ago"
+        },
+        {
+          "reviewerName": "TIMEZUP",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This is the best Love’s I’ve been to in a long time!!! Clean, super friendly staff, 3 towels in the shower, plus it was super clean. Just amazed with the overall experience at this location today 06/30/19 around 10:30 am. Just a great group …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 28,
+          "uniqueId": "TIMEZUP_This_is_the_best_Love’s_I’ve_been_to_in_a_long_tim_6 years ago"
+        },
+        {
+          "reviewerName": "Barb F",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This store didn't have any men working so they have to close the men's room for the courtesy check. The assistant manager Sara let the line up of men use the shower rooms. Amazing!! Thank you Sara my husband appreciated it very much!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Barb F_This_store_didn't_have_any_men_working_so_they_hav_4 years ago"
+        },
+        {
+          "reviewerName": "Marie (SnowyDawn)",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "… very friendly staff and everything is well stocked. And they have showers and whatever for truckers because I always hear them call out on the PA when the truckers bathroom shower is ready. I highly recommend this truck stop you will not …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 43,
+          "uniqueId": "Marie (SnowyDawn)_…_very_friendly_staff_and_everything_is_well_stock_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Matthew Truelove",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This location does not care about drivers. Just got denied a shower because no physical card. Who cares you get paid by corporate so long as showers are on account.  Nice way to treat someone who sacrificed home time for you.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 51,
+          "uniqueId": "Matthew Truelove_This_location_does_not_care_about_drivers._Just_go_4 years ago"
+        },
+        {
+          "reviewerName": "euGenius Vision LLC",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "One of the Love's Travel Stops I stop at least once a month. Good area, clean restrooms and shower. They have everything you would need for a Truck stop. There is KFC opposite this stop, on other side of the road.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "euGenius Vision LLC_One_of_the_Love's_Travel_Stops_I_stop_at_least_onc_5 years ago"
+        },
+        {
+          "reviewerName": "Adler Muscles Lacroix",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "If a Driver need to take shower 🚿 stay a way from that place they never have shower Today 2/04/2024 is my 3rd times in less than a month I visit this loves to fill up and take shower 🚿 but shower always out of order worst place to come to😡😡 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "Adler Muscles Lacroix_If_a_Driver_need_to_take_shower_🚿_stay_a_way_from_a year ago"
+        },
+        {
+          "reviewerName": "Brad Harry",
+          "rating": "2 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Shower was missing wash cloth and floor mat. Made do with what was there. Clean but when informed about the problem it fell on deaf ears. Typical driver treatment.",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 73,
+          "uniqueId": "Brad Harry_Shower_was_missing_wash_cloth_and_floor_mat._Made__8 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, bathroom, clean, restroom, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1301 N Warpole St, Upper Sandusky, OH 43351, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@40.8555952,-83.3045069,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x883943d41597b683:0x2003c7e7662923f9!8m2!3d40.8555952!4d-83.3000008!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11dznmf5wk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Northside Fuel & Food Mart",
+      "street": "Northside Fuel & Food Mart 4.2(313)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8228173",
+      "lng": "-82.9791214",
+      "phone": "+1 419-563-0777",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Northside Fuel & Food Mart may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open ⋅ Closes 11 pm Tuesday5:30 am–11 pmWednesday5:30 am–11 pmThursday5:30 am–11 pmFriday5:30 am–11 pmSaturday6 am–11 pmSunday6 am–10 pmMonday5:30 am–11 pmSuggest new hours",
+      "address": "1505 N Sandusky Ave, Bucyrus, OH 44820, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Northside+Fuel+%26+Food+Mart",
+      "googleMapsUrl": "https://www.google.com/maps/place/Northside+Fuel+%26+Food+Mart/@40.8228173,-82.9791214,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8839741f040ad1af:0xfdb2e9da8b254df!8m2!3d40.8228173!4d-82.9746153!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJYT0U0eVZGaG5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQPw!16s%2Fg%2F11b66kmsqk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.1(68)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8555952",
+      "lng": "-83.3045069",
+      "phone": "+1 419-209-0950",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mohamed Mohamud",
+          "rating": "1 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "… people if you black American or any other black or people of color please avoid this place don’t take gas don’t ask shower even ignore the food because what I hear people and what I see was same please be aware of the situation of …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Mohamed Mohamud_…_people_if_you_black_American_or_any_other_black__4 weeks ago"
+        },
+        {
+          "reviewerName": "S P",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "I can believe people smile that wide if you pay them $13/hour. You call it GREAT PAY?! How dare are you Love’s?! Now I feel guilty when use shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 10,
+          "uniqueId": "S P_I_can_believe_people_smile_that_wide_if_you_pay_th_11 months ago"
+        },
+        {
+          "reviewerName": "B Com",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This is a very clean place and I recommend using the place if you need a quick shower as well. The showers are clean and private and well taken care of. I had to use the showers out there temporarily while the contractors had my bathroom …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "B Com_This_is_a_very_clean_place_and_I_recommend_using_t_4 years ago"
+        },
+        {
+          "reviewerName": "TIMEZUP",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This is the best Love’s I’ve been to in a long time!!! Clean, super friendly staff, 3 towels in the shower, plus it was super clean. Just amazed with the overall experience at this location today 06/30/19 around 10:30 am. Just a great group …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 28,
+          "uniqueId": "TIMEZUP_This_is_the_best_Love’s_I’ve_been_to_in_a_long_tim_6 years ago"
+        },
+        {
+          "reviewerName": "Barb F",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This store didn't have any men working so they have to close the men's room for the courtesy check. The assistant manager Sara let the line up of men use the shower rooms. Amazing!! Thank you Sara my husband appreciated it very much!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Barb F_This_store_didn't_have_any_men_working_so_they_hav_4 years ago"
+        },
+        {
+          "reviewerName": "Marie (SnowyDawn)",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "… very friendly staff and everything is well stocked. And they have showers and whatever for truckers because I always hear them call out on the PA when the truckers bathroom shower is ready. I highly recommend this truck stop you will not …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 43,
+          "uniqueId": "Marie (SnowyDawn)_…_very_friendly_staff_and_everything_is_well_stock_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Matthew Truelove",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This location does not care about drivers. Just got denied a shower because no physical card. Who cares you get paid by corporate so long as showers are on account.  Nice way to treat someone who sacrificed home time for you.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 51,
+          "uniqueId": "Matthew Truelove_This_location_does_not_care_about_drivers._Just_go_4 years ago"
+        },
+        {
+          "reviewerName": "euGenius Vision LLC",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "One of the Love's Travel Stops I stop at least once a month. Good area, clean restrooms and shower. They have everything you would need for a Truck stop. There is KFC opposite this stop, on other side of the road.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "euGenius Vision LLC_One_of_the_Love's_Travel_Stops_I_stop_at_least_onc_5 years ago"
+        },
+        {
+          "reviewerName": "Adler Muscles Lacroix",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "If a Driver need to take shower 🚿 stay a way from that place they never have shower Today 2/04/2024 is my 3rd times in less than a month I visit this loves to fill up and take shower 🚿 but shower always out of order worst place to come to😡😡 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "Adler Muscles Lacroix_If_a_Driver_need_to_take_shower_🚿_stay_a_way_from_a year ago"
+        },
+        {
+          "reviewerName": "Brad Harry",
+          "rating": "2 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Shower was missing wash cloth and floor mat. Made do with what was there. Clean but when informed about the problem it fell on deaf ears. Typical driver treatment.",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 73,
+          "uniqueId": "Brad Harry_Shower_was_missing_wash_cloth_and_floor_mat._Made__8 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, bathroom, clean, restroom, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1301 N Warpole St, Upper Sandusky, OH 43351, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@40.8555952,-83.3045069,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x883943d41597b683:0x2003c7e7662923f9!8m2!3d40.8555952!4d-83.3000008!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11dznmf5wk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "US 20 Main Stop",
+      "street": "US 20 Main Stop 4.0(2)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.0816481",
+      "lng": "-83.4041005",
+      "phone": "+1 419-595-2268",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "US 20 Main Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "11960 US-224, Alvada, OH 44802, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "US+20+Main+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/US+20+Main+Stop/@41.0816481,-83.4041005,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88395872a1f4c561:0x6e6cfc05127ef65e!8m2!3d41.0816481!4d-83.3995944!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F1hc0s4jgb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Casey's",
+      "street": "USD 10–20Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8272277",
+      "lng": "-83.2893261",
+      "phone": "+1 419-209-0536",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Casey's may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "301 W Wyandot Ave, Upper Sandusky, OH 43351, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Pizza delivery",
+      "placeId": "Casey's",
+      "googleMapsUrl": "https://www.google.com/maps/place/Casey's/@40.8272277,-83.2893261,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8839412cd2a97ca7:0x211eb7b9a19abb9!8m2!3d40.8272277!4d-83.28482!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARZwaXp6YV9kZWxpdmVyeV9zZXJ2aWNlqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11fqt1172w?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Iowa 80 - The World's Largest Truckstop",
+      "street": "Iowa 80 - The World's Largest Truckstop 4.6(23",
+      "city": "375)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.6178614",
+      "lng": "-90.7861323",
+      "phone": "+1 563-284-6961",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Iowa 80 - The World's Largest Truckstop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Karen “Kmini”",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "… We spent the night in the RV lot after seeking shelter from dangerous winds & possible severe t-storms. We were able to do laundry & shower,  All very clean.  The laundry was very clean & reasonably priced... would definitely recommend! A …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Karen “Kmini”_…_We_spent_the_night_in_the_RV_lot_after_seeking_s_6 months ago"
+        },
+        {
+          "reviewerName": "Mama Bear",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… has many hidden amenities.  A great place for everyone but especially for truckers, and long haulers, as they have laundry and shower facilities as well as a dentist, barber, work out facilities and so much more! We love stopping on our …",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 12,
+          "uniqueId": "Mama Bear_…_has_many_hidden_amenities._A_great_place_for_ev_a month ago"
+        },
+        {
+          "reviewerName": "Bruce Poolaw",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… entertainment. There’s a huge convenience store for your snack needs and a diner that serves both menu items and a buffet. Didn’t get a shower there but the restrooms were clean. The place has 3 floors that includes a barber. There’s also …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Bruce Poolaw_…_entertainment._There’s_a_huge_convenience_store__a year ago"
+        },
+        {
+          "reviewerName": "Kriti Anand",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Pretty big with lots to do. Has a shower area. Tons of restaurants. Stuff for kids to explore and see. Has a chiropractor on site. This place has leveled up in the last few years by adding tons of stuff. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "Kriti Anand_Pretty_big_with_lots_to_do._Has_a_shower_area._Ton_a year ago"
+        },
+        {
+          "reviewerName": "Trucker Kearsey",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Hadn't been here in years. Went to take a shower on Palm Sunday and Pastor Daryl was giving a sermon in the lounge in front of the showers. The Lord told me to stay. Was warm & friendly service. Then I met with the pastor for 4 hours that …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 44,
+          "uniqueId": "Trucker Kearsey_Hadn't_been_here_in_years._Went_to_take_a_shower_o_5 months ago"
+        },
+        {
+          "reviewerName": "Van Strickland",
+          "rating": "5 stars",
+          "reviewDate": "Edited 3 years ago",
+          "reviewText": "… of necessities and snacks. Spend some time wandering around the main store area, there's plenty to see. Clean restrooms and shower. Navigate through the various gift shops located throughout the facility. You can also get customized …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Van Strickland_…_of_necessities_and_snacks._Spend_some_time_wande_Edited 3 years ago"
+        },
+        {
+          "reviewerName": "Sunil Kumar Khullar",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "World’s biggest truck stop. Besides truck parking which can park 900 trucks you have a restaurant, theatre, shower rooms, lounge, convince stores. Its is spread in 75 acres. If I am not wrong you can park here for free. It has fuel station …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 64,
+          "uniqueId": "Sunil Kumar Khullar_World’s_biggest_truck_stop._Besides_truck_parking__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Wind Napol",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "This place is huge. There’s a food court inside the truck stop. Upstairs there are dentist, chiropractor, shower, laundry, hair salon. And the truck section of stuff takes up half of the place. Parking was no problem. There’s also tesla …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 76,
+          "uniqueId": "Wind Napol_This_place_is_huge._There’s_a_food_court_inside_th_2 years ago"
+        },
+        {
+          "reviewerName": "Nathan Flaminio",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… You can take a shower, get a haircut, and watch a movie. There's even a dentist and a chiropractor. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 88,
+          "uniqueId": "Nathan Flaminio_…_You_can_take_a_shower,_get_a_haircut,_and_watch__3 years ago"
+        },
+        {
+          "reviewerName": "h singh",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… and friendly service here you can buy too much trick stuff from here lights bumper fittings hoses etc. little price higher Coustmer service very good here i love this location shower also very clean and too much like more than 25 may be",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 100,
+          "uniqueId": "h singh_…_and_friendly_service_here_you_can_buy_too_much_t_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, facilities, restroom, showers",
+      "hours": "",
+      "address": "755 W Iowa 80 Rd, Walcott, IA 52773, United States",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Iowa+80+-+The+World's+Largest+Truckstop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Iowa+80+-+The+World's+Largest+Truckstop/@41.6178614,-90.7861323,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x87e3b869e83371b5:0x5bed950d63a52c0d!8m2!3d41.6178614!4d-90.7816262!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJLTFRoTWFqVm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAh8EEk!16s%2Fm%2F02rk999?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Vast highway rest stop with a home-style eatery & fast food franchises, plus a vintage truck museum.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Bryan Fuel Stop",
+      "street": "Bryan Fuel Stop 4.2(131)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.4423194",
+      "lng": "-84.5391739",
+      "phone": "+1 419-636-0523",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Bryan Fuel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open ⋅ Closes 8 pm Tuesday6 am–8 pmWednesday6 am–8 pmThursday6 am–8 pmFriday6 am–8 pmSaturday8 am–3 pmSundayClosedMonday6 am–8 pmSuggest new hours",
+      "address": "2042 Williams County Rd 15, Bryan, OH 43506, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Bryan+Fuel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Bryan+Fuel+Stop/@41.4423194,-84.5391739,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8838ea4250f7e25f:0x80ebb83dafc2ade9!8m2!3d41.4423194!4d-84.5346678!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJIY1U5dE16Um5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDQ!16s%2Fg%2F1ts1n9hr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.9(1",
+      "city": "674)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8339474",
+      "lng": "-83.2500012",
+      "phone": "+1 419-294-2971",
+      "website": "https://locations.pilotflyingj.com/us/oh/upper-sandusky/1600-east-wyandot-avenue",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jason Zeigler",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Fantastic and friendly customer service. The staff was warm and welcoming. It was my first time using the shower facilities while traveling and they were very clean!",
+          "showerKeywords": [
+            "shower",
+            "facilities",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Jason Zeigler_Fantastic_and_friendly_customer_service._The_staff_7 months ago"
+        },
+        {
+          "reviewerName": "Carl maglio",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The shower rooms have plenty of space, the worker's are very polite, this is the best Pilot I've been to.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 7,
+          "uniqueId": "Carl maglio_The_shower_rooms_have_plenty_of_space,_the_worker'_6 years ago"
+        },
+        {
+          "reviewerName": "kathiuzka chiquito-Herrera",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "For first time in one year we have the pleasto visit a very good care and clean Pilot. The shower was very clean good maintained (except for the trash can that was with some early trash). Good customer service. Good job manager and team.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 15,
+          "uniqueId": "kathiuzka chiquito-Herrera_For_first_time_in_one_year_we_have_the_pleasto_vis_2 years ago"
+        },
+        {
+          "reviewerName": "Jen Moore",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… . Clean restrooms with lots of privacy, well stocked with soap and that scrubby stuff to remove oil and grease from your hands. It also appears that they have laundry and possibly shower facilities. Food options including a Subway. Thanks …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "facilities",
+            "clean"
+          ],
+          "index": 22,
+          "uniqueId": "Jen Moore_…_._Clean_restrooms_with_lots_of_privacy,_well_sto_6 years ago"
+        },
+        {
+          "reviewerName": "Randy Radford",
+          "rating": "4 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Friendly, nice employees, no complaints whatsoever. Nice decent shower. Clean restrooms, plenty of food options. If there's not enough parking, there is a Walmart right down the road that I personally gave 5 stars.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Randy Radford_Friendly,_nice_employees,_no_complaints_whatsoever_8 years ago"
+        },
+        {
+          "reviewerName": "Shushanna Petrosyan",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Today, my father was at this Pilot center during the day in line to get a shower ticket. He was second in line and the man in front of him was having a credit card issue and spent about ten minutes trying to get it fixed, talking to the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 37,
+          "uniqueId": "Shushanna Petrosyan_Today,_my_father_was_at_this_Pilot_center_during_t_5 years ago"
+        },
+        {
+          "reviewerName": "Plumber",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Great shower's good food for what it's worth",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 45,
+          "uniqueId": "Plumber_Great_shower's_good_food_for_what_it's_worth_6 years ago"
+        },
+        {
+          "reviewerName": "Sue Nelson",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Nice place to stop for us trucker's, fuel,shower and something to eat. And the cashier Tim was very good to us 😊😊 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 53,
+          "uniqueId": "Sue Nelson_Nice_place_to_stop_for_us_trucker's,_fuel,shower_a_6 years ago"
+        },
+        {
+          "reviewerName": "Anthony Oliver",
+          "rating": "5 stars",
+          "reviewDate": "9 years ago",
+          "reviewText": "Was able to come to this place late at night to do laundry, take a shower and get fuel for my truck. Friendly staff.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 60,
+          "uniqueId": "Anthony Oliver_Was_able_to_come_to_this_place_late_at_night_to_do_9 years ago"
+        },
+        {
+          "reviewerName": "William Jones",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "The shower heads need to be taller.  At 6'5\" i shouldn't be eye level with it when the ceiling is 2ft taller.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 67,
+          "uniqueId": "William Jones_The_shower_heads_need_to_be_taller._At_6'5\"_i_sho_5 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, facilities, clean, restroom",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1600 E Wyandot Ave, Upper Sandusky, OH 43351, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@40.8339474,-83.2500012,17z/data=!3m1!5s0x88396a067fe3db21:0xbd2bf4f6fbaf18fe!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88396a07fb32816b:0x56f8d47bfa131d05!8m2!3d40.8339474!4d-83.2454951!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1xn_p10y?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

@@ -1,0 +1,1230 @@
+{
+  "timestamp": "2025-09-23T16:37:52.702Z",
+  "city": "36.158897599999996",
+  "state": "-85.5248119",
+  "sessionId": "2025-09-23T15-26-03",
+  "totalLocations": 9,
+  "locationsWithShowerReviews": 8,
+  "totalShowerReviews": 73,
+  "locations": [
+    {
+      "title": "ONE9 Travel Center",
+      "street": "ONE9 Travel Center 4.0(1",
+      "city": "435)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1337372",
+      "lng": "-85.5087237",
+      "phone": "+1 931-528-7100",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "ONE9 Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "K Brunner",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Worst place in the world to fuel! Smallest dirtiest truck stop I have ever seen. Shouldn’t even have showers here cause they don’t have parking. Waited in line over 40 minutes and these guys came from across the street at KFC. Not a care in the world.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 9,
+          "uniqueId": "K Brunner_Worst_place_in_the_world_to_fuel!_Smallest_dirties_2 years ago"
+        },
+        {
+          "reviewerName": "Ami Morrison",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Very impressed with this travel center. Store and restrooms were very clean and staff were super friendly! Make sure to swing by and say “Hey!”",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 29,
+          "uniqueId": "Ami Morrison_Very_impressed_with_this_travel_center._Store_and__2 months ago"
+        },
+        {
+          "reviewerName": "Kelly Nichols",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "They just lost my business I was going to make this one of my mid trip fueling locations but when I got there on 07/29/25 there was 3 trucks just blocking the fuel island one idiot was actually washing his truck so I just left you can say anything to idiots like that it would never do any good",
+          "showerKeywords": [
+            "wash"
+          ],
+          "index": 78,
+          "uniqueId": "Kelly Nichols_They_just_lost_my_business_I_was_going_to_make_thi_a month ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, restroom, clean, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1111 S Jefferson Ave, Cookeville, TN 38501, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "ONE9+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/ONE9+Travel+Center/@36.1337372,-85.5087237,17z/data=!3m1!5s0x886723cb6de56ca1:0xf580754a1d5e680!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x886723cb6455bf93:0x18f77ab0c94c5f75!8m2!3d36.1337372!4d-85.5042176!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tjfb_jz?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.0(1",
+      "city": "078)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1397222",
+      "lng": "-85.6347839",
+      "phone": "+1 931-858-6150",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ajaib Handa",
+          "rating": "3 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "Everything is good but im stop here take a break and shower 🚿 but water is not good for showers …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Ajaib Handa_Everything_is_good_but_im_stop_here_take_a_break_a_3 weeks ago"
+        },
+        {
+          "reviewerName": "Lorenzo Johnson",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Shower Room Toilet Seat Was Not Wiped Clean At All & Really Most of The Shower Rooms At Loves TRUCK Stops This is A Ongoing Real Problem That Needs To Be Addressed immediately!! It's Still way To Much Going ON & Around For This To Go ON …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Lorenzo Johnson_Shower_Room_Toilet_Seat_Was_Not_Wiped_Clean_At_All_a year ago"
+        },
+        {
+          "reviewerName": "Brandon Polley",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Stopped to switch drivers here and get a shower. Shower was cold for a minute but got hotter. We stop here pretty regularly and it’s a nice location. I like the Love’s with McDonald’s because I use the app while I’m getting fuel and just …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "Brandon Polley_Stopped_to_switch_drivers_here_and_get_a_shower._S_2 years ago"
+        },
+        {
+          "reviewerName": "Raquel Garza",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… on her face was extremely rude to my daughter and mother. The bathroom was out of service, the kind woman at the front gave them a key to use the bathroom in the shower. The rude woman went and harassed them as they were leaving the …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 23,
+          "uniqueId": "Raquel Garza_…_on_her_face_was_extremely_rude_to_my_daughter_an_2 years ago"
+        },
+        {
+          "reviewerName": "Kimberly Woosley",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… . They have so many choices for a snack & drink or even a quick meal. They also have very nice & clean restrooms, a place to take a shower or wash clothes. What I liked best was their very big selection of foods & snacks & drinks!!! Our …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean",
+            "wash"
+          ],
+          "index": 31,
+          "uniqueId": "Kimberly Woosley_…_._They_have_so_many_choices_for_a_snack_&_drink__3 years ago"
+        },
+        {
+          "reviewerName": "Telo",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Appreciate a clean shower. Thanks",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 39,
+          "uniqueId": "Telo_Appreciate_a_clean_shower._Thanks_2 years ago"
+        },
+        {
+          "reviewerName": "Timothy Ochoa",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Stopped for a shower after driving all night. Waited patiently for Abt 30 minutes before I said anything and got attitude right away. So I walked to the back to see if anyone was cleaning them and some girl Bobbi was standing in the back …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 50,
+          "uniqueId": "Timothy Ochoa_Stopped_for_a_shower_after_driving_all_night._Wait_2 years ago"
+        },
+        {
+          "reviewerName": "emu babygirl",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… is an okay loves for truckers. Quick stop...huddle House across the street for food. Too many 4 wheelers, people, and children for it to be a comfortable stop. Not enough stalls in the bathroom, men's or woman's. Expect a wait for a shower.",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 58,
+          "uniqueId": "emu babygirl_…_is_an_okay_loves_for_truckers._Quick_stop...hudd_7 years ago"
+        },
+        {
+          "reviewerName": "Cassi Lynn",
+          "rating": "3 stars",
+          "reviewDate": "Edited 8 years ago",
+          "reviewText": "… Hope you don't want to get a shower today 8/4/17, between 8am-11am. they shut off the water for maintenance and only have a small sign on the door.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 66,
+          "uniqueId": "Cassi Lynn_…_Hope_you_don't_want_to_get_a_shower_today_8/4/17_Edited 8 years ago"
+        },
+        {
+          "reviewerName": "martin revens",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "34 hr reset here no ice machine broke 2 days u can go to McDonalds but will charge for ice. Showers are bad shower 4. mold . handles fall off and is coming off the wall.   shower 1 is not avail it's now a storeroom for laundry. Mens room …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 74,
+          "uniqueId": "martin revens_34_hr_reset_here_no_ice_machine_broke_2_days_u_can_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "110 Fast Ln, Baxter, TN 38544, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@36.1397222,-85.6347839,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8866df09ce9355cb:0x835c3032778b5335!8m2!3d36.1397222!4d-85.6302778!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1v_w32gx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Express Travel Center",
+      "street": "TA Express Travel Center 3.8(164)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1302988",
+      "lng": "-85.4841213",
+      "phone": "+1 931-559-8239",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "TA Express Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Charles Pyatt",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Nice place but shotty construction for a new facility unlike any other TA/Petro location. Shower doesn't fit anyone over 5'10\" without hitting their head. All tiles are crooked and sloppily installed, the contractor should be ashamed of …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Charles Pyatt_Nice_place_but_shotty_construction_for_a_new_facil_a year ago"
+        },
+        {
+          "reviewerName": "George Schoof",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… I’m going down the road with no hours. That $17 shower is the last money you’ll ever see from me. 12 years doing this and I’ve never had to worry about getting kicked out of an unmarked spot at a major truckstop. Absolutely ridiculous.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 11,
+          "uniqueId": "George Schoof_…_I’m_going_down_the_road_with_no_hours._That_$17__3 months ago"
+        },
+        {
+          "reviewerName": "Stanley Anderson",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This TA Express location has tone one of the worst that I have ever visited. The from the poor plumbing in the showers to the insane amount of reserve parking. I had to stand in line to get a simple shower because the their system was not …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 19,
+          "uniqueId": "Stanley Anderson_This_TA_Express_location_has_tone_one_of_the_worst_a year ago"
+        },
+        {
+          "reviewerName": "Donny Wheeler",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… I didn't catch his name but the man cleaning the showers on 6/6/24 around noon is extremely rude.  I told him my door code wasn't working and tried to show him the receipt and he cut me off and told me to go recheck my number on the screen …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 28,
+          "uniqueId": "Donny Wheeler_…_I_didn't_catch_his_name_but_the_man_cleaning_the_a year ago"
+        },
+        {
+          "reviewerName": "Lamar Spruill",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Had to give this TA 5 stars just because the shower cleaning guy... was very nice and let me wash my feet in his laundry room (which he really didnt have to,  but did)... …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 36,
+          "uniqueId": "Lamar Spruill_Had_to_give_this_TA_5_stars_just_because_the_showe_a year ago"
+        },
+        {
+          "reviewerName": "Shelby King",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… and clean. My boyfriend got 2 orders of breadsticks and he said the breadsticks are fine but the marinara sauce that came with it was watery, didn’t really have a taste. The shower pressure was awesome. Great hot water.  Overall 3 stars.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 44,
+          "uniqueId": "Shelby King_…_and_clean._My_boyfriend_got_2_orders_of_breadsti_2 years ago"
+        },
+        {
+          "reviewerName": "ron olszowka",
+          "rating": "1 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "Nice place for truckers but needs improvement in 2 areas. The app doesn't work for fueling and showers and I was forced to use the kiosk. The sink water pressure in the shower  isn't enough to rinse the razor when shaving and you can't …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 52,
+          "uniqueId": "ron olszowka_Nice_place_for_truckers_but_needs_improvement_in_2_Edited a year ago"
+        },
+        {
+          "reviewerName": "Derek Storey",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Restaurants closed earlier than posted hours! No hooks in showers!!! Nor anywhere to put a shower bag/ clothes besides the dirty floor. Poor lighting in showers. At all TA/Petro supposed to get 2 towels, only get 1 here and they refused to …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 60,
+          "uniqueId": "Derek Storey_Restaurants_closed_earlier_than_posted_hours!_No_h_2 years ago"
+        },
+        {
+          "reviewerName": "Randall Dobson",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Was going to park $20 shower $15 and eat here but couldn't get any football on the TV. Couldn't get anything on the TV. I left. May I suggest cable TV?  Large TV and nothing to watch?",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 68,
+          "uniqueId": "Randall Dobson_Was_going_to_park_$20_shower_$15_and_eat_here_but__a year ago"
+        },
+        {
+          "reviewerName": "Dawn Alverson",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "First stop there. Took shower and it was so nice and clean , the hubby went and got pasta dinners for us  And the coffee was great . Definitely will be our stop off 40 from now on !!!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 75,
+          "uniqueId": "Dawn Alverson_First_stop_there._Took_shower_and_it_was_so_nice_a_2 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, wash",
+      "hours": "",
+      "address": "I-40, 1750 Salem Rd Exit 288, Cookeville, TN 38506, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Express+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Express+Travel+Center/@36.1302988,-85.4841213,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8867236f77079af9:0xc080fb655180ebc9!8m2!3d36.1302988!4d-85.4796152!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11lpxc41cd?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(1",
+      "city": "917)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1771715",
+      "lng": "-85.9531393",
+      "phone": "+1 615-683-3410",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Muza",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… workers. Clean area but smells very bad. Inside very clean and smell good. Truck park far from gas station, I walked 4-5 minutes under rain. Shower was clean but old. 3 stars is perfect but people who work there helped me so +1 star.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Muza_…_workers._Clean_area_but_smells_very_bad._Inside__10 months ago"
+        },
+        {
+          "reviewerName": "Corrinne Macleod",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… your against the self checkout you get an attitude.  However, if you get a cashier, take a shower or are interacting with any staff on the floor they are very nice super accommodating.  However, for a truck driver certain times it’s hard …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Corrinne Macleod_…_your_against_the_self_checkout_you_get_an_attitu_2 years ago"
+        },
+        {
+          "reviewerName": "2B88Player",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "It's been about 5 years since my last visit. Tony was the face I recognized still on the job. New counters and set up throughout. My shower was good but not 6'5 and taller friendly. Great coffee and nice place to stop. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "2B88Player_It's_been_about_5_years_since_my_last_visit._Tony__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Сергей Крвбцов",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I waited for an hour in line for a shower, but it never happened, the line in the program doesn't move.\nthe parking lot is half empty, how to drive 66 people in a line for showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Сергей Крвбцов_I_waited_for_an_hour_in_line_for_a_shower,_but_it__9 months ago"
+        },
+        {
+          "reviewerName": "Preston Lemke",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "the showers are so bad you feel like you need a shower for your shower 🤢🥴Truck parking is nice! Main convenience store are is clean stocked well lit and nice. Showers are short small old and yellow walls toilets was bout as clean as a port …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Preston Lemke_the_showers_are_so_bad_you_feel_like_you_need_a_sh_5 years ago"
+        },
+        {
+          "reviewerName": "Claudine Bartley",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I love pilot has almost everything u need and plus all the extras to shop for, need a shower they offer that",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Claudine Bartley_I_love_pilot_has_almost_everything_u_need_and_plus_9 months ago"
+        },
+        {
+          "reviewerName": "Mario Rampani",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Easy parking, hot and full of water pressure shower! Everything was clean ish...ive seen worse. But only reason 4 stars is showers were not fully cleaned right and it's one heck of a walk from the truck parking area...like not even a option …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "Mario Rampani_Easy_parking,_hot_and_full_of_water_pressure_showe_4 years ago"
+        },
+        {
+          "reviewerName": "Becky Barras",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The top 3 things that a trucker looks for at a truck stop is coffee with all the fixins, clean / stocked restrooms, and clean showers with hot water and high water pressure. This location has filthy, un-stocked restrooms and NO coffee …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Becky Barras_The_top_3_things_that_a_trucker_looks_for_at_a_tru_6 years ago"
+        },
+        {
+          "reviewerName": "jasmeet kalotia",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Do not park on the street you will get ticket. Local police will ticket you. Rested up got hot shower life is good. 🙏 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "jasmeet kalotia_Do_not_park_on_the_street_you_will_get_ticket._Loc_a year ago"
+        },
+        {
+          "reviewerName": "Steve&Tess LifeInUSA",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "To all truckers please dont shower here. This is the dirtiest & nastiest shower room health department need to check this place because truckers dont deserve treatment like this. We are also human need a clean shower.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Steve&Tess LifeInUSA_To_all_truckers_please_dont_shower_here._This_is_t_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom",
+      "hours": "",
+      "address": "502 Gordonsville Hwy, Gordonsville, TN 38563, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@36.1771715,-85.9531393,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8866bfebc7d043dd:0x22da601e0784fe2d!8m2!3d36.1771715!4d-85.9486332!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1th24k0b?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.2(2",
+      "city": "428)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1771715",
+      "lng": "-85.9531393",
+      "phone": "+1 615-683-3410",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Muza",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… workers. Clean area but smells very bad. Inside very clean and smell good. Truck park far from gas station, I walked 4-5 minutes under rain. Shower was clean but old. 3 stars is perfect but people who work there helped me so +1 star.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Muza_…_workers._Clean_area_but_smells_very_bad._Inside__10 months ago"
+        },
+        {
+          "reviewerName": "Corrinne Macleod",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… your against the self checkout you get an attitude.  However, if you get a cashier, take a shower or are interacting with any staff on the floor they are very nice super accommodating.  However, for a truck driver certain times it’s hard …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Corrinne Macleod_…_your_against_the_self_checkout_you_get_an_attitu_2 years ago"
+        },
+        {
+          "reviewerName": "2B88Player",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "It's been about 5 years since my last visit. Tony was the face I recognized still on the job. New counters and set up throughout. My shower was good but not 6'5 and taller friendly. Great coffee and nice place to stop. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "2B88Player_It's_been_about_5_years_since_my_last_visit._Tony__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Сергей Крвбцов",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I waited for an hour in line for a shower, but it never happened, the line in the program doesn't move.\nthe parking lot is half empty, how to drive 66 people in a line for showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Сергей Крвбцов_I_waited_for_an_hour_in_line_for_a_shower,_but_it__9 months ago"
+        },
+        {
+          "reviewerName": "Preston Lemke",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "the showers are so bad you feel like you need a shower for your shower 🤢🥴Truck parking is nice! Main convenience store are is clean stocked well lit and nice. Showers are short small old and yellow walls toilets was bout as clean as a port …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Preston Lemke_the_showers_are_so_bad_you_feel_like_you_need_a_sh_5 years ago"
+        },
+        {
+          "reviewerName": "Claudine Bartley",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I love pilot has almost everything u need and plus all the extras to shop for, need a shower they offer that",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Claudine Bartley_I_love_pilot_has_almost_everything_u_need_and_plus_9 months ago"
+        },
+        {
+          "reviewerName": "Mario Rampani",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Easy parking, hot and full of water pressure shower! Everything was clean ish...ive seen worse. But only reason 4 stars is showers were not fully cleaned right and it's one heck of a walk from the truck parking area...like not even a option …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "Mario Rampani_Easy_parking,_hot_and_full_of_water_pressure_showe_4 years ago"
+        },
+        {
+          "reviewerName": "Becky Barras",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The top 3 things that a trucker looks for at a truck stop is coffee with all the fixins, clean / stocked restrooms, and clean showers with hot water and high water pressure. This location has filthy, un-stocked restrooms and NO coffee …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Becky Barras_The_top_3_things_that_a_trucker_looks_for_at_a_tru_6 years ago"
+        },
+        {
+          "reviewerName": "jasmeet kalotia",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Do not park on the street you will get ticket. Local police will ticket you. Rested up got hot shower life is good. 🙏 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "jasmeet kalotia_Do_not_park_on_the_street_you_will_get_ticket._Loc_a year ago"
+        },
+        {
+          "reviewerName": "Steve&Tess LifeInUSA",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "To all truckers please dont shower here. This is the dirtiest & nastiest shower room health department need to check this place because truckers dont deserve treatment like this. We are also human need a clean shower.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Steve&Tess LifeInUSA_To_all_truckers_please_dont_shower_here._This_is_t_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom",
+      "hours": "",
+      "address": "502 Gordonsville Hwy, Gordonsville, TN 38563, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@36.1771715,-85.9531393,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8866bfebc7d043dd:0x22da601e0784fe2d!8m2!3d36.1771715!4d-85.9486332!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1th24k0b?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "ATM (Pilot Travel Center)",
+      "street": "ATM (Pilot Travel Center) 1.0(4)ATM",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1336915",
+      "lng": "-85.5086883",
+      "phone": "+1 931-528-7100",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "ATM (Pilot Travel Center) may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1111 S Jefferson Ave, Cookeville, TN 38506, United States",
+      "rating": "1.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "ATM",
+      "placeId": "ATM+(Pilot+Travel+Center)",
+      "googleMapsUrl": "https://www.google.com/maps/place/ATM+(Pilot+Travel+Center)/@36.1336915,-85.5086883,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x886723cb6455bf93:0xfc2c28c7de3cc5a3!8m2!3d36.1336915!4d-85.5041822!15sCgp0cnVjayBzdG9wkgEDYXRtqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tjtj_x6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(2",
+      "city": "870)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1771715",
+      "lng": "-85.9531393",
+      "phone": "+1 615-683-3410",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Muza",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… workers. Clean area but smells very bad. Inside very clean and smell good. Truck park far from gas station, I walked 4-5 minutes under rain. Shower was clean but old. 3 stars is perfect but people who work there helped me so +1 star.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Muza_…_workers._Clean_area_but_smells_very_bad._Inside__10 months ago"
+        },
+        {
+          "reviewerName": "Corrinne Macleod",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… your against the self checkout you get an attitude.  However, if you get a cashier, take a shower or are interacting with any staff on the floor they are very nice super accommodating.  However, for a truck driver certain times it’s hard …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Corrinne Macleod_…_your_against_the_self_checkout_you_get_an_attitu_2 years ago"
+        },
+        {
+          "reviewerName": "2B88Player",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "It's been about 5 years since my last visit. Tony was the face I recognized still on the job. New counters and set up throughout. My shower was good but not 6'5 and taller friendly. Great coffee and nice place to stop. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "2B88Player_It's_been_about_5_years_since_my_last_visit._Tony__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Сергей Крвбцов",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I waited for an hour in line for a shower, but it never happened, the line in the program doesn't move.\nthe parking lot is half empty, how to drive 66 people in a line for showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Сергей Крвбцов_I_waited_for_an_hour_in_line_for_a_shower,_but_it__9 months ago"
+        },
+        {
+          "reviewerName": "Preston Lemke",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "the showers are so bad you feel like you need a shower for your shower 🤢🥴Truck parking is nice! Main convenience store are is clean stocked well lit and nice. Showers are short small old and yellow walls toilets was bout as clean as a port …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Preston Lemke_the_showers_are_so_bad_you_feel_like_you_need_a_sh_5 years ago"
+        },
+        {
+          "reviewerName": "Claudine Bartley",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I love pilot has almost everything u need and plus all the extras to shop for, need a shower they offer that",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Claudine Bartley_I_love_pilot_has_almost_everything_u_need_and_plus_9 months ago"
+        },
+        {
+          "reviewerName": "Mario Rampani",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Easy parking, hot and full of water pressure shower! Everything was clean ish...ive seen worse. But only reason 4 stars is showers were not fully cleaned right and it's one heck of a walk from the truck parking area...like not even a option …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "Mario Rampani_Easy_parking,_hot_and_full_of_water_pressure_showe_4 years ago"
+        },
+        {
+          "reviewerName": "Becky Barras",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The top 3 things that a trucker looks for at a truck stop is coffee with all the fixins, clean / stocked restrooms, and clean showers with hot water and high water pressure. This location has filthy, un-stocked restrooms and NO coffee …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Becky Barras_The_top_3_things_that_a_trucker_looks_for_at_a_tru_6 years ago"
+        },
+        {
+          "reviewerName": "jasmeet kalotia",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Do not park on the street you will get ticket. Local police will ticket you. Rested up got hot shower life is good. 🙏 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "jasmeet kalotia_Do_not_park_on_the_street_you_will_get_ticket._Loc_a year ago"
+        },
+        {
+          "reviewerName": "Steve&Tess LifeInUSA",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "To all truckers please dont shower here. This is the dirtiest & nastiest shower room health department need to check this place because truckers dont deserve treatment like this. We are also human need a clean shower.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Steve&Tess LifeInUSA_To_all_truckers_please_dont_shower_here._This_is_t_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom",
+      "hours": "",
+      "address": "502 Gordonsville Hwy, Gordonsville, TN 38563, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@36.1771715,-85.9531393,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8866bfebc7d043dd:0x22da601e0784fe2d!8m2!3d36.1771715!4d-85.9486332!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1th24k0b?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.1(2",
+      "city": "128)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1771715",
+      "lng": "-85.9531393",
+      "phone": "+1 615-683-3410",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Muza",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… workers. Clean area but smells very bad. Inside very clean and smell good. Truck park far from gas station, I walked 4-5 minutes under rain. Shower was clean but old. 3 stars is perfect but people who work there helped me so +1 star.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Muza_…_workers._Clean_area_but_smells_very_bad._Inside__10 months ago"
+        },
+        {
+          "reviewerName": "Corrinne Macleod",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… your against the self checkout you get an attitude.  However, if you get a cashier, take a shower or are interacting with any staff on the floor they are very nice super accommodating.  However, for a truck driver certain times it’s hard …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Corrinne Macleod_…_your_against_the_self_checkout_you_get_an_attitu_2 years ago"
+        },
+        {
+          "reviewerName": "2B88Player",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "It's been about 5 years since my last visit. Tony was the face I recognized still on the job. New counters and set up throughout. My shower was good but not 6'5 and taller friendly. Great coffee and nice place to stop. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "2B88Player_It's_been_about_5_years_since_my_last_visit._Tony__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Сергей Крвбцов",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I waited for an hour in line for a shower, but it never happened, the line in the program doesn't move.\nthe parking lot is half empty, how to drive 66 people in a line for showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Сергей Крвбцов_I_waited_for_an_hour_in_line_for_a_shower,_but_it__9 months ago"
+        },
+        {
+          "reviewerName": "Preston Lemke",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "the showers are so bad you feel like you need a shower for your shower 🤢🥴Truck parking is nice! Main convenience store are is clean stocked well lit and nice. Showers are short small old and yellow walls toilets was bout as clean as a port …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Preston Lemke_the_showers_are_so_bad_you_feel_like_you_need_a_sh_5 years ago"
+        },
+        {
+          "reviewerName": "Claudine Bartley",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I love pilot has almost everything u need and plus all the extras to shop for, need a shower they offer that",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Claudine Bartley_I_love_pilot_has_almost_everything_u_need_and_plus_9 months ago"
+        },
+        {
+          "reviewerName": "Mario Rampani",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Easy parking, hot and full of water pressure shower! Everything was clean ish...ive seen worse. But only reason 4 stars is showers were not fully cleaned right and it's one heck of a walk from the truck parking area...like not even a option …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "Mario Rampani_Easy_parking,_hot_and_full_of_water_pressure_showe_4 years ago"
+        },
+        {
+          "reviewerName": "Becky Barras",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The top 3 things that a trucker looks for at a truck stop is coffee with all the fixins, clean / stocked restrooms, and clean showers with hot water and high water pressure. This location has filthy, un-stocked restrooms and NO coffee …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Becky Barras_The_top_3_things_that_a_trucker_looks_for_at_a_tru_6 years ago"
+        },
+        {
+          "reviewerName": "jasmeet kalotia",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Do not park on the street you will get ticket. Local police will ticket you. Rested up got hot shower life is good. 🙏 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "jasmeet kalotia_Do_not_park_on_the_street_you_will_get_ticket._Loc_a year ago"
+        },
+        {
+          "reviewerName": "Steve&Tess LifeInUSA",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "To all truckers please dont shower here. This is the dirtiest & nastiest shower room health department need to check this place because truckers dont deserve treatment like this. We are also human need a clean shower.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Steve&Tess LifeInUSA_To_all_truckers_please_dont_shower_here._This_is_t_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom",
+      "hours": "",
+      "address": "502 Gordonsville Hwy, Gordonsville, TN 38563, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@36.1771715,-85.9531393,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8866bfebc7d043dd:0x22da601e0784fe2d!8m2!3d36.1771715!4d-85.9486332!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1th24k0b?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "ONE9 Travel Center",
+      "street": "ONE9 Travel Center 4.2(1",
+      "city": "956)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1337372",
+      "lng": "-85.5087237",
+      "phone": "+1 931-528-7100",
+      "website": "https://locations.pilotflyingj.com/us/tn/cookeville/1111-south-jefferson-avenue",
+      "content": "ONE9 Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Vipandeep Singh",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… star because there is no option for zero star. Mangaer name DJ and worker JON were very rude they said they can’t give shower to my co driver because i was fueling up at one of pumps. They want me to move the truck before giving shower …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Vipandeep Singh_…_star_because_there_is_no_option_for_zero_star._M_a year ago"
+        },
+        {
+          "reviewerName": "Michael Whittaker",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Stopped in for a shower which cost me $17 and while using facilities a friend of mine that was waiting on me informed me that one of the female cashier's was leaned up against the door listening to a phone conversation I was having while in …",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 8,
+          "uniqueId": "Michael Whittaker_Stopped_in_for_a_shower_which_cost_me_$17_and_whil_a year ago"
+        },
+        {
+          "reviewerName": "terrydavidmullins",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Friendly staff and very helpful. But this is the tiniest Pilot I've ever seen. Hard to get to the pumps, no parking what so ever, and only one shower. Good news, shower was clean and big. Good people working there.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "terrydavidmullins_Friendly_staff_and_very_helpful._But_this_is_the_t_6 years ago"
+        },
+        {
+          "reviewerName": "Howard Bohannon",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I had to take a shower here and didn't have a shower at the place I lived cause the water pipes were broke, and they really treated me great",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 23,
+          "uniqueId": "Howard Bohannon_I_had_to_take_a_shower_here_and_didn't_have_a_show_2 years ago"
+        },
+        {
+          "reviewerName": "Dakota Lee",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Great, there was fresh food available and clean bathrooms. There's also a shower if someone needed it. The lady at the register tonight was very friendly and professional as well! 💚 …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Dakota Lee_Great,_there_was_fresh_food_available_and_clean_ba_6 years ago"
+        },
+        {
+          "reviewerName": "Kenan Kara",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Truckers never stop here smallest pilot No parking that means no shower 3 pumps long waiting for fuel, Not easy to back to main rd to I 40",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 37,
+          "uniqueId": "Kenan Kara_Truckers_never_stop_here_smallest_pilot_No_parking_5 years ago"
+        },
+        {
+          "reviewerName": "Adelaida Faramawi",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Nice place. There is  parking across the street by KFC\n1 SHOWER clean",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 44,
+          "uniqueId": "Adelaida Faramawi_Nice_place._There_is_parking_across_the_street_by_6 years ago"
+        },
+        {
+          "reviewerName": "Tori Lovett",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Prices are competitive, only one(1) shower!!?",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 51,
+          "uniqueId": "Tori Lovett_Prices_are_competitive,_only_one(1)_shower!!?_4 years ago"
+        },
+        {
+          "reviewerName": "Rick Blankenship",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Pilot is always there when you need fuel coffee or a shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 58,
+          "uniqueId": "Rick Blankenship_Pilot_is_always_there_when_you_need_fuel_coffee_or_5 years ago"
+        },
+        {
+          "reviewerName": "Саша Саша",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "1 shower on truck stop, nice joke!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "Саша Саша_1_shower_on_truck_stop,_nice_joke!_5 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, facilities, clean, bathroom",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1111 S Jefferson Ave, Cookeville, TN 38501, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "ONE9+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/ONE9+Travel+Center/@36.1337372,-85.5087237,17z/data=!3m1!5s0x886723cb6de56ca1:0xf580754a1d5e680!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x886723cb6455bf93:0x18f77ab0c94c5f75!8m2!3d36.1337372!4d-85.5042176!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tjfb_jz?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

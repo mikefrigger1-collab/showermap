@@ -1,0 +1,2106 @@
+{
+  "timestamp": "2025-09-22T14:54:12.962Z",
+  "city": "34.9917428",
+  "state": "-117.5422325",
+  "sessionId": "2025-09-22T09-34-26",
+  "totalLocations": 20,
+  "locationsWithShowerReviews": 16,
+  "totalShowerReviews": 112,
+  "locations": [
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.2(3",
+      "city": "864)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.9917784",
+      "lng": "-117.5466847",
+      "phone": "+1 760-762-0041",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Dana Vladimirovna",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "want to complain about this gas station. 😡😡This is the third time in two weeks that we are at this gas station and the shower does not work. Why? The shower works everywhere, but not at this gas station. Why do we fill up here but cannot …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Dana Vladimirovna_want_to_complain_about_this_gas_station._😡😡This__4 months ago"
+        },
+        {
+          "reviewerName": "Jason Brown",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Best shower in USA! GREAT staff  working inside!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Jason Brown_Best_shower_in_USA!_GREAT_staff_working_inside!_2 months ago"
+        },
+        {
+          "reviewerName": "Gagan Ghotra",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Waited here 1hr for shower. Coz no one was working in shower. Bad!!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "Gagan Ghotra_Waited_here_1hr_for_shower._Coz_no_one_was_working_2 months ago"
+        },
+        {
+          "reviewerName": "autumn hopper",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "It's a pretty busy location so prepare for lines. if you're here for the showers, you will find them generally clean and well kept. They serve a high volume of shower customers, so sometimes you'll have a wait, but you will have a hot clean …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 22,
+          "uniqueId": "autumn hopper_It's_a_pretty_busy_location_so_prepare_for_lines.__7 years ago"
+        },
+        {
+          "reviewerName": "Hersey Sayas",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… nice!!! After driving almost 7hrs from Sacramento it was great to stop and get some chow. Bathroom is clean they got a shower which is also great. I would say due to the construction of the freeway this place gets lots of traffic from the …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Hersey Sayas_…_nice!!!_After_driving_almost_7hrs_from_Sacrament_6 years ago"
+        },
+        {
+          "reviewerName": "Sissie Boo76",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Stopped at this place couple times while traveling and they are awesome!! They even have single 1 person restrooms you can use with a shower in them. They have good coffee and a verity of condiments for it as well. With the multiple gas …",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 38,
+          "uniqueId": "Sissie Boo76_Stopped_at_this_place_couple_times_while_traveling_6 years ago"
+        },
+        {
+          "reviewerName": "Kay Price",
+          "rating": "1 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "This by far second worst place ive been. One of the employees stood outside the shower screaming at another employee. Like thats acceptable.  Why do we pay for showers that cause more anxiety than the shower helps?? Is our job not crazy …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 46,
+          "uniqueId": "Kay Price_This_by_far_second_worst_place_ive_been._One_of_th_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Brett Larsen",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "It's a good place to stop as a truck driver, women's bathroom usually clean, never had a dirty shower, would give 4 Stars but mgmt needs to say something about the homeless and scammers",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 54,
+          "uniqueId": "Brett Larsen_It's_a_good_place_to_stop_as_a_truck_driver,_women_2 years ago"
+        },
+        {
+          "reviewerName": "Louis H Kellogg lll",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… . The restroom is always above average and never a paper shortage. Very well attended to.the shower side for the weary traveler is reasonable priced and clean also. I travel the highways and byway the krammer junction store is where I …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 61,
+          "uniqueId": "Louis H Kellogg lll_…_._The_restroom_is_always_above_average_and_never_6 years ago"
+        },
+        {
+          "reviewerName": "Shawn Spencer",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… place is ridiculous what is the point of stopping at a truck stop in the middle of nowhere only to not be able to shower I'm a trucker and rely on these places for this but no a remodel has everything but subway closed lot of good that does …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 69,
+          "uniqueId": "Shawn Spencer_…_place_is_ridiculous_what_is_the_point_of_stoppin_11 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom",
+      "hours": "Open 24 hours Confirmed by this business 2 weeks agoMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "5725 CA-58, Boron, CA 93516, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@34.9917784,-117.5466847,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c395641ce7c99d:0x7720d800d3363a96!8m2!3d34.9917784!4d-117.5421786!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVVJSTlhSbGJHWjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F1tnbldt_?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.2(612)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.0116921",
+      "lng": "-117.6499125",
+      "phone": "+1 661-385-6020",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Karina Diaz",
+          "rating": "5 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "10/10 stop! We travel often with our fur babies and we really appreciate them having a clean and accessible dog park (grass/gravel combo!)\nReally clean restrooms and great gas prices!",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Karina Diaz_10/10_stop!_We_travel_often_with_our_fur_babies_an_3 weeks ago"
+        },
+        {
+          "reviewerName": "jose h ortiz",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We made a stop here on our way to Arizona.  It's a great super gas station store. Amazed at all the things you can find here, from souvenirs,  hot foods, beverages,  emergency items and needs and even shower services for truckers. I was very impressed.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "jose h ortiz_We_made_a_stop_here_on_our_way_to_Arizona._It's_a_7 months ago"
+        },
+        {
+          "reviewerName": "Kevin Quarles (Dad)",
+          "rating": "4 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Spotless restroom & great employees.\nThis was a great visit. …",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 19,
+          "uniqueId": "Kevin Quarles (Dad)_Spotless_restroom_&_great_employees._This_was_a_gr_5 months ago"
+        },
+        {
+          "reviewerName": "Waleed Darwish (Wally Jo)",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Amazing, nice, safe, lovely staff, restrooms, parking, security and peace of mind.\nGood prices too",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 31,
+          "uniqueId": "Waleed Darwish (Wally Jo)_Amazing,_nice,_safe,_lovely_staff,_restrooms,_park_2 months ago"
+        },
+        {
+          "reviewerName": "Linsey",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "4 Stars ⭐️ ⭐️ ⭐️ ⭐️ I am reviewing this love and only giving it four stars, I know it’s a brand new location but it’s not a five star. The reason is because they can’t even keep things clean, the windshield wiper squeegee not good at all …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 50,
+          "uniqueId": "Linsey_4_Stars_⭐️_⭐️_⭐️_⭐️_I_am_reviewing_this_love_and_o_2 years ago"
+        },
+        {
+          "reviewerName": "Juan Fragoso",
+          "rating": "2 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Good customer service but they don’t clean the showers they just replace the towels the floor was still wet and can see show marks in the floor hair on the toilet and it looked dirty",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 62,
+          "uniqueId": "Juan Fragoso_Good_customer_service_but_they_don’t_clean_the_sho_4 months ago"
+        },
+        {
+          "reviewerName": "Jim Cox",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Very clean. Plenty of pumps and parking. Easy to find.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 81,
+          "uniqueId": "Jim Cox_Very_clean._Plenty_of_pumps_and_parking._Easy_to_f_4 months ago"
+        },
+        {
+          "reviewerName": "Jennifer Rebecca Davis",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Store location is easily accessible from the interstate. Fueling bays are spacious and simple to navigate.\nThe store itself is clean with well-stocked and organized aisles. Staff was friendly.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 92,
+          "uniqueId": "Jennifer Rebecca Davis_Store_location_is_easily_accessible_from_the_inter_a month ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "8 shower-related reviews found. Generally Positive mentions of: restroom, clean, shower, showers",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "27201 Boron Frontage Rd N, Boron, CA 93516, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@35.0116921,-117.6499125,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c3c78086b82347:0x9eedac06068ed582!8m2!3d35.0116921!4d-117.6454064!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5ITjJWZlpHUm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQNg!16s%2Fg%2F11lq48mj6t?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Overnight Parking",
+      "street": "6158 US-395Directions \"Room for many RVs away from numerous trucks.\"",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "34.9900678",
+      "lng": "-117.5449978",
+      "phone": "+1 760-762-0041",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Overnight Parking may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "6158 US-395, Boron, CA 93516, United States",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "Overnight+Parking",
+      "googleMapsUrl": "https://www.google.com/maps/place/Overnight+Parking/@34.9900678,-117.5449978,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c3958fbe8f43ed:0xeda592dc599e7ec2!8m2!3d34.9900678!4d-117.5404917!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtwYXJraW5nX2xvdJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdGFqUnBhRGxuUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIUBAs!16s%2Fg%2F11qrdg3pwr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "ATM (Pilot Travel Center)",
+      "street": "ATM (Pilot Travel Center) 3.5(4)ATM",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.9900678",
+      "lng": "-117.5449978",
+      "phone": "+1 760-762-0041",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "ATM (Pilot Travel Center) may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "5725 CA-58, Boron, CA 93516, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "ATM",
+      "placeId": "ATM+(Pilot+Travel+Center)",
+      "googleMapsUrl": "https://www.google.com/maps/place/ATM+(Pilot+Travel+Center)/@34.9900678,-117.5449978,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c395641ce7c99d:0x345dd761324dadaf!8m2!3d34.9917521!4d-117.5422009!15sCgp0cnVjayBzdG9wkgEDYXRtqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1264brh0t?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 4.2(2",
+      "city": "948)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.8544556",
+      "lng": "-117.0859394",
+      "phone": "+1 760-441-7068",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Hamid A.",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I didn’t eat here, but I stopped for one night with my family. We needed a place to park overnight and we found plenty of available spots here for free. We slept in our car and felt safe — the area was clean and secure. The restrooms were clean, and the store prices were reasonable. Overall, a convenient and comfortable stop.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 18,
+          "uniqueId": "Hamid A._I_didn’t_eat_here,_but_I_stopped_for_one_night_wit_a month ago"
+        },
+        {
+          "reviewerName": "Leslie Nicole",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Stopped here overnight to shower and rest, the RV motorcoach I was driving had a door malfunction and would not open.  Maintenance person Jesse came out and used a ladder to climb into the passenger window to open the entry door from the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 25,
+          "uniqueId": "Leslie Nicole_Stopped_here_overnight_to_shower_and_rest,_the_RV__a month ago"
+        },
+        {
+          "reviewerName": "Alan Alan",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Very nice and clean showers, no wait\nStaff are nice and friendly\nThank you …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "Alan Alan_Very_nice_and_clean_showers,_no_wait_Staff_are_nic_10 months ago"
+        },
+        {
+          "reviewerName": "Rachel Allyn",
+          "rating": "3 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Clean enough. The showers could be a little cleaner. They let people park wherever they want to-even in fire lanes. This makes it hard for people that LEGALLY park to maneuver and get in/out.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "Rachel Allyn_Clean_enough._The_showers_could_be_a_little_cleane_a month ago"
+        },
+        {
+          "reviewerName": "KayLynn Britcliffe",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Follow Travelers-\nWe ALL have to go to the bathroom 🚽 that is apart of life. Ladies, we fart and poop 🧁 cupcakes just like to boys. …",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 60,
+          "uniqueId": "KayLynn Britcliffe_Follow_Travelers-_We_ALL_have_to_go_to_the_bathroo_a year ago"
+        },
+        {
+          "reviewerName": "Lisa Chavez",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Quick service … no waiting in line for restrooms although we came about 6am .. very clean and they have kiosk to check out so you don’t have to wait in line or for the truckers to do their thing. They offer hot food for breakfast and it seems like it’s possible they’re serving food all hours.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "Lisa Chavez_Quick_service_…_no_waiting_in_line_for_restrooms_a_a year ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: restroom, clean, shower, showers, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "2611 Fisher Blvd, Barstow, CA 92311, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@34.8544556,-117.0859394,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c47e9d47bed145:0x8240c8501c4d49c8!8m2!3d34.8544556!4d-117.0814333!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tdgkjqg?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 4.0(2",
+      "city": "335)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.8537358",
+      "lng": "-117.0933406",
+      "phone": "+1 760-253-2922",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Rakesh Venugopal",
+          "rating": "5 stars",
+          "reviewDate": "5 days ago",
+          "reviewText": "Great place to stop and lot a\nOf facilities are offered. Gas at a reasonable price",
+          "showerKeywords": [
+            "facilities"
+          ],
+          "index": 0,
+          "uniqueId": "Rakesh Venugopal_Great_place_to_stop_and_lot_a_Of_facilities_are_of_5 days ago"
+        },
+        {
+          "reviewerName": "E Hunter",
+          "rating": "5 stars",
+          "reviewDate": "a week ago",
+          "reviewText": "Always a good place to stop, no matter the time. Bathrooms are always clean. Staff is helpful. Plenty of items to quench your thirst and a good selection of snacks. Plus you can find many items to help you with your phone or vehicle accessories. There is also a Subway inside to help you grab a quick bite.",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "E Hunter_Always_a_good_place_to_stop,_no_matter_the_time._B_a week ago"
+        },
+        {
+          "reviewerName": "John Schumacher",
+          "rating": "4 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "CLEAN rest stop with a large variety of snacks, drinks and food for everyone in the family. Friendly staff and is easy to get in and out of. The location has a Subway inside as well as showers and rest area with a somewhat odd barbershop location for travelers to get a hair cut.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 18,
+          "uniqueId": "John Schumacher_CLEAN_rest_stop_with_a_large_variety_of_snacks,_dr_a month ago"
+        },
+        {
+          "reviewerName": "Mitchell Jones (LiveLifeLiv)",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Great truck stop. Very busy. 32 showers. At 11:30 p.m. when I showered, only 4 of them were available.  The restaurant service was great, and the food was good! There's a Subway, a barber shop, a fitness center (was closed for cleaning), and a Verizon Wireless counter.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "Mitchell Jones (LiveLifeLiv)_Great_truck_stop._Very_busy._32_showers._At_11:30__2 years ago"
+        },
+        {
+          "reviewerName": "Lylee James",
+          "rating": "2 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "No to this coffee station, and the bathroom has an under toe of smell that always persists. If you come here early-late, like 9:30 10:00   parking at the TA means you get no food, so much good food across the hwy and completely …",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 53,
+          "uniqueId": "Lylee James_No_to_this_coffee_station,_and_the_bathroom_has_an_2 months ago"
+        },
+        {
+          "reviewerName": "The Crafty Trucker",
+          "rating": "5 stars",
+          "reviewDate": "Edited 11 months ago",
+          "reviewText": "Huge lot. We always find a spot.\n\nEdit, had to add as of 09/28/24 was amazing to shower here. Haven’t had a good …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "The Crafty Trucker_Huge_lot._We_always_find_a_spot._Edit,_had_to_add_Edited 11 months ago"
+        },
+        {
+          "reviewerName": "Wez So_N_So",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This place is huge!  Lots of truck parking and other great conveniences, like washing machines and dryers, a movie room, clean bathrooms and a repair shop.\nThere is a few spots just for camper and rv parking up front but they fill up fast.",
+          "showerKeywords": [
+            "bathroom",
+            "clean",
+            "wash"
+          ],
+          "index": 80,
+          "uniqueId": "Wez So_N_So_This_place_is_huge!_Lots_of_truck_parking_and_oth_6 years ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: facilities, bathroom, clean, shower, showers, wash",
+      "hours": "",
+      "address": "2930 Lenwood Rd, Barstow, CA 92311, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@34.8537358,-117.0933406,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c47e83aaf18e2b:0x86967b45195173b!8m2!3d34.8537358!4d-117.0888345!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJRYzNScFpUbEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAhLEEM!16s%2Fg%2F1tgs16d8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.2(1",
+      "city": "714)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.9917784",
+      "lng": "-117.5466847",
+      "phone": "+1 760-762-0041",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Dana Vladimirovna",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "want to complain about this gas station. 😡😡This is the third time in two weeks that we are at this gas station and the shower does not work. Why? The shower works everywhere, but not at this gas station. Why do we fill up here but cannot …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Dana Vladimirovna_want_to_complain_about_this_gas_station._😡😡This__4 months ago"
+        },
+        {
+          "reviewerName": "Jason Brown",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Best shower in USA! GREAT staff  working inside!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Jason Brown_Best_shower_in_USA!_GREAT_staff_working_inside!_2 months ago"
+        },
+        {
+          "reviewerName": "Gagan Ghotra",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Waited here 1hr for shower. Coz no one was working in shower. Bad!!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "Gagan Ghotra_Waited_here_1hr_for_shower._Coz_no_one_was_working_2 months ago"
+        },
+        {
+          "reviewerName": "autumn hopper",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "It's a pretty busy location so prepare for lines. if you're here for the showers, you will find them generally clean and well kept. They serve a high volume of shower customers, so sometimes you'll have a wait, but you will have a hot clean …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 22,
+          "uniqueId": "autumn hopper_It's_a_pretty_busy_location_so_prepare_for_lines.__7 years ago"
+        },
+        {
+          "reviewerName": "Hersey Sayas",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… nice!!! After driving almost 7hrs from Sacramento it was great to stop and get some chow. Bathroom is clean they got a shower which is also great. I would say due to the construction of the freeway this place gets lots of traffic from the …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Hersey Sayas_…_nice!!!_After_driving_almost_7hrs_from_Sacrament_6 years ago"
+        },
+        {
+          "reviewerName": "Sissie Boo76",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Stopped at this place couple times while traveling and they are awesome!! They even have single 1 person restrooms you can use with a shower in them. They have good coffee and a verity of condiments for it as well. With the multiple gas …",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 38,
+          "uniqueId": "Sissie Boo76_Stopped_at_this_place_couple_times_while_traveling_6 years ago"
+        },
+        {
+          "reviewerName": "Kay Price",
+          "rating": "1 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "This by far second worst place ive been. One of the employees stood outside the shower screaming at another employee. Like thats acceptable.  Why do we pay for showers that cause more anxiety than the shower helps?? Is our job not crazy …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 46,
+          "uniqueId": "Kay Price_This_by_far_second_worst_place_ive_been._One_of_th_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Brett Larsen",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "It's a good place to stop as a truck driver, women's bathroom usually clean, never had a dirty shower, would give 4 Stars but mgmt needs to say something about the homeless and scammers",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 54,
+          "uniqueId": "Brett Larsen_It's_a_good_place_to_stop_as_a_truck_driver,_women_2 years ago"
+        },
+        {
+          "reviewerName": "Louis H Kellogg lll",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… . The restroom is always above average and never a paper shortage. Very well attended to.the shower side for the weary traveler is reasonable priced and clean also. I travel the highways and byway the krammer junction store is where I …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 61,
+          "uniqueId": "Louis H Kellogg lll_…_._The_restroom_is_always_above_average_and_never_6 years ago"
+        },
+        {
+          "reviewerName": "Shawn Spencer",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… place is ridiculous what is the point of stopping at a truck stop in the middle of nowhere only to not be able to shower I'm a trucker and rely on these places for this but no a remodel has everything but subway closed lot of good that does …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 69,
+          "uniqueId": "Shawn Spencer_…_place_is_ridiculous_what_is_the_point_of_stoppin_11 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom",
+      "hours": "Open 24 hours Confirmed by this business 2 weeks agoMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "5725 CA-58, Boron, CA 93516, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@34.9917784,-117.5466847,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c395641ce7c99d:0x7720d800d3363a96!8m2!3d34.9917784!4d-117.5421786!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVVJSTlhSbGJHWjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F1tnbldt_?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.4(677)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.0116921",
+      "lng": "-117.6499125",
+      "phone": "+1 661-385-6020",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Karina Diaz",
+          "rating": "5 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "10/10 stop! We travel often with our fur babies and we really appreciate them having a clean and accessible dog park (grass/gravel combo!)\nReally clean restrooms and great gas prices!",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Karina Diaz_10/10_stop!_We_travel_often_with_our_fur_babies_an_3 weeks ago"
+        },
+        {
+          "reviewerName": "jose h ortiz",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We made a stop here on our way to Arizona.  It's a great super gas station store. Amazed at all the things you can find here, from souvenirs,  hot foods, beverages,  emergency items and needs and even shower services for truckers. I was very impressed.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "jose h ortiz_We_made_a_stop_here_on_our_way_to_Arizona._It's_a_7 months ago"
+        },
+        {
+          "reviewerName": "Kevin Quarles (Dad)",
+          "rating": "4 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Spotless restroom & great employees.\nThis was a great visit. …",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 19,
+          "uniqueId": "Kevin Quarles (Dad)_Spotless_restroom_&_great_employees._This_was_a_gr_5 months ago"
+        },
+        {
+          "reviewerName": "Waleed Darwish (Wally Jo)",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Amazing, nice, safe, lovely staff, restrooms, parking, security and peace of mind.\nGood prices too",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 31,
+          "uniqueId": "Waleed Darwish (Wally Jo)_Amazing,_nice,_safe,_lovely_staff,_restrooms,_park_2 months ago"
+        },
+        {
+          "reviewerName": "Linsey",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "4 Stars ⭐️ ⭐️ ⭐️ ⭐️ I am reviewing this love and only giving it four stars, I know it’s a brand new location but it’s not a five star. The reason is because they can’t even keep things clean, the windshield wiper squeegee not good at all …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 50,
+          "uniqueId": "Linsey_4_Stars_⭐️_⭐️_⭐️_⭐️_I_am_reviewing_this_love_and_o_2 years ago"
+        },
+        {
+          "reviewerName": "Juan Fragoso",
+          "rating": "2 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Good customer service but they don’t clean the showers they just replace the towels the floor was still wet and can see show marks in the floor hair on the toilet and it looked dirty",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 62,
+          "uniqueId": "Juan Fragoso_Good_customer_service_but_they_don’t_clean_the_sho_4 months ago"
+        },
+        {
+          "reviewerName": "Jim Cox",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Very clean. Plenty of pumps and parking. Easy to find.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 81,
+          "uniqueId": "Jim Cox_Very_clean._Plenty_of_pumps_and_parking._Easy_to_f_4 months ago"
+        },
+        {
+          "reviewerName": "Jennifer Rebecca Davis",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Store location is easily accessible from the interstate. Fueling bays are spacious and simple to navigate.\nThe store itself is clean with well-stocked and organized aisles. Staff was friendly.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 92,
+          "uniqueId": "Jennifer Rebecca Davis_Store_location_is_easily_accessible_from_the_inter_a month ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "8 shower-related reviews found. Generally Positive mentions of: restroom, clean, shower, showers",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "27201 Boron Frontage Rd N, Boron, CA 93516, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@35.0116921,-117.6499125,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c3c78086b82347:0x9eedac06068ed582!8m2!3d35.0116921!4d-117.6454064!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5ITjJWZlpHUm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQNg!16s%2Fg%2F11lq48mj6t?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "High Desert Truck Stop",
+      "street": "High Desert Truck Stop 3.7(661)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.5353246",
+      "lng": "-117.4031001",
+      "phone": "+1 760-246-3211",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "High Desert Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Lylee James",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… 🛑🛑🛑🛑STOP!!!!Don't DO it, Pilot is close...don't!!!!! they will DENY you the bathroom! It's dirty, shower ☣️☣️☣️☣️☣️☣️☣️bio hazard!!!!!!! DO NOT subject yourself to that. No free parking and \"someone\";will call a tow if you park in the wrong …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 0,
+          "uniqueId": "Lylee James_…_🛑🛑🛑🛑STOP!!!!Don't_DO_it,_Pilot_is_close...do_3 months ago"
+        },
+        {
+          "reviewerName": "Paul Lester",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I drive non cdl hotshot and have for almost 40 years.  This is the only truckstop I have ever been to that refused me a shower because I didn't have a CDL. I have used this place religiously for several years.  But myself and my truck will …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Paul Lester_I_drive_non_cdl_hotshot_and_have_for_almost_40_yea_a year ago"
+        },
+        {
+          "reviewerName": "Innocent Love Kills",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Showers were reasonably priced you were able to take a decent one you weren't on a five second time limit basically, coffee was good, even the breakfast burritos at the little restaurant they had inside was really good downside was having …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 17,
+          "uniqueId": "Innocent Love Kills_Showers_were_reasonably_priced_you_were_able_to_ta_7 years ago"
+        },
+        {
+          "reviewerName": "Leonard Frutos",
+          "rating": "4 stars",
+          "reviewDate": "Edited 7 years ago",
+          "reviewText": "… moving around . I prefer this place over the Pilot down the road , now that place can be a mad house compared to here . Don't know about the shower situation never had the need to tale one . And the diesel is a bit cheaper 😉 . And down the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 25,
+          "uniqueId": "Leonard Frutos_…_moving_around_._I_prefer_this_place_over_the_Pil_Edited 7 years ago"
+        },
+        {
+          "reviewerName": "Nathan Taylor",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Very Clean and we'll stocked. Truckers can do laundry and shower. The Mexican restaurant isn't bad I would say above average. Definitely a good place to break.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 33,
+          "uniqueId": "Nathan Taylor_Very_Clean_and_we'll_stocked._Truckers_can_do_laun_7 years ago"
+        },
+        {
+          "reviewerName": "Kelly Sanchez",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The shower & bathroom are nasty. Tool shower there & the floor was not mopped dirty shoe prints on the floor & The counter & sink still had hair on it. The shower look like the sprayed cleaner on it let it run down the wall. Piece of paper …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Kelly Sanchez_The_shower_&_bathroom_are_nasty._Tool_shower_there_6 years ago"
+        },
+        {
+          "reviewerName": "Edward Guillen",
+          "rating": "4 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "As always, everything was great. From friendly people to great food plus free coffee and soda when you fuel. Would have given 5 stars, but you have to pay $7.00 for a shower even if you fuel",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 48,
+          "uniqueId": "Edward Guillen_As_always,_everything_was_great._From_friendly_peo_8 years ago"
+        },
+        {
+          "reviewerName": "garrett leversee",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Fast frendly helpful service I was a shower customer showers older but clean first  time there staf was very helpful I will recommend to a friend also they sell shave cream whatever you need . Also have laundry room 2 washers 2 dryers  and …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 55,
+          "uniqueId": "garrett leversee_Fast_frendly_helpful_service_I_was_a_shower_custom_6 years ago"
+        },
+        {
+          "reviewerName": "BIGBlue113 l",
+          "rating": "4 stars",
+          "reviewDate": "Edited 3 years ago",
+          "reviewText": "Have no issues pay my month parking stop cheap fuel a small tire shop on site friendly staff and a good restaurant they just open, shower for truckers only",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "BIGBlue113 l_Have_no_issues_pay_my_month_parking_stop_cheap_fue_Edited 3 years ago"
+        },
+        {
+          "reviewerName": "elysia",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "We stop thru to use the showers every now and then. Tonight a worker knocked on the door and told us the shower time is 45mins. It was really awkward. The place is not the cleanest. Not ever.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "elysia_We_stop_thru_to_use_the_showers_every_now_and_then_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, showers, clean, wash",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "15655 US-395, Victorville, CA 92394, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "High+Desert+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/High+Desert+Truck+Stop/@34.5353246,-117.4031001,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c36fb0da0a8a85:0x8f08b250473d62bd!8m2!3d34.5353246!4d-117.398594!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1U1EyTjZiRUpXYkdSWFQwVktVVk16VFhoaGEzaEZWMFZhVldSV1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQLw!16s%2Fg%2F12629gkdc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "HIGH DESERT TRAVEL CENTER",
+      "street": "HIGH DESERT TRAVEL CENTER 4.2(223)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.5353246",
+      "lng": "-117.4031001",
+      "phone": "+1 760-246-3211",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "HIGH DESERT TRAVEL CENTER may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Lylee James",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… 🛑🛑🛑🛑STOP!!!!Don't DO it, Pilot is close...don't!!!!! they will DENY you the bathroom! It's dirty, shower ☣️☣️☣️☣️☣️☣️☣️bio hazard!!!!!!! DO NOT subject yourself to that. No free parking and \"someone\";will call a tow if you park in the wrong …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 0,
+          "uniqueId": "Lylee James_…_🛑🛑🛑🛑STOP!!!!Don't_DO_it,_Pilot_is_close...do_3 months ago"
+        },
+        {
+          "reviewerName": "Paul Lester",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I drive non cdl hotshot and have for almost 40 years.  This is the only truckstop I have ever been to that refused me a shower because I didn't have a CDL. I have used this place religiously for several years.  But myself and my truck will …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Paul Lester_I_drive_non_cdl_hotshot_and_have_for_almost_40_yea_a year ago"
+        },
+        {
+          "reviewerName": "Innocent Love Kills",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Showers were reasonably priced you were able to take a decent one you weren't on a five second time limit basically, coffee was good, even the breakfast burritos at the little restaurant they had inside was really good downside was having …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 17,
+          "uniqueId": "Innocent Love Kills_Showers_were_reasonably_priced_you_were_able_to_ta_7 years ago"
+        },
+        {
+          "reviewerName": "Leonard Frutos",
+          "rating": "4 stars",
+          "reviewDate": "Edited 7 years ago",
+          "reviewText": "… moving around . I prefer this place over the Pilot down the road , now that place can be a mad house compared to here . Don't know about the shower situation never had the need to tale one . And the diesel is a bit cheaper 😉 . And down the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 25,
+          "uniqueId": "Leonard Frutos_…_moving_around_._I_prefer_this_place_over_the_Pil_Edited 7 years ago"
+        },
+        {
+          "reviewerName": "Nathan Taylor",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Very Clean and we'll stocked. Truckers can do laundry and shower. The Mexican restaurant isn't bad I would say above average. Definitely a good place to break.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 33,
+          "uniqueId": "Nathan Taylor_Very_Clean_and_we'll_stocked._Truckers_can_do_laun_7 years ago"
+        },
+        {
+          "reviewerName": "Kelly Sanchez",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The shower & bathroom are nasty. Tool shower there & the floor was not mopped dirty shoe prints on the floor & The counter & sink still had hair on it. The shower look like the sprayed cleaner on it let it run down the wall. Piece of paper …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Kelly Sanchez_The_shower_&_bathroom_are_nasty._Tool_shower_there_6 years ago"
+        },
+        {
+          "reviewerName": "Edward Guillen",
+          "rating": "4 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "As always, everything was great. From friendly people to great food plus free coffee and soda when you fuel. Would have given 5 stars, but you have to pay $7.00 for a shower even if you fuel",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 48,
+          "uniqueId": "Edward Guillen_As_always,_everything_was_great._From_friendly_peo_8 years ago"
+        },
+        {
+          "reviewerName": "garrett leversee",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Fast frendly helpful service I was a shower customer showers older but clean first  time there staf was very helpful I will recommend to a friend also they sell shave cream whatever you need . Also have laundry room 2 washers 2 dryers  and …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 55,
+          "uniqueId": "garrett leversee_Fast_frendly_helpful_service_I_was_a_shower_custom_6 years ago"
+        },
+        {
+          "reviewerName": "BIGBlue113 l",
+          "rating": "4 stars",
+          "reviewDate": "Edited 3 years ago",
+          "reviewText": "Have no issues pay my month parking stop cheap fuel a small tire shop on site friendly staff and a good restaurant they just open, shower for truckers only",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "BIGBlue113 l_Have_no_issues_pay_my_month_parking_stop_cheap_fue_Edited 3 years ago"
+        },
+        {
+          "reviewerName": "elysia",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "We stop thru to use the showers every now and then. Tonight a worker knocked on the door and told us the shower time is 45mins. It was really awkward. The place is not the cleanest. Not ever.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "elysia_We_stop_thru_to_use_the_showers_every_now_and_then_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, showers, clean, wash",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "15655 US-395, Victorville, CA 92394, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "High+Desert+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/High+Desert+Truck+Stop/@34.5353246,-117.4031001,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c36fb0da0a8a85:0x8f08b250473d62bd!8m2!3d34.5353246!4d-117.398594!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1U1EyTjZiRUpXYkdSWFQwVktVVk16VFhoaGEzaEZWMFZhVldSV1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQLw!16s%2Fg%2F12629gkdc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Archer Travel Center",
+      "street": "Archer Travel Center 4.2(370)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.063278",
+      "lng": "-118.1811406",
+      "phone": "+1 661-824-2800",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Archer Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Trucker Reviewed",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Nice truck stop with a dirt lot, free parking, and clean bathrooms. The employee was very kind and the parking lot was less than half full on a Sunday night at 7pm. I'll definitely be back.",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Trucker Reviewed_Nice_truck_stop_with_a_dirt_lot,_free_parking,_and_2 years ago"
+        },
+        {
+          "reviewerName": "lisa howard",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Not as sketchy as it appears from the outside. Pleasant staff and clean restrooms. Not stocked with a wide variety of items, but has the basics for  a quick stop. Not a large parking lot but does have CAT scales.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 18,
+          "uniqueId": "lisa howard_Not_as_sketchy_as_it_appears_from_the_outside._Ple_3 years ago"
+        },
+        {
+          "reviewerName": "Martin Jensen",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Been stopping here for years off and on always have parking always free Good clean truck stop good coffee nice and strong and you can walk over to \"The Works\"(formerly \"Primos\") and get a decent meal although it's a little pricey. Also the …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 26,
+          "uniqueId": "Martin Jensen_Been_stopping_here_for_years_off_and_on_always_hav_9 months ago"
+        },
+        {
+          "reviewerName": "Fernando Valdez",
+          "rating": "5 stars",
+          "reviewDate": "Edited 7 years ago",
+          "reviewText": "We fill up  propane for our company vehicles restrooms and very clean and I am proud of the employees there because they do a real good job and I think they all deserve raises happy customer thank you.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 44,
+          "uniqueId": "Fernando Valdez_We_fill_up_propane_for_our_company_vehicles_restr_Edited 7 years ago"
+        },
+        {
+          "reviewerName": "Caleb Jurgensen",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Sure the outside is a little dated and looks a bit run down but this is a really nice place inside, clean restrooms, clean showers, nice lounge for truck drivers and the cashier working was the sweetest and kindest cashier I have ever met in my life. Bless her heart. Definitely recommend stopping here.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "Caleb Jurgensen_Sure_the_outside_is_a_little_dated_and_looks_a_bit_4 years ago"
+        },
+        {
+          "reviewerName": "Kari Mancillas",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This place is pretty small but it has everything you need. Nice little store with lots of drinks and snacks and a very friendly staff.  The showers were clean. We could not find our gas receipt to claim our free shower but the cashier was …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Kari Mancillas_This_place_is_pretty_small_but_it_has_everything_y_6 years ago"
+        },
+        {
+          "reviewerName": "Leighanne Thomas",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Getting stuck here over night due to weather was a nightmare... it was dark and dank and looked super trashy and dirty...I was scared to even go into the store fearing what the bathrooms would look like,  when I  finally went in,  I was …",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 78,
+          "uniqueId": "Leighanne Thomas_Getting_stuck_here_over_night_due_to_weather_was_a_4 years ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: bathroom, clean, restroom, shower, showers",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "16660 Sierra Hwy, Mojave, CA 93501, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Archer+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Archer+Travel+Center/@35.063278,-118.1811406,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c22458aa28de95:0x7f04c5791643beda!8m2!3d35.063278!4d-118.1766345!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1vgw8wn9?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Gas-station & convenience-store chain with grab-&-go food, beverages & more.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Mojave Truck Stop",
+      "street": "Mojave Truck Stop 4.6(51)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.0475342",
+      "lng": "-118.1719793",
+      "phone": "+1 661-584-9223",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Mojave Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "oscar guillen",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Clean, Place friendly employees cheapest fuel prices in Mojave, California",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "oscar guillen_Clean,_Place_friendly_employees_cheapest_fuel_pric_2 months ago"
+        },
+        {
+          "reviewerName": "Aaron Corona",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Very friendly customer. There's never really a line for you to fuleup you can get in in and out pretty quick restrooms available.. I believe they take most fuel cards",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 7,
+          "uniqueId": "Aaron Corona_Very_friendly_customer._There's_never_really_a_lin_a year ago"
+        },
+        {
+          "reviewerName": "Zachary Stiles",
+          "rating": "1 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "I specifically planned to come here for a shower, but store policy says it's only for truckers after 8pm? Would've been nice to tell me that when I called ahead. 🤷‍♂️ …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 14,
+          "uniqueId": "Zachary Stiles_I_specifically_planned_to_come_here_for_a_shower,__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "dario morton",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "A small fueling station that sits on the south side of town.   It's a clean place to park a big truck, however space is limited on property,  however there's parking on the street as well.  Fueling area is kept clean.  I was quite impressed with what I experienced.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 29,
+          "uniqueId": "dario morton_A_small_fueling_station_that_sits_on_the_south_sid_3 years ago"
+        },
+        {
+          "reviewerName": "aileen oganesyan",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "This truck stop is very clean, has friendly employees, bathrooms and showers, and great fuel! I highly recommend stopping by even for snacks. The owner is also a wonderful and outstanding man!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 36,
+          "uniqueId": "aileen oganesyan_This_truck_stop_is_very_clean,_has_friendly_employ_3 years ago"
+        },
+        {
+          "reviewerName": "Big H",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Clean washroom facilities,  diesel fuel, a tire shop , and a big truck parking space , we used the adicional parking lot to spend the night in the RV , quiet place for a snooze.",
+          "showerKeywords": [
+            "facilities",
+            "clean",
+            "wash"
+          ],
+          "index": 54,
+          "uniqueId": "Big H_Clean_washroom_facilities,_diesel_fuel,_a_tire_sh_2 years ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: clean, restroom, shower, showers, bathroom, facilities, wash",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "2001 CA-58, Mojave, CA 93501, United States",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Mojave+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Mojave+Truck+Stop/@35.0475342,-118.1719793,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c225a8c0e9326f:0x14773b608da49239!8m2!3d35.0475342!4d-118.1674732!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11nflwyw1t?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Samra Travel Center",
+      "street": "Samra Travel Center 3.6(197)",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.9040099",
+      "lng": "-116.8916817",
+      "phone": "+1 760-254-3348",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Samra Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "35858 Ghost Town Rd, Yermo, CA 92398, United States",
+      "rating": "3.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Samra+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Samra+Travel+Center/@34.9040099,-116.8916817,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c466ab75a968ad:0x8a98b9e4b25c4bb5!8m2!3d34.9040099!4d-116.8871756!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1T1dVMHllREJUYXpoNVlYcENkV0V3YkZCVE1FNUxUVlZvUWxOdVl4QUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECF8QMQ!16s%2Fg%2F1v5k38wh?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Vegas Truck Stop",
+      "street": "Vegas Truck Stop 4.2(209)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.9040099",
+      "lng": "-116.8916817",
+      "phone": "+1 760-254-2119",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Vegas Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Steven Rank",
+          "rating": "2 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "I was a little surprised after reading previous reviews that this  truckstop has  five star reviews, I found it half the diesel fuel pumps did not work. There is no window washing if washing fluid on the truck island and the staff was not all that polite",
+          "showerKeywords": [
+            "wash"
+          ],
+          "index": 23,
+          "uniqueId": "Steven Rank_I_was_a_little_surprised_after_reading_previous_re_4 years ago"
+        },
+        {
+          "reviewerName": "Jerry Simpier (RoadWarrior)",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Hey they had truck parking, Shower only one working but 3 bucks water never ran cold, has sink, shower, toilet. Slept good parked ovnp. Cashier lady friendly. If your looking for fancy move on, however I found it fine for my needs. Stocked …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "Jerry Simpier (RoadWarrior)_Hey_they_had_truck_parking,_Shower_only_one_workin_2 years ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Mixed mentions of: wash, shower",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "35680 Daggett-Yermo Rd, Yermo, CA 92398, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Vegas+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Vegas+Truck+Stop/@34.9040099,-116.8916817,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c4614400000001:0xbaac7a84ccac9acb!8m2!3d34.9008174!4d-116.8874914!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU4yYjNGdWNrOTNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQOA!16s%2Fg%2F12606lzm6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.0(666)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.0116921",
+      "lng": "-117.6499125",
+      "phone": "+1 661-385-6020",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "jose h ortiz",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "… here on our way to Arizona.  It's a great super gas station store. Amazed at all the things you can find here, from souvenirs,  hot foods, beverages,  emergency items and needs and even shower services for truckers. I was very impressed.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "jose h ortiz_…_here_on_our_way_to_Arizona._It's_a_great_super__7 months ago"
+        },
+        {
+          "reviewerName": "Carlos Estrada",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… and it offers all sorts of snacks, hot and cold food and cold and hot drinks. There is even a Carl's Jr on site. All sorts of cell phone and travel accessories. There are plenty of restrooms and even a place to shower. Great souvenirs too.",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 12,
+          "uniqueId": "Carlos Estrada_…_and_it_offers_all_sorts_of_snacks,_hot_and_cold__3 years ago"
+        },
+        {
+          "reviewerName": "Senad Dizdarevic",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "5 am.  all showers out.  Asked Anthony at front desk why,  he said they were just out. …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Senad Dizdarevic_5_am._all_showers_out._Asked_Anthony_at_front_de_9 months ago"
+        },
+        {
+          "reviewerName": "V B",
+          "rating": "2 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Diesel pumps glitchy/or don't work at the pump. Have to go inside for like the past month. Tp dispenser empty in the shower. Was it even cleaned? Coffee station the pour over coffee machines are too low to fill a thermos unlike every other …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "V B_Diesel_pumps_glitchy/or_don't_work_at_the_pump._Ha_8 months ago"
+        },
+        {
+          "reviewerName": "Enjoli Carlisle",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "My 1st ever \"Love's\" experience was amazing here. Amazing employees, great shower's + laundry room, great variety of food + drink's + a very clean environment on the inside (sadly some of the locals + other disgusting trashy people in this …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 41,
+          "uniqueId": "Enjoli Carlisle_My_1st_ever_\"Love's\"_experience_was_amazing_here.__3 years ago"
+        },
+        {
+          "reviewerName": "chris jackman",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I drive through borron, ca twice a week and hit this loves for fuel and anything else I need. Tonight I just needed gas and a shower. No wait, super clean, and fresh warm towels. Not to mention big smiles. Great pit stop, desert people rock …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 49,
+          "uniqueId": "chris jackman_I_drive_through_borron,_ca_twice_a_week_and_hit_th_2 years ago"
+        },
+        {
+          "reviewerName": "pokey999991",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… Operations Manager was awesome!  This is the best Loves! Carl’s Jr. was Slammed and I told him , not knowing who he was cause I wanted a shower and wait out that way the Rush they had. Well when I can out of shower,even more hungry, …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 57,
+          "uniqueId": "pokey999991_…_Operations_Manager_was_awesome!_This_is_the_bes_4 years ago"
+        },
+        {
+          "reviewerName": "Yordan Petrov",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… 23 @ 5am. He is a  REAL HERO . He prevented a real crime today. I wanted to take a shower here , because I did an oil change at this location. I already spent almost $700 . My friend gave me his card to use a shower here . This guy said NO …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "Yordan Petrov_…_23_@_5am._He_is_a_REAL_HERO_._He_prevented_a_re_2 years ago"
+        },
+        {
+          "reviewerName": "Gone Fishing",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… Rearly give five star rating. This Love's location is fairly new and fully equipped. Shower rooms are premium and the Speedco is on par with maintenance. Only 8 showers accommodate this location however there is free range parking. Meaning …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 73,
+          "uniqueId": "Gone Fishing_…_Rearly_give_five_star_rating._This_Love's_locati_4 years ago"
+        },
+        {
+          "reviewerName": "Vanessa Perry (VAN)",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Rude person, named Ashley, working fuel desk , strongly hinting , I was a lot lizard 🦎 when I tried getting ckd for shower - geeez, i can't believe our company spends 30,000+\nmonthly , for diesel here. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 81,
+          "uniqueId": "Vanessa Perry (VAN)_Rude_person,_named_Ashley,_working_fuel_desk_,_str_2 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, restroom, showers, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "27201 Boron Frontage Rd N, Boron, CA 93516, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@35.0116921,-117.6499125,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c3c78086b82347:0x9eedac06068ed582!8m2!3d35.0116921!4d-117.6454064!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5ITjJWZlpHUm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQNg!16s%2Fg%2F11lq48mj6t?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.4(1",
+      "city": "783)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.9917784",
+      "lng": "-117.5466847",
+      "phone": "+1 760-762-0041",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Lisa Jones",
+          "rating": "5 stars",
+          "reviewDate": "6 days ago",
+          "reviewText": "The store, restrooms and showers are spotless, as is the whole outside area as well. There’s a Cinnabon in the store-yum! We Had a problem with the showers and Chris helped us immediately.  The cashier, April, was awesome, super friendly and helpful. We’ll definitely be repeat customers!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom"
+          ],
+          "index": 0,
+          "uniqueId": "Lisa Jones_The_store,_restrooms_and_showers_are_spotless,_as__6 days ago"
+        },
+        {
+          "reviewerName": "Sir Jones 78",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Always a good place to stop and gas up and use the restroom. There is a subway and Cinnabon counter too. Fresh fruit and deals on chips and candy.",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 8,
+          "uniqueId": "Sir Jones 78_Always_a_good_place_to_stop_and_gas_up_and_use_the_a month ago"
+        },
+        {
+          "reviewerName": "Carlos Estrada",
+          "rating": "4 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Nice location, get gas, snacks, food, drinks, supplies, use the restroom and get some rest, off the 58 highway .",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 26,
+          "uniqueId": "Carlos Estrada_Nice_location,_get_gas,_snacks,_food,_drinks,_supp_3 months ago"
+        },
+        {
+          "reviewerName": "Joe Devers Jr",
+          "rating": "5 stars",
+          "reviewDate": "2 weeks ago",
+          "reviewText": "The store looks amazing after the remodel everyone who works there is amazing but I have a question for corporate why remodel everything in the store but not the restrooms makes no sense",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 37,
+          "uniqueId": "Joe Devers Jr_The_store_looks_amazing_after_the_remodel_everyone_2 weeks ago"
+        },
+        {
+          "reviewerName": "Dana Vladimirovna",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "want to complain about this gas station. 😡😡This is the third time in two weeks that we are at this gas station and the shower does not work. Why? The shower works everywhere, but not at this gas station. Why do we fill up here but cannot …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 67,
+          "uniqueId": "Dana Vladimirovna_want_to_complain_about_this_gas_station._😡😡This__4 months ago"
+        },
+        {
+          "reviewerName": "Don Milligan",
+          "rating": "3 stars",
+          "reviewDate": "2 weeks ago",
+          "reviewText": "Fuel pumps were very busy, store has nice wide isles, bathroom were nice.",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 75,
+          "uniqueId": "Don Milligan_Fuel_pumps_were_very_busy,_store_has_nice_wide_isl_2 weeks ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: shower, showers, restroom, bathroom",
+      "hours": "Open 24 hours Confirmed by this business 2 weeks agoMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "5725 CA-58, Boron, CA 93516, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@34.9917784,-117.5466847,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c395641ce7c99d:0x7720d800d3363a96!8m2!3d34.9917784!4d-117.5421786!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVVJSTlhSbGJHWjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F1tnbldt_?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Bear Mountain Travel Stop",
+      "street": "Bear Mountain Travel Stop 4.2(667)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.2107152",
+      "lng": "-119.0157529",
+      "phone": "+1 661-834-5733",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Bear Mountain Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Arsalan Zare",
+          "rating": "2 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "I expect when I fuel over 150 gallons every 3 days in truck stop I get free coffee and shower and some points like most of truck stop some truck stop small no showers I understand but charge for coffee it’s ridiculous",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Arsalan Zare_I_expect_when_I_fuel_over_150_gallons_every_3_days_7 months ago"
+        },
+        {
+          "reviewerName": "Mayra Martinez",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "They have 6 really clean restroom’s, a huge parking lot which you can park for free, catscale’s are  $11 & housescale’s are $9 reweighs are $2. Shower’s are $10 unless you fuel more than 50 gallons. With the purchase of diesel you get a …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Mayra Martinez_They_have_6_really_clean_restroom’s,_a_huge_parkin_7 years ago"
+        },
+        {
+          "reviewerName": "pedro cabrera",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This is for all truck drivers, if you stop and get fuel in a Holliday weekend,don't expect to take a shower, they will not give you one because they give preference to to people that stop for gas, just like that .",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "pedro cabrera_This_is_for_all_truck_drivers,_if_you_stop_and_get_6 years ago"
+        },
+        {
+          "reviewerName": "Ismael Sierra",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This is a great truck stop, the price for fule is lower than other places. It also has free parking. You can shower here aslo.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 22,
+          "uniqueId": "Ismael Sierra_This_is_a_great_truck_stop,_the_price_for_fule_is__6 years ago"
+        },
+        {
+          "reviewerName": "Sexy420 lover93",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "nice place to stop and rest shower or get more snakes or food for the road",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 29,
+          "uniqueId": "Sexy420 lover93_nice_place_to_stop_and_rest_shower_or_get_more_sna_7 years ago"
+        },
+        {
+          "reviewerName": "Michael Sampson",
+          "rating": "5 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Very clean and extra large shower!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 36,
+          "uniqueId": "Michael Sampson_Very_clean_and_extra_large_shower!_8 years ago"
+        },
+        {
+          "reviewerName": "April Hernandez",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "It has everything. Truck stop has shower and everything. Very friendly people.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 43,
+          "uniqueId": "April Hernandez_It_has_everything._Truck_stop_has_shower_and_every_7 years ago"
+        },
+        {
+          "reviewerName": "Ancelmo Bacilio",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Good service, but no shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Ancelmo Bacilio_Good_service,_but_no_shower._4 years ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "8 shower-related reviews found. Generally Positive mentions of: shower, showers, restroom, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "15840 Costajo Rd, Bakersfield, CA 93313, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Bear+Mountain+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Bear+Mountain+Travel+Stop/@35.2107152,-119.0157529,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80ea41f000000001:0x34f7660997ea4a71!8m2!3d35.2107152!4d-119.0112468!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5IZFhWdGFXcDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F1tf2sjqv?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Kwik Stop Market inc",
+      "street": "Kwik Stop Market inc 4.1(154)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.0672969",
+      "lng": "-118.1824031",
+      "phone": "+1 661-824-4675",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Kwik Stop Market inc may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Melissa Villarreal",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Stopped to fuel and use the restroom and the door was locked. 2 people come to the door and told us it was closed. Yet, a tow truck driver that was fueling up walks out of the store with a coffee in his hand while we walked away.  It's 9:20 …",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 12,
+          "uniqueId": "Melissa Villarreal_Stopped_to_fuel_and_use_the_restroom_and_the_door__2 years ago"
+        },
+        {
+          "reviewerName": "Jonna Birgersson",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "For a long time I've been missing a big and clean gas station in Mojave that I can stop at on my way to and from Mammoth. My wish was finally granted when this place opened (re-opened?). They have cheap gas, many gas pumps, clean restrooms, …",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "Jonna Birgersson_For_a_long_time_I've_been_missing_a_big_and_clean__5 months ago"
+        },
+        {
+          "reviewerName": "Ronald Bailey",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "These guys having the cleanest restrooms, friendliest service, snacks galore, & the best Crunchy Fried Chicken!",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Ronald Bailey_These_guys_having_the_cleanest_restrooms,_friendli_a month ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: restroom, clean",
+      "hours": "Open ⋅ Closes 11 pm Monday4 am–11 pmTuesday4 am–11 pmWednesday4 am–11 pmThursday4 am–11 pmFriday4 am–11 pmSaturday5 am–11 pmSunday6 am–11 pmSuggest new hours",
+      "address": "16825 CA-14, Mojave, CA 93501, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Kwik+Stop+Market+inc",
+      "googleMapsUrl": "https://www.google.com/maps/place/Kwik+Stop+Market+inc/@35.0672969,-118.1824031,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c225eded938f37:0xbb76f12b0b98ed6c!8m2!3d35.0672969!4d-118.177897!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU01Y2tsRFFsVjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQNw!16s%2Fg%2F11p0b4b269?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Dealer",
+      "street": "Pilot Dealer 1.2(6)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "34.904088",
+      "lng": "-116.8917731",
+      "phone": "+1 760-254-3348",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "Pilot Dealer may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "35858 Ghost Town Rd, Yermo, CA 92398, United States",
+      "rating": "1.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Dealer",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Dealer/@34.904088,-116.8917731,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c4619297e69683:0x9c3f1574839215a9!8m2!3d34.904088!4d-116.887267!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5pWDNGRFpWbFJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQLQ!16s%2Fg%2F11w3xz8gm4?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TruckParking -Flying J",
+      "street": "Directions \"Fast clean and friendly employees\"",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "34.9744981",
+      "lng": "-116.9662002",
+      "phone": "+1 760-762-0041",
+      "website": "https://locations.pilotflyingj.com/us/ca/boron/5725-ca-58",
+      "content": "TruckParking -Flying J may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "A. H.",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Very busy place, be ready for lots of traffic in and out.\nShower was clean, good water pressure.\n\nDidn't need fuel/other amenities.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "A. H._Very_busy_place,_be_ready_for_lots_of_traffic_in_a_2 years ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "Barstow, CA 92311, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "TruckParking+-Flying+J",
+      "googleMapsUrl": "https://www.google.com/maps/place/TruckParking+-Flying+J/@34.9744981,-116.9662002,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x80c47f89fd3fb4c5:0xed3ff6a236783348!8m2!3d34.9744981!4d-116.9616941!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtwYXJraW5nX2xvdJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VReWIxQkRjRXBSRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECE!16s%2Fg%2F11fr78z6xf?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

@@ -1,0 +1,1972 @@
+{
+  "timestamp": "2025-09-23T14:26:34.603Z",
+  "city": "30.0795402",
+  "state": "-81.479012",
+  "sessionId": "2025-09-23T05-08-45",
+  "totalLocations": 19,
+  "locationsWithShowerReviews": 14,
+  "totalShowerReviews": 104,
+  "locations": [
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(1",
+      "city": "130)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.065564",
+      "lng": "-81.5299579",
+      "phone": "+1 904-826-3618",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ed E Myre",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… Most important for me tonight, the shower/bathroom was spotlessly clean; big deal for a trucker away from home. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Ed E Myre_…_Most_important_for_me_tonight,_the_shower/bathro_11 months ago"
+        },
+        {
+          "reviewerName": "Aug Qui",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Don't stop here if you like being stuck in the driveway for 20minutes. The water in the shower is back and fourth warm for a couple minutes then cold for way longer. Hardly any parking just pass this place up unless you are actually out of …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Aug Qui_Don't_stop_here_if_you_like_being_stuck_in_the_dri_a year ago"
+        },
+        {
+          "reviewerName": "Nicky Falcon",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "I always get up two hrs before my break is up to shower and get ready but I spent and hours waiting for a shower from 2 am to 4 am now I'm late to my appointment they had opened dirty showers and no one care to clean them up 🤬🤬🤬 thank you …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Nicky Falcon_I_always_get_up_two_hrs_before_my_break_is_up_to_s_7 months ago"
+        },
+        {
+          "reviewerName": "V.L. Cason",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "As a full time on the road traveler, what a wonderful shower. $12, all in one private toilet, sink, and large shower. Not a lot of room in terms of the \"dry space\" but managed just fine. Doesn't lower my rating. Oddly didn't earn any …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 24,
+          "uniqueId": "V.L. Cason_As_a_full_time_on_the_road_traveler,_what_a_wonder_6 years ago"
+        },
+        {
+          "reviewerName": "Despot 1389 (Despot)",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Clean shower ,laundry, mcdonald's on site,clean not to big,so far the nicest truck stop,although I'm cargo van driver,not semi truck",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Despot 1389 (Despot)_Clean_shower_,laundry,_mcdonald's_on_site,clean_no_a year ago"
+        },
+        {
+          "reviewerName": "Nicole Esquino",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Stopped here for a hot shower and this Pilot did not disappoint. Hot water and ready quick. Staff were friendly and helpful. Recommend.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 39,
+          "uniqueId": "Nicole Esquino_Stopped_here_for_a_hot_shower_and_this_Pilot_did_n_2 years ago"
+        },
+        {
+          "reviewerName": "Amanda Biggerstaff",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… a ProPhil pilot flying J cup. He followed my husband around the store like he was a criminal. He refused to give us an extra towel for our shower. I shower with my husband when Im on the road with him. We will not be returning to this …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 46,
+          "uniqueId": "Amanda Biggerstaff_…_a_ProPhil_pilot_flying_J_cup._He_followed_my_hus_6 years ago"
+        },
+        {
+          "reviewerName": "Steven Sorber",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… affect until 4 PM the next day. Went into the shower in the morning , my company is calling saying wesley the manager is calling saying I wasn't  on the property and he was threatening to tow my truck. I was going to pay for the next …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Steven Sorber_…_affect_until_4_PM_the_next_day._Went_into_the_sh_6 years ago"
+        },
+        {
+          "reviewerName": "Torg Bjornfelderson",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Friendly staff, CLEAN showers! $12 for a shower. A washcloth, small, and large towel are provided. All in one soap is also provided inside the shower. Would visit again.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 62,
+          "uniqueId": "Torg Bjornfelderson_Friendly_staff,_CLEAN_showers!_$12_for_a_shower._A_6 years ago"
+        },
+        {
+          "reviewerName": "Lori",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Cleanest truckers shower I have been in. Would give them 5 stars if there was more tractor trailer parking.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 69,
+          "uniqueId": "Lori_Cleanest_truckers_shower_I_have_been_in._Would_giv_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1625 County Rd 210, St Johns, FL 32259, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@30.065564,-81.5299579,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e42d5fda733597:0x7ffef0d6711bed15!8m2!3d30.065564!4d-81.493909!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tjdxqln?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 2.8(353)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.065564",
+      "lng": "-81.5299579",
+      "phone": "+1 904-829-3946",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "amazon FK",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Right here it’s a not real TA. Look here shower room. Super clean and new. The most clean TA shower rooms ever. The driver will got nice morning and one night right here . Two minutes walk Dunkin and McDonald . Thanks Lawrence nice clean …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "amazon FK_Right_here_it’s_a_not_real_TA._Look_here_shower_ro_7 months ago"
+        },
+        {
+          "reviewerName": "sergiy lazarev",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "I came on 02.29.25 at 12.10 pm to get a shower. Tried to book it through the TA app but the app gave me an error and took my shower credit. I went to the fuel desk and Jasmine refused to give me a shower, knowing they had a problem with the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 12,
+          "uniqueId": "sergiy lazarev_I_came_on_02.29.25_at_12.10_pm_to_get_a_shower._Tr_5 months ago"
+        },
+        {
+          "reviewerName": "Kandi aka Brwneydgrl69",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… in comparison... So I pulled in here on Monday afternoon... Slept like a baby because their lot is pretty dark... And then I got up and took a shower on Tuesday (today). $14. It was very clean and it felt oh so good! Employees are all very …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Kandi aka Brwneydgrl69_…_in_comparison..._So_I_pulled_in_here_on_Monday_a_4 years ago"
+        },
+        {
+          "reviewerName": "Scott P",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… area, I cannot give them 5*. Way too many paid parking spaces sitting empty when people spending hundreds on fuel would love to be able to log a 30 minute break and go eat or maybe grab a shower. What good are points and showers when you …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 32,
+          "uniqueId": "Scott P_…_area,_I_cannot_give_them_5*._Way_too_many_paid_p_6 years ago"
+        },
+        {
+          "reviewerName": "lopez olivera",
+          "rating": "2 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Apparently management wants to save in electricity bills light goes off during a shower and I got a guard at the door when I go out !!!! Do their business go out ??? They act like that marking all parking spots as reserve trying to get …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 44,
+          "uniqueId": "lopez olivera_Apparently_management_wants_to_save_in_electricity_5 months ago"
+        },
+        {
+          "reviewerName": "Al M",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "This facility as of today has broken shower locks in which the porter didn't think enough to take it outta service for maintenance July 30 2025, 17:07",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 52,
+          "uniqueId": "Al M_This_facility_as_of_today_has_broken_shower_locks__a month ago"
+        },
+        {
+          "reviewerName": "Akash Bidhan",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "I come here and I book the shower and am waiting before the last 1 hour and they dont have any shower and also dont have empty waiting chairs we are stand here before 1 hour dont come here and the staffs very unfriendly behavior",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 59,
+          "uniqueId": "Akash Bidhan_I_come_here_and_I_book_the_shower_and_am_waiting_b_7 months ago"
+        },
+        {
+          "reviewerName": "Joaquin Alfonso (KINI)",
+          "rating": "3 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "I try to get a shower at 1:00 am there was not showers ready the fuel desk lady told me they  work on it cleaning but there was not truckers taking showers at this time , they point is if not Bory taking showers at this time why is a …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Joaquin Alfonso (KINI)_I_try_to_get_a_shower_at_1:00_am_there_was_not_sho_7 months ago"
+        },
+        {
+          "reviewerName": "Monica Kent",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Showers were out of service. If they were under construction or doing remodeling, they should of had at least one or two showers in working order as much money as the drivers pay to park and shower. Terrible service.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 75,
+          "uniqueId": "Monica Kent_Showers_were_out_of_service._If_they_were_under_co_a year ago"
+        },
+        {
+          "reviewerName": "Bonnie Kliewer",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… at this truck stop this morning. They were using the bathroom and found mold on the floors. They could actually smell it. Plus, they found hair on the shower wall.  I'm sorry. Truck drivers deserve better. They do a lot for this country",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 82,
+          "uniqueId": "Bonnie Kliewer_…_at_this_truck_stop_this_morning._They_were_using_2 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, bathroom",
+      "hours": "",
+      "address": "1650 County Rd 210, Jacksonville, FL 32259, United States",
+      "rating": "2.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@30.065564,-81.5299579,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e42d5f572bf9f1:0xb63b84fd3964aebe!8m2!3d30.0660958!4d-81.4961515!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5TYW5NMkxVaG5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBAQKg!16s%2Fg%2F11rd_8zyqk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.5(376)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.745778",
+      "lng": "-81.3856541",
+      "phone": "+1 904-417-9010",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Daniel Fleurentin",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… me and then no problem soon an 1hour and 30min after they pull me in the bay get me out of my truck I went to shower next thing they say mechanic have to roll on road call but what about my truck. I was heading to shower but seen that ask …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Daniel Fleurentin_…_me_and_then_no_problem_soon_an_1hour_and_30min_a_a year ago"
+        },
+        {
+          "reviewerName": "Sergio Leyva",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Diesel.  food and shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Sergio Leyva_Diesel._food_and_shower_2 months ago"
+        },
+        {
+          "reviewerName": "Richard Pisarek",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… , snacks beer ect. Store also has certain things for truck drivers. The showers are nice and clean but a bit pricey at 17.00 dollars. Florida is even more expensive 18.00 to 19.50 for a shower, apparently Florida has a tax on showers 🚿 …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Richard Pisarek_…_,_snacks_beer_ect._Store_also_has_certain_things_a year ago"
+        },
+        {
+          "reviewerName": "Jeffrey Barnes",
+          "rating": "4 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Great shower space . Not enough towels",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "Jeffrey Barnes_Great_shower_space_._Not_enough_towels_2 months ago"
+        },
+        {
+          "reviewerName": "Fred Steinmetz",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The showers are nice to look at, but as a trucker, I need a good shower head with water pressure and you had neither. The sink doesn't have enough pressure to clean out my razor. Money spent on all the wrong things.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "Fred Steinmetz_The_showers_are_nice_to_look_at,_but_as_a_trucker,_a year ago"
+        },
+        {
+          "reviewerName": "Brenda S",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Opened Feb 29, 2024\n8 Diesel, 7 Shower, laundry\n63 Truck parking\nHardees",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Brenda S_Opened_Feb_29,_2024_8_Diesel,_7_Shower,_laundry_63_a year ago"
+        },
+        {
+          "reviewerName": "9 PAIRS (‪9PAIRS‬)",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Shower & store was very clean 👌 😌 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "9 PAIRS (‪9PAIRS‬)_Shower_&_store_was_very_clean_👌_😌_…_a year ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1025 FL-206, St. Augustine, FL 32086, United States",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@29.745778,-81.3856541,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e6850a28f6e423:0xbcfe50801de53034!8m2!3d29.745778!4d-81.3496052!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTWVsa3hUVEozWjJSWFRWZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11vqvbtmy6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 4.0(3",
+      "city": "809)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.745778",
+      "lng": "-81.3856541",
+      "phone": "+1 904-794-0426",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Andrew Tamayo",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "The cleanest Flying J in a while. Huge truck parking area & very spacious. Everyone inside was nice, friendly and welcoming. …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Andrew Tamayo_The_cleanest_Flying_J_in_a_while._Huge_truck_parki_6 months ago"
+        },
+        {
+          "reviewerName": "Eve Adams",
+          "rating": "4 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I love the coffee and the employees.  Very friendly and courteous staff.  A lot of construction going on but overall it's well stocked, clean, food is fresh, hot and ready and Cinnabons are always fresh and hot in the morning.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Eve Adams_I_love_the_coffee_and_the_employees._Very_friendl_4 months ago"
+        },
+        {
+          "reviewerName": "Jean Doyon",
+          "rating": "2 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "Trucks park everywhere they want , blocking the in and out entrance. Shower and convenience store  were clean . They use the driver’s lounge as a stock room . Truck drivers dump their trash all over the parking. ( no surprise).",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Jean Doyon_Trucks_park_everywhere_they_want_,_blocking_the_in_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Savvy Savage",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Update: After reading the other reviews and seeing that flying J’s corporate office really could care less about the discriminatory behavior & cleanliness, I will be contacting my lawyer & the health department. …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 77,
+          "uniqueId": "Savvy Savage_Update:_After_reading_the_other_reviews_and_seeing_6 months ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: clean, shower",
+      "hours": "Open 24 hours Confirmed by this business 8 weeks agoTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "950 FL-206, St. Augustine, FL 32086, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@29.745778,-81.3856541,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e684cdc5b5c00f:0x53267fd817e2e9aa!8m2!3d29.7499612!4d-81.3444462!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1xcbqfly?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.3(147)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.745778",
+      "lng": "-81.3856541",
+      "phone": "+1 904-417-9010",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Daniel Fleurentin",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… me and then no problem soon an 1hour and 30min after they pull me in the bay get me out of my truck I went to shower next thing they say mechanic have to roll on road call but what about my truck. I was heading to shower but seen that ask …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Daniel Fleurentin_…_me_and_then_no_problem_soon_an_1hour_and_30min_a_a year ago"
+        },
+        {
+          "reviewerName": "Sergio Leyva",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Diesel.  food and shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Sergio Leyva_Diesel._food_and_shower_2 months ago"
+        },
+        {
+          "reviewerName": "Richard Pisarek",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… , snacks beer ect. Store also has certain things for truck drivers. The showers are nice and clean but a bit pricey at 17.00 dollars. Florida is even more expensive 18.00 to 19.50 for a shower, apparently Florida has a tax on showers 🚿 …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Richard Pisarek_…_,_snacks_beer_ect._Store_also_has_certain_things_a year ago"
+        },
+        {
+          "reviewerName": "Jeffrey Barnes",
+          "rating": "4 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Great shower space . Not enough towels",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "Jeffrey Barnes_Great_shower_space_._Not_enough_towels_2 months ago"
+        },
+        {
+          "reviewerName": "Fred Steinmetz",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The showers are nice to look at, but as a trucker, I need a good shower head with water pressure and you had neither. The sink doesn't have enough pressure to clean out my razor. Money spent on all the wrong things.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "Fred Steinmetz_The_showers_are_nice_to_look_at,_but_as_a_trucker,_a year ago"
+        },
+        {
+          "reviewerName": "Brenda S",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Opened Feb 29, 2024\n8 Diesel, 7 Shower, laundry\n63 Truck parking\nHardees",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Brenda S_Opened_Feb_29,_2024_8_Diesel,_7_Shower,_laundry_63_a year ago"
+        },
+        {
+          "reviewerName": "9 PAIRS (‪9PAIRS‬)",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Shower & store was very clean 👌 😌 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "9 PAIRS (‪9PAIRS‬)_Shower_&_store_was_very_clean_👌_😌_…_a year ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1025 FL-206, St. Augustine, FL 32086, United States",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@29.745778,-81.3856541,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e6850a28f6e423:0xbcfe50801de53034!8m2!3d29.745778!4d-81.3496052!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTWVsa3hUVEozWjJSWFRWZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11vqvbtmy6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.0(1",
+      "city": "201)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.745778",
+      "lng": "-81.3856541",
+      "phone": "+1 904-417-9010",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Daniel Fleurentin",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… me and then no problem soon an 1hour and 30min after they pull me in the bay get me out of my truck I went to shower next thing they say mechanic have to roll on road call but what about my truck. I was heading to shower but seen that ask …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Daniel Fleurentin_…_me_and_then_no_problem_soon_an_1hour_and_30min_a_a year ago"
+        },
+        {
+          "reviewerName": "Sergio Leyva",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Diesel.  food and shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Sergio Leyva_Diesel._food_and_shower_2 months ago"
+        },
+        {
+          "reviewerName": "Richard Pisarek",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… , snacks beer ect. Store also has certain things for truck drivers. The showers are nice and clean but a bit pricey at 17.00 dollars. Florida is even more expensive 18.00 to 19.50 for a shower, apparently Florida has a tax on showers 🚿 …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Richard Pisarek_…_,_snacks_beer_ect._Store_also_has_certain_things_a year ago"
+        },
+        {
+          "reviewerName": "Jeffrey Barnes",
+          "rating": "4 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Great shower space . Not enough towels",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "Jeffrey Barnes_Great_shower_space_._Not_enough_towels_2 months ago"
+        },
+        {
+          "reviewerName": "Fred Steinmetz",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The showers are nice to look at, but as a trucker, I need a good shower head with water pressure and you had neither. The sink doesn't have enough pressure to clean out my razor. Money spent on all the wrong things.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "Fred Steinmetz_The_showers_are_nice_to_look_at,_but_as_a_trucker,_a year ago"
+        },
+        {
+          "reviewerName": "Brenda S",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Opened Feb 29, 2024\n8 Diesel, 7 Shower, laundry\n63 Truck parking\nHardees",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Brenda S_Opened_Feb_29,_2024_8_Diesel,_7_Shower,_laundry_63_a year ago"
+        },
+        {
+          "reviewerName": "9 PAIRS (‪9PAIRS‬)",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Shower & store was very clean 👌 😌 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "9 PAIRS (‪9PAIRS‬)_Shower_&_store_was_very_clean_👌_😌_…_a year ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1025 FL-206, St. Augustine, FL 32086, United States",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@29.745778,-81.3856541,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e6850a28f6e423:0xbcfe50801de53034!8m2!3d29.745778!4d-81.3496052!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTWVsa3hUVEozWjJSWFRWZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11vqvbtmy6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.6(1",
+      "city": "436)Rest stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.0660958",
+      "lng": "-81.5322004",
+      "phone": "+1 904-829-3946",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "amazon FK",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Right here it’s a not real TA. Look here shower room. Super clean and new. The most clean TA shower rooms ever. The driver will got nice morning and one night right here . Two minutes walk Dunkin and McDonald . Thanks Lawrence nice clean job 👍👍👍 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "amazon FK_Right_here_it’s_a_not_real_TA._Look_here_shower_ro_7 months ago"
+        },
+        {
+          "reviewerName": "Robert Banach",
+          "rating": "4 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Good spot for a break in your travels... Got choices for food, good hot coffee, clean restrooms, ev charging and more... Knock off one star for high prices and having to pay for wifi, ridiculous!",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 45,
+          "uniqueId": "Robert Banach_Good_spot_for_a_break_in_your_travels..._Got_choic_5 months ago"
+        },
+        {
+          "reviewerName": "Priscilla Nikki Henriquez",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The cashier was really welcoming and attentive. As a truck driver, I rely on TA for their services. I love a good truck stop, and the one with a fitness center upstairs is clean and well taken care of. The cleaning staff is very attentive; …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Priscilla Nikki Henriquez_The_cashier_was_really_welcoming_and_attentive._As_a year ago"
+        },
+        {
+          "reviewerName": "sergiy lazarev",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "I came on 02.29.25 at 12.10 pm to get a shower. Tried to book it through the TA app but the app gave me an error and took my shower credit. I went to the fuel desk and Jasmine refused to give me a shower, knowing they had a problem with the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 98,
+          "uniqueId": "sergiy lazarev_I_came_on_02.29.25_at_12.10_pm_to_get_a_shower._Tr_5 months ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, clean, restroom",
+      "hours": "",
+      "address": "1650 County Rd 210, Jacksonville, FL 32259, United States",
+      "rating": "2.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@30.0660958,-81.5322004,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e42d5f572bf9f1:0xb63b84fd3964aebe!8m2!3d30.0660958!4d-81.4961515!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5TYW5NMkxVaG5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBAQKg!16s%2Fg%2F11rd_8zyqk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.8(546)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.745778",
+      "lng": "-81.3856541",
+      "phone": "+1 904-417-9010",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Daniel Fleurentin",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… me and then no problem soon an 1hour and 30min after they pull me in the bay get me out of my truck I went to shower next thing they say mechanic have to roll on road call but what about my truck. I was heading to shower but seen that ask …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Daniel Fleurentin_…_me_and_then_no_problem_soon_an_1hour_and_30min_a_a year ago"
+        },
+        {
+          "reviewerName": "Sergio Leyva",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Diesel.  food and shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Sergio Leyva_Diesel._food_and_shower_2 months ago"
+        },
+        {
+          "reviewerName": "Richard Pisarek",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… , snacks beer ect. Store also has certain things for truck drivers. The showers are nice and clean but a bit pricey at 17.00 dollars. Florida is even more expensive 18.00 to 19.50 for a shower, apparently Florida has a tax on showers 🚿 …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Richard Pisarek_…_,_snacks_beer_ect._Store_also_has_certain_things_a year ago"
+        },
+        {
+          "reviewerName": "Jeffrey Barnes",
+          "rating": "4 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Great shower space . Not enough towels",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "Jeffrey Barnes_Great_shower_space_._Not_enough_towels_2 months ago"
+        },
+        {
+          "reviewerName": "Fred Steinmetz",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The showers are nice to look at, but as a trucker, I need a good shower head with water pressure and you had neither. The sink doesn't have enough pressure to clean out my razor. Money spent on all the wrong things.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "Fred Steinmetz_The_showers_are_nice_to_look_at,_but_as_a_trucker,_a year ago"
+        },
+        {
+          "reviewerName": "Brenda S",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Opened Feb 29, 2024\n8 Diesel, 7 Shower, laundry\n63 Truck parking\nHardees",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Brenda S_Opened_Feb_29,_2024_8_Diesel,_7_Shower,_laundry_63_a year ago"
+        },
+        {
+          "reviewerName": "9 PAIRS (‪9PAIRS‬)",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Shower & store was very clean 👌 😌 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "9 PAIRS (‪9PAIRS‬)_Shower_&_store_was_very_clean_👌_😌_…_a year ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1025 FL-206, St. Augustine, FL 32086, United States",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@29.745778,-81.3856541,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e6850a28f6e423:0xbcfe50801de53034!8m2!3d29.745778!4d-81.3496052!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTWVsa3hUVEozWjJSWFRWZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11vqvbtmy6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Travoo.inc",
+      "street": "Travoo.inc 1.0(1)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.1624055",
+      "lng": "-81.6238084",
+      "phone": "+1 704-810-8000",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Travoo.inc may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "11605 Wandering Pines Trail W, Jacksonville, FL 32258, United States",
+      "rating": "1.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Travoo.inc",
+      "googleMapsUrl": "https://www.google.com/maps/place/Travoo.inc/@30.1624055,-81.6238084,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e5cda24611c297:0x18b5321a4397fc91!8m2!3d30.1624055!4d-81.5877595!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11t6jk1b3g?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Mr. Fuel Travel Center",
+      "street": "Mr. Fuel Travel Center 4.1(342)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.4128833",
+      "lng": "-81.6077397",
+      "phone": "+1 904-696-9566",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Mr. Fuel Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jeff Whaley",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Nice clean location to park, refresh and refuel you and the truck!  Nice bathrooms, no shower.  Great seating area with plenty of plugs to charge device.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Jeff Whaley_Nice_clean_location_to_park,_refresh_and_refuel_yo_2 years ago"
+        },
+        {
+          "reviewerName": "Malyn F",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Clean, with a verity of options in the store. Cashier needs to work on her customer service skills. Ok place to refuel and rest for the truckers. If you’re looking to shower, you won’t find it at this location. Limited parking for truckers.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Malyn F_Clean,_with_a_verity_of_options_in_the_store._Cash_2 years ago"
+        },
+        {
+          "reviewerName": "Kristi Didovic",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… for a restart on Sunday. I deliver on Monday. This place has no showers. Since there are no showers i decided to talk to a manager about dropping my trailer and going to the YMCA to work out and shower.  Manager got on this power trip …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 15,
+          "uniqueId": "Kristi Didovic_…_for_a_restart_on_Sunday._I_deliver_on_Monday._Th_5 years ago"
+        },
+        {
+          "reviewerName": "Denise ferrara",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "How dare you rob the American trucker Don't waste your money on this place I mean if you have to sleep and get fuel and a shower fine fine but they are absolutely double charging the amount it would cost for anything else",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 23,
+          "uniqueId": "Denise ferrara_How_dare_you_rob_the_American_trucker_Don't_waste__2 years ago"
+        },
+        {
+          "reviewerName": "Luis Rubio",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Brand new, be aware no shower's",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 30,
+          "uniqueId": "Luis Rubio_Brand_new,_be_aware_no_shower's_6 years ago"
+        },
+        {
+          "reviewerName": "Lenny Solano",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "No Shower for trucker",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 37,
+          "uniqueId": "Lenny Solano_No_Shower_for_trucker_6 years ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "3515 Zoo Pkwy, Jacksonville, FL 32226, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Mr.+Fuel+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Mr.+Fuel+Travel+Center/@30.4128833,-81.6077397,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e5b242fc3bef43:0x994f6fbb3837b5b6!8m2!3d30.4128833!4d-81.5716908!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11ffw9q0hp?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Breeze Rite In Travel Center - Pilot Dealer",
+      "street": "Breeze Rite In Travel Center - Pilot Dealer 3.7(1",
+      "city": "837)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.8142709",
+      "lng": "-82.2049106",
+      "phone": "+1 352-468-1590",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Breeze Rite In Travel Center - Pilot Dealer may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "17276 NE US Hwy 301, Waldo, FL 32694, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Breeze+Rite+In+Travel+Center+-+Pilot+Dealer",
+      "googleMapsUrl": "https://www.google.com/maps/place/Breeze+Rite+In+Travel+Center+-+Pilot+Dealer/@29.8142709,-82.2049106,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e603cb01b9b87d:0x1bb53d80a7fc82a4!8m2!3d29.8142709!4d-82.1688617!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5LYldWSFIwMTNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11clzhdwf_?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.4(700)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.745778",
+      "lng": "-81.3856541",
+      "phone": "+1 904-417-9010",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Daniel Fleurentin",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… me and then no problem soon an 1hour and 30min after they pull me in the bay get me out of my truck I went to shower next thing they say mechanic have to roll on road call but what about my truck. I was heading to shower but seen that ask …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Daniel Fleurentin_…_me_and_then_no_problem_soon_an_1hour_and_30min_a_a year ago"
+        },
+        {
+          "reviewerName": "Sergio Leyva",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Diesel.  food and shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Sergio Leyva_Diesel._food_and_shower_2 months ago"
+        },
+        {
+          "reviewerName": "Richard Pisarek",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… , snacks beer ect. Store also has certain things for truck drivers. The showers are nice and clean but a bit pricey at 17.00 dollars. Florida is even more expensive 18.00 to 19.50 for a shower, apparently Florida has a tax on showers 🚿 …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Richard Pisarek_…_,_snacks_beer_ect._Store_also_has_certain_things_a year ago"
+        },
+        {
+          "reviewerName": "Jeffrey Barnes",
+          "rating": "4 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Great shower space . Not enough towels",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "Jeffrey Barnes_Great_shower_space_._Not_enough_towels_2 months ago"
+        },
+        {
+          "reviewerName": "Fred Steinmetz",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The showers are nice to look at, but as a trucker, I need a good shower head with water pressure and you had neither. The sink doesn't have enough pressure to clean out my razor. Money spent on all the wrong things.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 34,
+          "uniqueId": "Fred Steinmetz_The_showers_are_nice_to_look_at,_but_as_a_trucker,_a year ago"
+        },
+        {
+          "reviewerName": "Brenda S",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Opened Feb 29, 2024\n8 Diesel, 7 Shower, laundry\n63 Truck parking\nHardees",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Brenda S_Opened_Feb_29,_2024_8_Diesel,_7_Shower,_laundry_63_a year ago"
+        },
+        {
+          "reviewerName": "9 PAIRS (‪9PAIRS‬)",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Shower & store was very clean 👌 😌 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "9 PAIRS (‪9PAIRS‬)_Shower_&_store_was_very_clean_👌_😌_…_a year ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1025 FL-206, St. Augustine, FL 32086, United States",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@29.745778,-81.3856541,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e6850a28f6e423:0xbcfe50801de53034!8m2!3d29.745778!4d-81.3496052!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTWVsa3hUVEozWjJSWFRWZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11vqvbtmy6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.9(1",
+      "city": "348)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.065564",
+      "lng": "-81.5299579",
+      "phone": "+1 904-826-3618",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ed E Myre",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… Most important for me tonight, the shower/bathroom was spotlessly clean; big deal for a trucker away from home. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Ed E Myre_…_Most_important_for_me_tonight,_the_shower/bathro_11 months ago"
+        },
+        {
+          "reviewerName": "Aug Qui",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Don't stop here if you like being stuck in the driveway for 20minutes. The water in the shower is back and fourth warm for a couple minutes then cold for way longer. Hardly any parking just pass this place up unless you are actually out of …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Aug Qui_Don't_stop_here_if_you_like_being_stuck_in_the_dri_a year ago"
+        },
+        {
+          "reviewerName": "Nicky Falcon",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "I always get up two hrs before my break is up to shower and get ready but I spent and hours waiting for a shower from 2 am to 4 am now I'm late to my appointment they had opened dirty showers and no one care to clean them up 🤬🤬🤬 thank you …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Nicky Falcon_I_always_get_up_two_hrs_before_my_break_is_up_to_s_7 months ago"
+        },
+        {
+          "reviewerName": "V.L. Cason",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "As a full time on the road traveler, what a wonderful shower. $12, all in one private toilet, sink, and large shower. Not a lot of room in terms of the \"dry space\" but managed just fine. Doesn't lower my rating. Oddly didn't earn any …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 24,
+          "uniqueId": "V.L. Cason_As_a_full_time_on_the_road_traveler,_what_a_wonder_6 years ago"
+        },
+        {
+          "reviewerName": "Despot 1389 (Despot)",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Clean shower ,laundry, mcdonald's on site,clean not to big,so far the nicest truck stop,although I'm cargo van driver,not semi truck",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Despot 1389 (Despot)_Clean_shower_,laundry,_mcdonald's_on_site,clean_no_a year ago"
+        },
+        {
+          "reviewerName": "Nicole Esquino",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Stopped here for a hot shower and this Pilot did not disappoint. Hot water and ready quick. Staff were friendly and helpful. Recommend.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 39,
+          "uniqueId": "Nicole Esquino_Stopped_here_for_a_hot_shower_and_this_Pilot_did_n_2 years ago"
+        },
+        {
+          "reviewerName": "Amanda Biggerstaff",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… a ProPhil pilot flying J cup. He followed my husband around the store like he was a criminal. He refused to give us an extra towel for our shower. I shower with my husband when Im on the road with him. We will not be returning to this …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 46,
+          "uniqueId": "Amanda Biggerstaff_…_a_ProPhil_pilot_flying_J_cup._He_followed_my_hus_6 years ago"
+        },
+        {
+          "reviewerName": "Steven Sorber",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… affect until 4 PM the next day. Went into the shower in the morning , my company is calling saying wesley the manager is calling saying I wasn't  on the property and he was threatening to tow my truck. I was going to pay for the next …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Steven Sorber_…_affect_until_4_PM_the_next_day._Went_into_the_sh_6 years ago"
+        },
+        {
+          "reviewerName": "Torg Bjornfelderson",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Friendly staff, CLEAN showers! $12 for a shower. A washcloth, small, and large towel are provided. All in one soap is also provided inside the shower. Would visit again.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 62,
+          "uniqueId": "Torg Bjornfelderson_Friendly_staff,_CLEAN_showers!_$12_for_a_shower._A_6 years ago"
+        },
+        {
+          "reviewerName": "Lori",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Cleanest truckers shower I have been in. Would give them 5 stars if there was more tractor trailer parking.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 69,
+          "uniqueId": "Lori_Cleanest_truckers_shower_I_have_been_in._Would_giv_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers, wash",
+      "hours": "Open 24 hours Confirmed by this business 6 weeks agoTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1625 County Rd 210, St Johns, FL 32259, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@30.065564,-81.5299579,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e42d5fda733597:0x7ffef0d6711bed15!8m2!3d30.065564!4d-81.493909!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tjdxqln?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 5.0(1)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.088432",
+      "lng": "-81.9819739",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "5105 Co Rd 218, Middleburg, FL 32068, United States",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@30.088432,-81.9819739,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e5e7880668d287:0xae67b2f0de620816!8m2!3d30.088432!4d-81.945925!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11y33f1jy6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Petro Travel Center",
+      "street": "Petro Travel Center 4.1(899)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.7942324",
+      "lng": "-81.7022832",
+      "phone": "+1 912-882-3111",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Petro Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jason Myers",
+          "rating": "4 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Calling it a Petro is misleading. Has the same amount of truck spots as a ta or ta express. Doesn't have a iron skillet and only has 5 showers. The staff seems friendly and the place seems clean but all they have is a popeyes. There's some hotels in the area and an ihop.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Jason Myers_Calling_it_a_Petro_is_misleading._Has_the_same_amo_5 months ago"
+        },
+        {
+          "reviewerName": "José Antonio Peña Peláez",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Like every Petro location, place is clean, many parking spots available staff is friendly",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 39,
+          "uniqueId": "José Antonio Peña Peláez_Like_every_Petro_location,_place_is_clean,_many_pa_4 months ago"
+        },
+        {
+          "reviewerName": "Bruce InCharlotte",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We stopped here super early - 5:15 am. Clean outside, clean store inside and a very clean restroom! Both the men's room (and from Mrs. K., the ladies) were super clean. No papers on the counter, no water on the floor, clean smell. Fabulous. …",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "Bruce InCharlotte_We_stopped_here_super_early_-_5:15_am._Clean_outsi_7 months ago"
+        },
+        {
+          "reviewerName": "L Stanley",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "This is By Far the nicest Petro we have ever stopped in for gas! The customer service is very kind and professional, the store is nice, neat and clean and the restrooms are very nice and clean. We are transporters and frequently stop at truck stops. This one is impressive- 5 stars deserved!!",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "L Stanley_This_is_By_Far_the_nicest_Petro_we_have_ever_stopp_3 years ago"
+        },
+        {
+          "reviewerName": "Ashley Mehaffie",
+          "rating": "5 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "This place is one of my favorite places to stop on the way from Florida. There's a huge selection of hand made candies, fudges, and last minute state gifts. The restrooms were clean. Most importantly the staff is always super polite. I love this place.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "Ashley Mehaffie_This_place_is_one_of_my_favorite_places_to_stop_on_8 years ago"
+        }
+      ],
+      "showerReviewCount": 5,
+      "showerReviewSummary": "5 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, restroom",
+      "hours": "",
+      "address": "1105 E King Ave, Kingsland, GA 31548, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Petro+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Petro+Travel+Center/@30.7942324,-81.7022832,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e5053923aabc71:0x34cbb55323406888!8m2!3d30.7942324!4d-81.6662343!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVI0TW05RFNUbEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgrEEc!16s%2Fg%2F1tlqqt97?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.2(6)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.088432",
+      "lng": "-81.9819739",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "5105 Co Rd 218, Middleburg, FL 32068, United States",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@30.088432,-81.9819739,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e5e7880668d287:0xae67b2f0de620816!8m2!3d30.088432!4d-81.945925!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11y33f1jy6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.0(1)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.088432",
+      "lng": "-81.9819739",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "5105 Co Rd 218, Middleburg, FL 32068, United States",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@30.088432,-81.9819739,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e5e7880668d287:0xae67b2f0de620816!8m2!3d30.088432!4d-81.945925!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11y33f1jy6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.1(2",
+      "city": "334)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.065564",
+      "lng": "-81.5299579",
+      "phone": "+1 904-826-3618",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ed E Myre",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… Most important for me tonight, the shower/bathroom was spotlessly clean; big deal for a trucker away from home. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Ed E Myre_…_Most_important_for_me_tonight,_the_shower/bathro_11 months ago"
+        },
+        {
+          "reviewerName": "Aug Qui",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Don't stop here if you like being stuck in the driveway for 20minutes. The water in the shower is back and fourth warm for a couple minutes then cold for way longer. Hardly any parking just pass this place up unless you are actually out of …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Aug Qui_Don't_stop_here_if_you_like_being_stuck_in_the_dri_a year ago"
+        },
+        {
+          "reviewerName": "Nicky Falcon",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "I always get up two hrs before my break is up to shower and get ready but I spent and hours waiting for a shower from 2 am to 4 am now I'm late to my appointment they had opened dirty showers and no one care to clean them up 🤬🤬🤬 thank you …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Nicky Falcon_I_always_get_up_two_hrs_before_my_break_is_up_to_s_7 months ago"
+        },
+        {
+          "reviewerName": "V.L. Cason",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "As a full time on the road traveler, what a wonderful shower. $12, all in one private toilet, sink, and large shower. Not a lot of room in terms of the \"dry space\" but managed just fine. Doesn't lower my rating. Oddly didn't earn any …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 24,
+          "uniqueId": "V.L. Cason_As_a_full_time_on_the_road_traveler,_what_a_wonder_6 years ago"
+        },
+        {
+          "reviewerName": "Despot 1389 (Despot)",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Clean shower ,laundry, mcdonald's on site,clean not to big,so far the nicest truck stop,although I'm cargo van driver,not semi truck",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Despot 1389 (Despot)_Clean_shower_,laundry,_mcdonald's_on_site,clean_no_a year ago"
+        },
+        {
+          "reviewerName": "Nicole Esquino",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Stopped here for a hot shower and this Pilot did not disappoint. Hot water and ready quick. Staff were friendly and helpful. Recommend.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 39,
+          "uniqueId": "Nicole Esquino_Stopped_here_for_a_hot_shower_and_this_Pilot_did_n_2 years ago"
+        },
+        {
+          "reviewerName": "Amanda Biggerstaff",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… a ProPhil pilot flying J cup. He followed my husband around the store like he was a criminal. He refused to give us an extra towel for our shower. I shower with my husband when Im on the road with him. We will not be returning to this …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 46,
+          "uniqueId": "Amanda Biggerstaff_…_a_ProPhil_pilot_flying_J_cup._He_followed_my_hus_6 years ago"
+        },
+        {
+          "reviewerName": "Steven Sorber",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… affect until 4 PM the next day. Went into the shower in the morning , my company is calling saying wesley the manager is calling saying I wasn't  on the property and he was threatening to tow my truck. I was going to pay for the next …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Steven Sorber_…_affect_until_4_PM_the_next_day._Went_into_the_sh_6 years ago"
+        },
+        {
+          "reviewerName": "Torg Bjornfelderson",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Friendly staff, CLEAN showers! $12 for a shower. A washcloth, small, and large towel are provided. All in one soap is also provided inside the shower. Would visit again.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 62,
+          "uniqueId": "Torg Bjornfelderson_Friendly_staff,_CLEAN_showers!_$12_for_a_shower._A_6 years ago"
+        },
+        {
+          "reviewerName": "Lori",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Cleanest truckers shower I have been in. Would give them 5 stars if there was more tractor trailer parking.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 69,
+          "uniqueId": "Lori_Cleanest_truckers_shower_I_have_been_in._Would_giv_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers, wash",
+      "hours": "Open 24 hours Confirmed by this business 6 weeks agoTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1625 County Rd 210, St Johns, FL 32259, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@30.065564,-81.5299579,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e42d5fda733597:0x7ffef0d6711bed15!8m2!3d30.065564!4d-81.493909!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tjdxqln?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Dealer",
+      "street": "Pilot Dealer 1.8(12)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.8142709",
+      "lng": "-82.2049106",
+      "phone": "+1 352-468-1590",
+      "website": "https://locations.pilotflyingj.com/us/fl/saint-johns/1625-county-road-210-west",
+      "content": "Pilot Dealer may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Talk about it",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… Totally clean showers the people here will help you out no matter what the center is located outside the town so it's very clean and the staff is very friendly and they'll accommodate you whenever you need something. Pilot Travel Centers …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Talk about it_…_Totally_clean_showers_the_people_here_will_help__7 years ago"
+        },
+        {
+          "reviewerName": "CL Nesbit",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Happened to be on the road and needed a shower. Quick and fast service. The young lady opened my door, clean and sanitary. Towel and wash rag provided, I carry my own so I didn’t use the provided items. When I say hot water, expect it! It …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 12,
+          "uniqueId": "CL Nesbit_Happened_to_be_on_the_road_and_needed_a_shower._Qu_a year ago"
+        },
+        {
+          "reviewerName": "Matthew Williams",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Fuel pumps not working with cards, they charge to park, they don't accept shower credits from pilot points, but the showers are closed and don't have towels anyway. The store is fairly clean and the cashier's are friendly though. Wouldn't …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Matthew Williams_Fuel_pumps_not_working_with_cards,_they_charge_to__a year ago"
+        },
+        {
+          "reviewerName": "Diya Green",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… Afternoon. I’m a lady trucker. My husband and I team drivers. Looking for over night parking and showers. This “thing” that was working tonight was very rude. Told us if we were looking to shower she will have to charge us for two. We asked …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 28,
+          "uniqueId": "Diya Green_…_Afternoon._I’m_a_lady_trucker._My_husband_and_I__a year ago"
+        },
+        {
+          "reviewerName": "Bens359pete",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Good to see remodel and new parking. But staff sucks. Was in shower total 20 minutes. 5 of that was waiting on hot water. Then staff comes knocking to rush you out! Says others are waiting. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Bens359pete_Good_to_see_remodel_and_new_parking._But_staff_suc_2 years ago"
+        },
+        {
+          "reviewerName": "Alfredo Lopez",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "On 10/13/2024 at approximately between 2:30 pm- 3:00pm . I walk in requesting to use my pilot points to take a shower . The three ladies that were at the front stated that we do not give out showers to truckers . The reason was because the …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 44,
+          "uniqueId": "Alfredo Lopez_On_10/13/2024_at_approximately_between_2:30_pm-_3:_11 months ago"
+        },
+        {
+          "reviewerName": "Stephanie Dzera",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Very nice people there! My husband, 10 month old daughter, and I stopped by to shower on our way back to Pittsburgh after thanksgiving down there with my dad. We only paid 12$ to shower, it was amazing clean, and the ladies in the front …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Stephanie Dzera_Very_nice_people_there!_My_husband,_10_month_old_d_3 years ago"
+        },
+        {
+          "reviewerName": "Adventure Krewe",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… were covered in diesel so I guess everybody has to come in and was thinking hands. I can't believe they expect truckers to shower in that filth and pay for it. I do want to like pilots and flying J and we did have a great experience in …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 60,
+          "uniqueId": "Adventure Krewe_…_were_covered_in_diesel_so_I_guess_everybody_has__6 years ago"
+        },
+        {
+          "reviewerName": "A D",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… for every fraction of a penny.  That kind of business doesn't encourage a return visit.  Based on previous reviews, I'm glad I didn't try to shower here.  To management, if you don't disinfect, shower shoes or not, we get nasty foot fungi …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 68,
+          "uniqueId": "A D_…_for_every_fraction_of_a_penny._That_kind_of_bus_3 years ago"
+        },
+        {
+          "reviewerName": "Louis Schiller",
+          "rating": "2 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… that the place is in.. make sure you bring some kind of disinfectant and plenty of paper towels to wipe the showers down with because they are absolutely disgusting and they are using dirty water just to run a mop through things they are …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 76,
+          "uniqueId": "Louis Schiller_…_that_the_place_is_in.._make_sure_you_bring_some__3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "17276 NE US Hwy 301, Waldo, FL 32694, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Breeze+Rite+In+Travel+Center+-+Pilot+Dealer",
+      "googleMapsUrl": "https://www.google.com/maps/place/Breeze+Rite+In+Travel+Center+-+Pilot+Dealer/@29.8142709,-82.2049106,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e603cb01b9b87d:0x1bb53d80a7fc82a4!8m2!3d29.8142709!4d-82.1688617!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5LYldWSFIwMTNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11clzhdwf_?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

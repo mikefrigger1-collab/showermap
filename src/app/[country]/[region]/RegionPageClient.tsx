@@ -167,7 +167,7 @@ export default function RegionPageClient({ regionInfo, params }: RegionPageClien
             {isVerified && (
               <div className="flex items-center gap-1 mt-1">
                 <BadgeCheck className="h-4 w-4 text-green-600" />
-                <span className="text-xs text-green-600 font-medium">Verified</span>
+                <span className="text-xs text-green-600 font-medium">Verified Showers</span>
               </div>
             )}
           </div>

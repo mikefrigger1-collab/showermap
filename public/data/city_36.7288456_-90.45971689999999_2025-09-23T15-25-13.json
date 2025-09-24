@@ -1,0 +1,1314 @@
+{
+  "timestamp": "2025-09-24T06:19:07.073Z",
+  "city": "36.7288456",
+  "state": "-90.45971689999999",
+  "sessionId": "2025-09-23T15-25-13",
+  "totalLocations": 10,
+  "locationsWithShowerReviews": 8,
+  "totalShowerReviews": 77,
+  "locations": [
+    {
+      "title": "HEARTLAND TRUCK STOP",
+      "street": "HEARTLAND TRUCK STOP 4.2(1",
+      "city": "073)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.729216",
+      "lng": "-91.6132976",
+      "phone": "+1 573-778-0772",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "HEARTLAND TRUCK STOP may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ella R.J.",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Plenty of food choices for late night cravings. Open 24/7. Shower is clean-ish for $7.00. It can get stuffy in there though, it needs fan and a little bit more water pressure.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Ella R.J._Plenty_of_food_choices_for_late_night_cravings._Op_a year ago"
+        },
+        {
+          "reviewerName": "Brian Nieves",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I STOP FOR THE NIGHT.  I GOT A SHOWER FOR $7.00  AND THE LADY IN THE PHONE TOLD ME THAT IT WAS FREE .THAT OK FOR $7.00 IS GOOD SHOWER. The pizza is ok too. The SHOWER got toilet",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Brian Nieves_I_STOP_FOR_THE_NIGHT._I_GOT_A_SHOWER_FOR_$7.00_A_a year ago"
+        },
+        {
+          "reviewerName": "Rafael Wertzberger",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Omg! The shower was good! I should have done it 6 weeks ago.... okay, just kidding,  it was only 3 days after the last one. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 19,
+          "uniqueId": "Rafael Wertzberger_Omg!_The_shower_was_good!_I_should_have_done_it_6__7 years ago"
+        },
+        {
+          "reviewerName": "Laura Garnsey",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "The place was clean and staff seemed nice and very helpful. We used the shower there it was clean and nice. Thank you.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 29,
+          "uniqueId": "Laura Garnsey_The_place_was_clean_and_staff_seemed_nice_and_very_7 months ago"
+        },
+        {
+          "reviewerName": "GoodMoodFoodDude",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This place was a great stop! Very friendly staff, nice large parking lot to sleep for the night in our RV and the showers were just right! $6 for a shower, no time limit, got the whole family in, in one trip. Best gas prices on this section …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 36,
+          "uniqueId": "GoodMoodFoodDude_This_place_was_a_great_stop!_Very_friendly_staff,__4 years ago"
+        },
+        {
+          "reviewerName": "Richard Pisarek",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Really good food and great selection of food and other items you might need. Showers are only $7.00 small shower room but can't bet the price 👍 …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 44,
+          "uniqueId": "Richard Pisarek_Really_good_food_and_great_selection_of_food_and_o_a year ago"
+        },
+        {
+          "reviewerName": "Heather Mechelle",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Men and Women's Restrooms, Three Single Person Shower's for Rent Per Individual, a small but, modern laundromat and outside was just a nice place to sit under the stars in our best car we ever had  rest a our First Day of Springs",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 51,
+          "uniqueId": "Heather Mechelle_Men_and_Women's_Restrooms,_Three_Single_Person_Sho_4 years ago"
+        },
+        {
+          "reviewerName": "Ambrosio Lerma",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… cakes and sweetbreads.  Whole loaf of fresh banana bread 3.99. Big ol salad (to much for one person: 3.99.  I could go on n on. Shower: 6.00. Wash machines n catscale.  Bathroom and showers not the best but clean.  And very friendly staff. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean",
+            "wash"
+          ],
+          "index": 58,
+          "uniqueId": "Ambrosio Lerma_…_cakes_and_sweetbreads._Whole_loaf_of_fresh_bana_5 years ago"
+        },
+        {
+          "reviewerName": "nathan keirns",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Always good food can get a clean shower here people are nice and willing to help one of the best stops of my trip",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "nathan keirns_Always_good_food_can_get_a_clean_shower_here_peopl_3 years ago"
+        },
+        {
+          "reviewerName": "dhanoa singh",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "This truck stop is small but in here good food and nice and clean shower ..",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "dhanoa singh_This_truck_stop_is_small_but_in_here_good_food_and_7 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom, bathroom, wash",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "4155 S Westwood Blvd, Poplar Bluff, MO 63901, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "HEARTLAND+TRUCK+STOP",
+      "googleMapsUrl": "https://www.google.com/maps/place/HEARTLAND+TRUCK+STOP/@36.729216,-91.6132976,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87d7ae2fde3aaead:0x57a71ba066b352ba!8m2!3d36.7288692!4d-90.4596773!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVU5uYzI5MVUySm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECDEQKg!16s%2Fg%2F1tptr4cn?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "LEXMART TRAVEL CENTER",
+      "street": "LEXMART TRAVEL CENTER 4.3(72)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.729216",
+      "lng": "-91.6132976",
+      "phone": "+1 573-624-2030",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "LEXMART TRAVEL CENTER may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 4:30 am Wednesday4:30 am–8 pmThursday4:30 am–8 pmFriday4:30 am–8 pmSaturday4:30 am–8 pmSundayClosedMonday4:30 am–8 pmTuesday4:30 am–8 pmSuggest new hours",
+      "address": "Dudley, MO 63936, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "LEXMART+TRAVEL+CENTER",
+      "googleMapsUrl": "https://www.google.com/maps/place/LEXMART+TRAVEL+CENTER/@36.729216,-91.6132976,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87d7db5f7b89db79:0x381e89d6c8d83a60!8m2!3d36.7928191!4d-90.0926797!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJPY0hWNWMyTkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQPg!16s%2Fg%2F11glxxtxmz?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "ONE9 Travel Center",
+      "street": "ONE9 Travel Center 3.9(1",
+      "city": "030)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.5182249",
+      "lng": "-90.7514625",
+      "phone": "+1 573-643-2320",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "ONE9 Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Dennis Bunker",
+          "rating": "3 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Very poor water pressure in the shower if you wanna get wet, take a bucket of water in with you.   $3.05 for a cup of coffee and not a lot of parking.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Dennis Bunker_Very_poor_water_pressure_in_the_shower_if_you_wann_3 months ago"
+        },
+        {
+          "reviewerName": "Dwayne Davis",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "So I roll in park then I reserve my shower. SHOWER  5 is ready and the code. I get to the door #5 , enter the code twice no access. I asked the shower attendant for assistance. He looks at the number on the door he entered the code off of …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 7,
+          "uniqueId": "Dwayne Davis_So_I_roll_in_park_then_I_reserve_my_shower._SHOWER_a year ago"
+        },
+        {
+          "reviewerName": "D Moore",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… the country that I go. Whenever I see a employee  in there, they only sweep the floor. Its often the same with the shower stalls. Naked dirty trash cans and private toilet not being cleaned inside the bowl. And they don't want to use …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 15,
+          "uniqueId": "D Moore_…_the_country_that_I_go._Whenever_I_see_a_employee_6 years ago"
+        },
+        {
+          "reviewerName": "Scott Benjamin",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "It was awful. Paid for shower and got in ok. I only had 30 seconds of hot water and the rest of the time it was lukewarm. I let it run for 20 minutes and never got hot at all. If they don't have hot water just say showers don't work. Try …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 23,
+          "uniqueId": "Scott Benjamin_It_was_awful._Paid_for_shower_and_got_in_ok._I_onl_6 years ago"
+        },
+        {
+          "reviewerName": "Mark Ransom",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… but we won't be back to this one.  The whole place was a mess. Bathrooms looked like they hadn't been cleaned in over a month.  The shower had no soap in it. Floors hadn't been cleaned in days.  I could go on to but you get the point.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "Mark Ransom_…_but_we_won't_be_back_to_this_one._The_whole_pla_6 years ago"
+        },
+        {
+          "reviewerName": "Kristine Smith",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Not very clean. We waited about an hour for the shower, Heather had to be the center of attention, didn't salt around pumps till 9 am. Cussing by Heather after she knocked on a persons truck and they got mad at her, it was f this and f that …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 39,
+          "uniqueId": "Kristine Smith_Not_very_clean._We_waited_about_an_hour_for_the_sh_6 years ago"
+        },
+        {
+          "reviewerName": "Nelson Fernández",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I stopped to take a shower, they just told me they don't have hot water.  but the bathrooms do have.  They do it so they don't have to clean the showers at night.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "Nelson Fernández_I_stopped_to_take_a_shower,_they_just_told_me_they_2 years ago"
+        },
+        {
+          "reviewerName": "AKA The. PREACHER",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… when you Drive 2000 miles plus a week you love it when you see that pilot he thinking man got clean bathrooms give me a shower freshen up be back ready on the road again thanks guys for doing a good job God bless you and I giving you a 2 …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 54,
+          "uniqueId": "AKA The. PREACHER_…_when_you_Drive_2000_miles_plus_a_week_you_love_i_7 years ago"
+        },
+        {
+          "reviewerName": "David Norman",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "went in to take shower towels smells awful and on top of that shower barely luke warm at best",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 62,
+          "uniqueId": "David Norman_went_in_to_take_shower_towels_smells_awful_and_on__5 years ago"
+        },
+        {
+          "reviewerName": "josi yosef",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "No customer service no shower no restroom 00000",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 69,
+          "uniqueId": "josi yosef_No_customer_service_no_shower_no_restroom_00000_2 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, bathroom, restroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "917 ELM St, Marston, MO 63866, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "ONE9+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/ONE9+Travel+Center/@36.5182249,-90.7514625,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8878f14a777fe4d5:0x4001072b85a3f5e3!8m2!3d36.5182249!4d-89.597898!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5QWDJOaWRtTkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQMQ!16s%2Fg%2F1tfg8f7t?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.9(1",
+      "city": "280)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.5182249",
+      "lng": "-90.7514625",
+      "phone": "+1 573-472-3336",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Joel Alaniz",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I WILL NEVER RETURN.  40mins for a shower that never happened!?  I went, paid for a shower, and was given a customer number and pin.  I noticed the TVs were out and their speakers play music loud, so customers can't hear \"your number called …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Joel Alaniz_I_WILL_NEVER_RETURN._40mins_for_a_shower_that_nev_a month ago"
+        },
+        {
+          "reviewerName": "Catherine Jackson",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "10 a.m. Stopped in for fuel. Wanted a sandwich and a shower. Cashier was nice. The manager here is amazing. She runs around greeting people, cleaning, talking to staff and customers. Pilot should clone her. Anyway, there were 6 people …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "Catherine Jackson_10_a.m._Stopped_in_for_fuel._Wanted_a_sandwich_and_a month ago"
+        },
+        {
+          "reviewerName": "Mark Thompson",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "… services but just like this place they do nothing to make things better. I read the view while I wait for a shower so far 1.5hours wait and I was # two in line. Whatched the guest before me that already showered and left. And still no one …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 18,
+          "uniqueId": "Mark Thompson_…_services_but_just_like_this_place_they_do_nothin_4 months ago"
+        },
+        {
+          "reviewerName": "Penny Nix",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… . Except for their bank accounts. Because this is what they think how professional drivers are to be treated. God this place is nasty. And you will have someone tell you that yeah they would have their own mother take a shower in this.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 29,
+          "uniqueId": "Penny Nix_…_._Except_for_their_bank_accounts._Because_this_i_a year ago"
+        },
+        {
+          "reviewerName": "Rustam Virk",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "If there was 0 star stars i will give 0 star to this pump i waited for 55 minutes for the shower but still no updates amd stagf doesnt know what to do Worst pump",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Rustam Virk_If_there_was_0_star_stars_i_will_give_0_star_to_th_a month ago"
+        },
+        {
+          "reviewerName": "Artem Kosolapov",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "There was a really terrible stench in shower number 3. It made my mood worse for the day. And the fan didn't work.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 48,
+          "uniqueId": "Artem Kosolapov_There_was_a_really_terrible_stench_in_shower_numbe_2 months ago"
+        },
+        {
+          "reviewerName": "Laith Heqari",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "If u want to waste ur time come take shower here all the time no one clean the showers and u have to wait one hour or more",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Laith Heqari_If_u_want_to_waste_ur_time_come_take_shower_here_a_3 months ago"
+        },
+        {
+          "reviewerName": "Carlin Bechtel",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Was over an hour wait for a shower simply because they weren't being cleaned.  Horrible management.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 62,
+          "uniqueId": "Carlin Bechtel_Was_over_an_hour_wait_for_a_shower_simply_because__a year ago"
+        },
+        {
+          "reviewerName": "Troy T",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Nice big shower rooms, but they are extremely dirty.   It looks like the floors and showers haven't been cleaned or mopped in weeks",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Troy T_Nice_big_shower_rooms,_but_they_are_extremely_dirt_a year ago"
+        },
+        {
+          "reviewerName": "Sunshine Taper",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Do not stop there for shower.  Every time 5-10  person waiting and wery slow cleaning.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 80,
+          "uniqueId": "Sunshine Taper_Do_not_stop_there_for_shower._Every_time_5-10_pe_6 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "703 MO-80, Matthews, MO 63867, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@36.5182249,-90.7514625,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8878500d39d436e1:0xa3bdf8589b8e0e19!8m2!3d36.7603469!4d-89.5408622!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5sTUV4cWFqZEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEc!16s%2Fg%2F1tf71ply?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "MNP Taylor's Stateline Travel Center & Longhorn Grill",
+      "street": "MNP Taylor's Stateline Travel Center & Longhorn Grill 4.1(940)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.4995382",
+      "lng": "-91.6929095",
+      "phone": "+1 573-989-3822",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "MNP Taylor's Stateline Travel Center & Longhorn Grill may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Carolyn Meton",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Went in to use restroom and wash a few dishes, lady working was cleaning restroom and tells me to use shower (3) . I head to shower 3 lock the door, said shower room was recently used so hadn't been cleaned yet. No toilet paper (amen for …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Carolyn Meton_Went_in_to_use_restroom_and_wash_a_few_dishes,_lad_a year ago"
+        },
+        {
+          "reviewerName": "CDVD",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "After a long hard drive it was a pleasant surprise to walk in and find out my shower was free, and a hell lot nicer than most places that will charge you $12 or more for some busted up stall with a threadbare towel. Even just the few …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 13,
+          "uniqueId": "CDVD_After_a_long_hard_drive_it_was_a_pleasant_surprise_5 years ago"
+        },
+        {
+          "reviewerName": "Edwin Arana",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "They have good food, decent price on diesel ($2.89) and  4 free showers for truckers, but you have to wait for over an hour for the showers to be ready. I couldn't wait. So next truck stop I got everything exactly the same (except for …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 21,
+          "uniqueId": "Edwin Arana_They_have_good_food,_decent_price_on_diesel_($2.89_7 years ago"
+        },
+        {
+          "reviewerName": "Gio Socci",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "I ve been here before,but today I needed fuel,so I figured:take advantage of low priced fuel and get a shower,win/win,I had forgotten about the FREE SHOWER,one of the few places that does nice things for drivers. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 29,
+          "uniqueId": "Gio Socci_I_ve_been_here_before,but_today_I_needed_fuel,so_I_6 years ago"
+        },
+        {
+          "reviewerName": "April Green",
+          "rating": "2 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… Two paper thin pancakes that had no flavor is all it takes to drive people away. Ladies restroom was not working so they directed me a shower stall that had a sink but no soap to wash your hands after using the RR. I was not pleased. Sorry …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "wash"
+          ],
+          "index": 37,
+          "uniqueId": "April Green_…_Two_paper_thin_pancakes_that_had_no_flavor_is_al_7 years ago"
+        },
+        {
+          "reviewerName": "Yvonne P",
+          "rating": "3 stars",
+          "reviewDate": "Edited 9 years ago",
+          "reviewText": "Nice casual place. Diner, fuel,shower,laundry. Large gravel lot so plenty of parking.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 45,
+          "uniqueId": "Yvonne P_Nice_casual_place._Diner,_fuel,shower,laundry._Lar_Edited 9 years ago"
+        },
+        {
+          "reviewerName": "Blair Cooper",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Awesome truck stop. Lots of parkong space. Free shower for drivers. Friendly staff",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 52,
+          "uniqueId": "Blair Cooper_Awesome_truck_stop._Lots_of_parkong_space._Free_sh_7 years ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, restroom, clean, wash, showers",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "21710 US-67, Neelyville, MO 63954, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "MNP+Taylor's+Stateline+Travel+Center+%26+Longhorn+Grill",
+      "googleMapsUrl": "https://www.google.com/maps/place/MNP+Taylor's+Stateline+Travel+Center+%26+Longhorn+Grill/@36.4995382,-91.6929095,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87d656c74c553d99:0x9d782c3dc4c9f3a9!8m2!3d36.4995382!4d-90.539345!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJIYW1acE1GaFJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECB0QOQ!16s%2Fg%2F1tdpmmdy?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.6(1",
+      "city": "354)Rest stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.7581364",
+      "lng": "-90.6883327",
+      "phone": "+1 573-471-8644",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "nathaniel austin",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… , terrible terrible now my trailer is in the shop. What can I do, I'm so worried about my truck and trailer. I don't even have time to shower or get something good to eat. I'm eating salad every night and still overweight, embarrassing.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "nathaniel austin_…_,_terrible_terrible_now_my_trailer_is_in_the_sho_a year ago"
+        },
+        {
+          "reviewerName": "Lorne Latiker",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… the process that was to take place in insuring the correct parts were changed. I also got a shower and a meal because I had to stay over night. TA Matthews Missouri have the personnel that make getting repairs a lot less stressful than …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Lorne Latiker_…_the_process_that_was_to_take_place_in_insuring_t_2 years ago"
+        },
+        {
+          "reviewerName": "mikhail sukhanov",
+          "rating": "1 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "So Elizabeth. Manager on duty. Refused to help when scale ticket was lost after like an hour ago while taking a shower. So to reweight could be done. She didn’t offer to do anything other than just to pay again. No way to reprint it or look …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "mikhail sukhanov_So_Elizabeth._Manager_on_duty._Refused_to_help_whe_Edited a year ago"
+        },
+        {
+          "reviewerName": "L Strain",
+          "rating": "1 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Filthy shower... Guess they've never heard of a toilet brush and don't know how to clean a toilet. TA is as nasty as PILOT now. Is it incompetence? Or do you not care? You've turned your back on the drivers that made you.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "L Strain_Filthy_shower..._Guess_they've_never_heard_of_a_to_7 years ago"
+        },
+        {
+          "reviewerName": "D Dinkel",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The one star is for the shower and the gentleman that works in that area of the facility. Such a kind man and graciously offered to open the door for me when my hands were full. The staff at the retail desk were very nice and helpful so …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "D Dinkel_The_one_star_is_for_the_shower_and_the_gentleman_t_6 years ago"
+        },
+        {
+          "reviewerName": "Scott Whaley",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… stop where there is not garbage laying all over the grass surrounding it or piled up on the fuel Island. My shower was clean and the people were friendly. Would be better if there was a sit-down restaurant rather than fast food garbage.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Scott Whaley_…_stop_where_there_is_not_garbage_laying_all_over__7 years ago"
+        },
+        {
+          "reviewerName": "Jimmy R Tuck",
+          "rating": "1 stars",
+          "reviewDate": "9 years ago",
+          "reviewText": "Lazy employees here... The clean shower that I was given still had a dirty wash rag in the shower... The sink still had hair in it.... Talked to management and they had it cleaned again. But as I watched the 2 guys clean it all they did was …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 48,
+          "uniqueId": "Jimmy R Tuck_Lazy_employees_here..._The_clean_shower_that_I_was_9 years ago"
+        },
+        {
+          "reviewerName": "Дмитрий Иванов",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "the shower doesn't work, the toilet doesn't either",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 56,
+          "uniqueId": "Дмитрий Иванов_the_shower_doesn't_work,_the_toilet_doesn't_either_5 months ago"
+        },
+        {
+          "reviewerName": "Jerry King",
+          "rating": "1 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Don't bother trying to shower here.  Driver's get shower coupons and don't go shower and system doesn't clear them off.  I waited 20 min and three driver's never showed up.  When I asked about shower they paged driver's instead of clearing …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "Jerry King_Don't_bother_trying_to_shower_here._Driver's_get__8 years ago"
+        },
+        {
+          "reviewerName": "Tony Gallegos",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Our company recently started to bring TA some if our fuel business. The showers here are amazing (used to use pilot/fj) the staff was quite helpful and energetic (hence 5 stars). Lady at the desk helped me at the kiosk to obtain my shower …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 71,
+          "uniqueId": "Tony Gallegos_Our_company_recently_started_to_bring_TA_some_if_o_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, wash, showers",
+      "hours": "",
+      "address": "854 MO-80, Matthews, MO 63867, United States",
+      "rating": "3.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Rest stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@36.7581364,-90.6883327,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8878506b41ce63e3:0x6e5de280b1620405!8m2!3d36.7581364!4d-89.5347682!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQlyZXN0X3N0b3CaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUlBNa3RtWXpoM1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSg!16s%2Fg%2F1tffq2rs?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Truck-stop chain offering fuel & food. Many have amenities such as laundry rooms, showers & lodging.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.7(896)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.7581364",
+      "lng": "-90.6883327",
+      "phone": "+1 573-471-4944",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Dilovar Usmanov",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "… . My day was the most disgusting in the last year, thanks to the employee of this place. As usual, I ordered a shower through my mobile app, it was shower number 5, I entered the password to go in there, I went in and washed myself …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Dilovar Usmanov_…_._My_day_was_the_most_disgusting_in_the_last_yea_2 months ago"
+        },
+        {
+          "reviewerName": "Tamara -The truckers wife- Locke",
+          "rating": "2 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "… just dirty. Bathrooms the same. I couldn’t wash my hands bc 2 employees were standing around in front of sinks & wouldn’t let me get by them, seriously. Showers were better, good water pressure & hot! The shower doesn’t have a partition …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "wash"
+          ],
+          "index": 10,
+          "uniqueId": "Tamara -The truckers wife- Locke_…_just_dirty._Bathrooms_the_same._I_couldn’t_wash__Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Bill Champ",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Can't leave a negative star on it. Waited for half an hour for a shower to get cleaned and ended up cancelling it. Guess when a bus comes in drivers get put on the back burners. Should have pushed to bloomsdale. Bus or not, they keep up …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 22,
+          "uniqueId": "Bill Champ_Can't_leave_a_negative_star_on_it._Waited_for_half_2 months ago"
+        },
+        {
+          "reviewerName": "hubert font",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "I'm an OTR truck driver so I shower at Love's travel stops all over the country. This is by far the worst. As you can see there is black mold on the ceiling and it is falling down in flakes. The grouting is molding and discolored. There was …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 31,
+          "uniqueId": "hubert font_I'm_an_OTR_truck_driver_so_I_shower_at_Love's_trav_5 years ago"
+        },
+        {
+          "reviewerName": "Vincent Janosko",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… Shower door #6 looks like it was kicked in by ATF looking for pistol braces... floors looked like Saddam's palace the day after the Marines showed up ,,,but.... …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 43,
+          "uniqueId": "Vincent Janosko_…_Shower_door_#6_looks_like_it_was_kicked_in_by_AT_2 years ago"
+        },
+        {
+          "reviewerName": "Corey Barron",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Been waiting an hour for a shower there was two ladies and very few customers.  Only need one cashier and neither one of them wanted to clean the showers for us hard working truck drivers.  They went and adjust the clothing and also filled …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Corey Barron_Been_waiting_an_hour_for_a_shower_there_was_two_la_3 years ago"
+        },
+        {
+          "reviewerName": "Lorna Satchwell",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… The shower doors are broken. The roof leaks. The soda machine is broken. SHUT IT DOWN.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 60,
+          "uniqueId": "Lorna Satchwell_…_The_shower_doors_are_broken._The_roof_leaks._The_2 years ago"
+        },
+        {
+          "reviewerName": "George Ramirez",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Worst love’s truck stop ever, I stopped for a shower, waiting 30 mins, no call, went to check the showers, open door and dirty, 6 of them, no one cleaning them, asked the young lady if they were going to clean up, goes to the other lady in …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 68,
+          "uniqueId": "George Ramirez_Worst_love’s_truck_stop_ever,_I_stopped_for_a_show_4 years ago"
+        },
+        {
+          "reviewerName": "Tiran UA",
+          "rating": "1 stars",
+          "reviewDate": "5 days ago",
+          "reviewText": "No shop, no shower, no laundry",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 76,
+          "uniqueId": "Tiran UA_No_shop,_no_shower,_no_laundry_5 days ago"
+        },
+        {
+          "reviewerName": "Kenneth Moore",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "At 3:00 AM check in shower app waited 45 minutes no shower yet all were dirty no one to clean them. Coffee bar was filfly and only 1 person at counter in the whole place. So got fuel and no one pulls up after fuel, Fuel Island nasty all …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 84,
+          "uniqueId": "Kenneth Moore_At_3:00_AM_check_in_shower_app_waited_45_minutes_n_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, wash, showers, bathroom, clean",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "100 Love Industrial Dr, Matthews, MO 63867, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@36.7581364,-90.6883327,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88785072b8d6ceef:0x54b193afa6552812!8m2!3d36.7582173!4d-89.5412494!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVF5ZFVsWE9FdFJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQQA!16s%2Fg%2F1tvm3j4y?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.9(2",
+      "city": "227)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.7581364",
+      "lng": "-90.6883327",
+      "phone": "+1 573-472-3336",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Joel Alaniz",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I WILL NEVER RETURN.  40mins for a shower that never happened!?  I went, paid for a shower, and was given a customer number and pin.  I noticed the TVs were out and their speakers play music loud, so customers can't hear \"your number called …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Joel Alaniz_I_WILL_NEVER_RETURN._40mins_for_a_shower_that_nev_a month ago"
+        },
+        {
+          "reviewerName": "Catherine Jackson",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "10 a.m. Stopped in for fuel. Wanted a sandwich and a shower. Cashier was nice. The manager here is amazing. She runs around greeting people, cleaning, talking to staff and customers. Pilot should clone her. Anyway, there were 6 people …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "Catherine Jackson_10_a.m._Stopped_in_for_fuel._Wanted_a_sandwich_and_a month ago"
+        },
+        {
+          "reviewerName": "Mark Thompson",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "… services but just like this place they do nothing to make things better. I read the view while I wait for a shower so far 1.5hours wait and I was # two in line. Whatched the guest before me that already showered and left. And still no one …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 18,
+          "uniqueId": "Mark Thompson_…_services_but_just_like_this_place_they_do_nothin_4 months ago"
+        },
+        {
+          "reviewerName": "Penny Nix",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… . Except for their bank accounts. Because this is what they think how professional drivers are to be treated. God this place is nasty. And you will have someone tell you that yeah they would have their own mother take a shower in this.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 29,
+          "uniqueId": "Penny Nix_…_._Except_for_their_bank_accounts._Because_this_i_a year ago"
+        },
+        {
+          "reviewerName": "Rustam Virk",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "If there was 0 star stars i will give 0 star to this pump i waited for 55 minutes for the shower but still no updates amd stagf doesnt know what to do Worst pump",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Rustam Virk_If_there_was_0_star_stars_i_will_give_0_star_to_th_a month ago"
+        },
+        {
+          "reviewerName": "Artem Kosolapov",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "There was a really terrible stench in shower number 3. It made my mood worse for the day. And the fan didn't work.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 48,
+          "uniqueId": "Artem Kosolapov_There_was_a_really_terrible_stench_in_shower_numbe_2 months ago"
+        },
+        {
+          "reviewerName": "Laith Heqari",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "If u want to waste ur time come take shower here all the time no one clean the showers and u have to wait one hour or more",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Laith Heqari_If_u_want_to_waste_ur_time_come_take_shower_here_a_3 months ago"
+        },
+        {
+          "reviewerName": "Carlin Bechtel",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Was over an hour wait for a shower simply because they weren't being cleaned.  Horrible management.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 62,
+          "uniqueId": "Carlin Bechtel_Was_over_an_hour_wait_for_a_shower_simply_because__a year ago"
+        },
+        {
+          "reviewerName": "Troy T",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Nice big shower rooms, but they are extremely dirty.   It looks like the floors and showers haven't been cleaned or mopped in weeks",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Troy T_Nice_big_shower_rooms,_but_they_are_extremely_dirt_a year ago"
+        },
+        {
+          "reviewerName": "Sunshine Taper",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Do not stop there for shower.  Every time 5-10  person waiting and wery slow cleaning.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 80,
+          "uniqueId": "Sunshine Taper_Do_not_stop_there_for_shower._Every_time_5-10_pe_6 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "703 MO-80, Matthews, MO 63867, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@36.7581364,-90.6883327,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8878500d39d436e1:0xa3bdf8589b8e0e19!8m2!3d36.7603469!4d-89.5408622!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5sTUV4cWFqZEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEc!16s%2Fg%2F1tf71ply?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 2.8(527)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.7581364",
+      "lng": "-90.6883327",
+      "phone": "+1 573-359-2007",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Tigran Bro",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… be done here is to change the manager of this Pilot Travel Center! A lot of problems, such as a queue for the showers because the staff is in no hurry to clean them, and the washing machines simply don’t work (no hot water) the water …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Tigran Bro_…_be_done_here_is_to_change_the_manager_of_this_Pi_3 months ago"
+        },
+        {
+          "reviewerName": "Alberto Bonilla",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "The management in this location is absolutely no good. Apparently management doesn't do random checks because whomever is supposed to be cleaning the showers is not doing their job properly. I go in to shower 5 and there's no toilet paper. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Alberto Bonilla_The_management_in_this_location_is_absolutely_no_g_7 months ago"
+        },
+        {
+          "reviewerName": "Олег Гаєвий",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I was 3 in line for a shower and waited 1 hour at 5:30 am. The employee was just minding his own business. 4 cubicles were not cleaned and he didn't care.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Олег Гаєвий_I_was_3_in_line_for_a_shower_and_waited_1_hour_at__a month ago"
+        },
+        {
+          "reviewerName": "Bethany Dow",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… The showers are decent. There are 8 showers, and at least they are hot and an average size. The attendant for the shower is right on.  Very little wait for showers. …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 31,
+          "uniqueId": "Bethany Dow_…_The_showers_are_decent._There_are_8_showers,_and_a year ago"
+        },
+        {
+          "reviewerName": "Catch me if you Can R",
+          "rating": "5 stars",
+          "reviewDate": "a week ago",
+          "reviewText": "Did a 34 hour restart here not bad have good food and shower and laundry.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Catch me if you Can R_Did_a_34_hour_restart_here_not_bad_have_good_food__a week ago"
+        },
+        {
+          "reviewerName": "Truck Mafia",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… something else shows 8,5 was free but he shut the door instead of cleaning and leave I request the management to check the video footage that why he did it as I have already waited for 1 hour for shower ? July,30,2025 from 1:40pm to 1:55pm",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "Truck Mafia_…_something_else_shows_8,5_was_free_but_he_shut_th_a month ago"
+        },
+        {
+          "reviewerName": "Daniel Guerriero",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Clean stocked shower with good hot water. Store was nice and clean as well.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Daniel Guerriero_Clean_stocked_shower_with_good_hot_water._Store_wa_a month ago"
+        },
+        {
+          "reviewerName": "amrit malhi",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Not clean at all they give me the shower that’s not cleaned and even the towels are wet",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "amrit malhi_Not_clean_at_all_they_give_me_the_shower_that’s_no_2 months ago"
+        },
+        {
+          "reviewerName": "BlackHawk",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Reserved shower true the App and when they call my number saying that my shower is ready I pressed to the shower so door was open and not ready and get charged",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 70,
+          "uniqueId": "BlackHawk_Reserved_shower_true_the_App_and_when_they_call_my_a year ago"
+        },
+        {
+          "reviewerName": "Roger Araya",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Good service clean shower did laundry and ate at Arby’s who gave bad reviews must of had there panties in a twist",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 78,
+          "uniqueId": "Roger Araya_Good_service_clean_shower_did_laundry_and_ate_at_A_5 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, wash",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "1701 MO-84, Hayti, MO 63851, United States",
+      "rating": "2.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@36.7581364,-90.6883327,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8878bfb19388c4d1:0xbf9c36249000e86d!8m2!3d36.2275287!4d-89.7253674!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJXZUhGUU4wMTNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQQw!16s%2Fg%2F1tq6f7cw?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Stop & Go US 60 West",
+      "street": "Stop & Go US 60 West 3.5(45)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.8707151",
+      "lng": "-91.8048965",
+      "phone": "+1 573-998-2559",
+      "website": "http://www.heartlandtruckstop.com/",
+      "content": "Stop & Go US 60 West may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 6 am Wednesday6 am–9 pmThursday6 am–9 pmFriday6 am–9 pmSaturday6 am–9 pmSunday6 am–9 pmMonday6 am–9 pmTuesday6 am–9 pmSuggest new hours",
+      "address": "18085 US-60, Poplar Bluff, MO 63901, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Stop+%26+Go+US+60+West",
+      "googleMapsUrl": "https://www.google.com/maps/place/Stop+%26+Go+US+60+West/@36.8707151,-91.8048965,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87d70bd90a2d5533:0x75004e849f48d634!8m2!3d36.8707151!4d-90.651332!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJ0YWpkSWJXeG5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEE!16s%2Fg%2F1th0yx44?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    }
+  ]
+}

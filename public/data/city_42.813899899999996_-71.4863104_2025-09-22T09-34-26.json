@@ -1,0 +1,1147 @@
+{
+  "timestamp": "2025-09-22T12:06:43.478Z",
+  "city": "42.813899899999996",
+  "state": "-71.4863104",
+  "sessionId": "2025-09-22T09-34-26",
+  "totalLocations": 16,
+  "locationsWithShowerReviews": 9,
+  "totalShowerReviews": 44,
+  "locations": [
+    {
+      "title": "Mobil",
+      "street": "Mobil 4.9(9)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.8140572",
+      "lng": "-71.4909462",
+      "phone": "+1 603-402-1036",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Mobil may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Wisdom Seeker",
+          "rating": "4 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Free parking, $5 bucks shower. People are very friendly “Note shower are 5 minutes-long means water runs for five minutes unless you insert another token”.. they give me 2 tokens” i ask!!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Wisdom Seeker_Free_parking,_$5_bucks_shower._People_are_very_fri_4 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "",
+      "address": "140 Daniel Webster Hwy, Merrimack, NH 03054, United States",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Mobil",
+      "googleMapsUrl": "https://www.google.com/maps/place/Mobil/@42.8140572,-71.4909462,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3b592ea005237:0x51b427ae045f7092!8m2!3d42.8140572!4d-71.4864401!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5xZUdKZlFrUjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F11l285ly21?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "RMZ TRAVEL CENTER",
+      "street": "RMZ TRAVEL CENTER 4.0(220)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.9154228",
+      "lng": "-71.3720496",
+      "phone": "+1 603-437-9929",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "RMZ TRAVEL CENTER may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Natalie Broyles",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "As others have said $10 parking little store with lottsss in it. Clean very, quiet, friendly. Lovely parking area with a walking  trail head just up road and grass area for those that have dogs. Couldn't be happier. Dinner is amazing too!!",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Natalie Broyles_As_others_have_said_$10_parking_little_store_with__3 months ago"
+        },
+        {
+          "reviewerName": "Chris Merillat",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Right off the 93. Maybe 20 parking spots. $10 to park. Great little Diner! Well stocked store. 3 fuel lanes. NO showers/ laundry",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 62,
+          "uniqueId": "Chris Merillat_Right_off_the_93._Maybe_20_parking_spots._$10_to_p_6 months ago"
+        },
+        {
+          "reviewerName": "Joseph George",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Clean, attached Diner. Truck parking was full so i asked to slide in a spot that wasnt marked. Said no problem. Parking is $10. Diner is 24hrs and convenience store is well stocked.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 69,
+          "uniqueId": "Joseph George_Clean,_attached_Diner._Truck_parking_was_full_so_i_6 months ago"
+        },
+        {
+          "reviewerName": "Alexander Shyshla",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Good small truck stop. Bunch of snacks and drinks.  Clean restroom.  Paid parking  $10.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 76,
+          "uniqueId": "Alexander Shyshla_Good_small_truck_stop._Bunch_of_snacks_and_drinks._2 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: clean, shower, showers, restroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "137 Rockingham Rd, Londonderry, NH 03053, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "RMZ+TRAVEL+CENTER",
+      "googleMapsUrl": "https://www.google.com/maps/place/RMZ+TRAVEL+CENTER/@42.9154228,-71.3720496,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e252132ade50cd:0xd0745d4ea7873605!8m2!3d42.9154228!4d-71.3675435!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0c1NFNVhWazlrUms1b1l6TldjVnBWTVhGVmVURlpVMnRrTmsweVl4QUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQMw!16s%2Fg%2F1tg_h1gl?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Dealer",
+      "street": "Pilot Dealer 3.3(929)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.121688",
+      "lng": "-71.4852481",
+      "phone": "+1 603-223-6885",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Pilot Dealer may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ashlea McCardle",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "First things first. The 2 employees were super nice n helpful. The showers on other hand were disgusting. There was black mold on the ceiling dirty hand prints on the walls n dirt as well. The shower floor was dirty. There was a smell that …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Ashlea McCardle_First_things_first._The_2_employees_were_super_nic_4 months ago"
+        },
+        {
+          "reviewerName": "Albert Bell",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… . We were the only two customers he had. Then today the order tall white guy working the morning shift kept skipping all the black customers and giving the showers to his white customers first. I sent my girlfriend in to order a shower he …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 8,
+          "uniqueId": "Albert Bell_…_._We_were_the_only_two_customers_he_had._Then_to_a month ago"
+        },
+        {
+          "reviewerName": "Dennis R",
+          "rating": "1 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Pilot Dealer\nLot is full at 1pm on a Sunday\nNo room for improvised parking\nNo DEF at the pumps\nBroken pumps some\nLong waits for a shower. 7 people ahead\nNo hot food options\nThey do have Beer\nOverflowing trash cans.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "Dennis R_Pilot_Dealer_Lot_is_full_at_1pm_on_a_Sunday_No_roo_4 weeks ago"
+        },
+        {
+          "reviewerName": "Evan McNally",
+          "rating": "1 stars",
+          "reviewDate": "Edited 8 months ago",
+          "reviewText": "… No shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 23,
+          "uniqueId": "Evan McNally_…_No_shower._…_Edited 8 months ago"
+        },
+        {
+          "reviewerName": "Sarah Lynn",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Rude lady at front , bad attitude and not friendly or welcoming at all. Bad signage as well. Shower doors jammed and hard to open, …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "Sarah Lynn_Rude_lady_at_front_,_bad_attitude_and_not_friendly_a year ago"
+        },
+        {
+          "reviewerName": "Dimitri Fourcand",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "WILL RATHER SHOWER OUTSIDE THAN TO COME BACK TO THIS TRAVEL CENTER EVER... Manager kicked me out of 1st shower room because of employee error!!! The new shower room they gave me was not cleaned at all... Pictures were shot as soon as I got …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 43,
+          "uniqueId": "Dimitri Fourcand_WILL_RATHER_SHOWER_OUTSIDE_THAN_TO_COME_BACK_TO_TH_a year ago"
+        },
+        {
+          "reviewerName": "A. Reyes",
+          "rating": "1 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "I came here to take a shower on Sunday and it turns out that after 1 hour and 30 m of seeing that the line was not walking I go to the bathrooms and see 4 doors open and the attendant lost, several drivers went to the casher and he without …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 55,
+          "uniqueId": "A. Reyes_I_came_here_to_take_a_shower_on_Sunday_and_it_turn_Edited a year ago"
+        },
+        {
+          "reviewerName": "DeAndre Thaniel",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Showers dirty as hell— told someone to please clean it nicely and he gave me attitude because I asked them can they clean it— then threatens to cancel my shower. Terrible place.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 65,
+          "uniqueId": "DeAndre Thaniel_Showers_dirty_as_hell—_told_someone_to_please_clea_2 months ago"
+        },
+        {
+          "reviewerName": "Hanna Ama",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Where do I begin?! It’s a dump ground by the parking lot, they have a time limit on the shower (30 mins like huh?), the bathroom is absolutely disgusting and they only have 2. I asked the cashier lady for some air freshener and they didn’t …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 72,
+          "uniqueId": "Hanna Ama_Where_do_I_begin?!_It’s_a_dump_ground_by_the_parki_8 months ago"
+        },
+        {
+          "reviewerName": "Martin Kazako",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Don’t ever come here for shower. They put 25 minutes limit for you to stay in the shower. After that time the guy is constantly knocking the door to kick you out of shower. You feel you are in prison or in army. Ethically so wrong. Plus …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 80,
+          "uniqueId": "Martin Kazako_Don’t_ever_come_here_for_shower._They_put_25_minut_9 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Mixed/Negative mentions of: shower, showers, clean, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "728 NH-3A, Bow, NH 03304, United States",
+      "rating": "3.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Dealer",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Dealer/@43.121688,-71.4852481,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2415e2de8b307:0xf2f1024042a7814c!8m2!3d43.121688!4d-71.480742!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5IY205dFdIZEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgwEDw!16s%2Fg%2F11bytmsp_2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "IRVING 24",
+      "street": "IRVING 24 3.9(44)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.729756",
+      "lng": "-71.2148041",
+      "phone": "+1 978-688-0623",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "181 Pelham St, Methuen, MA 01844, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "IRVING+24",
+      "googleMapsUrl": "https://www.google.com/maps/place/IRVING+24/@42.729756,-71.2148041,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3a9c60a43ba3f:0x41fc66b2bc480bed!8m2!3d42.729756!4d-71.210298!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOU05VcHlRMlozRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECY!16s%2Fg%2F11hd9ly22h?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.7(971)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.043049",
+      "lng": "-70.8227956",
+      "phone": "+1 603-436-3636",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Donald Moore",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Parking is in short supply but that’s everywhere in New England.\nI had a hot shower this morning in a clean bath. Good stuff.\nBut the best part of the morning was the smile Tracey greeted me with when I sat …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Donald Moore_Parking_is_in_short_supply_but_that’s_everywhere_i_10 months ago"
+        },
+        {
+          "reviewerName": "Green 92ls",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "The most expensive places I found 18$ a shower … shower not really clean or need to learn how clean it !! …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 33,
+          "uniqueId": "Green 92ls_The_most_expensive_places_I_found_18$_a_shower_…_s_9 months ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "108 Ocean Rd, Greenland, NH 03840, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@43.043049,-70.8227956,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2ea9934200877:0xb835ee4a2496c4b7!8m2!3d43.043049!4d-70.8182895!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF5YlVsNVJuQm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEg!16s%2Fg%2F1tjkgt2j?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 4.9(8)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.729736",
+      "lng": "-71.2148471",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "181 Pelham St, Methuen, MA 01844, United States",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@42.729736,-71.2148471,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3a9facde0e177:0x8847b8930ee84e2c!8m2!3d42.729736!4d-71.210341!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJreFdtSXhiRTlqUjJSV1QxZHdOV0ZGWnpGU2VURlNURmRTTTFKRlJSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCOwCEEQ!16s%2Fg%2F11y3441zpw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "IRVING 24",
+      "street": "IRVING 24 3.9(11)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.729736",
+      "lng": "-71.2148471",
+      "phone": "+1 978-688-0623",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "181 Pelham St, Methuen, MA 01844, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "IRVING+24",
+      "googleMapsUrl": "https://www.google.com/maps/place/IRVING+24/@42.729736,-71.2148471,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3a9c60a43ba3f:0x41fc66b2bc480bed!8m2!3d42.729756!4d-71.210298!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOU05VcHlRMlozRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECY!16s%2Fg%2F11hd9ly22h?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.7(120)",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.729736",
+      "lng": "-71.2148471",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "181 Pelham St, Methuen, MA 01844, United States",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@42.729736,-71.2148471,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3a9facde0e177:0x8847b8930ee84e2c!8m2!3d42.729736!4d-71.210341!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJreFdtSXhiRTlqUjJSV1QxZHdOV0ZGWnpGU2VURlNURmRTTTFKRlJSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCOwCEEQ!16s%2Fg%2F11y3441zpw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "J&H Auto & Truck Repair AKA Best-Quick Stop",
+      "street": "J&H Auto & Truck Repair AKA Best-Quick Stop 4.1(416)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.5351256",
+      "lng": "-70.9934568",
+      "phone": "+1 978-535-9870",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "J&H Auto & Truck Repair AKA Best-Quick Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Valdemar",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… skipping payment — they’ll boot your truck fast. Removing the boot costs $50, plus you still owe $20 for parking. Two showers only, but no wait. Showers are clean with fresh towels, $10. Coin laundry available — change at the counter. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Valdemar_…_skipping_payment_—_they’ll_boot_your_truck_fast._3 months ago"
+        },
+        {
+          "reviewerName": "Mehmet Saltik",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "10 usd for shower 30 mins and plenty of parking.they accept cash or cards.\nIt has own room.If you are far from your home or city good place to rest and wait. Thanks for friendly and helpful employers.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 12,
+          "uniqueId": "Mehmet Saltik_10_usd_for_shower_30_mins_and_plenty_of_parking.th_2 months ago"
+        },
+        {
+          "reviewerName": "kim sluyter",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Nice little place. Showered here and it was very clean …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "kim sluyter_Nice_little_place._Showered_here_and_it_was_very_c_7 months ago"
+        },
+        {
+          "reviewerName": "Richard Holsinger",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… essentials you need. Even has amenities you need as a truck driver, shower, restroom, parking (paid) when closed has a portapotty in the back that was very clean as well as lighting so your not using in the dark. Great restaurant next door …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Richard Holsinger_…_essentials_you_need._Even_has_amenities_you_need_2 years ago"
+        },
+        {
+          "reviewerName": "BLUEMOON LOGISTICS CORP",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Good for 50 gallons of diesel they give you a free shower and parking. If not you have to pay 10 for shower and 20 for parking overnight 4 hours free have restaurant",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 42,
+          "uniqueId": "BLUEMOON LOGISTICS CORP_Good_for_50_gallons_of_diesel_they_give_you_a_free_7 years ago"
+        },
+        {
+          "reviewerName": "Carino Trucking LLC",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… . About 25-30 parking spots. Only 2 1/2 fuel islands. Get 50 gals. Of fuel get free parking and free shower. Without getting fuel get 4 free hours of parking then it's $20 for 24 hours. Washout on site from sunrise to sunset do it yourself.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 53,
+          "uniqueId": "Carino Trucking LLC_…_._About_25-30_parking_spots._Only_2_1/2_fuel_isl_a year ago"
+        },
+        {
+          "reviewerName": "Jackie Larys",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Good friendly people. 20$ to park after first 4 hours unless you get 50$ In fuel included is a free shower. Parking time is 8 pm till 8 pm. They like to boot your vehicle if you don’t pay saw lots of trucks and trailers with boots on them. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Jackie Larys_Good_friendly_people._20$_to_park_after_first_4_ho_2 years ago"
+        },
+        {
+          "reviewerName": "Marcella Cypher",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I was car camping to Maine with the husband and we were both in desperate need of a hot shower after being on the road a few days. Stopped here and the staff were very friendly and helpful! It was a little busy but the gentleman that …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 69,
+          "uniqueId": "Marcella Cypher_I_was_car_camping_to_Maine_with_the_husband_and_we_2 years ago"
+        },
+        {
+          "reviewerName": "Angie Longhofer",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Stayed the night here. Parking is $20 for 24 hours. A shower is $10. The place is clean. The people were very nice. Absolutely would stay here again.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 77,
+          "uniqueId": "Angie Longhofer_Stayed_the_night_here._Parking_is_$20_for_24_hours_a year ago"
+        },
+        {
+          "reviewerName": "Mike Wattenbarger",
+          "rating": "4 stars",
+          "reviewDate": "10 years ago",
+          "reviewText": "… just outside Boston. The staff is friendly and courteous. Yes you have to pay to park or get fifty gallons of fuel but with the fuel you get free parking and a shower and check cashing up to 300 bucks. Yes all three. Everything you need is …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 84,
+          "uniqueId": "Mike Wattenbarger_…_just_outside_Boston._The_staff_is_friendly_and_c_10 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, restroom, wash",
+      "hours": "Open 24 hours Monday5 am–12 amTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFriday12 am–10 pmSaturday5:30 am–9 pmSunday6 am–9 pmSuggest new hours",
+      "address": "129 Newbury St Unit1, Peabody, MA 01960, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "J%26H+Auto+%26+Truck+Repair+AKA+Best-Quick+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/J%26H+Auto+%26+Truck+Repair+AKA+Best-Quick+Stop/@42.5351256,-70.9934568,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3126497f10c53:0x995456c0d3643174!8m2!3d42.5351256!4d-70.9889507!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJpTkZsSVkyRlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECFkQKQ!16s%2Fg%2F1v1sm743?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "ATM (Exit 5 Truck Stop Inc)",
+      "street": "ATM (Exit 5 Truck Stop Inc) 4.7(3)ATM",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.9154228",
+      "lng": "-71.3720496",
+      "phone": "+1 603-437-9929",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "ATM (Exit 5 Truck Stop Inc) may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "137 Rockingham Rd, Londonderry, NH 03053, United States",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "ATM",
+      "placeId": "ATM+(Exit+5+Truck+Stop+Inc)",
+      "googleMapsUrl": "https://www.google.com/maps/place/ATM+(Exit+5+Truck+Stop+Inc)/@42.9154228,-71.3720496,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e25212d806ef81:0xbe211964dbf3b96d!8m2!3d42.9154228!4d-71.3675435!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQNhdG2aASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUmlkelpIWWs5UkVBRaoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAg!16s%2Fg%2F11g_2pb_w?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "N/A",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.729736",
+      "lng": "-71.2148471",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Pete Shelzi",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "This is one of the best all-in-one gas stations around the area. It has everything you or your vehicle would need to refresh and refuel when traveling. The lot is huge, easy to get in and out. More than enough pumps. A touch free car wash. …",
+          "showerKeywords": [
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Pete Shelzi_This_is_one_of_the_best_all-in-one_gas_stations_ar_2 months ago"
+        },
+        {
+          "reviewerName": "J Jimenez",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Car Wash vacuums, tire air inflator public bathrooms open 24 hours friendly staff",
+          "showerKeywords": [
+            "bathroom",
+            "wash"
+          ],
+          "index": 8,
+          "uniqueId": "J Jimenez_Car_Wash_vacuums,_tire_air_inflator_public_bathroo_4 months ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Mixed mentions of: wash, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "181 Pelham St, Methuen, MA 01844, United States",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@42.729736,-71.2148471,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3a9facde0e177:0x8847b8930ee84e2c!8m2!3d42.729736!4d-71.210341!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJreFdtSXhiRTlqUjJSV1QxZHdOV0ZGWnpGU2VURlNURmRTTTFKRlJSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCOwCEEQ!16s%2Fg%2F11y3441zpw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flynn's Truck Stop",
+      "street": "Flynn's Truck Stop 4.1(337)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.2500248",
+      "lng": "-71.7197055",
+      "phone": "+1 508-753-9698",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Flynn's Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jacques G",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Clean place, clean shower, and clean laundryroom. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Jacques G_Clean_place,_clean_shower,_and_clean_laundryroom.__7 months ago"
+        },
+        {
+          "reviewerName": "gurkirat singh",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… Clean restroom and showers. Shower cost you $10 but if any driver fuels 80 gallons fuel and doesn’t uses shower they give that shower ticket to you.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 13,
+          "uniqueId": "gurkirat singh_…_Clean_restroom_and_showers._Shower_cost_you_$10__a month ago"
+        },
+        {
+          "reviewerName": "Gator Rawr",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Not bad for a mom & pop truck stop. $10 clean showers. You need to show your CDL or your DOT medical card to buy a shower. Cleaner showers than most big name truck stops.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 21,
+          "uniqueId": "Gator Rawr_Not_bad_for_a_mom_&_pop_truck_stop._$10_clean_show_a month ago"
+        },
+        {
+          "reviewerName": "B K",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "It used to be a good place but not now. They raised gasoline price, shower is restricted, washing/drying machines are old and worthless. Every time I come at night I meet two young boys on cashier table playing phones and no interest to …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 28,
+          "uniqueId": "B K_It_used_to_be_a_good_place_but_not_now._They_raise_5 months ago"
+        },
+        {
+          "reviewerName": "Terri Hadley",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "After finishing a stressful tour we were ready for some R&R. This stop was just what we needed! The shower was perfect and the staff was super kind. The general area has stores that provide access to anything you may need. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 37,
+          "uniqueId": "Terri Hadley_After_finishing_a_stressful_tour_we_were_ready_for_2 months ago"
+        },
+        {
+          "reviewerName": "Rustam Alikhodjaev",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… of I-90. Paved parking, nice stuff, clean restrooms and building overall! Took a morning shower here today. A very nice guy didn’t charge me for a shower since somebody in front of me paid for a fuel but didn’t use a shower! WOW I was so …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "Rustam Alikhodjaev_…_of_I-90._Paved_parking,_nice_stuff,_clean_restro_5 years ago"
+        },
+        {
+          "reviewerName": "Alexey Ivanin",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Box trucks and smaller trucks are not welcome. No shower. The shower is only for CDL drivers. Missing customers. I decide not to spend $ for my 60 gallon diesel. Keep doing this way your cashier will sit without the work.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 56,
+          "uniqueId": "Alexey Ivanin_Box_trucks_and_smaller_trucks_are_not_welcome._No__a year ago"
+        },
+        {
+          "reviewerName": "William Crow",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "For a smaller truck stop, I'm quite pleased. So many truck stops in the northeast charge an arm and a leg to park and even to take a shower. It only cost $10 for a shower when you show a CDL, decent amount of parking on both sides and …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 64,
+          "uniqueId": "William Crow_For_a_smaller_truck_stop,_I'm_quite_pleased._So_ma_a year ago"
+        },
+        {
+          "reviewerName": "Jasmin P",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "This truck plaza is amazing! From the super nice employees to the cleanest bathroom and showers I ever seen! The Dunkin is great!! The Latino gentlemen working Night Shift really stood out to me. He was super kind when I asked to purchase a …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "Jasmin P_This_truck_plaza_is_amazing!_From_the_super_nice_e_3 years ago"
+        },
+        {
+          "reviewerName": "Forrest Butterfield",
+          "rating": "4 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "… in a few rhing they dont get the deals BIG TRUCK STOPS get , mot their fault . Rememberyou'rein Massachusetts.  And they do have a lot of cool stuff 😎.  I definitely recommend stopping in . A lot of are drivers like to shower here too …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 80,
+          "uniqueId": "Forrest Butterfield_…_in_a_few_rhing_they_dont_get_the_deals_BIG_TRUCK_Edited a year ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom, wash, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "307 Hartford Tpke, Shrewsbury, MA 01545, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flynn's+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flynn's+Truck+Stop/@42.2500248,-71.7197055,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e408df7c06ef37:0x7fe5e3cd6581f43c!8m2!3d42.2500248!4d-71.7151994!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1ttphxp5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Mobil",
+      "street": "Mobil 4.3(49)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.8140572",
+      "lng": "-71.4909462",
+      "phone": "+1 603-402-1036",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Mobil may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Wisdom Seeker",
+          "rating": "4 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Free parking, $5 bucks shower. People are very friendly “Note shower are 5 minutes-long means water runs for five minutes unless you insert another token”.. they give me 2 tokens” i ask!!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Wisdom Seeker_Free_parking,_$5_bucks_shower._People_are_very_fri_4 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "",
+      "address": "140 Daniel Webster Hwy, Merrimack, NH 03054, United States",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Mobil",
+      "googleMapsUrl": "https://www.google.com/maps/place/Mobil/@42.8140572,-71.4909462,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3b592ea005237:0x51b427ae045f7092!8m2!3d42.8140572!4d-71.4864401!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5xZUdKZlFrUjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F11l285ly21?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "EXIT 18 TRUCK STOP",
+      "street": "EXIT 18 TRUCK STOP 3.8(233)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.6507903",
+      "lng": "-72.2463226",
+      "phone": "+1 603-448-5510",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "EXIT 18 TRUCK STOP may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Chris Hulihan",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "$12 shower with zero water pressure, I felt dirtier coming out then I did going in. The stench downstairs is unreal, you’re better off using “Dude Wipes” than showering here.",
+          "showerKeywords": [
+            "shower",
+            "showering"
+          ],
+          "index": 0,
+          "uniqueId": "Chris Hulihan_$12_shower_with_zero_water_pressure,_I_felt_dirtie_3 months ago"
+        },
+        {
+          "reviewerName": "Richard Stogner",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I was a professional truck driver for many years and traveled the many many miles and stopped at many a truck stop my showers were often given to me for my fill up !! I'm now retired and travel as an Overlander camper I was surprised to say …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 7,
+          "uniqueId": "Richard Stogner_I_was_a_professional_truck_driver_for_many_years_a_4 months ago"
+        },
+        {
+          "reviewerName": "leanna averitt",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… so nice but not nice enough to stop here again! My husband and I have gone in a few times and they were extremely rude but this last time we went in was to take showers. First of all my husbands shower was disgusting the floor was …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 15,
+          "uniqueId": "leanna averitt_…_so_nice_but_not_nice_enough_to_stop_here_again!__3 years ago"
+        },
+        {
+          "reviewerName": "Eric Huff",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Nice little old timey truck stop. 50 Gallons for a free shower. Showers are old school. Nothing special, but if you're a hot mess, they get the job done. People here always seem pretty cool.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Eric Huff_Nice_little_old_timey_truck_stop._50_Gallons_for_a_7 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, showering, showers",
+      "hours": "Open ⋅ Closes 11 pm Monday5 am–11 pmTuesday5 am–11 pmWednesday5 am–11 pmThursday5 am–11 pmFriday5 am–11 pmSaturday5 am–11 pmSunday5 am–11 pmSuggest new hours",
+      "address": "151 Heater Rd, Lebanon, NH 03766, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "EXIT+18+TRUCK+STOP",
+      "googleMapsUrl": "https://www.google.com/maps/place/EXIT+18+TRUCK+STOP/@43.6507903,-72.2463226,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb4b4456d6e8b23:0x2e01de8f4dd15844!8m2!3d43.6507903!4d-72.2418165!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU4xTFhaeU5VdEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRg!16s%2Fg%2F11bwkj8gqg?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Advantage Truck Group - Manchester",
+      "street": "Advantage Truck Group - Manchester 4.0(44)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.9537175",
+      "lng": "-71.4535108",
+      "phone": "+1 800-360-5360",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Advantage Truck Group - Manchester may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open ⋅ Closes 12 am Monday7 am–12 amTuesday7 am–12 amWednesday7 am–12 amThursday7 am–12 amFriday7 am–12 amSaturday7 am–3:30 pmSundayClosedSuggest new hours",
+      "address": "220 Frontage Rd, Manchester, NH 03103, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck dealer",
+      "placeId": "Advantage+Truck+Group+-+Manchester",
+      "googleMapsUrl": "https://www.google.com/maps/place/Advantage+Truck+Group+-+Manchester/@42.9537175,-71.4535108,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e24f36774b3939:0xcada4cf060e2e101!8m2!3d42.9537175!4d-71.4490047!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQx0cnVja19kZWFsZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnNlR0pxVUMxM1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRQ!16s%2Fg%2F11mvvltscf?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 1.0(1)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.729736",
+      "lng": "-71.2148471",
+      "phone": "+1 855-276-1947",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "181 Pelham St, Methuen, MA 01844, United States",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@42.729736,-71.2148471,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3a9facde0e177:0x8847b8930ee84e2c!8m2!3d42.729736!4d-71.210341!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJreFdtSXhiRTlqUjJSV1QxZHdOV0ZGWnpGU2VURlNURmRTTTFKRlJSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCOwCEEQ!16s%2Fg%2F11y3441zpw?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

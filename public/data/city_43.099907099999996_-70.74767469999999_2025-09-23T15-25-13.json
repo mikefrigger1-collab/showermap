@@ -1,0 +1,782 @@
+{
+  "timestamp": "2025-09-23T15:54:14.719Z",
+  "city": "43.099907099999996",
+  "state": "-70.74767469999999",
+  "sessionId": "2025-09-23T15-25-13",
+  "totalLocations": 10,
+  "locationsWithShowerReviews": 6,
+  "totalShowerReviews": 33,
+  "locations": [
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.7(971)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.043049",
+      "lng": "-70.8227956",
+      "phone": "+1 603-436-3636",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Donald Moore",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Parking is in short supply but that’s everywhere in New England.\nI had a hot shower this morning in a clean bath. Good stuff.\nBut the best part of the morning was the smile Tracey greeted me with when I sat …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Donald Moore_Parking_is_in_short_supply_but_that’s_everywhere_i_10 months ago"
+        },
+        {
+          "reviewerName": "Green 92ls",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "The most expensive places I found 18$ a shower … shower not really clean or need to learn how clean it !! …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 33,
+          "uniqueId": "Green 92ls_The_most_expensive_places_I_found_18$_a_shower_…_s_9 months ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "108 Ocean Rd, Greenland, NH 03840, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@43.043049,-70.8227956,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2ea9934200877:0xb835ee4a2496c4b7!8m2!3d43.043049!4d-70.8182895!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF5YlVsNVJuQm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEg!16s%2Fg%2F1tjkgt2j?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.5(8)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.099249",
+      "lng": "-70.7521801",
+      "phone": "+1 207-451-9780",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "103 US-1 BYP, Kittery, ME 03904, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@43.099249,-70.7521801,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2bfde91f45a71:0x3611da0a4cbc9c4d!8m2!3d43.099249!4d-70.747674!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTlpUZDRjM2xRY2paMk1FTjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECG0QSg!16s%2Fg%2F11vwdpf1vn?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "IRVING 24",
+      "street": "IRVING 24 4.2(196)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.089827",
+      "lng": "-70.7585281",
+      "phone": "+1 207-451-9780",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Joshua Jakob",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This place used to be good but they have changed their policy with the showers. They say it is for truck drivers only. I have never had a problem coming here in the middle of the night and paying for a shower. Even the manager said he …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Joshua Jakob_This_place_used_to_be_good_but_they_have_changed_t_a year ago"
+        },
+        {
+          "reviewerName": "Jon F",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Last night I looked up your business on the internet and it states that you guys have showers. For both motorists and truckers? I was passing through in need of a shower it was a long hot day I stopped at your business. I went up to the …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 8,
+          "uniqueId": "Jon F_Last_night_I_looked_up_your_business_on_the_intern_a year ago"
+        },
+        {
+          "reviewerName": "Tatiana Reyes",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… is super friendly and courteous. I shower here and the shower was big, water temperature was easy to use and it was not 100% clean but I’m used too so not a problem for me (same like any other truck stop). Finally they had a lot of …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Tatiana Reyes_…_is_super_friendly_and_courteous._I_shower_here_a_5 years ago"
+        },
+        {
+          "reviewerName": "James Kelby II",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Good size lot for tractor trailer parking. Nice shower rooms. They need to do a better job cleaning the shower rooms. Mold and mildew are becoming an issue.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "James Kelby II_Good_size_lot_for_tractor_trailer_parking._Nice_sh_6 years ago"
+        },
+        {
+          "reviewerName": "mateynine",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Free shower with a 75 gallon fuel receipt (valid for 5 days). Free parking and lots of backing space. Free wifi. Plenty of food inside. It's a good truck stop. I prefer it over the cramped TA in NH.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 31,
+          "uniqueId": "mateynine_Free_shower_with_a_75_gallon_fuel_receipt_(valid_f_6 years ago"
+        },
+        {
+          "reviewerName": "Tom Merrill",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Waited over a hour and half for a shower they were giving shower time to other people who singed up after me.. than they didn't leave me any towels good thing I noticed that before I showered.. -2 Stars",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 38,
+          "uniqueId": "Tom Merrill_Waited_over_a_hour_and_half_for_a_shower_they_were_a year ago"
+        },
+        {
+          "reviewerName": "Jonathan and Sherry Scott",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "How is very good food need more than one shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 45,
+          "uniqueId": "Jonathan and Sherry Scott_How_is_very_good_food_need_more_than_one_shower_11 months ago"
+        },
+        {
+          "reviewerName": "Darko Starcevic",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Nice, clean lots of parking spots, friendly staff, only shower could be better",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Darko Starcevic_Nice,_clean_lots_of_parking_spots,_friendly_staff,_4 years ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "8 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "103 U.S. Rte 1, Kittery, ME 03904, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "IRVING+24",
+      "googleMapsUrl": "https://www.google.com/maps/place/IRVING+24/@43.089827,-70.7585281,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2bff83e6c19d5:0xcc793fc09ab17cd4!8m2!3d43.089827!4d-70.754022!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VNdGFuUmhRMnRSUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABA2!16s%2Fg%2F11f90flp92?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K",
+      "street": "+1 207-451-9780WebsiteDirections \"Clean easy access medium size truck stop friendly staff clean restrooms\"",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.099249",
+      "lng": "-70.7521801",
+      "phone": "+1 207-451-9780",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "Circle K may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "103 US-1 BYP, Kittery, ME 03904, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@43.099249,-70.7521801,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2bfde91f45a71:0x3611da0a4cbc9c4d!8m2!3d43.099249!4d-70.747674!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTlpUZDRjM2xRY2paMk1FTjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECG0QSg!16s%2Fg%2F11vwdpf1vn?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 1.0(1)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.099249",
+      "lng": "-70.7521801",
+      "phone": "+1 207-451-9780",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "103 US-1 BYP, Kittery, ME 03904, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@43.099249,-70.7521801,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2bfde91f45a71:0x3611da0a4cbc9c4d!8m2!3d43.099249!4d-70.747674!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTlpUZDRjM2xRY2paMk1FTjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECG0QSg!16s%2Fg%2F11vwdpf1vn?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "RMZ TRAVEL CENTER",
+      "street": "RMZ TRAVEL CENTER 4.0(220)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.099249",
+      "lng": "-70.7521801",
+      "phone": "+1 603-437-9929",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "RMZ TRAVEL CENTER may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Natalie Broyles",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "As others have said $10 parking little store with lottsss in it. Clean very, quiet, friendly. Lovely parking area with a walking  trail head just up road and grass area for those that have dogs. Couldn't be happier. Dinner is amazing too!!",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Natalie Broyles_As_others_have_said_$10_parking_little_store_with__3 months ago"
+        },
+        {
+          "reviewerName": "Chris Merillat",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Right off the 93. Maybe 20 parking spots. $10 to park. Great little Diner! Well stocked store. 3 fuel lanes. NO showers/ laundry",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 62,
+          "uniqueId": "Chris Merillat_Right_off_the_93._Maybe_20_parking_spots._$10_to_p_6 months ago"
+        },
+        {
+          "reviewerName": "Joseph George",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Clean, attached Diner. Truck parking was full so i asked to slide in a spot that wasnt marked. Said no problem. Parking is $10. Diner is 24hrs and convenience store is well stocked.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 69,
+          "uniqueId": "Joseph George_Clean,_attached_Diner._Truck_parking_was_full_so_i_6 months ago"
+        },
+        {
+          "reviewerName": "Alexander Shyshla",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Good small truck stop. Bunch of snacks and drinks.  Clean restroom.  Paid parking  $10.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 76,
+          "uniqueId": "Alexander Shyshla_Good_small_truck_stop._Bunch_of_snacks_and_drinks._2 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: clean, shower, showers, restroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "137 Rockingham Rd, Londonderry, NH 03053, United States",
+      "rating": "",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "RMZ+TRAVEL+CENTER",
+      "googleMapsUrl": "https://www.google.com/maps/place/RMZ+TRAVEL+CENTER/@43.099249,-70.7521801,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e252132ade50cd:0xd0745d4ea7873605!8m2!3d42.9154228!4d-71.3675435!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0c1NFNVhWazlrUms1b1l6TldjVnBWTVhGVmVURlpVMnRrTmsweVl4QUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQMw!16s%2Fg%2F1tg_h1gl?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "IRVING 24",
+      "street": "IRVING 24 3.9(11)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.089827",
+      "lng": "-70.7585281",
+      "phone": "+1 207-451-9780",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Joshua Jakob",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This place used to be good but they have changed their policy with the showers. They say it is for truck drivers only. I have never had a problem coming here in the middle of the night and paying for a shower. Even the manager said he …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Joshua Jakob_This_place_used_to_be_good_but_they_have_changed_t_a year ago"
+        },
+        {
+          "reviewerName": "Jon F",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Last night I looked up your business on the internet and it states that you guys have showers. For both motorists and truckers? I was passing through in need of a shower it was a long hot day I stopped at your business. I went up to the …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 8,
+          "uniqueId": "Jon F_Last_night_I_looked_up_your_business_on_the_intern_a year ago"
+        },
+        {
+          "reviewerName": "Tatiana Reyes",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… is super friendly and courteous. I shower here and the shower was big, water temperature was easy to use and it was not 100% clean but I’m used too so not a problem for me (same like any other truck stop). Finally they had a lot of …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Tatiana Reyes_…_is_super_friendly_and_courteous._I_shower_here_a_5 years ago"
+        },
+        {
+          "reviewerName": "James Kelby II",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Good size lot for tractor trailer parking. Nice shower rooms. They need to do a better job cleaning the shower rooms. Mold and mildew are becoming an issue.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "James Kelby II_Good_size_lot_for_tractor_trailer_parking._Nice_sh_6 years ago"
+        },
+        {
+          "reviewerName": "mateynine",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Free shower with a 75 gallon fuel receipt (valid for 5 days). Free parking and lots of backing space. Free wifi. Plenty of food inside. It's a good truck stop. I prefer it over the cramped TA in NH.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 31,
+          "uniqueId": "mateynine_Free_shower_with_a_75_gallon_fuel_receipt_(valid_f_6 years ago"
+        },
+        {
+          "reviewerName": "Tom Merrill",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Waited over a hour and half for a shower they were giving shower time to other people who singed up after me.. than they didn't leave me any towels good thing I noticed that before I showered.. -2 Stars",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 38,
+          "uniqueId": "Tom Merrill_Waited_over_a_hour_and_half_for_a_shower_they_were_a year ago"
+        },
+        {
+          "reviewerName": "Jonathan and Sherry Scott",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "How is very good food need more than one shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 45,
+          "uniqueId": "Jonathan and Sherry Scott_How_is_very_good_food_need_more_than_one_shower_11 months ago"
+        },
+        {
+          "reviewerName": "Darko Starcevic",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Nice, clean lots of parking spots, friendly staff, only shower could be better",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Darko Starcevic_Nice,_clean_lots_of_parking_spots,_friendly_staff,_4 years ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "8 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "103 U.S. Rte 1, Kittery, ME 03904, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "IRVING+24",
+      "googleMapsUrl": "https://www.google.com/maps/place/IRVING+24/@43.089827,-70.7585281,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2bff83e6c19d5:0xcc793fc09ab17cd4!8m2!3d43.089827!4d-70.754022!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VNdGFuUmhRMnRSUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABA2!16s%2Fg%2F11f90flp92?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Kennebunk North Travel Plaza",
+      "street": "Kennebunk North Travel Plaza 4.1(836)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.4101219",
+      "lng": "-70.5652132",
+      "phone": "+1 603-436-3636",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "Kennebunk North Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Philip 2791",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "For PRO TRUCKERS this truck stop IS NO PLACE TO SHOWER AND LAUNDRy, do not stop here if you need to 34 reset this facility does not have shower or laundry, NO SHOWER, NO LAUNDRY HERE DRIVERS SKIP THIS PLACE UNLESS YOU JUST WANT TO FUEL UP …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Philip 2791_For_PRO_TRUCKERS_this_truck_stop_IS_NO_PLACE_TO_SH_2 years ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "Mile 25 Southbound, Maine Turnpike, Kennebunk, ME 04043, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Toll road rest stop",
+      "placeId": "Kennebunk+Service+Plaza+(Southbound)",
+      "googleMapsUrl": "https://www.google.com/maps/place/Kennebunk+Service+Plaza+(Southbound)/@43.4101219,-70.5652132,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb2ae1ee17c3e37:0xe8c7cb6e5b8902c4!8m2!3d43.4101219!4d-70.5607071!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARN0b2xsX3JvYWRfcmVzdF9zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJwb2RsSXpjRlZPUkdoYVdEQnZlRTlIY0RWV1JGcGhZMFY0Y1ZWR1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQQw!16s%2Fg%2F11cn2znd6l?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "N/A",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.099249",
+      "lng": "-70.7521801",
+      "phone": "+1 207-451-9780",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "103 US-1 BYP, Kittery, ME 03904, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@43.099249,-70.7521801,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2bfde91f45a71:0x3611da0a4cbc9c4d!8m2!3d43.099249!4d-70.747674!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTlpUZDRjM2xRY2paMk1FTjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECG0QSg!16s%2Fg%2F11vwdpf1vn?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "J&H Auto & Truck Repair AKA Best-Quick Stop",
+      "street": "J&H Auto & Truck Repair AKA Best-Quick Stop 4.1(416)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.5351256",
+      "lng": "-70.9934568",
+      "phone": "+1 978-535-9870",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "J&H Auto & Truck Repair AKA Best-Quick Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mehmet Saltik",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "10 usd for shower 30 mins and plenty of parking.they accept cash or cards.\nIt has own room.If you are far from your home or city good place to rest and wait. Thanks for friendly and helpful employers.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 12,
+          "uniqueId": "Mehmet Saltik_10_usd_for_shower_30_mins_and_plenty_of_parking.th_2 months ago"
+        },
+        {
+          "reviewerName": "kim sluyter",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Nice little place. Showered here and it was very clean\n$10 is a great price for a shower or free with 50 gallons of diesel. I didnt use the other services, eatery at the end of the building or repair shop. Glad to find clean well run little truck stops",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "kim sluyter_Nice_little_place._Showered_here_and_it_was_very_c_7 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "4 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Small quiet parking lot, blindside for most spots. First 4 hours free, then it's $20 for overnight. They have showers, laundry and restaurants nearby.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 29,
+          "uniqueId": "David Mclean_Small_quiet_parking_lot,_blindside_for_most_spots._5 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 963 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_963_photos_nodate"
+        },
+        {
+          "reviewerName": "Richard Holsinger",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Small truck stop, easy in and out. Has all the essentials you need. Even has amenities you need as a truck driver, shower, restroom, parking (paid) when closed has a portapotty in the back that was very clean as well as lighting so your not using in the dark. Great restaurant next door named reds kitchen and tavern.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 39,
+          "uniqueId": "Richard Holsinger_Small_truck_stop,_easy_in_and_out._Has_all_the_ess_2 years ago"
+        },
+        {
+          "reviewerName": "Joe C",
+          "rating": "5 stars",
+          "reviewDate": "a week ago",
+          "reviewText": "Self service trailer washout is a much appreciated service, particularly with every truck wash in the area being closed Sundays! Drivers, sweep your trailers out best you can before you arrive, and be prepared to sweep up any debris you wash out",
+          "showerKeywords": [
+            "wash"
+          ],
+          "index": 50,
+          "uniqueId": "Joe C_Self_service_trailer_washout_is_a_much_appreciated_a week ago"
+        },
+        {
+          "reviewerName": "L R",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Nice and clean truck stop\nShowers are clean ive used both of them during my stay in Peabody\n. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 57,
+          "uniqueId": "L R_Nice_and_clean_truck_stop_Showers_are_clean_ive_us_3 months ago"
+        },
+        {
+          "reviewerName": "BLUEMOON LOGISTICS CORP",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Good for 50 gallons of diesel they give you a free shower and parking. If not you have to pay 10 for shower and 20 for parking overnight 4 hours free have restaurant",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "BLUEMOON LOGISTICS CORP_Good_for_50_gallons_of_diesel_they_give_you_a_free_7 years ago"
+        },
+        {
+          "reviewerName": "Emily Shewmaker",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Wonderful place! The parking lot was well lit the showers were good the curtain could be changed but wasn’t anything that deterred me away. The water was super hot! The guy working this morning was extremely nice! We are from Indiana so we …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 76,
+          "uniqueId": "Emily Shewmaker_Wonderful_place!_The_parking_lot_was_well_lit_the__10 months ago"
+        },
+        {
+          "reviewerName": "Carino Trucking LLC",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Nice little truck stop. About 25-30 parking spots. Only 2 1/2 fuel islands. Get 50 gals. Of fuel get free parking and free shower. Without getting fuel get 4 free hours of parking then it's $20 for 24 hours. Washout on site from sunrise to sunset do it yourself.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 84,
+          "uniqueId": "Carino Trucking LLC_Nice_little_truck_stop._About_25-30_parking_spots._a year ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFriday12 am–10 pmSaturday5:30 am–9 pmSunday6 am–9 pmMonday5 am–12 amSuggest new hours",
+      "address": "129 Newbury St Unit1, Peabody, MA 01960, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "J%26H+Auto+%26+Truck+Repair+AKA+Best-Quick+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/J%26H+Auto+%26+Truck+Repair+AKA+Best-Quick+Stop/@42.5351256,-70.9934568,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3126497f10c53:0x995456c0d3643174!8m2!3d42.5351256!4d-70.9889507!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJpTkZsSVkyRlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECFkQKQ!16s%2Fg%2F1v1sm743?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

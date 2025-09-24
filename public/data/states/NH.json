@@ -1,0 +1,956 @@
+{
+  "state": "NH",
+  "stateName": "New Hampshire",
+  "locations": [
+    {
+      "title": "Pilot Dealer",
+      "street": "Pilot Dealer 3.3(929)Truck stop",
+      "city": "Bow",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.121688",
+      "lng": "-71.4852481",
+      "phone": "(603) 223-6885",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Pilot Dealer may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ashlea McCardle",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "First things first. The 2 employees were super nice n helpful. The showers on other hand were disgusting. There was black mold on the ceiling dirty hand prints on the walls n dirt as well. The shower floor was dirty. There was a smell that …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Ashlea McCardle_First_things_first._The_2_employees_were_super_nic_4 months ago"
+        },
+        {
+          "reviewerName": "Albert Bell",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… . We were the only two customers he had. Then today the order tall white guy working the morning shift kept skipping all the black customers and giving the showers to his white customers first. I sent my girlfriend in to order a shower he …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 8,
+          "uniqueId": "Albert Bell_…_._We_were_the_only_two_customers_he_had._Then_to_a month ago"
+        },
+        {
+          "reviewerName": "Dennis R",
+          "rating": "1 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Pilot Dealer\nLot is full at 1pm on a Sunday\nNo room for improvised parking\nNo DEF at the pumps\nBroken pumps some\nLong waits for a shower. 7 people ahead\nNo hot food options\nThey do have Beer\nOverflowing trash cans.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "Dennis R_Pilot_Dealer_Lot_is_full_at_1pm_on_a_Sunday_No_roo_4 weeks ago"
+        },
+        {
+          "reviewerName": "Evan McNally",
+          "rating": "1 stars",
+          "reviewDate": "Edited 8 months ago",
+          "reviewText": "… No shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 23,
+          "uniqueId": "Evan McNally_…_No_shower._…_Edited 8 months ago"
+        },
+        {
+          "reviewerName": "Sarah Lynn",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Rude lady at front , bad attitude and not friendly or welcoming at all. Bad signage as well. Shower doors jammed and hard to open, …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "Sarah Lynn_Rude_lady_at_front_,_bad_attitude_and_not_friendly_a year ago"
+        },
+        {
+          "reviewerName": "Dimitri Fourcand",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "WILL RATHER SHOWER OUTSIDE THAN TO COME BACK TO THIS TRAVEL CENTER EVER... Manager kicked me out of 1st shower room because of employee error!!! The new shower room they gave me was not cleaned at all... Pictures were shot as soon as I got …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 43,
+          "uniqueId": "Dimitri Fourcand_WILL_RATHER_SHOWER_OUTSIDE_THAN_TO_COME_BACK_TO_TH_a year ago"
+        },
+        {
+          "reviewerName": "A. Reyes",
+          "rating": "1 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "I came here to take a shower on Sunday and it turns out that after 1 hour and 30 m of seeing that the line was not walking I go to the bathrooms and see 4 doors open and the attendant lost, several drivers went to the casher and he without …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 55,
+          "uniqueId": "A. Reyes_I_came_here_to_take_a_shower_on_Sunday_and_it_turn_Edited a year ago"
+        },
+        {
+          "reviewerName": "DeAndre Thaniel",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Showers dirty as hell— told someone to please clean it nicely and he gave me attitude because I asked them can they clean it— then threatens to cancel my shower. Terrible place.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 65,
+          "uniqueId": "DeAndre Thaniel_Showers_dirty_as_hell—_told_someone_to_please_clea_2 months ago"
+        },
+        {
+          "reviewerName": "Hanna Ama",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Where do I begin?! It’s a dump ground by the parking lot, they have a time limit on the shower (30 mins like huh?), the bathroom is absolutely disgusting and they only have 2. I asked the cashier lady for some air freshener and they didn’t …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 72,
+          "uniqueId": "Hanna Ama_Where_do_I_begin?!_It’s_a_dump_ground_by_the_parki_8 months ago"
+        },
+        {
+          "reviewerName": "Martin Kazako",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Don’t ever come here for shower. They put 25 minutes limit for you to stay in the shower. After that time the guy is constantly knocking the door to kick you out of shower. You feel you are in prison or in army. Ethically so wrong. Plus …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 80,
+          "uniqueId": "Martin Kazako_Don’t_ever_come_here_for_shower._They_put_25_minut_9 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Mixed/Negative mentions of: shower, showers, clean, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "728 NH-3A, Bow, NH 03304",
+      "rating": "3.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Dealer",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Dealer/@43.121688,-71.4852481,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2415e2de8b307:0xf2f1024042a7814c!8m2!3d43.121688!4d-71.480742!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5IY205dFdIZEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgwEDw!16s%2Fg%2F11bytmsp_2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Merrimack",
+      "sourceState": "NH",
+      "timestamp": "2025-09-22T12:06:43.478Z",
+      "state": "NH"
+    },
+    {
+      "title": "Kennebunk North Travel Plaza",
+      "street": "TA Travel Center 3.7(971)Truck stop",
+      "city": "Greenland",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.4101219",
+      "lng": "-70.5652132",
+      "phone": "(603) 436-3636",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop, Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Donald Moore",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Parking is in short supply but that’s everywhere in New England.\nI had a hot shower this morning in a clean bath. Good stuff.\nBut the best part of the morning was the smile Tracey greeted me with when I sat …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Donald Moore_Parking_is_in_short_supply_but_that’s_everywhere_i_10 months ago"
+        },
+        {
+          "reviewerName": "Green 92ls",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "The most expensive places I found 18$ a shower … shower not really clean or need to learn how clean it !! …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 33,
+          "uniqueId": "Green 92ls_The_most_expensive_places_I_found_18$_a_shower_…_s_9 months ago"
+        },
+        {
+          "reviewerName": "Chris Gathof",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… 1) shower #2 leaked. Very low water pressure, and what pressure there was it went out the top of the fixture! I mean what competent maintenance person can’t put on a shower head without it leaking! If you can’t do that watch’s YouTube video …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Chris Gathof_…_1)_shower_#2_leaked._Very_low_water_pressure,_an_8 months ago"
+        },
+        {
+          "reviewerName": "Donald Moore",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… I had a hot shower this morning in a clean bath. Good stuff. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Donald Moore_…_I_had_a_hot_shower_this_morning_in_a_clean_bath._10 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Good place to stop for fuel, small parking lot.  shower not so warm. But the staff here is very friendly.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "David Mclean_Good_place_to_stop_for_fuel,_small_parking_lot._s_10 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 963 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 36,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_963_photos_nodate"
+        },
+        {
+          "reviewerName": "Sue Gomez",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Got a hot shower , washed all my bedding . & truck gear .  No complaints. Nick was very helpful .",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 44,
+          "uniqueId": "Sue Gomez_Got_a_hot_shower_,_washed_all_my_bedding_._&_truck_6 months ago"
+        },
+        {
+          "reviewerName": "Chelissa",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Employees are great and snacks are great but showers needs to be cleaner.  I pay $18 for a shower and it was disgusting. Hair everywhere and mold on walls. Talk to supervisor, show him pictures and he just apologized but dint offer a refund …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Chelissa_Employees_are_great_and_snacks_are_great_but_showe_2 years ago"
+        },
+        {
+          "reviewerName": "Cassidy",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "If you like taking a Cold shower with Low water pressure that smells like feet? This is the place for you, Everything is overpriced, The menu in the restaurant keeps getting smaller and smaller, and they charge you an arm and a leg for it 🤨 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "Cassidy_If_you_like_taking_a_Cold_shower_with_Low_water_pr_a year ago"
+        },
+        {
+          "reviewerName": "Re",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "The laundry room sucks cause their dryer went out to dry towels for shower room so they use the drivers laundry, no care in world  by management so they use two of the 4 dryers for their benefit so inconvient",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 71,
+          "uniqueId": "Re_The_laundry_room_sucks_cause_their_dryer_went_out__10 months ago"
+        },
+        {
+          "reviewerName": "Hadi Makhlouf",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… now. The roller food is usually kept up but there have been times when I've found it empty. The bathrooms are well maintained and the shower, though smaller, stays hot and is also clean. Plus side is, they do have a good beer selection.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 78,
+          "uniqueId": "Hadi Makhlouf_…_now._The_roller_food_is_usually_kept_up_but_ther_7 years ago"
+        },
+        {
+          "reviewerName": "Mr. Boro (Ollie)",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… was very helpful.  So I’m a new driver I get there around 10pm, I’m only allowed to buy fuel from TA/Petro. All the parking was almost taken Mike reserved me a spot while I took a shower. He showed me how to use the points. I got a free …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 86,
+          "uniqueId": "Mr. Boro (Ollie)_…_was_very_helpful._So_I’m_a_new_driver_I_get_the_5 years ago"
+        },
+        {
+          "reviewerName": "Philip 2791",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "For PRO TRUCKERS this truck stop IS NO PLACE TO SHOWER AND LAUNDRy, do not stop here if you need to 34 reset this facility does not have shower or laundry, NO SHOWER, NO LAUNDRY HERE DRIVERS SKIP THIS PLACE UNLESS YOU JUST WANT TO FUEL UP …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Philip 2791_For_PRO_TRUCKERS_this_truck_stop_IS_NO_PLACE_TO_SH_2 years ago"
+        }
+      ],
+      "showerReviewCount": 13,
+      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "Mile 25 Southbound, Maine Turnpike, Kennebunk, ME 04043",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@43.043049,-70.8227956,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2ea9934200877:0xb835ee4a2496c4b7!8m2!3d43.043049!4d-70.8182895!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF5YlVsNVJuQm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEg!16s%2Fg%2F1tjkgt2j?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Merrimack",
+      "sourceState": "NH",
+      "timestamp": "2025-09-22T12:06:43.478Z",
+      "state": "NH"
+    },
+    {
+      "title": "Evans Expressmart (Enfield)",
+      "street": "TJ'S Truck Stop 4.3(136)",
+      "city": "Lancaster",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.162185",
+      "lng": "-74.3974913",
+      "phone": "(603) 788-4600",
+      "website": "https://www.valero.com/",
+      "content": "TJ'S Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Shane King",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Good food, but limited menu after a certain time of day, they say it's only on Mon -Wed the rest of the week is supposed to be regular though. Showers are clean but segregated mens room has 2 and ladies room has 2. Ok but I team with my …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Shane King_Good_food,_but_limited_menu_after_a_certain_time_o_7 years ago"
+        },
+        {
+          "reviewerName": "Patrick Donahue",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Works for me. Shower, food and beer if you want it.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Patrick Donahue_Works_for_me._Shower,_food_and_beer_if_you_want_it_7 years ago"
+        },
+        {
+          "reviewerName": "Joe Laatsch",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Great mom and pop truckstop. Clean shower and very friendly staff. Great place",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Joe Laatsch_Great_mom_and_pop_truckstop._Clean_shower_and_very_5 years ago"
+        },
+        {
+          "reviewerName": "Chris Hulihan",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "$12 shower with zero water pressure, I felt dirtier coming out then I did going in. The stench downstairs is unreal, you’re better off using “Dude Wipes” than showering here.",
+          "showerKeywords": [
+            "shower",
+            "showering"
+          ],
+          "index": 0,
+          "uniqueId": "Chris Hulihan_$12_shower_with_zero_water_pressure,_I_felt_dirtie_3 months ago"
+        },
+        {
+          "reviewerName": "Richard Stogner",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I was a professional truck driver for many years and traveled the many many miles and stopped at many a truck stop my showers were often given to me for my fill up !! I'm now retired and travel as an Overlander camper I was surprised to say …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 7,
+          "uniqueId": "Richard Stogner_I_was_a_professional_truck_driver_for_many_years_a_4 months ago"
+        },
+        {
+          "reviewerName": "leanna averitt",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… so nice but not nice enough to stop here again! My husband and I have gone in a few times and they were extremely rude but this last time we went in was to take showers. First of all my husbands shower was disgusting the floor was …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 15,
+          "uniqueId": "leanna averitt_…_so_nice_but_not_nice_enough_to_stop_here_again!__3 years ago"
+        },
+        {
+          "reviewerName": "Eric Huff",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Nice little old timey truck stop. 50 Gallons for a free shower. Showers are old school. Nothing special, but if you're a hot mess, they get the job done. People here always seem pretty cool.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Eric Huff_Nice_little_old_timey_truck_stop._50_Gallons_for_a_7 years ago"
+        },
+        {
+          "reviewerName": "Chris Gathof",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… 1) shower #2 leaked. Very low water pressure, and what pressure there was it went out the top of the fixture! I mean what competent maintenance person can’t put on a shower head without it leaking! If you can’t do that watch’s YouTube video …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Chris Gathof_…_1)_shower_#2_leaked._Very_low_water_pressure,_an_8 months ago"
+        },
+        {
+          "reviewerName": "Donald Moore",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… I had a hot shower this morning in a clean bath. Good stuff. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Donald Moore_…_I_had_a_hot_shower_this_morning_in_a_clean_bath._10 months ago"
+        },
+        {
+          "reviewerName": "Green 92ls",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "The most expensive places I found 18$ a shower … shower not really clean or need to learn how clean it !! …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 21,
+          "uniqueId": "Green 92ls_The_most_expensive_places_I_found_18$_a_shower_…_s_9 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "4 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Good place to stop for fuel, small parking lot.  shower not so warm. But the staff here is very friendly.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "David Mclean_Good_place_to_stop_for_fuel,_small_parking_lot._s_9 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 960 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 36,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_960_photos_nodate"
+        },
+        {
+          "reviewerName": "Sue Gomez",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Got a hot shower , washed all my bedding . & truck gear .  No complaints. Nick was very helpful .",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 44,
+          "uniqueId": "Sue Gomez_Got_a_hot_shower_,_washed_all_my_bedding_._&_truck_6 months ago"
+        },
+        {
+          "reviewerName": "Chelissa",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Employees are great and snacks are great but showers needs to be cleaner.  I pay $18 for a shower and it was disgusting. Hair everywhere and mold on walls. Talk to supervisor, show him pictures and he just apologized but dint offer a refund …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Chelissa_Employees_are_great_and_snacks_are_great_but_showe_2 years ago"
+        },
+        {
+          "reviewerName": "Cassidy",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "If you like taking a Cold shower with Low water pressure that smells like feet? This is the place for you, Everything is overpriced, The menu in the restaurant keeps getting smaller and smaller, and they charge you an arm and a leg for it 🤨 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "Cassidy_If_you_like_taking_a_Cold_shower_with_Low_water_pr_a year ago"
+        },
+        {
+          "reviewerName": "Re",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "The laundry room sucks cause their dryer went out to dry towels for shower room so they use the drivers laundry, no care in world  by management so they use two of the 4 dryers for their benefit so inconvient",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 71,
+          "uniqueId": "Re_The_laundry_room_sucks_cause_their_dryer_went_out__10 months ago"
+        },
+        {
+          "reviewerName": "Hadi Makhlouf",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… now. The roller food is usually kept up but there have been times when I've found it empty. The bathrooms are well maintained and the shower, though smaller, stays hot and is also clean. Plus side is, they do have a good beer selection.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 78,
+          "uniqueId": "Hadi Makhlouf_…_now._The_roller_food_is_usually_kept_up_but_ther_7 years ago"
+        },
+        {
+          "reviewerName": "Mr. Boro (Ollie)",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… was very helpful.  So I’m a new driver I get there around 10pm, I’m only allowed to buy fuel from TA/Petro. All the parking was almost taken Mike reserved me a spot while I took a shower. He showed me how to use the points. I got a free …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 86,
+          "uniqueId": "Mr. Boro (Ollie)_…_was_very_helpful._So_I’m_a_new_driver_I_get_the_5 years ago"
+        },
+        {
+          "reviewerName": "Abdurashid Zokirov",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "free shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Abdurashid Zokirov_free_shower_6 years ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 963 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 36,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_963_photos_nodate"
+        }
+      ],
+      "showerReviewCount": 20,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "",
+      "address": "11 Eastman Hill Rd, Enfield, NH 03748",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TJ'S+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/TJ'S+Truck+Stop/@44.162185,-74.3974913,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x4cb411a1c098e3c7:0x6485db4b3eb035a2!8m2!3d44.495703!4d-71.5922815!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVEzZW5CcU0zUjNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEB0!16s%2Fg%2F11clrxtl24?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Lancaster",
+      "sourceState": "NH",
+      "timestamp": "2025-09-22T12:41:55.608Z",
+      "state": "NH"
+    },
+    {
+      "title": "EXIT 18 TRUCK STOP",
+      "street": "EXIT 18 TRUCK STOP 3.8(233)Truck stop",
+      "city": "Lebanon",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.6507903",
+      "lng": "-72.2463226",
+      "phone": "(603) 448-5510",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "EXIT 18 TRUCK STOP may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Chris Hulihan",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "$12 shower with zero water pressure, I felt dirtier coming out then I did going in. The stench downstairs is unreal, you’re better off using “Dude Wipes” than showering here.",
+          "showerKeywords": [
+            "shower",
+            "showering"
+          ],
+          "index": 0,
+          "uniqueId": "Chris Hulihan_$12_shower_with_zero_water_pressure,_I_felt_dirtie_3 months ago"
+        },
+        {
+          "reviewerName": "Richard Stogner",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I was a professional truck driver for many years and traveled the many many miles and stopped at many a truck stop my showers were often given to me for my fill up !! I'm now retired and travel as an Overlander camper I was surprised to say …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 7,
+          "uniqueId": "Richard Stogner_I_was_a_professional_truck_driver_for_many_years_a_4 months ago"
+        },
+        {
+          "reviewerName": "leanna averitt",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… so nice but not nice enough to stop here again! My husband and I have gone in a few times and they were extremely rude but this last time we went in was to take showers. First of all my husbands shower was disgusting the floor was …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 15,
+          "uniqueId": "leanna averitt_…_so_nice_but_not_nice_enough_to_stop_here_again!__3 years ago"
+        },
+        {
+          "reviewerName": "Eric Huff",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Nice little old timey truck stop. 50 Gallons for a free shower. Showers are old school. Nothing special, but if you're a hot mess, they get the job done. People here always seem pretty cool.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Eric Huff_Nice_little_old_timey_truck_stop._50_Gallons_for_a_7 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, showering, showers",
+      "hours": "Open ⋅ Closes 11 pm Monday5 am–11 pmTuesday5 am–11 pmWednesday5 am–11 pmThursday5 am–11 pmFriday5 am–11 pmSaturday5 am–11 pmSunday5 am–11 pmSuggest new hours",
+      "address": "151 Heater Rd, Lebanon, NH 03766",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "EXIT+18+TRUCK+STOP",
+      "googleMapsUrl": "https://www.google.com/maps/place/EXIT+18+TRUCK+STOP/@43.6507903,-72.2463226,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb4b4456d6e8b23:0x2e01de8f4dd15844!8m2!3d43.6507903!4d-72.2418165!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU4xTFhaeU5VdEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRg!16s%2Fg%2F11bwkj8gqg?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Merrimack",
+      "sourceState": "NH",
+      "timestamp": "2025-09-22T12:06:43.478Z",
+      "state": "NH"
+    },
+    {
+      "title": "ATM (Exit 5 Truck Stop Inc)",
+      "street": "RMZ TRAVEL CENTER 4.0(220)Truck stop",
+      "city": "Londonderry",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.9154228",
+      "lng": "-71.3720496",
+      "phone": "(603) 437-9929",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "RMZ TRAVEL CENTER may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Natalie Broyles",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "As others have said $10 parking little store with lottsss in it. Clean very, quiet, friendly. Lovely parking area with a walking  trail head just up road and grass area for those that have dogs. Couldn't be happier. Dinner is amazing too!!",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Natalie Broyles_As_others_have_said_$10_parking_little_store_with__3 months ago"
+        },
+        {
+          "reviewerName": "Chris Merillat",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Right off the 93. Maybe 20 parking spots. $10 to park. Great little Diner! Well stocked store. 3 fuel lanes. NO showers/ laundry",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 62,
+          "uniqueId": "Chris Merillat_Right_off_the_93._Maybe_20_parking_spots._$10_to_p_6 months ago"
+        },
+        {
+          "reviewerName": "Joseph George",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Clean, attached Diner. Truck parking was full so i asked to slide in a spot that wasnt marked. Said no problem. Parking is $10. Diner is 24hrs and convenience store is well stocked.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 69,
+          "uniqueId": "Joseph George_Clean,_attached_Diner._Truck_parking_was_full_so_i_6 months ago"
+        },
+        {
+          "reviewerName": "Alexander Shyshla",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Good small truck stop. Bunch of snacks and drinks.  Clean restroom.  Paid parking  $10.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 76,
+          "uniqueId": "Alexander Shyshla_Good_small_truck_stop._Bunch_of_snacks_and_drinks._2 years ago"
+        },
+        {
+          "reviewerName": "Math Sti",
+          "rating": "4 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Perfect truck stop but no shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Math Sti_Perfect_truck_stop_but_no_shower_8 years ago"
+        }
+      ],
+      "showerReviewCount": 5,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: clean, shower, showers, restroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "137 Rockingham Rd, Londonderry, NH 03053",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "RMZ+TRAVEL+CENTER",
+      "googleMapsUrl": "https://www.google.com/maps/place/RMZ+TRAVEL+CENTER/@42.9154228,-71.3720496,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e252132ade50cd:0xd0745d4ea7873605!8m2!3d42.9154228!4d-71.3675435!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0c1NFNVhWazlrUms1b1l6TldjVnBWTVhGVmVURlpVMnRrTmsweVl4QUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQMw!16s%2Fg%2F1tg_h1gl?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Merrimack",
+      "sourceState": "NH",
+      "timestamp": "2025-09-22T12:06:43.478Z",
+      "state": "NH"
+    },
+    {
+      "title": "Advantage Truck Group - Manchester",
+      "street": "Advantage Truck Group - Manchester 4.0(44)Truck stop",
+      "city": "Manchester",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.9537175",
+      "lng": "-71.4535108",
+      "phone": "(800) 360-5360",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Advantage Truck Group - Manchester may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open ⋅ Closes 12 am Monday7 am–12 amTuesday7 am–12 amWednesday7 am–12 amThursday7 am–12 amFriday7 am–12 amSaturday7 am–3:30 pmSundayClosedSuggest new hours",
+      "address": "220 Frontage Rd, Manchester, NH 03103",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck dealer",
+      "placeId": "Advantage+Truck+Group+-+Manchester",
+      "googleMapsUrl": "https://www.google.com/maps/place/Advantage+Truck+Group+-+Manchester/@42.9537175,-71.4535108,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e24f36774b3939:0xcada4cf060e2e101!8m2!3d42.9537175!4d-71.4490047!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQx0cnVja19kZWFsZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTnNlR0pxVUMxM1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRQ!16s%2Fg%2F11mvvltscf?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Merrimack",
+      "sourceState": "NH",
+      "timestamp": "2025-09-22T12:06:43.478Z",
+      "state": "NH"
+    },
+    {
+      "title": "Mobil",
+      "street": "Mobil 4.9(9)Truck stop",
+      "city": "Merrimack",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.8140572",
+      "lng": "-71.4909462",
+      "phone": "(603) 402-1036",
+      "website": "https://www.exxon.com/en/find-station/200304361",
+      "content": "Mobil may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Wisdom Seeker",
+          "rating": "4 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Free parking, $5 bucks shower. People are very friendly “Note shower are 5 minutes-long means water runs for five minutes unless you insert another token”.. they give me 2 tokens” i ask!!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Wisdom Seeker_Free_parking,_$5_bucks_shower._People_are_very_fri_4 months ago"
+        },
+        {
+          "reviewerName": "Aleksa Stefanović",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "There is free parking. Showers 5$ 5min. Quiet place and friendly staff",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 7,
+          "uniqueId": "Aleksa Stefanović_There_is_free_parking._Showers_5$_5min._Quiet_plac_3 months ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "",
+      "address": "140 Daniel Webster Hwy, Merrimack, NH 03054",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Mobil",
+      "googleMapsUrl": "https://www.google.com/maps/place/Mobil/@42.8140572,-71.4909462,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e3b592ea005237:0x51b427ae045f7092!8m2!3d42.8140572!4d-71.4864401!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5xZUdKZlFrUjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F11l285ly21?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Merrimack",
+      "sourceState": "NH",
+      "timestamp": "2025-09-22T12:06:43.478Z",
+      "state": "NH"
+    }
+  ],
+  "cities": [
+    "Bow",
+    "Greenland",
+    "Lancaster",
+    "Lebanon",
+    "Londonderry",
+    "Manchester",
+    "Merrimack"
+  ],
+  "totalReviews": 54,
+  "categories": [
+    "Public Facility",
+    "Truck Stop",
+    "Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop",
+    "Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop",
+    "Truck Stop, Public Facility"
+  ],
+  "locationsWithPhone": 7,
+  "timestamp": "2025-09-24T08:19:44.630Z",
+  "locationCount": 7
+}

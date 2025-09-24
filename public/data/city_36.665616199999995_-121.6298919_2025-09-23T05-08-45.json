@@ -1,0 +1,357 @@
+{
+  "timestamp": "2025-09-23T11:06:06.016Z",
+  "city": "36.665616199999995",
+  "state": "-121.6298919",
+  "sessionId": "2025-09-23T05-08-45",
+  "totalLocations": 3,
+  "locationsWithShowerReviews": 3,
+  "totalShowerReviews": 19,
+  "locations": [
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.7(1",
+      "city": "910)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.6656157",
+      "lng": "-121.6401916",
+      "phone": "+1 831-775-0380",
+      "website": "https://locations.pilotflyingj.com/us/ca/salinas/951-work-street",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "René Gauthier",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "They're not cleaning the shower. 9 people waiting, 5 room with the door open and nothing is moving. This place doesn't care at all about the driver.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "René Gauthier_They're_not_cleaning_the_shower._9_people_waiting,_2 months ago"
+        },
+        {
+          "reviewerName": "Rachel",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… are disgusting and the employees who \"clean\" them are worse. Got kicked out and screamed at and threatened for waiting for my shower that I paid for, saying I had been parked there for longer than 30 minutes , when I told them I was waiting …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Rachel_…_are_disgusting_and_the_employees_who_\"clean\"_the_5 months ago"
+        },
+        {
+          "reviewerName": "Angelica Elizararaz",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "The Shower rooms are clean, they have body wash and provide towels and it is only 20$ definitely recommend!",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 16,
+          "uniqueId": "Angelica Elizararaz_The_Shower_rooms_are_clean,_they_have_body_wash_an_5 months ago"
+        },
+        {
+          "reviewerName": "Orlando August",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… most discriminating service from the night manager. I was using their shower which I paid for when she came knocking at my door and demanded I leave because she said I was in there for 2 hours. This of course was a lie because her …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 23,
+          "uniqueId": "Orlando August_…_most_discriminating_service_from_the_night_manag_a year ago"
+        },
+        {
+          "reviewerName": "Jess Niebuhr",
+          "rating": "3 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Wish it had laundry but shower and store and women's restroom clean staff are friendly enough",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "Jess Niebuhr_Wish_it_had_laundry_but_shower_and_store_and_women_5 months ago"
+        },
+        {
+          "reviewerName": "Sergey V",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "It's a middle of the day. 11 drivers are waiting for the shower. All showers are open actually.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 38,
+          "uniqueId": "Sergey V_It's_a_middle_of_the_day._11_drivers_are_waiting_f_a year ago"
+        },
+        {
+          "reviewerName": "Mitchell V.",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "What a disappointment. I walked in to purchase a shower and the manager, Mathew, asked if i was a truck driver to which i replied no. He then tells me that showers are for truckers only. He directed me to a Love’s or a 7-11 nearby. I said …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 46,
+          "uniqueId": "Mitchell V._What_a_disappointment._I_walked_in_to_purchase_a_s_a year ago"
+        },
+        {
+          "reviewerName": "Josh Helms",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Every time I come here the hot water is out so no showers EVEN THOUGH THE HOT WATER WORKS IN THE BATHROOM. I would much rather be told we aren't doing showers than be lied to and expected to believe it all across America Pilot hot water …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 54,
+          "uniqueId": "Josh Helms_Every_time_I_come_here_the_hot_water_is_out_so_no__a year ago"
+        },
+        {
+          "reviewerName": "Fuzzy Wobolls",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… moves here. Paint dries faster than they move. Seems that crackheads and all sorts of strange looking individuals constantly inhabit this place, begging for money and shower credits. People that work inside are overwhelmed and can't deal …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 62,
+          "uniqueId": "Fuzzy Wobolls_…_moves_here._Paint_dries_faster_than_they_move._S_3 years ago"
+        },
+        {
+          "reviewerName": "Dan Gutierrez",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Literally the best chain of gas station/pit stops. You can take a shower if needed and they are always super clean restrooms and facilities. Great prices and being a rewarded member gives you 3c off each gallon... it adds up when your …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "facilities",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Dan Gutierrez_Literally_the_best_chain_of_gas_station/pit_stops._6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, wash, restroom, showers, bathroom, facilities",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "951 Work St, Salinas, CA 93901, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@36.6656157,-121.6401916,15z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x808df881b644f42d:0x881b0333d7d84d5b!8m2!3d36.6652946!4d-121.6300895!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tx15lm1?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Salinas Valley Truck Stop",
+      "street": "Salinas Valley Truck Stop 4.2(573)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.6656157",
+      "lng": "-121.6401916",
+      "phone": "+1 831-754-1303",
+      "website": "https://locations.pilotflyingj.com/us/ca/salinas/951-work-street",
+      "content": "Salinas Valley Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "C Pearce",
+          "rating": "3 stars",
+          "reviewDate": "Edited 8 years ago",
+          "reviewText": "Great food! But very pricey. Convenient stop; Truck/trailer wash, fuel, food, shower, and laundry. Limited parking maybe 30-40 trucks. The MAJOR DOWNSIDE: Short Hours! Saturday 8:00am to 5:00pm. Closed on Sunday. Open 6:00am to 10:00pm M-F. …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "C Pearce_Great_food!_But_very_pricey._Convenient_stop;_Truc_Edited 8 years ago"
+        },
+        {
+          "reviewerName": "Cynthia Carroll",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "I love this place I don't shower or use the rest room here cause it needs a lot of attention but the food is amazing try the strawberry cake",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Cynthia Carroll_I_love_this_place_I_don't_shower_or_use_the_rest_r_6 years ago"
+        },
+        {
+          "reviewerName": "Juan David",
+          "rating": "4 stars",
+          "reviewDate": "Edited 5 years ago",
+          "reviewText": "Beauty , smile, and Good service but no points no rewards  for fuell diesel .   just offer a shower each 100galons .",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "Juan David_Beauty_,_smile,_and_Good_service_but_no_points_no__Edited 5 years ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, wash",
+      "hours": "Closed ⋅ Opens 6 am Updated by phone call 1 week agoTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–9 pmSaturdayOpen 24 hoursSundayClosedMonday6 am–9 pmSuggest new hours",
+      "address": "721 Vertin Ave, Salinas, CA 93901, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Salinas+Valley+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Salinas+Valley+Truck+Stop/@36.6656157,-121.6401916,15z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80920780124a15e1:0xb44b1c62a8ad033!8m2!3d36.6615755!4d-121.6265271!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU40Y0RoRGNIWlJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDw!16s%2Fg%2F1ptxjznl_?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": true,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.0(118)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.6656157",
+      "lng": "-121.6401916",
+      "phone": "+1 831-500-6979",
+      "website": "https://locations.pilotflyingj.com/us/ca/salinas/951-work-street",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "LOVEPREET SINGH",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Worst experience with this love’s stop !\nLong wait for the shower. Nobody was ahead of me in the waiting list ! But they still want the customers to wait. Nobody wants to clean the shower and do their job specially the night staff.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "LOVEPREET SINGH_Worst_experience_with_this_love’s_stop_!_Long_wait_3 months ago"
+        },
+        {
+          "reviewerName": "Ray Toney",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Great place, employee are friendly and polite, place is clean,, so are shower's, Open 24 hours and cheapest gas in town",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Ray Toney_Great_place,_employee_are_friendly_and_polite,_pla_2 months ago"
+        },
+        {
+          "reviewerName": "Ken Wachter",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "For a multi-million dollar franchise, I cannot believe that they put the most worthless shower heads in. Could hardly rinse my razor because of the horrible water pressure. Also, whoever the architect was that designed the parking lot must …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "Ken Wachter_For_a_multi-million_dollar_franchise,_I_cannot_bel_a year ago"
+        },
+        {
+          "reviewerName": "Brad",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Do not come here if you want a shower quickly. 11 people in line waited 3 hours. Nobody was cleaning and all showers had open doors. I will be parking at Pilot from now on for shower.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Brad_Do_not_come_here_if_you_want_a_shower_quickly._11__a year ago"
+        },
+        {
+          "reviewerName": "lee Lawrence",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Clean truck stop with gas and diesel. Bathrooms, shower and laundry.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "lee Lawrence_Clean_truck_stop_with_gas_and_diesel._Bathrooms,_s_4 months ago"
+        },
+        {
+          "reviewerName": "satnam gill",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… there is zero Star rating available I would give that to this truck stop staff member there good for nothing I stop for shower and there is no shower waiting but I still have to wait for one hour because all the shower was dirty and the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 38,
+          "uniqueId": "satnam gill_…_there_is_zero_Star_rating_available_I_would_give_a year ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, bathroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1264 De la Torre St, Salinas, CA 93905, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@36.6656157,-121.6401916,15z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x809207fb6105ee03:0x15255394a78fce9e!8m2!3d36.6592804!4d-121.6185938!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxMGVtVlVUbkpVUjNoSFkxVlNTRTlGUmxKa00zQm1Za2hHTkdKdVl4QUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRQ!16s%2Fg%2F11y25ty8gn?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

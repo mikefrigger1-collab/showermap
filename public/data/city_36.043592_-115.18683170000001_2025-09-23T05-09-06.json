@@ -1,0 +1,1789 @@
+{
+  "timestamp": "2025-09-23T05:30:28.513Z",
+  "city": "36.043592",
+  "state": "-115.18683170000001",
+  "sessionId": "2025-09-23T05-09-06",
+  "totalLocations": 20,
+  "locationsWithShowerReviews": 14,
+  "totalShowerReviews": 85,
+  "locations": [
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.4(1",
+      "city": "679)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-405-0128",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "21 E Silverado Ranch Blvd, Las Vegas, NV 89183, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "Chevron",
+      "googleMapsUrl": "https://www.google.com/maps/place/Chevron/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8cedb63fccc4f:0x8857288c274db4bd!8m2!3d36.0134099!4d-115.1709842!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSNGNXWnVWa05CRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEs!16s%2Fg%2F11c5_9q_9d?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Fuel Island",
+      "street": "Blue Diamond RdDirections \"Not bad for location",
+      "city": "the entire lot is paid parking.\"",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-361-1176",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "TA Fuel Island may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Tee Kay",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Half of the pumps are out of order and you will literally find cleaner restrooms at a rest stop in the middle of nowhere",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Tee Kay_Half_of_the_pumps_are_out_of_order_and_you_will_li_3 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: restroom, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "Blue Diamond Rd, Las Vegas, NV 89139, United States",
+      "rating": "2.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Diesel fuel supplier",
+      "placeId": "TA+Fuel+Island",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Fuel+Island/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8cf4b3f7c1a01:0x24467329a8dc3ae7!8m2!3d36.0424911!4d-115.1872936!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARRkaWVzZWxfZnVlbF9zdXBwbGllcpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VScWRFbE1SR1puRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDU!16s%2Fg%2F11q84pxsvs?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 2.8(584)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-644-1600",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ilkay Karadag",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I don’t know where to start but first worst ever pilot I stopped by for shower. The store manager guy named Joe was not helpful plus being very rude. I guess they are using their power because they are the only pilot around. Just to let you …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Ilkay Karadag_I_don’t_know_where_to_start_but_first_worst_ever_p_4 months ago"
+        },
+        {
+          "reviewerName": "Kerome Nemes SR",
+          "rating": "5 stars",
+          "reviewDate": "Edited 4 months ago",
+          "reviewText": "… me when I come in with a smile. Ms,Ann was very sweet and helped me with an issue I had. thank you. The shower guy Marvin, keeping up with the demand of showers needed. They’re always clean. Very happy with his place, there is one thing …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Kerome Nemes SR_…_me_when_I_come_in_with_a_smile._Ms,Ann_was_very__Edited 4 months ago"
+        },
+        {
+          "reviewerName": "Christopher Robbins",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I waited over one hour for a shower. The employees simply don’t care that you are waiting long for a shower. I waited one hour and 30 minutes for them to clean the showers. They don’t care about truckers. Management allows employees lazy …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 22,
+          "uniqueId": "Christopher Robbins_I_waited_over_one_hour_for_a_shower._The_employees_a month ago"
+        },
+        {
+          "reviewerName": "John Blackwood",
+          "rating": "1 stars",
+          "reviewDate": "Edited 6 months ago",
+          "reviewText": "By far the worst service I’ve had at a truckstop. Generally, I only review on the showers because that’s mainly what I use. the shower Here was nice and refreshing. It was very clean. That’s why they got one star the customer service was BS …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "John Blackwood_By_far_the_worst_service_I’ve_had_at_a_truckstop.__Edited 6 months ago"
+        },
+        {
+          "reviewerName": "Alex Becker",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Pravin is the laziest employee I’ve ever seen to work a pilot. Bathrooms are a mess with no toilet paper and there are currently 21 people in line for a shower. If the employees would do their job then there would be showers available. This …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 38,
+          "uniqueId": "Alex Becker_Pravin_is_the_laziest_employee_I’ve_ever_seen_to_w_6 months ago"
+        },
+        {
+          "reviewerName": "Javier Arreola",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Shower service is slow, been here multiple times and waiting time over an hr even at no rush hr time which is 5am crew  seem careless ladies rude and poor customer service . Some races cause they greed well their same skin color. And others …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 47,
+          "uniqueId": "Javier Arreola_Shower_service_is_slow,_been_here_multiple_times_a_5 months ago"
+        },
+        {
+          "reviewerName": "D Rich",
+          "rating": "3 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "I used to love this place but the shower cleaner is very very slow.  Either he has too many responsibilities or he takes way too many smoke breaks.  It was clean I'll give him that. The rest of the employees are great!  And if you reserve a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "D Rich_I_used_to_love_this_place_but_the_shower_cleaner_i_6 months ago"
+        },
+        {
+          "reviewerName": "Doris C",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… a mess while she made her coffee. The other braided lady was responding to another guest rudely as I walked by, and was rude to another trucker when he was surprised his shower would have to wait 2 hours. A lady, asked if there was mashed …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "Doris C_…_a_mess_while_she_made_her_coffee._The_other_brai_3 years ago"
+        },
+        {
+          "reviewerName": "EARNEST ROBERTS",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Yet another bad pilot worthy of the 2.8 star rating by google lazy shower maintenance with people waiting in line will never recommend or come here ever….",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 73,
+          "uniqueId": "EARNEST ROBERTS_Yet_another_bad_pilot_worthy_of_the_2.8_star_ratin_a month ago"
+        },
+        {
+          "reviewerName": "Coleco Vw.",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "… pump islands. Expect to sit in line for about 15 to 20 minutes waiting for the truck in front of you to move away from the pump island because the driver has gone inside to either use the restroom purchase food or take a shower. The lot is …",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 80,
+          "uniqueId": "Coleco Vw._…_pump_islands._Expect_to_sit_in_line_for_about_15_Edited 6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "3812 E Craig Rd, North Las Vegas, NV 89031, United States",
+      "rating": "2.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8e801d9cccce3:0xd0d4c0ea876ac06a!8m2!3d36.2409528!4d-115.0978424!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVIyT1dGMU9HSkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQJQ!16s%2Fg%2F1td7zcb1?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Wild Wild West Truck Plaza",
+      "street": "Wild Wild West Truck Plaza 3.6(822)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-736-2298",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Wild Wild West Truck Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Lado T",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Great place, yes it's $12 a day and $12 to shower but if you want a guaranteed spot in downtown Vegas, very close to all major casinos, then pay up",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Lado T_Great_place,_yes_it's_$12_a_day_and_$12_to_shower__5 years ago"
+        },
+        {
+          "reviewerName": "Vance Eaglin",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "No soap in the guest shower! Horrible.  Slow bar service! Almost walked out but I was playing the video poker. ...",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 7,
+          "uniqueId": "Vance Eaglin_No_soap_in_the_guest_shower!_Horrible._Slow_bar_s_6 years ago"
+        },
+        {
+          "reviewerName": "Big Jones",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Convenient but bathrooms suck and no shower",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 14,
+          "uniqueId": "Big Jones_Convenient_but_bathrooms_suck_and_no_shower_7 years ago"
+        },
+        {
+          "reviewerName": "Karl Petersen",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Decent food and shower's",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 21,
+          "uniqueId": "Karl Petersen_Decent_food_and_shower's_3 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, bathroom",
+      "hours": "Closed ⋅ Opens 6 am Tue Monday6 am–7 pmTuesday6 am–7 pmWednesday6 am–7 pmThursday6 am–7 pmFriday6 am–7 pmSaturday7 am–6 pmSunday7 am–6 pmSuggest new hours",
+      "address": "4830 Procyon St, Las Vegas, NV 89103, United States",
+      "rating": "3.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Wild+Wild+West+Truck+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Wild+Wild+West+Truck+Plaza/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c429f44c8d6f:0xec412560c53889dc!8m2!3d36.1018834!4d-115.186605!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU15ZW5CbFp6RkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECE!16s%2Fg%2F12602b7lb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Express Travel Center",
+      "street": "TA Express Travel Center 4.3(908)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 725-277-0932",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "TA Express Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Gail Ayres",
+          "rating": "3 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… snacks and I parked in the overnight parking lot. Ample space and plenty of Big rig parking. Stayed until the afternoon,then I realized they had showers. $18.00 and there's no time limit. I just finished rinsing my hair when I heard a …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Gail Ayres_…_snacks_and_I_parked_in_the_overnight_parking_lot_10 months ago"
+        },
+        {
+          "reviewerName": "Luis c",
+          "rating": "1 stars",
+          "reviewDate": "2 weeks ago",
+          "reviewText": "… you get a drink. No respect for Truckers and they watch you like your going to rob the place also the night before we were given an attitude when we asked for a extra wash cloth to shower by the same woman..They made us feel very …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 12,
+          "uniqueId": "Luis c_…_you_get_a_drink._No_respect_for_Truckers_and_the_2 weeks ago"
+        },
+        {
+          "reviewerName": "G_Na Ru",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… spaces. If you can walk I would park in that lot. The showers have a time limit and there are no hooks or a chair near the shower stall to put a towel or anything. The stall is not lit well and inside the shower is dark and dim. There is …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 20,
+          "uniqueId": "G_Na Ru_…_spaces._If_you_can_walk_I_would_park_in_that_lot_2 years ago"
+        },
+        {
+          "reviewerName": "Jesse Gaines",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… shop inside the travel center. The shower was really nice and clean; however, the actual showering area itself was a little on the smaller side ( or maybe the years of driving is starting to show 😳🤣.) Appears to be very nicely up …",
+          "showerKeywords": [
+            "shower",
+            "showering",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Jesse Gaines_…_shop_inside_the_travel_center._The_shower_was_re_4 years ago"
+        },
+        {
+          "reviewerName": "Patricia Beck",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… weary and very tired traveler with a comforting and friendly smile. In the AM, Petra continued that comfort by providing me with a clean, hot shower room, complete with towels. They have massage chairs there to rejuvenate you. Or a few …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 44,
+          "uniqueId": "Patricia Beck_…_weary_and_very_tired_traveler_with_a_comforting__a year ago"
+        },
+        {
+          "reviewerName": "Sharon Wiley",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Fantastic experience.  Place has a clean parking lot, shower room exceptionally clean. Staff is friendly and efficient. RESTAURANT,  HOTEL AND CASINO ON SITE.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 54,
+          "uniqueId": "Sharon Wiley_Fantastic_experience._Place_has_a_clean_parking_l_2 months ago"
+        },
+        {
+          "reviewerName": "Andre Morera",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… minutes why your in there she has to wear it all day. Bathrooms are nice with delicate stone tops and slate looking shower floors Nice only thing is I no seat or bench to get dressed that would have been nice $12.00 shower I allways …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 61,
+          "uniqueId": "Andre Morera_…_minutes_why_your_in_there_she_has_to_wear_it_all_3 years ago"
+        },
+        {
+          "reviewerName": "Sunny baa",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Got around 15 parking, clean Restroom, great trail (35miles) Tesla charger, shower for 50 gals +, Roady Fuel Rewards, casino. But dont go to the restaurant inside casino.  Overall I love it.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "Sunny baa_Got_around_15_parking,_clean_Restroom,_great_trail_5 years ago"
+        },
+        {
+          "reviewerName": "Joe",
+          "rating": "2 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "… They have fuel, shower facilities, food, oil, coolant and additional services.   But the one thing they don’t have……AIR for your tires.   Before it became a TA it had an air compressor and air for your tires.   However, they allowed …",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 84,
+          "uniqueId": "Joe_…_They_have_fuel,_shower_facilities,_food,_oil,_co_6 months ago"
+        },
+        {
+          "reviewerName": "Taz",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Lots of good parking and a good view! We paid for a shower with no soap or toilet paper. In 3 days only one of the sinks in the bathroom had soap, I saw the cleaning person come in and there were still bodily fluids on the toilet seat …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 92,
+          "uniqueId": "Taz_Lots_of_good_parking_and_a_good_view!_We_paid_for__2 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, wash, showering, clean, bathroom, restroom, facilities",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "1550 Railroad Pass Casino Rd, Henderson, NV 89002, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "TA+Express+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Express+Travel+Center/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8d5c26ed370c7:0x4e0589c70d64151f!8m2!3d35.9706294!4d-114.9097777!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSWFgxQkxabUZSRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDc!16s%2Fg%2F11h7g29dss?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.9(1",
+      "city": "366)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-643-7398",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Armor Mathews",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "… a face lift without making any improvements to accommodate more and more people coming here. There are still only 6 showers but 2 of them are broken. So that means less showers available than when the store first opened. 5 years ago they …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Armor Mathews_…_a_face_lift_without_making_any_improvements_to_a_4 months ago"
+        },
+        {
+          "reviewerName": "Jenni Y sus Delicias",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… First, I was waiting more than 1 to get a shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Jenni Y sus Delicias_…_First,_I_was_waiting_more_than_1_to_get_a_shower_2 years ago"
+        },
+        {
+          "reviewerName": "Scott Tanner",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… Love's it was honestly the worst, grossest ,nastiest experienced I have ever had at a Love's. First I waited for over an hour and 15 minutes to get a shower. And when I did finally get into the shower room.. OMG. There was feces in the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 20,
+          "uniqueId": "Scott Tanner_…_Love's_it_was_honestly_the_worst,_grossest_,nast_2 years ago"
+        },
+        {
+          "reviewerName": "George Jones (TrUcKeR87)",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… •Broken shower head …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "George Jones (TrUcKeR87)_…_•Broken_shower_head_…_a year ago"
+        },
+        {
+          "reviewerName": "Elmo",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "5 employees just standing around while 9 people were in line to shower. I waited 45 minutes and not even one shower was prepared for the next customer. Shower doors were open the whole time but nobody was cleaning the shower rooms",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 44,
+          "uniqueId": "Elmo_5_employees_just_standing_around_while_9_people_we_4 months ago"
+        },
+        {
+          "reviewerName": "har Tej",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Waiting for shower for  2 hours even all showers free lazy staff. …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 52,
+          "uniqueId": "har Tej_Waiting_for_shower_for_2_hours_even_all_showers_f_7 months ago"
+        },
+        {
+          "reviewerName": "Daniel Guerriero",
+          "rating": "3 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… the time. Gets really backed up. The fuel lanes are a wreck. Looks like they’ve never been power washed. Shower was OK, no attention to detail on the cleaning. It does have six washers and dryers. Again it doesn’t look like they really …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 60,
+          "uniqueId": "Daniel Guerriero_…_the_time._Gets_really_backed_up._The_fuel_lanes__11 months ago"
+        },
+        {
+          "reviewerName": "Vernard Silver",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This place is just awful. Takes hour or more ti get a shower. Product all over the floor waiting to be stocked. The staff just playing around but at least nice to the customer as long you keep moving. Try to avoid this place as much as …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 68,
+          "uniqueId": "Vernard Silver_This_place_is_just_awful._Takes_hour_or_more_ti_ge_a year ago"
+        },
+        {
+          "reviewerName": "Harwinder bassi",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Professional drivers don't try to stop here, I'm waiting outside bench for shower, more than 2 hours and just 4 guys ahead of me. Still waiting. Employees smoking weed outside and having fun, no one serious about their jobs.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 77,
+          "uniqueId": "Harwinder bassi_Professional_drivers_don't_try_to_stop_here,_I'm_w_2 years ago"
+        },
+        {
+          "reviewerName": "lalaLoves Bees",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "My drive tire flat was fixed.  I got a shower.  In the middle of my shower they wanted me to disconnect from the trailer.  I still finished my shower and requested a shower credit for interrupting me.  I was given 2 credits.  Points from …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 85,
+          "uniqueId": "lalaLoves Bees_My_drive_tire_flat_was_fixed._I_got_a_shower._In_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, wash",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "12501 Apex Great Basin Way, Las Vegas, NV 89165, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c0063fcb9571:0x656776f74d8905a6!8m2!3d36.3815436!4d-114.8962939!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU15ZFRWdU4zcDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDY!16s%2Fg%2F1tdw3rtm?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Petro Travel Center",
+      "street": "Petro Travel Center 3.8(1",
+      "city": "753)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-632-2640",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Petro Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "MJ Brewer",
+          "rating": "3 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "… The atmosphere tends to be a bit creepy—a bit more than typical truck stops. In fact, this one has a lot of empty room at night and always an empty shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "MJ Brewer_…_The_atmosphere_tends_to_be_a_bit_creepy—a_bit_mo_4 months ago"
+        },
+        {
+          "reviewerName": "Stanley Ochoa",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… it was very nice & it has ♿ Handicap Parking so this is a hidden gem in Las Vegas, NV & plus you can buy a shower 🚿 & they have two restrooms 🚻 so if one is being cleaned the other is open (Thank You to the gentleman that keeps them clean …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Stanley Ochoa_…_it_was_very_nice_&_it_has_♿_Handicap_Parking_so__3 months ago"
+        },
+        {
+          "reviewerName": "Sen Lee",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Judgemental unfriendly unwelcoming and rude. Third time I purchased a shower here $17 and treated like crap from cashiers. They have attitude and horrible customer service. BTW it's only women cashiers that behave this way. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 24,
+          "uniqueId": "Sen Lee_Judgemental_unfriendly_unwelcoming_and_rude._Third_5 months ago"
+        },
+        {
+          "reviewerName": "C L",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "No water pressure in shower. And they are going to start charging $22 to park for every truck. They are putting the gates in now. We give these truckstops way too much control bring back the mom and pops. Before too long they will charge us …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "C L_No_water_pressure_in_shower._And_they_are_going_to_6 months ago"
+        },
+        {
+          "reviewerName": "Monteagudo D'Longo",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Good service! Bathrooms  clean!\nThe shower are awesome!\nGood Stopping Truckers and Overnite parking only to truck & RV...\n\nDunkinDonut not good !\n\nIron Skillet ok!",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Monteagudo D'Longo_Good_service!_Bathrooms_clean!_The_shower_are_awe_4 years ago"
+        },
+        {
+          "reviewerName": "Tim Symonds",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Can’t believe I wasted a shower credit here. Hardly any non paid parking. Shower was like warm at best and mold around the shower basin.  I’ll just use a garden hose next time.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 51,
+          "uniqueId": "Tim Symonds_Can’t_believe_I_wasted_a_shower_credit_here._Hardl_6 months ago"
+        },
+        {
+          "reviewerName": "Rick Pittman",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… people who work in there really care about the customer. Most of the parking is paid now including all the bobtail spaces,I waited for over an hour for a dirty shower with no hot water,and everything has gone up in price,just a damb shame",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 58,
+          "uniqueId": "Rick Pittman_…_people_who_work_in_there_really_care_about_the_c_a year ago"
+        },
+        {
+          "reviewerName": "Timothy Yocum",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… eny spots available and when you try to get a pay to park spot they say there all Taken even though there's several spots  shower disgusting look like never Cleaned and washers leave a bunt smell on your close best to just avoid at all cost",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 66,
+          "uniqueId": "Timothy Yocum_…_eny_spots_available_and_when_you_try_to_get_a_pa_a year ago"
+        },
+        {
+          "reviewerName": "H",
+          "rating": "3 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Cashier was nice and polite,  store seemed to be clean , but the shower room was disgusting , and it looks like someone forgot  their pet bug in the shower, this was shower # 12 early Sunday 08/23/2020 around 12:30 am .",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 74,
+          "uniqueId": "H_Cashier_was_nice_and_polite,_store_seemed_to_be_c_5 years ago"
+        },
+        {
+          "reviewerName": "Dave Jensen",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Nice staff, but showers have a horrible smell. had to rush the $17 shower because it reeked so bad 🤮🤢🤢🤢 …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 85,
+          "uniqueId": "Dave Jensen_Nice_staff,_but_showers_have_a_horrible_smell._had_8 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, restroom, clean, bathroom, wash, showers",
+      "hours": "",
+      "address": "6595 N Hollywood Blvd, Las Vegas, NV 89115, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Petro+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Petro+Travel+Center/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8e714d95290b5:0x334581160afe4087!8m2!3d36.2797048!4d-115.0261433!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJLTVRkVWNWWjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBoQHw!16s%2Fg%2F1v42g28z?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Gas-station convenience-store chain, with snacks, drinks & hot food, plus travel & maintenance gear.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Morton's Travel Plaza",
+      "street": "Morton's Travel Plaza 4.1(1",
+      "city": "821)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-649-2001",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Morton's Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Justus Ireland",
+          "rating": "2 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Was going to shower n relax here for a few hours after fueling, but after seeing the bathroom I was too scared to see what the showers looked like. Store has a nice selection, three food places to choose from. Next time I won’t get the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 0,
+          "uniqueId": "Justus Ireland_Was_going_to_shower_n_relax_here_for_a_few_hours_a_7 years ago"
+        },
+        {
+          "reviewerName": "Victor Townsend",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Went in there to take shower and they refused me because I don't have a CDL. Since when is the company truck driver the only traveler that can shower. Bad service.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 10,
+          "uniqueId": "Victor Townsend_Went_in_there_to_take_shower_and_they_refused_me_b_4 months ago"
+        },
+        {
+          "reviewerName": "Shanti Minor",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… the Mexican is serving good food with pretty decent price. SNS BBQ is always a great place to visit also. Parking for trucks is plentiful during the day but fill up pretty fast in the evening so come early , shower is pretty good for $10.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 17,
+          "uniqueId": "Shanti Minor_…_the_Mexican_is_serving_good_food_with_pretty_dec_10 months ago"
+        },
+        {
+          "reviewerName": "Hello Kitty",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "They don't cater to the regular travler NO CDL... NO SHOWERS....3 Day on the road just to be told I can't have a shower because I drive a car is ridiculous 😑 …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 25,
+          "uniqueId": "Hello Kitty_They_don't_cater_to_the_regular_travler_NO_CDL...__9 months ago"
+        },
+        {
+          "reviewerName": "nathan golden",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "… have a class c driver's license from Texas even though I'm over the road hotshot driver their policy is you can only get a shower if you have a CDL for the truck drivers but they seen that I was dirty and really in need of a shower and …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "nathan golden_…_have_a_class_c_driver's_license_from_Texas_even__7 months ago"
+        },
+        {
+          "reviewerName": "Kenneth Neumann",
+          "rating": "3 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "This is a great truck stop with plenty of food options. However, I would not recommend taking a shower here. It was small, dingy, and had mold everywhere. Didn't even have a counter or a hook for your stuff. I'd recommend stoping here, just …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Kenneth Neumann_This_is_a_great_truck_stop_with_plenty_of_food_opt_8 years ago"
+        },
+        {
+          "reviewerName": "Marvin Medina",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "I will never come to this place to shower again it's disgusting and roaches everywhere. I was told that most of the good reviews where mostly family members of the workers here.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Marvin Medina_I_will_never_come_to_this_place_to_shower_again_it_6 months ago"
+        },
+        {
+          "reviewerName": "Sen Lee",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Unless you have a CDL, cannot pay to take a shower at this location.  Never heard of this.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 57,
+          "uniqueId": "Sen Lee_Unless_you_have_a_CDL,_cannot_pay_to_take_a_shower_5 months ago"
+        },
+        {
+          "reviewerName": "Daniel Temkin",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… last parking spaces Saturday morning.  Luckier than winning in a casino.  Breakfast at the Mexican restaurant was super!. The shower water was warm, not hot, but ok. Clean shower. Excellent and friendly service.  I left my female co-driver …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 64,
+          "uniqueId": "Daniel Temkin_…_last_parking_spaces_Saturday_morning._Luckier_t_3 years ago"
+        },
+        {
+          "reviewerName": "Devin Dorrity",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… is the absolute worst place. Been driving for 4 days I am an owner operator driving a legal truck and trailer. Wouldn’t let me shower because I do not have a CDL. I am not required to have a god damn CDL. I showed my company paperwork  they …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 72,
+          "uniqueId": "Devin Dorrity_…_is_the_absolute_worst_place._Been_driving_for_4__a year ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, bathroom, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "1000 E Cheyenne Ave, North Las Vegas, NV 89030, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Morton's+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Morton's+Travel+Plaza/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c292056319af:0x2b093e7922454d68!8m2!3d36.2184156!4d-115.1280267!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJsTjJGNmIzUkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDA!16s%2Fg%2F1hc0t6z_m?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Diesel & unleaded gas, with truck parking & scale, plus a selection of informal eateries.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Exit 46: Mortons Truck Stop",
+      "street": "Exit 46: Mortons Truck Stop 4.5(64)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 775-888-7000",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Exit 46: Mortons Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Miguel Muñoz",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "A lot of parking near to Vegas parking is free a lot of food around, 10 dollar for the shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Miguel Muñoz_A_lot_of_parking_near_to_Vegas_parking_is_free_a_l_a year ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "842-900 E Cheyenne Ave, North Las Vegas, NV 89030, United States",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Exit+46:+Mortons+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Exit+46:+Mortons+Truck+Stop/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c292075373ff:0xf9590202c1acc6ef!8m2!3d36.2189226!4d-115.1297393!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJpTTAxUGEwbEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11hblky196?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Noil Las Vegas",
+      "street": "Noil Las Vegas 4.3(170)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-633-5135",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Noil Las Vegas may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Crystal Brown",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Ruby Restaurant inside. Excellent service.\n\nNo frills, bare minimum fuel stop. Came here for Mudflap app. Restrooms for CDL drivers only.",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 14,
+          "uniqueId": "Crystal Brown_Ruby_Restaurant_inside._Excellent_service._No_fri_2 years ago"
+        },
+        {
+          "reviewerName": "Adria McClain",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Ok spot for fuel and a quick restroom break, they have a new restaurant inside as well.. they have some snacks but I don't recall drinks or coffee. Nothing compared to one of the big fuel stops but its definitely one of the cheaper fuel stops in the area.",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 29,
+          "uniqueId": "Adria McClain_Ok_spot_for_fuel_and_a_quick_restroom_break,_they__2 years ago"
+        },
+        {
+          "reviewerName": "ALITTA MEND",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Great service and super affordable, fuel here is so convenient, staff is super frendly and committed. You can book montly which is so great and the manager is super nice and serious. We enjoyed typical Mexican food,  finally the restrooms were clean.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 36,
+          "uniqueId": "ALITTA MEND_Great_service_and_super_affordable,_fuel_here_is_s_3 years ago"
+        },
+        {
+          "reviewerName": "Rick Piros",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "No frills fueling station.   The diesel seems clean and pumps too.\n\nNot much of a selection in store but that's ok.   Keep the prices low.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Rick Piros_No_frills_fueling_station._The_diesel_seems_clea_3 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: restroom, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "1100 E Colton Ave, North Las Vegas, NV 89030, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Noil+Las+Vegas",
+      "googleMapsUrl": "https://www.google.com/maps/place/Noil+Las+Vegas/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c2910f67fc11:0x66f371d584ff13c9!8m2!3d36.2215111!4d-115.1263499!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJVTTJVelV6Sm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEE!16s%2Fg%2F11dxh8yy6x?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Exit 48: Pilot Travel Center",
+      "street": "Exit 48: Pilot Travel Center 3.3(7)Parking lot",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 775-888-7000",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Exit 48: Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "That's Disgusting",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "LADIES & GENTS BEWARE ❗️❗️\nTHE VENTS ON THE SHOWER DOORS HAVE BEEN PURPOSELY BENT SO THAT THEY CAN SEE INTO THE SHOWER.  I HAVE SEEN THIS AT SEVERAL LOCATIONS.  WATCH VIDEO",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "That's Disgusting_LADIES_&_GENTS_BEWARE_❗️❗️_THE_VENTS_ON_THE_SHOWER_2 years ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "",
+      "address": "4425-4599 Mitchell St, North Las Vegas, NV 89030, United States",
+      "rating": "3.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "Exit+48:+Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Exit+48:+Pilot+Travel+Center/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c2aa762c2733:0x1edb5591b2601e45!8m2!3d36.2413719!4d-115.0987282!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtwYXJraW5nX2xvdJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOb2QxOXRMV3BCUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIeRAm!16s%2Fg%2F11gff8xpg0?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "SNS Truck Stop",
+      "street": "SNS Truck Stop 3.6(14)Petrol Station",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.1756347",
+      "lng": "-115.4573829",
+      "phone": "+1 702-269-9696",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "SNS Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "hampton manning",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Truck wash directly pressure washed my power steering reservoir and punctured it. My truck leaked out all power steering fluid. Cost me 4 hours of waiting, and $200 repair. Manager refused to do anything to help me and cussed me out when I …",
+          "showerKeywords": [
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "hampton manning_Truck_wash_directly_pressure_washed_my_power_steer_6 years ago"
+        },
+        {
+          "reviewerName": "Ismael Toto",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "It's not bad but they need to invest on products to clean windshield, it's standard in any gas stations. If it's my own choice I will not ⛽ Diesel up there.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Ismael Toto_It's_not_bad_but_they_need_to_invest_on_products_t_6 years ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Mixed mentions of: wash, clean",
+      "hours": "",
+      "address": "1100 E Colton Ave, North Las Vegas, NV 89030, United States",
+      "rating": "3.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "SNS+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/SNS+Truck+Stop/@36.1756347,-115.4573829,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c291a696d6a3:0xa09fd59653b5c6c!8m2!3d36.2216274!4d-115.1258957!15sCgp0cnVjayBzdG9wkgELZ2FzX3N0YXRpb26qAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA!16s%2Fg%2F1tj2c8f0?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Blue Diamond Travel Center LLC",
+      "street": "Blue Diamond Travel Center LLC 4.3(103)Petrol Station",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.0344904",
+      "lng": "-115.9359586",
+      "phone": "+1 702-361-1176",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Blue Diamond Travel Center LLC may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "12325 NV-160, Las Vegas - West, NV 89445, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "Blue+Diamond+Travel+Center+LLC",
+      "googleMapsUrl": "https://www.google.com/maps/place/Blue+Diamond+Travel+Center+LLC/@36.0344904,-115.9359586,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8b78e8dd82c41:0xfeae2fef6b7c7ee7!8m2!3d36.0344904!4d-115.3591764!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuVFVOQk5GbFlhMmhuUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIQRA_!16s%2Fg%2F1vq753xb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Terrible Herbst Truck Plaza",
+      "street": "Terrible Herbst Truck Plaza 3.9(918)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.0344904",
+      "lng": "-115.9359586",
+      "phone": "+1 702-874-1515",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Terrible Herbst Truck Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Vicky Allen",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I'm giving it 4 stars. I would have given it 5 stars but they don't have showers. …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Vicky Allen_I'm_giving_it_4_stars._I_would_have_given_it_5_sta_3 years ago"
+        },
+        {
+          "reviewerName": "Over The Road with Johnnymac",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This review is for the truck stop....lots of parking...the end....the service was horrible...i paid for a shower and was instructed to go outside (where the showers are)and wait for someone to clean it....20 min went by and the lady at the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Over The Road with Johnnymac_This_review_is_for_the_truck_stop....lots_of_parki_6 years ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "1 Main St, Jean, NV 89019, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Convenience store",
+      "placeId": "Terrible+Herbst+Truck+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Terrible+Herbst+Truck+Plaza/@36.0344904,-115.9359586,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80cf4d2e6005865f:0x76020c62491eb8a8!8m2!3d35.780017!4d-115.3249299!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARFjb252ZW5pZW5jZV9zdG9yZZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOV09GbFlhVFIzUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABBB!16s%2Fg%2F1td5l_0f?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Gas-station & convenience-store chain offering grocery items, snacks & fountain drinks.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Petro Stopping Center",
+      "street": "Petro Stopping Center 4.2(127)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.966613",
+      "lng": "-115.4921912",
+      "phone": "+1 725-305-0745",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Petro Stopping Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "V Sullivan",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "A BRAND NEW LOCATION,  I LOVE it,  expansive truck parking lot,  HUGE store,  CLEAN showers WITH shower caddies and FRIENDLY CUSTOMER SERVICE,  a truckers DREAM location⭐️⭐️⭐️⭐️⭐️😊 …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "V Sullivan_A_BRAND_NEW_LOCATION,_I_LOVE_it,_expansive_truck_3 months ago"
+        },
+        {
+          "reviewerName": "Iurii Malynovskyi",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Nice Parking Lot. Nice shower with shelves 🤣 great place. Everything is new. Stuff very 👍 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Iurii Malynovskyi_Nice_Parking_Lot._Nice_shower_with_shelves_🤣_grea_9 months ago"
+        },
+        {
+          "reviewerName": "Andy Cui",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "I waited from 4:30 AM to 6:00 AM and the shower room still wasn’t cleaned. The staff responsible were clearly slacking off and not doing their job. For a 24-hour truck stop, this is unacceptable. Drivers need clean showers, especially after …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Andy Cui_I_waited_from_4:30_AM_to_6:00_AM_and_the_shower_ro_2 months ago"
+        },
+        {
+          "reviewerName": "Brittney Sanders",
+          "rating": "4 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "… I say most are the bottom of the barrel. Everyone was nice and friendly, outstanding customer service and very accommodating. Shower was amazing, clean , hot water, no issues with water pressure. Store is clean and need so is the restroom ( …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Brittney Sanders_…_I_say_most_are_the_bottom_of_the_barrel._Everyon_7 months ago"
+        },
+        {
+          "reviewerName": "The Crafty Trucker",
+          "rating": "2 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Great parking lot. Showers not so much. They were small, poor water pressure, no hooks to hang your clean clothes, no shelf in shower for your own toiletries, not well air conditioned, didn’t check out much more as we were on the move. Bein …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 35,
+          "uniqueId": "The Crafty Trucker_Great_parking_lot._Showers_not_so_much._They_were__11 months ago"
+        },
+        {
+          "reviewerName": "Joseph Joseph",
+          "rating": "5 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "Great pkace, clean shower. Dunkin coffee great. Very quit and clean. Highly recommend",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 43,
+          "uniqueId": "Joseph Joseph_Great_pkace,_clean_shower._Dunkin_coffee_great._Ve_4 weeks ago"
+        },
+        {
+          "reviewerName": "Denielle Prine",
+          "rating": "4 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… The shower itself is small, and the water pressure is good. It's hard to shave your legs but can be done. lol The shower room it's self is a decent size. Vary dark and not well lit. NO DROPPED TRAILERS I'M TOLD. They told me that someone …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Denielle Prine_…_The_shower_itself_is_small,_and_the_water_pressu_8 months ago"
+        },
+        {
+          "reviewerName": "Heriberto Torres",
+          "rating": "4 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… . Haven't ran into a issue finding a free parking spot here.  Store is nice as is the staff.   The showers however not the best . Water pressure issues you can literally hear. Shower wait times,  in my experience, over a hour with the app …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 58,
+          "uniqueId": "Heriberto Torres_…_._Haven't_ran_into_a_issue_finding_a_free_parkin_8 months ago"
+        },
+        {
+          "reviewerName": "Diana K",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… -shelves for shampoos in the shower …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 66,
+          "uniqueId": "Diana K_…_-shelves_for_shampoos_in_the_shower_…_11 months ago"
+        },
+        {
+          "reviewerName": "Benigno Rivas Quint",
+          "rating": "2 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Shower don’t Work through the app\nBecause they Want to sale every shower\nOn both Truck Stop. Petro / and TA.😒😒😒 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 74,
+          "uniqueId": "Benigno Rivas Quint_Shower_don’t_Work_through_the_app_Because_they_Wan_5 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, restroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "1700 Railroad Pass Casino Rd, Henderson, NV 89002, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Petro+Stopping+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Petro+Stopping+Center/@35.966613,-115.4921912,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8d53799104b51:0x8ea6353bfb8d346c!8m2!3d35.966613!4d-114.915409!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU51YlhKRFRGTjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECE8QOg!16s%2Fg%2F11wc337mxg?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Express",
+      "street": "TA Express 4.2(189)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.966613",
+      "lng": "-115.4921912",
+      "phone": "+1 725-277-0932",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "TA Express may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Gail Ayres",
+          "rating": "3 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… snacks and I parked in the overnight parking lot. Ample space and plenty of Big rig parking. Stayed until the afternoon,then I realized they had showers. $18.00 and there's no time limit. I just finished rinsing my hair when I heard a …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Gail Ayres_…_snacks_and_I_parked_in_the_overnight_parking_lot_10 months ago"
+        },
+        {
+          "reviewerName": "Luis c",
+          "rating": "1 stars",
+          "reviewDate": "2 weeks ago",
+          "reviewText": "… you get a drink. No respect for Truckers and they watch you like your going to rob the place also the night before we were given an attitude when we asked for a extra wash cloth to shower by the same woman..They made us feel very …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 12,
+          "uniqueId": "Luis c_…_you_get_a_drink._No_respect_for_Truckers_and_the_2 weeks ago"
+        },
+        {
+          "reviewerName": "G_Na Ru",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… spaces. If you can walk I would park in that lot. The showers have a time limit and there are no hooks or a chair near the shower stall to put a towel or anything. The stall is not lit well and inside the shower is dark and dim. There is …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 20,
+          "uniqueId": "G_Na Ru_…_spaces._If_you_can_walk_I_would_park_in_that_lot_2 years ago"
+        },
+        {
+          "reviewerName": "Jesse Gaines",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… shop inside the travel center. The shower was really nice and clean; however, the actual showering area itself was a little on the smaller side ( or maybe the years of driving is starting to show 😳🤣.) Appears to be very nicely up …",
+          "showerKeywords": [
+            "shower",
+            "showering",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Jesse Gaines_…_shop_inside_the_travel_center._The_shower_was_re_4 years ago"
+        },
+        {
+          "reviewerName": "Patricia Beck",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… weary and very tired traveler with a comforting and friendly smile. In the AM, Petra continued that comfort by providing me with a clean, hot shower room, complete with towels. They have massage chairs there to rejuvenate you. Or a few …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 44,
+          "uniqueId": "Patricia Beck_…_weary_and_very_tired_traveler_with_a_comforting__a year ago"
+        },
+        {
+          "reviewerName": "Sharon Wiley",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Fantastic experience.  Place has a clean parking lot, shower room exceptionally clean. Staff is friendly and efficient. RESTAURANT,  HOTEL AND CASINO ON SITE.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 54,
+          "uniqueId": "Sharon Wiley_Fantastic_experience._Place_has_a_clean_parking_l_2 months ago"
+        },
+        {
+          "reviewerName": "Andre Morera",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… minutes why your in there she has to wear it all day. Bathrooms are nice with delicate stone tops and slate looking shower floors Nice only thing is I no seat or bench to get dressed that would have been nice $12.00 shower I allways …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 61,
+          "uniqueId": "Andre Morera_…_minutes_why_your_in_there_she_has_to_wear_it_all_3 years ago"
+        },
+        {
+          "reviewerName": "Sunny baa",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Got around 15 parking, clean Restroom, great trail (35miles) Tesla charger, shower for 50 gals +, Roady Fuel Rewards, casino. But dont go to the restaurant inside casino.  Overall I love it.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "Sunny baa_Got_around_15_parking,_clean_Restroom,_great_trail_5 years ago"
+        },
+        {
+          "reviewerName": "Joe",
+          "rating": "2 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "… They have fuel, shower facilities, food, oil, coolant and additional services.   But the one thing they don’t have……AIR for your tires.   Before it became a TA it had an air compressor and air for your tires.   However, they allowed …",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 84,
+          "uniqueId": "Joe_…_They_have_fuel,_shower_facilities,_food,_oil,_co_6 months ago"
+        },
+        {
+          "reviewerName": "Taz",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Lots of good parking and a good view! We paid for a shower with no soap or toilet paper. In 3 days only one of the sinks in the bathroom had soap, I saw the cleaning person come in and there were still bodily fluids on the toilet seat …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 92,
+          "uniqueId": "Taz_Lots_of_good_parking_and_a_good_view!_We_paid_for__2 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, wash, showering, clean, bathroom, restroom, facilities",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "1550 Railroad Pass Casino Rd, Henderson, NV 89002, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "TA+Express+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Express+Travel+Center/@35.966613,-115.4921912,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8d5c26ed370c7:0x4e0589c70d64151f!8m2!3d35.9706294!4d-114.9097777!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSWFgxQkxabUZSRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDc!16s%2Fg%2F11h7g29dss?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Highland Inn Las Vegas",
+      "street": "Highland Inn Las Vegas 3.5(288)2-star hotelModest hotel with a bar & free Wi-Fi+1 702-896-4333Directions  Free parking Free Wi-Fi Air-conditioned Wi-Fi \"Close to airport",
+      "city": "jet noise",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.966613",
+      "lng": "-115.4921912",
+      "phone": "+1 702-896-4333",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Highland Inn Las Vegas may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "8025 Dean Martin Dr, Las Vegas, NV 89139, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "",
+      "placeId": "Highland+Inn+Las+Vegas",
+      "googleMapsUrl": "https://www.google.com/maps/place/Highland+Inn+Las+Vegas/@35.966613,-115.4921912,10z/data=!4m13!1m2!2m1!1struck+stop!3m9!1s0x80c8cf4cbc245b6b:0xc7e0fb5aba881f6e!5m2!4m1!1i2!8m2!3d36.044173!4d-115.187793!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQVtb3RlbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOdGVHOVRVRkJCRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgjEEs!16s%2Fg%2F1td_ywr8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "My Truck Stop Dentist",
+      "street": "My Truck Stop Dentist 4.0(1)Dental clinic",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.966613",
+      "lng": "-115.4921912",
+      "phone": "+1 702-333-4775",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "My Truck Stop Dentist may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 9 am Tue Monday9 am–5 pmTuesday9 am–1 pmWednesday9 am–5 pmThursday9 am–5 pmFriday9 am–5 pmSaturdayClosedSundayClosedSuggest new hours",
+      "address": "8050 Dean Martin Dr, Las Vegas, NV 89139, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Dental clinic",
+      "placeId": "My+Truck+Stop+Dentist",
+      "googleMapsUrl": "https://www.google.com/maps/place/My+Truck+Stop+Dentist/@35.966613,-115.4921912,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8cfee1e41a20d:0xa5cd1fa7faadb0a3!8m2!3d36.043592!4d-115.1868317!15sCgp0cnVjayBzdG9wkgENZGVudGFsX2NsaW5pY6oBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11s570bbs4?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "BigRigParkingLV",
+      "street": "BigRigParkingLV 5.0(2)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.966613",
+      "lng": "-115.4921912",
+      "phone": "+1 702-665-2903",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "BigRigParkingLV may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 7 am Tue Monday7 am–9 pmTuesday7 am–9 pmWednesday7 am–9 pmThursday7 am–9 pmFriday7 am–9 pmSaturday7 am–9 pmSunday7 am–9 pmSuggest new hours",
+      "address": "2499 N Jones Blvd, Las Vegas, NV 89108, United States",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "BigRigParkingLV",
+      "googleMapsUrl": "https://www.google.com/maps/place/BigRigParkingLV/@35.966613,-115.4921912,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c7d05a61f7f9:0x4e2cb3e0f9bd69c8!8m2!3d36.2039741!4d-115.224286!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11jn0czjx7?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Bus Stop Services",
+      "street": "Bus Stop Services 4.4(68)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "35.966613",
+      "lng": "-115.4921912",
+      "phone": "+1 702-736-2568",
+      "website": "https://www.ta-petro.com/location/nv/ta-las-vegas",
+      "content": "Bus Stop Services may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 6 am Tue Monday6 am–10 pmTuesday6 am–10 pmWednesday6 am–10 pmThursday6 am–10 pmFriday6 am–10 pmSaturday6 am–10 pmSunday6 am–10 pmSuggest new hours",
+      "address": "155 W Imperial Ave, Las Vegas, NV 89102, United States",
+      "rating": "4.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Bus+Stop+Services",
+      "googleMapsUrl": "https://www.google.com/maps/place/Bus+Stop+Services/@35.966613,-115.4921912,10z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80c8c38e48fd9d67:0xad729b096418d3dc!8m2!3d36.155498!4d-115.1575062!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5VT0RadU9VWm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECDEQMg!16s%2Fg%2F1tg4x3f1?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    }
+  ]
+}

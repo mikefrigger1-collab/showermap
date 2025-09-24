@@ -1,0 +1,1995 @@
+{
+  "timestamp": "2025-09-22T14:42:41.642Z",
+  "city": "30.192605999999998",
+  "state": "-95.19279759999999",
+  "sessionId": "2025-09-22T09-34-26",
+  "totalLocations": 20,
+  "locationsWithShowerReviews": 13,
+  "totalShowerReviews": 101,
+  "locations": [
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 4.1(1",
+      "city": "491)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.1925651",
+      "lng": "-95.1971929",
+      "phone": "+1 281-689-8065",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "hammieworldrox488",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… The tire mart offers trailer washouts in site. I just wish they had a loyalty points program similar to Love’s where you can get points, free showers, and unlimited refills with no expiration. I don’t even bother using my rewards card here …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "hammieworldrox488_…_The_tire_mart_offers_trailer_washouts_in_site._I_11 months ago"
+        },
+        {
+          "reviewerName": "Chris Northcutt",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Could give zero stars off allowed to. Place was filthy, staff arguing with cutovers over concerns of public safety and sanitation. Assigned a shower. Went to assigned shower. Door wide open and filthy everywhere. Towels all over as well. As …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Chris Northcutt_Could_give_zero_stars_off_allowed_to._Place_was_fi_a year ago"
+        },
+        {
+          "reviewerName": "Adam Gray",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "This is one of the worse places to stop bonuses the facilities. Showers are never cleaned, often waiting up to an hour to get someone to clean them. I've been here 3 times where they had no towels. If you want a shower and have time, go …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "facilities",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Adam Gray_This_is_one_of_the_worse_places_to_stop_bonuses_th_10 months ago"
+        },
+        {
+          "reviewerName": "James White",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Night shift lazy af. If you don't know shower count resets at midnight. This means they haven't managed to clean 14 showers in nearly 4 hours.... At a location that does 100+ showers daily.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "James White_Night_shift_lazy_af._If_you_don't_know_shower_coun_10 months ago"
+        },
+        {
+          "reviewerName": "Dmitrii Zazikalo",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I waited for my shower for 3 hours, the person who serves the showers just sat and watched TV all this time and people stood and waited.  Terrible service",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "Dmitrii Zazikalo_I_waited_for_my_shower_for_3_hours,_the_person_who_2 years ago"
+        },
+        {
+          "reviewerName": "jeanette b",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Sunday evening and this place is FUBAR.  Trash everywhere, double parked trucks, ice machine broken, and over 2 hour wait for shower because they ran out of clean towels.  Corporate needs to see what the hell is going on here!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 43,
+          "uniqueId": "jeanette b_Sunday_evening_and_this_place_is_FUBAR._Trash_eve_a year ago"
+        },
+        {
+          "reviewerName": "M M",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Ladies professional drivers! Get your fuel if you need to, if you park for the night, and if you take a shower. Please stay to yourself there. Don't trust a friendly employee there. Stay to yourself! My advice.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "M M_Ladies_professional_drivers!_Get_your_fuel_if_you__a year ago"
+        },
+        {
+          "reviewerName": "damien kincaid",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… again, I would only hope it was next to a flying J's. The best stranded experience I could ever have. Thank you to all the staff and cooks!!!!! I can't afford the shower, if you had  two dollar water hose shower I could do that. Lol",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 57,
+          "uniqueId": "damien kincaid_…_again,_I_would_only_hope_it_was_next_to_a_flying_2 years ago"
+        },
+        {
+          "reviewerName": "tammy barber",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "The store part is not bad for the most part. The showers on the other hand is disgusting. The kid just pulled out the dirt towels and put new ones in. The bad room is definitely not being tended to here. Hair pile in the shower, toilet …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 65,
+          "uniqueId": "tammy barber_The_store_part_is_not_bad_for_the_most_part._The_s_2 years ago"
+        },
+        {
+          "reviewerName": "Jesus Hilario Hernandez",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "TRUCKER REVIEW: The showers are nice--kinda cozy sized. Stopped for 8-hour restart. Great place to shower and relax.  Parked is somewhat cramped with very little angle parking. Washers where down to wash clothes. Bummer. Not sure if that is …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 77,
+          "uniqueId": "Jesus Hilario Hernandez_TRUCKER_REVIEW:_The_showers_are_nice--kinda_cozy_s_7 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, wash, facilities, clean",
+      "hours": "",
+      "address": "23412 TX-242, New Caney, TX 77357, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@30.1925651,-95.1971929,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x864751ad1aca7527:0x73f0035f7edee4ee!8m2!3d30.1925651!4d-95.1926868!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1ttdncsr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Splendora Truck Stop",
+      "street": "Splendora Truck Stop 4.2(577)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.2507935",
+      "lng": "-95.1568742",
+      "phone": "+1 281-965-1215",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Splendora Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "John C.",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… Was however really hoping they had laundry facilities and a shower or two, but no biggie as I'm heading home tomorrow after my delivery at Wallie World, and I can shower at the Flying J Pole!",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 0,
+          "uniqueId": "John C._…_Was_however_really_hoping_they_had_laundry_facil_7 years ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower, facilities",
+      "hours": "",
+      "address": "13360 US-59 BUS, Splendora, TX 77372, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Splendora+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Splendora+Truck+Stop/@30.2507935,-95.1568742,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86475a059bffa703:0x5dd270d325f6ef62!8m2!3d30.2507935!4d-95.1523681!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVI2TkZsZlVFOTNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F11bwkf5v3s?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "ATM (Flying J Travel Center)",
+      "street": "ATM (Flying J Travel Center) 2.5(6)ATM",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.1926541",
+      "lng": "-95.1974705",
+      "phone": "+1 281-689-8065",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "ATM (Flying J Travel Center) may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "23412 TX-242, New Caney, TX 77357, United States",
+      "rating": "2.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "ATM",
+      "placeId": "ATM+(Flying+J+Travel+Center)",
+      "googleMapsUrl": "https://www.google.com/maps/place/ATM+(Flying+J+Travel+Center)/@30.1926541,-95.1974705,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x864751ad1aca7527:0xd27893b6de65e596!8m2!3d30.1926541!4d-95.1929644!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQNhdG2aASNDaFpEU1VoTk1HOW5TMFZMTXpjdGRFZGlkblpVTW1WbkVBRaoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAZ!16s%2Fg%2F1tmxrdx2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.1(807)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.3546932",
+      "lng": "-95.0957509",
+      "phone": "+1 281-593-0239",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Craft",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… the board. Yes, sometimes in crowded big cities the quality of service goes down some, but what do you expect.  They always have clean showers and something to eat.  But at the moment I just want to know the current price on a shower...",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "David Craft_…_the_board._Yes,_sometimes_in_crowded_big_cities__a year ago"
+        },
+        {
+          "reviewerName": "Cougar Trucking",
+          "rating": "2 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "The ppl are friendly, it’s well stocked BUT I ordered a shower and the toilet was dirty. I let the attendant know, she “cleaned” it and this is what it looks like after she cleaned it a second time. The trash wasn’t taken out either so …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Cougar Trucking_The_ppl_are_friendly,_it’s_well_stocked_BUT_I_orde_11 months ago"
+        },
+        {
+          "reviewerName": "JesusNameAboveAllNames",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… do you think will clean it? Not the customer? Good answer! Then, when I bought a shower, I go in, wow, the same thing. Debris, hair, dead insects in the corners and around the edges. Just general nastiness. Who do you think should clean it …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "JesusNameAboveAllNames_…_do_you_think_will_clean_it?_Not_the_customer?_Go_a year ago"
+        },
+        {
+          "reviewerName": "Shane Sorrell (Sig in a truck)",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Clean shower with hot water and good pressure, plenty enough parking with room to maneuver.  Pretty typical loves but no greeting coming in as accustomed to with loves.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "Shane Sorrell (Sig in a truck)_Clean_shower_with_hot_water_and_good_pressure,_ple_9 months ago"
+        },
+        {
+          "reviewerName": "Cardiad Harris",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I was so impressed with the employees here. It was about midnight when I pulled in to take a shower and sleep. James, Kat and June were so pleasant and deep cleaning the entire store all while providing excellent customer service with a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Cardiad Harris_I_was_so_impressed_with_the_employees_here._It_was_3 years ago"
+        },
+        {
+          "reviewerName": "Driver 2.0",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Most horrible places I couldn't even get my shower and they told me they didn't care if I was out of hours they didnt want me parking where I was and to get off the property or just drive around the parking lot for hours. I already had …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Driver 2.0_Most_horrible_places_I_couldn't_even_get_my_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Mary BURNS",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I go there to shower alot and it's very nice and clean!\nBut it has food, Big Truck light bulbs, tail light, CB parts, toys, purses, snacks and much much more...",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "Mary BURNS_I_go_there_to_shower_alot_and_it's_very_nice_and_c_3 years ago"
+        },
+        {
+          "reviewerName": "Shy R (Shy)",
+          "rating": "1 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "TALES  FROM THE CRYPT SHOWER FROM HELL EXPERIENCE HORRIBLE SERVICE!!!!!!! I PAID with MY OWN MONEY FOR A SHOWER $14.00, there was no security knob for privacy, and on top of everything they tried going not once but twice into the bathroom. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 55,
+          "uniqueId": "Shy R (Shy)_TALES_FROM_THE_CRYPT_SHOWER_FROM_HELL_EXPERIENCE__7 years ago"
+        },
+        {
+          "reviewerName": "Peter S",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Shower isnt clean, buch of dirt and mud on floor. Some hair on toilet (hair not from head). At least it has hot water.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "Peter S_Shower_isnt_clean,_buch_of_dirt_and_mud_on_floor.__2 years ago"
+        },
+        {
+          "reviewerName": "Mike Landry",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Dirty shower, dirty sink, arbys employees weren't rude but also have no customer service skills. Bun was chewy and sandwich was cold.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 70,
+          "uniqueId": "Mike Landry_Dirty_shower,_dirty_sink,_arbys_employees_weren't__6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "107 FM 2025, Cleveland, TX 77328, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@30.3546932,-95.0957509,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86475f3cb778fe57:0x6c350fdc6350ee5!8m2!3d30.3546932!4d-95.0912448!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tghpzzx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.5(2",
+      "city": "701)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.1925651",
+      "lng": "-95.1971929",
+      "phone": "+1 281-689-8065",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "hammieworldrox488",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… The tire mart offers trailer washouts in site. I just wish they had a loyalty points program similar to Love’s where you can get points, free showers, and unlimited refills with no expiration. I don’t even bother using my rewards card here …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "hammieworldrox488_…_The_tire_mart_offers_trailer_washouts_in_site._I_11 months ago"
+        },
+        {
+          "reviewerName": "Chris Northcutt",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Could give zero stars off allowed to. Place was filthy, staff arguing with cutovers over concerns of public safety and sanitation. Assigned a shower. Went to assigned shower. Door wide open and filthy everywhere. Towels all over as well. As …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Chris Northcutt_Could_give_zero_stars_off_allowed_to._Place_was_fi_a year ago"
+        },
+        {
+          "reviewerName": "Adam Gray",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "This is one of the worse places to stop bonuses the facilities. Showers are never cleaned, often waiting up to an hour to get someone to clean them. I've been here 3 times where they had no towels. If you want a shower and have time, go …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "facilities",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Adam Gray_This_is_one_of_the_worse_places_to_stop_bonuses_th_10 months ago"
+        },
+        {
+          "reviewerName": "James White",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Night shift lazy af. If you don't know shower count resets at midnight. This means they haven't managed to clean 14 showers in nearly 4 hours.... At a location that does 100+ showers daily.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "James White_Night_shift_lazy_af._If_you_don't_know_shower_coun_10 months ago"
+        },
+        {
+          "reviewerName": "Dmitrii Zazikalo",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I waited for my shower for 3 hours, the person who serves the showers just sat and watched TV all this time and people stood and waited.  Terrible service",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "Dmitrii Zazikalo_I_waited_for_my_shower_for_3_hours,_the_person_who_2 years ago"
+        },
+        {
+          "reviewerName": "jeanette b",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Sunday evening and this place is FUBAR.  Trash everywhere, double parked trucks, ice machine broken, and over 2 hour wait for shower because they ran out of clean towels.  Corporate needs to see what the hell is going on here!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 43,
+          "uniqueId": "jeanette b_Sunday_evening_and_this_place_is_FUBAR._Trash_eve_a year ago"
+        },
+        {
+          "reviewerName": "M M",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Ladies professional drivers! Get your fuel if you need to, if you park for the night, and if you take a shower. Please stay to yourself there. Don't trust a friendly employee there. Stay to yourself! My advice.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "M M_Ladies_professional_drivers!_Get_your_fuel_if_you__a year ago"
+        },
+        {
+          "reviewerName": "damien kincaid",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… again, I would only hope it was next to a flying J's. The best stranded experience I could ever have. Thank you to all the staff and cooks!!!!! I can't afford the shower, if you had  two dollar water hose shower I could do that. Lol",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 57,
+          "uniqueId": "damien kincaid_…_again,_I_would_only_hope_it_was_next_to_a_flying_2 years ago"
+        },
+        {
+          "reviewerName": "tammy barber",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "The store part is not bad for the most part. The showers on the other hand is disgusting. The kid just pulled out the dirt towels and put new ones in. The bad room is definitely not being tended to here. Hair pile in the shower, toilet …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 65,
+          "uniqueId": "tammy barber_The_store_part_is_not_bad_for_the_most_part._The_s_2 years ago"
+        },
+        {
+          "reviewerName": "Jesus Hilario Hernandez",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "TRUCKER REVIEW: The showers are nice--kinda cozy sized. Stopped for 8-hour restart. Great place to shower and relax.  Parked is somewhat cramped with very little angle parking. Washers where down to wash clothes. Bummer. Not sure if that is …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 77,
+          "uniqueId": "Jesus Hilario Hernandez_TRUCKER_REVIEW:_The_showers_are_nice--kinda_cozy_s_7 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, wash, facilities, clean",
+      "hours": "",
+      "address": "23412 TX-242, New Caney, TX 77357, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@30.1925651,-95.1971929,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x864751ad1aca7527:0x73f0035f7edee4ee!8m2!3d30.1925651!4d-95.1926868!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1ttdncsr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TRUCK STOP",
+      "street": "TRUCK STOP 4.1(151)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.2507935",
+      "lng": "-95.1568742",
+      "phone": "+1 281-965-1215",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "TRUCK STOP may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "John C.",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… Was however really hoping they had laundry facilities and a shower or two, but no biggie as I'm heading home tomorrow after my delivery at Wallie World, and I can shower at the Flying J Pole!",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 0,
+          "uniqueId": "John C._…_Was_however_really_hoping_they_had_laundry_facil_7 years ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower, facilities",
+      "hours": "",
+      "address": "13360 US-59 BUS, Splendora, TX 77372, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Splendora+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Splendora+Truck+Stop/@30.2507935,-95.1568742,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86475a059bffa703:0x5dd270d325f6ef62!8m2!3d30.2507935!4d-95.1523681!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVI2TkZsZlVFOTNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRw!16s%2Fg%2F11bwkf5v3s?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 5.0(1)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.131162",
+      "lng": "-95.2879901",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "21997 FM1314, Porter, TX 77365, United States",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@30.131162,-95.2879901,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86474d6a0ad51263:0xf02c595018c99427!8m2!3d30.131162!4d-95.283484!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11vsv2lgtg?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Beltway 8 Travel Plaza",
+      "street": "Beltway 8 Travel Plaza 4.1(1",
+      "city": "053)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.9379325",
+      "lng": "-95.3769573",
+      "phone": "+1 832-230-5927",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Beltway 8 Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "M Awadallah",
+          "rating": "5 stars",
+          "reviewDate": "Edited 7 months ago",
+          "reviewText": "… and Edlina at the cash register the place is very clean packed with merchandise they have truck parts also hotel style shower with body wash shampoo and lotion nice clean restroom they have lot of choices when it comes to food they have …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "M Awadallah_…_and_Edlina_at_the_cash_register_the_place_is_ver_Edited 7 months ago"
+        },
+        {
+          "reviewerName": "Julian Hendricks",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "This place was conveniently on my route and looked empty so I stopped in. Found out that after you get 75 gallons of diesel you can park for free and get a shower for free. I did so and received a shower voucher and a parking permit. Nikish …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 12,
+          "uniqueId": "Julian Hendricks_This_place_was_conveniently_on_my_route_and_looked_4 months ago"
+        },
+        {
+          "reviewerName": "Alfredo Estrella",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "First time here. Big parking lot for 18 wheeler. The shower room was clean, shampoo, lotion, shower gel provided.  Diesel price much better than pilot, loves etc.  I recommend this travel plaza.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Alfredo Estrella_First_time_here._Big_parking_lot_for_18_wheeler._T_a year ago"
+        },
+        {
+          "reviewerName": "US Trucker Fasi",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Big truck stop a lot of available parking spaces. Paid parking but worth it. It's clean in a safe area. Clean shower's  & laundry available. All the staff are very nice especially Mr. Rana & Mrs. Nikisha.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 29,
+          "uniqueId": "US Trucker Fasi_Big_truck_stop_a_lot_of_available_parking_spaces.__5 months ago"
+        },
+        {
+          "reviewerName": "Hidalmis Galvez",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "I put 75 glns diesel and saved $ 35 (cost of shower and parking). It's an amazing deal for the truckers. The staff is also nice personal. Nikisha and Rana are the best cashier's.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Hidalmis Galvez_I_put_75_glns_diesel_and_saved_$_35_(cost_of_showe_5 months ago"
+        },
+        {
+          "reviewerName": "Julie Coronado",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "This place was amazing during the WINTER STORM 02/2021. We had no water to shower for 5 days & were able to come and shower here for a reasonable price. The showers have their own bathroom as well, sink and bench to set your items down. The …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 43,
+          "uniqueId": "Julie Coronado_This_place_was_amazing_during_the_WINTER_STORM_02/_4 years ago"
+        },
+        {
+          "reviewerName": "Schomawer joachim",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… helpful. I was experiencing a fuel issue, and they managed to resolve it for me. They also provided an amazing and beautiful shower that was clean and nice. There are plenty of truck parking spaces with good fuel available. You should …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Schomawer joachim_…_helpful._I_was_experiencing_a_fuel_issue,_and_th_10 months ago"
+        },
+        {
+          "reviewerName": "Dalton Manning",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… that I was given, the parking lot was very clean which I am a huge fan of, no vagrants or trash anywhere. The showers were the typical price of $18 but this shower was absolutely amazing they had an overhead and a hand faucet there was no …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "Dalton Manning_…_that_I_was_given,_the_parking_lot_was_very_clean_a year ago"
+        },
+        {
+          "reviewerName": "riki calio",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Number one place in Houston tx,nice two ladies in gas register (Nikisha and edlina) smile and friendly and i fuel truck got free shower and parking",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 71,
+          "uniqueId": "riki calio_Number_one_place_in_Houston_tx,nice_two_ladies_in__5 months ago"
+        },
+        {
+          "reviewerName": "Janyer Valmaseda",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "It’s an amazing truck stop I really enjoyed here including free parking and shower upon filling 75 glens diesel. It’s a wonderful deal for the truckers . Rebeca and Rana served me and my friend very politely and sincerely.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 78,
+          "uniqueId": "Janyer Valmaseda_It’s_an_amazing_truck_stop_I_really_enjoyed_here_i_a year ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, restroom, clean, wash, showers, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "1104 N Sam Houston Pkwy E, Aldine, TX 77032, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Beltway+8+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Beltway+8+Travel+Plaza/@29.9379325,-95.3769573,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8640b66b14ac5ff5:0xe8e0deaf92ccfd29!8m2!3d29.9379325!4d-95.3724512!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJZZVdSMVEyZDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBQi9ARBC!16s%2Fg%2F11by_nd7yg?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Texas Travel Plaza",
+      "street": "Texas Travel Plaza 2.6(86)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.9456458",
+      "lng": "-95.2991008",
+      "phone": "+1 281-441-4450",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Texas Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Brian Fraser",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Fueled and took shower here. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Brian Fraser_Fueled_and_took_shower_here._…_3 years ago"
+        },
+        {
+          "reviewerName": "Smitty",
+          "rating": "2 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "… Maybe if your a trucker you'd get better service. They have a shower here but if its kept up like the regular bathrooms forget it. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 8,
+          "uniqueId": "Smitty_…_Maybe_if_your_a_trucker_you'd_get_better_service_8 years ago"
+        },
+        {
+          "reviewerName": "Alan Baker",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I need a shower bc of the tornado that hit... Shower was cleaned and the cashier was very cool",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Alan Baker_I_need_a_shower_bc_of_the_tornado_that_hit..._Show_a year ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "15615 US-59, Humble, TX 77396, United States",
+      "rating": "2.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Texas+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Texas+Travel+Plaza/@29.9456458,-95.2991008,17z/data=!3m1!5s0x8640b1447f4ba907:0xb8187dbcc8925d3b!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8640b1447ecec1f1:0xf92d685e3362a609!8m2!3d29.9456458!4d-95.2945947!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5VYmpWbVJIWjNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEc!16s%2Fg%2F1thkxn6m?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Basic truck stop with a store for snacks, deli food & sundries, with showers available.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.6(444)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.3546932",
+      "lng": "-95.0957509",
+      "phone": "+1 281-593-0239",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Craft",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… the board. Yes, sometimes in crowded big cities the quality of service goes down some, but what do you expect.  They always have clean showers and something to eat.  But at the moment I just want to know the current price on a shower...",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "David Craft_…_the_board._Yes,_sometimes_in_crowded_big_cities__a year ago"
+        },
+        {
+          "reviewerName": "Cougar Trucking",
+          "rating": "2 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "The ppl are friendly, it’s well stocked BUT I ordered a shower and the toilet was dirty. I let the attendant know, she “cleaned” it and this is what it looks like after she cleaned it a second time. The trash wasn’t taken out either so …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Cougar Trucking_The_ppl_are_friendly,_it’s_well_stocked_BUT_I_orde_11 months ago"
+        },
+        {
+          "reviewerName": "JesusNameAboveAllNames",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… do you think will clean it? Not the customer? Good answer! Then, when I bought a shower, I go in, wow, the same thing. Debris, hair, dead insects in the corners and around the edges. Just general nastiness. Who do you think should clean it …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "JesusNameAboveAllNames_…_do_you_think_will_clean_it?_Not_the_customer?_Go_a year ago"
+        },
+        {
+          "reviewerName": "Shane Sorrell (Sig in a truck)",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Clean shower with hot water and good pressure, plenty enough parking with room to maneuver.  Pretty typical loves but no greeting coming in as accustomed to with loves.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "Shane Sorrell (Sig in a truck)_Clean_shower_with_hot_water_and_good_pressure,_ple_9 months ago"
+        },
+        {
+          "reviewerName": "Cardiad Harris",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I was so impressed with the employees here. It was about midnight when I pulled in to take a shower and sleep. James, Kat and June were so pleasant and deep cleaning the entire store all while providing excellent customer service with a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Cardiad Harris_I_was_so_impressed_with_the_employees_here._It_was_3 years ago"
+        },
+        {
+          "reviewerName": "Driver 2.0",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Most horrible places I couldn't even get my shower and they told me they didn't care if I was out of hours they didnt want me parking where I was and to get off the property or just drive around the parking lot for hours. I already had …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Driver 2.0_Most_horrible_places_I_couldn't_even_get_my_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Mary BURNS",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I go there to shower alot and it's very nice and clean!\nBut it has food, Big Truck light bulbs, tail light, CB parts, toys, purses, snacks and much much more...",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "Mary BURNS_I_go_there_to_shower_alot_and_it's_very_nice_and_c_3 years ago"
+        },
+        {
+          "reviewerName": "Shy R (Shy)",
+          "rating": "1 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "TALES  FROM THE CRYPT SHOWER FROM HELL EXPERIENCE HORRIBLE SERVICE!!!!!!! I PAID with MY OWN MONEY FOR A SHOWER $14.00, there was no security knob for privacy, and on top of everything they tried going not once but twice into the bathroom. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 55,
+          "uniqueId": "Shy R (Shy)_TALES_FROM_THE_CRYPT_SHOWER_FROM_HELL_EXPERIENCE__7 years ago"
+        },
+        {
+          "reviewerName": "Peter S",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Shower isnt clean, buch of dirt and mud on floor. Some hair on toilet (hair not from head). At least it has hot water.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "Peter S_Shower_isnt_clean,_buch_of_dirt_and_mud_on_floor.__2 years ago"
+        },
+        {
+          "reviewerName": "Mike Landry",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Dirty shower, dirty sink, arbys employees weren't rude but also have no customer service skills. Bun was chewy and sandwich was cold.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 70,
+          "uniqueId": "Mike Landry_Dirty_shower,_dirty_sink,_arbys_employees_weren't__6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "107 FM 2025, Cleveland, TX 77328, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@30.3546932,-95.0957509,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86475f3cb778fe57:0x6c350fdc6350ee5!8m2!3d30.3546932!4d-95.0912448!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tghpzzx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.1(797)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.3546932",
+      "lng": "-95.0957509",
+      "phone": "+1 281-593-0239",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Craft",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… the board. Yes, sometimes in crowded big cities the quality of service goes down some, but what do you expect.  They always have clean showers and something to eat.  But at the moment I just want to know the current price on a shower...",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "David Craft_…_the_board._Yes,_sometimes_in_crowded_big_cities__a year ago"
+        },
+        {
+          "reviewerName": "Cougar Trucking",
+          "rating": "2 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "The ppl are friendly, it’s well stocked BUT I ordered a shower and the toilet was dirty. I let the attendant know, she “cleaned” it and this is what it looks like after she cleaned it a second time. The trash wasn’t taken out either so …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Cougar Trucking_The_ppl_are_friendly,_it’s_well_stocked_BUT_I_orde_11 months ago"
+        },
+        {
+          "reviewerName": "JesusNameAboveAllNames",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… do you think will clean it? Not the customer? Good answer! Then, when I bought a shower, I go in, wow, the same thing. Debris, hair, dead insects in the corners and around the edges. Just general nastiness. Who do you think should clean it …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "JesusNameAboveAllNames_…_do_you_think_will_clean_it?_Not_the_customer?_Go_a year ago"
+        },
+        {
+          "reviewerName": "Shane Sorrell (Sig in a truck)",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Clean shower with hot water and good pressure, plenty enough parking with room to maneuver.  Pretty typical loves but no greeting coming in as accustomed to with loves.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "Shane Sorrell (Sig in a truck)_Clean_shower_with_hot_water_and_good_pressure,_ple_9 months ago"
+        },
+        {
+          "reviewerName": "Cardiad Harris",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I was so impressed with the employees here. It was about midnight when I pulled in to take a shower and sleep. James, Kat and June were so pleasant and deep cleaning the entire store all while providing excellent customer service with a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Cardiad Harris_I_was_so_impressed_with_the_employees_here._It_was_3 years ago"
+        },
+        {
+          "reviewerName": "Driver 2.0",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Most horrible places I couldn't even get my shower and they told me they didn't care if I was out of hours they didnt want me parking where I was and to get off the property or just drive around the parking lot for hours. I already had …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Driver 2.0_Most_horrible_places_I_couldn't_even_get_my_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Mary BURNS",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I go there to shower alot and it's very nice and clean!\nBut it has food, Big Truck light bulbs, tail light, CB parts, toys, purses, snacks and much much more...",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "Mary BURNS_I_go_there_to_shower_alot_and_it's_very_nice_and_c_3 years ago"
+        },
+        {
+          "reviewerName": "Shy R (Shy)",
+          "rating": "1 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "TALES  FROM THE CRYPT SHOWER FROM HELL EXPERIENCE HORRIBLE SERVICE!!!!!!! I PAID with MY OWN MONEY FOR A SHOWER $14.00, there was no security knob for privacy, and on top of everything they tried going not once but twice into the bathroom. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 55,
+          "uniqueId": "Shy R (Shy)_TALES_FROM_THE_CRYPT_SHOWER_FROM_HELL_EXPERIENCE__7 years ago"
+        },
+        {
+          "reviewerName": "Peter S",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Shower isnt clean, buch of dirt and mud on floor. Some hair on toilet (hair not from head). At least it has hot water.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "Peter S_Shower_isnt_clean,_buch_of_dirt_and_mud_on_floor.__2 years ago"
+        },
+        {
+          "reviewerName": "Mike Landry",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Dirty shower, dirty sink, arbys employees weren't rude but also have no customer service skills. Bun was chewy and sandwich was cold.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 70,
+          "uniqueId": "Mike Landry_Dirty_shower,_dirty_sink,_arbys_employees_weren't__6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "107 FM 2025, Cleveland, TX 77328, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@30.3546932,-95.0957509,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86475f3cb778fe57:0x6c350fdc6350ee5!8m2!3d30.3546932!4d-95.0912448!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tghpzzx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 4.0(1",
+      "city": "018)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.1925651",
+      "lng": "-95.1971929",
+      "phone": "+1 281-689-8065",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "hammieworldrox488",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "… The tire mart offers trailer washouts in site. I just wish they had a loyalty points program similar to Love’s where you can get points, free showers, and unlimited refills with no expiration. I don’t even bother using my rewards card here …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "hammieworldrox488_…_The_tire_mart_offers_trailer_washouts_in_site._I_11 months ago"
+        },
+        {
+          "reviewerName": "Chris Northcutt",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Could give zero stars off allowed to. Place was filthy, staff arguing with cutovers over concerns of public safety and sanitation. Assigned a shower. Went to assigned shower. Door wide open and filthy everywhere. Towels all over as well. As …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Chris Northcutt_Could_give_zero_stars_off_allowed_to._Place_was_fi_a year ago"
+        },
+        {
+          "reviewerName": "Adam Gray",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "This is one of the worse places to stop bonuses the facilities. Showers are never cleaned, often waiting up to an hour to get someone to clean them. I've been here 3 times where they had no towels. If you want a shower and have time, go …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "facilities",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Adam Gray_This_is_one_of_the_worse_places_to_stop_bonuses_th_10 months ago"
+        },
+        {
+          "reviewerName": "James White",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Night shift lazy af. If you don't know shower count resets at midnight. This means they haven't managed to clean 14 showers in nearly 4 hours.... At a location that does 100+ showers daily.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "James White_Night_shift_lazy_af._If_you_don't_know_shower_coun_10 months ago"
+        },
+        {
+          "reviewerName": "Dmitrii Zazikalo",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I waited for my shower for 3 hours, the person who serves the showers just sat and watched TV all this time and people stood and waited.  Terrible service",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "Dmitrii Zazikalo_I_waited_for_my_shower_for_3_hours,_the_person_who_2 years ago"
+        },
+        {
+          "reviewerName": "jeanette b",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Sunday evening and this place is FUBAR.  Trash everywhere, double parked trucks, ice machine broken, and over 2 hour wait for shower because they ran out of clean towels.  Corporate needs to see what the hell is going on here!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 43,
+          "uniqueId": "jeanette b_Sunday_evening_and_this_place_is_FUBAR._Trash_eve_a year ago"
+        },
+        {
+          "reviewerName": "M M",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Ladies professional drivers! Get your fuel if you need to, if you park for the night, and if you take a shower. Please stay to yourself there. Don't trust a friendly employee there. Stay to yourself! My advice.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "M M_Ladies_professional_drivers!_Get_your_fuel_if_you__a year ago"
+        },
+        {
+          "reviewerName": "damien kincaid",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… again, I would only hope it was next to a flying J's. The best stranded experience I could ever have. Thank you to all the staff and cooks!!!!! I can't afford the shower, if you had  two dollar water hose shower I could do that. Lol",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 57,
+          "uniqueId": "damien kincaid_…_again,_I_would_only_hope_it_was_next_to_a_flying_2 years ago"
+        },
+        {
+          "reviewerName": "tammy barber",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "The store part is not bad for the most part. The showers on the other hand is disgusting. The kid just pulled out the dirt towels and put new ones in. The bad room is definitely not being tended to here. Hair pile in the shower, toilet …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 65,
+          "uniqueId": "tammy barber_The_store_part_is_not_bad_for_the_most_part._The_s_2 years ago"
+        },
+        {
+          "reviewerName": "Jesus Hilario Hernandez",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "TRUCKER REVIEW: The showers are nice--kinda cozy sized. Stopped for 8-hour restart. Great place to shower and relax.  Parked is somewhat cramped with very little angle parking. Washers where down to wash clothes. Bummer. Not sure if that is …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 77,
+          "uniqueId": "Jesus Hilario Hernandez_TRUCKER_REVIEW:_The_showers_are_nice--kinda_cozy_s_7 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, wash, facilities, clean",
+      "hours": "",
+      "address": "23412 TX-242, New Caney, TX 77357, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@30.1925651,-95.1971929,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x864751ad1aca7527:0x73f0035f7edee4ee!8m2!3d30.1925651!4d-95.1926868!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1ttdncsr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Fuel Maxx 28",
+      "street": "Fuel Maxx 28 3.9(520)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.9676114",
+      "lng": "-95.2897209",
+      "phone": "+1 832-777-1602",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Fuel Maxx 28 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "cris g",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "… because I couldn’t give a negative star…… ok shall I began. This place is horrible, I parked after a long day- went in to shower grab something hot to eat all was negative. No hot food, restroom and shower was extremely dirty. The guy asked …",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 0,
+          "uniqueId": "cris g_…_because_I_couldn’t_give_a_negative_star……_ok_sha_2 months ago"
+        },
+        {
+          "reviewerName": "Anatolii Kuskovets",
+          "rating": "4 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Parking is a big. Many free place. Restroom not quite clean. Many shower, price 15$",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Anatolii Kuskovets_Parking_is_a_big._Many_free_place._Restroom_not_qu_5 months ago"
+        },
+        {
+          "reviewerName": "ARe!!Boss",
+          "rating": "2 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "A lot parking space and a lot driver not pay.\nNo shower at night.\n\nJust go big chain truck stop same price better service. Except you just need rest area.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "ARe!!Boss_A_lot_parking_space_and_a_lot_driver_not_pay._No_s_3 years ago"
+        },
+        {
+          "reviewerName": "Mamur Turaev",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "The shower is not clean. No hot water, no where put soap and shampoo when you showering the truck stop looks new, but nobody cares overnight parking expensive.",
+          "showerKeywords": [
+            "shower",
+            "showering",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Mamur Turaev_The_shower_is_not_clean._No_hot_water,_no_where_pu_7 months ago"
+        },
+        {
+          "reviewerName": "Tess Irby",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Clean and well stocked store. Parking is now $20. If you buy 60 gallons of fuel you can have free parking or a free shower (your choice)",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Tess Irby_Clean_and_well_stocked_store._Parking_is_now_$20.__a year ago"
+        },
+        {
+          "reviewerName": "shane desai",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Truck drivers , please be alert , there are thieves around this parking lot , they steal your ECM from the truck , while you go to take shower, please dont leave your truck un attended. Thanks .",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 37,
+          "uniqueId": "shane desai_Truck_drivers_,_please_be_alert_,_there_are_thieve_a year ago"
+        },
+        {
+          "reviewerName": "CJ Morales",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "12 dollars for a shower lasting no more than 10 mins? No reason for it unless yall got someone back there scrubbing people down.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 44,
+          "uniqueId": "CJ Morales_12_dollars_for_a_shower_lasting_no_more_than_10_mi_2 years ago"
+        },
+        {
+          "reviewerName": "Sergo Pierre",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Shower 15$ park 20$ everything inside is more expensive than even big truck stop",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 51,
+          "uniqueId": "Sergo Pierre_Shower_15$_park_20$_everything_inside_is_more_expe_2 years ago"
+        },
+        {
+          "reviewerName": "Floyd Mallory",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Ask for two towels for shower get charged two showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 58,
+          "uniqueId": "Floyd Mallory_Ask_for_two_towels_for_shower_get_charged_two_show_2 years ago"
+        },
+        {
+          "reviewerName": "Jesse Garza",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "This place is huge!\nFrom fuel to food to shower's and a gym!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "Jesse Garza_This_place_is_huge!_From_fuel_to_food_to_shower's__3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, restroom, clean, showering, showers",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "17155 Eastex Fwy, Humble, TX 77396, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Fuel+Maxx+28",
+      "googleMapsUrl": "https://www.google.com/maps/place/Fuel+Maxx+28/@29.9676114,-95.2897209,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8640b3671851c781:0x8088558cecb48168!8m2!3d29.9676114!4d-95.2852148!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVE1ZW5GWUxXRjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSQ!16s%2Fg%2F11flb9152t?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Main Street Market",
+      "street": "Main Street Market 3.9(158)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.1204839",
+      "lng": "-95.4474723",
+      "phone": "+1 281-689-8065",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Main Street Market may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "24607 I-45, Spring, TX 77386, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Main+Street+Market",
+      "googleMapsUrl": "https://www.google.com/maps/place/Main+Street+Market/@30.1204839,-95.4474723,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x864734369397302f:0x3e0becb53ffe4bf4!8m2!3d30.1204839!4d-95.4429662!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ3YzNKeVEyWlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECFQQOA!16s%2Fg%2F1tj1sh36?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Swift Truck Stop",
+      "street": "Swift Truck Stop 4.0(203)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.9367453",
+      "lng": "-95.4373671",
+      "phone": "+1 832-280-7804",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Swift Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Lupe Garcia",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… plenty of warning signs because they had someone mopping the floor. They have a truckers shower and accommodate the truckers with all kinds of stuff like extra parking for them. I read some of the other reviews and it sounds like a …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Lupe Garcia_…_plenty_of_warning_signs_because_they_had_someone_a year ago"
+        },
+        {
+          "reviewerName": "Firdavs Tairov",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "… , today we faced an unpleasant reality at Swift Truck Stop. The showers, which should be a place for hygiene and refreshment, turned out to be dirty, uncleaned, and simply unusable. The floors were covered in water and grime, there was a …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "hygiene"
+          ],
+          "index": 12,
+          "uniqueId": "Firdavs Tairov_…_,_today_we_faced_an_unpleasant_reality_at_Swift__7 months ago"
+        },
+        {
+          "reviewerName": "Choluk Mossyyev",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Nice place. Very kind staff. Good place to park your truck, take a rest, and shower. Really clean place",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Choluk Mossyyev_Nice_place._Very_kind_staff._Good_place_to_park_yo_4 months ago"
+        },
+        {
+          "reviewerName": "Omar Hernandez",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "great food  , shower are nice and clean on my  part  nice  wuick stop",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "Omar Hernandez_great_food_,_shower_are_nice_and_clean_on_my_par_a month ago"
+        },
+        {
+          "reviewerName": "R.L.",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Nice clean store with food and showers.. Its terrible for the independent O/O. 70 to 100 gallons of fuel for your shower to go from $16 to $10.. So that means you have to spend $250+ for not a free shower, but a $10 shower. And I'm sure …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 38,
+          "uniqueId": "R.L._Nice_clean_store_with_food_and_showers.._Its_terri_2 years ago"
+        },
+        {
+          "reviewerName": "Swiftz zxl",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Pretty much you can found anything you looking for even they do have a shower for truck drivers",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 46,
+          "uniqueId": "Swiftz zxl_Pretty_much_you_can_found_anything_you_looking_for_a year ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, hygiene",
+      "hours": "",
+      "address": "1111 North Sam Houston Pkwy W, Houston, TX 77038, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Swift+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Swift+Truck+Stop/@29.9367453,-95.4373671,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8640c9bea3e2acb5:0x22d6593fd8b30a39!8m2!3d29.9367453!4d-95.432861!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJ3YkdSWE1HOVJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEI!16s%2Fg%2F11s5n6jpyx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Buzzy Bee Travel Center - Cleveland",
+      "street": "Buzzy Bee Travel Center - Cleveland 4.0(29)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.3251969",
+      "lng": "-95.106242",
+      "phone": "+1 281-972-7200",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Buzzy Bee Travel Center - Cleveland may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "1830 US-59, Cleveland, TX 77327, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Buzzy+Bee+Travel+Center+-+Cleveland",
+      "googleMapsUrl": "https://www.google.com/maps/place/Buzzy+Bee+Travel+Center+-+Cleveland/@30.3251969,-95.106242,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86475900428dc7c7:0x4e9d9f40a9d70ddf!8m2!3d30.3251969!4d-95.1017359!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVVJSYXpoVVNrMUJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECCAQTA!16s%2Fg%2F11w9zsg_bf?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Shepherd Travel Center",
+      "street": "Shepherd Travel Center 4.3(482)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.5311288",
+      "lng": "-94.9791672",
+      "phone": "+1 832-808-0930",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Shepherd Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "3101 US-59, Shepherd, TX 77371, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Shepherd+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Shepherd+Travel+Center/@30.5311288,-94.9791672,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86389b4210a1dc09:0x61b9815065f0812d!8m2!3d30.5311288!4d-94.9746611!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5NY0hNM2NtVlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSw!16s%2Fg%2F11s1b2mpqv?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.8(514)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.3546932",
+      "lng": "-95.0957509",
+      "phone": "+1 281-593-0239",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Craft",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… the board. Yes, sometimes in crowded big cities the quality of service goes down some, but what do you expect.  They always have clean showers and something to eat.  But at the moment I just want to know the current price on a shower...",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "David Craft_…_the_board._Yes,_sometimes_in_crowded_big_cities__a year ago"
+        },
+        {
+          "reviewerName": "Cougar Trucking",
+          "rating": "2 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "The ppl are friendly, it’s well stocked BUT I ordered a shower and the toilet was dirty. I let the attendant know, she “cleaned” it and this is what it looks like after she cleaned it a second time. The trash wasn’t taken out either so …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Cougar Trucking_The_ppl_are_friendly,_it’s_well_stocked_BUT_I_orde_11 months ago"
+        },
+        {
+          "reviewerName": "JesusNameAboveAllNames",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… do you think will clean it? Not the customer? Good answer! Then, when I bought a shower, I go in, wow, the same thing. Debris, hair, dead insects in the corners and around the edges. Just general nastiness. Who do you think should clean it …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "JesusNameAboveAllNames_…_do_you_think_will_clean_it?_Not_the_customer?_Go_a year ago"
+        },
+        {
+          "reviewerName": "Shane Sorrell (Sig in a truck)",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Clean shower with hot water and good pressure, plenty enough parking with room to maneuver.  Pretty typical loves but no greeting coming in as accustomed to with loves.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "Shane Sorrell (Sig in a truck)_Clean_shower_with_hot_water_and_good_pressure,_ple_9 months ago"
+        },
+        {
+          "reviewerName": "Cardiad Harris",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I was so impressed with the employees here. It was about midnight when I pulled in to take a shower and sleep. James, Kat and June were so pleasant and deep cleaning the entire store all while providing excellent customer service with a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Cardiad Harris_I_was_so_impressed_with_the_employees_here._It_was_3 years ago"
+        },
+        {
+          "reviewerName": "Driver 2.0",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Most horrible places I couldn't even get my shower and they told me they didn't care if I was out of hours they didnt want me parking where I was and to get off the property or just drive around the parking lot for hours. I already had …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Driver 2.0_Most_horrible_places_I_couldn't_even_get_my_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Mary BURNS",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "I go there to shower alot and it's very nice and clean!\nBut it has food, Big Truck light bulbs, tail light, CB parts, toys, purses, snacks and much much more...",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "Mary BURNS_I_go_there_to_shower_alot_and_it's_very_nice_and_c_3 years ago"
+        },
+        {
+          "reviewerName": "Shy R (Shy)",
+          "rating": "1 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "TALES  FROM THE CRYPT SHOWER FROM HELL EXPERIENCE HORRIBLE SERVICE!!!!!!! I PAID with MY OWN MONEY FOR A SHOWER $14.00, there was no security knob for privacy, and on top of everything they tried going not once but twice into the bathroom. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 55,
+          "uniqueId": "Shy R (Shy)_TALES_FROM_THE_CRYPT_SHOWER_FROM_HELL_EXPERIENCE__7 years ago"
+        },
+        {
+          "reviewerName": "Peter S",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Shower isnt clean, buch of dirt and mud on floor. Some hair on toilet (hair not from head). At least it has hot water.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "Peter S_Shower_isnt_clean,_buch_of_dirt_and_mud_on_floor.__2 years ago"
+        },
+        {
+          "reviewerName": "Mike Landry",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Dirty shower, dirty sink, arbys employees weren't rude but also have no customer service skills. Bun was chewy and sandwich was cold.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 70,
+          "uniqueId": "Mike Landry_Dirty_shower,_dirty_sink,_arbys_employees_weren't__6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "107 FM 2025, Cleveland, TX 77328, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@30.3546932,-95.0957509,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x86475f3cb778fe57:0x6c350fdc6350ee5!8m2!3d30.3546932!4d-95.0912448!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tghpzzx?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "STAR STOP 10",
+      "street": "STAR STOP 10 3.9(27)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "30.2091591",
+      "lng": "-95.4377221",
+      "phone": "+1 936-321-4342",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "STAR STOP 10 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "16983 Gleneagle Dr S, Conroe, TX 77385, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Convenience store",
+      "placeId": "STAR+STOP+10",
+      "googleMapsUrl": "https://www.google.com/maps/place/STAR+STOP+10/@30.2091591,-95.4377221,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x864737a0361da057:0x336ffa40823b67db!8m2!3d30.2091591!4d-95.433216!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARFjb252ZW5pZW5jZV9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVSbkxXUXpabVpCRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEBs!16s%2Fg%2F11c5_m4gjn?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "GT3 Chevron Truck Stop",
+      "street": "GT3 Chevron Truck Stop 4.2(74)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.8972952",
+      "lng": "-95.4501786",
+      "phone": "+1 281-689-8065",
+      "website": "https://locations.pilotflyingj.com/us/tx/new-caney/23412-hwy-242",
+      "content": "GT3 Chevron Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "2409 W Mt Houston Rd, Houston, TX 77038, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "GT3+Chevron+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/GT3+Chevron+Truck+Stop/@29.8972952,-95.4501786,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8640c910c16b3a19:0x8c443a24f59a9882!8m2!3d29.8972952!4d-95.4456725!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU10YkV4bWFVUlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQNA!16s%2Fg%2F11qj3tgt4p?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

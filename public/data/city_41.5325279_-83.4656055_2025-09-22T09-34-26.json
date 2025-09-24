@@ -1,0 +1,1626 @@
+{
+  "timestamp": "2025-09-22T16:22:51.590Z",
+  "city": "41.5325279",
+  "state": "-83.4656055",
+  "sessionId": "2025-09-22T09-34-26",
+  "totalLocations": 18,
+  "locationsWithShowerReviews": 10,
+  "totalShowerReviews": 77,
+  "locations": [
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 4.1(1",
+      "city": "250)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5347245",
+      "lng": "-83.4653041",
+      "phone": "+1 419-837-2100",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Michael McDonald",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… 🚿 Shower …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Michael McDonald_…_🚿_Shower_…_a year ago"
+        },
+        {
+          "reviewerName": "George Carmona",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… Also, the shower was very clean and the adjoining restroom was clean and smelled very good.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "George Carmona_…_Also,_the_shower_was_very_clean_and_the_adjoinin_5 months ago"
+        },
+        {
+          "reviewerName": "Roger Rodrz.",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "The place is big not huge but it does the work with 15 shower which is great so you don't have to wait most of the time. Inside you can find a Denny's for breakfast. Parking is big and comfortable and it's good for a long stay.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 20,
+          "uniqueId": "Roger Rodrz._The_place_is_big_not_huge_but_it_does_the_work_wit_7 years ago"
+        },
+        {
+          "reviewerName": "Curtis pernak",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "I use pilot and flying j as a network. Stopped to get shower and had to wait ..so while waiting  I asked counter lady if they had someone  cleaning  showers ,of course she called him and he said he was cleaning .after 5 minutes  he came in …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "Curtis pernak_I_use_pilot_and_flying_j_as_a_network._Stopped_to__5 months ago"
+        },
+        {
+          "reviewerName": "Mandalore Ward",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… I got shower #7 when I finally finished my hike from where I parked. It was small but pretty clean! I will say the water pressure kinda sucked. The only saving grace was that you can change the way the water comes out and concentrate it a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Mandalore Ward_…_I_got_shower_#7_when_I_finally_finished_my_hike__a year ago"
+        },
+        {
+          "reviewerName": "Mr Idiot Mr Idiot",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… Shower / Restroom facility was spotless. No wait for anything at any counter. …",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 48,
+          "uniqueId": "Mr Idiot Mr Idiot_…_Shower_/_Restroom_facility_was_spotless._No_wait_4 years ago"
+        },
+        {
+          "reviewerName": "Sable Hund",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… quite dirty but the guy working the back came and cleaned them immediately so kudos to him!) The shower was hot, great pressure, and very clean. Ok so the Kiosk wasn't working, big deal. Who cares about a Kiosk when everyone that worked …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Sable Hund_…_quite_dirty_but_the_guy_working_the_back_came_an_2 years ago"
+        },
+        {
+          "reviewerName": "N N",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Very kind people, nice and decent shower's",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 64,
+          "uniqueId": "N N_Very_kind_people,_nice_and_decent_shower's_6 years ago"
+        },
+        {
+          "reviewerName": "Marty",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… cold and bossy. If you don't want to work, go home. I showered to the sound of loud hard metal music from directly across from my shower. I guess it is Flying J policy to play loud hard metal music for the showers, now. I felt disdain for, …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 75,
+          "uniqueId": "Marty_…_cold_and_bossy._If_you_don't_want_to_work,_go_ho_3 years ago"
+        },
+        {
+          "reviewerName": "Shela Sawyer",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… 4th to go order was given out, and we still hadn't gotten our food we just left. So we went over to take a shower without supper, and waited 40 minutes for a shower. We finally got to eat soup in our truck for the 3rd night in a row @ 9 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 83,
+          "uniqueId": "Shela Sawyer_…_4th_to_go_order_was_given_out,_and_we_still_hadn_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, restroom, clean, showers",
+      "hours": "",
+      "address": "26415 Warns Dr, Perrysburg, OH 43551, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@41.5347245,-83.4653041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8e535816ed15:0x554cafb650928ca1!8m2!3d41.5347245!4d-83.460798!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU53YmxCdGJrZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQTA!16s%2Fg%2F1tkjlw90?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Petro Travel Center",
+      "street": "Petro Travel Center 4.0(1",
+      "city": "372)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5353791",
+      "lng": "-83.4713359",
+      "phone": "+1 419-443-1800",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Petro Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Mclean",
+          "rating": "5 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "Very large truck parking area, doesn't fill up due to so many truck stops in this area which is a plus., all the dryers and washers work. Shower rooms are very clean and detailed. The gym area has all the attachments and is very clean and …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "David Mclean_Very_large_truck_parking_area,_doesn't_fill_up_due_3 weeks ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 960 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 3,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_960_photos_nodate"
+        },
+        {
+          "reviewerName": "Megan Denecke",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Just stopped here for a few minutes on our drive to gas up and use the bathroom. Bathroom was super clean, even had a sign that \"Clean Bathroom Guarantee\" with a QR code to report something that needs maintenance. The ladies working the …",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Megan Denecke_Just_stopped_here_for_a_few_minutes_on_our_drive_t_3 months ago"
+        },
+        {
+          "reviewerName": "Rachel Allyn",
+          "rating": "4 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "It is a pretty nice petro. Decently clean. A good parking lot.  The \"cinema\" room is a joke. There's no remote to change the channels.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 46,
+          "uniqueId": "Rachel Allyn_It_is_a_pretty_nice_petro._Decently_clean._A_good__a month ago"
+        },
+        {
+          "reviewerName": "Tim Severs",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Nice Petro, huge parking lot, clean store, working fuel pumps ( unlike most T/As) a plus, good food in restaurant and clean. About as good as it gets for a truck stop.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "Tim Severs_Nice_Petro,_huge_parking_lot,_clean_store,_working_a year ago"
+        }
+      ],
+      "showerReviewCount": 5,
+      "showerReviewSummary": "5 shower-related reviews found. Generally Positive mentions of: shower, clean, wash, bathroom",
+      "hours": "",
+      "address": "26416 Baker Rd, Perrysburg, OH 43551, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Petro+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Petro+Travel+Center/@41.5353791,-83.4713359,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8ef92cd6e5e7:0x1c46934495f94b06!8m2!3d41.5353791!4d-83.4668298!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5sTFU1NU9VZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECB8QSg!16s%2Fg%2F1tdg8gqk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Gas-station convenience-store chain, with snacks, drinks & hot food, plus travel & maintenance gear.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.1(660)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5353791",
+      "lng": "-83.4713359",
+      "phone": "+1 419-837-0071",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Mclean",
+          "rating": "4 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… lobs some of the parking is slanted so just be careful where you park. Washer and dryer work and is only $2.50 which is a plus. Showers were nice, hot and clean. My only issue with them is that there was no shelf to place down your …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "David Mclean_…_lobs_some_of_the_parking_is_slanted_so_just_be_c_a month ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 960 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 3,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_960_photos_nodate"
+        },
+        {
+          "reviewerName": "Jason Myers",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Showers were clean but didn't have the lower shower head like most loves. Staff was professional and curious.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "Jason Myers_Showers_were_clean_but_didn't_have_the_lower_showe_4 months ago"
+        },
+        {
+          "reviewerName": "Jon Thomack",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The shower (5) had warm at best water.  Toilet in shower (which is always supposed to have been cleaned) was not clean and had pubic hairs on it. But at least the water pressure wasn't as horrible as many Loves.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Jon Thomack_The_shower_(5)_had_warm_at_best_water._Toilet_in__a year ago"
+        },
+        {
+          "reviewerName": "Wendy Pavon",
+          "rating": "3 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "It’s okay. Stayed overnight and used the showers twice, once that night and the next morning. Staff seemed to act busy, but I was there at about midnight and there were very few people there. When I got the slip for the shower there was no …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 24,
+          "uniqueId": "Wendy Pavon_It’s_okay._Stayed_overnight_and_used_the_showers_t_3 years ago"
+        },
+        {
+          "reviewerName": "Kimberly DeBusk",
+          "rating": "3 stars",
+          "reviewDate": "Edited 4 years ago",
+          "reviewText": "We came to this Loves to take a shower. We got shower 6 on the app. It was the handicap shower. There was mold in the tile where the grout is. Pretty disgusting. Other than that the store was fine. I went up to the front and told them and …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "Kimberly DeBusk_We_came_to_this_Loves_to_take_a_shower._We_got_sho_Edited 4 years ago"
+        },
+        {
+          "reviewerName": "Nicole Esquino",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Nice, clean, hot shower. 2 clean towels provided. Also used their laundry - clean, quick and adorable. Only dryer, so did have to a wait bit to dry. Staff was friendly and efficient. Recommend.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Nicole Esquino_Nice,_clean,_hot_shower._2_clean_towels_provided.__2 years ago"
+        },
+        {
+          "reviewerName": "Denise Gray",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I went into the shower room to find pubic hair everywhere! Don’t get me wrong, I love a man that manscapes, I just don’t want to have to deal with it when I use the shower! Shame on your shower porter for not doing a better job preparing …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 47,
+          "uniqueId": "Denise Gray_I_went_into_the_shower_room_to_find_pubic_hair_eve_a year ago"
+        },
+        {
+          "reviewerName": "Dee",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Nice place got a shower quick and bathrooms are clean.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Dee_Nice_place_got_a_shower_quick_and_bathrooms_are_cl_7 years ago"
+        },
+        {
+          "reviewerName": "James Crosby",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Staff busy talking by disel desk when I'm standing there waiting over an hr for a shower and they were aware, as my clock keeps ticking away to drive. Then I go back and check and nope the guy cleaning isn't cleaning like she sad all rude …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 65,
+          "uniqueId": "James Crosby_Staff_busy_talking_by_disel_desk_when_I'm_standing_2 years ago"
+        },
+        {
+          "reviewerName": "Charles Carpenter",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Friendly staff, decent lot, etc., but how about actually cleaning the showers? That's more than spray some bleach, run a mop over the floor. CLEAN THE SHOWERS! This is Shower #6 @0830 on June 18, 2023.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "Charles Carpenter_Friendly_staff,_decent_lot,_etc.,_but_how_about_ac_2 years ago"
+        }
+      ],
+      "showerReviewCount": 11,
+      "showerReviewSummary": "11 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, wash, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "26530 Baker Rd, Perrysburg, OH 43551, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@41.5353791,-83.4713359,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8f01d0471c8b:0xe4c97e425675b802!8m2!3d41.5374998!4d-83.4664242!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5vY2pWbWFHeEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDw!16s%2Fg%2F1w0p697c?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.9(1",
+      "city": "070)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.522795",
+      "lng": "-83.4659694",
+      "phone": "+1 419-837-5091",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "3430 Libbey Rd, Perrysburg, OH 43551, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@41.522795,-83.4659694,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8e5907265c63:0x1bc6887cd6d07649!8m2!3d41.522795!4d-83.4614633!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU4xYm5FMlFrWlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQPQ!16s%2Fg%2F1vm7c3lv?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.8(744)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.522795",
+      "lng": "-83.4659694",
+      "phone": "+1 567-970-3800",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Liudmyla Mazurenko",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I want to thank the cashier, Kat, for her patience and perseverance, she put all her effort and knowledge into finding my shower points. I am extremely grateful to her for her help! Thank you",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Liudmyla Mazurenko_I_want_to_thank_the_cashier,_Kat,_for_her_patience_a month ago"
+        },
+        {
+          "reviewerName": "Truck Trucker",
+          "rating": "2 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "The showers are totally disgusting. Something I would expect at a flip-flops truckstop. I almost did not take the shower, but I’ve been running hard and I’m due for one. The men’s bathroom smells like urine ammonia. The ladies in the Taco …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom"
+          ],
+          "index": 7,
+          "uniqueId": "Truck Trucker_The_showers_are_totally_disgusting._Something_I_wo_3 months ago"
+        },
+        {
+          "reviewerName": "D Vincent",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "What was suppose to be a 30 minute break shower, turns into well over an hour. Nobodies in the showers. But nobodies cleaning them. I’m so done with TA.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "D Vincent_What_was_suppose_to_be_a_30_minute_break_shower,_t_2 months ago"
+        },
+        {
+          "reviewerName": "Jamieboy42fla",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "I bought a shower at that location and weighted 4 an hour and the employee was taking a lunch break for 30 minutes and people wanna take a shower anyways, so they can relax. Take a break from driving.\nCustomers always comes first",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 26,
+          "uniqueId": "Jamieboy42fla_I_bought_a_shower_at_that_location_and_weighted_4__3 months ago"
+        },
+        {
+          "reviewerName": "NaTalie “Bosie” Ribon",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… this is the perfect spot to spend the night. The parking lot is huge and everybody  place was great I've always loved truck stops of America there's a shower amenity is awesome and the stories well cap with plenty of items to choose from.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "NaTalie “Bosie” Ribon_…_this_is_the_perfect_spot_to_spend_the_night._The_5 years ago"
+        },
+        {
+          "reviewerName": "Michelle White",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "The staff was friendly, the place is clean and the shower felt wonderful. It has a Taco Bell inside and they did a wonderful job with our food. There is also lots of parking for overnight trucks.\n\nRepair shop sucks though.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 41,
+          "uniqueId": "Michelle White_The_staff_was_friendly,_the_place_is_clean_and_the_5 years ago"
+        },
+        {
+          "reviewerName": "嘘!不要说话",
+          "rating": "1 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "I am waiting for the shower 1our .just leave 2min is missing. I want to change new ticket...She says NO.what hell!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 48,
+          "uniqueId": "嘘!不要说话_I_am_waiting_for_the_shower_1our_.just_leave_2min__7 years ago"
+        },
+        {
+          "reviewerName": "Tilton Anderson",
+          "rating": "1 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Plenty of parking and the facility is decent, but the showers really need some work. I'm afraid to step foot in there without some thick shower shoes. Too much mold and soap scum from improper or no cleaning. Some showers have a really bad …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Tilton Anderson_Plenty_of_parking_and_the_facility_is_decent,_but__7 years ago"
+        },
+        {
+          "reviewerName": "Lily White",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Paid for shower as the app said there was no wait. Got inside and no clean showers and worker was sitting on his phone. Water also scalding hot.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Lily White_Paid_for_shower_as_the_app_said_there_was_no_wait._2 years ago"
+        },
+        {
+          "reviewerName": "garylobo3",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Stop here often to fuel, shower and eat.   I confess to being a Taco Bell addict.  And I just discovered the work -around for the old Grilled Stuft burrito,  which for some reason they took off the menu.   Thanks TB for taking off your most …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 73,
+          "uniqueId": "garylobo3_Stop_here_often_to_fuel,_shower_and_eat._I_confe_5 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, bathroom, clean",
+      "hours": "",
+      "address": "3483 Libbey Rd, Perrysburg, OH 43551, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@41.522795,-83.4659694,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8e58c2a535ab:0x8d347851e411c71f!8m2!3d41.52148!4d-83.4623744!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJpTVhWRWF5MW5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEC8!16s%2Fg%2F1ptw6wzkv?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Petro Fuel Island",
+      "street": "Petro Fuel Island 4.2(205)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5329245",
+      "lng": "-83.4705909",
+      "phone": "+1 419-837-9725",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Petro Fuel Island may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "26416 Baker Rd, Perrysburg, OH 43551, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Diesel fuel supplier",
+      "placeId": "Petro+Fuel+Island",
+      "googleMapsUrl": "https://www.google.com/maps/place/Petro+Fuel+Island/@41.5329245,-83.4705909,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x80e9f6022a344b83:0xb47fb99fa4b38d82!8m2!3d41.5329245!4d-83.4660848!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARRkaWVzZWxfZnVlbF9zdXBwbGllcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSSWJGOUViV3hCUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAr!16s%2Fg%2F11xb37dbb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Gas-station convenience-store chain, with snacks, drinks & hot food, plus travel & maintenance gear.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Travel Centers of America Fuel Island",
+      "street": "Travel Centers of America Fuel Island 3.7(189)",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5347245",
+      "lng": "-83.4653041",
+      "phone": "+1 419-837-2100",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Travel Centers of America Fuel Island may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Michael McDonald",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… 🚿 Shower …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Michael McDonald_…_🚿_Shower_…_a year ago"
+        },
+        {
+          "reviewerName": "George Carmona",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… Also, the shower was very clean and the adjoining restroom was clean and smelled very good.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "George Carmona_…_Also,_the_shower_was_very_clean_and_the_adjoinin_5 months ago"
+        },
+        {
+          "reviewerName": "Roger Rodrz.",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "The place is big not huge but it does the work with 15 shower which is great so you don't have to wait most of the time. Inside you can find a Denny's for breakfast. Parking is big and comfortable and it's good for a long stay.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 20,
+          "uniqueId": "Roger Rodrz._The_place_is_big_not_huge_but_it_does_the_work_wit_7 years ago"
+        },
+        {
+          "reviewerName": "Curtis pernak",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "I use pilot and flying j as a network. Stopped to get shower and had to wait ..so while waiting  I asked counter lady if they had someone  cleaning  showers ,of course she called him and he said he was cleaning .after 5 minutes  he came in …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "Curtis pernak_I_use_pilot_and_flying_j_as_a_network._Stopped_to__5 months ago"
+        },
+        {
+          "reviewerName": "Mandalore Ward",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… I got shower #7 when I finally finished my hike from where I parked. It was small but pretty clean! I will say the water pressure kinda sucked. The only saving grace was that you can change the way the water comes out and concentrate it a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Mandalore Ward_…_I_got_shower_#7_when_I_finally_finished_my_hike__a year ago"
+        },
+        {
+          "reviewerName": "Mr Idiot Mr Idiot",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… Shower / Restroom facility was spotless. No wait for anything at any counter. …",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 48,
+          "uniqueId": "Mr Idiot Mr Idiot_…_Shower_/_Restroom_facility_was_spotless._No_wait_4 years ago"
+        },
+        {
+          "reviewerName": "Sable Hund",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… quite dirty but the guy working the back came and cleaned them immediately so kudos to him!) The shower was hot, great pressure, and very clean. Ok so the Kiosk wasn't working, big deal. Who cares about a Kiosk when everyone that worked …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Sable Hund_…_quite_dirty_but_the_guy_working_the_back_came_an_2 years ago"
+        },
+        {
+          "reviewerName": "N N",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Very kind people, nice and decent shower's",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 64,
+          "uniqueId": "N N_Very_kind_people,_nice_and_decent_shower's_6 years ago"
+        },
+        {
+          "reviewerName": "Marty",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… cold and bossy. If you don't want to work, go home. I showered to the sound of loud hard metal music from directly across from my shower. I guess it is Flying J policy to play loud hard metal music for the showers, now. I felt disdain for, …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 75,
+          "uniqueId": "Marty_…_cold_and_bossy._If_you_don't_want_to_work,_go_ho_3 years ago"
+        },
+        {
+          "reviewerName": "Shela Sawyer",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… 4th to go order was given out, and we still hadn't gotten our food we just left. So we went over to take a shower without supper, and waited 40 minutes for a shower. We finally got to eat soup in our truck for the 3rd night in a row @ 9 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 83,
+          "uniqueId": "Shela Sawyer_…_4th_to_go_order_was_given_out,_and_we_still_hadn_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, restroom, clean, showers",
+      "hours": "",
+      "address": "26415 Warns Dr, Perrysburg, OH 43551, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@41.5347245,-83.4653041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8e535816ed15:0x554cafb650928ca1!8m2!3d41.5347245!4d-83.460798!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU53YmxCdGJrZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQTA!16s%2Fg%2F1tkjlw90?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Fuel Mart",
+      "street": "Fuel Mart 3.9(133)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5224351",
+      "lng": "-83.4687586",
+      "phone": "+1 419-837-5228",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Fuel Mart may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ed P",
+          "rating": "4 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Great gas prices, and it's an easy detour from the Ohio Turnpike / 280 / 75. The restrooms are smaller than many of the truck stops, but no issues.",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 10,
+          "uniqueId": "Ed P_Great_gas_prices,_and_it's_an_easy_detour_from_the_3 months ago"
+        },
+        {
+          "reviewerName": "Petr Kovarik",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Excellent gas station!  A model of a small size place with clean bathrooms, well stocked convenience store and correctly advertised prices.  Thanks for getting us refueled and refreshed.",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 21,
+          "uniqueId": "Petr Kovarik_Excellent_gas_station!_A_model_of_a_small_size_pl_4 months ago"
+        },
+        {
+          "reviewerName": "Kim Morgan",
+          "rating": "3 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I usually stop here because they'll be a penny cheaper than everybody else, but I probably will start going elsewhere because they aren't providing windshield washer squeegees and the couple they do have are tattered and torn. It's not worth saving the penny if I can't wash my windshields while I'm there.",
+          "showerKeywords": [
+            "wash"
+          ],
+          "index": 28,
+          "uniqueId": "Kim Morgan_I_usually_stop_here_because_they'll_be_a_penny_che_a month ago"
+        },
+        {
+          "reviewerName": "matthew dahs",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Great place to get fuel I love the Hunt Brothers Pizza and the Subway also a great clean gas station and store. Also the employees treat you like family in the store.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 35,
+          "uniqueId": "matthew dahs_Great_place_to_get_fuel_I_love_the_Hunt_Brothers_P_3 months ago"
+        },
+        {
+          "reviewerName": "Preetdeep Singh",
+          "rating": "4 stars",
+          "reviewDate": "Edited 5 years ago",
+          "reviewText": "Gr8 service and price of diesel and def also good in area ..employees are nice and always working hard ..restroom clean .. Hunt pizza and subway ..wish they have more coffee collection ..get point card and they have showers too..30 cent less diesel price than neighbors pilot love ta.yes they add new coffee machine",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "Preetdeep Singh_Gr8_service_and_price_of_diesel_and_def_also_good__Edited 5 years ago"
+        },
+        {
+          "reviewerName": "Emily",
+          "rating": "4 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Really easy to get into and out of. Nice selection of snacks and drinks and the restrooms have been clean every time I've stopped.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "Emily_Really_easy_to_get_into_and_out_of._Nice_selection_3 months ago"
+        },
+        {
+          "reviewerName": "Umidjan Lukmanov",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Nice and clean restrooms. Very pleasant workers. Cute, little truckstop. Thank you",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 71,
+          "uniqueId": "Umidjan Lukmanov_Nice_and_clean_restrooms._Very_pleasant_workers._C_3 years ago"
+        },
+        {
+          "reviewerName": "Gagandeep Pelia",
+          "rating": "1 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "I stopped at this truck stop and fueled up 100 gallons of diseal for my truck and asked for shower and the lady at the counter make stories that you should have rewards card then only you will get shower and denied for shower and when i …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 82,
+          "uniqueId": "Gagandeep Pelia_I_stopped_at_this_truck_stop_and_fueled_up_100_gal_9 months ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "8 shower-related reviews found. Generally Positive mentions of: restroom, bathroom, clean, wash, shower, showers",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "3654 Libbey Rd, Perrysburg, OH 43551, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "Fuel+Mart",
+      "googleMapsUrl": "https://www.google.com/maps/place/Fuel+Mart/@41.5224351,-83.4687586,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8ec3e16219b7:0x8b303576afc4d418!8m2!3d41.5224351!4d-83.4642525!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VRdGFEZFRhWEJSUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAw!16s%2Fg%2F1tfwf4rg?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.5(4)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.636017",
+      "lng": "-83.4944051",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "2460 Navarre Ave, Oregon, OH 43616, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@41.636017,-83.4944051,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b85c5f36eb791:0x3ce3191421013cbe!8m2!3d41.636017!4d-83.489899!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5mTW1OWVZXcDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgbEBg!16s%2Fg%2F11vsv2mvqk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "ATM (Pilot Travel Center)",
+      "street": "ATM (Pilot Travel Center) 2.6(5)ATM",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5226779",
+      "lng": "-83.4666049",
+      "phone": "+1 419-837-5091",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "ATM (Pilot Travel Center) may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "3430 Libbey Rd, Perrysburg, OH 43551, United States",
+      "rating": "2.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "ATM",
+      "placeId": "ATM+(Pilot+Travel+Center)",
+      "googleMapsUrl": "https://www.google.com/maps/place/ATM+(Pilot+Travel+Center)/@41.5226779,-83.4666049,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8e5907265c63:0x5f3968cfe025a8d2!8m2!3d41.5226779!4d-83.4620988!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQNhdG2aASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTlllUzFwZWxwQkVBRaoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAV!16s%2Fg%2F11h0ftshf?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Big Daddy's Truck Stop",
+      "street": "Big Daddy's Truck Stop 4.3(1",
+      "city": "231)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.7973333",
+      "lng": "-83.6967575",
+      "phone": "+1 734-854-6611",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Big Daddy's Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Melissa Johnson",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "A really nice truck stop. Easy parking. Clean lot. Didn't smell. Fuel islands very cleaned and all 8 or so pumps working. The store was clean and very well stocked. The woman's bathroom was spotless. They don't charge for parking. They …",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Melissa Johnson_A_really_nice_truck_stop._Easy_parking._Clean_lot._a month ago"
+        },
+        {
+          "reviewerName": "Tamara -The truckers wife- Locke",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "What a neat stop! Clean bathrooms & store & organized. Lots of neat “foods on the go”, snacks & treats. Cool toys/Souvenirs. Pretty quick service. Personnel were on the quiet end, you say hello or goodbye & no one really responds back. …",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Tamara -The truckers wife- Locke_What_a_neat_stop!_Clean_bathrooms_&_store_&_organi_2 years ago"
+        },
+        {
+          "reviewerName": "Jeff C",
+          "rating": "3 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "10$ showers. They are clean and have good pressure with hot water. Toilet and sink. Mean fattie at night though.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 38,
+          "uniqueId": "Jeff C_10$_showers._They_are_clean_and_have_good_pressure_2 months ago"
+        },
+        {
+          "reviewerName": "Glen Miller",
+          "rating": "5 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "Owner is really cool and the workers are awesome, clean bathrooms and showers. Been going here for years with zero problems.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 45,
+          "uniqueId": "Glen Miller_Owner_is_really_cool_and_the_workers_are_awesome,__3 weeks ago"
+        },
+        {
+          "reviewerName": "Joe “JoeZ” Davis",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Good honemade candies doghnuts ect.. plus always clean R.R. plus pilot across street to busy ...",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 59,
+          "uniqueId": "Joe “JoeZ” Davis_Good_honemade_candies_doghnuts_ect.._plus_always_c_a month ago"
+        },
+        {
+          "reviewerName": "Jora Shergill",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Gr8 truck stop ..big and easy parking for trucks ..Gr8 customer service ..new showers and restroom..and diesel price awesome..20 cent cheaper than pilot ..winterized diesel ..2.59 $ wow gr8 ..lot of toys for trucks inside ..",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom"
+          ],
+          "index": 73,
+          "uniqueId": "Jora Shergill_Gr8_truck_stop_..big_and_easy_parking_for_trucks_._5 years ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: bathroom, clean, shower, showers, restroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "6055 St Anthony Rd, Ottawa Lake, MI 49267, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Big+Daddy's+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Big+Daddy's+Truck+Stop/@41.7973333,-83.6967575,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883c86cf8746b549:0xbbf364a3f1856ffe!8m2!3d41.7973333!4d-83.6922514!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWTWJWOXVYM3BKTmt0eU5sSm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQMw!16s%2Fg%2F1vp6_vtf?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Truckers Lounge - Commodore Perry Service Plaza",
+      "street": "Truckers Lounge - Commodore Perry Service Plaza 4.3(340)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.3677763",
+      "lng": "-82.9633155",
+      "phone": "+1 440-234-2081",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Truckers Lounge - Commodore Perry Service Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Gayle Carter",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I love this place this is where they shower me with love at Starbucks with my Ruben Crunch with extra Carmel and Crunch also I get oat milk same price and the service and staff are amazing. They kn me now I stop there on my way to Cleveland …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Gayle Carter_I_love_this_place_this_is_where_they_shower_me_wit_2 years ago"
+        },
+        {
+          "reviewerName": "J. Savage",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Rest stop should remove the metal from out the shower to prevent someone cutting themselves contracting a flesh eating bacteria causing whom ever to have medical treatment or amputation. I advise yall to remove all metal from yall showers …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 12,
+          "uniqueId": "J. Savage_Rest_stop_should_remove_the_metal_from_out_the_sho_a year ago"
+        },
+        {
+          "reviewerName": "Robert Kurtz",
+          "rating": "5 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Nice place to do laundry and a shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 20,
+          "uniqueId": "Robert Kurtz_Nice_place_to_do_laundry_and_a_shower._8 years ago"
+        },
+        {
+          "reviewerName": "steven “Smurf” harowski",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Clean restrooms and shower with plenty of parking",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 29,
+          "uniqueId": "steven “Smurf” harowski_Clean_restrooms_and_shower_with_plenty_of_parking_3 years ago"
+        },
+        {
+          "reviewerName": "Joe Barker",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Trucker friendly with free shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Joe Barker_Trucker_friendly_with_free_shower_2 years ago"
+        }
+      ],
+      "showerReviewCount": 5,
+      "showerReviewSummary": "5 shower-related reviews found. Generally Positive mentions of: shower, showers, restroom, clean",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "Commodore Perry Service Plaza, Ohio Tpke, Vickery, OH 43464, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Truckers+Lounge+-+Commodore+Perry+Service+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truckers+Lounge+-+Commodore+Perry+Service+Plaza/@41.3677763,-82.9633155,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883bca67a5acf8fb:0x9de2dabfb5bd7f18!8m2!3d41.3677763!4d-82.9588094!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5IWDAxZmVGZFJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQLw!16s%2Fg%2F11cmql390p?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.3(328)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5374998",
+      "lng": "-83.4709303",
+      "phone": "+1 419-837-0071",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 960 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 15,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_960_photos_nodate"
+        },
+        {
+          "reviewerName": "Ella R.J.",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Old BUT well maintained. The store is organized and showers clean, also laundry facilities clean and cheap- $2.50 for a wash or a dry.\nThe night staff were also very kind and friendly.\nI like this place a lot! Keep it up! 👍🏻 …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "facilities",
+            "clean",
+            "wash"
+          ],
+          "index": 21,
+          "uniqueId": "Ella R.J._Old_BUT_well_maintained._The_store_is_organized_an_4 months ago"
+        },
+        {
+          "reviewerName": "jay",
+          "rating": "4 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "decent love's. parking is plentiful and easy enough to get in to. there were still a few spots available at midnight. the showers were clean enough but my PIN didn't want to work for mine so i had to call an employee over, who was helpful.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 29,
+          "uniqueId": "jay_decent_love's._parking_is_plentiful_and_easy_enoug_6 months ago"
+        },
+        {
+          "reviewerName": "Anton Bulgakov",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Good Love's, clean showers, spacious parking, friendly stuff",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 38,
+          "uniqueId": "Anton Bulgakov_Good_Love's,_clean_showers,_spacious_parking,_frie_a month ago"
+        },
+        {
+          "reviewerName": "Roberto Thomas",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Really clean and good showers with alot of pressure and really hot water.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 49,
+          "uniqueId": "Roberto Thomas_Really_clean_and_good_showers_with_alot_of_pressur_3 months ago"
+        },
+        {
+          "reviewerName": "Aaron “Mr. Goodspeed” Trusievitz",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This place has just about everything you can think of very well organized very clean as an Arby's also has plenty of handicap spots as you can see every gas selection you can think of the car rental showers for truckers they've got everything you can think of",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 60,
+          "uniqueId": "Aaron “Mr. Goodspeed” Trusievitz_This_place_has_just_about_everything_you_can_think_a year ago"
+        },
+        {
+          "reviewerName": "Ask Miss Patience",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Lots of parking for weary travelers needing a nap or pit stop patrons. Dog park near entrance when drove in. Plenty of snacks and typical Loves needs for customers available. Clean bathroom is a norm I appreciate when on long road trips. …",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 71,
+          "uniqueId": "Ask Miss Patience_Lots_of_parking_for_weary_travelers_needing_a_nap__a year ago"
+        },
+        {
+          "reviewerName": "ARTHUR ENTERPRISES",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Like most Love's the experience here is first rate. Clean, well maintained facilities. Friendly staff. The c - store is one of the best you'll ever see at a highway truck stop. Lots of apparel and accessories. I got winter gloves at a good …",
+          "showerKeywords": [
+            "facilities",
+            "clean"
+          ],
+          "index": 91,
+          "uniqueId": "ARTHUR ENTERPRISES_Like_most_Love's_the_experience_here_is_first_rate_7 years ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "8 shower-related reviews found. Generally Positive mentions of: clean, shower, showers, facilities, wash, bathroom",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "26530 Baker Rd, Perrysburg, OH 43551, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@41.5374998,-83.4709303,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8f01d0471c8b:0xe4c97e425675b802!8m2!3d41.5374998!4d-83.4664242!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5vY2pWbWFHeEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDw!16s%2Fg%2F1w0p697c?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Country Corral",
+      "street": "Country Corral 4.2(926)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5873823",
+      "lng": "-84.041421",
+      "phone": "+1 419-822-8459",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Country Corral may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Tracee Burris",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Paid $10 for a cold shower. Foreign guy behind the counter was going to refund my money but I told him I was staying overnight, and that we would even up on it. Ate dinner, waitress \"got distracted and forgot my order\". Went back to the …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Tracee Burris_Paid_$10_for_a_cold_shower._Foreign_guy_behind_the_3 months ago"
+        },
+        {
+          "reviewerName": "Nick Thorne",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Parking lot is a swamp in the back row... Better bring your own towel for shower..but big beer cave. And hot food most of the day.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Nick Thorne_Parking_lot_is_a_swamp_in_the_back_row..._Better_b_a year ago"
+        },
+        {
+          "reviewerName": "Ashley Smith",
+          "rating": "5 stars",
+          "reviewDate": "9 years ago",
+          "reviewText": "… understanding of our situation. She offered a couch for us to sleep on, a shower, towels & food for our entire 2 day stay until we could get some one to come trailer us off the premisis and back home to MI. During this stay the staff …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "Ashley Smith_…_understanding_of_our_situation._She_offered_a_co_9 years ago"
+        },
+        {
+          "reviewerName": "Anonymous",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Nice family owned business. Not your typical big chain truck stops. Nicely priced shower, and laundry facilities.",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 23,
+          "uniqueId": "Anonymous_Nice_family_owned_business._Not_your_typical_big_c_6 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Mixed mentions of: shower, facilities",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "7950 OH-109, Delta, OH 43515, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Country+Corral",
+      "googleMapsUrl": "https://www.google.com/maps/place/Country+Corral/@41.5873823,-84.041421,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883c44bff95e167d:0x6bbe9a723c7304c!8m2!3d41.5873823!4d-84.0369149!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU10YWpZMk9XMVJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBQj2ARA5!16s%2Fg%2F1tvdkgh0?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Sam's Travel Center",
+      "street": "Sam's Travel Center 4.0(193)",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.7042713",
+      "lng": "-83.5312982",
+      "phone": "+1 419-727-1875",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Sam's Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "812 Matzinger Rd, Toledo, OH 43612, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Restaurant",
+      "placeId": "Sam's+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Sam's+Travel+Center/@41.7042713,-83.5312982,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b81acb12d45f1:0x4d804eb82420930f!8m2!3d41.7042713!4d-83.5267921!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQpyZXN0YXVyYW50mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVIxZVV0cGNrcEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCMYCEEY!16s%2Fg%2F11frgdvt12?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Fast-food eatery specializing in Cajun-style fried chicken, plus wings, seafood, breakfast & more.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "S&G #36",
+      "street": "S&G #36 2.4(9)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.5592081",
+      "lng": "-83.4687154",
+      "phone": "+1 419-836-4040",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "S&G #36 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "3510 Moline-Martin Rd, Millbury, OH 43447, United States",
+      "rating": "2.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Convenience store",
+      "placeId": "S%26G+%2336",
+      "googleMapsUrl": "https://www.google.com/maps/place/S%26G+%2336/@41.5592081,-83.4687154,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b8f9e1887cd39:0x209c1eaa2ba7f0b!8m2!3d41.5592081!4d-83.4642093!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARFjb252ZW5pZW5jZV9zdG9yZZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSeU5rdHRWRFJuUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABBA!16s%2Fg%2F1ptxtpmzs?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Convenience store for food, drinks & sundries, plus check cashing & other financial services.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.8(6)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.636017",
+      "lng": "-83.4944051",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "2460 Navarre Ave, Oregon, OH 43616, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@41.636017,-83.4944051,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b85c5f36eb791:0x3ce3191421013cbe!8m2!3d41.636017!4d-83.489899!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5mTW1OWVZXcDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgbEBg!16s%2Fg%2F11vsv2mvqk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.0(2)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.636017",
+      "lng": "-83.4944051",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/oh/perrysburg/26415-warns-drive",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "2460 Navarre Ave, Oregon, OH 43616, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@41.636017,-83.4944051,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x883b85c5f36eb791:0x3ce3191421013cbe!8m2!3d41.636017!4d-83.489899!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5mTW1OWVZXcDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgbEBg!16s%2Fg%2F11vsv2mvqk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

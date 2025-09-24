@@ -1,0 +1,1793 @@
+{
+  "timestamp": "2025-09-23T05:55:24.265Z",
+  "city": "28.874969900000004",
+  "state": "-82.09405880000001",
+  "sessionId": "2025-09-23T05-09-06",
+  "totalLocations": 18,
+  "locationsWithShowerReviews": 14,
+  "totalShowerReviews": 90,
+  "locations": [
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(1",
+      "city": "631)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.8737365",
+      "lng": "-82.095065",
+      "phone": "+1 352-352-3155",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Illya Matviyiv",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "This pilot fills up fast. Prime parking is enforced. A lot of parking on a shoulder on the sb ramp. Shower is good. No beer. But you can get some from ta.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Illya Matviyiv_This_pilot_fills_up_fast._Prime_parking_is_enforce_2 months ago"
+        },
+        {
+          "reviewerName": "Ibet Lopez",
+          "rating": "4 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "If you are traveling the bathrooms are spacious and they even have individual shower stalls to rent. Took a peek.... very clean! Also got (2) Slices of Pizza with a 20oz Coca-Cola product for $8. They weren't NY or Chicago quality but not …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Ibet Lopez_If_you_are_traveling_the_bathrooms_are_spacious_an_6 months ago"
+        },
+        {
+          "reviewerName": "Raquel Trinidad",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Was in the area to drop trailer and take a quick shower, we are  a family of 3, very small bathroom unit.  No room to do anything.  This location definitely needs some remodeling...it does have a truckers lounge and steak n shake restaurant …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 15,
+          "uniqueId": "Raquel Trinidad_Was_in_the_area_to_drop_trailer_and_take_a_quick_s_2 years ago"
+        },
+        {
+          "reviewerName": "Scott Stallman",
+          "rating": "5 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… . An awesome clerk named Lisa went above and beyond to help us, turned our entire evening around. To the young man back in the shower area, top notch job. When it's promotion/pay raise time be sure not to look these two people over. Thanks …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "Scott Stallman_…_._An_awesome_clerk_named_Lisa_went_above_and_bey_8 months ago"
+        },
+        {
+          "reviewerName": "Jason G",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… work on the phone when I go to use it. This caused me to miss a notification that a shower was supposedly ready for me to use, and I wound up losing a shower credit because of this. Oh, and get this: there were showers that were waiting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "Jason G_…_work_on_the_phone_when_I_go_to_use_it._This_caus_a year ago"
+        },
+        {
+          "reviewerName": "Zero Shepard",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… in a good spot if you want to stretch your legs for a little walk. Been a while since Ive seen a good pilot. Only complaint here is they could stand to raise the water heater temp. I want 2nd degree burns if Im paying money for a shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 43,
+          "uniqueId": "Zero Shepard_…_in_a_good_spot_if_you_want_to_stretch_your_legs__a year ago"
+        },
+        {
+          "reviewerName": "Robert Sewell",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Drivers make you have a rubber slippers to take your shower in or go to another truck stop. For a pilot travel center that is known for clean showers this one was deplorable!!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Robert Sewell_Drivers_make_you_have_a_rubber_slippers_to_take_yo_3 years ago"
+        },
+        {
+          "reviewerName": "Peach Transport",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Shower #4. Dirty, moldy, dusty, filthy, and shameful. 😪 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 62,
+          "uniqueId": "Peach Transport_Shower_#4._Dirty,_moldy,_dusty,_filthy,_and_shamef_2 years ago"
+        },
+        {
+          "reviewerName": "Jennifer Sniffen",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "While I had to wait for a shower, I must say that it was clean and roomy.  Steak and shake had excellent food, though I usually walk to the Zaxbys next door.  I've never had to wait for fuel and there always seems to be a new squeegee to …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "Jennifer Sniffen_While_I_had_to_wait_for_a_shower,_I_must_say_that__7 years ago"
+        },
+        {
+          "reviewerName": "Ulysses Lugo",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Real friendly people working here. No automated shower system yet but you can go in & purchase one or of you have any free showers it will be deducted from your account. The showers are a bit small but they are clean.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 81,
+          "uniqueId": "Ulysses Lugo_Real_friendly_people_working_here._No_automated_sh_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "744 FL-44, Wildwood, FL 34785, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@28.8737365,-82.095065,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7dc450672d94d:0x80063cc2afd73e63!8m2!3d28.8737365!4d-82.0905589!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1hc31k586?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.8(1",
+      "city": "895)",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.8749699",
+      "lng": "-82.0985649",
+      "phone": "+1 352-748-2501",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Chris Gathof",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… Showers were so bad I refused to shower in them! …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Chris Gathof_…_Showers_were_so_bad_I_refused_to_shower_in_them!_10 months ago"
+        },
+        {
+          "reviewerName": "Harold Oduardo",
+          "rating": "5 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "… On the bright side, I am liking the new showers, didn't use them before but they are spacious, and I like the shower knob not being under the shower head, but right next to where you walk in. So you don't get splashed with cold water. Not …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 12,
+          "uniqueId": "Harold Oduardo_…_On_the_bright_side,_I_am_liking_the_new_showers,_3 weeks ago"
+        },
+        {
+          "reviewerName": "Lynda Pepper",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "2-23-25 Ok. I get it. You want to complain about drivers not getting showers and then supply us with showers that aren’t suitable for a homeless person. Got it. This is pathetic! Either supply hair dryers or don’t. Please take them all out …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 20,
+          "uniqueId": "Lynda Pepper_2-23-25_Ok._I_get_it._You_want_to_complain_about_d_6 months ago"
+        },
+        {
+          "reviewerName": "Karla Whitehead",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… construction - no indoor restrooms- only portable toilets outdoors in the 105 degree heat! No shower porter so no showers were available. They should put something on google or somewhere letting you know they have only limited facilities …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "facilities"
+          ],
+          "index": 30,
+          "uniqueId": "Karla Whitehead_…_construction_-_no_indoor_restrooms-_only_portabl_a month ago"
+        },
+        {
+          "reviewerName": "Mike",
+          "rating": "3 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Friendly staff, subway was gd, showers had hot water, decent pressure, now the down side, the parking lot has some  huge craters, watch out, they will swallow u up, parking lot is so dark, 1 giant spotlight isn't enough. It may appear …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 38,
+          "uniqueId": "Mike_Friendly_staff,_subway_was_gd,_showers_had_hot_wat_3 years ago"
+        },
+        {
+          "reviewerName": "Summer",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "… tell you this place is a dump. The showers are down, they've been down for who knows how long, the employees won't tell you and they can't even tell you when they're going to be back up. They're great suggestion is to go across the …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 50,
+          "uniqueId": "Summer_…_tell_you_this_place_is_a_dump._The_showers_are_d_6 months ago"
+        },
+        {
+          "reviewerName": "Mikhail Che",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "It's one of the worst TA's. Always long waiting time for the shower. There's one person who cleans the showers, and he takes long breaks. Others just chitchatting behind the counter. Drivers, if you can avoid this place .",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Mikhail Che_It's_one_of_the_worst_TA's._Always_long_waiting_ti_4 months ago"
+        },
+        {
+          "reviewerName": "Hog war",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Showers are not good. Not very clean. Sink and shower drain is stopped up. Would not recommend. Need maintenance done and good cleaning on driver showers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 65,
+          "uniqueId": "Hog war_Showers_are_not_good._Not_very_clean._Sink_and_sho_6 months ago"
+        },
+        {
+          "reviewerName": "Roger Williamson",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… rather than waiting on customers. Last, buying fuel here is a joke. After 2 tanks of fuel I still don't qualify for a shower! My wife and I walked across the street to get a shower because I have 20 there! I continue trying to do business …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 72,
+          "uniqueId": "Roger Williamson_…_rather_than_waiting_on_customers._Last,_buying_f_8 months ago"
+        },
+        {
+          "reviewerName": "Amber P",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Rude employees, it smelt really musty in the shower and I looked closer and seen mold in the corners of the shower.... Then I got some Popeyes and it tasted 3 days old. They don't have many options for food and the showers/restrooms are …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom"
+          ],
+          "index": 80,
+          "uniqueId": "Amber P_Rude_employees,_it_smelt_really_musty_in_the_showe_11 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, restroom, facilities, clean",
+      "hours": "",
+      "address": "556 FL-44, Wildwood, FL 34785, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@28.8749699,-82.0985649,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7dc5adf1f9403:0xb0f0b0c0f49335ee!8m2!3d28.8749699!4d-82.0940588!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5QYW1SeFdrTm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCNYDEEE!16s%2Fg%2F1tfkrln0?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.9(1",
+      "city": "194)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.8737365",
+      "lng": "-82.095065",
+      "phone": "+1 352-352-3155",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Illya Matviyiv",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "This pilot fills up fast. Prime parking is enforced. A lot of parking on a shoulder on the sb ramp. Shower is good. No beer. But you can get some from ta.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Illya Matviyiv_This_pilot_fills_up_fast._Prime_parking_is_enforce_2 months ago"
+        },
+        {
+          "reviewerName": "Ibet Lopez",
+          "rating": "4 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "If you are traveling the bathrooms are spacious and they even have individual shower stalls to rent. Took a peek.... very clean! Also got (2) Slices of Pizza with a 20oz Coca-Cola product for $8. They weren't NY or Chicago quality but not …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Ibet Lopez_If_you_are_traveling_the_bathrooms_are_spacious_an_6 months ago"
+        },
+        {
+          "reviewerName": "Raquel Trinidad",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Was in the area to drop trailer and take a quick shower, we are  a family of 3, very small bathroom unit.  No room to do anything.  This location definitely needs some remodeling...it does have a truckers lounge and steak n shake restaurant …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 15,
+          "uniqueId": "Raquel Trinidad_Was_in_the_area_to_drop_trailer_and_take_a_quick_s_2 years ago"
+        },
+        {
+          "reviewerName": "Scott Stallman",
+          "rating": "5 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… . An awesome clerk named Lisa went above and beyond to help us, turned our entire evening around. To the young man back in the shower area, top notch job. When it's promotion/pay raise time be sure not to look these two people over. Thanks …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "Scott Stallman_…_._An_awesome_clerk_named_Lisa_went_above_and_bey_8 months ago"
+        },
+        {
+          "reviewerName": "Jason G",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… work on the phone when I go to use it. This caused me to miss a notification that a shower was supposedly ready for me to use, and I wound up losing a shower credit because of this. Oh, and get this: there were showers that were waiting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "Jason G_…_work_on_the_phone_when_I_go_to_use_it._This_caus_a year ago"
+        },
+        {
+          "reviewerName": "Zero Shepard",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… in a good spot if you want to stretch your legs for a little walk. Been a while since Ive seen a good pilot. Only complaint here is they could stand to raise the water heater temp. I want 2nd degree burns if Im paying money for a shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 43,
+          "uniqueId": "Zero Shepard_…_in_a_good_spot_if_you_want_to_stretch_your_legs__a year ago"
+        },
+        {
+          "reviewerName": "Robert Sewell",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Drivers make you have a rubber slippers to take your shower in or go to another truck stop. For a pilot travel center that is known for clean showers this one was deplorable!!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Robert Sewell_Drivers_make_you_have_a_rubber_slippers_to_take_yo_3 years ago"
+        },
+        {
+          "reviewerName": "Peach Transport",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Shower #4. Dirty, moldy, dusty, filthy, and shameful. 😪 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 62,
+          "uniqueId": "Peach Transport_Shower_#4._Dirty,_moldy,_dusty,_filthy,_and_shamef_2 years ago"
+        },
+        {
+          "reviewerName": "Jennifer Sniffen",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "While I had to wait for a shower, I must say that it was clean and roomy.  Steak and shake had excellent food, though I usually walk to the Zaxbys next door.  I've never had to wait for fuel and there always seems to be a new squeegee to …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "Jennifer Sniffen_While_I_had_to_wait_for_a_shower,_I_must_say_that__7 years ago"
+        },
+        {
+          "reviewerName": "Ulysses Lugo",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Real friendly people working here. No automated shower system yet but you can go in & purchase one or of you have any free showers it will be deducted from your account. The showers are a bit small but they are clean.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 81,
+          "uniqueId": "Ulysses Lugo_Real_friendly_people_working_here._No_automated_sh_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "744 FL-44, Wildwood, FL 34785, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@28.8737365,-82.095065,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7dc450672d94d:0x80063cc2afd73e63!8m2!3d28.8737365!4d-82.0905589!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1hc31k586?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.1(2",
+      "city": "662)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.8737365",
+      "lng": "-82.095065",
+      "phone": "+1 352-352-3155",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Illya Matviyiv",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "This pilot fills up fast. Prime parking is enforced. A lot of parking on a shoulder on the sb ramp. Shower is good. No beer. But you can get some from ta.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Illya Matviyiv_This_pilot_fills_up_fast._Prime_parking_is_enforce_2 months ago"
+        },
+        {
+          "reviewerName": "Ibet Lopez",
+          "rating": "4 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "If you are traveling the bathrooms are spacious and they even have individual shower stalls to rent. Took a peek.... very clean! Also got (2) Slices of Pizza with a 20oz Coca-Cola product for $8. They weren't NY or Chicago quality but not …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Ibet Lopez_If_you_are_traveling_the_bathrooms_are_spacious_an_6 months ago"
+        },
+        {
+          "reviewerName": "Raquel Trinidad",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Was in the area to drop trailer and take a quick shower, we are  a family of 3, very small bathroom unit.  No room to do anything.  This location definitely needs some remodeling...it does have a truckers lounge and steak n shake restaurant …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 15,
+          "uniqueId": "Raquel Trinidad_Was_in_the_area_to_drop_trailer_and_take_a_quick_s_2 years ago"
+        },
+        {
+          "reviewerName": "Scott Stallman",
+          "rating": "5 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… . An awesome clerk named Lisa went above and beyond to help us, turned our entire evening around. To the young man back in the shower area, top notch job. When it's promotion/pay raise time be sure not to look these two people over. Thanks …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "Scott Stallman_…_._An_awesome_clerk_named_Lisa_went_above_and_bey_8 months ago"
+        },
+        {
+          "reviewerName": "Jason G",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… work on the phone when I go to use it. This caused me to miss a notification that a shower was supposedly ready for me to use, and I wound up losing a shower credit because of this. Oh, and get this: there were showers that were waiting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "Jason G_…_work_on_the_phone_when_I_go_to_use_it._This_caus_a year ago"
+        },
+        {
+          "reviewerName": "Zero Shepard",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… in a good spot if you want to stretch your legs for a little walk. Been a while since Ive seen a good pilot. Only complaint here is they could stand to raise the water heater temp. I want 2nd degree burns if Im paying money for a shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 43,
+          "uniqueId": "Zero Shepard_…_in_a_good_spot_if_you_want_to_stretch_your_legs__a year ago"
+        },
+        {
+          "reviewerName": "Robert Sewell",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Drivers make you have a rubber slippers to take your shower in or go to another truck stop. For a pilot travel center that is known for clean showers this one was deplorable!!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Robert Sewell_Drivers_make_you_have_a_rubber_slippers_to_take_yo_3 years ago"
+        },
+        {
+          "reviewerName": "Peach Transport",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Shower #4. Dirty, moldy, dusty, filthy, and shameful. 😪 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 62,
+          "uniqueId": "Peach Transport_Shower_#4._Dirty,_moldy,_dusty,_filthy,_and_shamef_2 years ago"
+        },
+        {
+          "reviewerName": "Jennifer Sniffen",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "While I had to wait for a shower, I must say that it was clean and roomy.  Steak and shake had excellent food, though I usually walk to the Zaxbys next door.  I've never had to wait for fuel and there always seems to be a new squeegee to …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "Jennifer Sniffen_While_I_had_to_wait_for_a_shower,_I_must_say_that__7 years ago"
+        },
+        {
+          "reviewerName": "Ulysses Lugo",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Real friendly people working here. No automated shower system yet but you can go in & purchase one or of you have any free showers it will be deducted from your account. The showers are a bit small but they are clean.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 81,
+          "uniqueId": "Ulysses Lugo_Real_friendly_people_working_here._No_automated_sh_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "744 FL-44, Wildwood, FL 34785, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@28.8737365,-82.095065,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7dc450672d94d:0x80063cc2afd73e63!8m2!3d28.8737365!4d-82.0905589!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1hc31k586?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Truck Parking Lot -TA",
+      "street": "N/A",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.8761152",
+      "lng": "-82.0989609",
+      "phone": "+1 352-352-3155",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Truck Parking Lot -TA may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Greg Best",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Look I understand a lot of these TA’s need to be torn down and rebuilt, but got a shower and turnt the water on. Within minutes it was filling up not draining. I told the guy and all he said is I’ll let them know. So I turnt the water back …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Greg Best_Look_I_understand_a_lot_of_these_TA’s_need_to_be_t_4 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "556 FL-44, Wildwood, FL 34785, United States",
+      "rating": "3.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "Truck+Parking+Lot+-TA",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truck+Parking+Lot+-TA/@28.8761152,-82.0989609,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7dd5ff0a8b85d:0x2547997ece461707!8m2!3d28.8761152!4d-82.0944548!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtwYXJraW5nX2xvdJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSSGEzWnhZalJSUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABA1!16s%2Fg%2F11j4nj82v5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Truck Parking Lot -Pilot",
+      "street": "493 FL-44Directions \"My stop station from Tampa Bay\"",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "28.8761152",
+      "lng": "-82.0989609",
+      "phone": "+1 352-352-3155",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Truck Parking Lot -Pilot may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Greg Best",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Look I understand a lot of these TA’s need to be torn down and rebuilt, but got a shower and turnt the water on. Within minutes it was filling up not draining. I told the guy and all he said is I’ll let them know. So I turnt the water back …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Greg Best_Look_I_understand_a_lot_of_these_TA’s_need_to_be_t_4 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "556 FL-44, Wildwood, FL 34785, United States",
+      "rating": "3.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "Truck+Parking+Lot+-TA",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truck+Parking+Lot+-TA/@28.8761152,-82.0989609,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7dd5ff0a8b85d:0x2547997ece461707!8m2!3d28.8761152!4d-82.0944548!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtwYXJraW5nX2xvdJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSSGEzWnhZalJSUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABA1!16s%2Fg%2F11j4nj82v5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Mobil",
+      "street": "Mobil 3.8(109)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.8754831",
+      "lng": "-82.1014605",
+      "phone": "+1 352-330-1555",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Mobil may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "K C",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Stop being lazy and fix your receipt machines, and maybe clean every once in a while",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "K C_Stop_being_lazy_and_fix_your_receipt_machines,_and_6 months ago"
+        },
+        {
+          "reviewerName": "tech creation",
+          "rating": "5 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "Super friendly staff , reasonable prices , clean restrooms  , big parking 🅿️ and fast service 👌 …",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "tech creation_Super_friendly_staff_,_reasonable_prices_,_clean_r_Edited a year ago"
+        },
+        {
+          "reviewerName": "Thomas Whitelock",
+          "rating": "4 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "Just used the bathroom, it was clean.\nThe actual store, they were cooking something that smelled really good.",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "Thomas Whitelock_Just_used_the_bathroom,_it_was_clean._The_actual_s_Edited 2 years ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: clean, restroom, bathroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "390 FL-44, Wildwood, FL 34785, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "Mobil",
+      "googleMapsUrl": "https://www.google.com/maps/place/Mobil/@28.8754831,-82.1014605,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7dc451d8c5db9:0x8d4fbeb8d610407d!8m2!3d28.8754831!4d-82.0969544!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11hbqb43rl?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Spirit Truck Stop",
+      "street": "Spirit Truck Stop 3.8(1",
+      "city": "085)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.7536111",
+      "lng": "-82.103395",
+      "phone": "+1 352-793-1233",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Spirit Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Gene Tanner",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… the food  is good waitresses are awesome. Bathrooms are not clean, no hot water in the shower and during the day the people at the counter are ALWAYS on their phones, what they are saying I have no idea. So if you’re looking for a place to …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Gene Tanner_…_the_food_is_good_waitresses_are_awesome._Bathro_a year ago"
+        },
+        {
+          "reviewerName": "gretchen guster",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "The remodel they did is nice. But the people who wait on you very rude. Charge $8 for shower ok no wash cloth cold shower and the room to shower and shower stall very very nasty . Tried to get my money back nope . …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 8,
+          "uniqueId": "gretchen guster_The_remodel_they_did_is_nice._But_the_people_who_w_3 years ago"
+        },
+        {
+          "reviewerName": "Jason Spencer",
+          "rating": "1 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Only allow truckers to shower anyone traveling should be able to shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "Jason Spencer_Only_allow_truckers_to_shower_anyone_traveling_sho_8 years ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "293 E C 470, Lake Panasoffkee, FL 33538, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Spirit+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Spirit+Truck+Stop/@28.7536111,-82.103395,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7e6db0ae420a7:0x4ffad1eef92a4ed3!8m2!3d28.7536111!4d-82.0988889!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU50ZEZrMlJ6Vm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED4!16s%2Fg%2F1trsyvh8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.2(959)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.6679909",
+      "lng": "-82.1520093",
+      "phone": "+1 352-793-1019",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Michael McDonald",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… 🚿 The shower's are clean with lots of hot water and good water pressure. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Michael McDonald_…_🚿_The_shower's_are_clean_with_lots_of_hot_water_5 months ago"
+        },
+        {
+          "reviewerName": "J B",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "If you shutdown the mens restroom to clean,open a shower room so we can use the restroom. We can't be running around town trying to use the bathroom.Pilot does it. Be better.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "restroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "J B_If_you_shutdown_the_mens_restroom_to_clean,open_a__a month ago"
+        },
+        {
+          "reviewerName": "harjot khehra",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Nice and clean truck stop. Shower pressure is great.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "harjot khehra_Nice_and_clean_truck_stop._Shower_pressure_is_grea_a month ago"
+        },
+        {
+          "reviewerName": "Eliza Richardson",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Very clean showers the girl that cleans them did an amazing job 😊 she’s very nice to as I thanked her for such a clean shower (her job is so under appreciated) bathrooms were clean store itself was employees were friendly will definitely be …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 26,
+          "uniqueId": "Eliza Richardson_Very_clean_showers_the_girl_that_cleans_them_did_a_4 years ago"
+        },
+        {
+          "reviewerName": "Maurice Winpigler",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "As a brand of truck stop I like loves and this one's about average. Shower area looks clean. There were lines at both counters (the truckers and the car) and It didn't look like it was going to let up at the restaurant, so we did Drive …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 37,
+          "uniqueId": "Maurice Winpigler_As_a_brand_of_truck_stop_I_like_loves_and_this_one_Edited 6 years ago"
+        },
+        {
+          "reviewerName": "Alazar Mohammed",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… the shower 5 open shower rooms but there in Nobody to clean it and 5ppl still waiting almost an hour i wait in line. what a ridiculous Management! …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 45,
+          "uniqueId": "Alazar Mohammed_…_the_shower_5_open_shower_rooms_but_there_in_Nobo_2 years ago"
+        },
+        {
+          "reviewerName": "John Doe",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Clean shower. Stayed hot all the way through. Good food choices within walking distance if you dont want Arby's. Easy and unique parking layout around the pond with a good number of spaces for Florida (never big enough in Florida). Friendly …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "John Doe_Clean_shower._Stayed_hot_all_the_way_through._Good_4 years ago"
+        },
+        {
+          "reviewerName": "Shannon Jones",
+          "rating": "2 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Was told since the overnight team member didnt come in I only had 20 minutes to complete my shower. Not acceptable. To compensate me for my troubles I was given the shower for free. I guess that's better than going dirty.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Shannon Jones_Was_told_since_the_overnight_team_member_didnt_com_5 years ago"
+        },
+        {
+          "reviewerName": "Ben Brown",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Friendly staff. Extremely clean shower. Easy off easy on access. So much better than a Pilot.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 68,
+          "uniqueId": "Ben Brown_Friendly_staff._Extremely_clean_shower._Easy_off_e_4 years ago"
+        },
+        {
+          "reviewerName": "Pep",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Shower towels are old and stinky,\nbetter bring yours.\n\nOne more and TA/PETRO will earn my business.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 75,
+          "uniqueId": "Pep_Shower_towels_are_old_and_stinky,_better_bring_you_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, bathroom, restroom, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "2615 W C 48, Bushnell, FL 33513, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@28.6679909,-82.1520093,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7e3728c8a418b:0xe1050f358ef7b9c4!8m2!3d28.6679909!4d-82.1475032!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11f2syylnr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.0(1",
+      "city": "124)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.6679909",
+      "lng": "-82.1520093",
+      "phone": "+1 352-793-1019",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Michael McDonald",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… 🚿 The shower's are clean with lots of hot water and good water pressure. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Michael McDonald_…_🚿_The_shower's_are_clean_with_lots_of_hot_water_5 months ago"
+        },
+        {
+          "reviewerName": "J B",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "If you shutdown the mens restroom to clean,open a shower room so we can use the restroom. We can't be running around town trying to use the bathroom.Pilot does it. Be better.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "restroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "J B_If_you_shutdown_the_mens_restroom_to_clean,open_a__a month ago"
+        },
+        {
+          "reviewerName": "harjot khehra",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Nice and clean truck stop. Shower pressure is great.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "harjot khehra_Nice_and_clean_truck_stop._Shower_pressure_is_grea_a month ago"
+        },
+        {
+          "reviewerName": "Eliza Richardson",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Very clean showers the girl that cleans them did an amazing job 😊 she’s very nice to as I thanked her for such a clean shower (her job is so under appreciated) bathrooms were clean store itself was employees were friendly will definitely be …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 26,
+          "uniqueId": "Eliza Richardson_Very_clean_showers_the_girl_that_cleans_them_did_a_4 years ago"
+        },
+        {
+          "reviewerName": "Maurice Winpigler",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "As a brand of truck stop I like loves and this one's about average. Shower area looks clean. There were lines at both counters (the truckers and the car) and It didn't look like it was going to let up at the restaurant, so we did Drive …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 37,
+          "uniqueId": "Maurice Winpigler_As_a_brand_of_truck_stop_I_like_loves_and_this_one_Edited 6 years ago"
+        },
+        {
+          "reviewerName": "Alazar Mohammed",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… the shower 5 open shower rooms but there in Nobody to clean it and 5ppl still waiting almost an hour i wait in line. what a ridiculous Management! …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 45,
+          "uniqueId": "Alazar Mohammed_…_the_shower_5_open_shower_rooms_but_there_in_Nobo_2 years ago"
+        },
+        {
+          "reviewerName": "John Doe",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Clean shower. Stayed hot all the way through. Good food choices within walking distance if you dont want Arby's. Easy and unique parking layout around the pond with a good number of spaces for Florida (never big enough in Florida). Friendly …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "John Doe_Clean_shower._Stayed_hot_all_the_way_through._Good_4 years ago"
+        },
+        {
+          "reviewerName": "Shannon Jones",
+          "rating": "2 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Was told since the overnight team member didnt come in I only had 20 minutes to complete my shower. Not acceptable. To compensate me for my troubles I was given the shower for free. I guess that's better than going dirty.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Shannon Jones_Was_told_since_the_overnight_team_member_didnt_com_5 years ago"
+        },
+        {
+          "reviewerName": "Ben Brown",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Friendly staff. Extremely clean shower. Easy off easy on access. So much better than a Pilot.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 68,
+          "uniqueId": "Ben Brown_Friendly_staff._Extremely_clean_shower._Easy_off_e_4 years ago"
+        },
+        {
+          "reviewerName": "Pep",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Shower towels are old and stinky,\nbetter bring yours.\n\nOne more and TA/PETRO will earn my business.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 75,
+          "uniqueId": "Pep_Shower_towels_are_old_and_stinky,_better_bring_you_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, bathroom, restroom, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "2615 W C 48, Bushnell, FL 33513, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@28.6679909,-82.1520093,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7e3728c8a418b:0xe1050f358ef7b9c4!8m2!3d28.6679909!4d-82.1475032!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11f2syylnr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.4(700)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.6679909",
+      "lng": "-82.1520093",
+      "phone": "+1 352-793-1019",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Michael McDonald",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… 🚿 The shower's are clean with lots of hot water and good water pressure. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Michael McDonald_…_🚿_The_shower's_are_clean_with_lots_of_hot_water_5 months ago"
+        },
+        {
+          "reviewerName": "J B",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "If you shutdown the mens restroom to clean,open a shower room so we can use the restroom. We can't be running around town trying to use the bathroom.Pilot does it. Be better.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "restroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "J B_If_you_shutdown_the_mens_restroom_to_clean,open_a__a month ago"
+        },
+        {
+          "reviewerName": "harjot khehra",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Nice and clean truck stop. Shower pressure is great.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "harjot khehra_Nice_and_clean_truck_stop._Shower_pressure_is_grea_a month ago"
+        },
+        {
+          "reviewerName": "Eliza Richardson",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Very clean showers the girl that cleans them did an amazing job 😊 she’s very nice to as I thanked her for such a clean shower (her job is so under appreciated) bathrooms were clean store itself was employees were friendly will definitely be …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 26,
+          "uniqueId": "Eliza Richardson_Very_clean_showers_the_girl_that_cleans_them_did_a_4 years ago"
+        },
+        {
+          "reviewerName": "Maurice Winpigler",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "As a brand of truck stop I like loves and this one's about average. Shower area looks clean. There were lines at both counters (the truckers and the car) and It didn't look like it was going to let up at the restaurant, so we did Drive …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 37,
+          "uniqueId": "Maurice Winpigler_As_a_brand_of_truck_stop_I_like_loves_and_this_one_Edited 6 years ago"
+        },
+        {
+          "reviewerName": "Alazar Mohammed",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… the shower 5 open shower rooms but there in Nobody to clean it and 5ppl still waiting almost an hour i wait in line. what a ridiculous Management! …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 45,
+          "uniqueId": "Alazar Mohammed_…_the_shower_5_open_shower_rooms_but_there_in_Nobo_2 years ago"
+        },
+        {
+          "reviewerName": "John Doe",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Clean shower. Stayed hot all the way through. Good food choices within walking distance if you dont want Arby's. Easy and unique parking layout around the pond with a good number of spaces for Florida (never big enough in Florida). Friendly …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "John Doe_Clean_shower._Stayed_hot_all_the_way_through._Good_4 years ago"
+        },
+        {
+          "reviewerName": "Shannon Jones",
+          "rating": "2 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Was told since the overnight team member didnt come in I only had 20 minutes to complete my shower. Not acceptable. To compensate me for my troubles I was given the shower for free. I guess that's better than going dirty.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Shannon Jones_Was_told_since_the_overnight_team_member_didnt_com_5 years ago"
+        },
+        {
+          "reviewerName": "Ben Brown",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Friendly staff. Extremely clean shower. Easy off easy on access. So much better than a Pilot.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 68,
+          "uniqueId": "Ben Brown_Friendly_staff._Extremely_clean_shower._Easy_off_e_4 years ago"
+        },
+        {
+          "reviewerName": "Pep",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Shower towels are old and stinky,\nbetter bring yours.\n\nOne more and TA/PETRO will earn my business.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 75,
+          "uniqueId": "Pep_Shower_towels_are_old_and_stinky,_better_bring_you_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, bathroom, restroom, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "2615 W C 48, Bushnell, FL 33513, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@28.6679909,-82.1520093,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7e3728c8a418b:0xe1050f358ef7b9c4!8m2!3d28.6679909!4d-82.1475032!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11f2syylnr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.4(520)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.6679909",
+      "lng": "-82.1520093",
+      "phone": "+1 352-793-1019",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Michael McDonald",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… 🚿 The shower's are clean with lots of hot water and good water pressure. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Michael McDonald_…_🚿_The_shower's_are_clean_with_lots_of_hot_water_5 months ago"
+        },
+        {
+          "reviewerName": "J B",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "If you shutdown the mens restroom to clean,open a shower room so we can use the restroom. We can't be running around town trying to use the bathroom.Pilot does it. Be better.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "restroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "J B_If_you_shutdown_the_mens_restroom_to_clean,open_a__a month ago"
+        },
+        {
+          "reviewerName": "harjot khehra",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Nice and clean truck stop. Shower pressure is great.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "harjot khehra_Nice_and_clean_truck_stop._Shower_pressure_is_grea_a month ago"
+        },
+        {
+          "reviewerName": "Eliza Richardson",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Very clean showers the girl that cleans them did an amazing job 😊 she’s very nice to as I thanked her for such a clean shower (her job is so under appreciated) bathrooms were clean store itself was employees were friendly will definitely be …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 26,
+          "uniqueId": "Eliza Richardson_Very_clean_showers_the_girl_that_cleans_them_did_a_4 years ago"
+        },
+        {
+          "reviewerName": "Maurice Winpigler",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "As a brand of truck stop I like loves and this one's about average. Shower area looks clean. There were lines at both counters (the truckers and the car) and It didn't look like it was going to let up at the restaurant, so we did Drive …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 37,
+          "uniqueId": "Maurice Winpigler_As_a_brand_of_truck_stop_I_like_loves_and_this_one_Edited 6 years ago"
+        },
+        {
+          "reviewerName": "Alazar Mohammed",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… the shower 5 open shower rooms but there in Nobody to clean it and 5ppl still waiting almost an hour i wait in line. what a ridiculous Management! …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 45,
+          "uniqueId": "Alazar Mohammed_…_the_shower_5_open_shower_rooms_but_there_in_Nobo_2 years ago"
+        },
+        {
+          "reviewerName": "John Doe",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Clean shower. Stayed hot all the way through. Good food choices within walking distance if you dont want Arby's. Easy and unique parking layout around the pond with a good number of spaces for Florida (never big enough in Florida). Friendly …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "John Doe_Clean_shower._Stayed_hot_all_the_way_through._Good_4 years ago"
+        },
+        {
+          "reviewerName": "Shannon Jones",
+          "rating": "2 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Was told since the overnight team member didnt come in I only had 20 minutes to complete my shower. Not acceptable. To compensate me for my troubles I was given the shower for free. I guess that's better than going dirty.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Shannon Jones_Was_told_since_the_overnight_team_member_didnt_com_5 years ago"
+        },
+        {
+          "reviewerName": "Ben Brown",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Friendly staff. Extremely clean shower. Easy off easy on access. So much better than a Pilot.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 68,
+          "uniqueId": "Ben Brown_Friendly_staff._Extremely_clean_shower._Easy_off_e_4 years ago"
+        },
+        {
+          "reviewerName": "Pep",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Shower towels are old and stinky,\nbetter bring yours.\n\nOne more and TA/PETRO will earn my business.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 75,
+          "uniqueId": "Pep_Shower_towels_are_old_and_stinky,_better_bring_you_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, bathroom, restroom, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "2615 W C 48, Bushnell, FL 33513, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@28.6679909,-82.1520093,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7e3728c8a418b:0xe1050f358ef7b9c4!8m2!3d28.6679909!4d-82.1475032!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11f2syylnr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 2.4(7)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.006851",
+      "lng": "-82.0107101",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Cecilia Smith",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "This place is nice and clean,",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 38,
+          "uniqueId": "Cecilia Smith_This_place_is_nice_and_clean,_9 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "14870 US-441, Summerfield, FL 34491, United States",
+      "rating": "2.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@29.006851,-82.0107101,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7cf656ae01bc3:0xb4b19e8d7e6da10e!8m2!3d29.006851!4d-82.006204!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVIyYTB4UGVrTkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHQ!16s%2Fg%2F11vqn5y1nr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "ONE9 Dealer",
+      "street": "ONE9 Dealer 3.0(2)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.7536796",
+      "lng": "-82.1035089",
+      "phone": "+1 352-793-1233",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "ONE9 Dealer may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "293 County Rd 470, Lake Panasoffkee, FL 33538, United States",
+      "rating": "3.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "ONE9+Dealer",
+      "googleMapsUrl": "https://www.google.com/maps/place/ONE9+Dealer/@28.7536796,-82.1035089,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7e7a719e540ad:0xd301839bfeba59bc!8m2!3d28.7536796!4d-82.0990028!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxU1VGVlZValZNV0VwRVRucGtlbEp1YnpCUmJGWnVZVEl4VEZNeVl4QUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQLg!16s%2Fg%2F11y5slgb6r?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 4.0(2)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.006851",
+      "lng": "-82.0107101",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Cecilia Smith",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "This place is nice and clean,",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 38,
+          "uniqueId": "Cecilia Smith_This_place_is_nice_and_clean,_9 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "14870 US-441, Summerfield, FL 34491, United States",
+      "rating": "2.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@29.006851,-82.0107101,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7cf656ae01bc3:0xb4b19e8d7e6da10e!8m2!3d29.006851!4d-82.006204!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVIyYTB4UGVrTkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHQ!16s%2Fg%2F11vqn5y1nr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "RecNation Truck Parking",
+      "street": "N/A",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "28.8766148",
+      "lng": "-81.9083135",
+      "phone": "+1 352-668-2087",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "RecNation Truck Parking may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "2363 US-441, Fruitland Park, FL 34731, United States",
+      "rating": "",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "RecNation+Truck+Parking",
+      "googleMapsUrl": "https://www.google.com/maps/place/RecNation+Truck+Parking/@28.8766148,-81.9083135,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7c1fad8d7952f:0xcc1353265fb5bf00!8m2!3d28.8766148!4d-81.9038074!15sCgp0cnVjayBzdG9wkgELcGFya2luZ19sb3SqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA!16s%2Fg%2F11x95pm3wb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 4.5(2)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.006851",
+      "lng": "-82.0107101",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "14870 US-441, Summerfield, FL 34491, United States",
+      "rating": "2.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@29.006851,-82.0107101,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7cf656ae01bc3:0xb4b19e8d7e6da10e!8m2!3d29.006851!4d-82.006204!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVIyYTB4UGVrTkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHQ!16s%2Fg%2F11vqn5y1nr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 2.0(4)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "29.006851",
+      "lng": "-82.0107101",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/fl/wildwood/744-e-state-road-44",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "14870 US-441, Summerfield, FL 34491, United States",
+      "rating": "2.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@29.006851,-82.0107101,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x88e7cf656ae01bc3:0xb4b19e8d7e6da10e!8m2!3d29.006851!4d-82.006204!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVIyYTB4UGVrTkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHQ!16s%2Fg%2F11vqn5y1nr?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

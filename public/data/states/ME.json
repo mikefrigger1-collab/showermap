@@ -1,0 +1,755 @@
+{
+  "state": "ME",
+  "stateName": "Maine",
+  "locations": [
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 5.0(1)Truck stop",
+      "city": "Baileyville",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "45.123324",
+      "lng": "-67.3530321",
+      "phone": "(855) 276-1947",
+      "website": "https://www.circlek.com/store-locator/US/baileyville/32-houlton-rd/4707000?utm_source=google&utm_medium=local&utm_campaign=google-local",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop, Public Facility, Public Facility, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Public Facility, Public Facility, Truck Stop, Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "32 Houlton Rd, Baileyville, ME 04694",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@45.123324,-67.3530321,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4caf570755790d95:0xce60595df07a027a!8m2!3d45.123324!4d-67.348526!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5UVU5KYWtvdFRqbG5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECE!16s%2Fg%2F11y33d_xm3?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Baileyville",
+      "sourceState": "ME",
+      "timestamp": "2025-09-22T16:30:27.925Z",
+      "state": "ME"
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "IRVING 24 4.4(75)Truck stop",
+      "city": "Fairfield",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.594197",
+      "lng": "-69.6209561",
+      "phone": "(207) 238-9979",
+      "website": "https://www.irvingoil.com/location/irving-oil-25861?utm_source=G&utm_medium=lpm&utm_campaign=irving",
+      "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Public Facility, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Greg Black",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Great shower for $10. Great choice of food and the pizza is cheap for a truck stop.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Greg Black_Great_shower_for_$10._Great_choice_of_food_and_the_4 years ago"
+        },
+        {
+          "reviewerName": "Tess",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Truck parking, free shower with 75 gallons, clean",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Tess_Truck_parking,_free_shower_with_75_gallons,_clean_5 years ago"
+        },
+        {
+          "reviewerName": "Cresencio Garcia",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Took a shower and didn't have any issues.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 14,
+          "uniqueId": "Cresencio Garcia_Took_a_shower_and_didn't_have_any_issues._6 years ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Good amount of parking, only came here for the scale. Relatively clean from the outside.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "David Mclean_Good_amount_of_parking,_only_came_here_for_the_sca_10 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 963 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 3,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_963_photos_nodate"
+        },
+        {
+          "reviewerName": "o k",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "June 11th 2024. 12:30 am..they're system of payment is down. I walk in ask for a shower . Pedro and Early say no way . I had tossed the receipt was going to use the card....system down. Can't buy one cash .can I then use it anyway ,power on …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "o k_June_11th_2024._12:30_am..they're_system_of_paymen_a year ago"
+        },
+        {
+          "reviewerName": "Babar Khan",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Nice, Clean, and quiet gas station.  There is plenty of truck parkings.\nFree WiFi ))))",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Babar Khan_Nice,_Clean,_and_quiet_gas_station._There_is_plen_a year ago"
+        },
+        {
+          "reviewerName": "Vlad Krylov (Влад Крылов)",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Newport Irving Big Stop - best truck stop on I-95! Good food. Shower like five stars resort! ))) Thanks!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Vlad Krylov (Влад Крылов)_Newport_Irving_Big_Stop_-_best_truck_stop_on_I-95!_5 years ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "18 Moosehead Trail, Newport, ME 04953",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "IRVING+24",
+      "googleMapsUrl": "https://www.google.com/maps/place/IRVING+24/@44.594197,-69.6209561,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb1e6a361362daf:0x4ac7bb1951fdddae!8m2!3d44.594197!4d-69.61645!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQycE5lazVGVFRSWFYzQXpZVzA1VG1SWWJHbGphMFpSV1RCb1ptRnVZeEFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F11gh2r482m?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Fairfield",
+      "sourceState": "ME",
+      "timestamp": "2025-09-23T16:02:17.194Z",
+      "state": "ME"
+    },
+    {
+      "title": "IRVING 24",
+      "street": "IRVING 24 4.2(196)Truck stop",
+      "city": "Kittery",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "43.089827",
+      "lng": "-70.7585281",
+      "phone": "(207) 451-9780",
+      "website": "https://www.ta-petro.com/location/nh/ta-greenland",
+      "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Joshua Jakob",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This place used to be good but they have changed their policy with the showers. They say it is for truck drivers only. I have never had a problem coming here in the middle of the night and paying for a shower. Even the manager said he …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Joshua Jakob_This_place_used_to_be_good_but_they_have_changed_t_a year ago"
+        },
+        {
+          "reviewerName": "Jon F",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Last night I looked up your business on the internet and it states that you guys have showers. For both motorists and truckers? I was passing through in need of a shower it was a long hot day I stopped at your business. I went up to the …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 8,
+          "uniqueId": "Jon F_Last_night_I_looked_up_your_business_on_the_intern_a year ago"
+        },
+        {
+          "reviewerName": "Tatiana Reyes",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… is super friendly and courteous. I shower here and the shower was big, water temperature was easy to use and it was not 100% clean but I’m used too so not a problem for me (same like any other truck stop). Finally they had a lot of …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Tatiana Reyes_…_is_super_friendly_and_courteous._I_shower_here_a_5 years ago"
+        },
+        {
+          "reviewerName": "James Kelby II",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Good size lot for tractor trailer parking. Nice shower rooms. They need to do a better job cleaning the shower rooms. Mold and mildew are becoming an issue.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "James Kelby II_Good_size_lot_for_tractor_trailer_parking._Nice_sh_6 years ago"
+        },
+        {
+          "reviewerName": "mateynine",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Free shower with a 75 gallon fuel receipt (valid for 5 days). Free parking and lots of backing space. Free wifi. Plenty of food inside. It's a good truck stop. I prefer it over the cramped TA in NH.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 31,
+          "uniqueId": "mateynine_Free_shower_with_a_75_gallon_fuel_receipt_(valid_f_6 years ago"
+        },
+        {
+          "reviewerName": "Tom Merrill",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Waited over a hour and half for a shower they were giving shower time to other people who singed up after me.. than they didn't leave me any towels good thing I noticed that before I showered.. -2 Stars",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 38,
+          "uniqueId": "Tom Merrill_Waited_over_a_hour_and_half_for_a_shower_they_were_a year ago"
+        },
+        {
+          "reviewerName": "Jonathan and Sherry Scott",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "How is very good food need more than one shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 45,
+          "uniqueId": "Jonathan and Sherry Scott_How_is_very_good_food_need_more_than_one_shower_11 months ago"
+        },
+        {
+          "reviewerName": "Darko Starcevic",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Nice, clean lots of parking spots, friendly staff, only shower could be better",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Darko Starcevic_Nice,_clean_lots_of_parking_spots,_friendly_staff,_4 years ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "8 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "103 US Rte 1, Kittery, ME 03904",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "IRVING+24",
+      "googleMapsUrl": "https://www.google.com/maps/place/IRVING+24/@43.089827,-70.7585281,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e2bff83e6c19d5:0xcc793fc09ab17cd4!8m2!3d43.089827!4d-70.754022!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VNdGFuUmhRMnRSUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABA2!16s%2Fg%2F11f90flp92?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Greenland",
+      "sourceState": "NH",
+      "timestamp": "2025-09-23T15:54:14.719Z",
+      "state": "ME"
+    },
+    {
+      "title": "Exit 43 Quik Stop",
+      "street": "Exit 43 Quik Stop 3.9(112)Truck stop",
+      "city": "Richmond",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.0984666",
+      "lng": "-69.8696332",
+      "phone": "(207) 737-2626",
+      "website": "https://www.circlek.com/store-locator/US/auburn/1813-washington-st-s/4707056?utm_source=google&utm_medium=local&utm_campaign=google-local",
+      "content": "Exit 43 Quik Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "parmjit singh",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "i stopped here 20.12 pm 20 may 2025 for shower and lady on the cashier counter is rude …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "parmjit singh_i_stopped_here_20.12_pm_20_may_2025_for_shower_and_4 months ago"
+        },
+        {
+          "reviewerName": "Sarah Deal",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Wonderful rest stop. Huge variety of food, nice bathroom, free shower!",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 8,
+          "uniqueId": "Sarah Deal_Wonderful_rest_stop._Huge_variety_of_food,_nice_ba_6 years ago"
+        },
+        {
+          "reviewerName": "Sony Toor",
+          "rating": "2 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Stopped for fuel up , filled 55 gallons as it was less busy asked for shower 🚿, they denied reasons being fill at least 75 gallons then they can give the shower …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 19,
+          "uniqueId": "Sony Toor_Stopped_for_fuel_up_,_filled_55_gallons_as_it_was__6 months ago"
+        },
+        {
+          "reviewerName": "Will H.118",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "The shower was fantastic! Very clean and nice. Staff were kind and helpful. Got a veggie pizza from the restaurant afterwards, which I struggled to finish. It was delicious. Highly recommend stopping here for rest and refreshment.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 26,
+          "uniqueId": "Will H.118_The_shower_was_fantastic!_Very_clean_and_nice._Sta_2 years ago"
+        },
+        {
+          "reviewerName": "De De",
+          "rating": "1 stars",
+          "reviewDate": "Edited 8 years ago",
+          "reviewText": "… hands on my biscuits/WHAT. I just picked up my bags and walked out NO SALE. Great place to get fuel, take a shower and park, but don't eat their if you don't want salmonella... In lamines terms it's called cross contamination(((Google it)))",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "De De_…_hands_on_my_biscuits/WHAT._I_just_picked_up_my_b_Edited 8 years ago"
+        },
+        {
+          "reviewerName": "elliott prats",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "The shower ISN’T free, i took one here like 3-4 days ago and it was $10. I know some other reviews say that the shower are free, but that must be an old policy because they change now. Aside from that I have zero complaints.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "elliott prats_The_shower_ISN’T_free,_i_took_one_here_like_3-4_da_3 years ago"
+        },
+        {
+          "reviewerName": "Timothy Judd",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Excellent quick stop for Gas, Food, Bathroom, Drinks (including Adult Drinks), and even a shower [$10, 30 minute time-limit].",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 48,
+          "uniqueId": "Timothy Judd_Excellent_quick_stop_for_Gas,_Food,_Bathroom,_Drin_2 years ago"
+        },
+        {
+          "reviewerName": "Ursula Hershey",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Clean spacious bathrooms and free shower! Whaaaaa??!! Store is AC’d with a wide selection of food, drinks and knickknacks. Lobster rolls!",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "Ursula Hershey_Clean_spacious_bathrooms_and_free_shower!_Whaaaaa?_6 years ago"
+        },
+        {
+          "reviewerName": "danielle vega",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Clean restrooms, nice shower, and the Lobster Rolls was good! Also very friendly people...",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 65,
+          "uniqueId": "danielle vega_Clean_restrooms,_nice_shower,_and_the_Lobster_Roll_5 years ago"
+        },
+        {
+          "reviewerName": "Cameron Durham",
+          "rating": "5 stars",
+          "reviewDate": "10 years ago",
+          "reviewText": "Awesome small store.  Free shower.  Definately great small spot for truckers",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 72,
+          "uniqueId": "Cameron Durham_Awesome_small_store._Free_shower._Definately_gre_10 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, restroom",
+      "hours": "Open ⋅ Closes 9 pm Tuesday5 am–9 pmWednesday5 am–9 pmThursday5 am–9 pmFriday5 am–9 pmSaturday6 am–9 pmSunday7 am–9 pmMonday5 am–9 pmSuggest new hours",
+      "address": "712 Main St, Richmond, ME 04357",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Convenience store",
+      "placeId": "Exit+43+Quik+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Exit+43+Quik+Stop/@44.0984666,-69.8696332,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb20aad2d056a65:0x1388ad3d70fa7614!8m2!3d44.0984666!4d-69.8651271!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARFjb252ZW5pZW5jZV9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOa2RUZ3pia0pSRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAh8EEk!16s%2Fg%2F1th5zd4s?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Auburn",
+      "sourceState": "ME",
+      "timestamp": "2025-09-23T15:37:17.385Z",
+      "state": "ME"
+    },
+    {
+      "title": "West Gardner Travel Plaza",
+      "street": "West Gardner Travel Plaza 4.1(530)Truck stop",
+      "city": "West Gardiner",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.2073382",
+      "lng": "-69.8322884",
+      "phone": "(857) 368-4636",
+      "website": "https://www.circlek.com/store-locator/US/auburn/1813-washington-st-s/4707056?utm_source=google&utm_medium=local&utm_campaign=google-local",
+      "content": "West Gardner Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "Exit 102 Northbound Exit 103 Southbound, 288 Lewiston Rd I-95, West Gardiner, ME 04345",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "West+Gardner+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/West+Gardner+Travel+Plaza/@44.2073382,-69.8322884,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb208ff83173ebd:0x4d2cc5b34a05d1b!8m2!3d44.2073382!4d-69.8277823!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU0xTFhSSVIxcDNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQKw!16s%2Fg%2F11bzyp8r07?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Auburn",
+      "sourceState": "ME",
+      "timestamp": "2025-09-23T15:37:17.385Z",
+      "state": "ME"
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Directions \"Safe clean well lit pick up drop off\"",
+      "city": "Auburn",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "44.0375796",
+      "lng": "-70.2697583",
+      "phone": "(207) 795-5052",
+      "website": "https://www.circlek.com/store-locator/US/auburn/1813-washington-st-s/4707056?utm_source=google&utm_medium=local&utm_campaign=google-local",
+      "content": "Park N Ride may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility, Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Carlos “charly” Virissimo",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "This is my tird time up here and I LOVE IT, 5 Pumps for diesel, Plenty room for parking, Very Clean Showers, laundry, nice shopping with hot food area, they have a pizza, Sandwich place in the same building, they have a chinesse food across …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Carlos “charly” Virissimo_This_is_my_tird_time_up_here_and_I_LOVE_IT,_5_Pump_3 years ago"
+        },
+        {
+          "reviewerName": "Debra Boudreau",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "With occasional fluctuating temperatures in the shower -usually I have a pleasant experience here. Temperatures in the shower today are extremely cold. I would take the 10$ refund offered FOR NOT SHOWERING, however there were conversations …",
+          "showerKeywords": [
+            "shower",
+            "showering"
+          ],
+          "index": 12,
+          "uniqueId": "Debra Boudreau_With_occasional_fluctuating_temperatures_in_the_sh_6 months ago"
+        },
+        {
+          "reviewerName": "Keke K.",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Needed to take a shower before my next load... the shower was not clean, had hair in the drain and spread throughout. The sink was the same way. Trash was overflowing. So disappointing",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 21,
+          "uniqueId": "Keke K._Needed_to_take_a_shower_before_my_next_load..._the_2 years ago"
+        },
+        {
+          "reviewerName": "Elmer J Fonseca",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Best truck stop they have shower a Italian  pizza end that best cold cut  Italian sandwich",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "Elmer J Fonseca_Best_truck_stop_they_have_shower_a_Italian_pizza__3 months ago"
+        },
+        {
+          "reviewerName": "Karriann Arnott",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Shower was nasty, mildewed, and cracked. Shower curtain was pink and slimy, towels and washcloths were dingy, stained and stank, except for the floor mats which were surprisingly white in comparison. The vents were clogged with dust.  Absol …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 39,
+          "uniqueId": "Karriann Arnott_Shower_was_nasty,_mildewed,_and_cracked._Shower_cu_10 months ago"
+        },
+        {
+          "reviewerName": "jose garcia",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Super service, hot shower, delicious food, save ambient",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 51,
+          "uniqueId": "jose garcia_Super_service,_hot_shower,_delicious_food,_save_am_2 months ago"
+        },
+        {
+          "reviewerName": "Fashion Gems",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "So the well ran dry on are property where we live, and someone told us s that we can shower at the circle k truck stop in Auburn. They said it's clean and they provide towels and it's only $10 for about 45 minutes. And they were right! This …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Fashion Gems_So_the_well_ran_dry_on_are_property_where_we_live,_a year ago"
+        },
+        {
+          "reviewerName": "Theresa Epps (Tbone)",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Love this place. Especially love the fact that you can pay $10 to take a nice hot shower!!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 66,
+          "uniqueId": "Theresa Epps (Tbone)_Love_this_place._Especially_love_the_fact_that_you_6 months ago"
+        },
+        {
+          "reviewerName": "Dasha Markyanova",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Great spot for truckers, shower $10; tasty pizza, and some decent food selection, including breakfast. Spots get full quick, no spots after 7pm. I guess, because it's a gem of neighborhood.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 73,
+          "uniqueId": "Dasha Markyanova_Great_spot_for_truckers,_shower_$10;_tasty_pizza,__a year ago"
+        },
+        {
+          "reviewerName": "John Gray",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Good place to stop. Clean parking lot. Good customer service. 👍🏽 Store was clean and the morning crew was on it with hot food. Shower I had was very clean but the water pressure was low. CAT scales seems good if you’re loading out. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 80,
+          "uniqueId": "John Gray_Good_place_to_stop._Clean_parking_lot._Good_custom_3 years ago"
+        },
+        {
+          "reviewerName": "Mumma Zette",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "$10 shower, do your laundry in air conditioned TV lounge.  Friendly helpful staff.  Definitely will utilize services here when on the road working.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Mumma Zette_$10_shower,_do_your_laundry_in_air_conditioned_TV__6 years ago"
+        },
+        {
+          "reviewerName": "Crystal Longoria",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Clean hot showers, towels and some soap provided. $10 per shower , not bad. Food looked good, but I wasn't hungry. Some truckerparking available. Nice staff. Thank you!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Crystal Longoria_Clean_hot_showers,_towels_and_some_soap_provided.__6 years ago"
+        },
+        {
+          "reviewerName": "Skye",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… too on my entire trip. I was so thankful to Heaven for making sure that the shower's are very clean and looking good for us customer's whether it be a trucker or just a traveler passing through like me. So kudo's to this place for …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Skye_…_too_on_my_entire_trip._I_was_so_thankful_to_Heav_3 years ago"
+        },
+        {
+          "reviewerName": "Karriann Arnott",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Shower was gross. Called corporate to send pictures and hopefully get it cleaned up!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 28,
+          "uniqueId": "Karriann Arnott_Shower_was_gross._Called_corporate_to_send_picture_10 months ago"
+        },
+        {
+          "reviewerName": "Damaso Bernabe",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Beautiful shower and nice place",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 35,
+          "uniqueId": "Damaso Bernabe_Beautiful_shower_and_nice_place_5 years ago"
+        }
+      ],
+      "showerReviewCount": 15,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "1813 Washington St S, Auburn, ME 04210",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Park & ride",
+      "placeId": "Park+N+Ride",
+      "googleMapsUrl": "https://www.google.com/maps/place/Park+N+Ride/@44.0375796,-70.2697583,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x4cb26892b358c7e3:0x77444558e9792661!8m2!3d44.0375796!4d-70.2652522!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQ1wYXJrX2FuZF9yaWRlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5UVU52YVdacVVtZFJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAECQ!16s%2Fg%2F11c2qk32v1?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Auburn",
+      "sourceState": "ME",
+      "timestamp": "2025-09-23T15:37:17.385Z",
+      "state": "ME"
+    }
+  ],
+  "cities": [
+    "Baileyville",
+    "Fairfield",
+    "Kittery",
+    "Richmond",
+    "West Gardiner",
+    "Auburn"
+  ],
+  "totalReviews": 41,
+  "categories": [
+    "Public Facility",
+    "Truck Stop, Public Facility, Public Facility, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Public Facility, Public Facility, Truck Stop, Truck Stop",
+    "Public Facility, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Public Facility, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility",
+    "Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility, Truck Stop"
+  ],
+  "locationsWithPhone": 6,
+  "timestamp": "2025-09-24T08:19:44.630Z",
+  "locationCount": 6
+}

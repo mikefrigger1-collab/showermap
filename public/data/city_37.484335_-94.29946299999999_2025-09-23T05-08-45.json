@@ -1,0 +1,684 @@
+{
+  "timestamp": "2025-09-23T06:08:14.954Z",
+  "city": "37.484335",
+  "state": "-94.29946299999999",
+  "sessionId": "2025-09-23T05-08-45",
+  "totalLocations": 9,
+  "locationsWithShowerReviews": 8,
+  "totalShowerReviews": 28,
+  "locations": [
+    {
+      "title": "Lamar Travel Plaza",
+      "street": "Lamar Travel Plaza 4.1(115)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "37.4952517",
+      "lng": "-94.3060592",
+      "phone": "+1 417-682-5576",
+      "website": "https://www.loves.com/locations/966",
+      "content": "Lamar Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "vincent jarvey",
+          "rating": "5 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Clean store with friendly service. Good choice in the hotcase as well. $2.75 pork loin sandwich patty made cooked fresh. Also DQ next door is clean with good service. This is a Roadys fuel stop if you need a nice shower.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "vincent jarvey_Clean_store_with_friendly_service._Good_choice_in__8 years ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "43 SW 1st Ln, Lamar, MO 64759, United States",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Lamar+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Lamar+Travel+Plaza/@37.4952517,-94.3060592,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87c64996164aabe7:0x67dcfaf6bb5f0bd5!8m2!3d37.4952517!4d-94.3015531!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ0YjA1WE5FcG5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQQA!16s%2Fg%2F1v6p4tnf?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.6(187)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "37.3406126",
+      "lng": "-94.2989895",
+      "phone": "+1 417-680-3011",
+      "website": "https://www.loves.com/locations/966",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Malynda Gilkey",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Loves is always a great choice for a quick stop in or as us truck drivers do. Stay, eat, and shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Malynda Gilkey_Loves_is_always_a_great_choice_for_a_quick_stop_in_a month ago"
+        },
+        {
+          "reviewerName": "Tonya Steinbach (CTStein)",
+          "rating": "3 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "Have had decent experiences here and some not so decent.  We stop in this store a couple of times a week for fuel showers drinks etc. Today was a not great experience.  Cashier Rashell was somewhat friendly at first. She had a shower on …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 7,
+          "uniqueId": "Tonya Steinbach (CTStein)_Have_had_decent_experiences_here_and_some_not_so_d_9 months ago"
+        },
+        {
+          "reviewerName": "Brenda S",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "61 Truck parking, 4 Rv\nFresh Kitchen,  Dunkin, Subway\n8 Diesel, 5 Shower\nOpened 11/2024",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "Brenda S_61_Truck_parking,_4_Rv_Fresh_Kitchen,_Dunkin,_Sub_10 months ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "651 E Mercer St, Jasper, MO 64755, United States",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@37.3406126,-94.2989895,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87c62f003011e6cf:0xd7cd5a405872ed0e!8m2!3d37.3406126!4d-94.2944834!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVVIzT1UxUGVGRlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQJw!16s%2Fg%2F11y88lvg_n?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Casey's",
+      "street": "USD 10–20Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "37.3406126",
+      "lng": "-94.2989895",
+      "phone": "+1 417-202-8358",
+      "website": "https://www.loves.com/locations/966",
+      "content": "Casey's may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Adam Hamdoun",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… I have $, was considering shower and laundry, already bought a soda. What a rude human, hope she's never stranded anywhere. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Adam Hamdoun_…_I_have_$,_was_considering_shower_and_laundry,_al_5 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "",
+      "address": "60 SE 1st Ln, Lamar, MO 64759, United States",
+      "rating": "2.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Pizza takeaway",
+      "placeId": "Casey's",
+      "googleMapsUrl": "https://www.google.com/maps/place/Casey's/@37.3406126,-94.2989895,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87c636bf263b164d:0x8a105b99fcb1e55b!8m2!3d37.492226!4d-94.297241!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQ1waXp6YXRha2Vhd2F5qgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11v43qw_75?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Judy's Truck Stop",
+      "street": "Judy's Truck Stop 4.3(444)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "37.3402805",
+      "lng": "-94.3029205",
+      "phone": "+1 417-394-9997",
+      "website": "https://www.loves.com/locations/966",
+      "content": "Judy's Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Steve Bourque",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "for a TRUCK STOP. they did not bother to clean the lot days after storm. got stuck and needed a tow. I'll go next door to loves next time. good food. shame about your lot maintenance.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Steve Bourque_for_a_TRUCK_STOP._they_did_not_bother_to_clean_the_8 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "403 N 4th St, Jasper, MO 64755, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Judy's+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Judy's+Truck+Stop/@37.3402805,-94.3029205,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87c62e8c526316f9:0x895afc964e1dc062!8m2!3d37.3402805!4d-94.2984144!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJIYmtsRVkzZEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDY!16s%2Fg%2F1ts3g3_z?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pittsburg Truck N Travel",
+      "street": "Pittsburg Truck N Travel 3.8(1",
+      "city": "154)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "37.3374897",
+      "lng": "-94.7084844",
+      "phone": "+1 620-235-0258",
+      "website": "https://www.loves.com/locations/966",
+      "content": "Pittsburg Truck N Travel may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Shela Sawyer",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… a dirt parking lot. Food was good, people friendly. I like the country life, so it was good for me. If you want a shower, and need to do laundry. This isn't the stop for you. The only bad thing I can say. Is I'm assuming a truck …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Shela Sawyer_…_a_dirt_parking_lot._Food_was_good,_people_friend_7 years ago"
+        },
+        {
+          "reviewerName": "Rodney Lemen",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Old school truck stop good food they have showers little dated amd could use a table but nice shower pressure hot water and clean . Take a stop In and see how nice they are great place and employees will even tell you that .",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Rodney Lemen_Old_school_truck_stop_good_food_they_have_showers__3 years ago"
+        },
+        {
+          "reviewerName": "David Keen",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Medium size parking 🅿️ lot,clean men's room, no shower 🚿,small cold deli with premade sandwich s, some trucker supplies,small c-store, easy in and out. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 15,
+          "uniqueId": "David Keen_Medium_size_parking_🅿️_lot,clean_men's_room,_no_s_4 years ago"
+        },
+        {
+          "reviewerName": "handyman contractor bowmansalesandservices handyman",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "It was a good quite stop food ok it has shower and fuel price was lower than loves and petro",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 22,
+          "uniqueId": "handyman contractor bowmansalesandservices handyman_It_was_a_good_quite_stop_food_ok_it_has_shower_and_5 years ago"
+        },
+        {
+          "reviewerName": "Melissa Wheeler",
+          "rating": "1 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "The women's bathroom was being cleaned, waited 20 minutes...finally the gave us the key to the shower room and there was no tissue!!!!",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 29,
+          "uniqueId": "Melissa Wheeler_The_women's_bathroom_was_being_cleaned,_waited_20__7 years ago"
+        },
+        {
+          "reviewerName": "Dale Bents",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "It's a ok place nothing great higher prices on everything but not surprised with how owns the place and 80 gallons of fuel for a shower that's just better then nothing",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Dale Bents_It's_a_ok_place_nothing_great_higher_prices_on_eve_7 years ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "10867 US-160, Pittsburg, KS 66762, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pittsburg+Truck+N+Travel",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pittsburg+Truck+N+Travel/@37.3374897,-94.7084844,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87c7dd0b876e4a5f:0xf4716b0ee9f066ed!8m2!3d37.3374897!4d-94.7039783!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVIxTjJSSGNFZEJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQPw!16s%2Fg%2F11cn3gvdm_?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Express Travel Center",
+      "street": "TA Express Travel Center 3.9(2",
+      "city": "039)",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "37.0947753",
+      "lng": "-93.8118961",
+      "phone": "+1 417-316-6002",
+      "website": "https://www.loves.com/locations/966",
+      "content": "TA Express Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Nur Dее",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "As there are promisseb clean shower is good but soft soap was added water, I hope didn't add water to diesel when I refilled diesel for my semi truck",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Nur Dее_As_there_are_promisseb_clean_shower_is_good_but_so_4 years ago"
+        },
+        {
+          "reviewerName": "Daniel Avila",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I was going to leave a 4 star review, however I will never come back again. I fueled up 220 plus gallons, went in for a shower, this is why only 4 was because place is old and in need of a makeover. The lady at the store was very nice. I …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Daniel Avila_I_was_going_to_leave_a_4_star_review,_however_I_wi_2 years ago"
+        },
+        {
+          "reviewerName": "CJ Oller",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Imma be honest… i can fuel up at loves without a loves card… same for pilot… and use my receipt to get a shower. Not here. No ultra one card, then it’ll be $12. Doesn’t matter that you’ve just pumped over a thousand dollars in fuel. Literal …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 16,
+          "uniqueId": "CJ Oller_Imma_be_honest…_i_can_fuel_up_at_loves_without_a_l_3 years ago"
+        },
+        {
+          "reviewerName": "Keith Blanton",
+          "rating": "1 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "Another good Truckstop gone to crap. We stopped for a shower and dinner.  Restaurant is gone. Another stinking subway as if not every other truck stop in the nation doesn't already have a damn subway. Get to the shower... seriously if you …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 24,
+          "uniqueId": "Keith Blanton_Another_good_Truckstop_gone_to_crap._We_stopped_fo_Edited 6 years ago"
+        },
+        {
+          "reviewerName": "R̷A̷C̷H̷I̷D̷.̷T̷",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "May 07, 2024... No Shower 🚿 😔 No laundry 🧺... Nothing Here Anymore, the area it's Down 👎 Not even Busy, The Big store Closed 🔒 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 32,
+          "uniqueId": "R̷A̷C̷H̷I̷D̷.̷T̷_May_07,_2024..._No_Shower_🚿_😔_No_laundry_🧺..._N_a year ago"
+        },
+        {
+          "reviewerName": "Robert Ripke",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… the new owner Travel Centers of America, INC., took charge. Service is still good from truck shop to the porter taking care of the personal shower rooms and from the convience store to the restaurant. Your cared for 365 days of the year.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Robert Ripke_…_the_new_owner_Travel_Centers_of_America,_INC.,_t_6 years ago"
+        },
+        {
+          "reviewerName": "Chris Lewis",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Easy in and out. Food around the stop is decent. Smaller TA building, shower doors have like an inch or so gap so it gets chilly in the shower rooms",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 48,
+          "uniqueId": "Chris Lewis_Easy_in_and_out._Food_around_the_stop_is_decent._S_6 years ago"
+        },
+        {
+          "reviewerName": "Sarah Ellers",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "I had broken down in my RV. I needed a place to rest and shower. The lady was super friendly. She gave me info about the town. Super grateful for the help.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 55,
+          "uniqueId": "Sarah Ellers_I_had_broken_down_in_my_RV._I_needed_a_place_to_re_6 years ago"
+        },
+        {
+          "reviewerName": "Keyon Wright",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "This shower is creepy outdated and I’ll post a picture of the shower door",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 62,
+          "uniqueId": "Keyon Wright_This_shower_is_creepy_outdated_and_I’ll_post_a_pic_5 years ago"
+        },
+        {
+          "reviewerName": "Matthew Kellor",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The shower room was very clean and the drivers lounge was nice. Needs more pinball machines😄 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Matthew Kellor_The_shower_room_was_very_clean_and_the_drivers_lou_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "",
+      "address": "1000 E Mt Vernon Blvd, Mt Vernon, MO 65712, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Rest stop",
+      "placeId": "TA+Express+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Express+Travel+Center/@37.0947753,-93.8118961,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87c8adc6ffa0612b:0xdad1d65a15a09bc2!8m2!3d37.0947753!4d-93.80739!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQlyZXN0X3N0b3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTnFjMHhwWkZsQkVBRaoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIFRBE!16s%2Fg%2F113f3ztnc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Joplin Truck Parking - Westbound",
+      "street": "Joplin Truck Parking - Westbound 4.4(410)Rest stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "37.0037091",
+      "lng": "-94.5900895",
+      "phone": "+1 417-682-5576",
+      "website": "https://www.loves.com/locations/966",
+      "content": "Joplin Truck Parking - Westbound may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "Parking lot, Joplin, MO 64804, United States",
+      "rating": "4.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Rest stop",
+      "placeId": "Joplin+Truck+Parking+-+Westbound",
+      "googleMapsUrl": "https://www.google.com/maps/place/Joplin+Truck+Parking+-+Westbound/@37.0037091,-94.5900895,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87c86fa2e1f321d5:0xdb03326f70def693!8m2!3d37.0037091!4d-94.5855834!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQlyZXN0X3N0b3CaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTjZMVkJoTm5KblJSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCJQBED0!16s%2Fg%2F11clzgj8n6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Stockyard Travel Plaza",
+      "street": "Stockyard Travel Plaza 4.2(966)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "37.3646971",
+      "lng": "-95.2620401",
+      "phone": "+1 620-421-8900",
+      "website": "https://www.loves.com/locations/966",
+      "content": "Stockyard Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Richard Manning (Rick)",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "No seats or bench in showers. Fans do not work. It was so hot I almost passed out. Two people get two small towels and one wash cloth. Worst of all the two women working are some hateful people. 16 dollars for the shower and I'll never stop …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Richard Manning (Rick)_No_seats_or_bench_in_showers._Fans_do_not_work._It_4 years ago"
+        },
+        {
+          "reviewerName": "mary mclaughlin",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Nice place to grab a quick meal nice all service for truckers to come in and take a break eat shower sleep in a safe place and have a nice variety of kansas souvenirs for those coming through..",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "mary mclaughlin_Nice_place_to_grab_a_quick_meal_nice_all_service_f_7 years ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, showers, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "2431 US-59, Parsons, KS 67357, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Stockyard+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Stockyard+Travel+Plaza/@37.3646971,-95.2620401,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87b81079c50deed7:0x7a32603367f99ebb!8m2!3d37.3646971!4d-95.257534!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU10Y2pVM1ZGQjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQPA!16s%2Fg%2F1v_z9f55?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "MONETT TRUCK STOP",
+      "street": "MONETT TRUCK STOP 3.9(105)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "36.8999151",
+      "lng": "-93.9306942",
+      "phone": "+1 417-235-3451",
+      "website": "https://www.loves.com/locations/966",
+      "content": "MONETT TRUCK STOP may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Chris Merillat",
+          "rating": "4 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Friendly! Decent amount of free parking. 2 shower stalls. It was a decent place to sit and wait while I was waiting  on a call to deliver.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Chris Merillat_Friendly!_Decent_amount_of_free_parking._2_shower__8 months ago"
+        },
+        {
+          "reviewerName": "B",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Great little truck stop. They even have a self truck wash. I haven’t seen one before, so thanks man. Also one shower in store. Bathrooms too",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "wash"
+          ],
+          "index": 7,
+          "uniqueId": "B_Great_little_truck_stop._They_even_have_a_self_tru_a year ago"
+        },
+        {
+          "reviewerName": "Shawna Starr",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "If your on the road and need a quick shower this is for sure where you wanna go for a clean friendly atmosphere stop here",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 14,
+          "uniqueId": "Shawna Starr_If_your_on_the_road_and_need_a_quick_shower_this_i_2 years ago"
+        },
+        {
+          "reviewerName": "Amanda Hogue",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Clean shower",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 21,
+          "uniqueId": "Amanda Hogue_Clean_shower_7 months ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, bathroom, wash, clean",
+      "hours": "Closed ⋅ Opens 5 am Tuesday5 am–11 pmWednesday5 am–11 pmThursday5 am–11 pmFriday5 am–11 pmSaturday5 am–11 pmSunday6 am–10 pmMonday5 am–11 pmSuggest new hours",
+      "address": "1000 S Lincoln Rd, Monett, MO 65708, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "MONETT+TRUCK+STOP",
+      "googleMapsUrl": "https://www.google.com/maps/place/MONETT+TRUCK+STOP/@36.8999151,-93.9306942,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87c8b86b293d6635:0xcf7c5aaef321e12d!8m2!3d36.8999151!4d-93.9261881!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU01TkRndFpFTkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQKQ!16s%2Fg%2F1hc8npl13?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    }
+  ]
+}

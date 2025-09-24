@@ -1,0 +1,914 @@
+{
+  "timestamp": "2025-09-24T06:29:36.340Z",
+  "city": "40.843924400000006",
+  "state": "-111.9205302",
+  "sessionId": "2025-09-23T15-25-26",
+  "totalLocations": 9,
+  "locationsWithShowerReviews": 6,
+  "totalShowerReviews": 47,
+  "locations": [
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.8(846)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8360885",
+      "lng": "-111.9521222",
+      "phone": "+1 801-936-1408",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Derrick Harhausen",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "No issues. Open space for tractor trailer. Clean shower and fresh pizza.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Derrick Harhausen_No_issues._Open_space_for_tractor_trailer._Clean_s_a month ago"
+        },
+        {
+          "reviewerName": "yavuz sarac",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "If you're going the long way, you can stop here.  You can buy coffee, stay in your car and take a shower inside.  It's a really nice quiet place.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "yavuz sarac_If_you're_going_the_long_way,_you_can_stop_here.__2 years ago"
+        },
+        {
+          "reviewerName": "Jeremiah Shackelford",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Don't count on getting a shower here.  They're not cleaning showers right now because someone didn't show up to work. Reserved a shower then waited for 15 minutes as \"next in line\" for a shower only to be told that. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Jeremiah Shackelford_Don't_count_on_getting_a_shower_here._They're_not_11 months ago"
+        },
+        {
+          "reviewerName": "Todd Dugger",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Posted on door showers closed until 8 a.m. due to short staff... I'm sorry but that's pathetic. Only for the simple fact that I don't care how many people are working in a shift. Somebody can find time to go clean a shower real quick. I …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Todd Dugger_Posted_on_door_showers_closed_until_8_a.m._due_to__2 years ago"
+        },
+        {
+          "reviewerName": "G B",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I booked shower on app around 5:30 in the morning. I keep waiting up to 6:10am and checked in store to check why I’m not getting any shower. But the guy at register was not allowing me to take shower. He first told showers are down, I said …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "G B_I_booked_shower_on_app_around_5:30_in_the_morning._a year ago"
+        },
+        {
+          "reviewerName": "Joe Ski",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "The staff at this location are the very best. I just enjoyed my wait for a shower. They were very accommodating offering a free drink while I wait.  The pizza here is better than other Flying J's and they all have good pizza 🍕!   Showers …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 43,
+          "uniqueId": "Joe Ski_The_staff_at_this_location_are_the_very_best._I_ju_3 years ago"
+        },
+        {
+          "reviewerName": "Corby B.",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… of snacks that were delicious. Had really good doctor Pepper. My shower was clean and the water pressure was surprisingly good. Only problem was trying to get out on Redwood Road turning left with the construction. I know that is not a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Corby B._…_of_snacks_that_were_delicious._Had_really_good_d_6 years ago"
+        },
+        {
+          "reviewerName": "B M",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Trucking for 10 years. This is absolutely the worst flying J in the country. La.zy staff. Bad showers. No parking. $4.32 for a slice of burnt pizza.  17$ for a shower and wait 2 hours. Dirty place.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 59,
+          "uniqueId": "B M_Trucking_for_10_years._This_is_absolutely_the_wors_2 years ago"
+        },
+        {
+          "reviewerName": "Julie Bumbarger",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Small, not a lot of truck parking, but very nice & CLEAN! Shower was clean, good water pressure & soft water. Not left with soap & shampoo stuck to me! Very friendly staff. Not the typical dirty Flying J/Pilot.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Julie Bumbarger_Small,_not_a_lot_of_truck_parking,_but_very_nice_&_5 years ago"
+        },
+        {
+          "reviewerName": "Jack Ramsey",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Waited 2 hours from 0400 to 0600 for them to clean a shower. They never did. Finally had to leave without one. Used to be good place to stand get a shower. They must be scared of covid 19",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "Jack Ramsey_Waited_2_hours_from_0400_to_0600_for_them_to_clean_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "885 N Pointe Cir, North Salt Lake, UT 84054, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@40.8360885,-111.9521222,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8752f6deade993af:0xe38474ef2e612948!8m2!3d40.8360885!4d-111.9340978!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1vp747t_?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "N/A",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8360885",
+      "lng": "-111.9521222",
+      "phone": "+1 801-936-1408",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mykola Sukhanov",
+          "rating": "1 stars",
+          "reviewDate": "2 weeks ago",
+          "reviewText": "I arrived, booked a parking space, after a while the security came, interrupted my sleep and said that you must leave otherwise you will call the police, I wanted to wash myself, there is no hot water, the washing machine does not work …",
+          "showerKeywords": [
+            "wash"
+          ],
+          "index": 8,
+          "uniqueId": "Mykola Sukhanov_I_arrived,_booked_a_parking_space,_after_a_while_t_2 weeks ago"
+        },
+        {
+          "reviewerName": "Derrick Harhausen",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "No issues. Open space for tractor trailer. Clean shower and fresh pizza.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Derrick Harhausen_No_issues._Open_space_for_tractor_trailer._Clean_s_a month ago"
+        },
+        {
+          "reviewerName": "A G",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Horribly The nighttime clerk had positively identified the wrong person and has the cops arresting there customers as people who stole cars parked outside of their store.  Coming in to  the restrooms to handcuff and place them in the back of the cop cars! No cameras in place thank god for my own dash cameras S.M.H. What a joke  mayb",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 26,
+          "uniqueId": "A G_Horribly_The_nighttime_clerk_had_positively_identi_a month ago"
+        },
+        {
+          "reviewerName": "randy miles",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Great food and great staff the cleanest truck stop I've ever been to. Showers were actually clean good water pressure and staff was polite, kind, and very helpful. Great place only complaint is parking is very limited.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 33,
+          "uniqueId": "randy miles_Great_food_and_great_staff_the_cleanest_truck_stop_5 months ago"
+        },
+        {
+          "reviewerName": "Yassir Azim",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Very nice friendly staff & clean store.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "Yassir Azim_Very_nice_friendly_staff_&_clean_store._2 months ago"
+        },
+        {
+          "reviewerName": "yavuz sarac",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "If you're going the long way, you can stop here.  You can buy coffee, stay in your car and take a shower inside.  It's a really nice quiet place.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 73,
+          "uniqueId": "yavuz sarac_If_you're_going_the_long_way,_you_can_stop_here.__2 years ago"
+        }
+      ],
+      "showerReviewCount": 6,
+      "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: wash, shower, clean, restroom, showers",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "885 N Pointe Cir, North Salt Lake, UT 84054, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@40.8360885,-111.9521222,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8752f6deade993af:0xe38474ef2e612948!8m2!3d40.8360885!4d-111.9340978!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1vp747t_?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Sapp Bros. Travel Center",
+      "street": "1953 California Ave",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "40.7399941",
+      "lng": "-111.9644543",
+      "phone": "+1 801-977-3900",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "Sapp Bros. Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Elena Stamm",
+          "rating": "1 stars",
+          "reviewDate": "a week ago",
+          "reviewText": "Really weird place and not to the caliber of their other stores. They told my husband all about the shower process and then later refused to sell. Tiny dog area with bird dropping all over. My dog didn't want to be there! The sapp bros in …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Elena Stamm_Really_weird_place_and_not_to_the_caliber_of_their_a week ago"
+        },
+        {
+          "reviewerName": "Lucy Lee",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Karen Gave me such a hard time she wouldn’t let me buy a shower unless I showed her my CDL! Did she think I was a prostitute roaming the parking lot?!?!? my co driver came in earlier that day and bought a shower and no one asked for his ID! …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Lucy Lee_Karen_Gave_me_such_a_hard_time_she_wouldn’t_let_me_a month ago"
+        },
+        {
+          "reviewerName": "William Delahoyde",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Came here hoping to get a good meal, a place to park and a hot shower. Restaurant was closed although the sign says open till 8pm. Condescending little price dressed like a black barbie says I can't use points for my parking spot although I …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 17,
+          "uniqueId": "William Delahoyde_Came_here_hoping_to_get_a_good_meal,_a_place_to_pa_4 months ago"
+        },
+        {
+          "reviewerName": "Ms Dee",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 months ago",
+          "reviewText": "… We were able to shower, get food or anything else that we want it while we were here so overall, this was a pretty decent place to park overnight especially if you're carrying a load.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 25,
+          "uniqueId": "Ms Dee_…_We_were_able_to_shower,_get_food_or_anything_els_Edited 2 months ago"
+        },
+        {
+          "reviewerName": "BOMBS",
+          "rating": "1 stars",
+          "reviewDate": "Edited 4 months ago",
+          "reviewText": "Don't bother coming to this place if you're looking for a place to take a shower and you don't have a CDL. That was the first question out their mouth. Them and Flying J should have a big ass sign that says \"Showers for CDL truckers only\". …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 33,
+          "uniqueId": "BOMBS_Don't_bother_coming_to_this_place_if_you're_lookin_Edited 4 months ago"
+        },
+        {
+          "reviewerName": "Brianna Wiersema",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… is good, the staff are friendly. The lot is always taken care of and free of garbage. We don't fuel here but are happy to pay for a shower because they're always spotless. The baths they have are amazing too. All in all it's a great spot …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 41,
+          "uniqueId": "Brianna Wiersema_…_is_good,_the_staff_are_friendly._The_lot_is_alwa_6 years ago"
+        },
+        {
+          "reviewerName": "James Blunk",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "A real Sit Down Restaurant is important to me. Nowhere enough truckstops offer that option. And nice clean shower.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 49,
+          "uniqueId": "James Blunk_A_real_Sit_Down_Restaurant_is_important_to_me._Now_10 months ago"
+        },
+        {
+          "reviewerName": "Eve Garcia",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Very clean and exceptionally nice! My husband and I enjoyed the full bathroom with shower and tub! Also the staff was great and courtesy to our situation and my health!  Definitely will come back. Thank you for everything! God Bless you all …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Eve Garcia_Very_clean_and_exceptionally_nice!_My_husband_and__3 years ago"
+        },
+        {
+          "reviewerName": "Michael Wynn",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Got parked, good food and a very nice shower.  They have some really cool items.  They even have a barber shop, dentist and a smoke shop! Plus more",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 64,
+          "uniqueId": "Michael Wynn_Got_parked,_good_food_and_a_very_nice_shower._The_a year ago"
+        },
+        {
+          "reviewerName": "Steve Gilbert",
+          "rating": "3 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "If you pay 15 to park it should come with free shower",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 71,
+          "uniqueId": "Steve Gilbert_If_you_pay_15_to_park_it_should_come_with_free_sho_5 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "1953 California Ave, Salt Lake City, UT 84104, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Sapp+Bros.+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Sapp+Bros.+Travel+Center/@40.7399941,-111.9644543,15z/data=!3m1!5s0x8752f4a1871c6829:0xc3657eaec465dc2d!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8752f4a19239aa5f:0xe6c3eb0a867a4966!8m2!3d40.7399941!4d-111.9464299!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVVJuT1VsdE4wNVJFQUXgAQD6AQQIABA_!16s%2Fg%2F1tdbrbtb?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.7(1",
+      "city": "290)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.6899066",
+      "lng": "-112.280952",
+      "phone": "+1 801-250-8585",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "B.D.B MT (DJ)",
+          "rating": "4 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "We used the services of the shop. We had to wait, but their techs did a good job repairing our semi issue. The store is well stocked. Restrooms were clean. We ate at Taco Bell, they were quick and food was normal for fast food. Good sized parking lot for semi or 4 wheelers.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 39,
+          "uniqueId": "B.D.B MT (DJ)_We_used_the_services_of_the_shop._We_had_to_wait,__6 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: restroom, clean",
+      "hours": "",
+      "address": "8836 Clinton Landing Rd, Tooele, UT 84074, United States",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@40.6899066,-112.280952,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8752c04821932fd1:0x1bf50ff1677849ae!8m2!3d40.6899066!4d-112.2629276!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJtTm05TWFVZG5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHg!16s%2Fg%2F1v16qsqb?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TRUX Parking",
+      "street": "326 S 2650 WWebsiteDirections \"Truck stops in the area were completely filled up for the holiday weekend.\"",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "40.7617948",
+      "lng": "-111.9760073",
+      "phone": "+1 801-936-1408",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "TRUX Parking may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "326 S 2650 W, Salt Lake City, UT 84104, United States",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TRUX+Parking",
+      "googleMapsUrl": "https://www.google.com/maps/place/TRUX+Parking/@40.7617948,-111.9760073,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8752f3b50ec32dfb:0x3ce79b907916c883!8m2!3d40.7617948!4d-111.9579829!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5hTlVsaFpqRkJSUkFC4AEA-gEECBcQSg!16s%2Fg%2F11v9kl1n0v?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.8(1",
+      "city": "277)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8360885",
+      "lng": "-111.9521222",
+      "phone": "+1 801-936-1408",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Derrick Harhausen",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "No issues. Open space for tractor trailer. Clean shower and fresh pizza.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Derrick Harhausen_No_issues._Open_space_for_tractor_trailer._Clean_s_a month ago"
+        },
+        {
+          "reviewerName": "yavuz sarac",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "If you're going the long way, you can stop here.  You can buy coffee, stay in your car and take a shower inside.  It's a really nice quiet place.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "yavuz sarac_If_you're_going_the_long_way,_you_can_stop_here.__2 years ago"
+        },
+        {
+          "reviewerName": "Jeremiah Shackelford",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Don't count on getting a shower here.  They're not cleaning showers right now because someone didn't show up to work. Reserved a shower then waited for 15 minutes as \"next in line\" for a shower only to be told that. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Jeremiah Shackelford_Don't_count_on_getting_a_shower_here._They're_not_11 months ago"
+        },
+        {
+          "reviewerName": "Todd Dugger",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Posted on door showers closed until 8 a.m. due to short staff... I'm sorry but that's pathetic. Only for the simple fact that I don't care how many people are working in a shift. Somebody can find time to go clean a shower real quick. I …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Todd Dugger_Posted_on_door_showers_closed_until_8_a.m._due_to__2 years ago"
+        },
+        {
+          "reviewerName": "G B",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I booked shower on app around 5:30 in the morning. I keep waiting up to 6:10am and checked in store to check why I’m not getting any shower. But the guy at register was not allowing me to take shower. He first told showers are down, I said …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "G B_I_booked_shower_on_app_around_5:30_in_the_morning._a year ago"
+        },
+        {
+          "reviewerName": "Joe Ski",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "The staff at this location are the very best. I just enjoyed my wait for a shower. They were very accommodating offering a free drink while I wait.  The pizza here is better than other Flying J's and they all have good pizza 🍕!   Showers …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 43,
+          "uniqueId": "Joe Ski_The_staff_at_this_location_are_the_very_best._I_ju_3 years ago"
+        },
+        {
+          "reviewerName": "Corby B.",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… of snacks that were delicious. Had really good doctor Pepper. My shower was clean and the water pressure was surprisingly good. Only problem was trying to get out on Redwood Road turning left with the construction. I know that is not a …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Corby B._…_of_snacks_that_were_delicious._Had_really_good_d_6 years ago"
+        },
+        {
+          "reviewerName": "B M",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Trucking for 10 years. This is absolutely the worst flying J in the country. La.zy staff. Bad showers. No parking. $4.32 for a slice of burnt pizza.  17$ for a shower and wait 2 hours. Dirty place.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 59,
+          "uniqueId": "B M_Trucking_for_10_years._This_is_absolutely_the_wors_2 years ago"
+        },
+        {
+          "reviewerName": "Julie Bumbarger",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Small, not a lot of truck parking, but very nice & CLEAN! Shower was clean, good water pressure & soft water. Not left with soap & shampoo stuck to me! Very friendly staff. Not the typical dirty Flying J/Pilot.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Julie Bumbarger_Small,_not_a_lot_of_truck_parking,_but_very_nice_&_5 years ago"
+        },
+        {
+          "reviewerName": "Jack Ramsey",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Waited 2 hours from 0400 to 0600 for them to clean a shower. They never did. Finally had to leave without one. Used to be good place to stand get a shower. They must be scared of covid 19",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 73,
+          "uniqueId": "Jack Ramsey_Waited_2_hours_from_0400_to_0600_for_them_to_clean_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "885 N Pointe Cir, North Salt Lake, UT 84054, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@40.8360885,-111.9521222,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8752f6deade993af:0xe38474ef2e612948!8m2!3d40.8360885!4d-111.9340978!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1vp747t_?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.9(1",
+      "city": "581)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.2689224",
+      "lng": "-110.958772",
+      "phone": "+1 307-783-5930",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Terra Fulmer",
+          "rating": "2 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… in line unattended for an extended period of time. To make matters worse, we arrived in hopes of getting a nice, hot shower & eat dinner to signs stating Subway was closed & so were the showers. We arrived around 5:30 PM & left the next …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Terra Fulmer_…_in_line_unattended_for_an_extended_period_of_tim_a month ago"
+        },
+        {
+          "reviewerName": "Theee Boogieman",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "4 pumps idle , drivers park at pump and they park in front of pump and go shower , truck stop is backed up to the street , nothing new , i just only finally posted something because Im sick of coming here and losing 2 hours",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 13,
+          "uniqueId": "Theee Boogieman_4_pumps_idle_,_drivers_park_at_pump_and_they_park__a month ago"
+        },
+        {
+          "reviewerName": "Dave Jansma",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "The showers were very clean and the water was hot.  Russell who was working in the back gave extra care and attention.  He put us in the larger shower stall and extra clean towels to use.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Dave Jansma_The_showers_were_very_clean_and_the_water_was_hot._4 months ago"
+        },
+        {
+          "reviewerName": "Robert Broughton (Cowboy)",
+          "rating": "5 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Friendly staff all with great sense of humor that includes the subway staff. Shower clean with great water pressure, even tho the shower heads leak a little. Fully working washer and dryers for laundry. Parking can be a challenge depending …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 31,
+          "uniqueId": "Robert Broughton (Cowboy)_Friendly_staff_all_with_great_sense_of_humor_that__11 months ago"
+        },
+        {
+          "reviewerName": "Ahmed Hussein (Manka ally)",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "While I was waiting shower bus passengers came all the were opened for them while am in line clocked 2hours waiting shower suck",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 39,
+          "uniqueId": "Ahmed Hussein (Manka ally)_While_I_was_waiting_shower_bus_passengers_came_all_3 months ago"
+        },
+        {
+          "reviewerName": "Wayne Fredrick",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Every time I go into this store and fuel I get ripped off of my points and shower credits …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 46,
+          "uniqueId": "Wayne Fredrick_Every_time_I_go_into_this_store_and_fuel_I_get_rip_11 months ago"
+        },
+        {
+          "reviewerName": "Michael Hamilton",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Typical Pilot Flying J. Laundry room completely out of order, bathroom dirty, no decent food, parking lot is a mess, some of the pumps not working and shower was lukewarm. PFJ just needs to go out of business and let someone who cares take …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 54,
+          "uniqueId": "Michael Hamilton_Typical_Pilot_Flying_J._Laundry_room_completely_ou_2 years ago"
+        },
+        {
+          "reviewerName": "Ryan Clapp",
+          "rating": "3 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Noon on a Saturday, parking lot only half full, they have 7 showers but we waited 25 minutes for one. If you're a team trying to shower on 30, consider another place. Otherwise it was clean and well staffed.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 62,
+          "uniqueId": "Ryan Clapp_Noon_on_a_Saturday,_parking_lot_only_half_full,_th_5 years ago"
+        },
+        {
+          "reviewerName": "Scott Osterhoudt",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Drivers, I'm out of work and made a long trip in my personal. These kind folk gave me a free shower. I hope you make a stop here if you're not sure. They deserve us drivers' money.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 69,
+          "uniqueId": "Scott Osterhoudt_Drivers,_I'm_out_of_work_and_made_a_long_trip_in_m_a year ago"
+        },
+        {
+          "reviewerName": "dwight ellington",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "I pulled in at 10 am got fuel parked went in and didn't even have to wait for a shower.  So I go back to my truck and hang out, around  2:30 pm I go in and get a couple slices of bbq pizza go back to the truck and eat it and hang out. And …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 76,
+          "uniqueId": "dwight ellington_I_pulled_in_at_10_am_got_fuel_parked_went_in_and_d_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, wash, bathroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "289 Bear River Dr, Evanston, WY 82930, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@41.2689224,-110.958772,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x875179064b15caff:0x3208db96e7042bbd!8m2!3d41.2689224!4d-110.9407476!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJQYVUxUVRXRkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQMw!16s%2Fg%2F1tfxyhw0?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Sparks Motors",
+      "street": "N/A",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8706649",
+      "lng": "-111.9472161",
+      "phone": "+1 385-220-2900",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "Sparks Motors may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 9 am Wednesday9 am–5 pmThursday9 am–5 pmFriday9 am–5 pmSaturdayClosedSundayClosedMonday9 am–5 pmTuesday9 am–5 pmSuggest new hours",
+      "address": "1955 S 1800 W, Woods Cross, UT 84087, United States",
+      "rating": "4.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck dealer",
+      "placeId": "Sparks+Motors",
+      "googleMapsUrl": "https://www.google.com/maps/place/Sparks+Motors/@40.8706649,-111.9472161,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8752f742b3807125:0x90e24c1102ef3dd1!8m2!3d40.8706649!4d-111.9291917!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQx0cnVja19kZWFsZXKaASRDaGREU1VoTk1HOW5TMFZKUTBGblRVUkpielp0WjJwQlJSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQHg!16s%2Fg%2F11cnkr0927?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Chevron",
+      "street": "Chevron 4.2(256)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "40.8617365",
+      "lng": "-111.9179498",
+      "phone": "+1 801-295-8437",
+      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "content": "Chevron may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "742 W 2600 S, Woods Cross, UT 84087, United States",
+      "rating": "3.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "Chevron",
+      "googleMapsUrl": "https://www.google.com/maps/place/Chevron/@40.8617365,-111.9179498,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8752f7a6b628bd93:0xf472d3b1578f2cfb!8m2!3d40.8617365!4d-111.8999254!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F12616hhhs?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

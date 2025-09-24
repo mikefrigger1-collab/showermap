@@ -1,0 +1,1842 @@
+{
+  "timestamp": "2025-09-23T10:52:40.475Z",
+  "city": "39.5579849",
+  "state": "-82.9577592",
+  "sessionId": "2025-09-23T05-08-45",
+  "totalLocations": 14,
+  "locationsWithShowerReviews": 12,
+  "totalShowerReviews": 106,
+  "locations": [
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(829)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.557944",
+      "lng": "-82.9616041",
+      "phone": "+1 740-420-0702",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Free Speech",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… is real good at communicating  with customers. They did some upgrades here. The showers are big and have 2 shower heads so you can wash both sides at same time. Plenty of seating in showers and places to hang your shower bags The girl …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Free Speech_…_is_real_good_at_communicating_with_customers._T_2 years ago"
+        },
+        {
+          "reviewerName": "Tiffany",
+          "rating": "3 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Shower sucks. No counter space. Nowhere to put anything. Water pressure goes in and out, as well as hot & cold. Super annoying.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Tiffany_Shower_sucks._No_counter_space._Nowhere_to_put_any_8 years ago"
+        },
+        {
+          "reviewerName": "Patrica Morales",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The staff at night is so nice and helpful. The man that cleans the shower is so sweet and there's only 2 showers but he gets them cleaned right away. I would definitely  park here again and stay..",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Patrica Morales_The_staff_at_night_is_so_nice_and_helpful._The_man_a year ago"
+        },
+        {
+          "reviewerName": "Timothy McCoy Jr.",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Staff Is Friendly But Awkward! Lots Of Parking If You Want A Shower Better To Go To Loves! This Place Would Also Be Alot Cleaner If The Put Dog Potty Bags To Grab, People Need To Have Some If You Don't They Do Not Provide!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Timothy McCoy Jr._Staff_Is_Friendly_But_Awkward!_Lots_Of_Parking_If__a year ago"
+        },
+        {
+          "reviewerName": "Max Mahd",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… place.  Ohh let me tell you about this place! The staff AMAZING, the parking AMAZING, the bathrooms/shower AMAZING everything about this pilot was amazing! Only thing I didn’t like and it’s just me is they didn’t have ice cream. I was …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 34,
+          "uniqueId": "Max Mahd_…_place._Ohh_let_me_tell_you_about_this_place!_Th_a year ago"
+        },
+        {
+          "reviewerName": "Dwight Jackson",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I'll give this place 4 stars.. The food when available is good and reasonably priced. The showers and restrooms are clean. The shower is pricey at 17.00 but I had a credit. Shower 1 is absolutely awesome. 2 showerheads and a flexible hose. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "Dwight Jackson_I'll_give_this_place_4_stars.._The_food_when_avail_a year ago"
+        },
+        {
+          "reviewerName": "Marco Polo",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "A stupid and lazy employee made me wait for the shower for the customer to come out and bring the key, but she didn't want to leave, instead cleaning up her smartphone. Points were written off for the shower and it's a pity for the time …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 50,
+          "uniqueId": "Marco Polo_A_stupid_and_lazy_employee_made_me_wait_for_the_sh_a year ago"
+        },
+        {
+          "reviewerName": "Mr. Anderson",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… .  The staff are awesome and will help you find an item without any issue.  Large selection of snacks and food but not as large as Loves next door.  Shower area was clean during my visit.  The lot was very dirty as was the floor.  I …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Mr. Anderson_…_._The_staff_are_awesome_and_will_help_you_find__7 years ago"
+        },
+        {
+          "reviewerName": "Kimi Snow",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… between Columbus, Oh & Ashland, Ky. Good coffee, soda & water selection, and grilled food is always fresh & hot. Bathrooms & showers are always clean. Employees are very polite & friendly too. I've been stopping here for years and I've …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Kimi Snow_…_between_Columbus,_Oh_&_Ashland,_Ky._Good_coffee,_7 years ago"
+        },
+        {
+          "reviewerName": "Crystal Beach",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Showers are dated but clean. You have to get a key for the showers. Can't use the app for showers here. Store is clean and nice parking lot lay out here for easy parking. come back to this pilot had to wait for a shower lady said I will …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 74,
+          "uniqueId": "Crystal Beach_Showers_are_dated_but_clean._You_have_to_get_a_key_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, wash, clean, bathroom, restroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25600 US-23, Circleville, OH 43113, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@39.557944,-82.9616041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x884776fc6ef09fc3:0xbe66799d422e7b60!8m2!3d39.557944!4d-82.957098!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1thl_3s5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.2(338)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.557944",
+      "lng": "-82.9616041",
+      "phone": "+1 740-474-4126",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Nick Farrar",
+          "rating": "3 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Place is good. It’s no worse no better than most. The thing I don’t get with places that have showers. Why aren’t they individually heated and cooled. You sweat after a shower in the summer and freeze after a shower in the winter. That’s …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Nick Farrar_Place_is_good._It’s_no_worse_no_better_than_most.__4 months ago"
+        },
+        {
+          "reviewerName": "M'lady Rose",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "We ride in a semi, so we come across A LOT of truck stops and other Love's. It was very clean. The showers were upgraded and nice. Large shower rooms. Customer service was a little slow on helping. I stood at both registers for a bit before …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "M'lady Rose_We_ride_in_a_semi,_so_we_come_across_A_LOT_of_truc_3 years ago"
+        },
+        {
+          "reviewerName": "Mindaugas Prismontas",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Awesome truck stop,  shower #5 clean and roomy",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Mindaugas Prismontas_Awesome_truck_stop,_shower_#5_clean_and_roomy_6 years ago"
+        },
+        {
+          "reviewerName": "Charles fox",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… very nice clean, awesome people very friendly. The bathrooms were spotless and so was my shower #2 was nice not any dirt grease or anything great water pressure and the water actually got hot! Was a great experience one of the best loves …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Charles fox_…_very_nice_clean,_awesome_people_very_friendly._T_6 years ago"
+        },
+        {
+          "reviewerName": "Joseph Copley",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Great Place to get Gas, food, Shower 🚿 etc …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 35,
+          "uniqueId": "Joseph Copley_Great_Place_to_get_Gas,_food,_Shower_🚿_etc_…_3 months ago"
+        },
+        {
+          "reviewerName": "hussen ibrahim",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "\"The best Love's Truck Stop in the entire Country. Plenty parking spot, Clean restrooms and 5 Star 🌟 hot Shower\" Topnotch. …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "hussen ibrahim_\"The_best_Love's_Truck_Stop_in_the_entire_Country._2 years ago"
+        },
+        {
+          "reviewerName": "Steve Criddle",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Good Shower Drains",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 49,
+          "uniqueId": "Steve Criddle_Good_Shower_Drains_5 months ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25727 Duroc St, Circleville, OH 43113, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@39.557944,-82.9616041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x884776fb78d7a2a1:0x1749c8c48d0f78eb!8m2!3d39.5562945!4d-82.9576726!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWS1pUWjRMV0ZCWjA1cVpuSkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F11d_bh5ml8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(2",
+      "city": "029)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.557944",
+      "lng": "-82.9616041",
+      "phone": "+1 740-420-0702",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Free Speech",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… is real good at communicating  with customers. They did some upgrades here. The showers are big and have 2 shower heads so you can wash both sides at same time. Plenty of seating in showers and places to hang your shower bags The girl …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Free Speech_…_is_real_good_at_communicating_with_customers._T_2 years ago"
+        },
+        {
+          "reviewerName": "Tiffany",
+          "rating": "3 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Shower sucks. No counter space. Nowhere to put anything. Water pressure goes in and out, as well as hot & cold. Super annoying.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Tiffany_Shower_sucks._No_counter_space._Nowhere_to_put_any_8 years ago"
+        },
+        {
+          "reviewerName": "Patrica Morales",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The staff at night is so nice and helpful. The man that cleans the shower is so sweet and there's only 2 showers but he gets them cleaned right away. I would definitely  park here again and stay..",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Patrica Morales_The_staff_at_night_is_so_nice_and_helpful._The_man_a year ago"
+        },
+        {
+          "reviewerName": "Timothy McCoy Jr.",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Staff Is Friendly But Awkward! Lots Of Parking If You Want A Shower Better To Go To Loves! This Place Would Also Be Alot Cleaner If The Put Dog Potty Bags To Grab, People Need To Have Some If You Don't They Do Not Provide!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Timothy McCoy Jr._Staff_Is_Friendly_But_Awkward!_Lots_Of_Parking_If__a year ago"
+        },
+        {
+          "reviewerName": "Max Mahd",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… place.  Ohh let me tell you about this place! The staff AMAZING, the parking AMAZING, the bathrooms/shower AMAZING everything about this pilot was amazing! Only thing I didn’t like and it’s just me is they didn’t have ice cream. I was …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 34,
+          "uniqueId": "Max Mahd_…_place._Ohh_let_me_tell_you_about_this_place!_Th_a year ago"
+        },
+        {
+          "reviewerName": "Dwight Jackson",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I'll give this place 4 stars.. The food when available is good and reasonably priced. The showers and restrooms are clean. The shower is pricey at 17.00 but I had a credit. Shower 1 is absolutely awesome. 2 showerheads and a flexible hose. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "Dwight Jackson_I'll_give_this_place_4_stars.._The_food_when_avail_a year ago"
+        },
+        {
+          "reviewerName": "Marco Polo",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "A stupid and lazy employee made me wait for the shower for the customer to come out and bring the key, but she didn't want to leave, instead cleaning up her smartphone. Points were written off for the shower and it's a pity for the time …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 50,
+          "uniqueId": "Marco Polo_A_stupid_and_lazy_employee_made_me_wait_for_the_sh_a year ago"
+        },
+        {
+          "reviewerName": "Mr. Anderson",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… .  The staff are awesome and will help you find an item without any issue.  Large selection of snacks and food but not as large as Loves next door.  Shower area was clean during my visit.  The lot was very dirty as was the floor.  I …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Mr. Anderson_…_._The_staff_are_awesome_and_will_help_you_find__7 years ago"
+        },
+        {
+          "reviewerName": "Kimi Snow",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… between Columbus, Oh & Ashland, Ky. Good coffee, soda & water selection, and grilled food is always fresh & hot. Bathrooms & showers are always clean. Employees are very polite & friendly too. I've been stopping here for years and I've …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Kimi Snow_…_between_Columbus,_Oh_&_Ashland,_Ky._Good_coffee,_7 years ago"
+        },
+        {
+          "reviewerName": "Crystal Beach",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Showers are dated but clean. You have to get a key for the showers. Can't use the app for showers here. Store is clean and nice parking lot lay out here for easy parking. come back to this pilot had to wait for a shower lady said I will …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 74,
+          "uniqueId": "Crystal Beach_Showers_are_dated_but_clean._You_have_to_get_a_key_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, wash, clean, bathroom, restroom",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25600 US-23, Circleville, OH 43113, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@39.557944,-82.9616041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x884776fc6ef09fc3:0xbe66799d422e7b60!8m2!3d39.557944!4d-82.957098!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1thl_3s5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.3(255)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.557944",
+      "lng": "-82.9616041",
+      "phone": "+1 740-474-4126",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Nick Farrar",
+          "rating": "3 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Place is good. It’s no worse no better than most. The thing I don’t get with places that have showers. Why aren’t they individually heated and cooled. You sweat after a shower in the summer and freeze after a shower in the winter. That’s …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Nick Farrar_Place_is_good._It’s_no_worse_no_better_than_most.__4 months ago"
+        },
+        {
+          "reviewerName": "M'lady Rose",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "We ride in a semi, so we come across A LOT of truck stops and other Love's. It was very clean. The showers were upgraded and nice. Large shower rooms. Customer service was a little slow on helping. I stood at both registers for a bit before …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "M'lady Rose_We_ride_in_a_semi,_so_we_come_across_A_LOT_of_truc_3 years ago"
+        },
+        {
+          "reviewerName": "Mindaugas Prismontas",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Awesome truck stop,  shower #5 clean and roomy",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Mindaugas Prismontas_Awesome_truck_stop,_shower_#5_clean_and_roomy_6 years ago"
+        },
+        {
+          "reviewerName": "Charles fox",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… very nice clean, awesome people very friendly. The bathrooms were spotless and so was my shower #2 was nice not any dirt grease or anything great water pressure and the water actually got hot! Was a great experience one of the best loves …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Charles fox_…_very_nice_clean,_awesome_people_very_friendly._T_6 years ago"
+        },
+        {
+          "reviewerName": "Joseph Copley",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Great Place to get Gas, food, Shower 🚿 etc …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 35,
+          "uniqueId": "Joseph Copley_Great_Place_to_get_Gas,_food,_Shower_🚿_etc_…_3 months ago"
+        },
+        {
+          "reviewerName": "hussen ibrahim",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "\"The best Love's Truck Stop in the entire Country. Plenty parking spot, Clean restrooms and 5 Star 🌟 hot Shower\" Topnotch. …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "hussen ibrahim_\"The_best_Love's_Truck_Stop_in_the_entire_Country._2 years ago"
+        },
+        {
+          "reviewerName": "Steve Criddle",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Good Shower Drains",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 49,
+          "uniqueId": "Steve Criddle_Good_Shower_Drains_5 months ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25727 Duroc St, Circleville, OH 43113, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@39.557944,-82.9616041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x884776fb78d7a2a1:0x1749c8c48d0f78eb!8m2!3d39.5562945!4d-82.9576726!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWS1pUWjRMV0ZCWjA1cVpuSkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F11d_bh5ml8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.6(811)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.557944",
+      "lng": "-82.9616041",
+      "phone": "+1 740-474-4126",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Nick Farrar",
+          "rating": "3 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Place is good. It’s no worse no better than most. The thing I don’t get with places that have showers. Why aren’t they individually heated and cooled. You sweat after a shower in the summer and freeze after a shower in the winter. That’s …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Nick Farrar_Place_is_good._It’s_no_worse_no_better_than_most.__4 months ago"
+        },
+        {
+          "reviewerName": "M'lady Rose",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "We ride in a semi, so we come across A LOT of truck stops and other Love's. It was very clean. The showers were upgraded and nice. Large shower rooms. Customer service was a little slow on helping. I stood at both registers for a bit before …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "M'lady Rose_We_ride_in_a_semi,_so_we_come_across_A_LOT_of_truc_3 years ago"
+        },
+        {
+          "reviewerName": "Mindaugas Prismontas",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Awesome truck stop,  shower #5 clean and roomy",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Mindaugas Prismontas_Awesome_truck_stop,_shower_#5_clean_and_roomy_6 years ago"
+        },
+        {
+          "reviewerName": "Charles fox",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… very nice clean, awesome people very friendly. The bathrooms were spotless and so was my shower #2 was nice not any dirt grease or anything great water pressure and the water actually got hot! Was a great experience one of the best loves …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Charles fox_…_very_nice_clean,_awesome_people_very_friendly._T_6 years ago"
+        },
+        {
+          "reviewerName": "Joseph Copley",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Great Place to get Gas, food, Shower 🚿 etc …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 35,
+          "uniqueId": "Joseph Copley_Great_Place_to_get_Gas,_food,_Shower_🚿_etc_…_3 months ago"
+        },
+        {
+          "reviewerName": "hussen ibrahim",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "\"The best Love's Truck Stop in the entire Country. Plenty parking spot, Clean restrooms and 5 Star 🌟 hot Shower\" Topnotch. …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "hussen ibrahim_\"The_best_Love's_Truck_Stop_in_the_entire_Country._2 years ago"
+        },
+        {
+          "reviewerName": "Steve Criddle",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Good Shower Drains",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 49,
+          "uniqueId": "Steve Criddle_Good_Shower_Drains_5 months ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25727 Duroc St, Circleville, OH 43113, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@39.557944,-82.9616041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x884776fb78d7a2a1:0x1749c8c48d0f78eb!8m2!3d39.5562945!4d-82.9576726!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWS1pUWjRMV0ZCWjA1cVpuSkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F11d_bh5ml8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.5(36)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.557944",
+      "lng": "-82.9616041",
+      "phone": "+1 740-474-4126",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Nick Farrar",
+          "rating": "3 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Place is good. It’s no worse no better than most. The thing I don’t get with places that have showers. Why aren’t they individually heated and cooled. You sweat after a shower in the summer and freeze after a shower in the winter. That’s …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Nick Farrar_Place_is_good._It’s_no_worse_no_better_than_most.__4 months ago"
+        },
+        {
+          "reviewerName": "M'lady Rose",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "We ride in a semi, so we come across A LOT of truck stops and other Love's. It was very clean. The showers were upgraded and nice. Large shower rooms. Customer service was a little slow on helping. I stood at both registers for a bit before …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "M'lady Rose_We_ride_in_a_semi,_so_we_come_across_A_LOT_of_truc_3 years ago"
+        },
+        {
+          "reviewerName": "Mindaugas Prismontas",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Awesome truck stop,  shower #5 clean and roomy",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Mindaugas Prismontas_Awesome_truck_stop,_shower_#5_clean_and_roomy_6 years ago"
+        },
+        {
+          "reviewerName": "Charles fox",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… very nice clean, awesome people very friendly. The bathrooms were spotless and so was my shower #2 was nice not any dirt grease or anything great water pressure and the water actually got hot! Was a great experience one of the best loves …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Charles fox_…_very_nice_clean,_awesome_people_very_friendly._T_6 years ago"
+        },
+        {
+          "reviewerName": "Joseph Copley",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Great Place to get Gas, food, Shower 🚿 etc …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 35,
+          "uniqueId": "Joseph Copley_Great_Place_to_get_Gas,_food,_Shower_🚿_etc_…_3 months ago"
+        },
+        {
+          "reviewerName": "hussen ibrahim",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "\"The best Love's Truck Stop in the entire Country. Plenty parking spot, Clean restrooms and 5 Star 🌟 hot Shower\" Topnotch. …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "hussen ibrahim_\"The_best_Love's_Truck_Stop_in_the_entire_Country._2 years ago"
+        },
+        {
+          "reviewerName": "Steve Criddle",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Good Shower Drains",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 49,
+          "uniqueId": "Steve Criddle_Good_Shower_Drains_5 months ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25727 Duroc St, Circleville, OH 43113, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@39.557944,-82.9616041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x884776fb78d7a2a1:0x1749c8c48d0f78eb!8m2!3d39.5562945!4d-82.9576726!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWS1pUWjRMV0ZCWjA1cVpuSkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F11d_bh5ml8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.8(1",
+      "city": "977)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.6463339",
+      "lng": "-83.5429079",
+      "phone": "+1 740-426-9136",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Ronald Robinson",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "… ppl. The big dude and two older lady cut the showers off from last night until 530 am because somebody called off yet all 3 of y’all sitting behind the counter yappy your gums instead of stepping up and taking care of business. I waited …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Ronald Robinson_…_ppl._The_big_dude_and_two_older_lady_cut_the_sho_6 months ago"
+        },
+        {
+          "reviewerName": "VOLODYMYR Odessitt",
+          "rating": "3 stars",
+          "reviewDate": "Edited a year ago",
+          "reviewText": "The service is not very good, the shower is dirty. We hope that the situation will change for the better.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "VOLODYMYR Odessitt_The_service_is_not_very_good,_the_shower_is_dirty._Edited a year ago"
+        },
+        {
+          "reviewerName": "Alexandra McGinnis",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Stopped for the night and got a shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 19,
+          "uniqueId": "Alexandra McGinnis_Stopped_for_the_night_and_got_a_shower._…_10 months ago"
+        },
+        {
+          "reviewerName": "SHANE WILLIAMS",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Reserved a shower and they canceled my reservation and told me I had to buy another one, desk doenst know what they are doing, didnt wear gloves when touching food and refused to refund it after touching my food with nasty ungloved hands, …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 27,
+          "uniqueId": "SHANE WILLIAMS_Reserved_a_shower_and_they_canceled_my_reservation_6 months ago"
+        },
+        {
+          "reviewerName": "Indian Blues",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Showers are relaxing for truck drivers. But here, it's stressful. The cleaning lady complains but doesn't clean. She only cleans after complaints. My husband inquired. She replied, \"Take a shower at another truck stop!\" The female employee …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 35,
+          "uniqueId": "Indian Blues_Showers_are_relaxing_for_truck_drivers._But_here,__a year ago"
+        },
+        {
+          "reviewerName": "Jeff Gray",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "It’s sad how much this location has declined. As a driver we expect CLEAN showers and good food options. This truck stop is understaffed and falling apart. Dirty showers and the person cleaning them isn’t even using any cleaning equipment. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 43,
+          "uniqueId": "Jeff Gray_It’s_sad_how_much_this_location_has_declined._As_a_a year ago"
+        },
+        {
+          "reviewerName": "Richard Banda",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Terrible shower service. Only 2 people in line but you wait 74minutes to be alocated a shower. Takes forever to prepare a shower for the next guest. Showers will be empty for long before cleaning and reassigning next guest",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Richard Banda_Terrible_shower_service._Only_2_people_in_line_but_10 months ago"
+        },
+        {
+          "reviewerName": "Driver 2.0",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "They won't let us use showers because the electronic system is down. They admit they could still do it with a key and let people in but \"that would be so much work for us\". No kidding. Your job is literally to service the truck drivers! It' …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 58,
+          "uniqueId": "Driver 2.0_They_won't_let_us_use_showers_because_the_electron_2 years ago"
+        },
+        {
+          "reviewerName": "Jeff",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "1 star for the fact that they have 4 or 5 people working up front,  and 5 of 7 showers open & need cleaned. Waiting over 30 minutes for a shower but the people working inside can't be bothered to clean one. Only one guy does them & he's …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Jeff_1_star_for_the_fact_that_they_have_4_or_5_people_w_a year ago"
+        },
+        {
+          "reviewerName": "Tristan B",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Showers were cold and u clean.. the soap residue on the shower head made me think twice about going here over loves.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 74,
+          "uniqueId": "Tristan B_Showers_were_cold_and_u_clean.._the_soap_residue_o_a year ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "9935 State Rte 41, Washington Court House, OH 43128, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@39.6463339,-83.5429079,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88475271ab5c2beb:0xda5b484992dc860e!8m2!3d39.6463339!4d-83.5384018!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tzgkb1r?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 3.0(1)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.715595",
+      "lng": "-82.9924761",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "5065 S Walnut St, South Bloomfield, OH 43103, United States",
+      "rating": "3.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@39.715595,-82.9924761,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88477f79d43ed88b:0xb66c2442e56f6119!8m2!3d39.715595!4d-82.98797!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11xkd65grt?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.5(1",
+      "city": "560)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.6166434",
+      "lng": "-83.6082553",
+      "phone": "+1 740-948-2365",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Anton Tykhniuk",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Please note that the staff responsible for cleaning the shower cabins are not doing their job. I came at 11:50 PM, and now it’s 12:15 AM. I can see that there are free showers, but no one has cleaned them for nearly half an hour. This means …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Anton Tykhniuk_Please_note_that_the_staff_responsible_for_cleanin_a month ago"
+        },
+        {
+          "reviewerName": "AVF EXPRESS LLC",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Booked my shower. App says 8 min wait time\n\nCame to take a  shower  a lot off shower that need to be clean  no one  is here to do so\n\n8 people in line.\nTry to call. Store and Gm  but no answer\nStore is not keeping up white the app",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "AVF EXPRESS LLC_Booked_my_shower._App_says_8_min_wait_time_Came_t_a month ago"
+        },
+        {
+          "reviewerName": "Scythe_Voltage -",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Currently waiting 1.75 hours for a shower when it’s not even busy. They aren’t cleaning the showers, the TA app hasn’t updated since I placed the shower, nobody is answering the phone, easily top 10 worst truck stops I’ve been too",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 15,
+          "uniqueId": "Scythe_Voltage -_Currently_waiting_1.75_hours_for_a_shower_when_it’_a month ago"
+        },
+        {
+          "reviewerName": "Jessica",
+          "rating": "2 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "I asking for the owner or manager,  I not know who the beard man work night time he just didn't glove take off when he touch sweat his head/beard/face when he gave us a towels/rags for shower.  The shower water was  good and not stink.  Nee …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 22,
+          "uniqueId": "Jessica_I_asking_for_the_owner_or_manager,_I_not_know_who_11 months ago"
+        },
+        {
+          "reviewerName": "OfTheChase",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… I don't fuel here so I had to buy a shower $14 which I thought was kind of expensive …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 30,
+          "uniqueId": "OfTheChase_…_I_don't_fuel_here_so_I_had_to_buy_a_shower_$14_w_7 years ago"
+        },
+        {
+          "reviewerName": "R B",
+          "rating": "1 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "15$ for parking I expected a clean shower. staff isn't very polite either. I won't be stopping here ever again, I'll go to the loves or sleep on the shoulder!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 39,
+          "uniqueId": "R B_15$_for_parking_I_expected_a_clean_shower._staff_i_8 years ago"
+        },
+        {
+          "reviewerName": "225yzzy zzzz",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… drinks or sugar free soft drinks and absolutely no sparkling waters. It’s been months since I’ve taken a shower or ate at the establishment because of past disappointments. Overall It shows that the staff don’t give a damn about that …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 49,
+          "uniqueId": "225yzzy zzzz_…_drinks_or_sugar_free_soft_drinks_and_absolutely__a year ago"
+        },
+        {
+          "reviewerName": "Jeff Breeden",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The good parts: Shower was excellent. Clean, good water pressure, hot water and nice towels. Best truck stop shower I've had in a long time. Restaurant was clean and service was quick and friendly. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 57,
+          "uniqueId": "Jeff Breeden_The_good_parts:_Shower_was_excellent._Clean,_good__6 years ago"
+        },
+        {
+          "reviewerName": "James Lolan",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Way too many paid parking spots.  Many places allow us to park in a reserved parking spot when it is early to get a quick shower and dinner.  Not this place!  I told the fuel attendant my truck number and what we were doing he rudely said …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "James Lolan_Way_too_many_paid_parking_spots._Many_places_allo_5 years ago"
+        },
+        {
+          "reviewerName": "Scott Wooldridge",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Restaurants close at 5pm. Nearly all the parking is paid. The water pressure in the shower sucks. There are better options nearby.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 73,
+          "uniqueId": "Scott Wooldridge_Restaurants_close_at_5pm._Nearly_all_the_parking_i_a year ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "",
+      "address": "12403 US-35, Jeffersonville, OH 43128, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@39.6166434,-83.6082553,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8840b2c63db17c73:0xe7794ce5e3065efc!8m2!3d39.6166434!4d-83.6037492!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU55T1hKaFVHWlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCJsCECw!16s%2Fg%2F1tf16kc2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Truck-stop chain offering fuel & food. Many have amenities such as laundry rooms, showers & lodging.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "TA Travel Center",
+      "street": "TA Travel Center 3.6(1",
+      "city": "867)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.6166434",
+      "lng": "-83.6082553",
+      "phone": "+1 740-948-2365",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Anton Tykhniuk",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Please note that the staff responsible for cleaning the shower cabins are not doing their job. I came at 11:50 PM, and now it’s 12:15 AM. I can see that there are free showers, but no one has cleaned them for nearly half an hour. This means …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Anton Tykhniuk_Please_note_that_the_staff_responsible_for_cleanin_a month ago"
+        },
+        {
+          "reviewerName": "AVF EXPRESS LLC",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Booked my shower. App says 8 min wait time\n\nCame to take a  shower  a lot off shower that need to be clean  no one  is here to do so\n\n8 people in line.\nTry to call. Store and Gm  but no answer\nStore is not keeping up white the app",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "AVF EXPRESS LLC_Booked_my_shower._App_says_8_min_wait_time_Came_t_a month ago"
+        },
+        {
+          "reviewerName": "Scythe_Voltage -",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Currently waiting 1.75 hours for a shower when it’s not even busy. They aren’t cleaning the showers, the TA app hasn’t updated since I placed the shower, nobody is answering the phone, easily top 10 worst truck stops I’ve been too",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 15,
+          "uniqueId": "Scythe_Voltage -_Currently_waiting_1.75_hours_for_a_shower_when_it’_a month ago"
+        },
+        {
+          "reviewerName": "Jessica",
+          "rating": "2 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "I asking for the owner or manager,  I not know who the beard man work night time he just didn't glove take off when he touch sweat his head/beard/face when he gave us a towels/rags for shower.  The shower water was  good and not stink.  Nee …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 22,
+          "uniqueId": "Jessica_I_asking_for_the_owner_or_manager,_I_not_know_who_11 months ago"
+        },
+        {
+          "reviewerName": "OfTheChase",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… I don't fuel here so I had to buy a shower $14 which I thought was kind of expensive …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 30,
+          "uniqueId": "OfTheChase_…_I_don't_fuel_here_so_I_had_to_buy_a_shower_$14_w_7 years ago"
+        },
+        {
+          "reviewerName": "R B",
+          "rating": "1 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "15$ for parking I expected a clean shower. staff isn't very polite either. I won't be stopping here ever again, I'll go to the loves or sleep on the shoulder!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 39,
+          "uniqueId": "R B_15$_for_parking_I_expected_a_clean_shower._staff_i_8 years ago"
+        },
+        {
+          "reviewerName": "225yzzy zzzz",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… drinks or sugar free soft drinks and absolutely no sparkling waters. It’s been months since I’ve taken a shower or ate at the establishment because of past disappointments. Overall It shows that the staff don’t give a damn about that …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 49,
+          "uniqueId": "225yzzy zzzz_…_drinks_or_sugar_free_soft_drinks_and_absolutely__a year ago"
+        },
+        {
+          "reviewerName": "Jeff Breeden",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "The good parts: Shower was excellent. Clean, good water pressure, hot water and nice towels. Best truck stop shower I've had in a long time. Restaurant was clean and service was quick and friendly. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 57,
+          "uniqueId": "Jeff Breeden_The_good_parts:_Shower_was_excellent._Clean,_good__6 years ago"
+        },
+        {
+          "reviewerName": "James Lolan",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Way too many paid parking spots.  Many places allow us to park in a reserved parking spot when it is early to get a quick shower and dinner.  Not this place!  I told the fuel attendant my truck number and what we were doing he rudely said …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "James Lolan_Way_too_many_paid_parking_spots._Many_places_allo_5 years ago"
+        },
+        {
+          "reviewerName": "Scott Wooldridge",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Restaurants close at 5pm. Nearly all the parking is paid. The water pressure in the shower sucks. There are better options nearby.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 73,
+          "uniqueId": "Scott Wooldridge_Restaurants_close_at_5pm._Nearly_all_the_parking_i_a year ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "",
+      "address": "12403 US-35, Jeffersonville, OH 43128, United States",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "TA+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@39.6166434,-83.6082553,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8840b2c63db17c73:0xe7794ce5e3065efc!8m2!3d39.6166434!4d-83.6037492!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU55T1hKaFVHWlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEFCJsCECw!16s%2Fg%2F1tf16kc2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Truck-stop chain offering fuel & food. Many have amenities such as laundry rooms, showers & lodging.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.9(2",
+      "city": "662)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.557944",
+      "lng": "-82.9616041",
+      "phone": "+1 740-420-0702",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Free Speech",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… is real good at communicating  with customers. They did some upgrades here. The showers are big and have 2 shower heads so you can wash both sides at same time. Plenty of seating in showers and places to hang your shower bags The girl …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Free Speech_…_is_real_good_at_communicating_with_customers._T_2 years ago"
+        },
+        {
+          "reviewerName": "Tiffany",
+          "rating": "3 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Shower sucks. No counter space. Nowhere to put anything. Water pressure goes in and out, as well as hot & cold. Super annoying.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Tiffany_Shower_sucks._No_counter_space._Nowhere_to_put_any_8 years ago"
+        },
+        {
+          "reviewerName": "Patrica Morales",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The staff at night is so nice and helpful. The man that cleans the shower is so sweet and there's only 2 showers but he gets them cleaned right away. I would definitely  park here again and stay..",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Patrica Morales_The_staff_at_night_is_so_nice_and_helpful._The_man_a year ago"
+        },
+        {
+          "reviewerName": "Timothy McCoy Jr.",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Staff Is Friendly But Awkward! Lots Of Parking If You Want A Shower Better To Go To Loves! This Place Would Also Be Alot Cleaner If The Put Dog Potty Bags To Grab, People Need To Have Some If You Don't They Do Not Provide!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Timothy McCoy Jr._Staff_Is_Friendly_But_Awkward!_Lots_Of_Parking_If__a year ago"
+        },
+        {
+          "reviewerName": "Max Mahd",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… place.  Ohh let me tell you about this place! The staff AMAZING, the parking AMAZING, the bathrooms/shower AMAZING everything about this pilot was amazing! Only thing I didn’t like and it’s just me is they didn’t have ice cream. I was …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 34,
+          "uniqueId": "Max Mahd_…_place._Ohh_let_me_tell_you_about_this_place!_Th_a year ago"
+        },
+        {
+          "reviewerName": "Dwight Jackson",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I'll give this place 4 stars.. The food when available is good and reasonably priced. The showers and restrooms are clean. The shower is pricey at 17.00 but I had a credit. Shower 1 is absolutely awesome. 2 showerheads and a flexible hose. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "Dwight Jackson_I'll_give_this_place_4_stars.._The_food_when_avail_a year ago"
+        },
+        {
+          "reviewerName": "Marco Polo",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "A stupid and lazy employee made me wait for the shower for the customer to come out and bring the key, but she didn't want to leave, instead cleaning up her smartphone. Points were written off for the shower and it's a pity for the time …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 50,
+          "uniqueId": "Marco Polo_A_stupid_and_lazy_employee_made_me_wait_for_the_sh_a year ago"
+        },
+        {
+          "reviewerName": "Mr. Anderson",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… .  The staff are awesome and will help you find an item without any issue.  Large selection of snacks and food but not as large as Loves next door.  Shower area was clean during my visit.  The lot was very dirty as was the floor.  I …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Mr. Anderson_…_._The_staff_are_awesome_and_will_help_you_find__7 years ago"
+        },
+        {
+          "reviewerName": "Kimi Snow",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… between Columbus, Oh & Ashland, Ky. Good coffee, soda & water selection, and grilled food is always fresh & hot. Bathrooms & showers are always clean. Employees are very polite & friendly too. I've been stopping here for years and I've …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "bathroom",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Kimi Snow_…_between_Columbus,_Oh_&_Ashland,_Ky._Good_coffee,_7 years ago"
+        },
+        {
+          "reviewerName": "Crystal Beach",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Showers are dated but clean. You have to get a key for the showers. Can't use the app for showers here. Store is clean and nice parking lot lay out here for easy parking. come back to this pilot had to wait for a shower lady said I will …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 74,
+          "uniqueId": "Crystal Beach_Showers_are_dated_but_clean._You_have_to_get_a_key_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, wash, clean, bathroom, restroom",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25600 US-23, Circleville, OH 43113, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@39.557944,-82.9616041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x884776fc6ef09fc3:0xbe66799d422e7b60!8m2!3d39.557944!4d-82.957098!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1thl_3s5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.9(976)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.557944",
+      "lng": "-82.9616041",
+      "phone": "+1 740-474-4126",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Nick Farrar",
+          "rating": "3 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Place is good. It’s no worse no better than most. The thing I don’t get with places that have showers. Why aren’t they individually heated and cooled. You sweat after a shower in the summer and freeze after a shower in the winter. That’s …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Nick Farrar_Place_is_good._It’s_no_worse_no_better_than_most.__4 months ago"
+        },
+        {
+          "reviewerName": "M'lady Rose",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "We ride in a semi, so we come across A LOT of truck stops and other Love's. It was very clean. The showers were upgraded and nice. Large shower rooms. Customer service was a little slow on helping. I stood at both registers for a bit before …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "M'lady Rose_We_ride_in_a_semi,_so_we_come_across_A_LOT_of_truc_3 years ago"
+        },
+        {
+          "reviewerName": "Mindaugas Prismontas",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Awesome truck stop,  shower #5 clean and roomy",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "Mindaugas Prismontas_Awesome_truck_stop,_shower_#5_clean_and_roomy_6 years ago"
+        },
+        {
+          "reviewerName": "Charles fox",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… very nice clean, awesome people very friendly. The bathrooms were spotless and so was my shower #2 was nice not any dirt grease or anything great water pressure and the water actually got hot! Was a great experience one of the best loves …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Charles fox_…_very_nice_clean,_awesome_people_very_friendly._T_6 years ago"
+        },
+        {
+          "reviewerName": "Joseph Copley",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Great Place to get Gas, food, Shower 🚿 etc …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 35,
+          "uniqueId": "Joseph Copley_Great_Place_to_get_Gas,_food,_Shower_🚿_etc_…_3 months ago"
+        },
+        {
+          "reviewerName": "hussen ibrahim",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "\"The best Love's Truck Stop in the entire Country. Plenty parking spot, Clean restrooms and 5 Star 🌟 hot Shower\" Topnotch. …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 42,
+          "uniqueId": "hussen ibrahim_\"The_best_Love's_Truck_Stop_in_the_entire_Country._2 years ago"
+        },
+        {
+          "reviewerName": "Steve Criddle",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Good Shower Drains",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 49,
+          "uniqueId": "Steve Criddle_Good_Shower_Drains_5 months ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, bathroom, restroom",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "25727 Duroc St, Circleville, OH 43113, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@39.557944,-82.9616041,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x884776fb78d7a2a1:0x1749c8c48d0f78eb!8m2!3d39.5562945!4d-82.9576726!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWS1pUWjRMV0ZCWjA1cVpuSkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAED0!16s%2Fg%2F11d_bh5ml8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Circle K | Truck Stop",
+      "street": "Circle K | Truck Stop 4.2(179)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.715595",
+      "lng": "-82.9924761",
+      "phone": "+1 855-276-1947",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "Circle K | Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "5065 S Walnut St, South Bloomfield, OH 43103, United States",
+      "rating": "3.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Circle+K+%7C+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Circle+K+%7C+Truck+Stop/@39.715595,-82.9924761,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88477f79d43ed88b:0xb66c2442e56f6119!8m2!3d39.715595!4d-82.98797!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11xkd65grt?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "A & A Truck Stop",
+      "street": "A & A Truck Stop 4.2(2",
+      "city": "028)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "38.9964656",
+      "lng": "-82.5577745",
+      "phone": "+1 740-988-7793",
+      "website": "https://locations.pilotflyingj.com/us/oh/circleville/25600-us-23",
+      "content": "A & A Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "David Mclean",
+          "rating": "4 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "This is a TA now, nice big truck. Parking lot inside has a diner smells good. Lots of food options is high. Shower was clean and hot. They have the driver lounge as most do. Washer and dryer not set up yet. Staff is great. Would return",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "David Mclean_This_is_a_TA_now,_nice_big_truck._Parking_lot_insi_4 months ago"
+        },
+        {
+          "reviewerName": "David Mclean",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "David McleanLocal Guide · 836 reviews · 963 photos",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 3,
+          "uniqueId": "David Mclean_David_McleanLocal_Guide_·_836_reviews_·_963_photos_nodate"
+        },
+        {
+          "reviewerName": "Ralph “Chicken” Pots",
+          "rating": "5 stars",
+          "reviewDate": "Edited 2 months ago",
+          "reviewText": "… We need lines t a petro . And that hot box on the store side was a horrible idea for biscuit options . The biscuit was so dry I couldn’t eat it and tasted nasty . Where is the point system at ?????? We like to shower but not for 17 dollars",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 9,
+          "uniqueId": "Ralph “Chicken” Pots_…_We_need_lines_t_a_petro_._And_that_hot_box_on_th_Edited 2 months ago"
+        },
+        {
+          "reviewerName": "K Cook",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… fancy but a great place to park the truck. C store has everything you need. Restaurant seems to stay busy. Food is good. Shower is my only negative. It wasn’t clean. Toilet was disgusting. Thank God I took my own towel/bath cloth because …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 17,
+          "uniqueId": "K Cook_…_fancy_but_a_great_place_to_park_the_truck._C_sto_a year ago"
+        },
+        {
+          "reviewerName": "Crystal Beach",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Nice clean truck stop. Mom and pop restaurant here good selection of food. Excellent bake potatoes. Friendly waitress. Food come out fast and hot. You can do laundry and take a shower. Driver lounge with a big TV.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "Crystal Beach_Nice_clean_truck_stop._Mom_and_pop_restaurant_here_6 years ago"
+        },
+        {
+          "reviewerName": "Mike Mckee",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Place is a rip off no free shower when you put fuel.on have to buy one",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 36,
+          "uniqueId": "Mike Mckee_Place_is_a_rip_off_no_free_shower_when_you_put_fue_3 months ago"
+        },
+        {
+          "reviewerName": "Jimmy Mader",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… I’m driving. Friendly staff. Clean diner. Only missing one star because the shower didn’t have scalding water. Probably from the washer machines going. That said, he shower was only $7.50 and that shower money adds up. Everything you need …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 43,
+          "uniqueId": "Jimmy Mader_…_I’m_driving._Friendly_staff._Clean_diner._Only_m_5 years ago"
+        },
+        {
+          "reviewerName": "Cory Mckague",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… not good at all. Very rude ppl all around. I asked for a shower and I was told it could be days b4 one was cleaned for me to use, and from What I hear they're not even clean after they clean it. Yes there is a place to park and gas, but …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 51,
+          "uniqueId": "Cory Mckague_…_not_good_at_all._Very_rude_ppl_all_around._I_ask_a year ago"
+        },
+        {
+          "reviewerName": "Deacon Blues",
+          "rating": "5 stars",
+          "reviewDate": "10 years ago",
+          "reviewText": "This use to be a great stop to sleep shower and eat, now there's a bajillion trucks on the road now and everybody has a GPS now; Now everybody knows about it now. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 59,
+          "uniqueId": "Deacon Blues_This_use_to_be_a_great_stop_to_sleep_shower_and_ea_10 years ago"
+        },
+        {
+          "reviewerName": "Douglas Smart",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… like to say the restaurant is really good and the food is great you can always find a place to park but do not take a shower I was in shower #1 and shower head didn't half work the water would change from warm to cold and then to so hot it …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 67,
+          "uniqueId": "Douglas Smart_…_like_to_say_the_restaurant_is_really_good_and_th_5 years ago"
+        },
+        {
+          "reviewerName": "charles pike",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "I have been going here for 12 years. I can get a good meal 24 hours a day and I have used there shower's many times. You can't beat this place.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 75,
+          "uniqueId": "charles pike_I_have_been_going_here_for_12_years._I_can_get_a_g_5 years ago"
+        }
+      ],
+      "showerReviewCount": 11,
+      "showerReviewSummary": "11 shower-related reviews found. Generally Positive mentions of: shower, clean, wash",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "80 Dixon Run Rd, Jackson, OH 45640, United States",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "A+%26+A+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/A+%26+A+Truck+Stop/@38.9964656,-82.5577745,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x88463607b1e2f257:0x364cf13da2fd19f4!8m2!3d38.9964656!4d-82.5532684!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVF0YWxsMU5tRlJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRA!16s%2Fg%2F1tc_lv20?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}

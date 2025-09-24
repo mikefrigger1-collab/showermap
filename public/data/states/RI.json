@@ -1,0 +1,58 @@
+{
+  "state": "RI",
+  "stateName": "Rhode Island",
+  "locations": [
+    {
+      "title": "Route 24 N Truck Parking",
+      "street": "Route 24 N Truck Parking 4.7(3)Truck stop",
+      "city": "Tiverton",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.6420994",
+      "lng": "-72.3467886",
+      "phone": "(401) 397-7774",
+      "website": "https://www.ta-petro.com/location/ri/ta-west-greenwich",
+      "content": "Route 24 N Truck Parking may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "859 Victory Hwy, West Greenwich, RI 02817",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Route+24+N+Truck+Parking",
+      "googleMapsUrl": "https://www.google.com/maps/place/Route+24+N+Truck+Parking/@41.6420994,-72.3467886,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89e4557d92c9971b:0xee794cbf7caf63f3!8m2!3d41.6420994!4d-71.1932241!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11tn9trvlb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "West Greenwich",
+      "sourceState": "RI",
+      "timestamp": "2025-09-23T12:55:02.669Z",
+      "state": "RI"
+    }
+  ],
+  "cities": [
+    "Tiverton"
+  ],
+  "totalReviews": 0,
+  "categories": [
+    "Public Facility"
+  ],
+  "locationsWithPhone": 1,
+  "timestamp": "2025-09-24T08:19:44.630Z",
+  "locationCount": 1
+}

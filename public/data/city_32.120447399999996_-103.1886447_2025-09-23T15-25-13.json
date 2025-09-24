@@ -1,0 +1,1531 @@
+{
+  "timestamp": "2025-09-24T06:45:01.177Z",
+  "city": "32.120447399999996",
+  "state": "-103.1886447",
+  "sessionId": "2025-09-23T15-25-13",
+  "totalLocations": 10,
+  "locationsWithShowerReviews": 10,
+  "totalShowerReviews": 95,
+  "locations": [
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.8(441)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 575-395-2927",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Rebekah Redfern",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We waited for over an hour for a shower. The gentleman who asked one of the employees who was refreshing the coffee what was taking so long told him that the gentleman who cleaned the rooms was on lunch. He had already been waiting well …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Rebekah Redfern_We_waited_for_over_an_hour_for_a_shower._The_gentl_7 months ago"
+        },
+        {
+          "reviewerName": "Steven Macedo",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Worst pilot to take a shower. The mornings and afternoons. they dont clean showers so people trying to shower in the morning and afternoons good luck! Manager doesn’t care when brought to his attention.do your job!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Steven Macedo_Worst_pilot_to_take_a_shower._The_mornings_and_aft_7 months ago"
+        },
+        {
+          "reviewerName": "Curtilius Erving",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… hour I entered the store. There were 6 people in line for showers..some were upset yet some understood (like myself) not to mention the many individuals that were there purchasing others items…etc! Sheila informed everyone who was getting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 17,
+          "uniqueId": "Curtilius Erving_…_hour_I_entered_the_store._There_were_6_people_in_3 years ago"
+        },
+        {
+          "reviewerName": "Pedro Rivera",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I like this truck stop but when I come in to shower and watch the guy that cleans the showers use a squeegee to remove water and a dirty wash cloth to wipe down the sink a dirty towel to mop the floor no chemicals were used to sanitize the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 25,
+          "uniqueId": "Pedro Rivera_I_like_this_truck_stop_but_when_I_come_in_to_showe_a year ago"
+        },
+        {
+          "reviewerName": "Ali Iqbal",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Everytime when go for shower there is NO BATHMATH. 2 days ago I complained but Employees don’t give a damn",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "Ali Iqbal_Everytime_when_go_for_shower_there_is_NO_BATHMATH._a year ago"
+        },
+        {
+          "reviewerName": "Jake Odom",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "45 minutes to clean one shower. People walked out of the shower when I came in. Been the first in line since",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Jake Odom_45_minutes_to_clean_one_shower._People_walked_out__2 years ago"
+        },
+        {
+          "reviewerName": "The Dude",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "No water in the whole facility. Cant take a shower or even wash your hands. No idea when it will return.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 47,
+          "uniqueId": "The Dude_No_water_in_the_whole_facility._Cant_take_a_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Ruben Cruz",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Must buy at least 100 gallons of diesel just to get a free shower!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Ruben Cruz_Must_buy_at_least_100_gallons_of_diesel_just_to_ge_6 years ago"
+        },
+        {
+          "reviewerName": "Javier Pereira",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "The worst thing for a shower is that it takes more than 3 hours to wait.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Javier Pereira_The_worst_thing_for_a_shower_is_that_it_takes_more_8 months ago"
+        },
+        {
+          "reviewerName": "Yesenia Flores",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "Few showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 70,
+          "uniqueId": "Yesenia Flores_Few_showers_Edited 6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, wash",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "410 E Kansas Ave, Jal, NM 88252, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86fb4359e076e309:0x97ade767d046dca6!8m2!3d32.1204474!4d-103.1886447!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJIY2twUVVWcDNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBUQIA!16s%2Fg%2F11fhk8vvws?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.4(127)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 575-395-2927",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Rebekah Redfern",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We waited for over an hour for a shower. The gentleman who asked one of the employees who was refreshing the coffee what was taking so long told him that the gentleman who cleaned the rooms was on lunch. He had already been waiting well …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Rebekah Redfern_We_waited_for_over_an_hour_for_a_shower._The_gentl_7 months ago"
+        },
+        {
+          "reviewerName": "Steven Macedo",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Worst pilot to take a shower. The mornings and afternoons. they dont clean showers so people trying to shower in the morning and afternoons good luck! Manager doesn’t care when brought to his attention.do your job!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Steven Macedo_Worst_pilot_to_take_a_shower._The_mornings_and_aft_7 months ago"
+        },
+        {
+          "reviewerName": "Curtilius Erving",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… hour I entered the store. There were 6 people in line for showers..some were upset yet some understood (like myself) not to mention the many individuals that were there purchasing others items…etc! Sheila informed everyone who was getting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 17,
+          "uniqueId": "Curtilius Erving_…_hour_I_entered_the_store._There_were_6_people_in_3 years ago"
+        },
+        {
+          "reviewerName": "Pedro Rivera",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I like this truck stop but when I come in to shower and watch the guy that cleans the showers use a squeegee to remove water and a dirty wash cloth to wipe down the sink a dirty towel to mop the floor no chemicals were used to sanitize the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 25,
+          "uniqueId": "Pedro Rivera_I_like_this_truck_stop_but_when_I_come_in_to_showe_a year ago"
+        },
+        {
+          "reviewerName": "Ali Iqbal",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Everytime when go for shower there is NO BATHMATH. 2 days ago I complained but Employees don’t give a damn",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "Ali Iqbal_Everytime_when_go_for_shower_there_is_NO_BATHMATH._a year ago"
+        },
+        {
+          "reviewerName": "Jake Odom",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "45 minutes to clean one shower. People walked out of the shower when I came in. Been the first in line since",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Jake Odom_45_minutes_to_clean_one_shower._People_walked_out__2 years ago"
+        },
+        {
+          "reviewerName": "The Dude",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "No water in the whole facility. Cant take a shower or even wash your hands. No idea when it will return.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 47,
+          "uniqueId": "The Dude_No_water_in_the_whole_facility._Cant_take_a_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Ruben Cruz",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Must buy at least 100 gallons of diesel just to get a free shower!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Ruben Cruz_Must_buy_at_least_100_gallons_of_diesel_just_to_ge_6 years ago"
+        },
+        {
+          "reviewerName": "Javier Pereira",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "The worst thing for a shower is that it takes more than 3 hours to wait.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Javier Pereira_The_worst_thing_for_a_shower_is_that_it_takes_more_8 months ago"
+        },
+        {
+          "reviewerName": "Yesenia Flores",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "Few showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 70,
+          "uniqueId": "Yesenia Flores_Few_showers_Edited 6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, wash",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "410 E Kansas Ave, Jal, NM 88252, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86fb4359e076e309:0x97ade767d046dca6!8m2!3d32.1204474!4d-103.1886447!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJIY2twUVVWcDNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBUQIA!16s%2Fg%2F11fhk8vvws?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.8(165)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 575-395-2927",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Rebekah Redfern",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We waited for over an hour for a shower. The gentleman who asked one of the employees who was refreshing the coffee what was taking so long told him that the gentleman who cleaned the rooms was on lunch. He had already been waiting well …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Rebekah Redfern_We_waited_for_over_an_hour_for_a_shower._The_gentl_7 months ago"
+        },
+        {
+          "reviewerName": "Steven Macedo",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Worst pilot to take a shower. The mornings and afternoons. they dont clean showers so people trying to shower in the morning and afternoons good luck! Manager doesn’t care when brought to his attention.do your job!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Steven Macedo_Worst_pilot_to_take_a_shower._The_mornings_and_aft_7 months ago"
+        },
+        {
+          "reviewerName": "Curtilius Erving",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… hour I entered the store. There were 6 people in line for showers..some were upset yet some understood (like myself) not to mention the many individuals that were there purchasing others items…etc! Sheila informed everyone who was getting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 17,
+          "uniqueId": "Curtilius Erving_…_hour_I_entered_the_store._There_were_6_people_in_3 years ago"
+        },
+        {
+          "reviewerName": "Pedro Rivera",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I like this truck stop but when I come in to shower and watch the guy that cleans the showers use a squeegee to remove water and a dirty wash cloth to wipe down the sink a dirty towel to mop the floor no chemicals were used to sanitize the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 25,
+          "uniqueId": "Pedro Rivera_I_like_this_truck_stop_but_when_I_come_in_to_showe_a year ago"
+        },
+        {
+          "reviewerName": "Ali Iqbal",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Everytime when go for shower there is NO BATHMATH. 2 days ago I complained but Employees don’t give a damn",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "Ali Iqbal_Everytime_when_go_for_shower_there_is_NO_BATHMATH._a year ago"
+        },
+        {
+          "reviewerName": "Jake Odom",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "45 minutes to clean one shower. People walked out of the shower when I came in. Been the first in line since",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Jake Odom_45_minutes_to_clean_one_shower._People_walked_out__2 years ago"
+        },
+        {
+          "reviewerName": "The Dude",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "No water in the whole facility. Cant take a shower or even wash your hands. No idea when it will return.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 47,
+          "uniqueId": "The Dude_No_water_in_the_whole_facility._Cant_take_a_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Ruben Cruz",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Must buy at least 100 gallons of diesel just to get a free shower!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Ruben Cruz_Must_buy_at_least_100_gallons_of_diesel_just_to_ge_6 years ago"
+        },
+        {
+          "reviewerName": "Javier Pereira",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "The worst thing for a shower is that it takes more than 3 hours to wait.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Javier Pereira_The_worst_thing_for_a_shower_is_that_it_takes_more_8 months ago"
+        },
+        {
+          "reviewerName": "Yesenia Flores",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "Few showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 70,
+          "uniqueId": "Yesenia Flores_Few_showers_Edited 6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, wash",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "410 E Kansas Ave, Jal, NM 88252, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86fb4359e076e309:0x97ade767d046dca6!8m2!3d32.1204474!4d-103.1886447!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJIY2twUVVWcDNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBUQIA!16s%2Fg%2F11fhk8vvws?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.2(176)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 575-395-2927",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Rebekah Redfern",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We waited for over an hour for a shower. The gentleman who asked one of the employees who was refreshing the coffee what was taking so long told him that the gentleman who cleaned the rooms was on lunch. He had already been waiting well …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Rebekah Redfern_We_waited_for_over_an_hour_for_a_shower._The_gentl_7 months ago"
+        },
+        {
+          "reviewerName": "Steven Macedo",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Worst pilot to take a shower. The mornings and afternoons. they dont clean showers so people trying to shower in the morning and afternoons good luck! Manager doesn’t care when brought to his attention.do your job!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Steven Macedo_Worst_pilot_to_take_a_shower._The_mornings_and_aft_7 months ago"
+        },
+        {
+          "reviewerName": "Curtilius Erving",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… hour I entered the store. There were 6 people in line for showers..some were upset yet some understood (like myself) not to mention the many individuals that were there purchasing others items…etc! Sheila informed everyone who was getting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 17,
+          "uniqueId": "Curtilius Erving_…_hour_I_entered_the_store._There_were_6_people_in_3 years ago"
+        },
+        {
+          "reviewerName": "Pedro Rivera",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I like this truck stop but when I come in to shower and watch the guy that cleans the showers use a squeegee to remove water and a dirty wash cloth to wipe down the sink a dirty towel to mop the floor no chemicals were used to sanitize the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 25,
+          "uniqueId": "Pedro Rivera_I_like_this_truck_stop_but_when_I_come_in_to_showe_a year ago"
+        },
+        {
+          "reviewerName": "Ali Iqbal",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Everytime when go for shower there is NO BATHMATH. 2 days ago I complained but Employees don’t give a damn",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "Ali Iqbal_Everytime_when_go_for_shower_there_is_NO_BATHMATH._a year ago"
+        },
+        {
+          "reviewerName": "Jake Odom",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "45 minutes to clean one shower. People walked out of the shower when I came in. Been the first in line since",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Jake Odom_45_minutes_to_clean_one_shower._People_walked_out__2 years ago"
+        },
+        {
+          "reviewerName": "The Dude",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "No water in the whole facility. Cant take a shower or even wash your hands. No idea when it will return.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 47,
+          "uniqueId": "The Dude_No_water_in_the_whole_facility._Cant_take_a_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Ruben Cruz",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Must buy at least 100 gallons of diesel just to get a free shower!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Ruben Cruz_Must_buy_at_least_100_gallons_of_diesel_just_to_ge_6 years ago"
+        },
+        {
+          "reviewerName": "Javier Pereira",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "The worst thing for a shower is that it takes more than 3 hours to wait.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Javier Pereira_The_worst_thing_for_a_shower_is_that_it_takes_more_8 months ago"
+        },
+        {
+          "reviewerName": "Yesenia Flores",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "Few showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 70,
+          "uniqueId": "Yesenia Flores_Few_showers_Edited 6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, wash",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "410 E Kansas Ave, Jal, NM 88252, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86fb4359e076e309:0x97ade767d046dca6!8m2!3d32.1204474!4d-103.1886447!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJIY2twUVVWcDNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBUQIA!16s%2Fg%2F11fhk8vvws?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.8(629)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 575-395-2927",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Rebekah Redfern",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We waited for over an hour for a shower. The gentleman who asked one of the employees who was refreshing the coffee what was taking so long told him that the gentleman who cleaned the rooms was on lunch. He had already been waiting well …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Rebekah Redfern_We_waited_for_over_an_hour_for_a_shower._The_gentl_7 months ago"
+        },
+        {
+          "reviewerName": "Steven Macedo",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Worst pilot to take a shower. The mornings and afternoons. they dont clean showers so people trying to shower in the morning and afternoons good luck! Manager doesn’t care when brought to his attention.do your job!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Steven Macedo_Worst_pilot_to_take_a_shower._The_mornings_and_aft_7 months ago"
+        },
+        {
+          "reviewerName": "Curtilius Erving",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… hour I entered the store. There were 6 people in line for showers..some were upset yet some understood (like myself) not to mention the many individuals that were there purchasing others items…etc! Sheila informed everyone who was getting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 17,
+          "uniqueId": "Curtilius Erving_…_hour_I_entered_the_store._There_were_6_people_in_3 years ago"
+        },
+        {
+          "reviewerName": "Pedro Rivera",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I like this truck stop but when I come in to shower and watch the guy that cleans the showers use a squeegee to remove water and a dirty wash cloth to wipe down the sink a dirty towel to mop the floor no chemicals were used to sanitize the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 25,
+          "uniqueId": "Pedro Rivera_I_like_this_truck_stop_but_when_I_come_in_to_showe_a year ago"
+        },
+        {
+          "reviewerName": "Ali Iqbal",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Everytime when go for shower there is NO BATHMATH. 2 days ago I complained but Employees don’t give a damn",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "Ali Iqbal_Everytime_when_go_for_shower_there_is_NO_BATHMATH._a year ago"
+        },
+        {
+          "reviewerName": "Jake Odom",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "45 minutes to clean one shower. People walked out of the shower when I came in. Been the first in line since",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Jake Odom_45_minutes_to_clean_one_shower._People_walked_out__2 years ago"
+        },
+        {
+          "reviewerName": "The Dude",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "No water in the whole facility. Cant take a shower or even wash your hands. No idea when it will return.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 47,
+          "uniqueId": "The Dude_No_water_in_the_whole_facility._Cant_take_a_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Ruben Cruz",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Must buy at least 100 gallons of diesel just to get a free shower!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Ruben Cruz_Must_buy_at_least_100_gallons_of_diesel_just_to_ge_6 years ago"
+        },
+        {
+          "reviewerName": "Javier Pereira",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "The worst thing for a shower is that it takes more than 3 hours to wait.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Javier Pereira_The_worst_thing_for_a_shower_is_that_it_takes_more_8 months ago"
+        },
+        {
+          "reviewerName": "Yesenia Flores",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "Few showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 70,
+          "uniqueId": "Yesenia Flores_Few_showers_Edited 6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, wash",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "410 E Kansas Ave, Jal, NM 88252, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86fb4359e076e309:0x97ade767d046dca6!8m2!3d32.1204474!4d-103.1886447!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJIY2twUVVWcDNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBUQIA!16s%2Fg%2F11fhk8vvws?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.6(696)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 432-445-1490",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Bruce Gangnath",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Traveling through the West this is a great place to get gas, go to the bathroom, get a snack or a full meal! Many of the truckers who use Loves also can schedule a shower!",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 0,
+          "uniqueId": "Bruce Gangnath_Traveling_through_the_West_this_is_a_great_place_t_2 years ago"
+        },
+        {
+          "reviewerName": "Joshua Ray",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "The shower was dirty and covered in hair. Was not cleaned and the towels were dirty and smelled. Disgusting.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "Joshua Ray_The_shower_was_dirty_and_covered_in_hair._Was_not__2 months ago"
+        },
+        {
+          "reviewerName": "Justin",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… Clean bathrooms. Staff was above average considering I mostly fuel at pilot. But this location absolutely out produces 95% of the pilot/flying J's I've visited. Especially in the shower department. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 18,
+          "uniqueId": "Justin_…_Clean_bathrooms._Staff_was_above_average_conside_3 years ago"
+        },
+        {
+          "reviewerName": "N R",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "No hot water in the shower, no hot dogs available on the grill, menu board in Chester's out of order. Employees looked and acted miserable. Speaks volumes about the management here. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 26,
+          "uniqueId": "N R_No_hot_water_in_the_shower,_no_hot_dogs_available__a year ago"
+        },
+        {
+          "reviewerName": "Daniel Davis",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "This place is a disaster. Stopped in to get a shower. The app said 7 showers, 3 available. Actually, 3 were shut down to try and make the hot water go around. Which wasn't working since as I was waiting, 2 drivers came out and complained …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 34,
+          "uniqueId": "Daniel Davis_This_place_is_a_disaster._Stopped_in_to_get_a_show_3 years ago"
+        },
+        {
+          "reviewerName": "Timothy Montes de Oca",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Went in the store behind another driver watched him get a shower at 7pm when drivers are getting off work and need to feel human. Come back to the desk three minutes later to find out they are shutting down the showers for some made up …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 42,
+          "uniqueId": "Timothy Montes de Oca_Went_in_the_store_behind_another_driver_watched_hi_3 years ago"
+        },
+        {
+          "reviewerName": "Good G13",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… That’s why I prefer Pilot, they’re generous and always surpass your expectations. The only thing why I stopped here, bc currently I can’t buy a shower on Pilot’s app. I’m sure they’re gonna fix it.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Good G13_…_That’s_why_I_prefer_Pilot,_they’re_generous_and__a year ago"
+        },
+        {
+          "reviewerName": "Imur Brother",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… were dirty, but that can be expected since I showed up during the night rush. The shower that I tried to take a shower in was a completely different story. The lights were very similar, and the light in the shower was burned out, so I …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 58,
+          "uniqueId": "Imur Brother_…_were_dirty,_but_that_can_be_expected_since_I_sho_6 years ago"
+        },
+        {
+          "reviewerName": "Gerardo Orozco",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Literally spent $850 in diesel to fill up my tanks and get a “free shower” (which is the least truck stops can do for truck drivers). Checked in for the shower and I’m 8th in line at 11 PM because the lazy and useless ppl working Night …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 66,
+          "uniqueId": "Gerardo Orozco_Literally_spent_$850_in_diesel_to_fill_up_my_tanks_2 years ago"
+        },
+        {
+          "reviewerName": "Manuel Silva",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "I agree this is the most disgusting Love's truck stop .When you shower your showering with others peoples hairs, filthy. Employees seem like there only here for just a paycheck ..Nasty place first and last time taking a shower here.. With …",
+          "showerKeywords": [
+            "shower",
+            "showering"
+          ],
+          "index": 74,
+          "uniqueId": "Manuel Silva_I_agree_this_is_the_most_disgusting_Love's_truck_s_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers, showering",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "5202 S Cedar St, Pecos, TX 79772, United States",
+      "rating": "3.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86facc45d380b4e9:0x37fba2da9db3b7a4!8m2!3d31.3991465!4d-103.4803238!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5IYXpRdFdHUkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQJQ!16s%2Fg%2F11b6bgbmnd?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 4.0(265)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 575-395-2927",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Rebekah Redfern",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "We waited for over an hour for a shower. The gentleman who asked one of the employees who was refreshing the coffee what was taking so long told him that the gentleman who cleaned the rooms was on lunch. He had already been waiting well …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Rebekah Redfern_We_waited_for_over_an_hour_for_a_shower._The_gentl_7 months ago"
+        },
+        {
+          "reviewerName": "Steven Macedo",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Worst pilot to take a shower. The mornings and afternoons. they dont clean showers so people trying to shower in the morning and afternoons good luck! Manager doesn’t care when brought to his attention.do your job!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 10,
+          "uniqueId": "Steven Macedo_Worst_pilot_to_take_a_shower._The_mornings_and_aft_7 months ago"
+        },
+        {
+          "reviewerName": "Curtilius Erving",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… hour I entered the store. There were 6 people in line for showers..some were upset yet some understood (like myself) not to mention the many individuals that were there purchasing others items…etc! Sheila informed everyone who was getting …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 17,
+          "uniqueId": "Curtilius Erving_…_hour_I_entered_the_store._There_were_6_people_in_3 years ago"
+        },
+        {
+          "reviewerName": "Pedro Rivera",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I like this truck stop but when I come in to shower and watch the guy that cleans the showers use a squeegee to remove water and a dirty wash cloth to wipe down the sink a dirty towel to mop the floor no chemicals were used to sanitize the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 25,
+          "uniqueId": "Pedro Rivera_I_like_this_truck_stop_but_when_I_come_in_to_showe_a year ago"
+        },
+        {
+          "reviewerName": "Ali Iqbal",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Everytime when go for shower there is NO BATHMATH. 2 days ago I complained but Employees don’t give a damn",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "Ali Iqbal_Everytime_when_go_for_shower_there_is_NO_BATHMATH._a year ago"
+        },
+        {
+          "reviewerName": "Jake Odom",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "45 minutes to clean one shower. People walked out of the shower when I came in. Been the first in line since",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "Jake Odom_45_minutes_to_clean_one_shower._People_walked_out__2 years ago"
+        },
+        {
+          "reviewerName": "The Dude",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "No water in the whole facility. Cant take a shower or even wash your hands. No idea when it will return.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 47,
+          "uniqueId": "The Dude_No_water_in_the_whole_facility._Cant_take_a_shower_6 years ago"
+        },
+        {
+          "reviewerName": "Ruben Cruz",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Must buy at least 100 gallons of diesel just to get a free shower!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Ruben Cruz_Must_buy_at_least_100_gallons_of_diesel_just_to_ge_6 years ago"
+        },
+        {
+          "reviewerName": "Javier Pereira",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "The worst thing for a shower is that it takes more than 3 hours to wait.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 61,
+          "uniqueId": "Javier Pereira_The_worst_thing_for_a_shower_is_that_it_takes_more_8 months ago"
+        },
+        {
+          "reviewerName": "Yesenia Flores",
+          "rating": "3 stars",
+          "reviewDate": "Edited 6 years ago",
+          "reviewText": "Few showers",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 70,
+          "uniqueId": "Yesenia Flores_Few_showers_Edited 6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, wash",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "410 E Kansas Ave, Jal, NM 88252, United States",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86fb4359e076e309:0x97ade767d046dca6!8m2!3d32.1204474!4d-103.1886447!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJIY2twUVVWcDNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECBUQIA!16s%2Fg%2F11fhk8vvws?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 4.0(1",
+      "city": "800)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 432-336-3410",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mr. No Tengo Dinero",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… gas in the area! But this place is more than just gas but they provide little bit of everything for long distance driver or traveler as they provide shower, laundry, game room, food court and other essentials for trips! Twas a good one for …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Mr. No Tengo Dinero_…_gas_in_the_area!_But_this_place_is_more_than_jus_a month ago"
+        },
+        {
+          "reviewerName": "MDS (Outlaw6Alpha)",
+          "rating": "2 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… The handicap shower was missing bars and the chair in the shower itself. When I closed the door the fan fell off the wall.  The drain cover was behind the toilet instead of in the shower covering the drain. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 12,
+          "uniqueId": "MDS (Outlaw6Alpha)_…_The_handicap_shower_was_missing_bars_and_the_cha_a month ago"
+        },
+        {
+          "reviewerName": "Austin Stripes",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Do not shower here until this is rectified. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 20,
+          "uniqueId": "Austin Stripes_Do_not_shower_here_until_this_is_rectified._…_6 months ago"
+        },
+        {
+          "reviewerName": "Amy Flynn",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… her  she went above and beyond for me and my stinky little dog today.  All the employees were super nice and efficient  The store was very clean and so was my shower  There was a good variety of food items also  Great Experience Thanks Amy",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Amy Flynn_…_her_she_went_above_and_beyond_for_me_and_my_sti_3 months ago"
+        },
+        {
+          "reviewerName": "Rodrigo",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "The worst truck stop I've ever been to. Difficult parking, a two-hour wait to shower, no hot water in the showers, and no toilet paper in the public restrooms. Expensive diesel.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom"
+          ],
+          "index": 40,
+          "uniqueId": "Rodrigo_The_worst_truck_stop_I've_ever_been_to._Difficult__5 months ago"
+        },
+        {
+          "reviewerName": "Adrian Kirchev",
+          "rating": "1 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Why in every single truck stop I have to spend 2 hours of waiting for shower ? Losing 2 hours of my log book hours is a big deal!!! …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 47,
+          "uniqueId": "Adrian Kirchev_Why_in_every_single_truck_stop_I_have_to_spend_2_h_11 months ago"
+        },
+        {
+          "reviewerName": "John Blackwood",
+          "rating": "2 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "I am an over the road truck driver I always come to flying J To take my showers it’s been my experience that they are always the cleanest showers until today. There is only one towel no washcloths to scrub with in the shower and no bath mat …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 55,
+          "uniqueId": "John Blackwood_I_am_an_over_the_road_truck_driver_I_always_come_t_11 months ago"
+        },
+        {
+          "reviewerName": "ravi jha",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "Waiting time for shower is 2 hrs…no body to clean there…they don’t care about the drivers..shame on them…",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 64,
+          "uniqueId": "ravi jha_Waiting_time_for_shower_is_2_hrs…no_body_to_clean__5 months ago"
+        },
+        {
+          "reviewerName": "Jorge Ramirez",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "The only problem with this truck station is that they never have clean showers available. There can be 3 or 4 people waiting in line for hours.... every single time. They maybe need more employees or better management. My recommendation is …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "Jorge Ramirez_The_only_problem_with_this_truck_station_is_that_t_a year ago"
+        },
+        {
+          "reviewerName": "Juana Hernandez",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "I’m a Professional Driver & Reserved a shower and toilette was dirty with number 2 gross, then wet towels inside the shower bad experience!",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 80,
+          "uniqueId": "Juana Hernandez_I’m_a_Professional_Driver_&_Reserved_a_shower_and__6 months ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom, wash",
+      "hours": "",
+      "address": "2571 N Front St, Fort Stockton, TX 79735, United States",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86f07eba107afca5:0x11b337f7c3b036ff!8m2!3d30.9055848!4d-102.8851663!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJLTkV4NU5VTjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQSw!16s%2Fg%2F11b73ytctr?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 4.0(889)Truck stop",
+      "city": "",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "32.1204474",
+      "lng": "-105.4957736",
+      "phone": "+1 432-445-1490",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Bruce Gangnath",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Traveling through the West this is a great place to get gas, go to the bathroom, get a snack or a full meal! Many of the truckers who use Loves also can schedule a shower!",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 0,
+          "uniqueId": "Bruce Gangnath_Traveling_through_the_West_this_is_a_great_place_t_2 years ago"
+        },
+        {
+          "reviewerName": "Joshua Ray",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "The shower was dirty and covered in hair. Was not cleaned and the towels were dirty and smelled. Disgusting.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "Joshua Ray_The_shower_was_dirty_and_covered_in_hair._Was_not__2 months ago"
+        },
+        {
+          "reviewerName": "Justin",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… Clean bathrooms. Staff was above average considering I mostly fuel at pilot. But this location absolutely out produces 95% of the pilot/flying J's I've visited. Especially in the shower department. …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 18,
+          "uniqueId": "Justin_…_Clean_bathrooms._Staff_was_above_average_conside_3 years ago"
+        },
+        {
+          "reviewerName": "N R",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "No hot water in the shower, no hot dogs available on the grill, menu board in Chester's out of order. Employees looked and acted miserable. Speaks volumes about the management here. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 26,
+          "uniqueId": "N R_No_hot_water_in_the_shower,_no_hot_dogs_available__a year ago"
+        },
+        {
+          "reviewerName": "Daniel Davis",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "This place is a disaster. Stopped in to get a shower. The app said 7 showers, 3 available. Actually, 3 were shut down to try and make the hot water go around. Which wasn't working since as I was waiting, 2 drivers came out and complained …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 34,
+          "uniqueId": "Daniel Davis_This_place_is_a_disaster._Stopped_in_to_get_a_show_3 years ago"
+        },
+        {
+          "reviewerName": "Timothy Montes de Oca",
+          "rating": "1 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Went in the store behind another driver watched him get a shower at 7pm when drivers are getting off work and need to feel human. Come back to the desk three minutes later to find out they are shutting down the showers for some made up …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 42,
+          "uniqueId": "Timothy Montes de Oca_Went_in_the_store_behind_another_driver_watched_hi_3 years ago"
+        },
+        {
+          "reviewerName": "Good G13",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… That’s why I prefer Pilot, they’re generous and always surpass your expectations. The only thing why I stopped here, bc currently I can’t buy a shower on Pilot’s app. I’m sure they’re gonna fix it.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Good G13_…_That’s_why_I_prefer_Pilot,_they’re_generous_and__a year ago"
+        },
+        {
+          "reviewerName": "Imur Brother",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… were dirty, but that can be expected since I showed up during the night rush. The shower that I tried to take a shower in was a completely different story. The lights were very similar, and the light in the shower was burned out, so I …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 58,
+          "uniqueId": "Imur Brother_…_were_dirty,_but_that_can_be_expected_since_I_sho_6 years ago"
+        },
+        {
+          "reviewerName": "Gerardo Orozco",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Literally spent $850 in diesel to fill up my tanks and get a “free shower” (which is the least truck stops can do for truck drivers). Checked in for the shower and I’m 8th in line at 11 PM because the lazy and useless ppl working Night …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 66,
+          "uniqueId": "Gerardo Orozco_Literally_spent_$850_in_diesel_to_fill_up_my_tanks_2 years ago"
+        },
+        {
+          "reviewerName": "Manuel Silva",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "I agree this is the most disgusting Love's truck stop .When you shower your showering with others peoples hairs, filthy. Employees seem like there only here for just a paycheck ..Nasty place first and last time taking a shower here.. With …",
+          "showerKeywords": [
+            "shower",
+            "showering"
+          ],
+          "index": 74,
+          "uniqueId": "Manuel Silva_I_agree_this_is_the_most_disgusting_Love's_truck_s_4 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers, showering",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "5202 S Cedar St, Pecos, TX 79772, United States",
+      "rating": "3.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@32.1204474,-105.4957736,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86facc45d380b4e9:0x37fba2da9db3b7a4!8m2!3d31.3991465!4d-103.4803238!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5IYXpRdFdHUkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQJQ!16s%2Fg%2F11b6bgbmnd?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    },
+    {
+      "title": "Plateau Truck Stop",
+      "street": "Plateau Truck Stop 3.9(1",
+      "city": "621)Truck stop",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "31.0635055",
+      "lng": "-106.8092318",
+      "phone": "+1 432-283-7837",
+      "website": "https://locations.pilotflyingj.com/us/nm/jal/410-e-kansas-ave",
+      "content": "Plateau Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Armando Balderas",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "This place is a rat hole !!!! It’s nasty staff very lazy took shower there I had to clean my self Indian guy said it was clean Iam like wow I will not stop here again bye bye it’s nasty",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Armando Balderas_This_place_is_a_rat_hole_!!!!_It’s_nasty_staff_ver_7 months ago"
+        },
+        {
+          "reviewerName": "Calvin",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "I never saw like this dirty shower before trucker.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 7,
+          "uniqueId": "Calvin_I_never_saw_like_this_dirty_shower_before_trucker._2 months ago"
+        },
+        {
+          "reviewerName": "Ann F.",
+          "rating": "2 stars",
+          "reviewDate": "9 years ago",
+          "reviewText": "… was stocked well with lots of souvenirs.  Small area with video casino games. Did not take a shower here but after seeing the restrooms I'm not sure I would want to. Restaurant wasn't all that great. Lady was nice and friendly but she was …",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 14,
+          "uniqueId": "Ann F._…_was_stocked_well_with_lots_of_souvenirs._Small__9 years ago"
+        },
+        {
+          "reviewerName": "Valentin Pena",
+          "rating": "1 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "had to use the rr and signed said \"closed , use shower 2 and 3\" they argued with my wife saying rr are closed due to frozen pipes,but we where FOLLOWING THE SIGN THAT THEY PUT UP, they  kicked us out and locked doors",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 22,
+          "uniqueId": "Valentin Pena_had_to_use_the_rr_and_signed_said_\"closed_,_use_sh_6 years ago"
+        },
+        {
+          "reviewerName": "Tj Albright",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "There was like 3 pube furballs in the shower...",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 29,
+          "uniqueId": "Tj Albright_There_was_like_3_pube_furballs_in_the_shower..._a year ago"
+        }
+      ],
+      "showerReviewCount": 5,
+      "showerReviewSummary": "5 shower-related reviews found. Generally Positive mentions of: shower, clean, restroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "158821a I-10, Van Horn, TX 79855, United States",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Plateau+Truck+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Plateau+Truck+Stop/@31.0635055,-106.8092318,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x86e5e8ad76c6db87:0x743ddba9067934bb!8m2!3d31.0635055!4d-104.5021029!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5VTFdKRFVGWjNFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQRg!16s%2Fg%2F1tgxt_cd?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false
+    }
+  ]
+}
