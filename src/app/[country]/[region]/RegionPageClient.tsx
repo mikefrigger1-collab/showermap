@@ -184,20 +184,20 @@ export default function RegionPageClient({ regionInfo, params }: RegionPageClien
           <span className="text-sm truncate">{formatAddress(location.address)}</span>
         </div>
         
-        <div className="flex items-center text-gray-600 mb-3">
-          
-          <span className="text-sm font-medium truncate">{location.cost}</span>
-        </div>
+<div className="flex items-center text-gray-600 mb-3">
+  <DollarSign className="h-3 w-3 mr-1 flex-shrink-0" />
+  <span className="text-sm font-medium truncate">{location.cost}</span>
+</div>
         
-        {location.categories.length > 0 && (
-          <div className="flex flex-wrap gap-1 mb-3">
-            {location.categories.slice(0, 2).map((category, catIndex) => (
-              <span key={`${category}-${catIndex}`} className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">
-                {category}
-              </span>
-            ))}
-          </div>
-        )}
+{location.categories && location.categories.length > 0 && (
+  <div className="flex flex-wrap gap-1 mb-3">
+    {location.categories.slice(0, 2).map((category, catIndex) => (
+      <span key={`${category}-${catIndex}`} className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">
+        {category}
+      </span>
+    ))}
+  </div>
+)}
         
         <Link 
           href={`/usa/${regionInfo.slug}/${location.slug}/`}

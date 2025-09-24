@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, Suspense } from 'react';
+import dynamic from 'next/dynamic';
 import { 
   Search, 
   Filter, 
@@ -24,6 +25,17 @@ import GlobalHeader from '../components/GlobalHeader';
 import GlobalFooter from '../components/GlobalFooter';
 import { loadStateLocations } from './mapDataLoader';
 import type { MapLocation } from './mapDataLoader';
+
+// Dynamically import the map component to avoid SSR issues
+const InteractiveMapComponent = dynamic(() => import('./InteractiveMapComponent'), {
+  ssr: false,
+  loading: () => (
+    <div className="bg-white rounded-lg border p-12 text-center">
+      <Loader2 className="h-8 w-8 animate-spin text-blue-600 mx-auto mb-4" />
+      <p className="text-gray-600">Loading interactive map...</p>
+    </div>
+  )
+});
 
 // ============================================================================
 // CONSTANTS
@@ -114,7 +126,7 @@ interface Filters {
   searchQuery: string;
 }
 
-type ViewMode = 'grid' | 'list';
+type ViewMode = 'grid' | 'list' | 'map';
 
 // ============================================================================
 // HELPER FUNCTIONS
@@ -128,18 +140,6 @@ function formatHours(hours: Record<string, string>): string {
   if (todayHours.toLowerCase() === 'closed') return 'Closed today';
   
   return `Today: ${todayHours}`;
-}
-
-function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
-  const R = 6371;
-  const dLat = (lat2 - lat1) * Math.PI / 180;
-  const dLon = (lon2 - lon1) * Math.PI / 180;
-  const a = 
-    Math.sin(dLat/2) * Math.sin(dLat/2) +
-    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-    Math.sin(dLon/2) * Math.sin(dLon/2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-  return R * c;
 }
 
 function locationMatchesFilters(location: MapLocation, filters: Filters): boolean {
@@ -184,18 +184,35 @@ function locationMatchesFilters(location: MapLocation, filters: Filters): boolea
 // COMPONENTS
 // ============================================================================
 
-function StaticMapOverview({ selectedState, onStateSelect }: {
+function StateSelector({ selectedState, onStateSelect, onGetLocation, locationLoading }: {
   selectedState: string;
   onStateSelect: (state: string) => void;
+  onGetLocation: () => void;
+  locationLoading: boolean;
 }) {
   return (
     <div className="bg-white rounded-lg border p-6 mb-6">
-      <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-        <MapIcon className="h-5 w-5" />
-        Select a State to Browse Locations
-      </h2>
+      <div className="flex items-center justify-between mb-4">
+        <h2 className="text-xl font-semibold flex items-center gap-2">
+          <MapIcon className="h-5 w-5" />
+          Select a State to Browse Locations
+        </h2>
+        
+        {/* Geolocation Button */}
+        <button
+          onClick={onGetLocation}
+          disabled={locationLoading}
+          className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white rounded-lg font-medium transition-colors"
+        >
+          {locationLoading ? (
+            <Loader2 className="h-4 w-4 animate-spin" />
+          ) : (
+            <Navigation className="h-4 w-4" />
+          )}
+          {locationLoading ? 'Getting Location...' : 'Use My Location'}
+        </button>
+      </div>
       
-      {/* State Selection Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
         {US_STATES.map(state => (
           <button
@@ -220,7 +237,7 @@ function StaticMapOverview({ selectedState, onStateSelect }: {
           <p className="text-sm text-blue-800">
             <span className="font-semibold">
               {US_STATES.find(s => s.code === selectedState)?.name}
-            </span> selected. Locations will load below.
+            </span> selected. Use the view toggle to switch between map and list views.
           </p>
         </div>
       )}
@@ -371,6 +388,139 @@ function LocationCard({ location, viewMode }: {
   );
 }
 
+function FilterSidebar({ 
+  filters, 
+  setFilters, 
+  uniqueCities, 
+  uniqueCategories,
+  filtersOpen,
+  setFiltersOpen,
+  clearFilters 
+}: {
+  filters: Filters;
+  setFilters: React.Dispatch<React.SetStateAction<Filters>>;
+  uniqueCities: string[];
+  uniqueCategories: string[];
+  filtersOpen: boolean;
+  setFiltersOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  clearFilters: () => void;
+}) {
+  return (
+    <div className="lg:w-80 space-y-6">
+      <div className="bg-white rounded-lg border p-4">
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="font-semibold flex items-center gap-2">
+            <Filter className="h-4 w-4" />
+            Filters
+          </h3>
+          <button
+            onClick={() => setFiltersOpen(!filtersOpen)}
+            className="lg:hidden"
+          >
+            <ChevronDown className={`h-4 w-4 transition-transform ${filtersOpen ? 'rotate-180' : ''}`} />
+          </button>
+        </div>
+        
+        <div className={`space-y-4 ${filtersOpen ? 'block' : 'hidden lg:block'}`}>
+          {/* Search */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Search
+            </label>
+            <div className="relative">
+              <input
+                type="text"
+                value={filters.searchQuery}
+                onChange={(e) => setFilters(prev => ({...prev, searchQuery: e.target.value}))}
+                placeholder="Search locations..."
+                className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              />
+              <Search className="absolute right-3 top-2.5 h-4 w-4 text-gray-400" />
+            </div>
+          </div>
+
+          {/* City Filter */}
+          {uniqueCities.length > 0 && (
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                City
+              </label>
+              <select
+                value={filters.city}
+                onChange={(e) => setFilters(prev => ({...prev, city: e.target.value}))}
+                className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              >
+                <option value="">All Cities</option>
+                {uniqueCities.map(city => (
+                  <option key={city} value={city}>{city}</option>
+                ))}
+              </select>
+            </div>
+          )}
+
+          {/* Category Filter */}
+          {uniqueCategories.length > 0 && (
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                Facility Type
+              </label>
+              <select
+                value={filters.category}
+                onChange={(e) => setFilters(prev => ({...prev, category: e.target.value}))}
+                className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              >
+                <option value="">All Types</option>
+                {uniqueCategories.map(category => (
+                  <option key={category} value={category}>{category}</option>
+                ))}
+              </select>
+            </div>
+          )}
+
+          {/* Cost Filter */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Cost
+            </label>
+            <select
+              value={filters.costType}
+              onChange={(e) => setFilters(prev => ({...prev, costType: e.target.value as any}))}
+              className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            >
+              <option value="all">All Options</option>
+              <option value="free">Free Only</option>
+              <option value="paid">Paid Only</option>
+            </select>
+          </div>
+
+          {/* Verified Only */}
+          <div className="flex items-center">
+            <input
+              type="checkbox"
+              id="verified"
+              checked={filters.verifiedOnly}
+              onChange={(e) => setFilters(prev => ({...prev, verifiedOnly: e.target.checked}))}
+              className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+            />
+            <label htmlFor="verified" className="ml-2 text-sm text-gray-700 flex items-center gap-1">
+              <BadgeCheck className="h-4 w-4 text-green-600" />
+              Verified Only
+            </label>
+          </div>
+
+          {/* Clear Filters */}
+          <button
+            onClick={clearFilters}
+            className="w-full text-sm text-blue-600 hover:text-blue-700 font-medium"
+          >
+            Clear Filters
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ============================================================================
 // MAIN COMPONENT
 // ============================================================================
@@ -379,6 +529,8 @@ export default function LightweightMapClient() {
   const [locations, setLocations] = useState<MapLocation[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [userLocation, setUserLocation] = useState<{lat: number; lng: number; accuracy: number} | null>(null);
+  const [locationLoading, setLocationLoading] = useState(false);
   
   const [filters, setFilters] = useState<Filters>({
     state: '',
@@ -389,8 +541,40 @@ export default function LightweightMapClient() {
     searchQuery: ''
   });
   
-  const [viewMode, setViewMode] = useState<ViewMode>('grid');
+  const [viewMode, setViewMode] = useState<ViewMode>('map');
   const [filtersOpen, setFiltersOpen] = useState(false);
+
+  // Geolocation function
+  const getCurrentLocation = useCallback(() => {
+    setLocationLoading(true);
+    
+    if (!navigator.geolocation) {
+      setError('Geolocation is not supported by this browser');
+      setLocationLoading(false);
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setUserLocation({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+          accuracy: position.coords.accuracy
+        });
+        setLocationLoading(false);
+      },
+      (error) => {
+        console.error('Geolocation error:', error);
+        setError('Unable to get your location. Please check your location settings.');
+        setLocationLoading(false);
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 300000 // 5 minutes
+      }
+    );
+  }, []);
 
   // Parse URL parameters on mount
   useEffect(() => {
@@ -496,133 +680,29 @@ export default function LightweightMapClient() {
       
       <main className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-\
-
-          {/* State Selection Map */}
-          <StaticMapOverview 
+          
+          {/* State Selection */}
+          <StateSelector 
             selectedState={filters.state} 
             onStateSelect={handleStateSelect}
+            onGetLocation={getCurrentLocation}
+            locationLoading={locationLoading}
           />
 
           {/* Content Area */}
           {filters.state && (
             <div className="flex flex-col lg:flex-row gap-6">
               
-              {/* Sidebar - Filters & Ads */}
-              <div className="lg:w-80 space-y-6">
-                
-                {/* Filters */}
-                <div className="bg-white rounded-lg border p-4">
-                  <div className="flex items-center justify-between mb-4">
-                    <h3 className="font-semibold flex items-center gap-2">
-                      <Filter className="h-4 w-4" />
-                      Filters
-                    </h3>
-                    <button
-                      onClick={() => setFiltersOpen(!filtersOpen)}
-                      className="lg:hidden"
-                    >
-                      <ChevronDown className={`h-4 w-4 transition-transform ${filtersOpen ? 'rotate-180' : ''}`} />
-                    </button>
-                  </div>
-                  
-                  <div className={`space-y-4 ${filtersOpen ? 'block' : 'hidden lg:block'}`}>
-                    {/* Search */}
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Search
-                      </label>
-                      <div className="relative">
-                        <input
-                          type="text"
-                          value={filters.searchQuery}
-                          onChange={(e) => setFilters(prev => ({...prev, searchQuery: e.target.value}))}
-                          placeholder="Search locations..."
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        />
-                        <Search className="absolute right-3 top-2.5 h-4 w-4 text-gray-400" />
-                      </div>
-                    </div>
-
-                    {/* City Filter */}
-                    {uniqueCities.length > 0 && (
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-1">
-                          City
-                        </label>
-                        <select
-                          value={filters.city}
-                          onChange={(e) => setFilters(prev => ({...prev, city: e.target.value}))}
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        >
-                          <option value="">All Cities</option>
-                          {uniqueCities.map(city => (
-                            <option key={city} value={city}>{city}</option>
-                          ))}
-                        </select>
-                      </div>
-                    )}
-
-                    {/* Category Filter */}
-                    {uniqueCategories.length > 0 && (
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-1">
-                          Facility Type
-                        </label>
-                        <select
-                          value={filters.category}
-                          onChange={(e) => setFilters(prev => ({...prev, category: e.target.value}))}
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        >
-                          <option value="">All Types</option>
-                          {uniqueCategories.map(category => (
-                            <option key={category} value={category}>{category}</option>
-                          ))}
-                        </select>
-                      </div>
-                    )}
-
-                    {/* Cost Filter */}
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Cost
-                      </label>
-                      <select
-                        value={filters.costType}
-                        onChange={(e) => setFilters(prev => ({...prev, costType: e.target.value as any}))}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      >
-                        <option value="all">All Options</option>
-                        <option value="free">Free Only</option>
-                        <option value="paid">Paid Only</option>
-                      </select>
-                    </div>
-
-                    {/* Verified Only */}
-                    <div className="flex items-center">
-                      <input
-                        type="checkbox"
-                        id="verified"
-                        checked={filters.verifiedOnly}
-                        onChange={(e) => setFilters(prev => ({...prev, verifiedOnly: e.target.checked}))}
-                        className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
-                      />
-                      <label htmlFor="verified" className="ml-2 text-sm text-gray-700 flex items-center gap-1">
-                        <BadgeCheck className="h-4 w-4 text-green-600" />
-                        Verified Only
-                      </label>
-                    </div>
-
-                    {/* Clear Filters */}
-                    <button
-                      onClick={clearFilters}
-                      className="w-full text-sm text-blue-600 hover:text-blue-700 font-medium"
-                    >
-                      Clear Filters
-                    </button>
-                  </div>
-                </div>
-              </div>
+              {/* Sidebar - Filters */}
+              <FilterSidebar
+                filters={filters}
+                setFilters={setFilters}
+                uniqueCities={uniqueCities}
+                uniqueCategories={uniqueCategories}
+                filtersOpen={filtersOpen}
+                setFiltersOpen={setFiltersOpen}
+                clearFilters={clearFilters}
+              />
 
               {/* Main Content */}
               <div className="flex-1">
@@ -640,6 +720,13 @@ export default function LightweightMapClient() {
                     </div>
                     
                     <div className="flex items-center gap-2">
+                      <button
+                        onClick={() => setViewMode('map')}
+                        className={`p-2 rounded ${viewMode === 'map' ? 'bg-blue-100 text-blue-700' : 'text-gray-500 hover:text-gray-700'}`}
+                        title="Map view"
+                      >
+                        <MapIcon className="h-4 w-4" />
+                      </button>
                       <button
                         onClick={() => setViewMode('grid')}
                         className={`p-2 rounded ${viewMode === 'grid' ? 'bg-blue-100 text-blue-700' : 'text-gray-500 hover:text-gray-700'}`}
@@ -673,8 +760,32 @@ export default function LightweightMapClient() {
                   </div>
                 )}
 
-                {/* Results Grid/List */}
-                {!loading && !error && filteredLocations.length > 0 && (
+                {/* Map View */}
+                {!loading && !error && filteredLocations.length > 0 && viewMode === 'map' && (
+                  <div className="bg-white rounded-lg border overflow-hidden">
+                    <div className="p-4 border-b bg-gray-50">
+                      <h3 className="text-lg font-semibold text-gray-900">Interactive Map</h3>
+                      <p className="text-sm text-gray-600">
+                        Explore {filteredLocations.length} locations on the map. Click markers for details.
+                      </p>
+                    </div>
+                    <Suspense fallback={
+                      <div className="p-12 text-center">
+                        <Loader2 className="h-8 w-8 animate-spin text-blue-600 mx-auto mb-4" />
+                        <p className="text-gray-600">Loading interactive map...</p>
+                      </div>
+                    }>
+                      <InteractiveMapComponent 
+                        locations={filteredLocations}
+                        userLocation={userLocation}
+                        height="600px"
+                      />
+                    </Suspense>
+                  </div>
+                )}
+
+                {/* Grid/List View */}
+                {!loading && !error && filteredLocations.length > 0 && viewMode !== 'map' && (
                   <div className={
                     viewMode === 'grid' 
                       ? 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'
@@ -702,6 +813,21 @@ export default function LightweightMapClient() {
                     </button>
                   </div>
                 )}
+
+                {/* Empty State */}
+                {!loading && !error && locations.length === 0 && filters.state && (
+                  <div className="bg-white rounded-lg border p-12 text-center">
+                    <MapIcon className="h-12 w-12 text-gray-400 mx-auto mb-4" />
+                    <h3 className="text-lg font-medium text-gray-900 mb-2">No locations available</h3>
+                    <p className="text-gray-600 mb-4">
+                      We don't have shower location data for {US_STATES.find(s => s.code === filters.state)?.name} yet.
+                    </p>
+                    <p className="text-sm text-gray-500">
+                      Try selecting a different state or check back later.
+                    </p>
+                  </div>
+                )}
+
               </div>
             </div>
           )}
