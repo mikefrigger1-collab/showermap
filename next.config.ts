@@ -2,38 +2,29 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Enforce trailing slashes
   trailingSlash: true,
   
-  // Completely disable ESLint during builds
   eslint: {
     ignoreDuringBuilds: true,
   },
   
-  // Image optimization settings
   images: {
     domains: ['images.unsplash.com'],
     formats: ['image/webp', 'image/avif'],
   },
   
-  // SEO and performance optimizations
   experimental: {
     optimizePackageImports: ['lucide-react'],
-    optimizeCss: true, // Add this for CSS optimization
   },
   
-  // Performance optimizations
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
   
-  // Enable compression
   compress: true,
+  // Remove this line - swcMinify is default in Next.js 15
+  // swcMinify: true,
   
-  // Use SWC minifier for better performance
-  swcMinify: true,
-  
-  // Redirect non-www to www in production
   async redirects() {
     return [
       {

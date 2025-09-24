@@ -13,7 +13,7 @@ const inter = Inter({
 // Read critical CSS at build time
 let criticalCSS = '';
 try {
-  criticalCSS = readFileSync(join(process.cwd(), 'app/styles/critical.css'), 'utf8');
+  criticalCSS = readFileSync(join(process.cwd(), 'src/app/styles/critical.css'), 'utf8');
 } catch (error) {
   console.warn('Critical CSS file not found');
 }
