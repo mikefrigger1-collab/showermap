@@ -1,10 +1,11 @@
+// next.config.ts
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Enforce trailing slashes
   trailingSlash: true,
   
-  // Completely disable ESLint during builds (remove invalid 'rules' key)
+  // Completely disable ESLint during builds
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -18,7 +19,19 @@ const nextConfig: NextConfig = {
   // SEO and performance optimizations
   experimental: {
     optimizePackageImports: ['lucide-react'],
+    optimizeCss: true, // Add this for CSS optimization
   },
+  
+  // Performance optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
+  
+  // Enable compression
+  compress: true,
+  
+  // Use SWC minifier for better performance
+  swcMinify: true,
   
   // Redirect non-www to www in production
   async redirects() {
