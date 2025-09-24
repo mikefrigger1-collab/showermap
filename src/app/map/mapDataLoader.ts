@@ -41,18 +41,15 @@ function parseHoursString(hoursString: string): Record<string, string> {
     return hours;
   }
   
-  // Parse hours string like "Open ⋅ Closes 5:30 pm Thursday8 am–5:30 pmFriday8 am–5:30 pm..."
   days.forEach(day => {
     const dayRegex = new RegExp(`${day}([^A-Z]+)`, 'i');
     const match = hoursString.match(dayRegex);
     
     if (match && match[1]) {
       let hourStr = match[1].trim();
-      // Clean up common patterns
       if (hourStr.toLowerCase() === 'closed') {
         hours[day.toLowerCase()] = 'Closed';
       } else if (hourStr.includes('–') || hourStr.includes('-')) {
-        // Extract time range
         const timeMatch = hourStr.match(/(\d+(?::\d+)?\s*(?:am|pm)?)\s*[–-]\s*(\d+(?::\d+)?\s*(?:am|pm)?)/i);
         if (timeMatch) {
           hours[day.toLowerCase()] = `${timeMatch[1]} - ${timeMatch[2]}`;
@@ -76,7 +73,6 @@ function parseHoursString(hoursString: string): Record<string, string> {
 function cleanAddress(address: string): string {
   if (!address) return '';
   
-  // Remove non-alphanumeric characters except spaces, commas, and hyphens
   const cleaned = address
     .replace(/[^a-zA-Z0-9\s,-]/g, '')
     .replace(/\s+/g, ' ')
@@ -91,15 +87,13 @@ function cleanAddress(address: string): string {
 function cleanCity(city: string): string {
   if (!city) return '';
   
-  // Remove quotes and clean up artifacts
   const cleaned = city
     .replace(/['"]/g, '')
-    .replace(/\ba\s+/g, '') // Remove leading "a"
-    .replace(/neighborhood gem.*$/i, '') // Remove descriptive text
+    .replace(/\ba\s+/g, '')
+    .replace(/neighborhood gem.*$/i, '')
     .replace(/\s+/g, ' ')
     .trim();
   
-  // If city looks invalid (too short or contains odd characters), return empty
   if (cleaned.length < 2 || /[():]/.test(cleaned)) {
     return '';
   }
@@ -113,7 +107,6 @@ function cleanCity(city: string): string {
 function extractCityFromAddress(address: string, state: string): string {
   if (!address) return '';
   
-  // Split by comma and get the part before the state
   const parts = address.split(',');
   if (parts.length >= 2) {
     const cityPart = parts[parts.length - 2]?.trim();
@@ -123,6 +116,41 @@ function extractCityFromAddress(address: string, state: string): string {
   }
   
   return '';
+}
+
+/**
+ * Consolidate similar categories into standard ones
+ */
+function consolidateCategory(category: string): string | null {
+  if (!category || typeof category !== 'string') return null;
+  
+  const normalizedCategory = category.toLowerCase().trim();
+  
+  // Remove unwanted categories
+  if (normalizedCategory.includes('gay') && normalizedCategory.includes('lesbian')) {
+    return null;
+  }
+  
+  // Empty or very short categories
+  if (normalizedCategory.length < 2) {
+    return null;
+  }
+  
+  // Precise consolidation mappings
+  if (normalizedCategory.includes('ymca')) return 'YMCA';
+  if (normalizedCategory.includes('gym') && !normalizedCategory.includes('ymca')) return 'Gym';
+  if (normalizedCategory.includes('community center')) return 'Community Center';
+  if (normalizedCategory.includes('recreation center')) return 'Recreation Center';
+  if (normalizedCategory.includes('truck stop')) return 'Truck Stop';
+  if (normalizedCategory.includes('pool') || normalizedCategory === 'aquatic center') return 'Swimming Pool';
+  if (normalizedCategory === 'hostel') return 'Hostel';
+  if (normalizedCategory.includes('state park') || (normalizedCategory === 'park' && !normalizedCategory.includes('water'))) return 'Park';
+  if (normalizedCategory.includes('child care') || normalizedCategory === 'preschool') return 'Child Care';
+  if (normalizedCategory.includes('gas station') || normalizedCategory === 'petrol station') return 'Gas Station';
+  
+  // Return cleaned original if no specific mapping found
+  const cleaned = category.charAt(0).toUpperCase() + category.slice(1).toLowerCase().trim();
+  return cleaned.length > 1 ? cleaned : null;
 }
 
 /**
@@ -141,61 +169,45 @@ function transformToMapLocation(rawLocation: any, stateCode: string): MapLocatio
   const id = rawLocation.placeId || 
     (rawLocation.title || 'location').toLowerCase().replace(/[^a-z0-9]+/g, '-') + '-' + stateCode.toLowerCase();
 
-/**
- * Consolidate similar categories into standard ones
- */
-function consolidateCategory(category: string): string | null {
-  const normalizedCategory = category.toLowerCase().trim();
-  
-  // Remove unwanted categories
-  if (normalizedCategory.includes('gay') && normalizedCategory.includes('lesbian')) {
-    return null;
-  }
-  
-  // Consolidation mappings
-  if (normalizedCategory.includes('ymca')) return 'YMCA';
-  if (normalizedCategory.includes('gym') || normalizedCategory === 'fitness center' || normalizedCategory === 'boxing gym' || normalizedCategory === 'rock climbing gym') return 'Gym';
-  if (normalizedCategory.includes('community center')) return 'Community Center';
-  if (normalizedCategory.includes('recreation center')) return 'Recreation Center';
-  if (normalizedCategory.includes('truck stop')) return 'Truck Stop';
-  if (normalizedCategory.includes('pool') || normalizedCategory === 'aquatic center' || normalizedCategory === 'swimming facility') return 'Swimming Pool';
-  if (normalizedCategory === 'hostel') return 'Hostel';
-  if (normalizedCategory === 'state park' || normalizedCategory === 'park') return 'Park';
-  if (normalizedCategory.includes('child care') || normalizedCategory === 'preschool' || normalizedCategory === 'children\'s camp') return 'Child Care';
-  if (normalizedCategory === 'non-profit organization' || normalizedCategory === 'social services organization' || normalizedCategory === 'youth organization') return 'Community Services';
-  if (normalizedCategory === 'petrol station') return 'Gas Station';
-  
-  // Default mappings
-  return 'Public Facility';
-}
-  
-// Parse categories - split comma-separated values and consolidate
-const categoriesSet = new Set<string>();
+  // FIXED: Clean category processing
+  const categoriesSet = new Set<string>();
 
-// Add businessType
-if (rawLocation.businessType) {
-  const consolidated = consolidateCategory(rawLocation.businessType);
-  if (consolidated) categoriesSet.add(consolidated);
-}
-
-// Split and add category field
-if (rawLocation.category) {
-  const categoryValues = rawLocation.category.split(',');
-  categoryValues.forEach((cat: string) => {
-    const consolidated = consolidateCategory(cat);
-    if (consolidated && consolidated !== consolidateCategory(rawLocation.businessType)) {
-      categoriesSet.add(consolidated);
+  // Process businessType first
+  if (rawLocation.businessType) {
+    const businessCategory = consolidateCategory(rawLocation.businessType.trim());
+    if (businessCategory) {
+      categoriesSet.add(businessCategory);
     }
+  }
+
+  // Process category field - split, clean, and deduplicate
+  if (rawLocation.category) {
+    const categoryValues = rawLocation.category
+      .split(',')
+      .map((cat: string) => cat.trim())
+      .filter((cat: string) => cat.length > 0);
+      
+    categoryValues.forEach((cat: string) => {
+      const consolidated = consolidateCategory(cat);
+      if (consolidated) {
+        categoriesSet.add(consolidated);
+      }
+    });
+  }
+
+  // Convert Set to array and ensure uniqueness
+  let categories = Array.from(categoriesSet);
+  
+  // Additional deduplication for case-insensitive duplicates
+  const uniqueCategories = categories.filter((category, index) => {
+    return categories.findIndex(c => c.toLowerCase() === category.toLowerCase()) === index;
   });
-}
 
-// Convert Set to array
-let categories = Array.from(categoriesSet);
+  // Add default if no categories found
+  if (uniqueCategories.length === 0) {
+    uniqueCategories.push('Public Facility');
+  }
 
-// Add default if no categories found
-if (categories.length === 0) {
-  categories.push('Public Facility');
-}
   // Parse amenities
   const amenities = rawLocation.amenities 
     ? rawLocation.amenities.split(/[|,]/).map((a: string) => a.trim()).filter((a: string) => a)
@@ -210,7 +222,7 @@ if (categories.length === 0) {
   // Clean up address
   const cleanedAddress = cleanAddress(rawLocation.address || rawLocation.street || '');
   
-  // Get city - try to clean the city field first, then extract from address
+  // Get city
   let city = cleanCity(rawLocation.city || '');
   if (!city || city.length < 2) {
     city = extractCityFromAddress(cleanedAddress, stateCode);
@@ -230,7 +242,7 @@ if (categories.length === 0) {
     address: cleanedAddress,
     city,
     state: stateCode,
-    categories,
+    categories: uniqueCategories,
     amenities,
     cost,
     hours,
@@ -250,7 +262,6 @@ if (categories.length === 0) {
 export async function loadAllLocations(): Promise<MapLocation[]> {
   const allLocations: MapLocation[] = [];
   
-  // List of state codes to load (based on your file structure)
   const stateCodes = [
     'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',
     'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD',
@@ -259,7 +270,6 @@ export async function loadAllLocations(): Promise<MapLocation[]> {
     'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY'
   ];
   
-  // Try to load each state's data
   const loadPromises = stateCodes.map(async (stateCode) => {
     try {
       const response = await fetch(`/data/states/${stateCode}.json`);
@@ -267,10 +277,9 @@ export async function loadAllLocations(): Promise<MapLocation[]> {
         const stateData: StateData = await response.json();
         
         if (stateData.locations && Array.isArray(stateData.locations)) {
-          // Transform each location to our map format
           const stateLocations = stateData.locations
             .map((loc: any) => transformToMapLocation(loc, stateCode))
-            .filter((loc): loc is MapLocation => loc !== null); // Filter out null values
+            .filter((loc): loc is MapLocation => loc !== null);
           
           return stateLocations;
         }
@@ -281,10 +290,8 @@ export async function loadAllLocations(): Promise<MapLocation[]> {
     return [];
   });
   
-  // Wait for all states to load
   const results = await Promise.all(loadPromises);
   
-  // Flatten all results into a single array
   results.forEach(stateLocations => {
     allLocations.push(...stateLocations);
   });
@@ -342,7 +349,7 @@ export function findNearbyLocations(
  * Calculate distance between two coordinates in kilometers
  */
 function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
-  const R = 6371; // Earth's radius in km
+  const R = 6371;
   const dLat = toRad(lat2 - lat1);
   const dLon = toRad(lon2 - lon1);
   const a = 
@@ -375,7 +382,6 @@ export function getLocationBounds(locations: MapLocation[]): [[number, number], 
     maxLng = Math.max(maxLng, location.lng);
   });
   
-  // Add some padding
   const latPadding = (maxLat - minLat) * 0.1;
   const lngPadding = (maxLng - minLng) * 0.1;
   

@@ -78,6 +78,36 @@ const CATEGORY_COLORS: Record<string, string> = {
 
 const CLUSTERING_ZOOM_THRESHOLD = 11;
 
+// Add this helper function
+const getStateSlug = (stateCode: string): string => {
+  const stateSlugMap: Record<string, string> = {
+    'AL': 'alabama', 'AK': 'alaska', 'AZ': 'arizona', 'AR': 'arkansas',
+    'CA': 'california', 'CO': 'colorado', 'CT': 'connecticut', 'DE': 'delaware',
+    'FL': 'florida', 'GA': 'georgia', 'HI': 'hawaii', 'ID': 'idaho',
+    'IL': 'illinois', 'IN': 'indiana', 'IA': 'iowa', 'KS': 'kansas',
+    'KY': 'kentucky', 'LA': 'louisiana', 'ME': 'maine', 'MD': 'maryland',
+    'MA': 'massachusetts', 'MI': 'michigan', 'MN': 'minnesota', 'MS': 'mississippi',
+    'MO': 'missouri', 'MT': 'montana', 'NE': 'nebraska', 'NV': 'nevada',
+    'NH': 'new-hampshire', 'NJ': 'new-jersey', 'NM': 'new-mexico', 'NY': 'new-york',
+    'NC': 'north-carolina', 'ND': 'north-dakota', 'OH': 'ohio', 'OK': 'oklahoma',
+    'OR': 'oregon', 'PA': 'pennsylvania', 'RI': 'rhode-island', 'SC': 'south-carolina',
+    'SD': 'south-dakota', 'TN': 'tennessee', 'TX': 'texas', 'UT': 'utah',
+    'VT': 'vermont', 'VA': 'virginia', 'WA': 'washington', 'WV': 'west-virginia',
+    'WI': 'wisconsin', 'WY': 'wyoming'
+  };
+  return stateSlugMap[stateCode] || stateCode.toLowerCase();
+};
+
+// Add this helper function to create URL slugs from titles
+const createSlug = (title: string): string => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters except spaces and hyphens
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
+    .trim();
+};
+
 // ============================================================================
 // HELPER FUNCTIONS
 // ============================================================================
@@ -401,7 +431,7 @@ function LocationPopup({ location }: { location: MapLocation }) {
       {/* Action buttons */}
       <div className="grid grid-cols-2 gap-2 pt-2 border-t">
         <Link
-          href={`/usa/${location.state.toLowerCase()}/${location.id}/`}
+          href={`/usa/${getStateSlug(location.state)}/${createSlug(location.title)}/`}
           className="flex items-center justify-center gap-1 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded text-sm font-medium transition-colors"
         >
           <Info className="h-3 w-3" />

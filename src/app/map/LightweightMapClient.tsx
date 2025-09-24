@@ -113,6 +113,36 @@ const CATEGORY_COLORS: Record<string, string> = {
   'default': 'bg-gray-100 text-gray-800'
 };
 
+// Add this helper function
+const getStateSlug = (stateCode: string): string => {
+  const stateSlugMap: Record<string, string> = {
+    'AL': 'alabama', 'AK': 'alaska', 'AZ': 'arizona', 'AR': 'arkansas',
+    'CA': 'california', 'CO': 'colorado', 'CT': 'connecticut', 'DE': 'delaware',
+    'FL': 'florida', 'GA': 'georgia', 'HI': 'hawaii', 'ID': 'idaho',
+    'IL': 'illinois', 'IN': 'indiana', 'IA': 'iowa', 'KS': 'kansas',
+    'KY': 'kentucky', 'LA': 'louisiana', 'ME': 'maine', 'MD': 'maryland',
+    'MA': 'massachusetts', 'MI': 'michigan', 'MN': 'minnesota', 'MS': 'mississippi',
+    'MO': 'missouri', 'MT': 'montana', 'NE': 'nebraska', 'NV': 'nevada',
+    'NH': 'new-hampshire', 'NJ': 'new-jersey', 'NM': 'new-mexico', 'NY': 'new-york',
+    'NC': 'north-carolina', 'ND': 'north-dakota', 'OH': 'ohio', 'OK': 'oklahoma',
+    'OR': 'oregon', 'PA': 'pennsylvania', 'RI': 'rhode-island', 'SC': 'south-carolina',
+    'SD': 'south-dakota', 'TN': 'tennessee', 'TX': 'texas', 'UT': 'utah',
+    'VT': 'vermont', 'VA': 'virginia', 'WA': 'washington', 'WV': 'west-virginia',
+    'WI': 'wisconsin', 'WY': 'wyoming'
+  };
+  return stateSlugMap[stateCode] || stateCode.toLowerCase();
+};
+
+// Add this helper function to create URL slugs from titles
+const createSlug = (title: string): string => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters except spaces and hyphens
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
+    .trim();
+};
+
 // ============================================================================
 // TYPES
 // ============================================================================
@@ -191,57 +221,58 @@ function StateSelector({ selectedState, onStateSelect, onGetLocation, locationLo
   locationLoading: boolean;
 }) {
   return (
-    <div className="bg-white rounded-lg border p-6 mb-6">
-      <div className="flex items-center justify-between mb-4">
-        <h2 className="text-xl font-semibold flex items-center gap-2">
-          <MapIcon className="h-5 w-5" />
-          Select a State to Browse Locations
-        </h2>
-        
-        {/* Geolocation Button */}
-        <button
-          onClick={onGetLocation}
-          disabled={locationLoading}
-          className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white rounded-lg font-medium transition-colors"
-        >
-          {locationLoading ? (
-            <Loader2 className="h-4 w-4 animate-spin" />
-          ) : (
-            <Navigation className="h-4 w-4" />
-          )}
-          {locationLoading ? 'Getting Location...' : 'Use My Location'}
-        </button>
-      </div>
-      
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
-        {US_STATES.map(state => (
-          <button
-            key={state.code}
-            onClick={() => onStateSelect(state.code)}
-            className={`
-              p-2 text-left rounded border text-sm font-medium transition-colors
-              ${selectedState === state.code 
-                ? 'bg-blue-100 border-blue-300 text-blue-900' 
-                : 'bg-gray-50 border-gray-200 hover:bg-gray-100 text-gray-700'
-              }
-            `}
-          >
-            <div className="font-semibold">{state.code}</div>
-            <div className="text-xs text-gray-500">{state.name}</div>
-          </button>
-        ))}
-      </div>
-      
-      {selectedState && (
-        <div className="mt-4 p-3 bg-blue-50 rounded border border-blue-200">
-          <p className="text-sm text-blue-800">
-            <span className="font-semibold">
-              {US_STATES.find(s => s.code === selectedState)?.name}
-            </span> selected. Use the view toggle to switch between map and list views.
-          </p>
-        </div>
-      )}
+<div className="bg-white rounded-lg border p-6 mb-6">
+  <div className="flex flex-col items-center text-center mb-6">
+    <h2 className="text-xl font-semibold flex items-center gap-2 mb-4">
+      Select a State to Browse Locations
+    </h2>
+
+      {/* State Dropdown */}
+  <div className="max-w-md mx-auto">
+    <select
+      id="state-select"
+      value={selectedState}
+      onChange={(e) => onStateSelect(e.target.value)}
+      className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
+    >
+      <option value="">Select a state...</option>
+      {US_STATES.map(state => (
+        <option key={state.code} value={state.code}>
+          {state.name}
+        </option>
+      ))}
+    </select>
+  </div>
+
+    {selectedState && (
+    <div className="mt-4 p-3 bg-blue-50 rounded border border-blue-200 max-w-md mx-auto">
+      <p className="text-sm text-blue-800 text-center">
+        <span className="font-semibold">
+          {US_STATES.find(s => s.code === selectedState)?.name}
+        </span> selected. Use the view toggle to switch between map and list views.
+      </p>
     </div>
+  )}
+  
+    
+    {/* Geolocation Button */}
+    <button
+      onClick={onGetLocation}
+      disabled={locationLoading}
+      className="flex items-center justify-center gap-2 px-4 py-2 mt-8 bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white rounded-lg font-medium transition-colors mb-0"
+    >
+      {locationLoading ? (
+        <Loader2 className="h-4 w-4 animate-spin" />
+      ) : (
+        <Navigation className="h-4 w-4" />
+      )}
+      {locationLoading ? 'Getting Location...' : 'Use My Location'}
+    </button>
+  </div>
+  
+
+
+</div>
   );
 }
 
@@ -316,12 +347,12 @@ function LocationCard({ location, viewMode }: {
         </div>
         
         <div className="flex gap-2 mt-4 pt-3 border-t">
-          <Link
-            href={`/usa/${location.state.toLowerCase()}/${location.id}/`}
-            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
-          >
-            View Details
-          </Link>
+<Link
+  href={`/usa/${getStateSlug(location.state)}/${createSlug(location.title)}/`}
+  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
+>
+  View Details
+</Link>
           <a
             href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
             target="_blank"
@@ -368,12 +399,12 @@ function LocationCard({ location, viewMode }: {
       </div>
       
       <div className="grid grid-cols-2 gap-2">
-        <Link
-          href={`/usa/${location.state.toLowerCase()}/${location.id}/`}
-          className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded text-xs font-medium text-center transition-colors"
-        >
-          Details
-        </Link>
+<Link
+  href={`/usa/${getStateSlug(location.state)}/${createSlug(location.title)}/`}
+  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
+>
+  View Details
+</Link>
         <a
           href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
           target="_blank"
@@ -546,31 +577,59 @@ export default function LightweightMapClient() {
 
   // Geolocation function
   const getCurrentLocation = useCallback(() => {
+    console.log('Getting location clicked...'); // Debug
     setLocationLoading(true);
+    setError(null); // Clear any previous errors
     
     if (!navigator.geolocation) {
-      setError('Geolocation is not supported by this browser');
+      const errorMsg = 'Geolocation is not supported by this browser';
+      console.error(errorMsg);
+      setError(errorMsg);
       setLocationLoading(false);
       return;
     }
 
+    console.log('Requesting geolocation permission...'); // Debug
+    
     navigator.geolocation.getCurrentPosition(
       (position) => {
-        setUserLocation({
+        console.log('Location success:', position.coords); // Debug
+        const newLocation = {
           lat: position.coords.latitude,
           lng: position.coords.longitude,
           accuracy: position.coords.accuracy
-        });
+        };
+        setUserLocation(newLocation);
         setLocationLoading(false);
+        
+        // Auto-select state based on location (optional enhancement)
+        // You could add logic here to determine which state the user is in
       },
       (error) => {
         console.error('Geolocation error:', error);
-        setError('Unable to get your location. Please check your location settings.');
+        let errorMsg = 'Unable to get your location. ';
+        
+        switch(error.code) {
+          case error.PERMISSION_DENIED:
+            errorMsg += 'Location access was denied. Please enable location permissions in your browser.';
+            break;
+          case error.POSITION_UNAVAILABLE:
+            errorMsg += 'Location information is unavailable.';
+            break;
+          case error.TIMEOUT:
+            errorMsg += 'Location request timed out. Please try again.';
+            break;
+          default:
+            errorMsg += 'An unknown error occurred.';
+            break;
+        }
+        
+        setError(errorMsg);
         setLocationLoading(false);
       },
       {
         enableHighAccuracy: true,
-        timeout: 10000,
+        timeout: 15000, // 15 seconds
         maximumAge: 300000 // 5 minutes
       }
     );
@@ -726,13 +785,6 @@ export default function LightweightMapClient() {
                         title="Map view"
                       >
                         <MapIcon className="h-4 w-4" />
-                      </button>
-                      <button
-                        onClick={() => setViewMode('grid')}
-                        className={`p-2 rounded ${viewMode === 'grid' ? 'bg-blue-100 text-blue-700' : 'text-gray-500 hover:text-gray-700'}`}
-                        title="Grid view"
-                      >
-                        <Grid className="h-4 w-4" />
                       </button>
                       <button
                         onClick={() => setViewMode('list')}

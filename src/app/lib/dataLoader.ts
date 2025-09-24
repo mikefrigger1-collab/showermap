@@ -1,4 +1,3 @@
-
 // ========================================
 // FILE: app/lib/dataLoader.ts
 // ========================================
@@ -129,7 +128,6 @@ export function loadStateData(stateCode: string): StateData | null {
   }
 }
 
-
 // Parse hours string into structured format
 function parseHoursString(hoursString: string): Record<string, string> {
   if (!hoursString || hoursString === '') return {};
@@ -213,8 +211,43 @@ function parseHoursString(hoursString: string): Record<string, string> {
   return hoursObj;
 }
 
+/**
+ * Consolidate similar categories into standard ones
+ * This function is shared with mapDataLoader.ts for consistency
+ */
+function consolidateCategory(category: string): string | null {
+  if (!category || typeof category !== 'string') return null;
+  
+  const normalizedCategory = category.toLowerCase().trim();
+  
+  // Remove unwanted categories
+  if (normalizedCategory.includes('gay') && normalizedCategory.includes('lesbian')) {
+    return null;
+  }
+  
+  // Empty or very short categories
+  if (normalizedCategory.length < 2) {
+    return null;
+  }
+  
+  // Precise consolidation mappings
+  if (normalizedCategory.includes('ymca')) return 'YMCA';
+  if (normalizedCategory.includes('gym') && !normalizedCategory.includes('ymca')) return 'Gym';
+  if (normalizedCategory.includes('community center')) return 'Community Center';
+  if (normalizedCategory.includes('recreation center')) return 'Recreation Center';
+  if (normalizedCategory.includes('truck stop')) return 'Truck Stop';
+  if (normalizedCategory.includes('pool') || normalizedCategory === 'aquatic center') return 'Swimming Pool';
+  if (normalizedCategory === 'hostel') return 'Hostel';
+  if (normalizedCategory.includes('state park') || (normalizedCategory === 'park' && !normalizedCategory.includes('water'))) return 'Park';
+  if (normalizedCategory.includes('child care') || normalizedCategory === 'preschool') return 'Child Care';
+  if (normalizedCategory.includes('gas station') || normalizedCategory === 'petrol station') return 'Gas Station';
+  
+  // Return cleaned original if no specific mapping found
+  const cleaned = category.charAt(0).toUpperCase() + category.slice(1).toLowerCase().trim();
+  return cleaned.length > 1 ? cleaned : null;
+}
 
-// Update the transformLocation function's categories section
+// Update the transformLocation function to use the consolidated category function
 export function transformLocation(rawLocation: any, index: number): ShowerLocation {
   const slug = createSlug(rawLocation.title);
   
@@ -223,31 +256,43 @@ export function transformLocation(rawLocation: any, index: number): ShowerLocati
     ? rawLocation.amenities.split('|').filter((a: string) => a.trim())
     : [];
   
-  // Determine categories - use Map for case-insensitive deduplication
-  const categoriesMap = new Map<string, string>();
-  
-  // Helper function to add category with proper casing preserved
-  const addCategory = (category: string) => {
-    if (category) {
-      const lowerKey = category.toLowerCase().trim();
-      // Only add if we haven't seen this category before (case-insensitive)
-      if (!categoriesMap.has(lowerKey)) {
-        // Preserve the original casing of the first occurrence
-        categoriesMap.set(lowerKey, category.trim());
-      }
+  // Process categories using the same logic as mapDataLoader
+  const categoriesSet = new Set<string>();
+
+  // Process businessType first
+  if (rawLocation.businessType) {
+    const businessCategory = consolidateCategory(rawLocation.businessType.trim());
+    if (businessCategory) {
+      categoriesSet.add(businessCategory);
     }
-  };
+  }
+
+  // Process category field - split, clean, and deduplicate
+  if (rawLocation.category) {
+    const categoryValues = rawLocation.category
+      .split(',')
+      .map((cat: string) => cat.trim())
+      .filter((cat: string) => cat.length > 0);
+      
+    categoryValues.forEach((cat: string) => {
+      const consolidated = consolidateCategory(cat);
+      if (consolidated) {
+        categoriesSet.add(consolidated);
+      }
+    });
+  }
+
+  // Convert Set to array and ensure uniqueness
+  let categories = Array.from(categoriesSet);
   
-  // Add businessType and category
-  addCategory(rawLocation.businessType);
-  addCategory(rawLocation.category);
-  
-  // Convert Map values back to array (preserves original casing)
-  let categories = Array.from(categoriesMap.values());
-  
+  // Additional deduplication for case-insensitive duplicates
+  const uniqueCategories = categories.filter((category, index) => {
+    return categories.findIndex(c => c.toLowerCase() === category.toLowerCase()) === index;
+  });
+
   // Add default if no categories found
-  if (categories.length === 0) {
-    categories.push('Public Facility');
+  if (uniqueCategories.length === 0) {
+    uniqueCategories.push('Public Facility');
   }
   
   // Parse hours - use the new parser if hours is a string, otherwise use dailyHours
@@ -274,7 +319,7 @@ export function transformLocation(rawLocation: any, index: number): ShowerLocati
     email: rawLocation.email,
     website: rawLocation.website || '',
     content: rawLocation.content || rawLocation.businessDescription || '',
-    categories: categories, // Now deduplicated case-insensitively
+    categories: uniqueCategories, // Now using the same consolidation logic as mapDataLoader
     amenities: amenities,
     cost: rawLocation.cost || 'Contact for pricing',
     access: rawLocation.access || 'Contact for access',
@@ -308,8 +353,6 @@ const cleanAddress = (address: string) => {
   const parts = cleanedAddress.split(',').map(part => part.trim());
   return `${parts[0]}, ${parts[1]}`;
 };
-
-
 
 // Clean up city field
 function cleanCity(city: string): string {
