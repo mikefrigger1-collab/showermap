@@ -65,18 +65,19 @@ export async function generateMetadata({
 
 export async function generateStaticParams() {
   // List of states to generate at build time
-  const states = [
-    'california', 'texas', 'new-york', 'florida', 'illinois',
-    'pennsylvania', 'ohio', 'georgia', 'north-carolina', 'michigan',
-    'washington', 'arizona', 'massachusetts', 'tennessee', 'indiana',
-    'missouri', 'maryland', 'wisconsin', 'colorado', 'minnesota',
-    'south-carolina', 'alabama', 'louisiana', 'kentucky', 'oregon',
-    'oklahoma', 'connecticut', 'utah', 'iowa', 'nevada',
-    'arkansas', 'mississippi', 'kansas', 'new-mexico', 'nebraska',
-    'west-virginia', 'idaho', 'hawaii', 'new-hampshire', 'maine',
-    'montana', 'rhode-island', 'delaware', 'south-dakota', 'north-dakota',
-    'alaska', 'vermont', 'wyoming'
-  ];
+const states = [
+  'alabama', 'alaska', 'arizona', 'arkansas', 'california', 
+  'colorado', 'connecticut', 'delaware', 'district-of-columbia', 'florida',
+  'georgia', 'hawaii', 'idaho', 'illinois', 'indiana', 
+  'iowa', 'kansas', 'kentucky', 'louisiana', 'maine',
+  'maryland', 'massachusetts', 'michigan', 'minnesota', 'mississippi',
+  'missouri', 'montana', 'nebraska', 'nevada', 'new-hampshire',
+  'new-jersey', 'new-mexico', 'new-york', 'north-carolina', 'north-dakota',
+  'ohio', 'oklahoma', 'oregon', 'pennsylvania', 'rhode-island',
+  'south-carolina', 'south-dakota', 'tennessee', 'texas', 'utah',
+  'vermont', 'virginia', 'washington', 'west-virginia', 'wisconsin',
+  'wyoming'
+];
   
   // Generate params for each state
   return states.map((region) => ({
