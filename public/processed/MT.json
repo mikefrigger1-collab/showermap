@@ -3,6 +3,290 @@
   "stateName": "Montana",
   "locations": [
     {
+      "title": "Flying J Dealer--Town Pump Travel Center",
+      "street": "Flying J Dealer--Town Pump Travel Center 4.0(1",
+      "city": "Billings",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "45.8129794",
+      "lng": "-109.5689534",
+      "phone": "(406) 256-8826",
+      "website": "https://www.loves.com/locations/679",
+      "content": "Flying J Dealer--Town Pump Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop, Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Jonathan Twilling",
+          "rating": "4 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… a flying J dealer. Not an actual flying J. Your app will work to fuel, but you will have to go inside to book a shower. If you have to wait, there is a drivers lounge that has some pretty comfortable seating. Showers are very roomy, unlike …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Jonathan Twilling_…_a_flying_J_dealer._Not_an_actual_flying_J._Your__3 months ago"
+        },
+        {
+          "reviewerName": "Oleksandr Khovrakh",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "They are always rude. Waiting for a shower for 55 minutes, the stuff just doesn’t care about it. All the showers are empty, and no one cleans them. They said we don't have clean towels - I told them that I have my own, answer: showers are …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Oleksandr Khovrakh_They_are_always_rude._Waiting_for_a_shower_for_55__2 months ago"
+        },
+        {
+          "reviewerName": "K.İbrahim KILINÇ",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "They don’t want give you shower very stupid place truckers don’t stop here. Don’t get diesel. Rude cashiers. Pilot app says nine shower available. The cashier told me we have no available shovel right now because they don’t wanna clean up …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "K.İbrahim KILINÇ_They_don’t_want_give_you_shower_very_stupid_place__4 months ago"
+        },
+        {
+          "reviewerName": "Leah P",
+          "rating": "1 stars",
+          "reviewDate": "a week ago",
+          "reviewText": "Extremely poor communication between the employees (ended up waiting way too long for a shower when I apparently didnt need to, because the guy that sold me the shower never told the other guy I was already in line for one). Showers have …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 32,
+          "uniqueId": "Leah P_Extremely_poor_communication_between_the_employees_a week ago"
+        },
+        {
+          "reviewerName": "Youssouf Moussa",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "I did not like the fact that these two guys lied to two of us waiting for shower. They keep telling us it won't take long and we've been waiting about 3 hours then at midnight I saw them clocked out and said they're going home.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Youssouf Moussa_I_did_not_like_the_fact_that_these_two_guys_lied_t_2 months ago"
+        },
+        {
+          "reviewerName": "T.C.E.",
+          "rating": "5 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "CLEAN HOT SHOWER I JUST WISH THERE WAS A FAN IN THE SHOWERS WITH ALL THE HOT WATER IT TURNS INTO A SAUNA WHILE YOUR TRYING TO GET DRESSED YOUR SWEATING AS FAST AS YOU DRY OFF BUT I CAN'T REALLY COMPLAIN SHOWER IS DEFINITELY WORTH IT,  THEY …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "T.C.E._CLEAN_HOT_SHOWER_I_JUST_WISH_THERE_WAS_A_FAN_IN_TH_5 months ago"
+        },
+        {
+          "reviewerName": "January April",
+          "rating": "1 stars",
+          "reviewDate": "Edited a month ago",
+          "reviewText": "One of the greatest truck stop in the area. Town pump shows to Pilot corporation how associates and management makes the difference. Clean, hot showers, big variety of food, big parking lot with smiley faces! …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 55,
+          "uniqueId": "January April_One_of_the_greatest_truck_stop_in_the_area._Town_p_Edited a month ago"
+        },
+        {
+          "reviewerName": "Phil Foster",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Plenty of truck parking. Every time I stop here it seems clean and well managed. Recliners in the spacious lounge, generously oversized shower rooms, and decent service as always. Plus, there are restaurants across the street.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "Phil Foster_Plenty_of_truck_parking._Every_time_I_stop_here_it_a year ago"
+        },
+        {
+          "reviewerName": "Bri",
+          "rating": "4 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "Update August 2023 : the lady who was rude was not there . Everyone was very nice , accommodating.  The showers were clean . Glad to have a pleasant experience with friendly workers …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Bri_Update_August_2023_:_the_lady_who_was_rude_was_not_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Amy",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "For $10 or shower flying J can certainly afford soap that works, an exhaust fan and these toilet seat covers are useless! everybody knows that! come on step up the game",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 78,
+          "uniqueId": "Amy_For_$10_or_shower_flying_J_can_certainly_afford_so_5 years ago"
+        },
+        {
+          "reviewerName": "Luke Mahoney",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "The staff is nice but the showers are $18 and take a long time to be ready. I would not recommend stopping here for a quick shower.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Luke Mahoney_The_staff_is_nice_but_the_showers_are_$18_and_take_a month ago"
+        },
+        {
+          "reviewerName": "Gregory Gorsuch",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Used the showers. Clean and fully equipped with towels and soaps. Nice to have a warm shower when you need it. Wait time was minimal and staff was friendly!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Gregory Gorsuch_Used_the_showers._Clean_and_fully_equipped_with_to_5 years ago"
+        },
+        {
+          "reviewerName": "Adam “THE” Man",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… Later I needed help getting a shower from the kiosk. My phone number wasn't registering. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 17,
+          "uniqueId": "Adam “THE” Man_…_Later_I_needed_help_getting_a_shower_from_the_ki_a year ago"
+        },
+        {
+          "reviewerName": "Jack w",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Customer service was Nice but also interesting.  The showers were clean but there is only 4 showers. I arrived and paid for a shower was told to wait. I waited in my car for about 20 minutes since the driver lounge was busy Go inside …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 25,
+          "uniqueId": "Jack w_Customer_service_was_Nice_but_also_interesting._T_a year ago"
+        },
+        {
+          "reviewerName": "Darko Kopunovic",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Absolutely avoiding in future.\nWait time for shower is hour and half",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 33,
+          "uniqueId": "Darko Kopunovic_Absolutely_avoiding_in_future._Wait_time_for_showe_4 months ago"
+        },
+        {
+          "reviewerName": "Preston Jones",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Terrible service. Hot water in showers doesn’t work. Hot water cuts out after five minutes and I got hosed down with cold water 3 times in 2 different showers on a frigid January day. Despite being made completely aware of the problem all …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 40,
+          "uniqueId": "Preston Jones_Terrible_service._Hot_water_in_showers_doesn’t_wor_a year ago"
+        },
+        {
+          "reviewerName": "Cati Edwards",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "The people were really friendly in the store and also in the cafe. The food is awesome and the shower was clean and the water temp never varied. It stayed nice and hot. Overall I think this TA is pretty great!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 49,
+          "uniqueId": "Cati Edwards_The_people_were_really_friendly_in_the_store_and_a_2 years ago"
+        },
+        {
+          "reviewerName": "Ricardo Costa",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Shower was discusting . No hot water.\nThen i tried the restaurant. What a horrible experience. Cook should be working as a mechanic. Spaguetti was old and chicken undercooked. Will never go back.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 56,
+          "uniqueId": "Ricardo Costa_Shower_was_discusting_._No_hot_water._Then_i_tried_a year ago"
+        },
+        {
+          "reviewerName": "Margaret Stinard",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Don't waste your money..Apparently professional truck drivers are low on the list of priorities here...you will get charged extra for WARM water to do laundry and if you want a hot shower your out of luck. Thier own employees said they …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "Margaret Stinard_Don't_waste_your_money..Apparently_professional_tr_a year ago"
+        },
+        {
+          "reviewerName": "John Doe",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "No service shop. Low flo shower heads, took long time to get hot, was clean tho. Soda/Ice fountain out of order. Needs maintenance in the mens bathrooms. Food in restaurant wasn't the best. Wide parking spots were nice.",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "John Doe_No_service_shop._Low_flo_shower_heads,_took_long_t_2 years ago"
+        }
+      ],
+      "showerReviewCount": 20,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "2775 Old Hardin Rd, Billings, MT 59101",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Dealer--Town+Pump+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Dealer--Town+Pump+Travel+Center/@45.8129794,-109.5689534,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x5348704684e59a67:0x6735ed17f5809ad5!8m2!3d45.8129794!4d-108.4153889!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5UVVJ2Ykc5TWNIQlJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgvEDM!16s%2Fg%2F1tgmvyjl?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Hardin",
+      "sourceState": "MT",
+      "timestamp": "2025-09-24T10:34:52.355Z",
+      "state": "MT"
+    },
+    {
       "title": "Trail Star Truck Stop",
       "street": "Trail Star Truck Stop 4.4(521)Truck stop",
       "city": "Glendive",
@@ -270,9 +554,59 @@
           ],
           "index": 78,
           "uniqueId": "Matcash Garage_Kind_of_messy_and_unorganized._Tried_to_get_a_show_3 years ago"
+        },
+        {
+          "reviewerName": "Donna Wiseman",
+          "rating": "4 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "Very nice, clean RV area.  Reasonable price because it includes your shower.  Shower was very clean.  The only reason I give it a 4 is because there is a stray German Shepherd that runs around (so sad) and I was walking my dog and had to …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Donna Wiseman_Very_nice,_clean_RV_area._Reasonable_price_becaus_3 weeks ago"
+        },
+        {
+          "reviewerName": "Melanie",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This was an excellent spot as we were passing through the area.  The washroom/shower facilities area is just pristine.  So beautiful and clean.  They also have a fenced in area for dogs and some sports courts. The RV sites are excellent …",
+          "showerKeywords": [
+            "shower",
+            "facilities",
+            "clean",
+            "wash"
+          ],
+          "index": 9,
+          "uniqueId": "Melanie_This_was_an_excellent_spot_as_we_were_passing_thro_a year ago"
+        },
+        {
+          "reviewerName": "SHAGGY PINES",
+          "rating": "3 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Hard to get signed in. No email for showers. Other folks helped us and clerk at store gave us shower code. No online chat option No one to talk to.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 18,
+          "uniqueId": "SHAGGY PINES_Hard_to_get_signed_in._No_email_for_showers._Other_4 months ago"
+        },
+        {
+          "reviewerName": "Edgar Johnson",
+          "rating": "1 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "For 52.00 just for electricity and no snow removal at all..ice everywhere with no salt or sand..\n1st time very disappointing..\nNo shower codes, no toilet paper in showers, mess all over the floor..\nNobody checked this in days.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 25,
+          "uniqueId": "Edgar Johnson_For_52.00_just_for_electricity_and_no_snow_removal_6 months ago"
         }
       ],
-      "showerReviewCount": 10,
+      "showerReviewCount": 14,
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, restroom",
       "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
       "address": "1270 MT-47, Hardin, MT 59034",
@@ -295,7 +629,91 @@
       "state": "MT"
     },
     {
+      "title": "Town Pump",
+      "street": "Town Pump 3.8(32)Truck stop",
+      "city": "Helena",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "46.6065277",
+      "lng": "-112.0466434",
+      "phone": "(406) 443-3730",
+      "website": "https://www.conoco.com/station/con-high-country-travel-plaza-0000881462/?utm_source=G&utm_medium=local&utm_campaign=google-local&utm_source=G&utm_medium=local&utm_campaign=google-local",
+      "content": "Town Pump may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "1240 Prospect Ave, Helena, MT 59601",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Convenience store",
+      "placeId": "Town+Pump",
+      "googleMapsUrl": "https://www.google.com/maps/place/Town+Pump/@46.6065277,-112.0466434,14z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x53435505cf832f87:0x12efa48c6982512c!8m2!3d46.591415!4d-112.019629!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARFjb252ZW5pZW5jZV9zdG9yZZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOMk5FNVVZM2xSUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAm!16s%2Fg%2F1tvtb01x?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Gas-station/convenience-store chain open 24/7 featuring grab & go snacks, coffee & more.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Helena",
+      "sourceState": "MT",
+      "timestamp": "2025-09-24T10:57:40.427Z",
+      "state": "MT"
+    },
+    {
       "title": "Pilot Licensed Location",
+      "street": "Pilot Licensed Location 4.3(109)Truck stop",
+      "city": "Lolo",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "46.7574262",
+      "lng": "-114.0859771",
+      "phone": "(406) 273-3018",
+      "website": "https://locations.pilotflyingj.com/us/mt/lolo/11882-highway-93-s",
+      "content": "Pilot Licensed Location may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
+      "address": "11882 US-93, Lolo, MT 59847",
+      "rating": "",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Licensed+Location",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Licensed+Location/@46.7574262,-114.0859771,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x535c2d2a4a87f45d:0xf67676a3b7cabe21!8m2!3d46.7574262!4d-114.081471!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11w3xyl01h?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Missoula",
+      "sourceState": "MT",
+      "timestamp": "2025-09-22T15:29:41.909Z",
+      "state": "MT"
+    },
+    {
+      "title": "Town Pump",
       "street": "Town Pump 2.9(17)Truck stop",
       "city": "Lolo",
       "province": "",
@@ -1312,21 +1730,23 @@
     }
   ],
   "cities": [
+    "Billings",
     "Glendive",
     "Hardin",
+    "Helena",
     "Lolo",
     "Missoula",
     "Sidney",
     "Superior"
   ],
-  "totalReviews": 75,
+  "totalReviews": 99,
   "categories": [
+    "Truck Stop, Public Facility",
     "Public Facility",
     "Public Facility, Truck Stop, Public Facility, Truck Stop",
-    "Truck Stop",
-    "Truck Stop, Public Facility"
+    "Truck Stop"
   ],
-  "locationsWithPhone": 10,
-  "timestamp": "2025-09-24T08:19:44.630Z",
-  "locationCount": 10
+  "locationsWithPhone": 13,
+  "timestamp": "2025-09-27T10:25:18.808Z",
+  "locationCount": 13
 }

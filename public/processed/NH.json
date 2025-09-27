@@ -163,7 +163,7 @@
       "state": "NH"
     },
     {
-      "title": "Kennebunk North Travel Plaza",
+      "title": "TA Travel Center",
       "street": "TA Travel Center 3.7(971)Truck stop",
       "city": "Greenland",
       "province": "",
@@ -171,12 +171,12 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "43.4101219",
-      "lng": "-70.5652132",
+      "lat": "43.043049",
+      "lng": "-70.8227956",
       "phone": "(603) 436-3636",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Truck Stop, Public Facility",
+      "category": "Truck Stop",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -321,24 +321,13 @@
           ],
           "index": 86,
           "uniqueId": "Mr. Boro (Ollie)_…_was_very_helpful._So_I’m_a_new_driver_I_get_the_5 years ago"
-        },
-        {
-          "reviewerName": "Philip 2791",
-          "rating": "3 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "For PRO TRUCKERS this truck stop IS NO PLACE TO SHOWER AND LAUNDRy, do not stop here if you need to 34 reset this facility does not have shower or laundry, NO SHOWER, NO LAUNDRY HERE DRIVERS SKIP THIS PLACE UNLESS YOU JUST WANT TO FUEL UP …",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 0,
-          "uniqueId": "Philip 2791_For_PRO_TRUCKERS_this_truck_stop_IS_NO_PLACE_TO_SH_2 years ago"
         }
       ],
-      "showerReviewCount": 13,
+      "showerReviewCount": 12,
       "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, clean",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "Mile 25 Southbound, Maine Turnpike, Kennebunk, ME 04043",
-      "rating": "4.1",
+      "address": "108 Ocean Rd, Greenland, NH 03840",
+      "rating": "3.7",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
@@ -942,15 +931,14 @@
     "Manchester",
     "Merrimack"
   ],
-  "totalReviews": 54,
+  "totalReviews": 53,
   "categories": [
     "Public Facility",
     "Truck Stop",
     "Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop",
-    "Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop",
-    "Truck Stop, Public Facility"
+    "Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop"
   ],
   "locationsWithPhone": 7,
-  "timestamp": "2025-09-24T08:19:44.630Z",
+  "timestamp": "2025-09-27T10:25:18.808Z",
   "locationCount": 7
 }

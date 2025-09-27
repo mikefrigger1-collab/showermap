@@ -1,0 +1,158 @@
+{
+  "generated": "2025-09-26T07:15:53.862Z",
+  "summary": {
+    "totalMajorCities": 145,
+    "citiesWithLocations": 107,
+    "citiesWithoutLocations": 38,
+    "overallCoverage": "73.8%"
+  },
+  "coverageByTier": {
+    "major": {
+      "total": 51,
+      "covered": 44,
+      "uncovered": 7,
+      "coveragePercentage": "86.3%"
+    },
+    "semi-major": {
+      "total": 58,
+      "covered": 40,
+      "uncovered": 18,
+      "coveragePercentage": "69.0%"
+    },
+    "important": {
+      "total": 36,
+      "covered": 23,
+      "uncovered": 13,
+      "coveragePercentage": "63.9%"
+    }
+  },
+  "topGaps": [
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "population": 2693976,
+      "tier": "major"
+    },
+    {
+      "city": "Albuquerque",
+      "state": "NM",
+      "population": 564559,
+      "tier": "major"
+    },
+    {
+      "city": "Atlanta",
+      "state": "GA",
+      "population": 498715,
+      "tier": "major"
+    },
+    {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "population": 478961,
+      "tier": "major"
+    },
+    {
+      "city": "Minneapolis",
+      "state": "MN",
+      "population": 429954,
+      "tier": "major"
+    },
+    {
+      "city": "Wichita",
+      "state": "KS",
+      "population": 389938,
+      "tier": "major"
+    },
+    {
+      "city": "New Orleans",
+      "state": "LA",
+      "population": 383997,
+      "tier": "major"
+    },
+    {
+      "city": "Honolulu",
+      "state": "HI",
+      "population": 345064,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Riverside",
+      "state": "CA",
+      "population": 331360,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Greensboro",
+      "state": "NC",
+      "population": 295570,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Lincoln",
+      "state": "NE",
+      "population": 295178,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Anchorage",
+      "state": "AK",
+      "population": 291247,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Fort Wayne",
+      "state": "IN",
+      "population": 270402,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Madison",
+      "state": "WI",
+      "population": 269840,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Reno",
+      "state": "NV",
+      "population": 264165,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Boise",
+      "state": "ID",
+      "population": 235684,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Richmond",
+      "state": "VA",
+      "population": 230436,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Spokane",
+      "state": "WA",
+      "population": 228989,
+      "tier": "semi-major"
+    },
+    {
+      "city": "Baton Rouge",
+      "state": "LA",
+      "population": 227470,
+      "tier": "semi-major"
+    },
+    {
+      "city": "San Bernardino",
+      "state": "CA",
+      "population": 222101,
+      "tier": "semi-major"
+    }
+  ],
+  "recommendations": [
+    "Focus on 7 major cities without coverage, starting with highest population",
+    "Priority markets: Chicago, IL, Albuquerque, NM",
+    "44 of 51 major cities have coverage - aim for 90%+",
+    "Semi-major city coverage at 69% - expand systematically",
+    "Consider interstate highway corridors connecting covered cities to uncovered ones"
+  ]
+}

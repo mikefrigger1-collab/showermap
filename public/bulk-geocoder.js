@@ -36,11 +36,23 @@ class BulkGeocoder {
         const data = await response.json();
         
         if (data && data.length > 0) {
+          const result = data[0];
+          
+          // Debug logging for confidence investigation
+          console.log(`    Raw importance: ${result.importance}`);
+          console.log(`    Place type: ${result.type}, Class: ${result.class}`);
+          
+          // Calculate confidence based on multiple factors
+          let confidence = this.calculateConfidence(result, address);
+          
           return {
-            lat: parseFloat(data[0].lat),
-            lng: parseFloat(data[0].lon),
-            confidence: data[0].importance || 0.5,
-            displayName: data[0].display_name
+            lat: parseFloat(result.lat),
+            lng: parseFloat(result.lon),
+            confidence: confidence,
+            displayName: result.display_name,
+            osmType: result.osm_type,
+            placeType: result.type,
+            rawImportance: result.importance
           };
         }
         
@@ -56,22 +68,60 @@ class BulkGeocoder {
     }
   }
 
+  calculateConfidence(result, searchAddress) {
+    let confidence = 0;
+    
+    // Base score from Nominatim importance (0-1 scale)
+    const importance = parseFloat(result.importance) || 0;
+    confidence += importance * 0.4; // 40% weight
+    
+    // Bonus for exact address matches
+    if (result.display_name && searchAddress) {
+      const displayLower = result.display_name.toLowerCase();
+      const searchLower = searchAddress.toLowerCase();
+      
+      // Check if key components match
+      if (searchLower.includes(result.housenumber || '')) confidence += 0.2;
+      if (searchLower.includes((result.road || '').toLowerCase())) confidence += 0.2;
+      if (searchLower.includes((result.city || result.town || result.village || '').toLowerCase())) confidence += 0.15;
+    }
+    
+    // Bonus for specific place types
+    const placeType = result.type || '';
+    if (['house', 'building', 'commercial'].includes(placeType)) {
+      confidence += 0.15;
+    } else if (['amenity', 'leisure', 'shop'].includes(result.class)) {
+      confidence += 0.1;
+    }
+    
+    // Penalty for very generic matches
+    if (placeType === 'administrative' || result.class === 'boundary') {
+      confidence -= 0.2;
+    }
+    
+    // Ensure confidence is between 0 and 1
+    return Math.max(0, Math.min(1, confidence));
+  }
+
   buildAddressOptions(location, stateCode) {
     const options = [];
     
-    // Clean the street address if it has quotes
+    // Clean the street address if it has quotes or extra text
     let cleanStreet = location.street || '';
     if (cleanStreet.includes('"')) {
       cleanStreet = cleanStreet.split('"')[0].trim();
     }
     
-    // Option 1: Full address field
-    if (location.address) {
+    // Remove business descriptions from street field
+    cleanStreet = cleanStreet.replace(/\s+\d+\.\d+\(\d+\).*$/, '').trim();
+    
+    // Option 1: Full address field (if it exists and looks complete)
+    if (location.address && location.address.includes(',')) {
       options.push(location.address);
     }
     
     // Option 2: Street + City + State
-    if (cleanStreet && location.city) {
+    if (cleanStreet && location.city && cleanStreet.length > 3) {
       options.push(`${cleanStreet}, ${location.city}, ${stateCode}`);
     }
     
@@ -81,7 +131,7 @@ class BulkGeocoder {
     }
     
     // Option 4: Street + Zip (if available)
-    if (cleanStreet && location.zip) {
+    if (cleanStreet && location.zip && cleanStreet.length > 3) {
       options.push(`${cleanStreet}, ${location.zip}`);
     }
     
@@ -90,8 +140,9 @@ class BulkGeocoder {
       options.push(`${location.city}, ${stateCode}`);
     }
     
-    // Filter out empty/short options
-    return options.filter(addr => addr && addr.length > 5);
+    // Filter out empty/short options and duplicates
+    const filtered = options.filter(addr => addr && addr.length > 5);
+    return [...new Set(filtered)]; // Remove duplicates
   }
 
   async geocodeLocation(location, stateCode) {
@@ -122,7 +173,13 @@ class BulkGeocoder {
       if (result) {
         this.successCount++;
         console.log(`  SUCCESS: ${result.lat}, ${result.lng}`);
-        console.log(`  Confidence: ${result.confidence}`);
+        console.log(`  Confidence: ${result.confidence.toFixed(3)} (was ${result.rawImportance})`);
+        
+        // Only accept results with reasonable confidence
+        if (result.confidence < 0.1) {
+          console.log(`  WARNING: Very low confidence, continuing to next address option...`);
+          continue;
+        }
         
         return {
           ...location,
@@ -132,6 +189,8 @@ class BulkGeocoder {
           geocodeConfidence: result.confidence,
           geocodeAddress: address,
           geocodeDisplayName: result.displayName,
+          geocodeOsmType: result.osmType,
+          geocodePlaceType: result.placeType,
           originalLat: location.lat,
           originalLng: location.lng,
           geocodedAt: new Date().toISOString()
@@ -345,5 +404,3 @@ if (require.main === module) {
 }
 
 module.exports = { BulkGeocoder };
-
-run with node bulk-geocoder.js ./data/states ./data/states-geocoded

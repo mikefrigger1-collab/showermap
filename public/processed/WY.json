@@ -3,6 +3,48 @@
   "stateName": "Wyoming",
   "locations": [
     {
+      "title": "Buffalo Sinclair",
+      "street": "Buffalo Sinclair 5.0(1)Truck stop",
+      "city": "Buffalo",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.3548757",
+      "lng": "-106.6891155",
+      "phone": "(307) 621-6064",
+      "website": "",
+      "content": "Buffalo Sinclair may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "74 US-16, Buffalo, WY 82834",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Buffalo+Sinclair",
+      "googleMapsUrl": "https://www.google.com/maps/place/Buffalo+Sinclair/@44.3548757,-106.6891155,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x53357900276cbfd9:0x65b3596e36bbf70c!8m2!3d44.3548757!4d-106.6846094!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5UVU5SZFdKRFZESm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEBo!16s%2Fg%2F11m5s4ndvt?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Buffalo",
+      "sourceState": "WY",
+      "timestamp": "2025-09-23T08:11:29.461Z",
+      "state": "WY"
+    },
+    {
       "title": "Love's Travel Stop",
       "street": "Love's Travel Stop 4.3(58)Truck stop",
       "city": "Buffalo",
@@ -37,8 +79,8 @@
       "showerReviewCount": 1,
       "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
       "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
-      "address": "I-, I-90BL, Buffalo, WY 82834",
-      "rating": "5.0",
+      "address": "190 US-16, Buffalo, WY 82834",
+      "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
@@ -54,6 +96,90 @@
       "sourceCity": "Buffalo",
       "sourceState": "WY",
       "timestamp": "2025-09-23T08:11:29.461Z",
+      "state": "WY"
+    },
+    {
+      "title": "Parking Area",
+      "street": "Parking Area 4.3(39)Rest stop",
+      "city": "Buffalo",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "44.3404793",
+      "lng": "-106.6389304",
+      "phone": "(307) 621-6064",
+      "website": "",
+      "content": "Parking Area may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "I-, I-90BL, Buffalo, WY 82834",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Rest stop",
+      "placeId": "Parking+Area",
+      "googleMapsUrl": "https://www.google.com/maps/place/Parking+Area/@44.3404793,-106.6389304,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x5335779e5ec04e7d:0x661276f80933cbf!8m2!3d44.3404793!4d-106.6344243!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQlyZXN0X3N0b3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUm9ORFp4V1dKbkVBRaoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAM!16s%2Fg%2F11dy78p242?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Buffalo",
+      "sourceState": "WY",
+      "timestamp": "2025-09-23T08:11:29.461Z",
+      "state": "WY"
+    },
+    {
+      "title": "Akal Travel Center",
+      "street": "Akal Travel Center 4.1(66)Petrol Station",
+      "city": "Buford",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.1238544",
+      "lng": "-105.3059919",
+      "phone": "(307) 775-8434",
+      "website": "http://cheyenne.littleamerica.com/travel-center",
+      "content": "Akal Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "2 Sammons Ln, Buford, WY 82052",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Petrol Station",
+      "placeId": "Akal+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Akal+Travel+Center/@41.1238544,-105.3059919,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x8768c404c89849ad:0x3a0236c64c7c7762!8m2!3d41.1238544!4d-105.3014858!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtnYXNfc3RhdGlvbqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F11t1ggs8s3?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Cheyenne",
+      "sourceState": "WY",
+      "timestamp": "2025-09-23T07:27:07.308Z",
       "state": "WY"
     },
     {
@@ -143,9 +269,9 @@
       "businessDescription": "",
       "extractedHours": "",
       "lat": "41.1602481",
-      "lng": "-104.5567292",
+      "lng": "-104.5251864",
       "phone": "(307) 365-6670",
-      "website": "https://www.loves.com/locations/220",
+      "website": "https://locations.pilotflyingj.com/us/wy/cheyenne/2250-etchepare-drive",
       "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
       "category": "Truck Stop",
       "amenities": "Hot Water",
@@ -284,7 +410,7 @@
       "priceLevel": "",
       "businessType": "Rest stop",
       "placeId": "TA+Travel+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@41.1602481,-104.5567292,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f108737575c73:0xb4d0a508502b3a68!8m2!3d41.1602481!4d-104.5206803!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQlyZXN0X3N0b3CaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTkdPRnAyVWpSM1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQJQ!16s%2Fg%2F11xvpbxlb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/TA+Travel+Center/@41.1602481,-104.5251864,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f108737575c73:0xb4d0a508502b3a68!8m2!3d41.1602481!4d-104.5206803!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQlyZXN0X3N0b3CaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTkdPRnAyVWpSM1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQJQ!16s%2Fg%2F11xvpbxlb?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "Truck-stop chain offering fuel & food. Many have amenities such as laundry rooms, showers & lodging.",
       "dailyHours": {},
@@ -294,12 +420,224 @@
       "hasDetailedHours": false,
       "sourceCity": "Cheyenne",
       "sourceState": "WY",
-      "timestamp": "2025-09-23T08:08:13.647Z",
+      "timestamp": "2025-09-24T09:23:04.642Z",
       "state": "WY"
     },
     {
       "title": "Flying J Travel Center",
-      "street": "Flying J Travel Center 3.9(2",
+      "street": "Flying J Travel Center 3.8(978)Truck stop",
+      "city": "Casper",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.8519526",
+      "lng": "-106.2740732",
+      "phone": "(307) 473-1750",
+      "website": "https://locations.pilotflyingj.com/us/wy/casper/41-se-wyoming-blvd.",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Karen Talley",
+          "rating": "3 stars",
+          "reviewDate": "6 days ago",
+          "reviewText": "There was no one waiting when I pd for mine, but the 4 showers were full.  The worker told me when someone came out, I would be next. After 30 minutes n ask the showers emptied, I had to go get someone to clean. The rooms are small, n the …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Karen Talley_There_was_no_one_waiting_when_I_pd_for_mine,_but_t_6 days ago"
+        },
+        {
+          "reviewerName": "Sable Hund",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "… , cozy, clean and the employees absolutely are a cut above most! Dillon greeted us when we walked in, noticed we were carrying shower bags and set us up quickly for a shower. He was friendly and just gave us the feeling that he liked truck …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Sable Hund_…_,_cozy,_clean_and_the_employees_absolutely_are_a_9 months ago"
+        },
+        {
+          "reviewerName": "Jewel Gwaltney",
+          "rating": "3 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Showers too small and wets the whole room. Had a nice hot shower however but towels were still wet!?  The showers are cleaner than restroom. Has a decent lobby two massage chairs and a couple washer/dryers. No alcohol to buy here. Parking …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean",
+            "wash"
+          ],
+          "index": 18,
+          "uniqueId": "Jewel Gwaltney_Showers_too_small_and_wets_the_whole_room._Had_a_n_2 months ago"
+        },
+        {
+          "reviewerName": "Haly",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Today they refueled here and used the shower cabin. It's the first time I've seen workers leave water in the shower, it pleasantly surprised me, thanks to this man who does it. There was a very friendly woman at the cash desk, she …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 26,
+          "uniqueId": "Haly_Today_they_refueled_here_and_used_the_shower_cabin_a year ago"
+        },
+        {
+          "reviewerName": "Gerald Patterson",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Small version of a truck stop but they have everything.  Have 4 showers and just and FYI..they get steamy fast but the water pressure is dang good.  Tho when using them, don't leave anything on top of the tp holder as it will get wet from …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 35,
+          "uniqueId": "Gerald Patterson_Small_version_of_a_truck_stop_but_they_have_everyt_3 years ago"
+        },
+        {
+          "reviewerName": "Максим Максимов",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I travel around the states a lot. But I have never encountered such friendliness as at this truck stop, here they leave water in the shower for the visitor, these are small things but very nice. Thank you guys who work here",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 45,
+          "uniqueId": "Максим Максимов_I_travel_around_the_states_a_lot._But_I_have_never_a year ago"
+        },
+        {
+          "reviewerName": "Paul Stephen Kolisch",
+          "rating": "5 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "… had, and I have been to many. From Don, the shower guy, taking pride in his job and leaving the shower spotless to Steven at the front desk being extremely helpful, I was pleasantly surprised. It would be awesome if there was more truck …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 53,
+          "uniqueId": "Paul Stephen Kolisch_…_had,_and_I_have_been_to_many._From_Don,_the_show_8 years ago"
+        },
+        {
+          "reviewerName": "Trevor Bohl",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Tried to shower at 430 am Sunday morning.  The guy behind the counter told me the showers are closed until 630 cause there's nobody else here to clean them.   Pretty shitty way to run a 24 hr truckstop where there's drivers on all different …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 61,
+          "uniqueId": "Trevor Bohl_Tried_to_shower_at_430_am_Sunday_morning._The_guy_2 years ago"
+        },
+        {
+          "reviewerName": "Curt Blankenship",
+          "rating": "2 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "I had to pay $17 for a shower and they were smaller than an RV shower bathrooms are so tiny your shoulders touch wall-to-wall in each booth, they had five commercial diesel pumps but only three work, very busy intersection to try to squeeze …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 69,
+          "uniqueId": "Curt Blankenship_I_had_to_pay_$17_for_a_shower_and_they_were_smalle_2 years ago"
+        },
+        {
+          "reviewerName": "Amanda Mead",
+          "rating": "3 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Very pleasant staff. I came here to fuel, shower and do some laundry on my reset. The laundry machines have apparently been down for quite some time however. I took my money down to the hat six a few miles to the south. You should too. The …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 77,
+          "uniqueId": "Amanda Mead_Very_pleasant_staff._I_came_here_to_fuel,_shower_a_6 years ago"
+        },
+        {
+          "reviewerName": "Sable Hund",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "By far and away one of the best Pilot's we've been to in the nation! It's small, cozy, clean and the employees absolutely are a cut above most! Dillon greeted us when we walked in, noticed we were carrying shower bags and set us up quickly …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Sable Hund_By_far_and_away_one_of_the_best_Pilot's_we've_been_9 months ago"
+        },
+        {
+          "reviewerName": "Pearl Stephens",
+          "rating": "5 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "Smaller fuel island than most Pilot locations. The restrooms were decently clean, and the cashier was polite and friendly. Of course, they have hot drinks, food, etc. Multiple roasts of coffee are available, as well as sweeteners and creamers. There are milk and half n half dispensers.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 18,
+          "uniqueId": "Pearl Stephens_Smaller_fuel_island_than_most_Pilot_locations._The_2 months ago"
+        },
+        {
+          "reviewerName": "Alecks Gather",
+          "rating": "4 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Clean, near lot of different eat places including Mexican food. About 25 trucks max. small fuel isle about 4 lanes. Trashy outside. Walk to Walmart parking lot behind the truck parking through the hill and into Walmart. Nice people and …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 49,
+          "uniqueId": "Alecks Gather_Clean,_near_lot_of_different_eat_places_including__7 years ago"
+        },
+        {
+          "reviewerName": "Michael Misener",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Stayed here for a 34 hr reset (truckers know.) Great place. Friendly help! Showers are small, but at least they are clean! My dog & I felt very welcomed. Please make sure you clean up after your pets. Many have not. Close to eateries & right next door to Walmart & a Sam's. Many things to do within walking distance",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "Michael Misener_Stayed_here_for_a_34_hr_reset_(truckers_know.)_Gre_2 years ago"
+        }
+      ],
+      "showerReviewCount": 14,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, restroom, wash, bathroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "41 SE Wyoming Blvd, Casper, WY 82609",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@42.8519526,-106.2740732,17z/data=!4m11!1m3!2m2!1struck+stop!6e6!3m6!1s0x8760bc0a0eab4277:0x56e2b5a39f72765!8m2!3d42.8519526!4d-106.2695671!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4yTkZsRVYyNUJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBQi-BxBI!16s%2Fg%2F1w2yvch8?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Douglas",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T16:07:54.769Z",
+      "state": "WY"
+    },
+    {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.8(2",
       "city": "Cheyenne",
       "province": "",
       "zip": "",
@@ -307,9 +645,9 @@
       "businessDescription": "",
       "extractedHours": "",
       "lat": "41.0988118",
-      "lng": "-104.8900048",
+      "lng": "-104.858462",
       "phone": "(307) 635-2918",
-      "website": "https://www.loves.com/locations/220",
+      "website": "https://locations.pilotflyingj.com/us/wy/cheyenne/2250-etchepare-drive",
       "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
       "category": "Truck Stop",
       "amenities": "Hot Water",
@@ -470,7 +808,7 @@
       "priceLevel": "",
       "businessType": "Truck stop",
       "placeId": "Flying+J+Travel+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@41.0988118,-104.8900048,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f2ff11f01494b:0x25b9b259eb056e73!8m2!3d41.0988118!4d-104.8539559!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tff82t2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@41.0988118,-104.858462,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f2ff11f01494b:0x25b9b259eb056e73!8m2!3d41.0988118!4d-104.8539559!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tff82t2?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -480,7 +818,7 @@
       "hasDetailedHours": false,
       "sourceCity": "Cheyenne",
       "sourceState": "WY",
-      "timestamp": "2025-09-23T08:08:13.647Z",
+      "timestamp": "2025-09-24T09:23:04.642Z",
       "state": "WY"
     },
     {
@@ -495,9 +833,9 @@
       "lat": "41.1180251",
       "lng": "-104.8595599",
       "phone": "(307) 775-8434",
-      "website": "http://cheyenne.littleamerica.com/travel-center",
+      "website": "https://locations.pilotflyingj.com/us/wy/cheyenne/2250-etchepare-drive",
       "content": "Little America Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Truck Stop, Public Facility, Public Facility, Truck Stop, Public Facility, Truck Stop",
+      "category": "Truck Stop, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -626,12 +964,12 @@
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, facilities, clean, bathroom",
       "hours": "",
       "address": "2800 W Lincolnway, Cheyenne, WY 82001",
-      "rating": "4.1",
+      "rating": "3.8",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
       "placeId": "Little+America+Travel+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/Little+America+Travel+Center/@41.1180251,-104.8595599,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f3004c2572a4b:0x3ece8f303ad70216!8m2!3d41.1180251!4d-104.8550538!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF5YTNGMlJXbFJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEB8!16s%2Fg%2F113fy9mh9?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Little+America+Travel+Center/@41.1180251,-104.8595599,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f3004c2572a4b:0x3ece8f303ad70216!8m2!3d41.1180251!4d-104.8550538!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVF5YTNGMlJXbFJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEB8!16s%2Fg%2F113fy9mh9?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -641,12 +979,12 @@
       "hasDetailedHours": false,
       "sourceCity": "Cheyenne",
       "sourceState": "WY",
-      "timestamp": "2025-09-23T07:27:07.308Z",
+      "timestamp": "2025-09-24T09:23:04.642Z",
       "state": "WY"
     },
     {
       "title": "Little America Travel Center",
-      "street": "Love's Travel Stop 4.0(700)Truck stop",
+      "street": "Love's Travel Stop 4.0(701)Truck stop",
       "city": "Cheyenne",
       "province": "",
       "zip": "",
@@ -654,11 +992,11 @@
       "businessDescription": "",
       "extractedHours": "",
       "lat": "41.0981995",
-      "lng": "-104.8846331",
+      "lng": "-104.8530903",
       "phone": "(307) 632-7902",
-      "website": "https://www.loves.com/locations/220",
+      "website": "https://locations.pilotflyingj.com/us/wy/cheyenne/2250-etchepare-drive",
       "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Truck Stop, Truck Stop, Public Facility, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop",
+      "category": "Public Facility, Public Facility, Truck Stop, Truck Stop, Public Facility",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -785,6 +1123,76 @@
           ],
           "index": 72,
           "uniqueId": "Gone Fishing_Otrs._If_you're_moving_and_need_a_quick_clean_show_3 years ago"
+        },
+        {
+          "reviewerName": "Terra Fulmer",
+          "rating": "4 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Convenient location right off I-80! Truckers & other guest share the same entrance/exit so it can get congested. Plenty of parking! Somewhat stocked store with clean restrooms & showers!",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Terra Fulmer_Convenient_location_right_off_I-80!_Truckers_&_oth_a month ago"
+        },
+        {
+          "reviewerName": "Will Handley",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Vantastic Love's Travel Center! This is a smaller property with limited space for non Big Rig parking. Larger RV'S will need to park in the lower lot with same. The lots were clean, well maintained, well lit but not level. The store and …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Will Handley_Vantastic_Love's_Travel_Center!_This_is_a_smaller__10 months ago"
+        },
+        {
+          "reviewerName": "Gurkawal Singh",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Staff is super rude they are the way hell out the limit and doing racism with people I’m not from America I’m from Canada.\nI booked a shower at 2.30 am in the morning after waiting 30 minutes I went …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 39,
+          "uniqueId": "Gurkawal Singh_Staff_is_super_rude_they_are_the_way_hell_out_the__3 months ago"
+        },
+        {
+          "reviewerName": "Cosima Ixchel",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "I'm a truck driver. But I'm also a young woman. So it is incredibly disturbing to me that an older man would feel so comfortable harassing me while I'm naked in the shower room. One of your employees started knocking on the door and telling …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 55,
+          "uniqueId": "Cosima Ixchel_I'm_a_truck_driver._But_I'm_also_a_young_woman._So_3 months ago"
+        },
+        {
+          "reviewerName": "Birdie Manu",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Only stopped here to use the bathrooms and they were spotless! There is a sign on both men’s and women’s room which indicated that they both have a baby changing station which is incredibly considerate. Would go here again! …",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 63,
+          "uniqueId": "Birdie Manu_Only_stopped_here_to_use_the_bathrooms_and_they_we_2 years ago"
+        },
+        {
+          "reviewerName": "Gurneet Kaur",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Only if I could rate it no stars, I'd do it without hesitation. Just visited the truck stop the fuel aisles were all empty we wanted to clean mirrors and windows which is why parked in the fuel aisle and went in to use the shower just to …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 74,
+          "uniqueId": "Gurneet Kaur_Only_if_I_could_rate_it_no_stars,_I'd_do_it_withou_3 months ago"
         },
         {
           "reviewerName": "Daniel Roberts",
@@ -938,76 +1346,60 @@
           ],
           "index": 60,
           "uniqueId": "Mark_Small_lot_filled_with_ABF_trailers._Only_2_showers_a month ago"
-        },
+        }
+      ],
+      "showerReviewCount": 29,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, wash, showers, restroom",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "3305 W College Dr, Cheyenne, WY 82007",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@41.0981995,-104.8530903,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f2ff68487003d:0x3cb4d32e792f4d72!8m2!3d41.0981995!4d-104.8485842!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tycx48d?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Cheyenne",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T09:23:04.642Z",
+      "state": "WY"
+    },
+    {
+      "title": "Little America Truck Center",
+      "street": "Big D Oil Travel Center 4.1(177)Truck stop",
+      "city": "Cheyenne",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.1232152",
+      "lng": "-104.8469274",
+      "phone": "(307) 514-1261",
+      "website": "https://locations.pilotflyingj.com/us/wy/cheyenne/2250-etchepare-drive",
+      "content": "Big D Oil Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop, Truck Stop, Public Facility, Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
         {
-          "reviewerName": "Terra Fulmer",
-          "rating": "4 stars",
-          "reviewDate": "a month ago",
-          "reviewText": "Convenient location right off I-80! Truckers & other guest share the same entrance/exit so it can get congested. Plenty of parking! Somewhat stocked store with clean restrooms & showers!",
+          "reviewerName": "Austen L Suntken",
+          "rating": "2 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "The first bad experience I've ever had at any of the Little Americas. Taking shower and I'm pretty quick to shower maybe 10 min in and out. The old lady behind counter comes ans knocks on door and says you need to hurry up. Okay, so now i …",
           "showerKeywords": [
-            "shower",
-            "showers",
-            "restroom",
-            "clean"
+            "shower"
           ],
           "index": 0,
-          "uniqueId": "Terra Fulmer_Convenient_location_right_off_I-80!_Truckers_&_oth_a month ago"
-        },
-        {
-          "reviewerName": "Will Handley",
-          "rating": "5 stars",
-          "reviewDate": "10 months ago",
-          "reviewText": "Vantastic Love's Travel Center! This is a smaller property with limited space for non Big Rig parking. Larger RV'S will need to park in the lower lot with same. The lots were clean, well maintained, well lit but not level. The store and …",
-          "showerKeywords": [
-            "clean"
-          ],
-          "index": 19,
-          "uniqueId": "Will Handley_Vantastic_Love's_Travel_Center!_This_is_a_smaller__10 months ago"
-        },
-        {
-          "reviewerName": "Gurkawal Singh",
-          "rating": "1 stars",
-          "reviewDate": "3 months ago",
-          "reviewText": "Staff is super rude they are the way hell out the limit and doing racism with people I’m not from America I’m from Canada.\nI booked a shower at 2.30 am in the morning after waiting 30 minutes I went …",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 39,
-          "uniqueId": "Gurkawal Singh_Staff_is_super_rude_they_are_the_way_hell_out_the__3 months ago"
-        },
-        {
-          "reviewerName": "Cosima Ixchel",
-          "rating": "1 stars",
-          "reviewDate": "3 months ago",
-          "reviewText": "I'm a truck driver. But I'm also a young woman. So it is incredibly disturbing to me that an older man would feel so comfortable harassing me while I'm naked in the shower room. One of your employees started knocking on the door and telling …",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 55,
-          "uniqueId": "Cosima Ixchel_I'm_a_truck_driver._But_I'm_also_a_young_woman._So_3 months ago"
-        },
-        {
-          "reviewerName": "Birdie Manu",
-          "rating": "4 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "Only stopped here to use the bathrooms and they were spotless! There is a sign on both men’s and women’s room which indicated that they both have a baby changing station which is incredibly considerate. Would go here again! …",
-          "showerKeywords": [
-            "bathroom"
-          ],
-          "index": 63,
-          "uniqueId": "Birdie Manu_Only_stopped_here_to_use_the_bathrooms_and_they_we_2 years ago"
-        },
-        {
-          "reviewerName": "Gurneet Kaur",
-          "rating": "1 stars",
-          "reviewDate": "3 months ago",
-          "reviewText": "Only if I could rate it no stars, I'd do it without hesitation. Just visited the truck stop the fuel aisles were all empty we wanted to clean mirrors and windows which is why parked in the fuel aisle and went in to use the shower just to …",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 74,
-          "uniqueId": "Gurneet Kaur_Only_if_I_could_rate_it_no_stars,_I'd_do_it_withou_3 months ago"
+          "uniqueId": "Austen L Suntken_The_first_bad_experience_I've_ever_had_at_any_of_t_2 months ago"
         },
         {
           "reviewerName": "Jeremy Banks",
@@ -1117,26 +1509,26 @@
           "uniqueId": "Jason Roberts_…_fuel_at_the_little_america_west_of_here_but_if_I_11 years ago"
         }
       ],
-      "showerReviewCount": 38,
-      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, wash, showers, restroom",
-      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
-      "address": "3305 W College Dr, Cheyenne, WY 82007",
+      "showerReviewCount": 10,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 6 am Wednesday6 am–10 pmThursday6 am–10 pmFriday6 am–10 pmSaturday6 am–10 pmSunday6 am–10 pmMonday6 am–10 pmTuesday6 am–10 pmSuggest new hours",
+      "address": "2310 W Lincolnway, Cheyenne, WY 82001",
       "rating": "4.1",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
-      "placeId": "Love's+Travel+Stop",
-      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@41.0981995,-104.8846331,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f2ff68487003d:0x3cb4d32e792f4d72!8m2!3d41.0981995!4d-104.8485842!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tycx48d?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "placeId": "Big+D+Oil+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Big+D+Oil+Travel+Center/@41.1232152,-104.8469274,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f3aa62d625493:0xa2fe023c60154d87!8m2!3d41.1232152!4d-104.8424213!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJTYzB4eWJqZEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgJECc!16s%2Fg%2F1v6l7_20?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
       "dailyHoursFormatted": "",
-      "isOpen24Hours": true,
-      "isClosed": false,
+      "isOpen24Hours": false,
+      "isClosed": true,
       "hasDetailedHours": false,
       "sourceCity": "Cheyenne",
       "sourceState": "WY",
-      "timestamp": "2025-09-23T08:08:13.647Z",
+      "timestamp": "2025-09-24T09:23:04.642Z",
       "state": "WY"
     },
     {
@@ -1149,9 +1541,9 @@
       "businessDescription": "",
       "extractedHours": "",
       "lat": "41.1363306",
-      "lng": "-104.7427836",
+      "lng": "-104.7112408",
       "phone": "(307) 635-5744",
-      "website": "https://www.loves.com/locations/220",
+      "website": "https://locations.pilotflyingj.com/us/wy/cheyenne/2250-etchepare-drive",
       "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
       "category": "Truck Stop",
       "amenities": "Hot Water",
@@ -1282,14 +1674,14 @@
       ],
       "showerReviewCount": 10,
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, showers, clean",
-      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
       "address": "8020 Campstool Rd, Cheyenne, WY 82007",
       "rating": "3.7",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
       "placeId": "Pilot+Travel+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@41.1363306,-104.7427836,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f3cd671647bed:0xf6675e0ffbb61270!8m2!3d41.1363306!4d-104.7067347!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1thlzylb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@41.1363306,-104.7112408,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f3cd671647bed:0xf6675e0ffbb61270!8m2!3d41.1363306!4d-104.7067347!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1thlzylb?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -1299,7 +1691,7 @@
       "hasDetailedHours": false,
       "sourceCity": "Cheyenne",
       "sourceState": "WY",
-      "timestamp": "2025-09-23T08:08:13.647Z",
+      "timestamp": "2025-09-24T09:23:04.642Z",
       "state": "WY"
     },
     {
@@ -1312,11 +1704,11 @@
       "businessDescription": "",
       "extractedHours": "",
       "lat": "41.157869",
-      "lng": "-104.6980716",
+      "lng": "-104.6665288",
       "phone": "(307) 632-6600",
-      "website": "https://www.loves.com/locations/220",
+      "website": "https://locations.pilotflyingj.com/us/wy/cheyenne/2250-etchepare-drive",
       "content": "Sapp Bros. Petroleum may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility",
+      "category": "Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -1446,15 +1838,15 @@
         }
       ],
       "showerReviewCount": 10,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Closed ⋅ Opens 8 am Tuesday8 am–5 pmWednesday8 am–5 pmThursday8 am–5 pmFriday8 am–5 pmSaturdayClosedSundayClosedMonday8 am–5 pmSuggest new hours",
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, bathroom, clean, restroom",
+      "hours": "Closed ⋅ Opens 8 am Wednesday8 am–5 pmThursday8 am–5 pmFriday8 am–5 pmSaturdayClosedSundayClosedMonday8 am–5 pmTuesday8 am–5 pmSuggest new hours",
       "address": "12500 Interstate 80 Service Rd, Cheyenne, WY 82009",
       "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
       "placeId": "Sapp+Bros.+Petroleum",
-      "googleMapsUrl": "https://www.google.com/maps/place/Sapp+Bros.+Petroleum/@41.157869,-104.6980716,14z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f3d608b43ad5b:0x32fc027c5114f852!8m2!3d41.157869!4d-104.6620227!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVIwYkU1Nlh6UjNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEg!16s%2Fg%2F1260fbfvj?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Sapp+Bros.+Petroleum/@41.157869,-104.6665288,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f3d608b43ad5b:0x32fc027c5114f852!8m2!3d41.157869!4d-104.6620227!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVIwYkU1Nlh6UjNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEg!16s%2Fg%2F1260fbfvj?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "Gas-station & convenience-store chain with snacks & drinks. Some have auto service &/or restaurants.",
       "dailyHours": {},
@@ -1464,7 +1856,91 @@
       "hasDetailedHours": false,
       "sourceCity": "Cheyenne",
       "sourceState": "WY",
-      "timestamp": "2025-09-23T08:08:13.647Z",
+      "timestamp": "2025-09-24T09:23:04.642Z",
+      "state": "WY"
+    },
+    {
+      "title": "SPF Truckstop",
+      "street": "SPF Truckstop 3.6(36)Truck stop",
+      "city": "Cheyenne",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.1001789",
+      "lng": "-104.8532375",
+      "phone": "(307) 775-8434",
+      "website": "http://cheyenne.littleamerica.com/travel-center",
+      "content": "SPF Truckstop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "3304 W College Dr, Cheyenne, WY 82007",
+      "rating": "3.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "SPF+Truckstop",
+      "googleMapsUrl": "https://www.google.com/maps/place/SPF+Truckstop/@41.1001789,-104.8532375,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f2f1237ed8c6f:0x8e65773fdb3443c7!8m2!3d41.1001789!4d-104.8487314!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5QZDJZemJqQm5SUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEM!16s%2Fg%2F11j1khwy5v?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Cheyenne",
+      "sourceState": "WY",
+      "timestamp": "2025-09-23T07:27:07.308Z",
+      "state": "WY"
+    },
+    {
+      "title": "Truck Parking",
+      "street": "Cheyenne Amtrak Bus StopDirections",
+      "city": "Cheyenne",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "41.1013758",
+      "lng": "-104.8531414",
+      "phone": "(307) 635-2918",
+      "website": "https://locations.pilotflyingj.com/us/wy/cheyenne/2250-etchepare-drive",
+      "content": "Truck Parking may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "Cheyenne Amtrak Bus Stop, Cheyenne, WY 82007",
+      "rating": "",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "Truck+Parking",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truck+Parking/@41.1013758,-104.8531414,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x876f2f00728bfd9d:0xb595d244d54ddfca!8m2!3d41.1013758!4d-104.8486353!15sCgp0cnVjayBzdG9wkgELcGFya2luZ19sb3SqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA!16s%2Fg%2F11y29yjxkn?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Cheyenne",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T09:23:04.642Z",
       "state": "WY"
     },
     {
@@ -1625,6 +2101,62 @@
       "state": "WY"
     },
     {
+      "title": "Broken wheel truck stop and cafe",
+      "street": "Broken wheel truck stop and cafe 2.4(10)2332 E Richards St #8920 \"Good food and great service\"",
+      "city": "Douglas",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.737354",
+      "lng": "-105.3524851",
+      "phone": "(307) 624-0101",
+      "website": "http://www.gibsonscustomstowingllc.com/",
+      "content": "Broken wheel truck stop and cafe may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water|Towels|Soap|24 Hour Access",
+      "cost": "$10-15",
+      "access": "Pay per use",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "John Gregson",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Your a 24 hour truck stop and you close your showers at 10pm????? Shame on you! Shame, Shame,Shame. What are you thinking? Some of us guys on the road rely on the showers to sleep in a clean bed! Don't care do you? What is wrong with …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 14,
+          "uniqueId": "John Gregson_Your_a_24_hour_truck_stop_and_you_close_your_showe_a year ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "2321 E Richards St, Douglas, WY 82633",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Towing service",
+      "placeId": "Broken+wheel+truck+stop+and+cafe",
+      "googleMapsUrl": "https://www.google.com/maps/place/Broken+wheel+truck+stop+and+cafe/@42.737354,-105.3524851,17z/data=!4m11!1m3!2m2!1struck+stop!6e6!3m6!1s0x87614ac775f44c09:0x1962ba3457a52a98!8m2!3d42.7381983!4d-105.3465535!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTjJhR0pxUW5GUlJSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQGw!16s%2Fg%2F11f11p7qpx?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Douglas",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T16:07:54.769Z",
+      "state": "WY"
+    },
+    {
       "title": "Orin Junction Truck Stop",
       "street": "Orin Junction Truck Stop 3.6(102)",
       "city": "Douglas",
@@ -1667,6 +2199,171 @@
       "state": "WY"
     },
     {
+      "title": "Flying J Travel Center",
+      "street": "Flying J Travel Center 3.8(1",
+      "city": "Evanston",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.2646871",
+      "lng": "-110.9822665",
+      "phone": "(307) 789-9129",
+      "website": "https://www.sinclairoil.com/?utm_source=google&utm_medium=yext",
+      "content": "Flying J Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Sheila Randall",
+          "rating": "4 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "Mid size pilot very clean shower inside is small .but,want if something to eat  just next door Japanese  restaurant good food get along for money. mrs.gayl appreciate that cashier .she deal with each  customer respectfully.i didn't feel …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Sheila Randall_Mid_size_pilot_very_clean_shower_inside_is_small_._3 weeks ago"
+        },
+        {
+          "reviewerName": "Manraj Singh",
+          "rating": "1 stars",
+          "reviewDate": "5 days ago",
+          "reviewText": "Hey guys don’t take showers from these guys . I took ahower from them when i go inside the shower . And when i turn it on . They have ice melt water . Which was really cold as hell . Or either they have boiling water . I already put soap on …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 10,
+          "uniqueId": "Manraj Singh_Hey_guys_don’t_take_showers_from_these_guys_._I_to_5 days ago"
+        },
+        {
+          "reviewerName": "Nast Morandi",
+          "rating": "2 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Why is there cold water in the shower in winter?  Can you explain the administration?  people leave so much money at your dirty gas stations and you can't provide them with warm water ..",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 19,
+          "uniqueId": "Nast Morandi_Why_is_there_cold_water_in_the_shower_in_winter?__3 years ago"
+        },
+        {
+          "reviewerName": "Kyler Jensen",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "I stopped at Flying J during my travels and was thoroughly impressed with the cleanliness and quality of their showers. It’s clear they take pride in maintaining a welcoming and comfortable environment for their guests. The shower area was …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Kyler Jensen_I_stopped_at_Flying_J_during_my_travels_and_was_th_10 months ago"
+        },
+        {
+          "reviewerName": "Kozacok Kozacok",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I bought a shower in the app and waited 30 minutes, the next person in line never turned on. When I told the service staff, they refused and said they didn't clean.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 38,
+          "uniqueId": "Kozacok Kozacok_I_bought_a_shower_in_the_app_and_waited_30_minutes_4 months ago"
+        },
+        {
+          "reviewerName": "Pnw Jinx",
+          "rating": "1 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Two showers that need to be cleaned and I have been waiting for 15 min for a shower. This place has really gone down hill and by the looks of the things it’s still going down. Don’t waste your time go to the pilot or just keep goin on by.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 46,
+          "uniqueId": "Pnw Jinx_Two_showers_that_need_to_be_cleaned_and_I_have_bee_5 years ago"
+        },
+        {
+          "reviewerName": "Sable Hund",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… was ice all over, deepish snow and the I-80 was closed. We had a reserve, went in for a shower but didn't have the time to wait for them to clean ( because we had to get some sleep). We decided to just call it a night and went to see if we …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 54,
+          "uniqueId": "Sable Hund_…_was_ice_all_over,_deepish_snow_and_the_I-80_was__a year ago"
+        },
+        {
+          "reviewerName": "Splunkr Dude",
+          "rating": "2 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "The showers were reasonably clean, but its a shame that I can't say the same for myself after my shower. Both soap dispensers were empty so all I  could do was wet myself down. The water was nice and hot though and pressure was ok …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 62,
+          "uniqueId": "Splunkr Dude_The_showers_were_reasonably_clean,_but_its_a_shame_5 years ago"
+        },
+        {
+          "reviewerName": "Ariel Salenga",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Easily the cleanest Pilot/Flying J shower I've ever had. I've been to a lot of the PFJ's in the western states, and this hands down is the cleanest shower I've utilized. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 70,
+          "uniqueId": "Ariel Salenga_Easily_the_cleanest_Pilot/Flying_J_shower_I've_eve_3 years ago"
+        },
+        {
+          "reviewerName": "Donald H.",
+          "rating": "2 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… on restroom floors.  They don't keep up on the coffee..empty allot of the times in the morning.  Toilet tissue was empty in the shower room last time and left a used towel hanging on the door. Need better management overseeing these things.",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 80,
+          "uniqueId": "Donald H._…_on_restroom_floors._They_don't_keep_up_on_the_c_6 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "1920 Harrison Dr, Evanston, WY 82930",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Flying+J+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flying+J+Travel+Center/@41.2646871,-110.9822665,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x87517923cbeb5ec1:0xfc6fea62f38949e4!8m2!3d41.2646871!4d-110.9777604!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tfh_1rs?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Wellington",
+      "sourceState": "UT",
+      "timestamp": "2025-09-24T07:03:34.405Z",
+      "state": "WY"
+    },
+    {
       "title": "Pilot Travel Center",
       "street": "Pilot Travel Center 3.9(1",
       "city": "Evanston",
@@ -1676,9 +2373,9 @@
       "businessDescription": "",
       "extractedHours": "",
       "lat": "41.2689224",
-      "lng": "-110.958772",
+      "lng": "-110.9452537",
       "phone": "(307) 783-5930",
-      "website": "https://locations.pilotflyingj.com/us/ut/north-salt-lake/885-north-point-circle",
+      "website": "https://www.sinclairoil.com/?utm_source=google&utm_medium=yext",
       "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
       "category": "Truck Stop",
       "amenities": "Hot Water",
@@ -1807,14 +2504,14 @@
       ],
       "showerReviewCount": 10,
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, wash, bathroom",
-      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "hours": "Open 24 hours Confirmed by this business 10 weeks agoWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
       "address": "289 Bear River Dr, Evanston, WY 82930",
       "rating": "3.9",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
       "placeId": "Pilot+Travel+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@41.2689224,-110.958772,15z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x875179064b15caff:0x3208db96e7042bbd!8m2!3d41.2689224!4d-110.9407476!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJQYVUxUVRXRkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQMw!16s%2Fg%2F1tfxyhw0?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@41.2689224,-110.9452537,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x875179064b15caff:0x3208db96e7042bbd!8m2!3d41.2689224!4d-110.9407476!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJQYVUxUVRXRkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQMw!16s%2Fg%2F1tfxyhw0?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -1822,9 +2519,170 @@
       "isOpen24Hours": true,
       "isClosed": false,
       "hasDetailedHours": false,
-      "sourceCity": "North Salt Lake",
+      "sourceCity": "Wellington",
       "sourceState": "UT",
-      "timestamp": "2025-09-24T06:29:36.340Z",
+      "timestamp": "2025-09-24T07:03:34.405Z",
+      "state": "WY"
+    },
+    {
+      "title": "Hat Six Travel Center",
+      "street": "Hat Six Travel Center 4.4(2",
+      "city": "Evansville",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.8469738",
+      "lng": "-106.2197273",
+      "phone": "(307) 234-0504",
+      "website": "http://www.hatsixtravelcenter.com/",
+      "content": "Hat Six Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Anastasiia Miller",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Love this place!\nClean, pleasant shower clean, new, washing machines and dryers do laundry here ($2)\nA lot of different food, salads (which I really loved).\nThere are a two little dogs park to take your puppies for walk.",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Anastasiia Miller_Love_this_place!_Clean,_pleasant_shower_clean,_new_3 months ago"
+        },
+        {
+          "reviewerName": "mister herbie",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… many many many many many food choices! Even at 4:00 a.m., I was able to get one of many many hot breakfast items ready to go. The shower was beyond cozy! Very well appointed and great accessories. This little Corner Nook is very cozy, too …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 7,
+          "uniqueId": "mister herbie_…_many_many_many_many_many_food_choices!_Even_at_4_a year ago"
+        },
+        {
+          "reviewerName": "Carlos Salazar",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… one of the best truck stop that I ever known. Clean restrooms. Clean store. Clean restaurant. Super friendly staff. A lot of truck spots. I arrived at 1am and I found a spot. 75 galons and you will get a free shower. You have to stop here.",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 18,
+          "uniqueId": "Carlos Salazar_…_one_of_the_best_truck_stop_that_I_ever_known._Cl_5 years ago"
+        },
+        {
+          "reviewerName": "Tricia Giacoletti",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Hands down best truck stop ever! Shower was better then a hotel! Heated towel rack! Toiletries, very Clean, and lots of room! Staff is amazing and so helpful. Bar that serves food and parking lot has huge spots with easy backing!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 30,
+          "uniqueId": "Tricia Giacoletti_Hands_down_best_truck_stop_ever!_Shower_was_better_2 years ago"
+        },
+        {
+          "reviewerName": "Ella R.J.",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "One of the nicest truck stops in the country. Huge store, lots of choices for food for hungry truckers like me. Spacious shower rooms for $14. Definitely one of my faves.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Ella R.J._One_of_the_nicest_truck_stops_in_the_country._Huge_2 years ago"
+        },
+        {
+          "reviewerName": "Denis_Da_ Menace",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "One of the best truck stop if not the best. Big parking lot, very nice shower, plenty of food choices. The other big truck stops should take a lesson from this place and do something better for truckers.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Denis_Da_ Menace_One_of_the_best_truck_stop_if_not_the_best._Big_pa_6 years ago"
+        },
+        {
+          "reviewerName": "Laci Burkes",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This place is amazing the shower was the best I've ever had. I'm going to say the maintenance team ,Nancy,Miguel and Andrew so amazing work it was clean not a single spot of mold was found and smelled great. The store is just as great! So …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 58,
+          "uniqueId": "Laci Burkes_This_place_is_amazing_the_shower_was_the_best_I've_a year ago"
+        },
+        {
+          "reviewerName": "Keith Woodcock",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… very clean. The people are very friendly in the shower is incredibly clean and the towels didn’t smell like mildew like he’s bigger corporation truckstops, I want to give the shout out to the restaurant that’s in there. The chicken tenders …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 66,
+          "uniqueId": "Keith Woodcock_…_very_clean._The_people_are_very_friendly_in_the__a year ago"
+        },
+        {
+          "reviewerName": "Carolyn Mccann",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Well this place has the best showers, and lots of over priced merchandise.  The food is ok. No full restaurant. However I was profiled by management.  I'm an older pilot car lady. I parked for the night.  The management followed me to my …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 76,
+          "uniqueId": "Carolyn Mccann_Well_this_place_has_the_best_showers,_and_lots_of__2 years ago"
+        },
+        {
+          "reviewerName": "Carol Skinner",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… I arrived tired and grungy, having driven all night.  Staff were wonderful and helpful, explaining the restaurant options and the shower availability to us neophytes. Expecting an overused public shower, imagine our delight to find …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 85,
+          "uniqueId": "Carol Skinner_…_I_arrived_tired_and_grungy,_having_driven_all_ni_3 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, wash, restroom, showers",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "6985 Nugget, Evansville, WY 82636",
+      "rating": "4.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Hat+Six+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Hat+Six+Travel+Center/@42.8469738,-106.2197273,17z/data=!4m11!1m3!2m2!1struck+stop!6e6!3m6!1s0x8760b92454ee5a77:0xc2bc48d64b6cf088!8m2!3d42.8469738!4d-106.2152212!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU15YnpSVVIzaEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEk!16s%2Fg%2F1tk1ngr2?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Douglas",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T16:07:54.769Z",
       "state": "WY"
     },
     {
@@ -3106,6 +3964,48 @@
       "sourceCity": "Laramie",
       "sourceState": "WY",
       "timestamp": "2025-09-23T07:35:53.118Z",
+      "state": "WY"
+    },
+    {
+      "title": "Truck parking Westbound I-25 Glenrock WY 82637",
+      "street": "Truck Parking only",
+      "city": "off side",
+      "province": "paved",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.5590663",
+      "lng": "-106.8595605",
+      "phone": "(307) 473-1750",
+      "website": "https://locations.pilotflyingj.com/us/wy/casper/41-se-wyoming-blvd.",
+      "content": "Truck Parking only, off side, paved may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "WY-220, Alcova, WY 82620",
+      "rating": "4.1",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Rest stop",
+      "placeId": "Truck+Parking+only,+off+side,+paved",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truck+Parking+only,+off+side,+paved/@42.5590663,-106.8595605,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x875e0a5c997b743b:0x46f35977b92bb156!8m2!3d42.5590663!4d-106.8550544!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQlyZXN0X3N0b3CaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTkliWFJMUVhwblJSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECEAQDA!16s%2Fg%2F11c1qbqkkh?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Casper",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T07:13:01.734Z",
       "state": "WY"
     },
     {
@@ -5058,6 +5958,126 @@
       "state": "WY"
     },
     {
+      "title": "1st Interstate Inn",
+      "street": "1st Interstate Inn 3.8(117)2-star hotelBasic motel with flat-screen TVs+1 307-358-2833$121  Free parking Free Wi-Fi Air-conditioned Wi-Fi \"Also",
+      "city": "the truck stop across the road has great food.\"",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.7366297",
+      "lng": "-105.3505724",
+      "phone": "(307) 358-2833",
+      "website": "http://1stinterstatedouglas.com/",
+      "content": "1st Interstate Inn may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Martha Gomez",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "Outside doesn't do justice.  Room was cute. It had everything you need in the room. One flaw was hot water didn't stay hot the whole time you took a shower.  Awesome customer service.  Lady at the front desk was fabulous. She made me feel …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Martha Gomez_Outside_doesn't_do_justice._Room_was_cute._It_had_nodate"
+        },
+        {
+          "reviewerName": "Strother Wise",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "Kay is awesome this place is an excellent place to stay the atmosphere is heavenly and I enjoyed my stay very much it's very comfy and clean thank you",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Strother Wise_Kay_is_awesome_this_place_is_an_excellent_place_to_nodate"
+        },
+        {
+          "reviewerName": "Julie Geary",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "Front desk lady was very kind and helpful! My room was cozy, the hot water was good and hot. I gave 4 stars on the room because of a couple broken tiles on the bathroom floor could use some TLC. But the room was very tidy, the bathroom was …",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 16,
+          "uniqueId": "Julie Geary_Front_desk_lady_was_very_kind_and_helpful!_My_room_nodate"
+        },
+        {
+          "reviewerName": "B. C.",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "Started out with a friendly face at the front desk. Followed it up by a clean and quiet room.  It’s a little older motel but seems to be maintained well.  Will stop here again if I have to come back to Casper.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "B. C._Started_out_with_a_friendly_face_at_the_front_desk_nodate"
+        },
+        {
+          "reviewerName": "mrsbrojoe",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "Delinda at front desk was perfect combination of friendly & efficient.  Nothing fancy, mind you, but perfect for quick overnight.  Clean & comfortable & park right in front of your own door.  Fridge/micro.  A/C kept the room nicely cooled …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 47,
+          "uniqueId": "mrsbrojoe_Delinda_at_front_desk_was_perfect_combination_of_f_nodate"
+        },
+        {
+          "reviewerName": "Christal Leader",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "Comfy and clean! This is an older motel but very well kept. The service was wonderful and I was very impressed overall. The room was charming. If you have a CDL, be sure to tell them for the discount. Also, the truck stop across the road has great food. And it's a very short walk. It was quiet as well.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 52,
+          "uniqueId": "Christal Leader_Comfy_and_clean!_This_is_an_older_motel_but_very_w_nodate"
+        },
+        {
+          "reviewerName": "U8011PEwilliamf",
+          "rating": "No rating",
+          "reviewDate": "No date",
+          "reviewText": "Not very fancy at all, just the basic place to sleep and take shower. The hotel clerk was very nice and accommodating during our stay. We had to change dates due to the job scope changing and she helped us out. Will definitely come back if we do work out this way again.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 60,
+          "uniqueId": "U8011PEwilliamf_Not_very_fancy_at_all,_just_the_basic_place_to_sle_nodate"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, clean, bathroom",
+      "hours": "",
+      "address": "2349 E Richards St, Douglas, WY 82633",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "",
+      "placeId": "1st+Interstate+Inn",
+      "googleMapsUrl": "https://www.google.com/maps/place/1st+Interstate+Inn/@42.7366297,-105.3505724,17z/data=!4m14!1m3!2m2!1struck+stop!6e6!3m9!1s0x8766b4c3034210d1:0x5ccf0b740c869b68!5m2!4m1!1i2!8m2!3d42.7366297!4d-105.3460663!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQVtb3RlbJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSd2VXRXlXWFozUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQUIyQEQNA!16s%2Fg%2F1tdy9k89?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Douglas",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T16:07:54.769Z",
+      "state": "WY"
+    },
+    {
       "title": "I-80 Truck Parking Area East",
       "street": "Western Travel Terminal 3.9(233)Truck stop",
       "city": "Torrington",
@@ -5134,11 +6154,11 @@
       "businessDescription": "",
       "extractedHours": "",
       "lat": "41.6759681",
-      "lng": "-108.0005141",
+      "lng": "-107.9869958",
       "phone": "(307) 324-0087",
       "website": "https://www.loves.com/locations/310",
       "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility",
+      "category": "Public Facility, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -5159,13 +6179,13 @@
         {
           "reviewerName": "Stephanie",
           "rating": "1 stars",
-          "reviewDate": "3 days ago",
+          "reviewDate": "4 days ago",
           "reviewText": "My husband just tried to get a shower but for some reason when the manager scanned his loves reward card it wasn't showing up even though he has 2 shower credits. He showed the manager (Stacy) his credits via the app. She asked if he hadn't …",
           "showerKeywords": [
             "shower"
           ],
           "index": 9,
-          "uniqueId": "Stephanie_My_husband_just_tried_to_get_a_shower_but_for_some_3 days ago"
+          "uniqueId": "Stephanie_My_husband_just_tried_to_get_a_shower_but_for_some_4 days ago"
         },
         {
           "reviewerName": "Kathryn Jones",
@@ -5261,6 +6281,66 @@
           ],
           "index": 79,
           "uniqueId": "Diane Murphy_…_touch_them_if_her_life_depended_on_it._Wouldn't__11 months ago"
+        },
+        {
+          "reviewerName": "Alex Tsitsyura",
+          "rating": "2 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Long wait on a shower, although 5 showers were free with doors open. The store was not busy what so ever. Don't understand why it took over an hour to decide to go and clean the showers while there are drivers in line.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Alex Tsitsyura_Long_wait_on_a_shower,_although_5_showers_were_fre_8 months ago"
+        },
+        {
+          "reviewerName": "Susan Murphy",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… the store on the truck side was broken but was being fixed. I took a shower, and the security lock caught on the edge of the door very loudly where it's broken. The toilet wasn't cleaned, even though the showers are supposed to be cleaned …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 7,
+          "uniqueId": "Susan Murphy_…_the_store_on_the_truck_side_was_broken_but_was_b_2 years ago"
+        },
+        {
+          "reviewerName": "Francisco Nunez",
+          "rating": "5 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Clean hot shower, what else could I ask for .lot or parking by 9:00pm it was a good day",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 15,
+          "uniqueId": "Francisco Nunez_Clean_hot_shower,_what_else_could_I_ask_for_.lot_o_10 months ago"
+        },
+        {
+          "reviewerName": "Mialese j Libera",
+          "rating": "2 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Its dirty and long lines was going to get shower and food but not worth the wait",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 22,
+          "uniqueId": "Mialese j Libera_Its_dirty_and_long_lines_was_going_to_get_shower_a_5 years ago"
+        },
+        {
+          "reviewerName": "Stanley Glover",
+          "rating": "3 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Fuel, parking,food and shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 29,
+          "uniqueId": "Stanley Glover_Fuel,_parking,food_and_shower._3 years ago"
         },
         {
           "reviewerName": "Lyu Lesh",
@@ -5382,78 +6462,102 @@
           ],
           "index": 74,
           "uniqueId": "Rene Maese_Great_place,_very_clean_shower_and_do_not_have_to__a year ago"
-        },
-        {
-          "reviewerName": "Alex Tsitsyura",
-          "rating": "2 stars",
-          "reviewDate": "8 months ago",
-          "reviewText": "Long wait on a shower, although 5 showers were free with doors open. The store was not busy what so ever. Don't understand why it took over an hour to decide to go and clean the showers while there are drivers in line.",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 0,
-          "uniqueId": "Alex Tsitsyura_Long_wait_on_a_shower,_although_5_showers_were_fre_8 months ago"
-        },
-        {
-          "reviewerName": "Susan Murphy",
-          "rating": "3 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "… the store on the truck side was broken but was being fixed. I took a shower, and the security lock caught on the edge of the door very loudly where it's broken. The toilet wasn't cleaned, even though the showers are supposed to be cleaned …",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 7,
-          "uniqueId": "Susan Murphy_…_the_store_on_the_truck_side_was_broken_but_was_b_2 years ago"
-        },
-        {
-          "reviewerName": "Francisco Nunez",
-          "rating": "5 stars",
-          "reviewDate": "10 months ago",
-          "reviewText": "Clean hot shower, what else could I ask for .lot or parking by 9:00pm it was a good day",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 15,
-          "uniqueId": "Francisco Nunez_Clean_hot_shower,_what_else_could_I_ask_for_.lot_o_10 months ago"
-        },
-        {
-          "reviewerName": "Mialese j Libera",
-          "rating": "2 stars",
-          "reviewDate": "5 years ago",
-          "reviewText": "Its dirty and long lines was going to get shower and food but not worth the wait",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 22,
-          "uniqueId": "Mialese j Libera_Its_dirty_and_long_lines_was_going_to_get_shower_a_5 years ago"
-        },
-        {
-          "reviewerName": "Stanley Glover",
-          "rating": "3 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "Fuel, parking,food and shower.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 29,
-          "uniqueId": "Stanley Glover_Fuel,_parking,food_and_shower._3 years ago"
         }
       ],
       "showerReviewCount": 25,
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, wash",
-      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
       "address": "399 McCormick St, Wamsutter, WY 82336",
-      "rating": "4.5",
+      "rating": "4.0",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
       "placeId": "Love's+Travel+Stop",
-      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@41.6759681,-108.0005141,15z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x875c8113c2241cdf:0xd9aed06b524a8327!8m2!3d41.6759681!4d-107.9824897!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tj2ch02?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@41.6759681,-107.9869958,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x875c8113c2241cdf:0xd9aed06b524a8327!8m2!3d41.6759681!4d-107.9824897!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tj2ch02?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Wamsutter",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T10:47:19.468Z",
+      "state": "WY"
+    },
+    {
+      "title": "Rest Area WB (Truck parking area)",
+      "street": "Rest Area WB (Truck parking area) 4.2(31)Rest stopDirections \"Good place for OTR parking\"",
+      "city": "Wamsutter",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "41.7391597",
+      "lng": "-107.687877",
+      "phone": "(307) 324-0087",
+      "website": "https://www.loves.com/locations/310",
+      "content": "Rest Area WB (Truck parking area) may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "Wyoming 82301",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Rest stop",
+      "placeId": "Rest+Area+WB+(Truck+parking+area)",
+      "googleMapsUrl": "https://www.google.com/maps/place/Rest+Area+WB+(Truck+parking+area)/@41.7391597,-107.687877,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x875c8b050c0e412f:0x9b01248b81e10d4a!8m2!3d41.7391597!4d-107.6833709!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQlyZXN0X3N0b3CaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUmZkR0poU2xaQkVBRaoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIABAa!16s%2Fg%2F11kk8s04wj?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Wamsutter",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T10:47:19.468Z",
+      "state": "WY"
+    },
+    {
+      "title": "Truck Parking",
+      "street": "309 Carlton RdDirections \"Big huge clean free.\"",
+      "city": "Wamsutter",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open 24 hours",
+      "lat": "41.6777973",
+      "lng": "-107.998395",
+      "phone": "(307) 324-0087",
+      "website": "https://www.loves.com/locations/310",
+      "content": "Truck Parking may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "309 Carlton Rd, Wamsutter, WY 82336",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "Truck+Parking",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truck+Parking/@41.6777973,-107.998395,15z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x875c816648cfbe9f:0xb7ed1eaae8f093b5!8m2!3d41.6777973!4d-107.9803706!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtwYXJraW5nX2xvdJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVObmVGbGhXbEYzRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAhFEBQ!16s%2Fg%2F11bxb9rjhb?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -5465,15 +6569,138 @@
       "sourceState": "WY",
       "timestamp": "2025-09-23T07:16:41.917Z",
       "state": "WY"
+    },
+    {
+      "title": "Wheatland Travel Plaza",
+      "street": "Wheatland Travel Plaza 3.9(803)Truck stop",
+      "city": "Wheatland",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.0736589",
+      "lng": "-104.9683532",
+      "phone": "(307) 322-1884",
+      "website": "",
+      "content": "Wheatland Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Elizabeth Smith",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "This place does to accept credit cards, and yes there is showers. Kinda took one here and it was decent enough for a cheap shower. Could use a fan in there and the shower ants were interesting company. People here are pretty quiet but …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Elizabeth Smith_This_place_does_to_accept_credit_cards,_and_yes_th_6 years ago"
+        },
+        {
+          "reviewerName": "Matt Walker",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Always clean and friendly. Can't beat the shower price and almost always available parking.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Matt Walker_Always_clean_and_friendly._Can't_beat_the_shower_p_5 years ago"
+        },
+        {
+          "reviewerName": "Benjamin Peters",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Anything that you could think of for traveling. The shower was very nice.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 15,
+          "uniqueId": "Benjamin Peters_Anything_that_you_could_think_of_for_traveling._Th_7 years ago"
+        }
+      ],
+      "showerReviewCount": 3,
+      "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "81 Swanson Rd, Wheatland, WY 82201",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Wheatland+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Wheatland+Travel+Plaza/@42.073664,-104.9683901,17z/data=!4m11!1m3!2m2!1struck+stop!6e6!3m6!1s0x8765d6e1cb51d343:0xbb43fa99916a572b!8m2!3d42.073664!4d-104.963884!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xYTNCVGFIRkJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEU!16s%2Fg%2F1tl4dj1d?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Douglas",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T16:07:54.769Z",
+      "state": "WY"
+    },
+    {
+      "title": "Truck parking Westbound I-25 Glenrock WY 82637",
+      "street": "Truck parking Westbound I-25 Glenrock WY 82637 4.8(4)Public parking space \"This one is located on the I-25 around mile marker 170. North and South\"",
+      "city": "Glenrock",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.8364247",
+      "lng": "-106.001601",
+      "phone": "(307) 358-4444",
+      "website": "",
+      "content": "Truck parking Westbound I-25 Glenrock WY 82637 may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "Glenrock, WY 82637",
+      "rating": "4.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Public parking space",
+      "placeId": "Truck+parking+Westbound+I-25+Glenrock+WY+82637",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truck+parking+Westbound+I-25+Glenrock+WY+82637/@42.8364247,-106.001601,17z/data=!4m11!1m3!2m2!1struck+stop!6e6!3m6!1s0x8760c50c88925be1:0xe0a3e541b467e377!8m2!3d42.8364247!4d-105.9970949!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARRwdWJsaWNfcGFya2luZ19zcGFjZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VNeE0zWmlXRXAzRUFFqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBQjCARBH!16s%2Fg%2F11q8sh2lg6?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Douglas",
+      "sourceState": "WY",
+      "timestamp": "2025-09-24T16:07:54.769Z",
+      "state": "WY"
     }
   ],
   "cities": [
     "Buffalo",
+    "Buford",
     "Burns",
+    "Casper",
     "Cheyenne",
     "Cokeville",
     "Douglas",
     "Evanston",
+    "Evansville",
     "Fort Bridger",
     "Gillette",
     "Laramie",
@@ -5482,23 +6709,28 @@
     "Riverton",
     "Sinclair",
     "Torrington",
-    "Wamsutter"
+    "Wamsutter",
+    "Wheatland",
+    "off side",
+    "the truck stop across the road has great food.\"",
+    "Glenrock"
   ],
-  "totalReviews": 370,
+  "totalReviews": 416,
   "categories": [
-    "Truck Stop",
+    "Truck Stop, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop",
     "Public Facility",
-    "Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility",
+    "Truck Stop",
+    "Public Facility, Public Facility, Truck Stop, Truck Stop, Public Facility",
+    "Truck Stop, Truck Stop, Public Facility, Public Facility",
+    "Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop",
     "Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Public Facility",
     "Truck Stop, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop",
     "Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop, Truck Stop, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop",
     "Public Facility, Public Facility, Truck Stop, Public Facility",
     "Public Facility, Truck Stop, Public Facility",
-    "Public Facility, Truck Stop, Truck Stop, Public Facility, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop",
-    "Truck Stop, Public Facility, Public Facility, Truck Stop, Public Facility, Truck Stop",
-    "Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility"
+    "Public Facility, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop"
   ],
-  "locationsWithPhone": 25,
-  "timestamp": "2025-09-24T08:19:44.629Z",
-  "locationCount": 25
+  "locationsWithPhone": 41,
+  "timestamp": "2025-09-27T10:25:18.808Z",
+  "locationCount": 41
 }

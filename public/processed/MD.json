@@ -472,7 +472,7 @@
       "phone": "(301) 530-3725",
       "website": "https://www.ymcadc.org/locations/ymca-bethesda-chevy-chase/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
       "content": "YMCA Bethesda-Chevy Chase may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "YMCA, Gym, YMCA, Gym, Gym, Gym, Gym, Gym, YMCA, Gym, Gym, Gym, YMCA, Gym, Gym, YMCA, Community Center, YMCA, YMCA, Gym, YMCA, YMCA, YMCA, Community Center, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Public Facility",
+      "category": "YMCA, Gym, YMCA, Gym, Gym, Gym, Gym, Gym, YMCA, Gym, Gym, Gym, YMCA, Gym, Gym, YMCA, Community Center, YMCA, YMCA, Gym, YMCA, YMCA, YMCA, Community Center, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA",
       "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
       "cost": "Day Pass $10-20",
       "access": "Day Pass",
@@ -576,7 +576,7 @@
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 8 am Sunday8 am–8 pmMonday6 am–10 pmTuesday6 am–10 pmWednesday6 am–10 pmThursday6 am–10 pmFriday6 am–10 pmSaturday6 am–8 pmSuggest new hours",
       "address": "9401 Old Georgetown Rd, Bethesda, MD 20814",
-      "rating": "5.0",
+      "rating": "4.5",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Non-profit organization",
@@ -722,9 +722,9 @@
       "businessDescription": "",
       "extractedHours": "",
       "lat": "38.9646662",
-      "lng": "-77.1288088",
+      "lng": "-77.1648577",
       "phone": "(301) 951-1141",
-      "website": "https://mocorec.com/silverspring",
+      "website": "https://dpr.dc.gov/page/wilson-aquatic-center-01",
       "content": "Somerset Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
       "category": "Public Pool",
       "amenities": "Hot Water|Changing Rooms|Lockers",
@@ -771,9 +771,51 @@
       ],
       "showerReviewCount": 3,
       "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Closed ⋅ Opens 10 am Monday10 am–9 pmTuesday10 am–9 pmWednesday10 am–9 pmThursday10 am–9 pmFriday10 am–9 pmSaturday10 am–9 pmSunday10 am–9 pmSuggest new hours",
+      "hours": "Closed ⋅ Opens 10 am Sunday10 am–9 pmMonday10 am–9 pmTuesday10 am–9 pmWednesday10 am–9 pmThursday10 am–9 pmFriday10 am–9 pmSaturday10 am–9 pmSuggest new hours",
       "address": "8817 Brierly Rd, Chevy Chase, MD 20815",
       "rating": "4.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Outdoor swimming pool",
+      "placeId": "Somerset+Pool",
+      "googleMapsUrl": "https://www.google.com/maps/place/Somerset+Pool/@38.9646662,-77.1648577,13z/data=!4m10!1m2!2m1!1s+public+pools!3m6!1s0x89b7c9d34904da4d:0x4202499abe129f8c!8m2!3d38.9646662!4d-77.0927599!15sCgxwdWJsaWMgcG9vbHOSARVvdXRkb29yX3N3aW1taW5nX3Bvb2yqAVAKCC9tLzBiX3JzEAEqECIMcHVibGljIHBvb2xzKAAyHhABIhqovO4iWkFE9PyXZjg1egYvQY0Vo9FWvw5O_DIQEAIiDHB1YmxpYyBwb29sc-ABAA!16s%2Fg%2F11g0psxstm?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "BethesdaWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T09:08:15.201Z",
+      "state": "MD"
+    },
+    {
+      "title": "Somerset Pool",
+      "street": "N/A",
+      "city": "Bethesda",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "38.9646662",
+      "lng": "-77.1288088",
+      "phone": "(301) 951-1141",
+      "website": "https://mocorec.com/silverspring",
+      "content": "Somerset Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Pool",
+      "amenities": "Hot Water|Changing Rooms|Lockers",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " public pools",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 10 am Monday10 am–9 pmTuesday10 am–9 pmWednesday10 am–9 pmThursday10 am–9 pmFriday10 am–9 pmSaturday10 am–9 pmSunday10 am–9 pmSuggest new hours",
+      "address": "5545 Warwick Pl, Bethesda, MD 20815",
+      "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Outdoor swimming pool",
@@ -873,6 +915,48 @@
       "sourceCity": "BethesdaWashington",
       "sourceState": "MD",
       "timestamp": "2025-09-21T09:08:15.201Z",
+      "state": "MD"
+    },
+    {
+      "title": "YMCA Bethesda-Chevy Chase",
+      "street": "Football Court and Track Field of Landon School",
+      "city": "Bethesda",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "38.9898787",
+      "lng": "-77.1988061",
+      "phone": "(202) 730-0583",
+      "website": "https://dpr.dc.gov/page/wilson-aquatic-center-01",
+      "content": "Dixon Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Pool, YMCA",
+      "amenities": "Hot Water|Changing Rooms|Lockers",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " public pools",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "Football Court and Track Field of Landon School, 6101 Wilson Ln, Bethesda, MD 20817",
+      "rating": "3.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Outdoor swimming pool",
+      "placeId": "Dixon+Pool",
+      "googleMapsUrl": "https://www.google.com/maps/place/Dixon+Pool/@38.9898787,-77.1988061,13z/data=!4m10!1m2!2m1!1s+public+pools!3m6!1s0x89b7cb004d10537b:0xcdd7d434636b0a85!8m2!3d38.9898787!4d-77.1267083!15sCgxwdWJsaWMgcG9vbHOSARVvdXRkb29yX3N3aW1taW5nX3Bvb2yqAVAKCC9tLzBiX3JzEAEqECIMcHVibGljIHBvb2xzKAAyHhABIhqovO4iWkFE9PyXZjg1egYvQY0Vo9FWvw5O_DIQEAIiDHB1YmxpYyBwb29sc-ABAA!16s%2Fg%2F11vzdf762j?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "BethesdaWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-22T08:59:39.029Z",
       "state": "MD"
     },
     {
@@ -984,6 +1068,90 @@
       "state": "MD"
     },
     {
+      "title": "Chevy Chase Recreation Center",
+      "street": "5500 41st St NW",
+      "city": "Chevy Chase",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 8 am",
+      "lat": "39.0039642",
+      "lng": "-77.0835917",
+      "phone": "(301) 656-4025",
+      "website": "https://mocorec.com/silverspring",
+      "content": "Chevy Chase Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Recreation Center",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " recreation center",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 12 pm Monday12–8 pmTuesday12–8 pmWednesday12–8 pmThursday12–8 pmFriday12–8 pmSaturday11 am–7 pmSunday11 am–7 pmSuggest new hours",
+      "address": "8920 Spring Valley Rd, Chevy Chase, MD 20815",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Recreation center",
+      "placeId": "Chevy+Chase+Recreation+Association",
+      "googleMapsUrl": "https://www.google.com/maps/place/Chevy+Chase+Recreation+Association/@39.0039642,-77.0835917,17z/data=!4m10!1m2!2m1!1s+recreation+center!3m6!1s0x89b7c9480bed374d:0x75bd28470bf94a2e!8m2!3d39.0039642!4d-77.0790856!15sChFyZWNyZWF0aW9uIGNlbnRlcloTIhFyZWNyZWF0aW9uIGNlbnRlcpIBEXJlY3JlYXRpb25fY2VudGVymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0V01VMXNWblpVTW1oTVRGWktVMVZJUm5aWk1VbDVVbGhDTkdWWFl4QUKqAVAQASoVIhFyZWNyZWF0aW9uIGNlbnRlcigAMh4QASIaCAOF7LkunVZj3olbSgLNsniQ7Cneq8u6OxIyFRACIhFyZWNyZWF0aW9uIGNlbnRlcuABAPoBBAgAEBU!16s%2Fg%2F1tt8d4q1?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "SilverSpringWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-22T09:29:29.371Z",
+      "state": "MD"
+    },
+    {
+      "title": "Friendship Heights Village Community Center",
+      "street": "4301 Willow Ln \"Offers a wide array of activities and inexpensive membership.\"",
+      "city": "Chevy Chase",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 9:30 am",
+      "lat": "38.9825828",
+      "lng": "-77.1601381",
+      "phone": "(240) 777-6855",
+      "website": "http://www.montgomerycountymd.gov/rec/where/centers/jane.html",
+      "content": "Jane E. Lawton Community Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Recreation Center, Community Center, Community Center, Community Center, Community Center, Community Center",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " community center ",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 9:30 am Monday9:30 am–9 pmTuesday9:30 am–9 pmWednesday9:30 am–9 pmThursday9:30 am–9 pmFriday9:30 am–5:30 pmSaturday9:30 am–5:30 pmSunday12–5 pmSuggest new hours",
+      "address": "5311 Friendship Blvd, Chevy Chase, MD 20815",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Recreation center",
+      "placeId": "Jane+E.+Lawton+Community+Recreation+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Jane+E.+Lawton+Community+Recreation+Center/@38.9825828,-77.1601381,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89b7c9704d8f59b1:0x6424db39e939ab77!8m2!3d38.9825828!4d-77.0880403!15sChBjb21tdW5pdHkgY2VudGVyWhIiEGNvbW11bml0eSBjZW50ZXKSARFyZWNyZWF0aW9uX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOc2IwMDJUWEIzUlJBQqoBThABKhQiEGNvbW11bml0eSBjZW50ZXIoADIeEAEiGobgt1r1wI7D4htRZG8OZHgj7AWfXBW81w5AMhQQAiIQY29tbXVuaXR5IGNlbnRlcuABAPoBBAgWED0!16s%2Fg%2F1262_8kvj?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "BethesdaWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-22T08:59:39.029Z",
+      "state": "MD"
+    },
+    {
       "title": "Friendship Heights Village Community Center",
       "street": "4433 S Park Ave",
       "city": "Chevy Chase",
@@ -1023,6 +1191,60 @@
       "sourceCity": "BethesdaWashington",
       "sourceState": "MD",
       "timestamp": "2025-09-22T08:59:39.029Z",
+      "state": "MD"
+    },
+    {
+      "title": "Gwendolyn E. Coffield Community Recreation Center",
+      "street": "5311 Friendship Blvd",
+      "city": "Chevy Chase",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 12 pm",
+      "lat": "38.9986968",
+      "lng": "-77.0688629",
+      "phone": "(240) 777-8088",
+      "website": "https://www.fairfaxcounty.gov/parks/reccenter/spring-hill",
+      "content": "Wisconsin Place Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center, Community Center",
+      "amenities": "Hot Water",
+      "cost": "$5-10",
+      "access": "Public/Day Pass",
+      "source": " recreation center",
+      "showerReviews": [
+        {
+          "reviewerName": "VIP Party Services",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "As event service providers, we had the pleasure of working at this venue for two consecutive Saturdays in April—one for a quinceañera and another for a baby shower. The space is wide, with great accessibility and plenty of parking, making …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "VIP Party Services_As_event_service_providers,_we_had_the_pleasure_of_4 months ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 12 pm Sunday12–5 pmMonday9 am–9 pmTuesday9 am–9 pmWednesday9 am–9 pmThursday9 am–9 pmFriday9 am–5 pmSaturday9:30 am–5 pmSuggest new hours",
+      "address": "2450 Lyttonsville Rd, Silver Spring, MD 20910",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Community center",
+      "placeId": "Wisconsin+Place+Community+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Wisconsin+Place+Community+Center/@38.96078,-77.1602676,13z/data=!3m1!5s0x89b295fad682f8c5:0xde858c36d8ca1bb8!4m10!1m2!2m1!1s+recreation+center!3m6!1s0x89b7c991aa599579:0xbe45f95404dd072b!8m2!3d38.96078!4d-77.0881698!15sChFyZWNyZWF0aW9uIGNlbnRlcloTIhFyZWNyZWF0aW9uIGNlbnRlcpIBEGNvbW11bml0eV9jZW50ZXKaASRDaGREU1VoTk1HOW5TMFZLUTBnekxXVlNlbUZ0VURCUlJSQUKqAVAQASoVIhFyZWNyZWF0aW9uIGNlbnRlcigAMh4QASIaCAOF7LkunVZj3olbSgLNsniQ7Cneq8u6OxIyFRACIhFyZWNyZWF0aW9uIGNlbnRlcuABAPoBBAgAEC8!16s%2Fg%2F1tfpw4s2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "BethesdaWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T09:08:15.201Z",
       "state": "MD"
     },
     {
@@ -1192,7 +1414,7 @@
       "phone": "(301) 853-9115",
       "website": "https://dpr.dc.gov/page/wilson-aquatic-center-01",
       "content": "Rollingcrest-Chillum Splash Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Pool, Public Facility, Community Center, Recreation Center, Recreation Center, Community Center, Community Center, Recreation Center, Recreation Center, Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Public Facility, Public Pool, Public Facility, Public Pool, Recreation Center, Community Center, Public Facility, Public Pool, Community Center",
+      "category": "Public Pool",
       "amenities": "Hot Water|Changing Rooms|Lockers",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -1230,127 +1452,13 @@
           ],
           "index": 44,
           "uniqueId": "Khadijah Taylor_Took_my_kids_there_for_the_first_time_today._It_wa_Edited 2 years ago"
-        },
-        {
-          "reviewerName": "Karen Lickteig",
-          "rating": "4 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Took my seven month old baby to swim on a Sunday around noon, and we had a good time. Quite a few people there but did not seem super busy. Very nice, large and clean facility. I wish the pool were a bit warmer. Knocking off a star because …",
-          "showerKeywords": [
-            "clean"
-          ],
-          "index": 10,
-          "uniqueId": "Karen Lickteig_Took_my_seven_month_old_baby_to_swim_on_a_Sunday_a_a year ago"
-        },
-        {
-          "reviewerName": "Samson Williams",
-          "rating": "1 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "No changing table in the men's restroom. Completely unacceptable to have a multi million dollar facility and no diaper changing station. Had to change the Baba on the sink counter. Not optimal. …",
-          "showerKeywords": [
-            "restroom"
-          ],
-          "index": 22,
-          "uniqueId": "Samson Williams_No_changing_table_in_the_men's_restroom._Completel_2 years ago"
-        },
-        {
-          "reviewerName": "Andy",
-          "rating": "5 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Great place visiting a friend the water is perfect temperature for swimming.  Mens locker room not enough curtains for showering.  I'm glad they have a swimsuit dryer it works really good. Plenty of parking nearby.",
-          "showerKeywords": [
-            "shower",
-            "showering",
-            "locker room"
-          ],
-          "index": 73,
-          "uniqueId": "Andy_Great_place_visiting_a_friend_the_water_is_perfect_a year ago"
-        },
-        {
-          "reviewerName": "Sheila Lo Monaco",
-          "rating": "5 stars",
-          "reviewDate": "6 years ago",
-          "reviewText": "It's a great community center with pools gym and rooms for recreational activities. Everyone is friendly and helpful. The bathrooms are actually clean so are the showers . Tennis courts, football field and a great green area .",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "bathroom",
-            "clean"
-          ],
-          "index": 7,
-          "uniqueId": "Sheila Lo Monaco_It's_a_great_community_center_with_pools_gym_and_r_6 years ago"
-        },
-        {
-          "reviewerName": "Esi Fante",
-          "rating": "1 stars",
-          "reviewDate": "3 months ago",
-          "reviewText": "Too rowdy. Showers and changing room not good. Lifeguards don't pay attention. I'm not going back. Pure chaos.",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "changing room"
-          ],
-          "index": 16,
-          "uniqueId": "Esi Fante_Too_rowdy._Showers_and_changing_room_not_good._Lif_3 months ago"
-        },
-        {
-          "reviewerName": "Gregory Taff",
-          "rating": "4 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Excellent pool. Staff is so friendly. Safe with great lifeguards. Locker room facilities are adequate, though always in some state of disrepair. Bring your own soap to shower! ALL of the soap dispensers in the shower broke. But we're lucky to have such an amazing FREE facility for DC residents.",
-          "showerKeywords": [
-            "shower",
-            "facilities",
-            "locker room"
-          ],
-          "index": 32,
-          "uniqueId": "Gregory Taff_Excellent_pool._Staff_is_so_friendly._Safe_with_gr_a year ago"
-        },
-        {
-          "reviewerName": "J. Pina",
-          "rating": "4 stars",
-          "reviewDate": "6 years ago",
-          "reviewText": "The best things about it are what is so different from ones like Rumsey and HD WOODSON pools. There is no mold and mildew covering the walls and curtains in women's bathroom because the female staff arecute lazy and refuse to clean those …",
-          "showerKeywords": [
-            "bathroom",
-            "clean"
-          ],
-          "index": 47,
-          "uniqueId": "J. Pina_The_best_things_about_it_are_what_is_so_different__6 years ago"
-        },
-        {
-          "reviewerName": "Gregory Taff",
-          "rating": "4 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "… so friendly. Safe with great lifeguards. Locker room facilities are adequate, though always in some state of disrepair. Bring your own soap to shower! ALL of the soap dispensers in the shower broke. But we're lucky to have such an amazing …",
-          "showerKeywords": [
-            "shower",
-            "facilities",
-            "locker room"
-          ],
-          "index": 0,
-          "uniqueId": "Gregory Taff_…_so_friendly._Safe_with_great_lifeguards._Locker__a year ago"
-        },
-        {
-          "reviewerName": "Douglas Postels",
-          "rating": "4 stars",
-          "reviewDate": "5 years ago",
-          "reviewText": "Beautiful pool, only two thirds of which seems to be open. Locker rooms need work re:. cleanliness, security, availability of got water in showers, functional showers.  Good for lap swimming and not as crowded as other DC public pools",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean",
-            "locker room"
-          ],
-          "index": 8,
-          "uniqueId": "Douglas Postels_Beautiful_pool,_only_two_thirds_of_which_seems_to__5 years ago"
         }
       ],
-      "showerReviewCount": 12,
+      "showerReviewCount": 3,
       "showerReviewSummary": "1 shower-related reviews found. Mixed/Negative mentions of: shower",
       "hours": "Closed ⋅ Opens 12 pm Sunday12–4:45 pmMonday6:30 am–8:45 pmTuesday6:30 am–8:45 pmWednesday6:30 am–8:45 pmThursday6:30 am–8:45 pmFriday6:30 am–8:45 pmSaturday7:30 am–4:45 pmSuggest new hours",
-      "address": "300 Van Buren St NW, Washington, DC 20012",
-      "rating": "4.6",
+      "address": "6122 Sargent Rd, Chillum, MD 20782",
+      "rating": "4.2",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Public swimming pool",
@@ -1462,6 +1570,95 @@
       "sourceCity": "SilverSpringWashington",
       "sourceState": "MD",
       "timestamp": "2025-09-21T09:37:22.109Z",
+      "state": "MD"
+    },
+    {
+      "title": "YMCA Arlington Woodmont Gymnastics Center",
+      "street": "4128 Valley Dr",
+      "city": "College Park",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 6 am",
+      "lat": "38.9936034",
+      "lng": "-77.2335647",
+      "phone": "(301) 226-4400",
+      "website": "http://ymcadc.org/locations/ymca-silver-spring/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "content": "Eppley Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Recreation Center, YMCA, Gym, YMCA, YMCA, Recreation Center, YMCA, YMCA",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " YMCA",
+      "showerReviews": [
+        {
+          "reviewerName": "Ali Behdad",
+          "rating": "2 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… - Lots of people working out there do not take shower on a daily basis, so bad odor is noticeable and repelling. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Ali Behdad_…_-_Lots_of_people_working_out_there_do_not_take_s_a year ago"
+        },
+        {
+          "reviewerName": "Y O",
+          "rating": "1 stars",
+          "reviewDate": "Edited 2 years ago",
+          "reviewText": "Men’s shower has no hot water, reported four times to the gate and safeguards, they always said they have placed a work order for maintenance. But at least they could place a sign indicating if there’s hot water available today. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Y O_Men’s_shower_has_no_hot_water,_reported_four_times_Edited 2 years ago"
+        },
+        {
+          "reviewerName": "Elizabeth Betz",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… gym but I joined after others gave up on their New Year’s resolutions so it wasn’t crowded.  Now it’s too crowded for me to be able to get a changing room or shower after my workout.  I ended up buying my own equipment to exercise at home.",
+          "showerKeywords": [
+            "shower",
+            "changing room"
+          ],
+          "index": 0,
+          "uniqueId": "Elizabeth Betz_…_gym_but_I_joined_after_others_gave_up_on_their_N_a year ago"
+        },
+        {
+          "reviewerName": "S B",
+          "rating": "1 stars",
+          "reviewDate": "Edited 3 years ago",
+          "reviewText": "… visited each shift and it's the same! The ladies room is ALWAYS DIRTY, infested with roaches in the shower area, the floors seemed to never get mopped, and the surfaces seemed to never get cleaned! It's so disappointing. Some of the front …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 9,
+          "uniqueId": "S B_…_visited_each_shift_and_it's_the_same!_The_ladies_Edited 3 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "2 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Closed ⋅ Opens 6 am Monday6 am–12 amTuesday6 am–12 amWednesday6 am–12 amThursday6 am–12 amFriday6 am–12 amSaturday8 am–10 pmSunday10 am–12 amSuggest new hours",
+      "address": "11130 New Hampshire Ave, Silver Spring, MD 20904",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Recreation center",
+      "placeId": "Eppley+Recreation+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Eppley+Recreation+Center/@38.9936034,-77.2335647,11z/data=!4m10!1m2!2m1!1s+YMCA!3m6!1s0x89b7c69934cc80f9:0x9715fab37ccd63d5!8m2!3d38.9936034!4d-76.9451736!15sCgRZTUNBWgYiBHltY2GSARFyZWNyZWF0aW9uX2NlbnRlcpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSMGRuQklYMU5CRUFFqgFACggvbS8wbHpnNxABKggiBHltY2EoADIeEAEiGtwzeUv9dRn96oznW2TlGCfTq7U0dtUjv1qaMggQAiIEeW1jYeABAPoBBAglEEU!16s%2Fg%2F12mj_l8_f?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "SilverSpringWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-22T09:29:29.371Z",
       "state": "MD"
     },
     {
@@ -1704,9 +1901,55 @@
           ],
           "index": 70,
           "uniqueId": "Jason Ramos_Just_keep_an_eye_on_shower_restrooms._The_cleaning_4 years ago"
+        },
+        {
+          "reviewerName": "John Hudson",
+          "rating": "4 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "staying at sleep inn next door, in town for a wedding. gas, food, restrooms and good coffee! had everything i needed and then some. busy, but its right off the interstate. subway and mcdonalds in same building. in future will always stop at loves.",
+          "showerKeywords": [
+            "restroom"
+          ],
+          "index": 13,
+          "uniqueId": "John Hudson_staying_at_sleep_inn_next_door,_in_town_for_a_wedd_3 months ago"
+        },
+        {
+          "reviewerName": "ASIA B",
+          "rating": "2 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Incredibly disappointed. Love is known to have a standard of cleanliness among truck stops however this one is a PATHETIC EXCUSE. The towels are dirty, residue on the sinks, bathrooms aren’t properly wiped down, etc. Avoid this stop if possible. Will not be staying again.",
+          "showerKeywords": [
+            "bathroom",
+            "clean"
+          ],
+          "index": 40,
+          "uniqueId": "ASIA B_Incredibly_disappointed._Love_is_known_to_have_a_s_a month ago"
+        },
+        {
+          "reviewerName": "Lite",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "This place is a mess. Always long lines at the pumps and restrooms. Half the time the pumps don’t print receipts, which is super annoying when you're in a hurry. Bathrooms are dirty, no paper towels, and it seems like no one cares. Definitely not what I expect from a major truck stop.",
+          "showerKeywords": [
+            "bathroom",
+            "restroom"
+          ],
+          "index": 56,
+          "uniqueId": "Lite_This_place_is_a_mess._Always_long_lines_at_the_pum_4 months ago"
+        },
+        {
+          "reviewerName": "MADINABONU KHAZRATKULOVA",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "I don't recommend this truck stop, i.e. Loves, to anyone because the bathroom water is very cold and there is no hot water, sorry, I can't help it, I had to bathe in cold water, the bathroom is very dirty, I don't recommend it to anyone",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 63,
+          "uniqueId": "MADINABONU KHAZRATKULOVA_I_don't_recommend_this_truck_stop,_i.e._Loves,_to__5 months ago"
         }
       ],
-      "showerReviewCount": 10,
+      "showerReviewCount": 14,
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, restroom, bathroom",
       "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
       "address": "13300 Ali Ghan Rd NE, Cumberland, MD 21502",
@@ -1954,190 +2197,13 @@
           ],
           "index": 67,
           "uniqueId": "Anton Bulgakov_Nice_spacious_Pilot,_ample_parking,_clean_spacious_4 months ago"
-        },
-        {
-          "reviewerName": "lisa howard",
-          "rating": "4 stars",
-          "reviewDate": "Edited 2 months ago",
-          "reviewText": "This location has an RV dump, large parking lot, clean, well stocked store, and clean, well designed showers. However, the soft water leaves you feeling slimy. I prefer feeling clean after my shower.",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 0,
-          "uniqueId": "lisa howard_This_location_has_an_RV_dump,_large_parking_lot,_c_Edited 2 months ago"
-        },
-        {
-          "reviewerName": "SAHIB SINGH",
-          "rating": "4 stars",
-          "reviewDate": "a month ago",
-          "reviewText": "The parking lot here is very large but almost always full. If you need parking come here early, Clean shower,  nice staff and well managed store.",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 11,
-          "uniqueId": "SAHIB SINGH_The_parking_lot_here_is_very_large_but_almost_alwa_a month ago"
-        },
-        {
-          "reviewerName": "Jon S",
-          "rating": "3 stars",
-          "reviewDate": "6 months ago",
-          "reviewText": "… no manners or respect whatsoever these days. They should add more self checkout machines so people don’t have to be bothered with negative energy. Besides that it’s not the biggest lot but shower pressure was great and available at 7:30 pm.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 18,
-          "uniqueId": "Jon S_…_no_manners_or_respect_whatsoever_these_days._The_6 months ago"
-        },
-        {
-          "reviewerName": "ARe!!Boss",
-          "rating": "3 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "Pilot not have enough staff to clean shower and this happen many locations.",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 26,
-          "uniqueId": "ARe!!Boss_Pilot_not_have_enough_staff_to_clean_shower_and_th_3 years ago"
-        },
-        {
-          "reviewerName": "And Ddd",
-          "rating": "1 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Showers are not working!.. …",
-          "showerKeywords": [
-            "shower",
-            "showers"
-          ],
-          "index": 37,
-          "uniqueId": "And Ddd_Showers_are_not_working!.._…_a year ago"
-        },
-        {
-          "reviewerName": "Andy Specht",
-          "rating": "2 stars",
-          "reviewDate": "4 years ago",
-          "reviewText": "… have a full grill with chicken, pot roast etc. According to a manager they have no plans on bringing those options back. They built a shop that took away badly needed parking. The ups are the shower was clean and the cashier was friendly.",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 45,
-          "uniqueId": "Andy Specht_…_have_a_full_grill_with_chicken,_pot_roast_etc._A_4 years ago"
-        },
-        {
-          "reviewerName": "RON KNABLEIN",
-          "rating": "2 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "This location has problematic with hot water for shower. I couldn't take shower today and all body wipes are sold out, but at least can get hot food of pizza, hamburger, potato wedges and other microwave items in heated cabin along with …",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 53,
-          "uniqueId": "RON KNABLEIN_This_location_has_problematic_with_hot_water_for_s_3 years ago"
-        },
-        {
-          "reviewerName": "Brett Stewart",
-          "rating": "2 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "Used to have more parking.\nCorporate decided to wipe out a couple dozen spots to increase profits.\nAlways a wait for a shower.\nWhatever, Jim Haslam appreciates you....\nAccording to customer service voicemail wait time.\nYeah, right.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 61,
-          "uniqueId": "Brett Stewart_Used_to_have_more_parking._Corporate_decided_to_wi_3 years ago"
-        },
-        {
-          "reviewerName": "Snake Eyes",
-          "rating": "1 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "The system that opens the shower doors doesn't work properly.  So they are just leaving the shower doors open, which is a huge security risk. Sometimes they do close the doors and then the attendants get an attitude when you tell them to …",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 68,
-          "uniqueId": "Snake Eyes_The_system_that_opens_the_shower_doors_doesn't_wor_3 years ago"
-        },
-        {
-          "reviewerName": "Nurken Bektursunov",
-          "rating": "4 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "Lots of parking spaces, clean shower and good assortment of food. But I have 1 problem here: the ingredients are not indicated on salads and soup. I got surprised when I found ham on the bottom of the salad and had to throw the whole salad …",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 76,
-          "uniqueId": "Nurken Bektursunov_Lots_of_parking_spaces,_clean_shower_and_good_asso_3 years ago"
-        },
-        {
-          "reviewerName": "Nicholas W Mott",
-          "rating": "4 stars",
-          "reviewDate": "a month ago",
-          "reviewText": "If you have AT&T, look at your signal strength for where you park. Different parts of the lot have black holes. Wifi is inconsistent here. Parking is good. Store is clean. Lots of poison ivy on property. So be aware of you have a dog. Igor's so majestic.",
-          "showerKeywords": [
-            "clean"
-          ],
-          "index": 30,
-          "uniqueId": "Nicholas W Mott_If_you_have_AT&T,_look_at_your_signal_strength_for_a month ago"
-        },
-        {
-          "reviewerName": "Gods Grace",
-          "rating": "5 stars",
-          "reviewDate": "4 months ago",
-          "reviewText": "Every Manager, and all the workers are very awesome. Every employee go above and beyond to give Excellent customer  Service each and everyday to all customers. The food is awesome. Prices are very reasonable. The entire Flying J Travel Center is very clean at all times.",
-          "showerKeywords": [
-            "clean"
-          ],
-          "index": 38,
-          "uniqueId": "Gods Grace_Every_Manager,_and_all_the_workers_are_very_awesom_4 months ago"
-        },
-        {
-          "reviewerName": "Heather Holiday",
-          "rating": "5 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "I like this big rig truck stop as it’s very clean and there is pull forward parking available that offer electricity to run air so that you don’t idle in winter or summer. There is a lot of spaces available even on weekends and daily …",
-          "showerKeywords": [
-            "clean"
-          ],
-          "index": 52,
-          "uniqueId": "Heather Holiday_I_like_this_big_rig_truck_stop_as_it’s_very_clean__2 years ago"
-        },
-        {
-          "reviewerName": "ARTHUR ENTERPRISES",
-          "rating": "5 stars",
-          "reviewDate": "7 years ago",
-          "reviewText": "This is a great truck stop. The staff is friendly. The prices are competitive for the area. There's lots of parking and the facilities are pretty well maintained and kept reasonably clean. The showers are definitely commendable. …",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "facilities",
-            "clean"
-          ],
-          "index": 72,
-          "uniqueId": "ARTHUR ENTERPRISES_This_is_a_great_truck_stop._The_staff_is_friendly._7 years ago"
-        },
-        {
-          "reviewerName": "Anton Bulgakov",
-          "rating": "5 stars",
-          "reviewDate": "3 months ago",
-          "reviewText": "Spacious parking lot, clean showers",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 84,
-          "uniqueId": "Anton Bulgakov_Spacious_parking_lot,_clean_showers_3 months ago"
         }
       ],
-      "showerReviewCount": 28,
+      "showerReviewCount": 13,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
-      "address": "326 Slapes Corner Rd, Carneys Point, NJ 08069",
-      "rating": "3.9",
+      "address": "221 Belle Hill Rd, Elkton, MD 21921",
+      "rating": "3.8",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
@@ -2462,6 +2528,48 @@
       "googleMapsUrl": "https://www.google.com/maps/place/Howard+County+Family+YMCA/@39.2522642,-76.8859143,13z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89c81f92878def27:0xe486a1123d8e8ce7!8m2!3d39.2522642!4d-76.8138165!15sCgRZTUNBWgYiBHltY2GSARdub25fcHJvZml0X29yZ2FuaXphdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSMmExOVhWMU5uRUFFqgFACggvbS8wbHpnNxABKggiBHltY2EoADIeEAEiGtwzeUv9dRn96oznW2TlGCfTq7U0dtUjv1qaMggQAiIEeW1jYeABAPoBBAgAEEY!16s%2Fg%2F11f0kn7rbc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "RockvilleWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T10:09:29.736Z",
+      "state": "MD"
+    },
+    {
+      "title": "YMCA of Frederick County MD",
+      "street": "1000 N Market St \"The family locker room has individual lockable showers and toilets.\"",
+      "city": "Frederick",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "Nonprofit center for classes & services",
+      "extractedHours": "Closed ⋅ Opens 8 am",
+      "lat": "39.4266979",
+      "lng": "-77.4786165",
+      "phone": "(301) 663-5131",
+      "website": "http://www.frederickymca.org/",
+      "content": "YMCA of Frederick County MD may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "YMCA",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Day Pass $10-20",
+      "access": "Day Pass",
+      "source": " YMCA",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 8 am Sunday8 am–4 pmMonday5 am–9 pmTuesday5 am–9 pmWednesday5 am–9 pmThursday5 am–9 pmFriday5 am–9 pmSaturday6 am–6 pmSuggest new hours",
+      "address": "1000 N Market St, Frederick, MD 21701",
+      "rating": "4.4",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Non-profit organization",
+      "placeId": "YMCA+of+Frederick+County+MD",
+      "googleMapsUrl": "https://www.google.com/maps/place/YMCA+of+Frederick+County+MD/@39.4266979,-77.4786165,13z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89c9daf18eaa14cd:0x6817fb85a96a3a30!8m2!3d39.4266979!4d-77.4065187!15sCgRZTUNBWgYiBHltY2GSARdub25fcHJvZml0X29yZ2FuaXphdGlvbqoBQAoIL20vMGx6ZzcQASoIIgR5bWNhKAAyHhABIhrcM3lL_XUZ_eqM51tk5Rgn06u1NHbVI79amjIIEAIiBHltY2HgAQA!16s%2Fg%2F1td18tl7?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Community-focused nonprofit established in 1844 with recreational programs & services for all ages.",
       "dailyHours": {},
       "dailyHoursFormatted": "",
       "isOpen24Hours": false,
@@ -3174,8 +3282,68 @@
       "cost": "Contact for pricing",
       "access": "Contact for access",
       "source": "truck stop",
-      "showerReviews": [],
-      "showerReviewCount": 0,
+      "showerReviews": [
+        {
+          "reviewerName": "Richard Stuczynski",
+          "rating": "4 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "Just be careful parking at night or in bad weather. Steep drop at the edges. Other than that this place is just fine. No showers but there's a Pilot across the street. 👍👍 …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 9,
+          "uniqueId": "Richard Stuczynski_Just_be_careful_parking_at_night_or_in_bad_weather_3 weeks ago"
+        },
+        {
+          "reviewerName": "Jashan Deep",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Perfect Stop Rather then busy truckstops clean parking and restrooms they have lot of food must visit",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Jashan Deep_Perfect_Stop_Rather_then_busy_truckstops_clean_par_a month ago"
+        },
+        {
+          "reviewerName": "Matt Ball",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Clean restrooms, parking lot, and they got lil ceasers and ihop in here. Way better than the average truck stop more options is nice. Parking is still plentiful at 9pm. Good place so far.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 39,
+          "uniqueId": "Matt Ball_Clean_restrooms,_parking_lot,_and_they_got_lil_cea_a year ago"
+        },
+        {
+          "reviewerName": "tm TM",
+          "rating": "5 stars",
+          "reviewDate": "Edited 7 months ago",
+          "reviewText": "Very nice travel plaza.  Always busy.  Clean. Lots to offer, food, gas, snack, drinks & more.",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "tm TM_Very_nice_travel_plaza._Always_busy._Clean._Lots_Edited 7 months ago"
+        },
+        {
+          "reviewerName": "Richard Watson",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "What a pleasure to find a clean well stocked convenience store like BFS. The restrooms were exceptionally clean. The staff were helpful and pleasant to deal with. I arrived with a snow & sleet storm blowing in. The staff began treating the sidewalks with de-icer & helping several people on the lot.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "Richard Watson_What_a_pleasure_to_find_a_clean_well_stocked_conve_3 years ago"
+        }
+      ],
+      "showerReviewCount": 5,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
       "address": "2815 Chestnut Ridge Rd, Grantsville, MD 21536",
@@ -3403,8 +3571,485 @@
       "state": "MD"
     },
     {
-      "title": "Gettysburg Travel Plaza",
-      "street": "Hancock Truck Plaza 3.8(550)Truck stop",
+      "title": "AC & T Travel Center",
+      "street": "AC & T Travel Center 4.6(574)Truck stop",
+      "city": "Hagerstown",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.6312023",
+      "lng": "-77.7889929",
+      "phone": "(301) 582-2702",
+      "website": "https://www.ta-petro.com/location/pa/ta-greencastle",
+      "content": "AC & T Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "R̷A̷C̷H̷I̷D̷.̷T̷",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Very Very good coffee ☕😋 I like it so much 😍💯\nStore 🏪: Very clean 😄 👍\nFood 🥪🍔🍕🍗🍿🍩🍪\nParking : 🅿️\nShower :🚿\nLaundry: 🧺\nRestrooms: 🚻 Very clean 😀\nService friendly people 👍 …",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "R̷A̷C̷H̷I̷D̷.̷T̷_Very_Very_good_coffee_☕😋_I_like_it_so_much_😍💯_S_a year ago"
+        },
+        {
+          "reviewerName": "Indian Blues",
+          "rating": "5 stars",
+          "reviewDate": "6 months ago",
+          "reviewText": "Please try their fried chicken. It's very delicious. We will come back to this restaurant again. Thank you for the clean shower room and the friendly staff.",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 11,
+          "uniqueId": "Indian Blues_Please_try_their_fried_chicken._It's_very_deliciou_6 months ago"
+        },
+        {
+          "reviewerName": "Julie Rutledge",
+          "rating": "5 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "No Showers were clean. Water pressure can be turned up some in shower 6. Food was delicious i had the crab cake dinner and the fish great. My  sides were mash potatoes for crab cakes and for later the fish scallops potatoes and corn i …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 19,
+          "uniqueId": "Julie Rutledge_No_Showers_were_clean._Water_pressure_can_be_turne_9 months ago"
+        },
+        {
+          "reviewerName": "Reo Wallace",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "This was a very nice and clean truck stop in MD. The staff was pleasant and the restroom and shower areas were tidy also. You have to try the fried chicken and pickled beets. They were both delicious!",
+          "showerKeywords": [
+            "shower",
+            "restroom",
+            "clean"
+          ],
+          "index": 27,
+          "uniqueId": "Reo Wallace_This_was_a_very_nice_and_clean_truck_stop_in_MD._T_2 years ago"
+        },
+        {
+          "reviewerName": "Polo 74",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… are way more spaces to park. You can drop ur trailer, and it's so much shopping and food choice right across the Interstate. However, their food choices will have u happy,full, and ready to go to sleep right after a good hot shower.. Lol.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 34,
+          "uniqueId": "Polo 74_…_are_way_more_spaces_to_park._You_can_drop_ur_tra_2 years ago"
+        },
+        {
+          "reviewerName": "Andrew Tummelson",
+          "rating": "3 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… restrooms friendly people. However, for a truck driver there are some inconveniences. Have to let them hold your truck key in exchange for a shower. Make sure your fuel card works because an authorization code or pre-authorization of …",
+          "showerKeywords": [
+            "shower",
+            "restroom"
+          ],
+          "index": 42,
+          "uniqueId": "Andrew Tummelson_…_restrooms_friendly_people._However,_for_a_truck__3 years ago"
+        },
+        {
+          "reviewerName": "Micheal Wanner",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Great food best shower's out of all the AM best card truck stops",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 50,
+          "uniqueId": "Micheal Wanner_Great_food_best_shower's_out_of_all_the_AM_best_ca_a year ago"
+        },
+        {
+          "reviewerName": "Mark Garno",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Best clean shower ever I like it",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 57,
+          "uniqueId": "Mark Garno_Best_clean_shower_ever_I_like_it_a year ago"
+        },
+        {
+          "reviewerName": "Rev _oo7",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Always a nice place to get a shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "Rev _oo7_Always_a_nice_place_to_get_a_shower._2 years ago"
+        }
+      ],
+      "showerReviewCount": 9,
+      "showerReviewSummary": "9 shower-related reviews found. Generally Positive mentions of: shower, restroom, clean, showers",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "11560 Hopewell Rd, Hagerstown, MD 21740",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "AC+%26+T+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/AC+%26+T+Travel+Center/@39.6312023,-77.7889929,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89c9f2fb67e550a5:0xf76a6bc514e4dd40!8m2!3d39.6312023!4d-77.7844868!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5XYUZwaE4waFJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQQw!16s%2Fg%2F11c4bq36mq?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Greencastle",
+      "sourceState": "PA",
+      "timestamp": "2025-09-24T07:40:54.770Z",
+      "state": "MD"
+    },
+    {
+      "title": "Love's Travel Stop",
+      "street": "Love's Travel Stop 3.9(866)Truck stop",
+      "city": "Hagerstown",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.700729",
+      "lng": "-77.7382114",
+      "phone": "(301) 393-3740",
+      "website": "https://www.ta-petro.com/location/pa/ta-greencastle",
+      "content": "Love's Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Alex Bennett",
+          "rating": "4 stars",
+          "reviewDate": "3 weeks ago",
+          "reviewText": "Always nice to have a shower on the road and Love's makes it easy with booking straight on the app. The shower head in shower #1 leaves a lot to be desired, but ultimately water came out of it so it works. This location has a couple cats …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Alex Bennett_Always_nice_to_have_a_shower_on_the_road_and_Love'_3 weeks ago"
+        },
+        {
+          "reviewerName": "Wanda Holmes",
+          "rating": "2 stars",
+          "reviewDate": "4 weeks ago",
+          "reviewText": "… see a name tag of the young lady she wear glasses. I also noticed  that several  employees  that work in the shower cleaning area, back behind  ther counter in the food prep area,  I know this because  they talked  about cleaning  the …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Wanda Holmes_…_see_a_name_tag_of_the_young_lady_she_wear_glasse_4 weeks ago"
+        },
+        {
+          "reviewerName": "T Morgan",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… Showers are free with 50 galsof diesel fuel. If you dont get it free then it is $12 for the (cleaned after every use) shower. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "T Morgan_…_Showers_are_free_with_50_galsof_diesel_fuel._If__6 years ago"
+        },
+        {
+          "reviewerName": "Elena Kobrina",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "Nice place, the staff are very nice and will help if you need anything. Clean toilets and shower. Nice place if you want to stop by for take a shower and a coffee. I recommend it",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 32,
+          "uniqueId": "Elena Kobrina_Nice_place,_the_staff_are_very_nice_and_will_help__3 months ago"
+        },
+        {
+          "reviewerName": "JPTV3000",
+          "rating": "3 stars",
+          "reviewDate": "Edited 3 years ago",
+          "reviewText": "… today 2/26/22 the showers aren't working😥🤬 …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 39,
+          "uniqueId": "JPTV3000_…_today_2/26/22_the_showers_aren't_working😥🤬_…_Edited 3 years ago"
+        },
+        {
+          "reviewerName": "Vladyslav Piddubnyi",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "No one cares to clean the shower. I’ve seen people from 6 showers come out, and there is zero attention from employees.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 48,
+          "uniqueId": "Vladyslav Piddubnyi_No_one_cares_to_clean_the_shower._I’ve_seen_people_2 years ago"
+        },
+        {
+          "reviewerName": "Trent",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "This place sucks truckers have it rough enough for you to only have 3 showers working and a three hour wait for a shower is crap. I’ll start fueling and showering at pilot from now on. Your a truck stop take care of your truckers.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "showering"
+          ],
+          "index": 57,
+          "uniqueId": "Trent_This_place_sucks_truckers_have_it_rough_enough_for_10 months ago"
+        },
+        {
+          "reviewerName": "Aka",
+          "rating": "4 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Everything was perfect the  staff are friendly parking good clean but there was no shower because laundry machine was out of service.  It’s been three days since I parked here but no shower I have to drive 6 miles to this pilot travel …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 64,
+          "uniqueId": "Aka_Everything_was_perfect_the_staff_are_friendly_par_3 years ago"
+        },
+        {
+          "reviewerName": "Nicholas Eastin",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Probably the best shower I’ve had at a truck stop in awhile. The water pressure was so good that I was honestly surprised, I kept waiting for it to fade as most truck stops do but it didn’t. Water temperature was extremely hot but nothing a …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 72,
+          "uniqueId": "Nicholas Eastin_Probably_the_best_shower_I’ve_had_at_a_truck_stop__4 years ago"
+        },
+        {
+          "reviewerName": "Josh Ritter",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Tried to check in for a shower on the app. When I opened the app it said 1 shower available. By the time I checked in I was 14th in line at 10:30 am on 10/6. Nobody was waiting for showers there was 4 empty and cleaned, and the lady was …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 80,
+          "uniqueId": "Josh Ritter_Tried_to_check_in_for_a_shower_on_the_app._When_I__2 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, showering",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "14188 Perini Ave, Hagerstown, MD 21742",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Love's+Travel+Stop",
+      "googleMapsUrl": "https://www.google.com/maps/place/Love's+Travel+Stop/@39.700729,-77.7382114,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89c99262c9913dad:0x9d917bbeee4a724e!8m2!3d39.700729!4d-77.7337053!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJ0ZDJOVVUxRkJFQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECCkQOA!16s%2Fg%2F11c2p8yryc?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Greencastle",
+      "sourceState": "PA",
+      "timestamp": "2025-09-24T07:40:54.770Z",
+      "state": "MD"
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.9(1",
+      "city": "Hagerstown",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.6297734",
+      "lng": "-77.787445",
+      "phone": "(301) 582-6111",
+      "website": "https://www.ta-petro.com/location/pa/ta-greencastle",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Chuck Whigham",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "… an extremely clean and has an immaculate beverage station... Just look at the images that were taken at peak hours.In the bathrooms and shower stations were maintained and clean. I purchased two 24 ounce cups of Pilot Intense Energy Coffee …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Chuck Whigham_…_an_extremely_clean_and_has_an_immaculate_beverag_a month ago"
+        },
+        {
+          "reviewerName": "James Blevins",
+          "rating": "1 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "Woke up at 6:30am to see 3 people ahead of me in the shower line. At 8am there was only 1 ahead of me. 8:45am there was still 1 ahead of me and when I asked why it’s taking so long for showers to open up, I was told “the gentleman is taking …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 12,
+          "uniqueId": "James Blevins_Woke_up_at_6:30am_to_see_3_people_ahead_of_me_in_t_4 months ago"
+        },
+        {
+          "reviewerName": "nicolas dimeno",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… a pilot sign it's always a good thing cuz we know we can pull in gas up get our food a nice hot shower enjoy some company with other truckers enjoy the nice staff and get on her way down the road delivering all year commodities safe …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 20,
+          "uniqueId": "nicolas dimeno_…_a_pilot_sign_it's_always_a_good_thing_cuz_we_kno_6 years ago"
+        },
+        {
+          "reviewerName": "Jacob C",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Finally writing a review for this place, since I'm 3 for 3 on showers having broken or outright missing secondary locks, and being pretty dirty on the part of the shower itself. …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 32,
+          "uniqueId": "Jacob C_Finally_writing_a_review_for_this_place,_since_I'm_a year ago"
+        },
+        {
+          "reviewerName": "Trapboi Fuse",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Got a few park stop look like a 100, got some cute ducks walking round, clean shower they also got a shop",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 43,
+          "uniqueId": "Trapboi Fuse_Got_a_few_park_stop_look_like_a_100,_got_some_cute_5 years ago"
+        },
+        {
+          "reviewerName": "Dereck Seckman",
+          "rating": "1 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "It's the worst store ever. Stopped for a drink and a shower. Took 35 minutes to get a shower. They had zero towels for us. No soap or shampoo. The sprinkler and smoke detector was rusted shut along with other stuff. And nothing but excuses. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 54,
+          "uniqueId": "Dereck Seckman_It's_the_worst_store_ever._Stopped_for_a_drink_and_7 months ago"
+        },
+        {
+          "reviewerName": "Carlos G. Salas",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Worse Pilot I've been to in regards of parking and showers. DO NOT RESERVE A SPACE HERE. They have no control over parking spaces. If it's taken its taken and they won't do anything about it even if you paid for it. Showers? Disgusting. Bro …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 62,
+          "uniqueId": "Carlos G. Salas_Worse_Pilot_I've_been_to_in_regards_of_parking_and_8 months ago"
+        },
+        {
+          "reviewerName": "Providencia C.",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "… Today, I was assigned shower 9, but it was so disgusting that I just booked another one on the app. Think hairs, stains, random solids in the shower. …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 72,
+          "uniqueId": "Providencia C._…_Today,_I_was_assigned_shower_9,_but_it_was_so_di_8 months ago"
+        },
+        {
+          "reviewerName": "Cactus Jack",
+          "rating": "1 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "… receipt.   Then down to park.  Then up to get food, and shower, then down to go back to truck and sleep then back up in the morning for coffee and bathroom then back down to… no f’ing thanks.   I’ll just go elsewhere.  McDonalds screwed …",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 80,
+          "uniqueId": "Cactus Jack_…_receipt._Then_down_to_park._Then_up_to_get_fo_4 years ago"
+        },
+        {
+          "reviewerName": "Don B",
+          "rating": "1 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "Place is a mess… Garbage cans are overfilled they've been that way all weekend got here on Friday it's Sunday they're still overflowing… Shower was not adequately cleaned....usually a long line inside too!",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 89,
+          "uniqueId": "Don B_Place_is_a_mess…_Garbage_cans_are_overfilled_they'_8 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, showers",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "16921 Halfway Blvd, Hagerstown, MD 21740",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@39.6297734,-77.787445,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89c9f2fb06c94d8b:0xe535beb7490fe178!8m2!3d39.6297734!4d-77.7829389!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1ttq31_q?entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Greencastle",
+      "sourceState": "PA",
+      "timestamp": "2025-09-24T07:40:54.770Z",
+      "state": "MD"
+    },
+    {
+      "title": "Hancock Truck Plaza",
+      "street": "Hancock Truck Plaza 3.8(552)Truck stop",
       "city": "Hancock",
       "province": "",
       "zip": "",
@@ -3413,10 +4058,10 @@
       "extractedHours": "",
       "lat": "39.6957365",
       "lng": "-78.1585598",
-      "phone": "(717) 337-1196",
-      "website": "https://hunterstowndiner.com/",
+      "phone": "(540) 678-3641",
+      "website": "",
       "content": "Hancock Truck Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop, Public Facility, Truck Stop",
+      "category": "Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility, Public Facility",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -3468,74 +4113,39 @@
           "uniqueId": "Theodore Keefer_Place_is_nasty_and_dirty!_And_they_don't_even_want_6 years ago"
         },
         {
-          "reviewerName": "Man_Of_ God305",
-          "rating": "4 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Not a bad spot to stop big truck parking nice people and decent food what more can you ask maybe a shower lol but overall 4⭐️",
+          "reviewerName": "Sick Villain",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "I know we have truckers that are nasty and trashy\nSo I hope WE ALL KEEP THIS PLACE CLEAN!!!!\nFree parking …",
           "showerKeywords": [
-            "shower"
-          ],
-          "index": 0,
-          "uniqueId": "Man_Of_ God305_Not_a_bad_spot_to_stop_big_truck_parking_nice_peop_a year ago"
-        },
-        {
-          "reviewerName": "beth coombs",
-          "rating": "4 stars",
-          "reviewDate": "8 years ago",
-          "reviewText": "Very friendly staff. Restaurant on site; truck scale, fuel and all necessities. Showers are similar to a camp ground but are free with the purchase of a shower. I will return on my next trip.",
-          "showerKeywords": [
-            "shower",
-            "showers"
-          ],
-          "index": 8,
-          "uniqueId": "beth coombs_Very_friendly_staff._Restaurant_on_site;_truck_sca_8 years ago"
-        },
-        {
-          "reviewerName": "Jashvinder Singh Sidhu",
-          "rating": "4 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "Nice staff\nClean shower &restroom",
-          "showerKeywords": [
-            "shower",
-            "restroom",
             "clean"
           ],
-          "index": 15,
-          "uniqueId": "Jashvinder Singh Sidhu_Nice_staff_Clean_shower_&restroom_2 years ago"
-        },
-        {
-          "reviewerName": "Stacey",
-          "rating": "4 stars",
-          "reviewDate": "11 months ago",
-          "reviewText": "Offers 6 gas pumps and diesel on two pumps. Also has two tractor trailer pumps for diesel. Shower rooms available.",
-          "showerKeywords": [
-            "shower"
-          ],
           "index": 0,
-          "uniqueId": "Stacey_Offers_6_gas_pumps_and_diesel_on_two_pumps._Also_h_11 months ago"
+          "uniqueId": "Sick Villain_I_know_we_have_truckers_that_are_nasty_and_trashy__a month ago"
         },
         {
-          "reviewerName": "dj.yachtman",
-          "rating": "2 stars",
-          "reviewDate": "4 years ago",
-          "reviewText": "10 dollar shower and the shower was kinda gross. nobody wore a mask either",
+          "reviewerName": "J T",
+          "rating": "4 stars",
+          "reviewDate": "9 months ago",
+          "reviewText": "The worker was really nice and helpful. The bathroom here is probably the cleanest gas station bathroom ever.",
           "showerKeywords": [
-            "shower"
+            "bathroom",
+            "clean"
           ],
-          "index": 7,
-          "uniqueId": "dj.yachtman_10_dollar_shower_and_the_shower_was_kinda_gross._n_4 years ago"
+          "index": 56,
+          "uniqueId": "J T_The_worker_was_really_nice_and_helpful._The_bathro_9 months ago"
         }
       ],
-      "showerReviewCount": 9,
+      "showerReviewCount": 6,
       "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, clean",
-      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "25 Sandoe Rd, Gettysburg, PA 17325",
-      "rating": "4.2",
+      "hours": "Open 24 hours ThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursSuggest new hours",
+      "address": "434 E Main St, Hancock, MD 21750",
+      "rating": "3.8",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
       "placeId": "Hancock+Truck+Plaza",
-      "googleMapsUrl": "https://www.google.com/maps/place/Hancock+Truck+Plaza/@39.6957365,-78.1585598,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89ca17d377a84d35:0x4adb6c5d683c317d!8m2!3d39.6957365!4d-78.1540537!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJTZEVsUFlYaDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDk!16s%2Fg%2F1tdyxb8j?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Hancock+Truck+Plaza/@39.6957365,-78.1585598,17z/data=!4m11!1m3!2m2!1struck+stop!6e6!3m6!1s0x89ca17d377a84d35:0x4adb6c5d683c317d!8m2!3d39.6957365!4d-78.1540537!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJTZEVsUFlYaDNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEDk!16s%2Fg%2F1tdyxb8j?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -3543,9 +4153,9 @@
       "isOpen24Hours": true,
       "isClosed": false,
       "hasDetailedHours": false,
-      "sourceCity": "Gettysburg",
-      "sourceState": "PA",
-      "timestamp": "2025-09-22T16:15:34.481Z",
+      "sourceCity": "Clear Brook",
+      "sourceState": "VA",
+      "timestamp": "2025-09-25T09:40:19.316Z",
       "state": "MD"
     },
     {
@@ -3688,7 +4298,7 @@
       "state": "MD"
     },
     {
-      "title": "YMCA of Frederick County MD",
+      "title": "YMCA, Natelli Family",
       "street": "3481 Campus Dr On-site services",
       "city": "Ijamsville",
       "province": "",
@@ -3745,8 +4355,8 @@
       "showerReviewCount": 3,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 8 am Sunday8 am–4 pmMonday5 am–9 pmTuesday5 am–9 pmWednesday5 am–9 pmThursday5 am–9 pmFriday5 am–9 pmSaturday6 am–6 pmSuggest new hours",
-      "address": "1000 N Market St, Frederick, MD 21701",
-      "rating": "4.4",
+      "address": "3481 Campus Dr, Ijamsville, MD 21754",
+      "rating": "3.7",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Fitness center",
@@ -3807,7 +4417,7 @@
       "state": "MD"
     },
     {
-      "title": "Truck Parking - Jessup Travel Center",
+      "title": "TA Baltimore South 151",
       "street": "TA Travel Center 3.0(2",
       "city": "Jessup",
       "province": "",
@@ -3820,7 +4430,7 @@
       "phone": "(410) 799-3835",
       "website": "https://www.ta-petro.com/location/md/ta-baltimore-south",
       "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Truck Stop, Public Facility, Truck Stop, Truck Stop",
+      "category": "Truck Stop, Public Facility, Truck Stop",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -3952,20 +4562,9 @@
           ],
           "index": 0,
           "uniqueId": "Irish Keim_…_paid_for_things_at_the_store_to_cover_the_fee,_t_10 months ago"
-        },
-        {
-          "reviewerName": "Keymaker Keymaker",
-          "rating": "5 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Truck parking lot is huge, you’re almost guaranteed a free parking spot if you fuel here. Don’t play games with them that you lost your validated tickets cause it will cost you 175 bucks. What more can you want free parking plus a shower.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 0,
-          "uniqueId": "Keymaker Keymaker_Truck_parking_lot_is_huge,_you’re_almost_guarantee_a year ago"
         }
       ],
-      "showerReviewCount": 12,
+      "showerReviewCount": 11,
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, restroom",
       "hours": "",
       "address": "7401 Assateague Dr I 95, Jessup, MD 20794",
@@ -3985,6 +4584,60 @@
       "sourceCity": "Newburg",
       "sourceState": "MD",
       "timestamp": "2025-09-22T11:58:48.328Z",
+      "state": "MD"
+    },
+    {
+      "title": "Truck Parking - Jessup Travel Center",
+      "street": "Truck Parking - Jessup Travel Center 2.5(35)Parking lot",
+      "city": "Jessup",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.1633331",
+      "lng": "-76.7861865",
+      "phone": "(410) 799-3835",
+      "website": "https://www.ta-petro.com/location/md/ta-baltimore-south",
+      "content": "Truck Parking - Jessup Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Keymaker Keymaker",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Truck parking lot is huge, you’re almost guaranteed a free parking spot if you fuel here. Don’t play games with them that you lost your validated tickets cause it will cost you 175 bucks. What more can you want free parking plus a shower.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Keymaker Keymaker_Truck_parking_lot_is_huge,_you’re_almost_guarantee_a year ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "Open ⋅ Closes 12 am Tuesday8 am–12 amWednesday8 am–12 amThursday8 am–12 amFriday8 am–12 amSaturday8 am–12 amSunday8 am–12 amMonday8 am–12 amSuggest new hours",
+      "address": "7541 Assateague Dr, Jessup, MD 20794",
+      "rating": "2.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Parking lot",
+      "placeId": "Truck+Parking+-+Jessup+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Truck+Parking+-+Jessup+Travel+Center/@39.1633331,-76.7861865,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89b7e15fedb63c0f:0xfb3a2e47d6f7133b!8m2!3d39.1633331!4d-76.7816804!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQtwYXJraW5nX2xvdJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VRemNsbHRlV3huUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQQIRBAi!16s%2Fg%2F11s597z_5c?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Jessup",
+      "sourceState": "MD",
+      "timestamp": "2025-09-23T16:26:37.160Z",
       "state": "MD"
     },
     {
@@ -4275,6 +4928,48 @@
       "sourceCity": "SilverSpringWashington",
       "sourceState": "MD",
       "timestamp": "2025-09-21T09:37:22.109Z",
+      "state": "MD"
+    },
+    {
+      "title": "Bette Carol Thompson Scotland Neighborhood Recreation Center",
+      "street": "6125 Montrose RdDance",
+      "city": "music & film at On-site services",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "community center",
+      "extractedHours": "Closed ⋅ Opens 7 am",
+      "lat": "39.0534384",
+      "lng": "-77.1967243",
+      "phone": "(301) 881-0100",
+      "website": "https://www.benderjccgw.org/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_id=2060digital",
+      "content": "Bender JCC of Greater Washington may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility, Recreation Center, Public Facility, Public Pool, Public Facility, Recreation Center",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " YMCA",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 7 am Sunday7 am–9 pmMonday6 am–2 pmTuesdayClosedWednesdayClosedThursday6 am–9 pmFriday6 am–9 pmSaturday7 am–9 pmSuggest new hours",
+      "address": "13413 Grenoble Dr, Rockville, MD 20853",
+      "rating": "4.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Community center",
+      "placeId": "Bender+JCC+of+Greater+Washington",
+      "googleMapsUrl": "https://www.google.com/maps/place/Bender+JCC+of+Greater+Washington/@39.0534384,-77.1967243,13z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89b7cc36396d1c21:0xab1b6afa6d90bd65!8m2!3d39.0534384!4d-77.1246265!15sCgRZTUNBWgYiBHltY2GSARBjb21tdW5pdHlfY2VudGVyqgFACggvbS8wbHpnNxABKggiBHltY2EoADIeEAEiGtwzeUv9dRn96oznW2TlGCfTq7U0dtUjv1qaMggQAiIEeW1jYeABAA!16s%2Fg%2F1td6t3k8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Community center offers varied arts programs: dance, music, film, theater & readings open to public.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "RockvilleWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T10:09:29.736Z",
       "state": "MD"
     },
     {
@@ -4606,6 +5301,48 @@
       "state": "MD"
     },
     {
+      "title": "Homeland Village Pool",
+      "street": "18111 Homeland DrWebsiteDirections",
+      "city": "Olney",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 11 am",
+      "lat": "39.153768",
+      "lng": "-77.1435749",
+      "phone": "(240) 314-8750",
+      "website": "https://www.rockvillemd.gov/398/Swim-Fitness-Center",
+      "content": "Homeland Village Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Pool",
+      "amenities": "Hot Water|Changing Rooms|Lockers",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " public pools",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 11 am Sunday11 am–8 pmMonday11 am–8 pmTuesday11 am–8 pmWednesday11 am–8 pmThursday11 am–8 pmFriday11 am–8 pmSaturday11 am–8 pmSuggest new hours",
+      "address": "18111 Homeland Dr, Olney, MD 20832",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Public swimming pool",
+      "placeId": "Homeland+Village+Pool",
+      "googleMapsUrl": "https://www.google.com/maps/place/Homeland+Village+Pool/@39.153768,-77.1435749,13z/data=!4m10!1m2!2m1!1s+public+pools!3m6!1s0x89b7d116f9e63997:0x608138745d0871af!8m2!3d39.153768!4d-77.0714771!15sCgxwdWJsaWMgcG9vbHOSARRwdWJsaWNfc3dpbW1pbmdfcG9vbKoBUAoIL20vMGJfcnMQASoQIgxwdWJsaWMgcG9vbHMoADIeEAEiGqi87iJaQUT0_JdmODV6Bi9BjRWj0Va_Dk78MhAQAiIMcHVibGljIHBvb2xz4AEA!16s%2Fg%2F1tc_m0s8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "RockvilleWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T10:09:29.736Z",
+      "state": "MD"
+    },
+    {
       "title": "Olney Indoor Swim Center",
       "street": "Olney Indoor Swim Center 4.3(280)Indoor",
       "city": "Olney",
@@ -4766,7 +5503,7 @@
       "phone": "(240) 777-8075",
       "website": "https://www.montgomerycountymd.gov/rec/facilities/recreationcenters/scotland.html",
       "content": "Bette Carol Thompson Scotland Neighborhood Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Recreation Center, Public Facility, Recreation Center, Public Facility, Public Pool, Public Facility, Recreation Center",
+      "category": "Recreation Center",
       "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -4775,8 +5512,8 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 2 pm Mon SundayClosedMonday2–8 pmTuesday2–8 pmWednesday2–8 pmThursday2–8 pmFriday2–6 pmSaturday2–7 pmSuggest new hours",
-      "address": "13413 Grenoble Dr, Rockville, MD 20853",
-      "rating": "4.9",
+      "address": "7700 Scotland Dr, Potomac, MD 20854",
+      "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Recreation center",
@@ -5406,7 +6143,7 @@
       "phone": "(240) 314-8750",
       "website": "https://www.rockvillemd.gov/398/Swim-Fitness-Center",
       "content": "Outdoor Recreation Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Recreation Center, Public Pool",
+      "category": "Recreation Center",
       "amenities": "Hot Water|Towels|Lockers|Soap|Accessible|Changing Rooms|Lockers",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -5555,7 +6292,7 @@
       "phone": "(301) 424-3203",
       "website": "https://www.rockvillemd.gov/398/Swim-Fitness-Center",
       "content": "Plymouth Woods Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Pool, Gym, Public Pool, Public Pool, Public Pool",
+      "category": "Public Pool, Gym, Public Pool, Public Pool",
       "amenities": "Hot Water|Changing Rooms|Lockers",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -5647,7 +6384,7 @@
       "showerReviewCount": 7,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 10:30 am Sunday10:30 am–8 pmMonday11 am–8 pmTuesday11 am–8 pmWednesday11 am–8 pmThursday11 am–8 pmFriday11 am–8 pmSaturday10:30 am–8 pmSuggest new hours",
-      "address": "1824 Greenplace Terrace, Rockville, MD 20850",
+      "address": "123 Swim Club, North Bethesda, MD 20852",
       "rating": "5.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -5660,6 +6397,48 @@
       "dailyHoursFormatted": "",
       "isOpen24Hours": false,
       "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "RockvilleWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T10:09:29.736Z",
+      "state": "MD"
+    },
+    {
+      "title": "Swim: Heated Pool Oasis in the Woods",
+      "street": "N/A",
+      "city": "Rockville",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.0754585",
+      "lng": "-77.2506001",
+      "phone": "(301) 279-0082",
+      "website": "https://www.rockvillemd.gov/398/Swim-Fitness-Center",
+      "content": "Fallsmead Homes Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Pool",
+      "amenities": "Hot Water|Changing Rooms|Lockers",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " public pools",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "1824 Greenplace Terrace, Rockville, MD 20850",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Swimming pool",
+      "placeId": "Fallsmead+Homes+Pool",
+      "googleMapsUrl": "https://www.google.com/maps/place/Fallsmead+Homes+Pool/@39.0754585,-77.2506001,13z/data=!4m10!1m2!2m1!1s+public+pools!3m6!1s0x89b7cd2336597a43:0x208fee53cc5bb5a3!8m2!3d39.0754585!4d-77.1785023!15sCgxwdWJsaWMgcG9vbHNaDiIMcHVibGljIHBvb2xzkgENc3dpbW1pbmdfcG9vbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSUFp6WnhaMXAzRUFFqgFQCggvbS8wYl9ycxABKhAiDHB1YmxpYyBwb29scygAMh4QASIaqLzuIlpBRPT8l2Y4NXoGL0GNFaPRVr8OTvwyEBACIgxwdWJsaWMgcG9vbHPgAQD6AQQIABAq!16s%2Fg%2F1tdd64n4?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
       "hasDetailedHours": false,
       "sourceCity": "RockvilleWashington",
       "sourceState": "MD",
@@ -5805,6 +6584,48 @@
       "state": "MD"
     },
     {
+      "title": "Volta Park Pool",
+      "street": "1555 34th St NWSmall",
+      "city": "seasonal outdoor",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "swimming pool",
+      "extractedHours": "Closed ⋅ Opens 10 am",
+      "lat": "38.9101095",
+      "lng": "-77.1390874",
+      "phone": "(202) 645-5669",
+      "website": "https://dpr.dc.gov/page/wilson-aquatic-center-01",
+      "content": "Volta Park Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Pool",
+      "amenities": "Hot Water|Changing Rooms|Lockers",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " public pools",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 10 am Sunday10 am–6 pmMondayClosedTuesday12–8 pmWednesday12–8 pmThursday12–8 pmFriday12–8 pmSaturday10 am–6 pmSuggest new hours",
+      "address": "1555 34th St NW, Washington, DC 20018",
+      "rating": "4.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Public swimming pool",
+      "placeId": "Volta+Park+Pool",
+      "googleMapsUrl": "https://www.google.com/maps/place/Volta+Park+Pool/@38.9101095,-77.1390874,13z/data=!4m10!1m2!2m1!1s+public+pools!3m6!1s0x89b7c7798fd82701:0xb78fd825bd349d4!8m2!3d38.9101095!4d-77.0669896!15sCgxwdWJsaWMgcG9vbHNaDiIMcHVibGljIHBvb2xzkgEUcHVibGljX3N3aW1taW5nX3Bvb2yqAVAKCC9tLzBiX3JzEAEqECIMcHVibGljIHBvb2xzKAAyHhABIhqovO4iWkFE9PyXZjg1egYvQY0Vo9FWvw5O_DIQEAIiDHB1YmxpYyBwb29sc-ABAA!16s%2Fg%2F1ts3m2q8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Single-lane, 25-meter outdoor pool, open in summer months for recreational swimming.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "BethesdaWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T09:08:15.201Z",
+      "state": "MD"
+    },
+    {
       "title": "Argyle Local Park Activity Building",
       "street": "1030 Forest Glen Rd \"The only drawback is the floor - it needs a good power wash or deep scrub.\"",
       "city": "Silver Spring",
@@ -5889,6 +6710,48 @@
       "state": "MD"
     },
     {
+      "title": "Ethiopian Community Center in Maryland",
+      "street": "8701 Georgia Ave #601 Mon",
+      "city": "Silver Spring",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 9 am",
+      "lat": "38.9979773",
+      "lng": "-77.0477773",
+      "phone": "(240) 839-7805",
+      "website": "https://mocorec.com/silverspring",
+      "content": "Ethiopian Community Center in Maryland may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Community Center",
+      "amenities": "Hot Water",
+      "cost": "$5-10",
+      "access": "Public/Day Pass",
+      "source": " recreation center",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 9 am Mon SundayClosedMonday9 am–5 pmTuesday9 am–5 pmWednesday9 am–5 pmThursday9 am–5 pmFriday9 am–5 pmSaturdayClosedSuggest new hours",
+      "address": "8701 Georgia Ave 601, Silver Spring, MD 20910",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Community center",
+      "placeId": "Ethiopian+Community+Center+in+Maryland",
+      "googleMapsUrl": "https://www.google.com/maps/place/Ethiopian+Community+Center+in+Maryland/@38.9979773,-77.0477773,15z/data=!3m1!5s0x89b7c8b9d874af6d:0xf86480a37833ed74!4m10!1m2!2m1!1s+recreation+center!3m6!1s0x89b7c9c5d82c30dd:0x30088213b873ca97!8m2!3d38.9979773!4d-77.0297529!15sChFyZWNyZWF0aW9uIGNlbnRlcpIBEGNvbW11bml0eV9jZW50ZXKqAVAQASoVIhFyZWNyZWF0aW9uIGNlbnRlcigAMh4QASIaCAOF7LkunVZj3olbSgLNsniQ7Cneq8u6OxIyFRACIhFyZWNyZWF0aW9uIGNlbnRlcuABAA!16s%2Fg%2F11pwml9831?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "SilverSpringWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T09:37:22.109Z",
+      "state": "MD"
+    },
+    {
       "title": "Forest Knolls Swimming Pool",
       "street": "Forest Knolls 4.5(57)Public",
       "city": "Silver Spring",
@@ -5967,7 +6830,7 @@
       "phone": "(240) 777-4900",
       "website": "http://www.montgomerycountymd.gov/rec/where/centers/gwendolyn.html",
       "content": "Gwendolyn Coffield Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Recreation Center, Community Center, Community Center, Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Recreation Center, Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center, Community Center",
+      "category": "Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Recreation Center, Community Center, Community Center, Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Recreation Center",
       "amenities": "Hot Water",
       "cost": "$5-10",
       "access": "Public/Day Pass",
@@ -6315,7 +7178,7 @@
       "phone": "(240) 839-7805",
       "website": "",
       "content": "Ethiopian Community Center in Maryland may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Community Center, Public Facility, Recreation Center, Community Center, Recreation Center, Community Center",
+      "category": "Community Center, Public Facility, Recreation Center, Community Center, Recreation Center",
       "amenities": "Hot Water",
       "cost": "$5-10",
       "access": "Public/Day Pass",
@@ -6399,6 +7262,48 @@
       "sourceCity": "SilverSpringWashington",
       "sourceState": "MD",
       "timestamp": "2025-09-21T09:37:22.109Z",
+      "state": "MD"
+    },
+    {
+      "title": "Silver Spring YMCA",
+      "street": "9800 Hastings Dr \"Very clean and well maintained!\"",
+      "city": "Silver Spring",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 8 am",
+      "lat": "39.0151225",
+      "lng": "-77.0320668",
+      "phone": "(301) 585-2120",
+      "website": "http://ymcadc.org/locations/ymca-silver-spring/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "content": "Silver Spring YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "YMCA",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Day Pass $10-20",
+      "access": "Day Pass",
+      "source": " YMCA",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 8 am Sunday8 am–8 pmMonday6 am–10 pmTuesday6 am–10 pmWednesday6 am–10 pmThursday6 am–10 pmFriday6 am–10 pmSaturday7 am–8 pmSuggest new hours",
+      "address": "9800 Hastings Dr, Silver Spring, MD 20901",
+      "rating": "3.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Gym",
+      "placeId": "Silver+Spring+YMCA",
+      "googleMapsUrl": "https://www.google.com/maps/place/Silver+Spring+YMCA/@39.0151225,-77.0320668,15z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89b7cf570a49fa41:0xb14dd83ab7093bd5!8m2!3d39.0151225!4d-77.0140424!15sCgRZTUNBWgYiBHltY2GSAQNneW2aASRDaGREU1VoTk1HOW5TMFZKUTBGblRVTnZPR054VERaUlJSQUKqAUAKCC9tLzBsemc3EAEqCCIEeW1jYSgAMh4QASIa3DN5S_11Gf3qjOdbZOUYJ9OrtTR21SO_WpoyCBACIgR5bWNh4AEA-gEECAAQHw!16s%2Fg%2F1tdmfsg6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "downtownWashington",
+      "sourceState": "DC",
+      "timestamp": "2025-09-21T10:38:23.127Z",
       "state": "MD"
     },
     {
@@ -6573,11 +7478,11 @@
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 8 am",
       "lat": "39.0151225",
-      "lng": "-77.0320668",
+      "lng": "-77.0861402",
       "phone": "(301) 585-2120",
       "website": "http://ymcadc.org/locations/ymca-silver-spring/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
       "content": "Silver Spring YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "YMCA, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, YMCA, Recreation Center, YMCA, YMCA, YMCA, Gym, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Gym, YMCA, Gym, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Gym, YMCA, YMCA, YMCA",
+      "category": "YMCA, Recreation Center, YMCA, Recreation Center, YMCA, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, YMCA, Recreation Center, YMCA, YMCA, YMCA, Gym, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Gym, YMCA, Gym, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Gym, YMCA, YMCA, YMCA",
       "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
       "cost": "Day Pass $10-20",
       "access": "Day Pass",
@@ -6727,7 +7632,7 @@
       "priceLevel": "",
       "businessType": "Gym",
       "placeId": "Silver+Spring+YMCA",
-      "googleMapsUrl": "https://www.google.com/maps/place/Silver+Spring+YMCA/@39.0151225,-77.0320668,15z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89b7cf570a49fa41:0xb14dd83ab7093bd5!8m2!3d39.0151225!4d-77.0140424!15sCgRZTUNBWgYiBHltY2GSAQNneW2aASRDaGREU1VoTk1HOW5TMFZKUTBGblRVTnZPR054VERaUlJSQUKqAUAKCC9tLzBsemc3EAEqCCIEeW1jYSgAMh4QASIa3DN5S_11Gf3qjOdbZOUYJ9OrtTR21SO_WpoyCBACIgR5bWNh4AEA-gEECAAQHw!16s%2Fg%2F1tdmfsg6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Silver+Spring+YMCA/@39.0151225,-77.0861402,13z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89b7cf570a49fa41:0xb14dd83ab7093bd5!8m2!3d39.0151225!4d-77.0140424!15sCgRZTUNBWgYiBHltY2GSAQNneW2aASRDaGREU1VoTk1HOW5TMFZKUTBGblRVTnZPR054VERaUlJSQUKqAUAKCC9tLzBsemc3EAEqCCIEeW1jYSgAMh4QASIa3DN5S_11Gf3qjOdbZOUYJ9OrtTR21SO_WpoyCBACIgR5bWNh4AEA-gEECAAQHw!16s%2Fg%2F1tdmfsg6?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -6735,9 +7640,9 @@
       "isOpen24Hours": false,
       "isClosed": true,
       "hasDetailedHours": false,
-      "sourceCity": "downtownWashington",
-      "sourceState": "DC",
-      "timestamp": "2025-09-21T10:38:23.127Z",
+      "sourceCity": "BethesdaWashington",
+      "sourceState": "MD",
+      "timestamp": "2025-09-21T09:08:15.201Z",
       "state": "MD"
     },
     {
@@ -6798,7 +7703,7 @@
       "state": "MD"
     },
     {
-      "title": "YMCA Arlington Woodmont Gymnastics Center",
+      "title": "Eppley Recreation Center",
       "street": "4128 Valley Dr \"Equipment is quality",
       "city": "staff are nice",
       "province": "",
@@ -6811,7 +7716,7 @@
       "phone": "(301) 226-4400",
       "website": "http://recwell.umd.edu/",
       "content": "Eppley Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Recreation Center, Recreation Center, YMCA, Gym, YMCA, YMCA, Recreation Center, YMCA, YMCA, YMCA",
+      "category": "Recreation Center",
       "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -6838,47 +7743,12 @@
           ],
           "index": 8,
           "uniqueId": "Y O_Men’s_shower_has_no_hot_water,_reported_four_times_Edited 2 years ago"
-        },
-        {
-          "reviewerName": "Elizabeth Betz",
-          "rating": "3 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "… gym but I joined after others gave up on their New Year’s resolutions so it wasn’t crowded.  Now it’s too crowded for me to be able to get a changing room or shower after my workout.  I ended up buying my own equipment to exercise at home.",
-          "showerKeywords": [
-            "shower",
-            "changing room"
-          ],
-          "index": 0,
-          "uniqueId": "Elizabeth Betz_…_gym_but_I_joined_after_others_gave_up_on_their_N_a year ago"
-        },
-        {
-          "reviewerName": "S B",
-          "rating": "1 stars",
-          "reviewDate": "Edited 3 years ago",
-          "reviewText": "… visited each shift and it's the same! The ladies room is ALWAYS DIRTY, infested with roaches in the shower area, the floors seemed to never get mopped, and the surfaces seemed to never get cleaned! It's so disappointing. Some of the front …",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 9,
-          "uniqueId": "S B_…_visited_each_shift_and_it's_the_same!_The_ladies_Edited 3 years ago"
-        },
-        {
-          "reviewerName": "Jack Scott",
-          "rating": "3 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "The place is very conveniently located and is NEVER crowded. Equipment is clean and there's always enough weights. However, the facility and equipment is ancient and awkwardly arranged. Straight out of the 80s. They also don't have many …",
-          "showerKeywords": [
-            "clean"
-          ],
-          "index": 64,
-          "uniqueId": "Jack Scott_The_place_is_very_conveniently_located_and_is_NEVE_3 years ago"
         }
       ],
-      "showerReviewCount": 5,
+      "showerReviewCount": 2,
       "showerReviewSummary": "2 shower-related reviews found. Mixed mentions of: shower",
       "hours": "Closed ⋅ Opens 10 am Sunday10 am–12 amMonday6 am–12 amTuesday6 am–12 amWednesday6 am–12 amThursday6 am–12 amFriday6 am–12 amSaturday8 am–10 pmSuggest new hours",
-      "address": "11130 New Hampshire Ave, Silver Spring, MD 20904",
+      "address": "4128 Valley Dr, College Park, MD 20742",
       "rating": "4.7",
       "reviewCount": "",
       "priceLevel": "",
@@ -7157,10 +8027,12 @@
     "Derwood",
     "Elkton",
     "Ellicott City",
+    "Frederick",
     "Gaithersburg",
     "Gambrills",
     "Germantown",
     "Grantsville",
+    "Hagerstown",
     "Hancock",
     "Hyattsville",
     "Ijamsville",
@@ -7185,15 +8057,18 @@
     "courts",
     "good equipment",
     "great service",
+    "music & film at On-site services",
+    "seasonal outdoor",
     "soccer & more",
     "staff are nice",
     "super fun community pool\"",
     "track and basketball courts are amazing.\"",
     "White Marsh"
   ],
-  "totalReviews": 278,
+  "totalReviews": 291,
   "categories": [
     "Public Facility",
+    "Truck Stop, Public Facility, Truck Stop",
     "Truck Stop",
     "Truck Stop, Public Facility",
     "Recreation Center, Public Facility, Recreation Center, Recreation Center",
@@ -7201,30 +8076,30 @@
     "Recreation Center",
     "Public Pool",
     "Gym",
+    "Public Pool, YMCA",
     "YMCA",
+    "Public Facility, Recreation Center, Public Facility, Public Pool, Public Facility, Recreation Center",
     "Community Center, Public Facility, Community Center, Community Center, Community Center, Community Center, Community Center, Community Center, Community Center, Community Center, Public Facility, Community Center, Community Center, Community Center",
     "Recreation Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center",
+    "Public Pool, Gym, Public Pool, Public Pool",
+    "Recreation Center, YMCA, Gym, YMCA, YMCA, Recreation Center, YMCA, YMCA",
     "Recreation Center, Community Center",
+    "Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility, Public Facility",
+    "YMCA, Gym, YMCA, Gym, Gym, Gym, Gym, Gym, YMCA, Gym, Gym, Gym, YMCA, Gym, Gym, YMCA, Community Center, YMCA, YMCA, Gym, YMCA, YMCA, YMCA, Community Center, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA",
+    "YMCA, Recreation Center, YMCA, Recreation Center, YMCA, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, YMCA, Recreation Center, YMCA, YMCA, YMCA, Gym, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Gym, YMCA, Gym, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Gym, YMCA, YMCA, YMCA",
+    "Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Recreation Center, Community Center, Community Center, Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Recreation Center",
     "Recreation Center, Community Center, Recreation Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Community Center, Community Center, Community Center, Community Center",
+    "Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center, Community Center",
+    "Recreation Center, Community Center, Community Center, Community Center, Community Center, Community Center",
     "Community Center, Recreation Center, Public Facility, Community Center, Recreation Center, Public Facility",
     "Recreation Center, Public Pool, Recreation Center, Gym, Public Pool, Gym, Gym, Gym, Gym, Public Pool, Gym, Gym, Public Pool",
     "Community Center, Community Center, Public Facility, Community Center, Community Center, Public Facility",
     "Public Facility, Community Center, Public Pool, Public Facility, Community Center, Community Center, Community Center, Community Center, Public Pool, Public Facility, Community Center",
+    "Community Center, Public Facility, Recreation Center, Community Center, Recreation Center",
     "Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center",
-    "Recreation Center, Community Center, Recreation Center",
-    "Recreation Center, Public Facility, Recreation Center, Public Facility, Public Pool, Public Facility, Recreation Center",
-    "Public Pool, Gym, Public Pool, Public Pool, Public Pool",
-    "Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Recreation Center, Community Center, Community Center, Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Recreation Center, Recreation Center, Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Community Center, Recreation Center, Community Center, Community Center",
-    "Public Pool, Public Facility, Community Center, Recreation Center, Recreation Center, Community Center, Community Center, Recreation Center, Recreation Center, Community Center, Recreation Center, Community Center, Community Center, Recreation Center, Public Facility, Public Pool, Public Facility, Public Pool, Recreation Center, Community Center, Public Facility, Public Pool, Community Center",
-    "Truck Stop, Public Facility, Truck Stop, Truck Stop",
-    "Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop, Public Facility, Truck Stop",
-    "YMCA, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, Recreation Center, YMCA, YMCA, Recreation Center, YMCA, YMCA, YMCA, Gym, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Gym, YMCA, Gym, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Gym, YMCA, YMCA, YMCA",
-    "Recreation Center, Public Pool",
-    "Recreation Center, Recreation Center, YMCA, Gym, YMCA, YMCA, Recreation Center, YMCA, YMCA, YMCA",
-    "YMCA, Gym, YMCA, Gym, Gym, Gym, Gym, Gym, YMCA, Gym, Gym, Gym, YMCA, Gym, Gym, YMCA, Community Center, YMCA, YMCA, Gym, YMCA, YMCA, YMCA, Community Center, YMCA, YMCA, YMCA, YMCA, YMCA, YMCA, Public Facility",
-    "Community Center, Public Facility, Recreation Center, Community Center, Recreation Center, Community Center"
+    "Recreation Center, Community Center, Recreation Center"
   ],
-  "locationsWithPhone": 88,
-  "timestamp": "2025-09-24T08:19:44.629Z",
-  "locationCount": 91
+  "locationsWithPhone": 105,
+  "timestamp": "2025-09-27T10:25:18.807Z",
+  "locationCount": 108
 }

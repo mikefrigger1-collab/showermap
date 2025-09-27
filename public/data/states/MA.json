@@ -11,8 +11,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 11:15 am",
-      "lat": "42.373361",
-      "lng": "-71.3010152",
+      "lat": "42.35634953",
+      "lng": "-71.21490485",
       "phone": "(781) 642-8594",
       "website": "https://www.mass.gov/locations/connors-memorial-swimming-pool",
       "content": "Connors Memorial Swimming Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -50,7 +50,7 @@
       "showerReviewCount": 2,
       "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, bathroom, wash",
       "hours": "Closed ⋅ Opens 11:15 am Mon Sunday11:15 am–6:15 pmMonday11:15 am–6:15 pmTuesday11:15 am–6:15 pmWednesday11:15 am–6:45 pmThursday11:15 am–6:45 pmFriday11:15 am–6:45 pmSaturday11:15 am–6:45 pmSuggest new hours",
-      "address": "256 Albemarle Rd, Newton, MA 02460",
+      "address": "256 Albemarle Rd, Newton, MA 02460",
       "rating": "4.2",
       "reviewCount": "",
       "priceLevel": "",
@@ -67,10 +67,17 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.733Z",
+        "originalLat": "42.373361",
+        "originalLng": "-71.3010152",
+        "matchedAddress": "256 Albemarle Rd, Newton, MA 02460",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
-      "title": "Artesani Playground Wading Pool and Spray Deck",
+      "title": "Back Bay Fens",
       "street": "100 Park DrUrban park with gardens & play areas",
       "city": "Boston",
       "province": "",
@@ -78,13 +85,887 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Open ⋅ Closes 11:30 pm",
-      "lat": "42.3414805",
-      "lng": "-71.1136305",
+      "lat": "42.3403859",
+      "lng": "-71.0986436",
       "phone": "(617) 635-4505",
       "website": "https://www.boston.gov/departments/311/public-restrooms-city-boston",
       "content": "Back Bay Fens may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Recreation Center, Public Pool, Public Facility, Recreation Center",
+      "category": "Public Facility",
       "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "public showers",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "100 Park Dr, Boston, MA 02215",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Park",
+      "placeId": "Back+Bay+Fens",
+      "googleMapsUrl": "https://www.google.com/maps/place/Back+Bay+Fens/@42.3414805,-71.1136305,15z/data=!4m10!1m2!2m1!1spublic+showers!3m6!1s0x89e37a1e29987cdd:0x6e56493aa0fbdf69!8m2!3d42.3414805!4d-71.0956061!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBBHBhcmuaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUjFNMHhoUTFsM0VBRaoBSxABKhIiDnB1YmxpYyBzaG93ZXJzKAAyHxABIhu2dWLXidU8M_N8cZWZbf7ECCms_CfykCtqzkwyEhACIg5wdWJsaWMgc2hvd2Vyc-ABAPoBBQjwARAT!16zL20vMDQ0eGpj?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "This large greenspace has multiple gardens, playgrounds, ball fields & memorials, plus picnic areas.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "downtownBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T01:41:23.508Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.733Z",
+        "originalLat": "42.3414805",
+        "originalLng": "-71.1136305",
+        "matchedAddress": "100 Park Dr, Boston, MA 02215",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Blodgett Pool",
+      "street": "65 N Harvard St \"Cold and well kept!\"",
+      "city": "Boston",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.3683656",
+      "lng": "-71.12724131",
+      "phone": "(617) 495-1789",
+      "website": "https://recreation.gocrimson.com/sports/2021/5/14/facility-hours.aspx",
+      "content": "Blodgett Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Pool",
+      "amenities": "Hot Water|Changing Rooms|Lockers",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " public pools",
+      "showerReviews": [
+        {
+          "reviewerName": "cat",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Parking is pain, need more individual shower stalls.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "cat_Parking_is_pain,_need_more_individual_shower_stall_5 years ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
+      "hours": "",
+      "address": "65 N Harvard St, Boston, MA 02163",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Swimming pool",
+      "placeId": "Blodgett+Pool",
+      "googleMapsUrl": "https://www.google.com/maps/place/Blodgett+Pool/@42.367537,-71.1971795,13z/data=!4m11!1m3!2m2!1s+public+pools!6e1!3m6!1s0x89e37761301b6d85:0x172c47b6f849da0e!8m2!3d42.367537!4d-71.1250817!15sCgxwdWJsaWMgcG9vbHNaDiIMcHVibGljIHBvb2xzkgENc3dpbW1pbmdfcG9vbJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyMWtNVmRFVmxGa2JGcExZMFJDZVZKSVdsTmhhbXhOV2xSYVZWZEdSUkFCqgFQCggvbS8wYl9ycxABKhAiDHB1YmxpYyBwb29scygAMh4QASIaqLzuIlpBRPT8l2Y4NXoGL0GNFaPRVr8OTvwyEBACIgxwdWJsaWMgcG9vbHPgAQD6AQQIABAT!16s%2Fg%2F1v1kqwd8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.733Z",
+        "originalLat": "42.367537",
+        "originalLng": "-71.1971795",
+        "matchedAddress": "65 N Harvard St, Boston, MA 02163",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Dorchester YMCA",
+      "street": "Dorchester YMCA 4.5(204)",
+      "city": "Boston",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "Fitness center",
+      "extractedHours": "",
+      "lat": "42.28466155",
+      "lng": "-71.07083953",
+      "phone": "(617) 436-7750",
+      "website": "http://ymcaboston.org/",
+      "content": "Dorchester YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "YMCA",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Day Pass $10-20",
+      "access": "Day Pass",
+      "source": " YMCA",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 6 am Mon Sunday8 am–2 pmMonday6 am–9 pmTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–8 pmSaturday7 am–4 pmSuggest new hours",
+      "address": "776 Washington St, Boston, MA 02124",
+      "rating": "4.5",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Fitness center",
+      "placeId": "Dorchester+YMCA",
+      "googleMapsUrl": "https://www.google.com/maps/place/Dorchester+YMCA/@42.2846914,-71.1429881,13z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89e37b2e1075b07b:0xd0497ba2c4d20fb7!8m2!3d42.2846914!4d-71.0708903!15sCgRZTUNBWgYiBHltY2GSAQ5maXRuZXNzX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOSFoyOVFTRFpCUlJBQqoBQAoIL20vMGx6ZzcQASoIIgR5bWNhKAAyHhABIhrcM3lL_XUZ_eqM51tk5Rgn06u1NHbVI79amjIIEAIiBHltY2HgAQD6AQQIORBE!16s%2Fg%2F11k75nbyt1?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.734Z",
+        "originalLat": "42.2846914",
+        "originalLng": "-71.1429881",
+        "matchedAddress": "776 Washington St, Boston, MA 02124",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Draper Pool",
+      "street": "Draper Pool 4.6(71)Public",
+      "city": "Boston",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "swimming pool",
+      "extractedHours": "",
+      "lat": "42.26018295",
+      "lng": "-71.15980139",
+      "phone": "(617) 635-5021",
+      "website": "https://www.boston.gov/departments/boston-centers-youth-families/bcyf-draper-pool",
+      "content": "Draper Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Pool",
+      "amenities": "Hot Water|Changing Rooms|Lockers",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " public pools",
+      "showerReviews": [
+        {
+          "reviewerName": "Jeanne Kent",
+          "rating": "3 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… So not sure about other times.  Clean.  Nice staff.  However, only 3 showers and one is for the handicapped.  Leave swimming area a few minutes before time up to catch one or stand waiting for use.  There is a barrier in shower area on …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Jeanne Kent_…_So_not_sure_about_other_times._Clean._Nice_sta_7 years ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Closed ⋅ Opens 6 am Tue SundayClosedMondayClosedTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–9 pmSaturday7 am–5 pmSuggest new hours",
+      "address": "Draper Playground, 5275 Washington St, Boston, MA 02132",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Public swimming pool",
+      "placeId": "Draper+Pool",
+      "googleMapsUrl": "https://www.google.com/maps/place/Draper+Pool/@42.2600719,-71.231806,13z/data=!4m11!1m3!2m2!1s+public+pools!6e1!3m6!1s0x89e37f09192ae71d:0xa8bd678b55075d05!8m2!3d42.2600719!4d-71.1597082!15sCgxwdWJsaWMgcG9vbHNaDiIMcHVibGljIHBvb2xzkgEUcHVibGljX3N3aW1taW5nX3Bvb2yaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUlhhRnB0VmpkblJSQUKqAVAKCC9tLzBiX3JzEAEqECIMcHVibGljIHBvb2xzKAAyHhABIhqovO4iWkFE9PyXZjg1egYvQY0Vo9FWvw5O_DIQEAIiDHB1YmxpYyBwb29sc-ABAPoBBAhTEDs!16s%2Fg%2F1tknlg4r?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.734Z",
+        "originalLat": "42.2600719",
+        "originalLng": "-71.231806",
+        "matchedAddress": "Draper Playground, 5275 Washington St, Boston, MA 02132",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Margot Connell Recreation Center",
+      "street": "Edmonds Hall",
+      "city": "Boston",
+      "province": "spacious",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open ⋅ Closes 10:45 pm",
+      "lat": "42.3371504",
+      "lng": "-71.16478039",
+      "phone": "(617) 552-0797",
+      "website": "http://bc.edu/rec",
+      "content": "Margot Connell Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Recreation Center, Community Center, Community Center",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " community center ",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open ⋅ Closes 10:45 pm Sunday9 am–10:45 pmMonday6 am–11:45 pmTuesday6 am–11:45 pmWednesday6 am–11:45 pmThursday6 am–11:45 pmFriday6 am–10:45 pmSaturday9 am–8:45 pmSuggest new hours",
+      "address": "Edmonds Hall, 200 St Thomas More Rd, Boston, MA 02135",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Recreation center",
+      "placeId": "Margot+Connell+Recreation+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Margot+Connell+Recreation+Center/@42.3373247,-71.2366921,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89e379baea9a8ca7:0x1fc29a0424bbecfa!8m2!3d42.3373247!4d-71.1645943!15sChBjb21tdW5pdHkgY2VudGVyWhIiEGNvbW11bml0eSBjZW50ZXKSARFyZWNyZWF0aW9uX2NlbnRlcpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQydE9iVnBWZUZGVk1YQkRXbFpzY1ZNd05WVlZWVTE2Vm14YU1scFhZeEFCqgFOEAEqFCIQY29tbXVuaXR5IGNlbnRlcigAMh4QASIahuC3WvXAjsPiG1Fkbw5keCPsBZ9cFbzXDkAyFBACIhBjb21tdW5pdHkgY2VudGVy4AEA-gEECAAQKA!16s%2Fg%2F11hz_1v8sz?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.735Z",
+        "originalLat": "42.3373247",
+        "originalLng": "-71.2366921",
+        "matchedAddress": "Edmonds Hall, 200 St Thomas More Rd, Boston, MA 02135",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Piers Park",
+      "street": "95 Marginal St MonWebsiteDirections \"Clean bathrooms.\"",
+      "city": "Boston",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 8 am",
+      "lat": "42.36490695",
+      "lng": "-71.03772718",
+      "phone": "(617) 635-4505",
+      "website": "https://www.boston.gov/departments/311/public-restrooms-city-boston",
+      "content": "Piers Park may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "public showers",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 8 am Mon SundayClosedMonday8 am–8 pmTuesday8 am–8 pmWednesday8 am–8 pmThursday8 am–8 pmFriday8 am–8 pmSaturdayClosedSuggest new hours",
+      "address": "95 Marginal St, Boston, MA 02128",
+      "rating": "4.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Park",
+      "placeId": "Piers+Park",
+      "googleMapsUrl": "https://www.google.com/maps/place/Piers+Park/@42.3649623,-71.0541643,15z/data=!4m10!1m2!2m1!1spublic+showers!3m6!1s0x89e37161f18ea6e5:0xf6e835f13094694!8m2!3d42.3649623!4d-71.0361399!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBBHBhcmuaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTjFOV1poU1VKbkVBRaoBSxABKhIiDnB1YmxpYyBzaG93ZXJzKAAyHxABIhu2dWLXidU8M_N8cZWZbf7ECCms_CfykCtqzkwyEhACIg5wdWJsaWMgc2hvd2Vyc-ABAPoBBQinARAQ!16s%2Fg%2F11h3g6_v9f?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "downtownBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T01:41:23.508Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.735Z",
+        "originalLat": "42.3649623",
+        "originalLng": "-71.0541643",
+        "matchedAddress": "95 Marginal St, Boston, MA 02128",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Wang YMCA of Chinatown",
+      "street": "8 Oak St W Mon",
+      "city": "Boston",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 6 am",
+      "lat": "42.3486846",
+      "lng": "-71.0648182",
+      "phone": "(617) 426-2237",
+      "website": "https://www.boston.gov/departments/311/public-restrooms-city-boston",
+      "content": "Wang YMCA of Chinatown may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "YMCA",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Day Pass $10-20",
+      "access": "Day Pass",
+      "source": "public showers",
+      "showerReviews": [
+        {
+          "reviewerName": "Meki Banda BCoMS (BCoMS)",
+          "rating": "4 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… and are polite to the customers for the most part. It's all good except from time to time some weirdos will peak at you in the shower or sit around and watch you change in the locker room. This happens at all YMCAs not just this one. I …",
+          "showerKeywords": [
+            "shower",
+            "locker room"
+          ],
+          "index": 0,
+          "uniqueId": "Meki Banda BCoMS (BCoMS)_…_and_are_polite_to_the_customers_for_the_most_par_a year ago"
+        },
+        {
+          "reviewerName": "Francis Marcheso",
+          "rating": "1 stars",
+          "reviewDate": "Edited 7 years ago",
+          "reviewText": "Equipment is bent or broken, facilities are unclean, and the state of the men’s locker room is inexcusable: moldy shower curtains, phlegm in the sinks, and hair clippings on the floor. Came in the afternoon to a weight room floor crowded …",
+          "showerKeywords": [
+            "shower",
+            "facilities",
+            "clean",
+            "locker room"
+          ],
+          "index": 8,
+          "uniqueId": "Francis Marcheso_Equipment_is_bent_or_broken,_facilities_are_unclea_Edited 7 years ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, locker room, facilities, clean",
+      "hours": "Closed ⋅ Opens 6 am Mon Sunday9 am–5 pmMonday6 am–9 pmTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–10 pmSaturday7 am–5 pmSuggest new hours",
+      "address": "8 Oak St W, Boston, MA 02116",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Non-profit organization",
+      "placeId": "Wang+YMCA+of+Chinatown",
+      "googleMapsUrl": "https://www.google.com/maps/place/Wang+YMCA+of+Chinatown/@42.3486208,-71.0829086,15z/data=!4m10!1m2!2m1!1spublic+showers!3m6!1s0x89e37084ef2150bd:0xbde128439f4d5510!8m2!3d42.3486208!4d-71.0648842!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBF25vbl9wcm9maXRfb3JnYW5pemF0aW9umgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5zTFhaZlRIQlJSUkFCqgFLEAEqEiIOcHVibGljIHNob3dlcnMoADIfEAEiG7Z1YteJ1Twz83xxlZlt_sQIKaz8J_KQK2rOTDISEAIiDnB1YmxpYyBzaG93ZXJz4AEA-gEECAAQMw!16s%2Fg%2F1tgx7m7v?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "downtownBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T01:41:23.508Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.736Z",
+        "originalLat": "42.3486208",
+        "originalLng": "-71.0829086",
+        "matchedAddress": "8 Oak St W, Boston, MA 02116",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "YMCA of Greater Boston - Huntington Ave",
+      "street": "YMCA of Greater Boston - Huntington Ave 4.3(272)Non-profit organization",
+      "city": "Boston",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.3669109",
+      "lng": "-71.1065281",
+      "phone": "(617) 927-8060",
+      "website": "http://ymcaboston.org/contact",
+      "content": "YMCA of Greater Boston - Huntington Ave may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "YMCA",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Day Pass $10-20",
+      "access": "Day Pass",
+      "source": " YMCA",
+      "showerReviews": [
+        {
+          "reviewerName": "Jeanine Browne",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… machines, and everything you need to to feel good!!  Brightly lit, spacious, with great shower facilities to step out into your day, feeling excited and inspired!!.. The endorphins kicking in make this a truly invigorating experience! …",
+          "showerKeywords": [
+            "shower",
+            "facilities"
+          ],
+          "index": 0,
+          "uniqueId": "Jeanine Browne_…_machines,_and_everything_you_need_to_to_feel_goo_3 years ago"
+        },
+        {
+          "reviewerName": "Tral Fazz",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… friends there. Members and staff. Was treated horribly by Bobby yesterday. Came in from moving a friends furniture for 8 hours. Needed a shower. Asked Bobby for a towel. He then lied to me and said there were none. I told him I was in that …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Tral Fazz_…_friends_there._Members_and_staff._Was_treated_ho_7 years ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, facilities",
+      "hours": "Closed ⋅ Opens 6 am Mon Sunday8 am–5 pmMonday6 am–11 pmTuesday6 am–11 pmWednesday6 am–11 pmThursday6 am–11 pmFriday6 am–9 pmSaturday7 am–6 pmSuggest new hours",
+      "address": "820 Massachusetts Ave, Cambridge, MA 02139",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Non-profit organization",
+      "placeId": "YMCA+of+Greater+Boston+-+Huntington+Ave",
+      "googleMapsUrl": "https://www.google.com/maps/place/YMCA+of+Greater+Boston+-+Huntington+Ave/@42.3409096,-71.1591318,13z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89e37a184d5c27a9:0x354798a222f93cf!8m2!3d42.3409096!4d-71.087034!15sCgRZTUNBWgYiBHltY2GSARdub25fcHJvZml0X29yZ2FuaXphdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSRFgyVmhjalZCUlJBQqoBQAoIL20vMGx6ZzcQASoIIgR5bWNhKAAyHhABIhrcM3lL_XUZ_eqM51tk5Rgn06u1NHbVI79amjIIEAIiBHltY2HgAQD6AQQIABBI!16s%2Fm%2F0464lyc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "Community-focused nonprofit established in 1844 with recreational programs & services for all ages.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.736Z",
+        "originalLat": "42.3409096",
+        "originalLng": "-71.1591318",
+        "matchedAddress": "820 Massachusetts Ave, Cambridge, MA 02139",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Josephine A. Fiorentino Community Center",
+      "street": "123 Antwerp St \"Good sobriety\"",
+      "city": "Brighton",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.36208799",
+      "lng": "-71.1386269",
+      "phone": "(617) 699-2883",
+      "website": "https://charlesviewcommunity.org/community-center/",
+      "content": "Josephine A. Fiorentino Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Community Center, Recreation Center",
+      "amenities": "Hot Water",
+      "cost": "$5-10",
+      "access": "Public/Day Pass",
+      "source": " community center ",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "123 Antwerp St, Brighton, MA 02135",
+      "rating": "4.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Community center",
+      "placeId": "Josephine+A.+Fiorentino+Community+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Josephine+A.+Fiorentino+Community+Center/@42.3626982,-71.2103849,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89e379d698801d51:0xcd96c396f2222987!8m2!3d42.3626982!4d-71.1382871!15sChBjb21tdW5pdHkgY2VudGVyWhIiEGNvbW11bml0eSBjZW50ZXKSARBjb21tdW5pdHlfY2VudGVymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxS2FFMXNTbEZoVm1STFRrZFZNRmx0ZEhaT00wWkVVa1ZaZUZWV1JSQUKqAU4QASoUIhBjb21tdW5pdHkgY2VudGVyKAAyHhABIhqG4Lda9cCOw-IbUWRvDmR4I-wFn1wVvNcOQDIUEAIiEGNvbW11bml0eSBjZW50ZXLgAQD6AQQIABAN!16s%2Fg%2F11bbtgn4z2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.736Z",
+        "originalLat": "42.3626982",
+        "originalLng": "-71.2103849",
+        "matchedAddress": "123 Antwerp St, Brighton, MA 02135",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Boston College Neighborhood Center",
+      "street": "133 Eliot St Mon",
+      "city": "Brookline",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 8:30 am",
+      "lat": "42.3087965",
+      "lng": "-71.1150893",
+      "phone": "(617) 552-0445",
+      "website": "",
+      "content": "Eliot Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Recreation Center, Public Facility, Community Center, Public Facility, Community Center, Community Center, Community Center, Recreation Center",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": " community center ",
+      "showerReviews": [
+        {
+          "reviewerName": "Diane clark-tucker",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Went to a baby shower there--the room was the PERFECT size, clean, painted, welcoming--ample parking on premises-- employee on duty was very helpful and attentive--would highly recommend Curtis Hall! Plus my granddaughters basket.ball team …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 0,
+          "uniqueId": "Diane clark-tucker_Went_to_a_baby_shower_there--the_room_was_the_PERF_7 years ago"
+        },
+        {
+          "reviewerName": "Ernest Coston",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Pool,gym shower, bring your towel.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Ernest Coston_Pool,gym_shower,_bring_your_towel._7 years ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 8:30 am Mon SundayClosedMonday8:30 am–6 pmTuesday8:30 am–6 pmWednesday8:30 am–6 pmThursday8:30 am–6 pmFriday8:30 am–6 pmSaturdayClosedSuggest new hours",
+      "address": "20 South St, Jamaica Plain, MA 02130",
+      "rating": "5.0",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Recreation center",
+      "placeId": "Eliot+Recreation+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Eliot+Recreation+Center/@42.3289606,-71.2211438,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89e378ff6914ed0d:0x41a873ec5a72eb45!8m2!3d42.3289606!4d-71.149046!15sChBjb21tdW5pdHkgY2VudGVykgERcmVjcmVhdGlvbl9jZW50ZXKqAU4QASoUIhBjb21tdW5pdHkgY2VudGVyKAAyHhABIhqG4Lda9cCOw-IbUWRvDmR4I-wFn1wVvNcOQDIUEAIiEGNvbW11bml0eSBjZW50ZXLgAQA!16s%2Fg%2F11f0wqs9h2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.737Z",
+        "originalLat": "42.3289606",
+        "originalLng": "-71.2211438",
+        "matchedAddress": "20 South St, Jamaica Plain, MA 02130",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Parkway Community YMCA",
+      "street": "Goddard Ave & Newton St.Wooded area with gardens & an ice rink Mon \"Clean facilities and friendly staff add to its charm.\"",
+      "city": "Brookline",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 7 am",
+      "lat": "36.1493044",
+      "lng": "-80.2363029",
+      "phone": "(617) 879-5650",
+      "website": "http://www.brooklinema.gov/Facilities/Facility/Details/Larz-Anderson-Park-87",
+      "content": "Larz Anderson Park may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility, YMCA, Public Pool, Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "public showers",
+      "showerReviews": [
+        {
+          "reviewerName": "Alain Lafume",
+          "rating": "4 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "The Flaherty pool provided are changing room to change into your swimsuit and provided a quick shower before jumping into the water. …",
+          "showerKeywords": [
+            "shower",
+            "changing room"
+          ],
+          "index": 0,
+          "uniqueId": "Alain Lafume_The_Flaherty_pool_provided_are_changing_room_to_ch_4 years ago"
+        },
+        {
+          "reviewerName": "Linda Michaels",
+          "rating": "4 stars",
+          "reviewDate": "8 years ago",
+          "reviewText": "… . Could better enforce pool regulations: require shower of everyone entering the pool, require pool caps, especially anyone with long hair, vigilance of pool chemicals keeping water clean and not having to shock with chlorine. Some …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Linda Michaels_…_._Could_better_enforce_pool_regulations:_require_8 years ago"
+        },
+        {
+          "reviewerName": "Jeanne Kent",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "Clean facilities.  Pool, lockers, showers …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "facilities",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Jeanne Kent_Clean_facilities._Pool,_lockers,_showers_…_7 years ago"
+        },
+        {
+          "reviewerName": "Pat Carroll",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Well maintained pool, but in the women's shower stalls, it would be better to have handrails and adjustable faucet nozzles for water temperature.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 24,
+          "uniqueId": "Pat Carroll_Well_maintained_pool,_but_in_the_women's_shower_st_5 years ago"
+        }
+      ],
+      "showerReviewCount": 4,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Closed ⋅ Opens 7 am Mon SundayClosedMonday7 am–3 pmTuesday7 am–3 pmWednesday7 am–3 pmThursday7 am–3 pmFriday7 am–3 pmSaturdayClosedSuggest new hours",
+      "address": "Goddard Ave and Newton St, Brookline, MA 02445",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Park",
+      "placeId": "Larz+Anderson+Park",
+      "googleMapsUrl": "https://www.google.com/maps/place/Larz+Anderson+Park/@42.3122674,-71.2095359,13z/data=!4m11!1m3!2m2!1spublic+showers!6e1!3m6!1s0x89e3791974b70617:0x4f64c13be80949c3!8m2!3d42.3122674!4d-71.1374381!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBBHBhcmuaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTTFhbTlsZGs1UkVBRaoBSxABKhIiDnB1YmxpYyBzaG93ZXJzKAAyHxABIhu2dWLXidU8M_N8cZWZbf7ECCms_CfykCtqzkwyEhACIg5wdWJsaWMgc2hvd2Vyc-ABAPoBBQibAhA1!16s%2Fm%2F026v60s?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "This landscaped park offers pathways, ponds, gardens, a skating rink & an auto museum.",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.737Z",
+        "originalLat": "42.3122674",
+        "originalLng": "-71.2095359",
+        "matchedAddress": "Goddard Ave and Newton St, Brookline, MA 02445",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "MIT Recreation - Zesiger Sports and Fitness Center",
+      "street": "120 Vassar St",
+      "city": "Cambridge",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Open ⋅ Closes 11 pm",
+      "lat": "42.3582767",
+      "lng": "-71.0962173",
+      "phone": "(617) 452-3690",
+      "website": "https://www.boston.gov/departments/311/public-restrooms-city-boston",
+      "content": "MIT Recreation - Zesiger Sports and Fitness Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Recreation Center",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "public showers",
+      "showerReviews": [
+        {
+          "reviewerName": "Steven Warwick",
+          "rating": "4 stars",
+          "reviewDate": "Edited 3 years ago",
+          "reviewText": "The staff are nice and helpful. The main showers for the pool are decent but the main lockers and shower rooms could use some updating.",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Steven Warwick_The_staff_are_nice_and_helpful._The_main_showers_f_Edited 3 years ago"
+        },
+        {
+          "reviewerName": "cat",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Need upgrades for shower heads and more day use lockers.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 7,
+          "uniqueId": "cat_Need_upgrades_for_shower_heads_and_more_day_use_lo_5 years ago"
+        }
+      ],
+      "showerReviewCount": 2,
+      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, showers",
+      "hours": "Open ⋅ Closes 11 pm Sunday9 am–11 pmMonday6 am–11 pmTuesday6 am–11 pmWednesday6 am–11 pmThursday6 am–11 pmFriday6 am–11 pmSaturday7 am–9 pmSuggest new hours",
+      "address": "120 Vassar St, Cambridge, MA 02139",
+      "rating": "4.7",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Fitness center",
+      "placeId": "MIT+Recreation+-+Zesiger+Sports+and+Fitness+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/MIT+Recreation+-+Zesiger+Sports+and+Fitness+Center/@42.358815,-71.1142234,15z/data=!3m1!5s0x89e370aaa0be02e5:0x23a2df5c72a4e465!4m10!1m2!2m1!1spublic+showers!3m6!1s0x89e37a0009192bc9:0xe88bb73bbb396053!8m2!3d42.358815!4d-71.096199!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBDmZpdG5lc3NfY2VudGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5aYTNaMmRXTkJFQUWqAUsQASoSIg5wdWJsaWMgc2hvd2VycygAMh8QASIbtnVi14nVPDPzfHGVmW3-xAgprPwn8pAras5MMhIQAiIOcHVibGljIHNob3dlcnPgAQD6AQQIFRBI!16s%2Fm%2F026wlbm?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "downtownBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T01:41:23.508Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.737Z",
+        "originalLat": "42.358815",
+        "originalLng": "-71.1142234",
+        "matchedAddress": "120 Vassar St, Cambridge, MA 02139",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Russell Youth Community Center",
+      "street": "680 Huron Ave",
+      "city": "Cambridge",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.3804221",
+      "lng": "-71.15397394",
+      "phone": "(617) 349-6314",
+      "website": "http://www.cambridgema.gov/DHSP/ProgramsForKidsAndYouth/YouthCenterPrograms/RussellYouthCenter.aspx",
+      "content": "Russell Youth Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Community Center",
+      "amenities": "Hot Water",
+      "cost": "$5-10",
+      "access": "Public/Day Pass",
+      "source": " community center ",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "",
+      "address": "680 Huron Ave, Cambridge, MA 02138",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Community center",
+      "placeId": "Russell+Youth+Community+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Russell+Youth+Community+Center/@42.3805056,-71.2259585,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89e377850f29cc47:0xa29c578f8f33c2de!8m2!3d42.3805056!4d-71.1538607!15sChBjb21tdW5pdHkgY2VudGVykgEQY29tbXVuaXR5X2NlbnRlcqoBThABKhQiEGNvbW11bml0eSBjZW50ZXIoADIeEAEiGobgt1r1wI7D4htRZG8OZHgj7AWfXBW81w5AMhQQAiIQY29tbXVuaXR5IGNlbnRlcuABAA!16s%2Fg%2F1th6fvvv?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "NewtonBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T00:23:21.971Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.738Z",
+        "originalLat": "42.3805056",
+        "originalLng": "-71.2259585",
+        "matchedAddress": "680 Huron Ave, Cambridge, MA 02138",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "MIT Recreation - Alumni Pool and Wang Fitness Center",
+      "street": "YMCA of Greater Boston - Huntington Ave 4.3(272)Non-profit organization",
+      "city": "Charlestown",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.37638175",
+      "lng": "-71.0534012",
+      "phone": "(617) 286-1220",
+      "website": "http://ymcaboston.org/",
+      "content": "YMCA of Greater Boston - Huntington Ave may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "YMCA, Public Facility, YMCA, YMCA, Recreation Center, Recreation Center, Recreation Center, YMCA, Gym",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
+      "cost": "Day Pass $10-20",
+      "access": "Day Pass",
+      "source": " YMCA",
+      "showerReviews": [
+        {
+          "reviewerName": "Anjana Sukumar",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Quite a good YMCA compared to what we have in Somerville. Decent facilities and classes. I have used their gym, classes, swimming pool, locker rooms and free weights section on multiple occasions over the last 1 year or so... …",
+          "showerKeywords": [
+            "facilities",
+            "locker room"
+          ],
+          "index": 7,
+          "uniqueId": "Anjana Sukumar_Quite_a_good_YMCA_compared_to_what_we_have_in_Some_a year ago"
+        }
+      ],
+      "showerReviewCount": 1,
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: facilities, locker room",
+      "hours": "Closed ⋅ Opens 5:30 am Mon Sunday8 am–3 pmMonday5:30 am–9 pmTuesday5:30 am–9 pmWednesday5:30 am–9 pmThursday5:30 am–9 pmFriday5:30 am–8 pmSaturday7 am–5 pmSuggest new hours",
+      "address": "150 3rd Ave, Charlestown, MA 02129",
+      "rating": "4.3",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Non-profit organization",
+      "placeId": "YMCA+of+Greater+Boston+-+Huntington+Ave",
+      "googleMapsUrl": "https://www.google.com/maps/place/YMCA+of+Greater+Boston+-+Huntington+Ave/@42.3763971,-71.0713795,15z/data=!4m10!1m2!2m1!1s+YMCA!3m6!1s0x89e37a184d5c27a9:0x354798a222f93cf!8m2!3d42.3409096!4d-71.087034!15sCgRZTUNBWgYiBHltY2GSARdub25fcHJvZml0X29yZ2FuaXphdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSRFgyVmhjalZCUlJBQqoBQAoIL20vMGx6ZzcQASoIIgR5bWNhKAAyHhABIhrcM3lL_XUZ_eqM51tk5Rgn06u1NHbVI79amjIIEAIiBHltY2HgAQD6AQQIABBI!16s%2Fm%2F0464lyc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": true,
+      "hasDetailedHours": false,
+      "sourceCity": "downtownBoston",
+      "sourceState": "MA",
+      "timestamp": "2025-09-22T01:41:23.508Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.738Z",
+        "originalLat": "42.3763971",
+        "originalLng": "-71.0713795",
+        "matchedAddress": "150 3rd Ave, Charlestown, MA 02129",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Artesani Playground Wading Pool and Spray Deck",
+      "street": "355 Chestnut Hill Ave MonWebsiteDirections \"Its free and the hours are 11:15AM-6:45PM\"",
+      "city": "Chestnut Hill",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "Closed ⋅ Opens 11:15 am",
+      "lat": "42.33499786",
+      "lng": "-71.14973896",
+      "phone": "(617) 635-4505",
+      "website": "https://www.boston.gov/departments/311/public-restrooms-city-boston",
+      "content": "Reilly Memorial Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Recreation Center, Public Pool, Public Facility, Recreation Center",
+      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
       "cost": "Contact for pricing",
       "access": "Contact for access",
       "source": "public showers",
@@ -166,278 +1047,15 @@
         }
       ],
       "showerReviewCount": 6,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "",
-      "address": "355 Chestnut Hill Ave, Chestnut Hill, MA 02467",
-      "rating": "4.8",
+      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, changing room",
+      "hours": "Closed ⋅ Opens 11:15 am Mon Sunday11:15 am–6:45 pmMonday11:15 am–6:45 pmTuesday11:15 am–6:45 pmWednesday11:15 am–6:45 pmThursday11:15 am–6:45 pmFriday11:15 am–6:45 pmSaturday11:15 am–6:45 pmSuggest new hours",
+      "address": "355 Chestnut Hill Ave, Chestnut Hill, MA 02467",
+      "rating": "4.6",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Park",
-      "placeId": "Back+Bay+Fens",
-      "googleMapsUrl": "https://www.google.com/maps/place/Back+Bay+Fens/@42.3414805,-71.1136305,15z/data=!4m10!1m2!2m1!1spublic+showers!3m6!1s0x89e37a1e29987cdd:0x6e56493aa0fbdf69!8m2!3d42.3414805!4d-71.0956061!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBBHBhcmuaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUjFNMHhoUTFsM0VBRaoBSxABKhIiDnB1YmxpYyBzaG93ZXJzKAAyHxABIhu2dWLXidU8M_N8cZWZbf7ECCms_CfykCtqzkwyEhACIg5wdWJsaWMgc2hvd2Vyc-ABAPoBBQjwARAT!16zL20vMDQ0eGpj?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "This large greenspace has multiple gardens, playgrounds, ball fields & memorials, plus picnic areas.",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "downtownBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T01:41:23.508Z",
-      "state": "MA"
-    },
-    {
-      "title": "Blodgett Pool",
-      "street": "65 N Harvard St \"Cold and well kept!\"",
-      "city": "Boston",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "42.367537",
-      "lng": "-71.1971795",
-      "phone": "(617) 495-1789",
-      "website": "https://recreation.gocrimson.com/sports/2021/5/14/facility-hours.aspx",
-      "content": "Blodgett Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Pool",
-      "amenities": "Hot Water|Changing Rooms|Lockers",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": " public pools",
-      "showerReviews": [
-        {
-          "reviewerName": "cat",
-          "rating": "4 stars",
-          "reviewDate": "5 years ago",
-          "reviewText": "Parking is pain, need more individual shower stalls.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 0,
-          "uniqueId": "cat_Parking_is_pain,_need_more_individual_shower_stall_5 years ago"
-        }
-      ],
-      "showerReviewCount": 1,
-      "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
-      "hours": "",
-      "address": "65 N Harvard St, Boston, MA 02163",
-      "rating": "4.5",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Swimming pool",
-      "placeId": "Blodgett+Pool",
-      "googleMapsUrl": "https://www.google.com/maps/place/Blodgett+Pool/@42.367537,-71.1971795,13z/data=!4m11!1m3!2m2!1s+public+pools!6e1!3m6!1s0x89e37761301b6d85:0x172c47b6f849da0e!8m2!3d42.367537!4d-71.1250817!15sCgxwdWJsaWMgcG9vbHNaDiIMcHVibGljIHBvb2xzkgENc3dpbW1pbmdfcG9vbJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyMWtNVmRFVmxGa2JGcExZMFJDZVZKSVdsTmhhbXhOV2xSYVZWZEdSUkFCqgFQCggvbS8wYl9ycxABKhAiDHB1YmxpYyBwb29scygAMh4QASIaqLzuIlpBRPT8l2Y4NXoGL0GNFaPRVr8OTvwyEBACIgxwdWJsaWMgcG9vbHPgAQD6AQQIABAT!16s%2Fg%2F1v1kqwd8?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "Dorchester YMCA",
-      "street": "Dorchester YMCA 4.5(204)",
-      "city": "Boston",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "Fitness center",
-      "extractedHours": "",
-      "lat": "42.2846914",
-      "lng": "-71.1429881",
-      "phone": "(617) 436-7750",
-      "website": "http://ymcaboston.org/",
-      "content": "Dorchester YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "YMCA",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Day Pass $10-20",
-      "access": "Day Pass",
-      "source": " YMCA",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Closed ⋅ Opens 6 am Mon Sunday8 am–2 pmMonday6 am–9 pmTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–8 pmSaturday7 am–4 pmSuggest new hours",
-      "address": "776 Washington St, Boston, MA 02124",
-      "rating": "4.5",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Fitness center",
-      "placeId": "Dorchester+YMCA",
-      "googleMapsUrl": "https://www.google.com/maps/place/Dorchester+YMCA/@42.2846914,-71.1429881,13z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89e37b2e1075b07b:0xd0497ba2c4d20fb7!8m2!3d42.2846914!4d-71.0708903!15sCgRZTUNBWgYiBHltY2GSAQ5maXRuZXNzX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOSFoyOVFTRFpCUlJBQqoBQAoIL20vMGx6ZzcQASoIIgR5bWNhKAAyHhABIhrcM3lL_XUZ_eqM51tk5Rgn06u1NHbVI79amjIIEAIiBHltY2HgAQD6AQQIORBE!16s%2Fg%2F11k75nbyt1?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "Draper Pool",
-      "street": "Draper Pool 4.6(71)Public",
-      "city": "Boston",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "swimming pool",
-      "extractedHours": "",
-      "lat": "42.2600719",
-      "lng": "-71.231806",
-      "phone": "(617) 635-5021",
-      "website": "https://www.boston.gov/departments/boston-centers-youth-families/bcyf-draper-pool",
-      "content": "Draper Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Pool",
-      "amenities": "Hot Water|Changing Rooms|Lockers",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": " public pools",
-      "showerReviews": [
-        {
-          "reviewerName": "Jeanne Kent",
-          "rating": "3 stars",
-          "reviewDate": "7 years ago",
-          "reviewText": "… So not sure about other times.  Clean.  Nice staff.  However, only 3 showers and one is for the handicapped.  Leave swimming area a few minutes before time up to catch one or stand waiting for use.  There is a barrier in shower area on …",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 0,
-          "uniqueId": "Jeanne Kent_…_So_not_sure_about_other_times._Clean._Nice_sta_7 years ago"
-        }
-      ],
-      "showerReviewCount": 1,
-      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
-      "hours": "Closed ⋅ Opens 6 am Tue SundayClosedMondayClosedTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–9 pmSaturday7 am–5 pmSuggest new hours",
-      "address": "Draper Playground, 5275 Washington St, Boston, MA 02132",
-      "rating": "4.6",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Public swimming pool",
-      "placeId": "Draper+Pool",
-      "googleMapsUrl": "https://www.google.com/maps/place/Draper+Pool/@42.2600719,-71.231806,13z/data=!4m11!1m3!2m2!1s+public+pools!6e1!3m6!1s0x89e37f09192ae71d:0xa8bd678b55075d05!8m2!3d42.2600719!4d-71.1597082!15sCgxwdWJsaWMgcG9vbHNaDiIMcHVibGljIHBvb2xzkgEUcHVibGljX3N3aW1taW5nX3Bvb2yaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUlhhRnB0VmpkblJSQUKqAVAKCC9tLzBiX3JzEAEqECIMcHVibGljIHBvb2xzKAAyHhABIhqovO4iWkFE9PyXZjg1egYvQY0Vo9FWvw5O_DIQEAIiDHB1YmxpYyBwb29sc-ABAPoBBAhTEDs!16s%2Fg%2F1tknlg4r?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "Margot Connell Recreation Center",
-      "street": "Edmonds Hall",
-      "city": "Boston",
-      "province": "spacious",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "Open ⋅ Closes 10:45 pm",
-      "lat": "42.3373247",
-      "lng": "-71.2366921",
-      "phone": "(617) 552-0797",
-      "website": "http://bc.edu/rec",
-      "content": "Margot Connell Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Recreation Center, Community Center, Community Center",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": " community center ",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Open ⋅ Closes 10:45 pm Sunday9 am–10:45 pmMonday6 am–11:45 pmTuesday6 am–11:45 pmWednesday6 am–11:45 pmThursday6 am–11:45 pmFriday6 am–10:45 pmSaturday9 am–8:45 pmSuggest new hours",
-      "address": "Edmonds Hall, 200 St Thomas More Rd, Boston, MA 02135",
-      "rating": "4.6",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Recreation center",
-      "placeId": "Margot+Connell+Recreation+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/Margot+Connell+Recreation+Center/@42.3373247,-71.2366921,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89e379baea9a8ca7:0x1fc29a0424bbecfa!8m2!3d42.3373247!4d-71.1645943!15sChBjb21tdW5pdHkgY2VudGVyWhIiEGNvbW11bml0eSBjZW50ZXKSARFyZWNyZWF0aW9uX2NlbnRlcpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQydE9iVnBWZUZGVk1YQkRXbFpzY1ZNd05WVlZWVTE2Vm14YU1scFhZeEFCqgFOEAEqFCIQY29tbXVuaXR5IGNlbnRlcigAMh4QASIahuC3WvXAjsPiG1Fkbw5keCPsBZ9cFbzXDkAyFBACIhBjb21tdW5pdHkgY2VudGVy4AEA-gEECAAQKA!16s%2Fg%2F11hz_1v8sz?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "Wang YMCA of Chinatown",
-      "street": "8 Oak St W Mon",
-      "city": "Boston",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "Closed ⋅ Opens 6 am",
-      "lat": "42.3486208",
-      "lng": "-71.0829086",
-      "phone": "(617) 426-2237",
-      "website": "https://www.boston.gov/departments/311/public-restrooms-city-boston",
-      "content": "Wang YMCA of Chinatown may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "YMCA",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Day Pass $10-20",
-      "access": "Day Pass",
-      "source": "public showers",
-      "showerReviews": [
-        {
-          "reviewerName": "Meki Banda BCoMS (BCoMS)",
-          "rating": "4 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "… and are polite to the customers for the most part. It's all good except from time to time some weirdos will peak at you in the shower or sit around and watch you change in the locker room. This happens at all YMCAs not just this one. I …",
-          "showerKeywords": [
-            "shower",
-            "locker room"
-          ],
-          "index": 0,
-          "uniqueId": "Meki Banda BCoMS (BCoMS)_…_and_are_polite_to_the_customers_for_the_most_par_a year ago"
-        },
-        {
-          "reviewerName": "Francis Marcheso",
-          "rating": "1 stars",
-          "reviewDate": "Edited 7 years ago",
-          "reviewText": "Equipment is bent or broken, facilities are unclean, and the state of the men’s locker room is inexcusable: moldy shower curtains, phlegm in the sinks, and hair clippings on the floor. Came in the afternoon to a weight room floor crowded …",
-          "showerKeywords": [
-            "shower",
-            "facilities",
-            "clean",
-            "locker room"
-          ],
-          "index": 8,
-          "uniqueId": "Francis Marcheso_Equipment_is_bent_or_broken,_facilities_are_unclea_Edited 7 years ago"
-        }
-      ],
-      "showerReviewCount": 2,
-      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, locker room, facilities, clean",
-      "hours": "Closed ⋅ Opens 6 am Mon Sunday9 am–5 pmMonday6 am–9 pmTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–10 pmSaturday7 am–5 pmSuggest new hours",
-      "address": "8 Oak St W, Boston, MA 02116",
-      "rating": "4.3",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Non-profit organization",
-      "placeId": "Wang+YMCA+of+Chinatown",
-      "googleMapsUrl": "https://www.google.com/maps/place/Wang+YMCA+of+Chinatown/@42.3486208,-71.0829086,15z/data=!4m10!1m2!2m1!1spublic+showers!3m6!1s0x89e37084ef2150bd:0xbde128439f4d5510!8m2!3d42.3486208!4d-71.0648842!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBF25vbl9wcm9maXRfb3JnYW5pemF0aW9umgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5zTFhaZlRIQlJSUkFCqgFLEAEqEiIOcHVibGljIHNob3dlcnMoADIfEAEiG7Z1YteJ1Twz83xxlZlt_sQIKaz8J_KQK2rOTDISEAIiDnB1YmxpYyBzaG93ZXJz4AEA-gEECAAQMw!16s%2Fg%2F1tgx7m7v?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "placeId": "Reilly+Memorial+Recreation+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Reilly+Memorial+Recreation+Center/@42.3367389,-71.1709339,15z/data=!4m10!1m2!2m1!1spublic+showers!3m6!1s0x89e3785113b2bf0b:0x5a8009ac35616ce!8m2!3d42.3367389!4d-71.1529095!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBBHBhcmuaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUnhlRTFQV0hoM1JSQUKqAUsQASoSIg5wdWJsaWMgc2hvd2VycygAMh8QASIbtnVi14nVPDPzfHGVmW3-xAgprPwn8pAras5MMhIQAiIOcHVibGljIHNob3dlcnPgAQD6AQQIFRAp!16s%2Fg%2F1tfzhsg5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -448,436 +1066,178 @@
       "sourceCity": "downtownBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T01:41:23.508Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.738Z",
+        "originalLat": "42.3367389",
+        "originalLng": "-71.1709339",
+        "matchedAddress": "355 Chestnut Hill Ave, Chestnut Hill, MA 02467",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
-      "title": "YMCA of Greater Boston - Huntington Ave",
-      "street": "YMCA of Greater Boston - Huntington Ave 4.3(272)Non-profit organization",
-      "city": "Boston",
+      "title": "Pride Travel Center-Chicopee",
+      "street": "Pride Travel Center-Chicopee 3.4(274)Truck stop",
+      "city": "Chicopee",
       "province": "",
       "zip": "",
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3409096",
-      "lng": "-71.1591318",
-      "phone": "(617) 927-8060",
-      "website": "http://ymcaboston.org/contact",
-      "content": "YMCA of Greater Boston - Huntington Ave may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "YMCA",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Day Pass $10-20",
-      "access": "Day Pass",
-      "source": " YMCA",
-      "showerReviews": [
-        {
-          "reviewerName": "Jeanine Browne",
-          "rating": "5 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "… machines, and everything you need to to feel good!!  Brightly lit, spacious, with great shower facilities to step out into your day, feeling excited and inspired!!.. The endorphins kicking in make this a truly invigorating experience! …",
-          "showerKeywords": [
-            "shower",
-            "facilities"
-          ],
-          "index": 0,
-          "uniqueId": "Jeanine Browne_…_machines,_and_everything_you_need_to_to_feel_goo_3 years ago"
-        },
-        {
-          "reviewerName": "Tral Fazz",
-          "rating": "5 stars",
-          "reviewDate": "7 years ago",
-          "reviewText": "… friends there. Members and staff. Was treated horribly by Bobby yesterday. Came in from moving a friends furniture for 8 hours. Needed a shower. Asked Bobby for a towel. He then lied to me and said there were none. I told him I was in that …",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 8,
-          "uniqueId": "Tral Fazz_…_friends_there._Members_and_staff._Was_treated_ho_7 years ago"
-        }
-      ],
-      "showerReviewCount": 2,
-      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, facilities",
-      "hours": "Closed ⋅ Opens 6 am Mon Sunday8 am–5 pmMonday6 am–11 pmTuesday6 am–11 pmWednesday6 am–11 pmThursday6 am–11 pmFriday6 am–9 pmSaturday7 am–6 pmSuggest new hours",
-      "address": "820 Massachusetts Ave, Cambridge, MA 02139",
-      "rating": "4.3",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Non-profit organization",
-      "placeId": "YMCA+of+Greater+Boston+-+Huntington+Ave",
-      "googleMapsUrl": "https://www.google.com/maps/place/YMCA+of+Greater+Boston+-+Huntington+Ave/@42.3409096,-71.1591318,13z/data=!4m11!1m3!2m2!1s+YMCA!6e1!3m6!1s0x89e37a184d5c27a9:0x354798a222f93cf!8m2!3d42.3409096!4d-71.087034!15sCgRZTUNBWgYiBHltY2GSARdub25fcHJvZml0X29yZ2FuaXphdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSRFgyVmhjalZCUlJBQqoBQAoIL20vMGx6ZzcQASoIIgR5bWNhKAAyHhABIhrcM3lL_XUZ_eqM51tk5Rgn06u1NHbVI79amjIIEAIiBHltY2HgAQD6AQQIABBI!16s%2Fm%2F0464lyc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "Community-focused nonprofit established in 1844 with recreational programs & services for all ages.",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "Josephine A. Fiorentino Community Center",
-      "street": "123 Antwerp St \"Good sobriety\"",
-      "city": "Brighton",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "42.3626982",
-      "lng": "-71.2103849",
-      "phone": "(617) 699-2883",
-      "website": "https://charlesviewcommunity.org/community-center/",
-      "content": "Josephine A. Fiorentino Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Community Center, Recreation Center",
-      "amenities": "Hot Water",
-      "cost": "$5-10",
-      "access": "Public/Day Pass",
-      "source": " community center ",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "",
-      "address": "123 Antwerp St, Brighton, MA 02135",
-      "rating": "4.8",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Community center",
-      "placeId": "Josephine+A.+Fiorentino+Community+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/Josephine+A.+Fiorentino+Community+Center/@42.3626982,-71.2103849,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89e379d698801d51:0xcd96c396f2222987!8m2!3d42.3626982!4d-71.1382871!15sChBjb21tdW5pdHkgY2VudGVyWhIiEGNvbW11bml0eSBjZW50ZXKSARBjb21tdW5pdHlfY2VudGVymgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxS2FFMXNTbEZoVm1STFRrZFZNRmx0ZEhaT00wWkVVa1ZaZUZWV1JSQUKqAU4QASoUIhBjb21tdW5pdHkgY2VudGVyKAAyHhABIhqG4Lda9cCOw-IbUWRvDmR4I-wFn1wVvNcOQDIUEAIiEGNvbW11bml0eSBjZW50ZXLgAQD6AQQIABAN!16s%2Fg%2F11bbtgn4z2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "Boston College Neighborhood Center",
-      "street": "133 Eliot St Mon",
-      "city": "Brookline",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "Closed ⋅ Opens 8:30 am",
-      "lat": "42.3289606",
-      "lng": "-71.2211438",
-      "phone": "(617) 552-0445",
-      "website": "",
-      "content": "Eliot Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Recreation Center, Public Facility, Community Center, Public Facility, Community Center, Community Center, Community Center, Recreation Center",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": " community center ",
-      "showerReviews": [
-        {
-          "reviewerName": "Diane clark-tucker",
-          "rating": "5 stars",
-          "reviewDate": "7 years ago",
-          "reviewText": "Went to a baby shower there--the room was the PERFECT size, clean, painted, welcoming--ample parking on premises-- employee on duty was very helpful and attentive--would highly recommend Curtis Hall! Plus my granddaughters basket.ball team …",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 0,
-          "uniqueId": "Diane clark-tucker_Went_to_a_baby_shower_there--the_room_was_the_PERF_7 years ago"
-        },
-        {
-          "reviewerName": "Ernest Coston",
-          "rating": "5 stars",
-          "reviewDate": "7 years ago",
-          "reviewText": "Pool,gym shower, bring your towel.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 8,
-          "uniqueId": "Ernest Coston_Pool,gym_shower,_bring_your_towel._7 years ago"
-        }
-      ],
-      "showerReviewCount": 2,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Closed ⋅ Opens 8:30 am Mon SundayClosedMonday8:30 am–6 pmTuesday8:30 am–6 pmWednesday8:30 am–6 pmThursday8:30 am–6 pmFriday8:30 am–6 pmSaturdayClosedSuggest new hours",
-      "address": "20 South St, Jamaica Plain, MA 02130",
-      "rating": "5.0",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Recreation center",
-      "placeId": "Eliot+Recreation+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/Eliot+Recreation+Center/@42.3289606,-71.2211438,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89e378ff6914ed0d:0x41a873ec5a72eb45!8m2!3d42.3289606!4d-71.149046!15sChBjb21tdW5pdHkgY2VudGVykgERcmVjcmVhdGlvbl9jZW50ZXKqAU4QASoUIhBjb21tdW5pdHkgY2VudGVyKAAyHhABIhqG4Lda9cCOw-IbUWRvDmR4I-wFn1wVvNcOQDIUEAIiEGNvbW11bml0eSBjZW50ZXLgAQA!16s%2Fg%2F11f0wqs9h2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "Parkway Community YMCA",
-      "street": "Goddard Ave & Newton St.Wooded area with gardens & an ice rink Mon \"Clean facilities and friendly staff add to its charm.\"",
-      "city": "Brookline",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "Closed ⋅ Opens 7 am",
-      "lat": "42.3122674",
-      "lng": "-71.2095359",
-      "phone": "(617) 879-5650",
-      "website": "http://www.brooklinema.gov/Facilities/Facility/Details/Larz-Anderson-Park-87",
-      "content": "Larz Anderson Park may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, YMCA, Public Pool, Public Facility",
+      "lat": "42.16620251",
+      "lng": "-72.54593644",
+      "phone": "(413) 419-0244",
+      "website": "https://www.loves.com/locations/646",
+      "content": "Pride Travel Center-Chicopee may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
-      "source": "public showers",
+      "source": "truck stop",
       "showerReviews": [
         {
-          "reviewerName": "Alain Lafume",
-          "rating": "4 stars",
+          "reviewerName": "Neal Goodban",
+          "rating": "2 stars",
           "reviewDate": "4 years ago",
-          "reviewText": "The Flaherty pool provided are changing room to change into your swimsuit and provided a quick shower before jumping into the water. …",
+          "reviewText": "15.00 to park for 24 hours. I spent 15.00 on a shower, and 30.00 in the restaurant, had to pay 4.50 to leave. Shower was small but it worked. The people seemed cool. The lot was decent sized but used by locals. Pork chops were good. But …",
           "showerKeywords": [
-            "shower",
-            "changing room"
+            "shower"
           ],
           "index": 0,
-          "uniqueId": "Alain Lafume_The_Flaherty_pool_provided_are_changing_room_to_ch_4 years ago"
+          "uniqueId": "Neal Goodban_15.00_to_park_for_24_hours._I_spent_15.00_on_a_sho_4 years ago"
         },
         {
-          "reviewerName": "Linda Michaels",
-          "rating": "4 stars",
-          "reviewDate": "8 years ago",
-          "reviewText": "… . Could better enforce pool regulations: require shower of everyone entering the pool, require pool caps, especially anyone with long hair, vigilance of pool chemicals keeping water clean and not having to shock with chlorine. Some …",
+          "reviewerName": "Jordan Wagner",
+          "rating": "2 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… parking was decent since there aren't many truck stops up here, but was pretty sad I had to pay $14 for my shower when I was a few gallons short, it's not posted anywhere though most places are 60 gallons. Satellite pumps are confusing... …",
           "showerKeywords": [
-            "shower",
-            "clean"
+            "shower"
           ],
           "index": 8,
-          "uniqueId": "Linda Michaels_…_._Could_better_enforce_pool_regulations:_require_8 years ago"
+          "uniqueId": "Jordan Wagner_…_parking_was_decent_since_there_aren't_many_truck_3 years ago"
         },
         {
-          "reviewerName": "Jeanne Kent",
-          "rating": "5 stars",
-          "reviewDate": "7 years ago",
-          "reviewText": "Clean facilities.  Pool, lockers, showers …",
+          "reviewerName": "Allie Kendall",
+          "rating": "3 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Shower was clean, Fifties diner was nice and clean! The guy at the counter at the store was RUDE...not only to me but to customers on the phone that had called in. (He hung up on a lady just for asking directions? )🧐 All the reviews say how …",
           "showerKeywords": [
             "shower",
-            "showers",
-            "facilities",
             "clean"
           ],
           "index": 16,
-          "uniqueId": "Jeanne Kent_Clean_facilities._Pool,_lockers,_showers_…_7 years ago"
+          "uniqueId": "Allie Kendall_Shower_was_clean,_Fifties_diner_was_nice_and_clean_4 years ago"
         },
         {
-          "reviewerName": "Pat Carroll",
-          "rating": "4 stars",
-          "reviewDate": "5 years ago",
-          "reviewText": "Well maintained pool, but in the women's shower stalls, it would be better to have handrails and adjustable faucet nozzles for water temperature.",
+          "reviewerName": "Albert Baldwin",
+          "rating": "3 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Got there at 2130 Saturday got fuel.  Couldn't get a receipt. Went in to park. Got shower that was clean. Diner was nice ppl inside was nice. No trash outside at all.  Left on Monday morning at 6am $45 for parking. I guess they don't do …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Albert Baldwin_Got_there_at_2130_Saturday_got_fuel._Couldn't_get_4 years ago"
+        },
+        {
+          "reviewerName": "John Anderson",
+          "rating": "3 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "Jay seems cool. Just called to ask about laundry services and he answered very politely. They do offer laundry for drivers. Will update this review after I've had a shower and check out the inside... …",
           "showerKeywords": [
             "shower"
           ],
-          "index": 24,
-          "uniqueId": "Pat Carroll_Well_maintained_pool,_but_in_the_women's_shower_st_5 years ago"
-        }
-      ],
-      "showerReviewCount": 4,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Closed ⋅ Opens 7 am Mon SundayClosedMonday7 am–3 pmTuesday7 am–3 pmWednesday7 am–3 pmThursday7 am–3 pmFriday7 am–3 pmSaturdayClosedSuggest new hours",
-      "address": "Goddard Ave and Newton St, Brookline, MA 02445",
-      "rating": "4.7",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Park",
-      "placeId": "Larz+Anderson+Park",
-      "googleMapsUrl": "https://www.google.com/maps/place/Larz+Anderson+Park/@42.3122674,-71.2095359,13z/data=!4m11!1m3!2m2!1spublic+showers!6e1!3m6!1s0x89e3791974b70617:0x4f64c13be80949c3!8m2!3d42.3122674!4d-71.1374381!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBBHBhcmuaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTTFhbTlsZGs1UkVBRaoBSxABKhIiDnB1YmxpYyBzaG93ZXJzKAAyHxABIhu2dWLXidU8M_N8cZWZbf7ECCms_CfykCtqzkwyEhACIg5wdWJsaWMgc2hvd2Vyc-ABAPoBBQibAhA1!16s%2Fm%2F026v60s?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "This landscaped park offers pathways, ponds, gardens, a skating rink & an auto museum.",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "MIT Recreation - Zesiger Sports and Fitness Center",
-      "street": "120 Vassar St",
-      "city": "Cambridge",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "Open ⋅ Closes 11 pm",
-      "lat": "42.358815",
-      "lng": "-71.1142234",
-      "phone": "(617) 452-3690",
-      "website": "https://www.boston.gov/departments/311/public-restrooms-city-boston",
-      "content": "MIT Recreation - Zesiger Sports and Fitness Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Recreation Center",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": "public showers",
-      "showerReviews": [
+          "index": 32,
+          "uniqueId": "John Anderson_Jay_seems_cool._Just_called_to_ask_about_laundry_s_4 years ago"
+        },
         {
-          "reviewerName": "Steven Warwick",
-          "rating": "4 stars",
-          "reviewDate": "Edited 3 years ago",
-          "reviewText": "The staff are nice and helpful. The main showers for the pool are decent but the main lockers and shower rooms could use some updating.",
+          "reviewerName": "Pedro Castillo",
+          "rating": "3 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Pay parking lot is now 15.00 and showers are just a trickle of water but sure beats not getting a shower. …",
           "showerKeywords": [
             "shower",
             "showers"
           ],
-          "index": 0,
-          "uniqueId": "Steven Warwick_The_staff_are_nice_and_helpful._The_main_showers_f_Edited 3 years ago"
+          "index": 40,
+          "uniqueId": "Pedro Castillo_Pay_parking_lot_is_now_15.00_and_showers_are_just__2 years ago"
         },
         {
-          "reviewerName": "cat",
-          "rating": "4 stars",
-          "reviewDate": "5 years ago",
-          "reviewText": "Need upgrades for shower heads and more day use lockers.",
+          "reviewerName": "Boyd Powell",
+          "rating": "3 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Parking lot is big always find a parking spot.....paid parking..... shower #1 needs door fixed there is a gap between the door and wall where anyone walking by can see into the shower water pressure not that good but it works......",
           "showerKeywords": [
             "shower"
           ],
-          "index": 7,
-          "uniqueId": "cat_Need_upgrades_for_shower_heads_and_more_day_use_lo_5 years ago"
-        }
-      ],
-      "showerReviewCount": 2,
-      "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, showers",
-      "hours": "Open ⋅ Closes 11 pm Sunday9 am–11 pmMonday6 am–11 pmTuesday6 am–11 pmWednesday6 am–11 pmThursday6 am–11 pmFriday6 am–11 pmSaturday7 am–9 pmSuggest new hours",
-      "address": "120 Vassar St, Cambridge, MA 02139",
-      "rating": "4.7",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Fitness center",
-      "placeId": "MIT+Recreation+-+Zesiger+Sports+and+Fitness+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/MIT+Recreation+-+Zesiger+Sports+and+Fitness+Center/@42.358815,-71.1142234,15z/data=!3m1!5s0x89e370aaa0be02e5:0x23a2df5c72a4e465!4m10!1m2!2m1!1spublic+showers!3m6!1s0x89e37a0009192bc9:0xe88bb73bbb396053!8m2!3d42.358815!4d-71.096199!15sCg5wdWJsaWMgc2hvd2Vyc1oQIg5wdWJsaWMgc2hvd2Vyc5IBDmZpdG5lc3NfY2VudGVymgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5aYTNaMmRXTkJFQUWqAUsQASoSIg5wdWJsaWMgc2hvd2VycygAMh8QASIbtnVi14nVPDPzfHGVmW3-xAgprPwn8pAras5MMhIQAiIOcHVibGljIHNob3dlcnPgAQD6AQQIFRBI!16s%2Fm%2F026wlbm?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "downtownBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T01:41:23.508Z",
-      "state": "MA"
-    },
-    {
-      "title": "Russell Youth Community Center",
-      "street": "680 Huron Ave",
-      "city": "Cambridge",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "42.3805056",
-      "lng": "-71.2259585",
-      "phone": "(617) 349-6314",
-      "website": "http://www.cambridgema.gov/DHSP/ProgramsForKidsAndYouth/YouthCenterPrograms/RussellYouthCenter.aspx",
-      "content": "Russell Youth Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Community Center",
-      "amenities": "Hot Water",
-      "cost": "$5-10",
-      "access": "Public/Day Pass",
-      "source": " community center ",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "",
-      "address": "680 Huron Ave, Cambridge, MA 02138",
-      "rating": "4.3",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Community center",
-      "placeId": "Russell+Youth+Community+Center",
-      "googleMapsUrl": "https://www.google.com/maps/place/Russell+Youth+Community+Center/@42.3805056,-71.2259585,13z/data=!4m11!1m3!2m2!1s+community+center+!6e1!3m6!1s0x89e377850f29cc47:0xa29c578f8f33c2de!8m2!3d42.3805056!4d-71.1538607!15sChBjb21tdW5pdHkgY2VudGVykgEQY29tbXVuaXR5X2NlbnRlcqoBThABKhQiEGNvbW11bml0eSBjZW50ZXIoADIeEAEiGobgt1r1wI7D4htRZG8OZHgj7AWfXBW81w5AMhQQAiIQY29tbXVuaXR5IGNlbnRlcuABAA!16s%2Fg%2F1th6fvvv?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "NewtonBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
-    },
-    {
-      "title": "MIT Recreation - Alumni Pool and Wang Fitness Center",
-      "street": "YMCA of Greater Boston - Huntington Ave 4.3(272)Non-profit organization",
-      "city": "Charlestown",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "42.3763971",
-      "lng": "-71.0713795",
-      "phone": "(617) 286-1220",
-      "website": "http://ymcaboston.org/",
-      "content": "YMCA of Greater Boston - Huntington Ave may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "YMCA, Public Facility, YMCA, YMCA, Recreation Center, Recreation Center, Recreation Center, YMCA, Gym",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Day Pass $10-20",
-      "access": "Day Pass",
-      "source": " YMCA",
-      "showerReviews": [
+          "index": 48,
+          "uniqueId": "Boyd Powell_Parking_lot_is_big_always_find_a_parking_spot....._a year ago"
+        },
         {
-          "reviewerName": "Anjana Sukumar",
+          "reviewerName": "Krescenta Montgomery",
           "rating": "5 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Quite a good YMCA compared to what we have in Somerville. Decent facilities and classes. I have used their gym, classes, swimming pool, locker rooms and free weights section on multiple occasions over the last 1 year or so... …",
+          "reviewDate": "7 years ago",
+          "reviewText": "… lot. Sure you gotta pay to park. But you get discounts with store purchases, or use your AmBuck$ points. Didn't shower so I can't comment on them. But the staff was alert, ready and willing to help. Clean, stocked ladies room. Which is …",
           "showerKeywords": [
-            "facilities",
-            "locker room"
+            "shower",
+            "clean"
           ],
-          "index": 7,
-          "uniqueId": "Anjana Sukumar_Quite_a_good_YMCA_compared_to_what_we_have_in_Some_a year ago"
+          "index": 55,
+          "uniqueId": "Krescenta Montgomery_…_lot._Sure_you_gotta_pay_to_park._But_you_get_dis_7 years ago"
+        },
+        {
+          "reviewerName": "Ivan Silver",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "Ots good they have diesel with discount but DEF at the pump is way overpriced. Also need to fill at least 75 gallons of diesel to receive free shower on the card or its 12$. Parking paid too.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 63,
+          "uniqueId": "Ivan Silver_Ots_good_they_have_diesel_with_discount_but_DEF_at_6 years ago"
+        },
+        {
+          "reviewerName": "Cody Garver",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… is just that. Support a local business. Had a great stay. The clerk was very nice and had my receipt ready, shower came with fuel, pay to park so not to crowded. Ate at the diner next door and it wasn’t a fast food chain so that’s a plus",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 70,
+          "uniqueId": "Cody Garver_…_is_just_that._Support_a_local_business._Had_a_gr_7 years ago"
         }
       ],
-      "showerReviewCount": 1,
-      "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: facilities, locker room",
-      "hours": "Closed ⋅ Opens 5:30 am Mon Sunday8 am–3 pmMonday5:30 am–9 pmTuesday5:30 am–9 pmWednesday5:30 am–9 pmThursday5:30 am–9 pmFriday5:30 am–8 pmSaturday7 am–5 pmSuggest new hours",
-      "address": "150 3rd Ave, Charlestown, MA 02129",
-      "rating": "4.3",
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers",
+      "hours": "Open 24 hours ThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursSuggest new hours",
+      "address": "367 Burnett Rd, Chicopee, MA 01020",
+      "rating": "3.4",
       "reviewCount": "",
       "priceLevel": "",
-      "businessType": "Non-profit organization",
-      "placeId": "YMCA+of+Greater+Boston+-+Huntington+Ave",
-      "googleMapsUrl": "https://www.google.com/maps/place/YMCA+of+Greater+Boston+-+Huntington+Ave/@42.3763971,-71.0713795,15z/data=!4m10!1m2!2m1!1s+YMCA!3m6!1s0x89e37a184d5c27a9:0x354798a222f93cf!8m2!3d42.3409096!4d-71.087034!15sCgRZTUNBWgYiBHltY2GSARdub25fcHJvZml0X29yZ2FuaXphdGlvbpoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSRFgyVmhjalZCUlJBQqoBQAoIL20vMGx6ZzcQASoIIgR5bWNhKAAyHhABIhrcM3lL_XUZ_eqM51tk5Rgn06u1NHbVI79amjIIEAIiBHltY2HgAQD6AQQIABBI!16s%2Fm%2F0464lyc?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessType": "Truck stop",
+      "placeId": "Pride+Travel+Center-Chicopee",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pride+Travel+Center-Chicopee/@42.1661945,-72.5495398,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e6dd1821e9dff1:0x119be015c8bc5982!8m2!3d42.1661945!4d-72.5450337!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1thxx7fn?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
       "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
+      "isOpen24Hours": true,
+      "isClosed": false,
       "hasDetailedHours": false,
-      "sourceCity": "downtownBoston",
-      "sourceState": "MA",
-      "timestamp": "2025-09-22T01:41:23.508Z",
-      "state": "MA"
+      "sourceCity": "Willington",
+      "sourceState": "CT",
+      "timestamp": "2025-09-25T10:07:44.446Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.739Z",
+        "originalLat": "42.1661945",
+        "originalLng": "-72.5495398",
+        "matchedAddress": "367 Burnett Rd, Chicopee, MA 01020",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Thomas M. Menino YMCA",
@@ -888,8 +1248,8 @@
       "country": "USA",
       "businessDescription": "Nonprofit center for classes & services",
       "extractedHours": "Closed ⋅ Opens 5:30 am",
-      "lat": "42.257005",
-      "lng": "-71.1925923",
+      "lat": "42.2571694",
+      "lng": "-71.12037848",
       "phone": "(617) 361-2300",
       "website": "http://ymcaboston.org/menino",
       "content": "Thomas M. Menino YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -902,7 +1262,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 5:30 am Mon Sunday8 am–2 pmMonday5:30 am–8:30 pmTuesday5:30 am–8:30 pmWednesday5:30 am–8:30 pmThursday5:30 am–8:30 pmFriday6 am–7 pmSaturday8 am–2 pmSuggest new hours",
-      "address": "1137 River St, Boston, MA 02136",
+      "address": "1137 River St, Boston, MA 02136",
       "rating": "4.6",
       "reviewCount": "",
       "priceLevel": "",
@@ -919,7 +1279,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.739Z",
+        "originalLat": "42.257005",
+        "originalLng": "-71.1925923",
+        "matchedAddress": "1137 River St, Boston, MA 02136",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Hyde Community Center",
@@ -930,8 +1297,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3210001",
-      "lng": "-71.2817897",
+      "lat": "42.32124195",
+      "lng": "-71.21008945",
       "phone": "(617) 527-4933",
       "website": "http://hydecenter.org/",
       "content": "Hyde Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -944,7 +1311,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "",
-      "address": "90 Lincoln St, Newton, MA 02461",
+      "address": "90 Lincoln St, Newton, MA 02461",
       "rating": "4.6",
       "reviewCount": "",
       "priceLevel": "",
@@ -961,7 +1328,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.742Z",
+        "originalLat": "42.3210001",
+        "originalLng": "-71.2817897",
+        "matchedAddress": "90 Lincoln St, Newton, MA 02461",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Anthony P Mucciaccio Dedham Pool",
@@ -972,8 +1346,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 12 pm",
-      "lat": "42.2471126",
-      "lng": "-71.2338752",
+      "lat": "42.247123",
+      "lng": "-71.1618354",
       "phone": "(781) 461-5991",
       "website": "http://www.dedham-ma.gov/",
       "content": "Anthony P Mucciaccio Dedham Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -986,7 +1360,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 12 pm Mon Sunday12–4 pmMonday12–9 pmTuesday12–9 pmWednesday12–8 pmThursday12–9 pmFriday12–9 pmSaturday12–4 pmSuggest new hours",
-      "address": "336 High St, Dedham, MA 02026",
+      "address": "336 High St, Dedham, MA 02026",
       "rating": "4.6",
       "reviewCount": "",
       "priceLevel": "",
@@ -1003,7 +1377,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.743Z",
+        "originalLat": "42.2471126",
+        "originalLng": "-71.2338752",
+        "matchedAddress": "336 High St, Dedham, MA 02026",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "MetroWest YMCA",
@@ -1014,8 +1395,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3077255",
-      "lng": "-71.4741132",
+      "lat": "42.30625",
+      "lng": "-71.402861",
       "phone": "(508) 879-4420",
       "website": "http://www.metrowestymca.org/",
       "content": "MetroWest YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1053,7 +1434,7 @@
       "showerReviewCount": 2,
       "showerReviewSummary": "2 shower-related reviews found. Mixed mentions of: shower, bathroom, locker room",
       "hours": "Closed ⋅ Opens 5 am Mon Sunday7 am–7 pmMonday5 am–10 pmTuesday5 am–10 pmWednesday5 am–10 pmThursday5 am–10 pmFriday5 am–10 pmSaturday7 am–7 pmSuggest new hours",
-      "address": "280 Old Connecticut Path, Framingham, MA 01701",
+      "address": "280 Old Connecticut Path, Framingham, MA 01701",
       "rating": "4.1",
       "reviewCount": "",
       "priceLevel": "",
@@ -1070,7 +1451,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.743Z",
+        "originalLat": "42.3077255",
+        "originalLng": "-71.4741132",
+        "matchedAddress": "280 Old Connecticut Path, Framingham, MA 01701",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Longfellow Health Club Natick",
@@ -1081,8 +1469,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 5:30 am",
-      "lat": "42.3142594",
-      "lng": "-71.4090004",
+      "lat": "42.30386775",
+      "lng": "-71.31785166",
       "phone": "(508) 653-4633",
       "website": "https://longfellowhealthclubs.com/natick/",
       "content": "Longfellow Health Club Natick may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1110,7 +1498,7 @@
       "showerReviewCount": 1,
       "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean, locker room",
       "hours": "Closed ⋅ Opens 5:30 am Mon Sunday7 am–8 pmMonday5:30 am–9 pmTuesday5:30 am–9 pmWednesday5:30 am–9 pmThursday5:30 am–9 pmFriday5:30 am–8 pmSaturday7 am–8 pmSuggest new hours",
-      "address": "900 Worcester St, Wellesley, MA 02482",
+      "address": "900 Worcester St, Wellesley, MA 02482",
       "rating": "4.6",
       "reviewCount": "",
       "priceLevel": "",
@@ -1127,7 +1515,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.744Z",
+        "originalLat": "42.3142594",
+        "originalLng": "-71.4090004",
+        "matchedAddress": "900 Worcester St, Wellesley, MA 02482",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Egleston YMCA",
@@ -1138,8 +1533,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 6 am",
-      "lat": "42.3179184",
-      "lng": "-71.1546671",
+      "lat": "42.317887",
+      "lng": "-71.082593",
       "phone": "(617) 427-5300",
       "website": "http://www.ymcaboston.org/contact",
       "content": "Roxbury YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1152,7 +1547,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 6 am Mon Sunday8 am–1 pmMonday6 am–9:30 pmTuesday6 am–9:30 pmWednesday6 am–9:30 pmThursday6 am–9:30 pmFriday6 am–8 pmSaturday8 am–6 pmSuggest new hours",
-      "address": "285 MLK Jr Blvd, Roxbury, MA 02119",
+      "address": "285 MLK Jr Blvd, Roxbury, MA 02119",
       "rating": "4.5",
       "reviewCount": "",
       "priceLevel": "",
@@ -1169,7 +1564,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.744Z",
+        "originalLat": "42.3179184",
+        "originalLng": "-71.1546671",
+        "matchedAddress": "285 MLK Jr Blvd, Roxbury, MA 02119",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "CDPHP® Fitness Connect at the Ciccotti Center",
@@ -1180,8 +1582,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 6 am",
-      "lat": "42.2130088",
-      "lng": "-74.4944987",
+      "lat": "42.2129773",
+      "lng": "-73.34087899",
       "phone": "(413) 528-2810",
       "website": "http://www.nycgovparks.org/facilities/recreationcenters/M260",
       "content": "Berkshire South Regional Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1221,7 +1623,7 @@
       "showerReviewCount": 2,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 6 am Monday6 am–8:30 pmTuesday6 am–8:30 pmWednesday6 am–8:30 pmThursday6 am–8:30 pmFriday6 am–8:30 pmSaturday7 am–5 pmSunday7 am–5 pmSuggest new hours",
-      "address": "15 Crissey Rd, Great Barrington, MA 01230",
+      "address": "15 Crissey Rd, Great Barrington, MA 01230",
       "rating": "4.6",
       "reviewCount": "",
       "priceLevel": "",
@@ -1238,7 +1640,14 @@
       "sourceCity": "NewHavenHartford",
       "sourceState": "CT",
       "timestamp": "2025-09-22T06:30:30.507Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.747Z",
+        "originalLat": "42.2130088",
+        "originalLng": "-74.4944987",
+        "matchedAddress": "15 Crissey Rd, Great Barrington, MA 01230",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "GymIt",
@@ -1249,8 +1658,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Opens 5:30 am",
-      "lat": "42.3636927",
-      "lng": "-71.2267934",
+      "lat": "42.3635179",
+      "lng": "-71.15453897",
       "phone": "(617) 923-4441",
       "website": "https://gymit.com/",
       "content": "GymIt may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1300,7 +1709,7 @@
       "showerReviewCount": 3,
       "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, locker room",
       "hours": "Closes soon ⋅ 8 pm ⋅ Opens 5:30 am Mon Sunday7 am–8 pmMonday5:30 am–10:30 pmTuesday5:30 am–10:30 pmWednesday5:30 am–10:30 pmThursday5:30 am–10:30 pmFriday5:30 am–8 pmSaturday7 am–8 pmSuggest new hours",
-      "address": "36 Arlington St, Watertown, MA 02472",
+      "address": "36 Arlington St, Watertown, MA 02472",
       "rating": "4.4",
       "reviewCount": "",
       "priceLevel": "",
@@ -1317,7 +1726,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.748Z",
+        "originalLat": "42.3636927",
+        "originalLng": "-71.2267934",
+        "matchedAddress": "36 Arlington St, Watertown, MA 02472",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "BCYF Roche Community Center",
@@ -1328,8 +1744,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Opens 8 am",
-      "lat": "42.2926056",
-      "lng": "-71.1924329",
+      "lat": "42.28710704",
+      "lng": "-71.14906378",
       "phone": "(617) 635-5066",
       "website": "https://www.boston.gov/departments/boston-centers-youth-families/bcyf-roche",
       "content": "BCYF Roche Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1342,7 +1758,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closes soon ⋅ 9 pm ⋅ Opens 8 am Mon Sunday8 am–9 pmMonday8 am–9 pmTuesday8 am–9 pmWednesday8 am–9 pmThursday8 am–9 pmFriday8 am–9 pmSaturday8:30 am–9 pmSuggest new hours",
-      "address": "1716 Centre St, West Roxbury, MA 02132",
+      "address": "1716 Centre St, West Roxbury, MA 02132",
       "rating": "4.7",
       "reviewCount": "",
       "priceLevel": "",
@@ -1359,7 +1775,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.749Z",
+        "originalLat": "42.2926056",
+        "originalLng": "-71.1924329",
+        "matchedAddress": "1716 Centre St, West Roxbury, MA 02132",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Tufts Pool",
@@ -1370,8 +1793,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 9 am",
-      "lat": "42.4023314",
-      "lng": "-71.178901",
+      "lat": "42.40230555",
+      "lng": "-71.1068394",
       "phone": "(781) 393-2109",
       "website": "https://medfordma.myrec.com/info/facilities/area_info.aspx?FacilityID=14706&AreaID=14716",
       "content": "Tufts Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1384,7 +1807,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 9 am Mon SundayClosedMonday9 am–12 pmTuesday9 am–12 pmWednesday9 am–12 pmThursday9 am–12 pmFriday9 am–12 pmSaturday9 am–12 pmSuggest new hours",
-      "address": "449 Main St, Medford, MA 02155",
+      "address": "449 Main St, Medford, MA 02155",
       "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
@@ -1401,7 +1824,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.749Z",
+        "originalLat": "42.4023314",
+        "originalLng": "-71.178901",
+        "matchedAddress": "449 Main St, Medford, MA 02155",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Circle K | Truck Stop",
@@ -1412,8 +1842,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.729756",
-      "lng": "-71.2148041",
+      "lat": "42.72976255",
+      "lng": "-71.21031268",
       "phone": "(978) 688-0623",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1450,7 +1880,7 @@
       "showerReviewCount": 2,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "181 Pelham St, Methuen, MA 01844",
+      "address": "181 Pelham St, Methuen, MA 01844",
       "rating": "4.9",
       "reviewCount": "",
       "priceLevel": "",
@@ -1467,7 +1897,14 @@
       "sourceCity": "Merrimack",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.749Z",
+        "originalLat": "42.729756",
+        "originalLng": "-71.2148041",
+        "matchedAddress": "181 Pelham St, Methuen, MA 01844",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Charles River YMCA - Great Plain Ave",
@@ -1478,8 +1915,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.2806749",
-      "lng": "-71.3055973",
+      "lat": "42.2806769",
+      "lng": "-71.23347341",
       "phone": "(781) 444-6400",
       "website": "http://ymcaboston.org/",
       "content": "Charles River YMCA - Great Plain Ave may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1504,7 +1941,7 @@
       "showerReviewCount": 1,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 5:30 am Mon Sunday7 am–6 pmMonday5:30 am–9 pmTuesday5:30 am–9 pmWednesday5:30 am–9 pmThursday5:30 am–9 pmFriday5:30 am–9 pmSaturday7 am–6 pmSuggest new hours",
-      "address": "863 Great Plain Ave, Needham, MA 02492",
+      "address": "863 Great Plain Ave, Needham, MA 02492",
       "rating": "4.5",
       "reviewCount": "",
       "priceLevel": "",
@@ -1521,7 +1958,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.750Z",
+        "originalLat": "42.2806749",
+        "originalLng": "-71.3055973",
+        "matchedAddress": "863 Great Plain Ave, Needham, MA 02492",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Rosemary Recreation Complex - Rosemary Pool",
@@ -1532,8 +1976,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 7 am",
-      "lat": "42.2875689",
-      "lng": "-71.3096347",
+      "lat": "42.2876929",
+      "lng": "-71.23749878",
       "phone": "(781) 455-7930",
       "website": "http://bc.edu/rec",
       "content": "Rosemary Recreation Complex - Rosemary Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1559,7 +2003,7 @@
       "showerReviewCount": 1,
       "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower, showers",
       "hours": "Closed ⋅ Opens 7 am Mon Sunday10 am–6 pmMonday7 am–7:30 pmTuesday7 am–7:30 pmWednesday7 am–7:30 pmThursday7 am–7:30 pmFriday7 am–7:30 pmSaturday10 am–6 pmSuggest new hours",
-      "address": "178 Rosemary St, Needham, MA 02494",
+      "address": "178 Rosemary St, Needham, MA 02494",
       "rating": "5.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -1576,7 +2020,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.750Z",
+        "originalLat": "42.2875689",
+        "originalLng": "-71.3096347",
+        "matchedAddress": "178 Rosemary St, Needham, MA 02494",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Crystal Lake Beach",
@@ -1587,8 +2038,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3251494",
-      "lng": "-71.2736173",
+      "lat": "42.32518499",
+      "lng": "-71.20252096",
       "phone": "(617) 552-7124",
       "website": "https://www.newtonma.gov/Home/Components/FacilityDirectory/FacilityDirectory/60/408",
       "content": "Crystal Lake Beach may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1601,7 +2052,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 8:30 am Mon SundayClosedMonday8:30 am–5 pmTuesday8:30 am–5 pmWednesday8:30 am–5 pmThursday8:30 am–5 pmFriday8:30 am–5 pmSaturdayClosedSuggest new hours",
-      "address": "30 Rogers St, Newton, MA 02461",
+      "address": "30 Rogers St, Newton, MA 02461",
       "rating": "4.5",
       "reviewCount": "",
       "priceLevel": "",
@@ -1618,7 +2069,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.751Z",
+        "originalLat": "42.3251494",
+        "originalLng": "-71.2736173",
+        "matchedAddress": "30 Rogers St, Newton, MA 02461",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Emerson Community Center",
@@ -1629,8 +2087,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3134268",
-      "lng": "-71.2940676",
+      "lat": "42.313373",
+      "lng": "-71.221923",
       "phone": "",
       "website": "https://www.newtonma.gov/Home/Components/FacilityDirectory/FacilityDirectory/72/408",
       "content": "Emerson Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1643,7 +2101,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "",
-      "address": "51 Pettee St, Newton, MA 02464",
+      "address": "51 Pettee St, Newton, MA 02464",
       "rating": "",
       "reviewCount": "",
       "priceLevel": "",
@@ -1660,7 +2118,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.751Z",
+        "originalLat": "42.3134268",
+        "originalLng": "-71.2940676",
+        "matchedAddress": "51 Pettee St, Newton, MA 02464",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Health, Wellness & Recreation Center",
@@ -1671,8 +2136,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.2932646",
-      "lng": "-71.2666069",
+      "lat": "42.294324",
+      "lng": "-71.191012",
       "phone": "(617) 243-1500",
       "website": "http://bc.edu/rec",
       "content": "Health, Wellness & Recreation Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1685,7 +2150,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "",
-      "address": "100 Carlson Ave Building 8, Newton, MA 02459",
+      "address": "100 Carlson Ave Building 8, Newton, MA 02459",
       "rating": "",
       "reviewCount": "",
       "priceLevel": "",
@@ -1702,7 +2167,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.752Z",
+        "originalLat": "42.2932646",
+        "originalLng": "-71.2666069",
+        "matchedAddress": "100 Carlson Ave Building 8, Newton, MA 02459",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "JCC Greater Boston Outdoor Pool",
@@ -1713,8 +2185,8 @@
       "country": "USA",
       "businessDescription": "Community center",
       "extractedHours": "",
-      "lat": "42.2994804",
-      "lng": "-71.2760826",
+      "lat": "42.297229",
+      "lng": "-71.204043",
       "phone": "(617) 558-6522",
       "website": "http://bostonjcc.org/",
       "content": "JCC Greater Boston may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1727,7 +2199,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 5:30 am Mon Sunday7 am–7 pmMonday5:30 am–1 pmTuesdayClosedWednesdayClosedThursday5:30 am–10 pmFriday5:30 am–6 pmSaturday7 am–7 pmSuggest new hours",
-      "address": "333 Nahanton St, Newton, MA 02459",
+      "address": "333 Nahanton St, Newton, MA 02459",
       "rating": "4.6",
       "reviewCount": "",
       "priceLevel": "",
@@ -1744,7 +2216,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.752Z",
+        "originalLat": "42.2994804",
+        "originalLng": "-71.2760826",
+        "matchedAddress": "333 Nahanton St, Newton, MA 02459",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Lower Falls Community Center",
@@ -1755,8 +2234,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3306198",
-      "lng": "-71.3306659",
+      "lat": "42.33066235",
+      "lng": "-71.25887953",
       "phone": "(617) 796-1523",
       "website": "https://www.newtonma.gov/Home/Components/FacilityDirectory/FacilityDirectory/78/35",
       "content": "Lower Falls Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1769,7 +2248,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "",
-      "address": "545 Grove St, Newton, MA 02462",
+      "address": "545 Grove St, Newton, MA 02462",
       "rating": "4.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -1786,7 +2265,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.752Z",
+        "originalLat": "42.3306198",
+        "originalLng": "-71.3306659",
+        "matchedAddress": "545 Grove St, Newton, MA 02462",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Pellegrini Park",
@@ -1797,8 +2283,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Open 24 hours",
-      "lat": "42.3586221",
-      "lng": "-71.2751621",
+      "lat": "42.3586296",
+      "lng": "-71.20319416",
       "phone": "(617) 796-1500",
       "website": "http://bc.edu/rec",
       "content": "Pellegrini Park may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1811,7 +2297,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open 24 hours SundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSuggest new hours",
-      "address": "11 Hawthorn St, Newton, MA 02458",
+      "address": "11 Hawthorn St, Newton, MA 02458",
       "rating": "4.8",
       "reviewCount": "",
       "priceLevel": "",
@@ -1828,7 +2314,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.753Z",
+        "originalLat": "42.3586221",
+        "originalLng": "-71.2751621",
+        "matchedAddress": "11 Hawthorn St, Newton, MA 02458",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "West Suburban YMCA",
@@ -1839,8 +2332,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3546594",
-      "lng": "-71.2635165",
+      "lat": "42.3545014",
+      "lng": "-71.1912192",
       "phone": "(617) 244-6050",
       "website": "https://www.wsymca.org/",
       "content": "West Suburban YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1866,7 +2359,7 @@
       "showerReviewCount": 1,
       "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, clean",
       "hours": "Closed ⋅ Opens 5:30 am Mon Sunday7 am–7 pmMonday5:30 am–10 pmTuesday5:30 am–10 pmWednesday5:30 am–10 pmThursday5:30 am–10 pmFriday5:30 am–9 pmSaturday7 am–7 pmSuggest new hours",
-      "address": "276 Church St, Newton, MA 02458",
+      "address": "276 Church St, Newton, MA 02458",
       "rating": "3.9",
       "reviewCount": "",
       "priceLevel": "",
@@ -1883,7 +2376,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.753Z",
+        "originalLat": "42.3546594",
+        "originalLng": "-71.2635165",
+        "matchedAddress": "276 Church St, Newton, MA 02458",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Underwood Pool",
@@ -1894,8 +2394,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 10 am",
-      "lat": "42.3940061",
-      "lng": "-71.2433508",
+      "lat": "42.39504287",
+      "lng": "-71.17236712",
       "phone": "(617) 993-2760",
       "website": "https://belmontma.myrec.com/info/default.aspx",
       "content": "Underwood Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -1908,7 +2408,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 10 am Mon Sunday10 am–8 pmMonday10 am–8 pmTuesday10 am–8 pmWednesday10 am–8 pmThursday10 am–8 pmFriday10 am–8 pmSaturday10 am–8 pmSuggest new hours",
-      "address": "325 Concord Ave, Belmont, MA 02478",
+      "address": "325 Concord Ave, Belmont, MA 02478",
       "rating": "3.8",
       "reviewCount": "",
       "priceLevel": "",
@@ -1925,7 +2425,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.754Z",
+        "originalLat": "42.3940061",
+        "originalLng": "-71.2433508",
+        "matchedAddress": "325 Concord Ave, Belmont, MA 02478",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Oak Square YMCA",
@@ -1936,8 +2443,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 6 am",
-      "lat": "42.3508836",
-      "lng": "-71.2392322",
+      "lat": "42.35057589",
+      "lng": "-71.16657093",
       "phone": "(617) 782-3535",
       "website": "https://ymcaboston.org/oaksquare",
       "content": "Oak Square YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2022,7 +2529,7 @@
       "showerReviewCount": 6,
       "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: shower, showers, hygiene, locker room, changing room",
       "hours": "Closed ⋅ Opens 6 am Mon Sunday8 am–4 pmMonday6 am–10 pmTuesday6 am–10 pmWednesday6 am–10 pmThursday6 am–10 pmFriday6 am–7 pmSaturday7 am–5 pmSuggest new hours",
-      "address": "615 Washington St, Brighton, MA 02135",
+      "address": "615 Washington St, Brighton, MA 02135",
       "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
@@ -2039,7 +2546,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.754Z",
+        "originalLat": "42.3508836",
+        "originalLng": "-71.2392322",
+        "matchedAddress": "615 Washington St, Brighton, MA 02135",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "J&H Auto & Truck Repair AKA Best-Quick Stop",
@@ -2050,8 +2564,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.5351256",
-      "lng": "-70.9934568",
+      "lat": "42.5349118",
+      "lng": "-70.9892846",
       "phone": "(978) 535-9870",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "J&H Auto & Truck Repair AKA Best-Quick Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2266,7 +2780,7 @@
       "showerReviewCount": 17,
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean, restroom, wash",
       "hours": "Open 24 hours Monday5 am–12 amTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFriday12 am–10 pmSaturday5:30 am–9 pmSunday6 am–9 pmSuggest new hours",
-      "address": "129 Newbury St Unit1, Peabody, MA 01960",
+      "address": "129 Newbury St Unit1, Peabody, MA 01960",
       "rating": "4.1",
       "reviewCount": "",
       "priceLevel": "",
@@ -2283,7 +2797,14 @@
       "sourceCity": "Merrimack",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.754Z",
+        "originalLat": "42.5351256",
+        "originalLng": "-70.9934568",
+        "matchedAddress": "129 Newbury St Unit1, Peabody, MA 01960",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Natick Recreation and Parks Department",
@@ -2294,8 +2815,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 8:30 am",
-      "lat": "42.2887967",
-      "lng": "-71.4637844",
+      "lat": "42.28783111",
+      "lng": "-71.39189551",
       "phone": "(508) 647-6530",
       "website": "http://bc.edu/rec",
       "content": "Natick Recreation and Parks Department may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2308,7 +2829,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 8:30 am Mon SundayClosedMonday8:30 am–5 pmTuesday8:30 am–5 pmWednesday8:30 am–5 pmThursday8:30 am–5 pmFriday8:30 am–5 pmSaturdayClosedSuggest new hours",
-      "address": "179 Boden Ln, Natick, MA 01760",
+      "address": "179 Boden Ln, Natick, MA 01760",
       "rating": "4.5",
       "reviewCount": "",
       "priceLevel": "",
@@ -2325,7 +2846,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.755Z",
+        "originalLat": "42.2887967",
+        "originalLng": "-71.4637844",
+        "matchedAddress": "179 Boden Ln, Natick, MA 01760",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Flaherty Pool",
@@ -2336,8 +2864,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 7 am",
-      "lat": "42.2883333",
-      "lng": "-71.19432",
+      "lat": "42.28839765",
+      "lng": "-71.12215784",
       "phone": "(617) 635-5181",
       "website": "https://www.boston.gov/departments/boston-centers-youth-families/bcyf-flaherty-pool",
       "content": "Flaherty Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2400,7 +2928,7 @@
       "showerReviewCount": 4,
       "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, changing room, clean, showers, facilities",
       "hours": "Closed ⋅ Opens 7 am Mon SundayClosedMonday7 am–3 pmTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–9 pmSaturday7 am–3 pmSuggest new hours",
-      "address": "160 Florence St, Roslindale, MA 02131",
+      "address": "160 Florence St, Roslindale, MA 02131",
       "rating": "4.6",
       "reviewCount": "",
       "priceLevel": "",
@@ -2417,21 +2945,28 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.759Z",
+        "originalLat": "42.2883333",
+        "originalLng": "-71.19432",
+        "matchedAddress": "160 Florence St, Roslindale, MA 02131",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Flynn's Truck Stop",
-      "street": "Flynn's Truck Stop 4.1(337)Truck stop",
+      "street": "Flynn's Truck Stop 4.1(338)Truck stop",
       "city": "Shrewsbury",
       "province": "",
       "zip": "",
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.2500248",
-      "lng": "-71.7197055",
+      "lat": "42.250169",
+      "lng": "-71.715282",
       "phone": "(508) 753-9698",
-      "website": "https://www.exxon.com/en/find-station/200304361",
+      "website": "https://www.flynnsplaza.com/truckservices.html",
       "content": "Flynn's Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
       "category": "Truck Stop",
       "amenities": "Hot Water|Towels|Soap|24 Hour Access",
@@ -2439,6 +2974,69 @@
       "access": "Pay per use",
       "source": "truck stop",
       "showerReviews": [
+        {
+          "reviewerName": "Jacques G",
+          "rating": "5 stars",
+          "reviewDate": "7 months ago",
+          "reviewText": "Clean place, clean shower, and clean laundryroom.\nI couldn't believe it was only $1 for washer and $1.25 for the dryer. It's very cheap and works great. …",
+          "showerKeywords": [
+            "shower",
+            "clean",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Jacques G_Clean_place,_clean_shower,_and_clean_laundryroom.__7 months ago"
+        },
+        {
+          "reviewerName": "Yolanda Martinez",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Free parking, 1.00 washers, 1.25 dryers, 10.00 showers (clean). Dunkin Donuts on site, cafe across the street but opens and closes early. Right down the street is a market and other retail and food chains. For all you health conscious drivers, Planet Fitness is 3 miles away. Perfect location and an awesome truck stop.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean",
+            "wash"
+          ],
+          "index": 45,
+          "uniqueId": "Yolanda Martinez_Free_parking,_1.00_washers,_1.25_dryers,_10.00_sho_a year ago"
+        },
+        {
+          "reviewerName": "Gator Rawr",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Not bad for a mom & pop truck stop. $10 clean showers. You need to show your CDL or your DOT medical card to buy a shower. Cleaner showers than most big name truck stops.",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Gator Rawr_Not_bad_for_a_mom_&_pop_truck_stop._$10_clean_show_a month ago"
+        },
+        {
+          "reviewerName": "Jovon Green",
+          "rating": "5 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "The place is always clean and the people are awesome. Some soaps are made every day and there a cheap Dunkin Donuts inside. I really appreciate how I’m treated here 👍🙏😎🇺🇸 …",
+          "showerKeywords": [
+            "clean"
+          ],
+          "index": 63,
+          "uniqueId": "Jovon Green_The_place_is_always_clean_and_the_people_are_aweso_a month ago"
+        },
+        {
+          "reviewerName": "B K",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "It used to be a good place but not now. They raised gasoline price, shower is restricted, washing/drying machines are old and worthless. Every time I come at night I meet two young boys on cashier table playing phones and no interest to serve clients.",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 78,
+          "uniqueId": "B K_It_used_to_be_a_good_place_but_not_now._They_raise_5 months ago"
+        },
         {
           "reviewerName": "Jacques G",
           "rating": "5 stars",
@@ -2464,31 +3062,6 @@
           ],
           "index": 13,
           "uniqueId": "gurkirat singh_…_Clean_restroom_and_showers._Shower_cost_you_$10__a month ago"
-        },
-        {
-          "reviewerName": "Gator Rawr",
-          "rating": "5 stars",
-          "reviewDate": "a month ago",
-          "reviewText": "Not bad for a mom & pop truck stop. $10 clean showers. You need to show your CDL or your DOT medical card to buy a shower. Cleaner showers than most big name truck stops.",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 21,
-          "uniqueId": "Gator Rawr_Not_bad_for_a_mom_&_pop_truck_stop._$10_clean_show_a month ago"
-        },
-        {
-          "reviewerName": "B K",
-          "rating": "1 stars",
-          "reviewDate": "5 months ago",
-          "reviewText": "It used to be a good place but not now. They raised gasoline price, shower is restricted, washing/drying machines are old and worthless. Every time I come at night I meet two young boys on cashier table playing phones and no interest to …",
-          "showerKeywords": [
-            "shower",
-            "wash"
-          ],
-          "index": 28,
-          "uniqueId": "B K_It_used_to_be_a_good_place_but_not_now._They_raise_5 months ago"
         },
         {
           "reviewerName": "Terri Hadley",
@@ -2562,16 +3135,16 @@
           "uniqueId": "Forrest Butterfield_…_in_a_few_rhing_they_dont_get_the_deals_BIG_TRUCK_Edited a year ago"
         }
       ],
-      "showerReviewCount": 10,
-      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, clean, showers, restroom, wash, bathroom",
-      "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "307 Hartford Tpke, Shrewsbury, MA 01545",
+      "showerReviewCount": 13,
+      "showerReviewSummary": "5 shower-related reviews found. Generally Positive mentions of: shower, clean, wash, showers",
+      "hours": "Open 24 hours WednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursSuggest new hours",
+      "address": "307 Hartford Tpke, Shrewsbury, MA 01545",
       "rating": "4.1",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
       "placeId": "Flynn's+Truck+Stop",
-      "googleMapsUrl": "https://www.google.com/maps/place/Flynn's+Truck+Stop/@42.2500248,-71.7197055,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e408df7c06ef37:0x7fe5e3cd6581f43c!8m2!3d42.2500248!4d-71.7151994!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1ttphxp5?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "googleMapsUrl": "https://www.google.com/maps/place/Flynn's+Truck+Stop/@41.9676381,-72.303458,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89e408df7c06ef37:0x7fe5e3cd6581f43c!8m2!3d42.2500248!4d-71.7151994!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxVk1VeFdSbmhqYmxKNFRqTkNXRlJXUm05alJuQXlUVmM0TkZOR1JSQUKqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECHsQLw!16s%2Fg%2F1ttphxp5?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
       "businessStatus": "",
       "description": "",
       "dailyHours": {},
@@ -2579,10 +3152,17 @@
       "isOpen24Hours": true,
       "isClosed": false,
       "hasDetailedHours": false,
-      "sourceCity": "Merrimack",
-      "sourceState": "NH",
-      "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "MA"
+      "sourceCity": "Shrewsbury",
+      "sourceState": "MA",
+      "timestamp": "2025-09-24T11:09:33.324Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.759Z",
+        "originalLat": "41.9676381",
+        "originalLng": "-72.303458",
+        "matchedAddress": "307 Hartford Tpke, Shrewsbury, MA 01545",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Somerville YMCA",
@@ -2593,8 +3173,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 6 am",
-      "lat": "42.3873122",
-      "lng": "-71.1713223",
+      "lat": "42.3873497",
+      "lng": "-71.09918812",
       "phone": "(617) 625-5050",
       "website": "http://www.somervilleymca.org/",
       "content": "Somerville YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2607,7 +3187,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 6 am Mon Sunday9 am–4 pmMonday6 am–9:30 pmTuesday6 am–9:30 pmWednesday6 am–9:30 pmThursday6 am–9:30 pmFriday6 am–9:30 pmSaturday7 am–7 pmSuggest new hours",
-      "address": "101 Highland Ave, Somerville, MA 02143",
+      "address": "101 Highland Ave, Somerville, MA 02143",
       "rating": "2.9",
       "reviewCount": "",
       "priceLevel": "",
@@ -2624,7 +3204,434 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.759Z",
+        "originalLat": "42.3873122",
+        "originalLng": "-71.1713223",
+        "matchedAddress": "101 Highland Ave, Somerville, MA 02143",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Nouria",
+      "street": "Nouria 3.9(140)Truck stop",
+      "city": "Springfield",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.100929",
+      "lng": "-72.593707",
+      "phone": "(413) 642-9090",
+      "website": "https://www.loves.com/locations/646",
+      "content": "Nouria may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Sam Alsanaa",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… happened in the morning when one of my company’s drivers asked for fuel. When he finished, he asked her to give him the tablet so he could get a point and a shower. The employee got nervous when he asked for a pack of cigarettes. She told …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Sam Alsanaa_…_happened_in_the_morning_when_one_of_my_company’s_2 years ago"
+        },
+        {
+          "reviewerName": "Shane Hoff",
+          "rating": "4 stars",
+          "reviewDate": "12 years ago",
+          "reviewText": "… .  Easy in and out to the highway, trucker specific building to make our life a little less hectic.. they do offer a quaint shower option... bring your own soap and towels and such... the showers are clean just not new... and for 3$ .. …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Shane Hoff_…_._Easy_in_and_out_to_the_highway,_trucker_speci_12 years ago"
+        },
+        {
+          "reviewerName": "Leigh Steavenson",
+          "rating": "4 stars",
+          "reviewDate": "12 years ago",
+          "reviewText": "… However, the pm lady was friendly, talkative and patient. The shower was one of the best I've had at a mom-n-pop: clean, well-ventilated, nice setup. Not a bad part of town, and there's plenty of dining to choose from just a block away.  ( …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "Leigh Steavenson_…_However,_the_pm_lady_was_friendly,_talkative_and_12 years ago"
+        },
+        {
+          "reviewerName": "Tina Kowinski",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… completely refurbished and updated. Caters to truck drivers with a CDL credentials. Drivers can park there free with CDL. DRIVERS can purchase a shower, both men and women. Separate shower,nicely renovated. Family member employed there.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 24,
+          "uniqueId": "Tina Kowinski_…_completely_refurbished_and_updated._Caters_to_tr_7 years ago"
+        },
+        {
+          "reviewerName": "Mrs. Agosto",
+          "rating": "3 stars",
+          "reviewDate": "9 years ago",
+          "reviewText": "I would give them a 4.5 cause parking lot need repairs and showers need update but tonight I came as usual and this rude young lady had the door close before 8:30 pm and a sing that says to go inside show driver license,  we try to talk to …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 32,
+          "uniqueId": "Mrs. Agosto_I_would_give_them_a_4.5_cause_parking_lot_need_rep_9 years ago"
+        },
+        {
+          "reviewerName": "Charles Bennett",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "Nice spot. Took 10. Took shower 3bucks. Bring tour own soap n towel.  Uneventful",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 40,
+          "uniqueId": "Charles Bennett_Nice_spot._Took_10._Took_shower_3bucks._Bring_tour_5 years ago"
+        },
+        {
+          "reviewerName": "Major Lewis",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "Free parking pay to shower pre prepared sandwiches and snacks. And fuel for trucks.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 47,
+          "uniqueId": "Major Lewis_Free_parking_pay_to_shower_pre_prepared_sandwiches_3 years ago"
+        }
+      ],
+      "showerReviewCount": 7,
+      "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open 24 hours ThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursSuggest new hours",
+      "address": "720 W Columbus Ave, Springfield, MA 01105",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Nouria",
+      "googleMapsUrl": "https://www.google.com/maps/place/Nouria/@42.0910965,-72.5875025,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e6e6ee88b17803:0x818baa0cae0ddeaa!8m2!3d42.0910965!4d-72.5829964!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJITFdWNWJIbEJSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAgAEEY!16s%2Fg%2F1v1sm7tz?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Willington",
+      "sourceState": "CT",
+      "timestamp": "2025-09-25T10:03:37.699Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.760Z",
+        "originalLat": "42.0910965",
+        "originalLng": "-72.5875025",
+        "matchedAddress": "720 W Columbus Ave, Springfield, MA 01105",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Pilot Travel Center",
+      "street": "Pilot Travel Center 3.9(2",
+      "city": "Sturbridge",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.06357",
+      "lng": "-72.108637",
+      "phone": "(508) 347-9104",
+      "website": "https://www.loves.com/locations/646",
+      "content": "Pilot Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Truck Stop, Truck Stop, Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Crystal Dias",
+          "rating": "2 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "The place it self of nice specially for truckers and people needing to stop take a shower wash clothes enough parking pumps. The only right I have about this place. I was camping around the corner. They charged me $20 a bundle for seven …",
+          "showerKeywords": [
+            "shower",
+            "wash"
+          ],
+          "index": 0,
+          "uniqueId": "Crystal Dias_The_place_it_self_of_nice_specially_for_truckers_a_3 months ago"
+        },
+        {
+          "reviewerName": "Brittany Hayes",
+          "rating": "4 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… If you are wanting to shower, it’s best to go early. At times there were 10 people waiting for a shower. 🚿 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 8,
+          "uniqueId": "Brittany Hayes_…_If_you_are_wanting_to_shower,_it’s_best_to_go_ea_2 years ago"
+        },
+        {
+          "reviewerName": "heisetianshi 76",
+          "rating": "1 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Why do they never have shower and bathroom service at night? And this happens daily. They put up signs saying there is no water. The photos are from two different dates.",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 20,
+          "uniqueId": "heisetianshi 76_Why_do_they_never_have_shower_and_bathroom_service_10 months ago"
+        },
+        {
+          "reviewerName": "Maung Lay",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… around here. Thanks for not charging parking fee. I saw driver lounge, shower, Cat scale, and Game room, but there is no public laundry available. I took 10 hrs reset because I like walking around here for a while. Thanks for being …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 30,
+          "uniqueId": "Maung Lay_…_around_here._Thanks_for_not_charging_parking_fee_5 years ago"
+        },
+        {
+          "reviewerName": "C BASS",
+          "rating": "1 stars",
+          "reviewDate": "Edited 7 months ago",
+          "reviewText": "… 02-20-25 app not working. Saying I’m next for a shower. Pics attached",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 42,
+          "uniqueId": "C BASS_…_02-20-25_app_not_working._Saying_I’m_next_for_a__Edited 7 months ago"
+        },
+        {
+          "reviewerName": "James Mcgadney",
+          "rating": "2 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "Overall truck stop is clean but shower#3 is the worse shower ever…  half and half on the parking far as reserved/ free spots but I guess 🤷🏽‍♂️ …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "James Mcgadney_Overall_truck_stop_is_clean_but_shower#3_is_the_wo_10 months ago"
+        },
+        {
+          "reviewerName": "Hochi Hochi",
+          "rating": "1 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… these overpriced shrunken items love seems to be the most reasonable truck stop out of the three major ones at least on the average they got clean shower and more variety on food that's not outrageously overpriced like pilot and Flying J",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 64,
+          "uniqueId": "Hochi Hochi_…_these_overpriced_shrunken_items_love_seems_to_be_3 months ago"
+        },
+        {
+          "reviewerName": "Rob Rob",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "They accept shower reservation by app but showers are unavailable . Free parking lots are always full, bc they made a lot of reserved  parking",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 72,
+          "uniqueId": "Rob Rob_They_accept_shower_reservation_by_app_but_showers__2 months ago"
+        },
+        {
+          "reviewerName": "Tammy Bayer",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… was surprisingly clean and well stocked considering how busy it was. This morning I came in to get a shower, and even though it was still very busy I didn't have to wait too long. The shower was clean and HUGE! Plenty of hot water, 2 …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 79,
+          "uniqueId": "Tammy Bayer_…_was_surprisingly_clean_and_well_stocked_consider_a year ago"
+        },
+        {
+          "reviewerName": "La B",
+          "rating": "5 stars",
+          "reviewDate": "4 years ago",
+          "reviewText": "They have upgraded this pilot tremendously. I came here for a quick shower and stayed for 2 and a half hours. The showers are soo spacious, comfortable and clean. They also have a hot bar with the usual pilot food but it was pretty fresh. T …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 87,
+          "uniqueId": "La B_They_have_upgraded_this_pilot_tremendously._I_came_4 years ago"
+        },
+        {
+          "reviewerName": "Robert Joseph",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "… I came in @ 3am and noticed there was a wait on the showers. I’m not surprised . This is a very nice looking location. It’s still a baby too , as I read it’s less than 5 years old. Looks fantastic, and glad they are in CT just before MA. I …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "Robert Joseph_…_I_came_in_@_3am_and_noticed_there_was_a_wait_on__3 months ago"
+        },
+        {
+          "reviewerName": "Sabrina Cristiane",
+          "rating": "1 stars",
+          "reviewDate": "2 months ago",
+          "reviewText": "The shower is paid for, even if it's for drivers who earn money, because they fill up. So they should have reconsidered and cleaned the bathroom, not just exhaling the smell and drying it with an old towel. There was hair, cut nails, and …",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 12,
+          "uniqueId": "Sabrina Cristiane_The_shower_is_paid_for,_even_if_it's_for_drivers_w_2 months ago"
+        },
+        {
+          "reviewerName": "Ronnie Guerra",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "… Had a long wait for showers about 2 hours stupid that it only has 3 available and the staff are not on top of cleaning them after use and they were still dirty even after they were supposed to be ready and what the main reason for leaving …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 24,
+          "uniqueId": "Ronnie Guerra_…_Had_a_long_wait_for_showers_about_2_hours_stupid_5 months ago"
+        },
+        {
+          "reviewerName": "Otasha Small",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "Stopped in for a shower get something to eat, gas up and sleep after 2 days of traveling,on 8/10/2025 before noon the young lady wearing glasses at the cashier for the showers said 45mins wait, ok great, only 3 showers, so thats …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 36,
+          "uniqueId": "Otasha Small_Stopped_in_for_a_shower_get_something_to_eat,_gas__a month ago"
+        },
+        {
+          "reviewerName": "Cornelius Walker",
+          "rating": "1 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "This place is just ridiculous, there’s never any parking and only three showers. I don’t understand why would they waste they time building this loves if it wasn’t going to be convenient for the truck drivers. Definitely don’t mind park at …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 44,
+          "uniqueId": "Cornelius Walker_This_place_is_just_ridiculous,_there’s_never_any_p_8 months ago"
+        },
+        {
+          "reviewerName": "Flash Gordon & Capone",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… is a LEGIT rest stop. Had to use the bathroom with my kids who are ages 5 and 2. The bathrooms were IMPECCABLE,  so incredibly clean.  This place even had a shower for the truckers, laundry room, and a dog park.  Affordable items inside!",
+          "showerKeywords": [
+            "shower",
+            "bathroom",
+            "clean"
+          ],
+          "index": 53,
+          "uniqueId": "Flash Gordon & Capone_…_is_a_LEGIT_rest_stop._Had_to_use_the_bathroom_wi_3 years ago"
+        },
+        {
+          "reviewerName": "Everett Paul",
+          "rating": "4 stars",
+          "reviewDate": "10 months ago",
+          "reviewText": "… just trying to exit. If you just need fuel and shower but want more selection and parking and better selection of food you can go back to the TA which has loads more parking including some reserved parking. But be considerate and spend …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 65,
+          "uniqueId": "Everett Paul_…_just_trying_to_exit._If_you_just_need_fuel_and_s_10 months ago"
+        },
+        {
+          "reviewerName": "Stefan Basic",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "I had a deeply disappointing experience at Love's Travel Stop yesterday. After a long trip, I arrived at the location around 7 p.m., utterly exhausted and in need of a shower. I paid $17 for the shower and waited for 90 minutes, only to …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 73,
+          "uniqueId": "Stefan Basic_I_had_a_deeply_disappointing_experience_at_Love's__a year ago"
+        },
+        {
+          "reviewerName": "baatr",
+          "rating": "5 stars",
+          "reviewDate": "3 months ago",
+          "reviewText": "I think I dropped my wallet while taking a shower. Please contact me if you happen to find it - all my documents are inside. It was blue in color.🙏🏻 …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 81,
+          "uniqueId": "baatr_I_think_I_dropped_my_wallet_while_taking_a_shower._3 months ago"
+        },
+        {
+          "reviewerName": "Percella Walker",
+          "rating": "1 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Shower at your own risk co drivers... showers get wiped down, doors don't lock, and they give u a 30 min time limit to wash..🤨...what about couples?!...they do NOT care! They have only 3 shower stalls...will not be staying overnight here at …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "wash"
+          ],
+          "index": 88,
+          "uniqueId": "Percella Walker_Shower_at_your_own_risk_co_drivers..._showers_get__a year ago"
+        }
+      ],
+      "showerReviewCount": 20,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, wash, bathroom, clean, showers",
+      "hours": "Open 24 hours ThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursSuggest new hours",
+      "address": "400 Haynes St, Sturbridge, MA 01566",
+      "rating": "3.9",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Pilot+Travel+Center",
+      "googleMapsUrl": "https://www.google.com/maps/place/Pilot+Travel+Center/@42.0669565,-72.1112022,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e69871324c1699:0x95a67dbca1b38fcf!8m2!3d42.0669565!4d-72.1066961!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F1tdng8pz?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Willington",
+      "sourceState": "CT",
+      "timestamp": "2025-09-25T10:03:37.699Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.760Z",
+        "originalLat": "42.0669565",
+        "originalLng": "-72.1112022",
+        "matchedAddress": "400 Haynes St, Sturbridge, MA 01566",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Dealtry Memorial Pool",
@@ -2635,8 +3642,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3655556",
-      "lng": "-71.2632089",
+      "lat": "42.36644563",
+      "lng": "-71.19216248",
       "phone": "(617) 924-0132",
       "website": "https://www.mass.gov/locations/clarence-w-dealtry-memorial-swimming-and-wading-pool",
       "content": "Dealtry Memorial Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2684,7 +3691,7 @@
       "showerReviewCount": 3,
       "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, clean",
       "hours": "Temporarily closedSuggest an edit",
-      "address": "138 Pleasant St, Watertown, MA 02472",
+      "address": "138 Pleasant St, Watertown, MA 02472",
       "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
@@ -2701,7 +3708,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.760Z",
+        "originalLat": "42.3655556",
+        "originalLng": "-71.2632089",
+        "matchedAddress": "138 Pleasant St, Watertown, MA 02472",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Wayland Community Center",
@@ -2712,8 +3726,8 @@
       "country": "USA",
       "businessDescription": "Community Center",
       "extractedHours": "",
-      "lat": "42.363987",
-      "lng": "-71.4435328",
+      "lat": "42.36440888",
+      "lng": "-71.36988797",
       "phone": "(508) 358-2990",
       "website": "https://www.wayland.ma.us/",
       "content": "Wayland Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2726,7 +3740,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "",
-      "address": "8 Andrew Ave, Wayland, MA 01778",
+      "address": "8 Andrew Ave, Wayland, MA 01778",
       "rating": "5.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -2743,7 +3757,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.761Z",
+        "originalLat": "42.363987",
+        "originalLng": "-71.4435328",
+        "matchedAddress": "8 Andrew Ave, Wayland, MA 01778",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Wayland Community Pool",
@@ -2754,8 +3775,8 @@
       "country": "USA",
       "businessDescription": "swimming pool",
       "extractedHours": "",
-      "lat": "42.3417899",
-      "lng": "-71.4430645",
+      "lat": "42.339721",
+      "lng": "-71.371848",
       "phone": "(508) 358-8999",
       "website": "http://waylandcommunitypool.org/",
       "content": "Wayland Community Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2782,7 +3803,7 @@
       "showerReviewCount": 1,
       "showerReviewSummary": "1 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
       "hours": "Closed ⋅ Opens 6 am Mon Sunday6:30 am–6 pmMonday6 am–9 pmTuesday6 am–9 pmWednesday6 am–9 pmThursday6 am–9 pmFriday6 am–9 pmSaturday6:30 am–6 pmSuggest new hours",
-      "address": "258 Old Connecticut Path, Wayland, MA 01778",
+      "address": "258 Old Connecticut Path, Wayland, MA 01778",
       "rating": "4.4",
       "reviewCount": "",
       "priceLevel": "",
@@ -2799,7 +3820,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.761Z",
+        "originalLat": "42.3417899",
+        "originalLng": "-71.4430645",
+        "matchedAddress": "258 Old Connecticut Path, Wayland, MA 01778",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Wayland Recreation Department",
@@ -2810,8 +3838,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.3616075",
-      "lng": "-71.4337463",
+      "lat": "42.361369",
+      "lng": "-71.36134076",
       "phone": "(508) 358-3660",
       "website": "http://bc.edu/rec",
       "content": "Wayland Recreation Department may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2824,7 +3852,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "",
-      "address": "wayland town building, 41 Cochituate Rd, Wayland, MA 01778",
+      "address": "wayland town building, 41 Cochituate Rd, Wayland, MA 01778",
       "rating": "5.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -2841,7 +3869,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.762Z",
+        "originalLat": "42.3616075",
+        "originalLng": "-71.4337463",
+        "matchedAddress": "wayland town building, 41 Cochituate Rd, Wayland, MA 01778",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Veterans Memorial Pool",
@@ -2852,8 +3887,8 @@
       "country": "USA",
       "businessDescription": "aquatic center",
       "extractedHours": "Closed ⋅ Opens 11:15 am",
-      "lat": "42.3568771",
-      "lng": "-71.1872873",
+      "lat": "42.356917",
+      "lng": "-71.115231",
       "phone": "(617) 661-0564",
       "website": "https://www.mass.gov/locations/veterans-memorial-swimming-pool",
       "content": "Veterans Memorial Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2903,7 +3938,7 @@
       "showerReviewCount": 3,
       "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, bathroom, clean",
       "hours": "Closed ⋅ Opens 11:15 am Tue Sunday11:15 am–6:15 pmMondayClosedTuesday11:15 am–6:15 pmWednesday11:15 am–6:45 pmThursday11:15 am–6:45 pmFriday11:15 am–6:45 pmSaturday11:15 am–6:45 pmSuggest new hours",
-      "address": "719 Memorial Dr, Cambridge, MA 02139",
+      "address": "719 Memorial Dr, Cambridge, MA 02139",
       "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
@@ -2920,7 +3955,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.762Z",
+        "originalLat": "42.3568771",
+        "originalLng": "-71.1872873",
+        "matchedAddress": "719 Memorial Dr, Cambridge, MA 02139",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Webster Center",
@@ -2931,8 +3973,8 @@
       "country": "USA",
       "businessDescription": "Recreation center",
       "extractedHours": "",
-      "lat": "42.2981604",
-      "lng": "-71.3397884",
+      "lat": "42.298499",
+      "lng": "-71.267956",
       "phone": "(781) 235-1200",
       "website": "http://bc.edu/rec",
       "content": "Webster Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2945,7 +3987,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 6 am Mon SundayClosedMonday6 am–10 pmTuesday6 am–10 pmWednesday6 am–10 pmThursday6 am–10 pmFriday6 am–10 pmSaturday8 am–12 pmSuggest new hours",
-      "address": "3 Babson College Drive, Wellesley, MA 02481",
+      "address": "3 Babson College Drive, Wellesley, MA 02481",
       "rating": "5.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -2962,7 +4004,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.762Z",
+        "originalLat": "42.2981604",
+        "originalLng": "-71.3397884",
+        "matchedAddress": "3 Babson College Drive, Wellesley, MA 02481",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "YMCA Kids Stop",
@@ -2973,8 +4022,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 7:30 am",
-      "lat": "42.2829052",
-      "lng": "-71.228987",
+      "lat": "42.282757",
+      "lng": "-71.157241",
       "phone": "",
       "website": "",
       "content": "YMCA Kids Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -2987,7 +4036,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Closed ⋅ Opens 7:30 am Mon SundayClosedMonday7:30 am–6 pmTuesday7:30 am–6 pmWednesday7:30 am–6 pmThursday7:30 am–6 pmFriday7:30 am–6 pmSaturdayClosedSuggest new hours",
-      "address": "1972 Centre St, West Roxbury, MA 02132",
+      "address": "1972 Centre St, West Roxbury, MA 02132",
       "rating": "",
       "reviewCount": "",
       "priceLevel": "",
@@ -3004,7 +4053,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.763Z",
+        "originalLat": "42.2829052",
+        "originalLng": "-71.228987",
+        "matchedAddress": "1972 Centre St, West Roxbury, MA 02132",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Regis College Lower Student Center",
@@ -3015,8 +4071,8 @@
       "country": "USA",
       "businessDescription": "Community center",
       "extractedHours": "",
-      "lat": "42.3512812",
-      "lng": "-71.3824448",
+      "lat": "42.3527781",
+      "lng": "-71.30705765",
       "phone": "(781) 768-7049",
       "website": "https://www.regiscollege.edu/regis-life/center-student-engagement",
       "content": "Regis College Lower Student Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -3029,7 +4085,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "",
-      "address": "235 Wellesley St, Weston, MA 02493",
+      "address": "235 Wellesley St, Weston, MA 02493",
       "rating": "5.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -3046,7 +4102,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.763Z",
+        "originalLat": "42.3512812",
+        "originalLng": "-71.3824448",
+        "matchedAddress": "235 Wellesley St, Weston, MA 02493",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Weston Town Recreation Department",
@@ -3057,8 +4120,8 @@
       "country": "USA",
       "businessDescription": "Community Center",
       "extractedHours": "",
-      "lat": "42.3603721",
-      "lng": "-71.3676106",
+      "lat": "42.36036435",
+      "lng": "-71.29553054",
       "phone": "(781) 786-6260",
       "website": "https://www.weston.org/Facilities/Facility/Details/Weston-Community-Center-61",
       "content": "Weston Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -3071,7 +4134,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "",
-      "address": "20 Alphabet Ln, Weston, MA 02493",
+      "address": "20 Alphabet Ln, Weston, MA 02493",
       "rating": "5.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -3088,7 +4151,180 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.764Z",
+        "originalLat": "42.3603721",
+        "originalLng": "-71.3676106",
+        "matchedAddress": "20 Alphabet Ln, Weston, MA 02493",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Whately Truck Plaza",
+      "street": "Whately Truck Plaza 4.2(474)Truck stop",
+      "city": "Whately",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.4611115",
+      "lng": "-72.6199605",
+      "phone": "(413) 642-9070",
+      "website": "https://www.loves.com/locations/646",
+      "content": "Whately Truck Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Mitchell Jones",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Great food, great service. I could definitely tell that it is a local favorite. There was even a shower that I would use if I needed a shower. Plenty of parking.  This was definitely a beacon of light after delivering to C & S.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Mitchell Jones_Great_food,_great_service._I_could_definitely_tell_2 years ago"
+        },
+        {
+          "reviewerName": "Manny Almanzar",
+          "rating": "4 stars",
+          "reviewDate": "11 months ago",
+          "reviewText": "Very convenient off i91 exit 35. Not a lot of parking spaces for trucks, it also has a dinner with good food and a free shower for truck drivers.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 11,
+          "uniqueId": "Manny Almanzar_Very_convenient_off_i91_exit_35._Not_a_lot_of_park_11 months ago"
+        },
+        {
+          "reviewerName": "Jessica Rami",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Stayed here for about 24 hours and the experience was better than I expected! Plenty of parking and there are 2 showers. One in the women restroom and 1 in the men’s restroom. Shower and restroom was clean. There is a small convenient store …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "restroom",
+            "clean"
+          ],
+          "index": 22,
+          "uniqueId": "Jessica Rami_Stayed_here_for_about_24_hours_and_the_experience__2 years ago"
+        },
+        {
+          "reviewerName": "Michael Moody",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "… open 24hrs, fuel available 24hrs. Food is hot and good and you can get a free hot shower and undisturbed quite rest without having to pay for parking and everyone was friendly and polite so I will definitely stop here anytime I pass through",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 34,
+          "uniqueId": "Michael Moody_…_open_24hrs,_fuel_available_24hrs._Food_is_hot_an_a year ago"
+        },
+        {
+          "reviewerName": "Kevin M.",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… the service here I thought was fantastic🙂.  If you're a trucker and plan on taking a shower here I recommend that you have and use your own everything but, it's only 4 bucks to shower here.  Other than that I look forward to visiting here …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 42,
+          "uniqueId": "Kevin M._…_the_service_here_I_thought_was_fantastic🙂._If__2 years ago"
+        },
+        {
+          "reviewerName": "wallace mackay",
+          "rating": "5 stars",
+          "reviewDate": "Edited 5 years ago",
+          "reviewText": "Waitresses and food are great. Decent lot for parking, but not huge. Fuel cost 2.859, Dec 6 2019. I like the place, never too busy. The locals like the cafe, so it's a little busy. 1 shower off the bathroom, semi private, 6 bucks?",
+          "showerKeywords": [
+            "shower",
+            "bathroom"
+          ],
+          "index": 50,
+          "uniqueId": "wallace mackay_Waitresses_and_food_are_great._Decent_lot_for_park_Edited 5 years ago"
+        },
+        {
+          "reviewerName": "Ricky Beachum",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "… for a truck driver! It’s a little older but gets the job done! Got a good hot shower, a nice hot meal and some good cheap fuel with my TCS fuel card paid 4.334/gal! Oh and the employees were very nice and welcoming, Jenni took my order and …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 57,
+          "uniqueId": "Ricky Beachum_…_for_a_truck_driver!_It’s_a_little_older_but_gets_3 years ago"
+        },
+        {
+          "reviewerName": "Donald Speaker",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "Plenty enough truck parking. Old-school diner great food!! compliments to the chef and to my waitress. They do have 1 shower and very clean...awesome place to park for the night eat some good food and get a clean shower...",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 65,
+          "uniqueId": "Donald Speaker_Plenty_enough_truck_parking._Old-school_diner_grea_2 years ago"
+        },
+        {
+          "reviewerName": "ClassA Driver",
+          "rating": "4 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "I stopped in here @ 8pm on 4-3-19, fuel was $2.99gal, there was a few spots left to park. I didn't eat in the diner, but I did shower there. The shower is in the Men's room, shower was hot, room was semi clean. If you fuel, shower is free, …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 72,
+          "uniqueId": "ClassA Driver_I_stopped_in_here_@_8pm_on_4-3-19,_fuel_was_$2.99g_6 years ago"
+        },
+        {
+          "reviewerName": "tom murphy",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "This is a diner with a separate convenience store and diesel pumps. The food is great. And yes, they do have a shower. It was four bucks, and you need your own towels.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 80,
+          "uniqueId": "tom murphy_This_is_a_diner_with_a_separate_convenience_store__5 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, restroom, clean, bathroom",
+      "hours": "Open 24 hours ThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursSuggest new hours",
+      "address": "372 State Rd, Whately, MA 01093",
+      "rating": "4.2",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Whately+Truck+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Whately+Truck+Plaza/@42.464093,-72.6226762,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89e12b59cc8f8a9d:0xc18dbf9136e86cb9!8m2!3d42.464093!4d-72.6181701!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJJTlUxSFJsTm5FQUWqAUwKCC9tLzA3cjA0EAEqDiIKdHJ1Y2sgc3RvcCgAMh4QASIaSjxJmpmbAwHgVmrpuol23ejnZls2xGCvQCEyDhACIgp0cnVjayBzdG9w4AEA-gEECAAQOw!16s%2Fg%2F1tt8d83m?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Willington",
+      "sourceState": "CT",
+      "timestamp": "2025-09-25T10:07:44.446Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.764Z",
+        "originalLat": "42.464093",
+        "originalLng": "-72.6226762",
+        "matchedAddress": "372 State Rd, Whately, MA 01093",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "War Memorial Pool",
@@ -3099,8 +4335,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 11 am",
-      "lat": "42.4107614",
-      "lng": "-71.2035578",
+      "lat": "42.41087164",
+      "lng": "-71.13081253",
       "phone": "(617) 625-1539",
       "website": "https://somervillema.myrec.com/info/facilities/details.aspx?FacilityID=13586",
       "content": "Dilboy Pool may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -3137,7 +4373,7 @@
       "showerReviewCount": 2,
       "showerReviewSummary": "1 shower-related reviews found. Mixed/Negative mentions of: shower",
       "hours": "Closed ⋅ Opens 11 am Mon Confirmed by phone call 11 weeks agoSunday11 am–7 pmMonday11 am–7 pmTuesday11 am–7 pmWednesday11 am–7 pmThursday11 am–7 pmFriday11 am–7 pmSaturday11 am–7 pmSuggest new hours",
-      "address": "324 Alewife Brook Pkwy, Somerville, MA 02144",
+      "address": "324 Alewife Brook Pkwy, Somerville, MA 02144",
       "rating": "4.5",
       "reviewCount": "",
       "priceLevel": "",
@@ -3154,7 +4390,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.764Z",
+        "originalLat": "42.4107614",
+        "originalLng": "-71.2035578",
+        "matchedAddress": "324 Alewife Brook Pkwy, Somerville, MA 02144",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Waltham Family YMCA",
@@ -3165,8 +4408,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Closed ⋅ Opens 5:30 am",
-      "lat": "42.4008751",
-      "lng": "-71.3035736",
+      "lat": "42.40088125",
+      "lng": "-71.23154703",
       "phone": "(781) 894-5295",
       "website": "http://www.ymcaboston.org/waltham",
       "content": "Waltham Family YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -3251,7 +4494,7 @@
       "showerReviewCount": 6,
       "showerReviewSummary": "6 shower-related reviews found. Mixed/Negative mentions of: shower, locker room, clean",
       "hours": "Closed ⋅ Opens 5:30 am Mon Sunday7 am–6 pmMonday5:30 am–10 pmTuesday5:30 am–10 pmWednesday5:30 am–10 pmThursday5:30 am–10 pmFriday5:30 am–8 pmSaturday6 am–6 pmSuggest new hours",
-      "address": "725 Lexington St, Waltham, MA 02452",
+      "address": "725 Lexington St, Waltham, MA 02452",
       "rating": "4.4",
       "reviewCount": "",
       "priceLevel": "",
@@ -3268,7 +4511,187 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.765Z",
+        "originalLat": "42.4008751",
+        "originalLng": "-71.3035736",
+        "matchedAddress": "725 Lexington St, Waltham, MA 02452",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Interstate Travel Plaza",
+      "street": "Interstate Travel Plaza 3.6(198)Truck stop",
+      "city": "Wrentham",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "42.047095",
+      "lng": "-71.302799",
+      "phone": "(508) 384-9501",
+      "website": "https://www.flynnsplaza.com/truckservices.html",
+      "content": "Interstate Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "D P",
+          "rating": "1 stars",
+          "reviewDate": "5 months ago",
+          "reviewText": "I just stopped in because I googled truck stop showers in the area and this is the only one around. The clerk said I have to be a CDL truck driver (which I am) with a CDL truck to use them. …",
+          "showerKeywords": [
+            "shower",
+            "showers"
+          ],
+          "index": 0,
+          "uniqueId": "D P_I_just_stopped_in_because_I_googled_truck_stop_sho_5 months ago"
+        },
+        {
+          "reviewerName": "Kevin Rudicil",
+          "rating": "5 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "… but it is worth it nice and quick ($14). No one bothers you. The shower are rooming and clean $10 if you have your own towel.  The woman that works in the days is awesome nice and polite. If you drive for prime this is a fuel stop for us …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 8,
+          "uniqueId": "Kevin Rudicil_…_but_it_is_worth_it_nice_and_quick_($14)._No_one__5 years ago"
+        },
+        {
+          "reviewerName": "abdulkadir osman",
+          "rating": "5 stars",
+          "reviewDate": "8 months ago",
+          "reviewText": "Best truck stop I ever been I love it they took good care of me.. ask for Ashley or Phil. Best customer care nice & clean shower..",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 16,
+          "uniqueId": "abdulkadir osman_Best_truck_stop_I_ever_been_I_love_it_they_took_go_8 months ago"
+        },
+        {
+          "reviewerName": "Jane Nathan",
+          "rating": "5 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… my nine-hour drive, a secure location to halt and rest. Unlike several other truckstops on the East Coast, this one has clean showers and a parking lot without many potholes. I believe Frank was the name of the employee, and I really …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 23,
+          "uniqueId": "Jane Nathan_…_my_nine-hour_drive,_a_secure_location_to_halt_an_2 years ago"
+        },
+        {
+          "reviewerName": "Hasan Dogic",
+          "rating": "5 stars",
+          "reviewDate": "3 years ago",
+          "reviewText": "From all the reviews , I thought this place would be bad but people just wanna nag for no reason. Super clean showers, Get a token for free parking if you do. If no shower then parking is $14 a night . Great food , & Nice employees",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 31,
+          "uniqueId": "Hasan Dogic_From_all_the_reviews_,_I_thought_this_place_would__3 years ago"
+        },
+        {
+          "reviewerName": "Heather Hansen",
+          "rating": "1 stars",
+          "reviewDate": "2 years ago",
+          "reviewText": "… - and then throws a fit when you pull up to a pump to try to purchase things prior to parking. Both attendants were awful (but they also work at a gas station so I expect that) we’ll gladly drive an hour or so to shower somewhere clean. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 38,
+          "uniqueId": "Heather Hansen_…_-_and_then_throws_a_fit_when_you_pull_up_to_a_pu_2 years ago"
+        },
+        {
+          "reviewerName": "Gabriel Sénécal",
+          "rating": "4 stars",
+          "reviewDate": "5 years ago",
+          "reviewText": "The Parking Lot I located the opposite side of the main building and fuel island.  Really nice people, place is clean , food smells really tasty, shower are clean and roomy. …",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 46,
+          "uniqueId": "Gabriel Sénécal_The_Parking_Lot_I_located_the_opposite_side_of_the_5 years ago"
+        },
+        {
+          "reviewerName": "Jane Bobtail",
+          "rating": "5 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… to stop and an take a break after my 13 hour drive. The showers were clean and the parking lot didn't have a ton of potholes like some other truckstops  on the East Coast. The man working (I think his name was Frank) was very friendly …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 54,
+          "uniqueId": "Jane Bobtail_…_to_stop_and_an_take_a_break_after_my_13_hour_dri_7 years ago"
+        },
+        {
+          "reviewerName": "S. Ross",
+          "rating": "1 stars",
+          "reviewDate": "9 years ago",
+          "reviewText": "… of parking but was told you have to get 100 gals of fuel to get a token. If your OTR and wanna stay the night and get a clean hot shower KEEP DRIVING!!! The showers are in a trailer in the back and it is SO DISGUSTING!!! I gagged and …",
+          "showerKeywords": [
+            "shower",
+            "showers",
+            "clean"
+          ],
+          "index": 62,
+          "uniqueId": "S. Ross_…_of_parking_but_was_told_you_have_to_get_100_gals_9 years ago"
+        },
+        {
+          "reviewerName": "Christine Watren",
+          "rating": "2 stars",
+          "reviewDate": "7 years ago",
+          "reviewText": "… but like any other one it closes by 10pm that is not a part of the plaza. I was going to shower but decided to wait until I got a little further down the road. I did not want to have to cross the highway again with my bag. But all in all …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 70,
+          "uniqueId": "Christine Watren_…_but_like_any_other_one_it_closes_by_10pm_that_is_7 years ago"
+        }
+      ],
+      "showerReviewCount": 10,
+      "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
+      "hours": "Open ⋅ Closes 10 pm Wednesday6 am–10 pmThursday6 am–10 pmFriday6 am–10 pmSaturday6 am–10 pmSunday6 am–10 pmMonday6 am–10 pmTuesday6 am–10 pmSuggest new hours",
+      "address": "580 Washington St, Wrentham, MA 02093",
+      "rating": "3.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Interstate+Travel+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Interstate+Travel+Plaza/@42.0471108,-72.4563301,9z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x89e4646398f91e2b:0x87ae1372729fb062!8m2!3d42.0471108!4d-71.3027656!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJQTWw5aE4zTjNSUkFCqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAPoBBAhiEDw!16s%2Fg%2F1w347mrk?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Shrewsbury",
+      "sourceState": "MA",
+      "timestamp": "2025-09-24T11:09:33.324Z",
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.765Z",
+        "originalLat": "42.0471108",
+        "originalLng": "-72.4563301",
+        "matchedAddress": "580 Washington St, Wrentham, MA 02093",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Central Rock Gym",
@@ -3279,8 +4702,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Opens 10 am",
-      "lat": "42.3695289",
-      "lng": "-71.2707557",
+      "lat": "42.36952505",
+      "lng": "-71.1986164",
       "phone": "(617) 744-0081",
       "website": "http://www.centralrockgym.com/watertown",
       "content": "Central Rock Gym may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -3316,7 +4739,7 @@
       "showerReviewCount": 2,
       "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower",
       "hours": "Closes soon ⋅ 8 pm ⋅ Opens 10 am Mon Sunday8 am–8 pmMonday10 am–10 pmTuesday6 am–10 pmWednesday10 am–10 pmThursday6 am–10 pmFriday12–8 pmSaturday8 am–6 pmSuggest new hours",
-      "address": "74 Acton St, Watertown, MA 02472",
+      "address": "74 Acton St, Watertown, MA 02472",
       "rating": "4.7",
       "reviewCount": "",
       "priceLevel": "",
@@ -3333,7 +4756,14 @@
       "sourceCity": "NewtonBoston",
       "sourceState": "MA",
       "timestamp": "2025-09-22T00:23:21.971Z",
-      "state": "MA"
+      "state": "MA",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:42.766Z",
+        "originalLat": "42.3695289",
+        "originalLng": "-71.2707557",
+        "matchedAddress": "74 Acton St, Watertown, MA 02472",
+        "updateSource": "csv_coordinate_correction"
+      }
     }
   ],
   "cities": [
@@ -3342,6 +4772,8 @@
     "Brookline",
     "Cambridge",
     "Charlestown",
+    "Chestnut Hill",
+    "Chicopee",
     "Dedham",
     "Framingham",
     "Great Barrington",
@@ -3353,11 +4785,15 @@
     "Roslindale",
     "Shrewsbury",
     "Somerville",
+    "Springfield",
+    "Sturbridge",
     "Watertown",
     "Wayland",
     "Wellesley",
     "West Roxbury",
     "Weston",
+    "Whately",
+    "Wrentham",
     "bathrooms and locker rooms",
     "clean",
     "clean bathrooms",
@@ -3373,7 +4809,7 @@
     "wonderfully challenging classes",
     "yoga & fitness facilityCloses soon 8 pm Mon \"The place feels welcoming and inclusive--very friendly and helpful staff.\""
   ],
-  "totalReviews": 90,
+  "totalReviews": 150,
   "categories": [
     "Public Facility",
     "Truck Stop",
@@ -3389,11 +4825,17 @@
     "Recreation Center, Community Center, Community Center",
     "Recreation Center, Public Facility, Community Center, Public Facility, Community Center, Community Center, Community Center, Recreation Center",
     "Recreation Center, Community Center",
+    "Truck Stop, Truck Stop, Public Facility",
     "Public Facility, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop",
-    "Public Facility, Public Pool",
-    "Public Facility, Recreation Center, Public Pool, Public Facility, Recreation Center"
+    "Recreation Center, Public Pool, Public Facility, Recreation Center",
+    "Public Facility, Public Pool"
   ],
-  "locationsWithPhone": 51,
-  "timestamp": "2025-09-24T08:19:44.630Z",
-  "locationCount": 53
+  "locationsWithPhone": 58,
+  "timestamp": "2025-09-27T10:25:18.808Z",
+  "locationCount": 60,
+  "coordinateUpdateSummary": {
+    "updatedAt": "2025-09-27T11:34:42.766Z",
+    "locationsUpdated": 60,
+    "updateSource": "csv_coordinate_correction"
+  }
 }

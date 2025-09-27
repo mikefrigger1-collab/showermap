@@ -11,8 +11,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "39.438394",
-      "lng": "-75.7571301",
+      "lat": "39.43647593",
+      "lng": "-75.75523857",
       "phone": "(302) 376-8111",
       "website": "https://locations.pilotflyingj.com/us/md/perryville/31-heather-lane",
       "content": "301 Travel Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -141,7 +141,7 @@
       "showerReviewCount": 10,
       "showerReviewSummary": "10 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
       "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
-      "address": "921 Middletown Warwick Rd, Middletown, DE 19709",
+      "address": "921 Middletown Warwick Rd, Middletown, DE 19709",
       "rating": "3.8",
       "reviewCount": "",
       "priceLevel": "",
@@ -158,7 +158,14 @@
       "sourceCity": "Perryville",
       "sourceState": "MD",
       "timestamp": "2025-09-23T16:30:47.046Z",
-      "state": "DE"
+      "state": "DE",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:41.589Z",
+        "originalLat": "39.438394",
+        "originalLng": "-75.7571301",
+        "matchedAddress": "921 Middletown Warwick Rd, Middletown, DE 19709",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Christiana Truck Stop And Grill",
@@ -169,12 +176,12 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "39.7196301",
-      "lng": "-75.5429631",
+      "lat": "39.7181321",
+      "lng": "-75.53658537",
       "phone": "(302) 652-6112",
       "website": "https://locations.pilotflyingj.com/us/md/perryville/31-heather-lane",
       "content": "Christiana Truck Stop And Grill may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Truck Stop, Public Facility",
+      "category": "Truck Stop",
       "amenities": "Hot Water|Towels|Soap|24 Hour Access",
       "cost": "$10-15",
       "access": "Pay per use",
@@ -241,7 +248,7 @@
       "showerReviewCount": 5,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open ⋅ Closes 6 pm Tuesday6 am–6 pmWednesday6 am–6 pmThursday6 am–6 pmFriday6 am–6 pmSaturdayClosedSundayClosedMonday6 am–6 pmSuggest new hours",
-      "address": "I-495 Exit 2, 520 Terminal Ave, New Castle, DE 19720",
+      "address": "I-495 Exit 2, 520 Terminal Ave, New Castle, DE 19720",
       "rating": "4.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -258,7 +265,205 @@
       "sourceCity": "Perryville",
       "sourceState": "MD",
       "timestamp": "2025-09-23T16:30:47.046Z",
-      "state": "DE"
+      "state": "DE",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:41.589Z",
+        "originalLat": "39.7196301",
+        "originalLng": "-75.5429631",
+        "matchedAddress": "I-495 Exit 2, 520 Terminal Ave, New Castle, DE 19720",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "Delaware Truck Plaza",
+      "street": "Delaware Truck Plaza 4.6(286)Truck stop",
+      "city": "New Castle",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.65708841",
+      "lng": "-75.61398564",
+      "phone": "(302) 322-0978",
+      "website": "https://locations.pilotflyingj.com/us/md/perryville/31-heather-lane",
+      "content": "Delaware Truck Plaza may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [
+        {
+          "reviewerName": "Damon E White",
+          "rating": "1 stars",
+          "reviewDate": "a month ago",
+          "reviewText": "The Staff was Amazing. $20 to park and there was plenty of parking spaces available . There is only 1 Shower and it is $20. The Shower is NASTY bottom line. This shower was worse than a shower I took  in Iraq or Afghanistan. There is no …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 0,
+          "uniqueId": "Damon E White_The_Staff_was_Amazing._$20_to_park_and_there_was_p_a month ago"
+        },
+        {
+          "reviewerName": "2B88Player",
+          "rating": "5 stars",
+          "reviewDate": "4 months ago",
+          "reviewText": "I was able to park.  Take a shower, and grab some snacks. Thanking the owners.",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 12,
+          "uniqueId": "2B88Player_I_was_able_to_park._Take_a_shower,_and_grab_some__4 months ago"
+        },
+        {
+          "reviewerName": "Sparty Spartan",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… gem on my way to the port of DE. its an older station but very functional. prices were good and customer service was awesome. Kumar was very helpful and had a great attitude. shower was clean. as i say its a bit older but clean and tidy",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 20,
+          "uniqueId": "Sparty Spartan_…_gem_on_my_way_to_the_port_of_DE._its_an_older_st_6 years ago"
+        },
+        {
+          "reviewerName": "stuff happens",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… polite .Just what I needed on a Friday night in this traffic. Kumar who is on duty. Talked me into a 100 gallons of fuel for a shower and free parking. But at 2.79 a gallon with no tax. And parking at only 12.00 for 24 hours. The place …",
+          "showerKeywords": [
+            "shower"
+          ],
+          "index": 28,
+          "uniqueId": "stuff happens_…_polite_.Just_what_I_needed_on_a_Friday_night_in__6 years ago"
+        },
+        {
+          "reviewerName": "Bobby Gradez",
+          "rating": "5 stars",
+          "reviewDate": "6 years ago",
+          "reviewText": "… ‘ this place is my favorite truck stop for fuel snacks and other types of accessiories’ this is Delaware number one truck stop ‘ this truck stop also have clean shower ‘ and lots of truck space for parking ‘ GREAT PLACE I LOVE IT HERE ‘",
+          "showerKeywords": [
+            "shower",
+            "clean"
+          ],
+          "index": 36,
+          "uniqueId": "Bobby Gradez_…_‘_this_place_is_my_favorite_truck_stop_for_fuel__6 years ago"
+        },
+        {
+          "reviewerName": "Guillermo Cruz",
+          "rating": "1 stars",
+          "reviewDate": "a week ago",
+          "reviewText": "Been a client for years but not anymore !\nWas at the pump for 5 min while all pumps were empty  , needed to use the bathroom before putting diesel and waiting for the bathroom , employee told me to move and park to the back while I was waiting to use their toilet …. Rude 10:20 pm 09/15/25",
+          "showerKeywords": [
+            "bathroom"
+          ],
+          "index": 26,
+          "uniqueId": "Guillermo Cruz_Been_a_client_for_years_but_not_anymore_!_Was_at_t_a week ago"
+        },
+        {
+          "reviewerName": "Kyle Walsh",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "This truck plaza is great the price of fuel is most reasonable for this area and the parking and restrooms are very clean. The gas attendant was very helpful and nice when I was there. Highly recommend this truck stop when in this area.",
+          "showerKeywords": [
+            "restroom",
+            "clean"
+          ],
+          "index": 56,
+          "uniqueId": "Kyle Walsh_This_truck_plaza_is_great_the_price_of_fuel_is_mos_a year ago"
+        },
+        {
+          "reviewerName": "AMIT GREWAL",
+          "rating": "5 stars",
+          "reviewDate": "a year ago",
+          "reviewText": "Cheapest and best fuel in the delaware . I live in new Castle,De. Prices are always less as compared to all other gas stations nearby .\nMore of that salesman is very helpfull and nice. Washrooms are also clean and …",
+          "showerKeywords": [
+            "clean",
+            "wash"
+          ],
+          "index": 70,
+          "uniqueId": "AMIT GREWAL_Cheapest_and_best_fuel_in_the_delaware_._I_live_in_a year ago"
+        }
+      ],
+      "showerReviewCount": 8,
+      "showerReviewSummary": "5 shower-related reviews found. Generally Positive mentions of: shower, clean",
+      "hours": "Open 24 hours TuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursMondayOpen 24 hoursSuggest new hours",
+      "address": "194 S Dupont Hwy, New Castle, DE 19720",
+      "rating": "4.6",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "Delaware+Truck+Plaza",
+      "googleMapsUrl": "https://www.google.com/maps/place/Delaware+Truck+Plaza/@39.6557338,-75.6166246,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89c703f8de156f0f:0x50df9af1a06cceb!8m2!3d39.6557338!4d-75.6121185!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQp0cnVja19zdG9wqgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11c1pk32m2?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": true,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Perryville",
+      "sourceState": "MD",
+      "timestamp": "2025-09-23T16:30:47.046Z",
+      "state": "DE",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:41.589Z",
+        "originalLat": "39.6557338",
+        "originalLng": "-75.6166246",
+        "matchedAddress": "194 S Dupont Hwy, New Castle, DE 19720",
+        "updateSource": "csv_coordinate_correction"
+      }
+    },
+    {
+      "title": "F & H Transport",
+      "street": "F & H Transport 3.8(40)Truck stop",
+      "city": "New Castle",
+      "province": "",
+      "zip": "",
+      "country": "USA",
+      "businessDescription": "",
+      "extractedHours": "",
+      "lat": "39.7181321",
+      "lng": "-75.53658537",
+      "phone": "(302) 652-6112",
+      "website": "https://www.ta-petro.com/location/md/ta-elkton",
+      "content": "F & H Transport may offer shower facilities. Contact directly to confirm availability and pricing.",
+      "category": "Public Facility",
+      "amenities": "Hot Water",
+      "cost": "Contact for pricing",
+      "access": "Contact for access",
+      "source": "truck stop",
+      "showerReviews": [],
+      "showerReviewCount": 0,
+      "showerReviewSummary": "No shower-related reviews found",
+      "hours": "Open ⋅ Closes 6 pm Tuesday6 am–6 pmWednesday6 am–6 pmThursday6 am–6 pmFriday6 am–6 pmSaturdayClosedSundayClosedMonday6 am–6 pmSuggest new hours",
+      "address": "520 Terminal Ave, New Castle, DE 19720",
+      "rating": "3.8",
+      "reviewCount": "",
+      "priceLevel": "",
+      "businessType": "Truck stop",
+      "placeId": "F+%26+H+Transport",
+      "googleMapsUrl": "https://www.google.com/maps/place/F+%26+H+Transport/@39.7196515,-75.5429459,17z/data=!4m11!1m3!2m2!1struck+stop!6e2!3m6!1s0x89c702af5db641ef:0xfce69bfecacb96cb!8m2!3d39.7196515!4d-75.5384398!15sCgp0cnVjayBzdG9wkgEKdHJ1Y2tfc3RvcKoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQA!16s%2Fg%2F1tlwglvg?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
+      "businessStatus": "",
+      "description": "",
+      "dailyHours": {},
+      "dailyHoursFormatted": "",
+      "isOpen24Hours": false,
+      "isClosed": false,
+      "hasDetailedHours": false,
+      "sourceCity": "Elkton",
+      "sourceState": "MD",
+      "timestamp": "2025-09-23T13:42:32.704Z",
+      "state": "DE",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:41.589Z",
+        "originalLat": "39.7196515",
+        "originalLng": "-75.5429459",
+        "matchedAddress": "520 Terminal Ave, New Castle, DE 19720",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Port Contractors - Public Truck Scale",
@@ -269,8 +474,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "39.713721",
-      "lng": "-75.5422811",
+      "lat": "39.71317159",
+      "lng": "-75.53616343",
       "phone": "(302) 655-0101",
       "website": "https://www.ta-petro.com/location/md/ta-elkton",
       "content": "Port Contractors - Public Truck Scale may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -283,7 +488,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open ⋅ Closes 3:30 pm Tuesday7 am–3:30 pmWednesday7 am–3:30 pmThursday7 am–3:30 pmFriday7 am–3:30 pmSaturdayClosedSundayClosedMonday7 am–3:30 pmSuggest new hours",
-      "address": "316 Pigeon Point Rd, New Castle, DE 19720",
+      "address": "316 Pigeon Point Rd, New Castle, DE 19720",
       "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
@@ -300,7 +505,14 @@
       "sourceCity": "Elkton",
       "sourceState": "MD",
       "timestamp": "2025-09-23T13:42:32.704Z",
-      "state": "DE"
+      "state": "DE",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:41.590Z",
+        "originalLat": "39.713721",
+        "originalLng": "-75.5422811",
+        "matchedAddress": "316 Pigeon Point Rd, New Castle, DE 19720",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Truck Parking Club",
@@ -311,8 +523,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "Open 24 hours",
-      "lat": "39.7434549",
-      "lng": "-75.5321657",
+      "lat": "39.74397214",
+      "lng": "-75.52928898",
       "phone": "(302) 420-0528",
       "website": "https://locations.pilotflyingj.com/us/nj/carneys-point/326-slapes-corner",
       "content": "Truck Parking Club may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -325,7 +537,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "1620 Bowers St, Wilmington, DE 19802",
+      "address": "1620 Bowers St, Wilmington, DE 19802",
       "rating": "",
       "reviewCount": "",
       "priceLevel": "",
@@ -342,7 +554,14 @@
       "sourceCity": "New Castle",
       "sourceState": "DE",
       "timestamp": "2025-09-22T13:28:13.425Z",
-      "state": "DE"
+      "state": "DE",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:41.590Z",
+        "originalLat": "39.7434549",
+        "originalLng": "-75.5321657",
+        "matchedAddress": "1620 Bowers St, Wilmington, DE 19802",
+        "updateSource": "csv_coordinate_correction"
+      }
     }
   ],
   "cities": [
@@ -350,12 +569,18 @@
     "New Castle",
     "Wilmington"
   ],
-  "totalReviews": 15,
+  "totalReviews": 23,
   "categories": [
     "Public Facility",
-    "Truck Stop, Public Facility"
+    "Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Truck Stop, Public Facility, Public Facility",
+    "Truck Stop"
   ],
-  "locationsWithPhone": 4,
-  "timestamp": "2025-09-24T08:19:44.629Z",
-  "locationCount": 4
+  "locationsWithPhone": 6,
+  "timestamp": "2025-09-27T10:25:18.807Z",
+  "locationCount": 6,
+  "coordinateUpdateSummary": {
+    "updatedAt": "2025-09-27T11:34:41.590Z",
+    "locationsUpdated": 6,
+    "updateSource": "csv_coordinate_correction"
+  }
 }

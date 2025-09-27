@@ -3,6 +3,7 @@ const path = require('path');
 
 /**
  * Process and combine shower location data files with advanced duplicate detection
+ * Enhanced to protect legitimate chain store locations from false positive merging
  */
 class ShowerDataProcessor {
   constructor(inputDir = './data', outputDir = './processed') {
@@ -13,19 +14,23 @@ class ShowerDataProcessor {
     this.duplicateCount = 0;
     this.duplicateReasons = new Map(); // Track why duplicates were found
     this.fuzzyMatches = []; // Track fuzzy matches for review
+    this.chainsProtected = 0; // Track legitimate chains protected
   }
 
   /**
    * Advanced duplicate detection with multiple strategies
    */
   removeDuplicates() {
-    console.log('Removing duplicates with enhanced detection...');
+    console.log('Removing duplicates with enhanced chain-aware detection...');
     const uniqueLocations = new Map();
     const potentialDuplicates = [];
     let phonesCleaned = 0;
     let phonesRemoved = 0;
     let addressesCleaned = 0;
     let citiesFixed = 0;
+
+    // Initialize coordinate examples array
+    this.coordExamples = [];
 
     // Step 1: Exact coordinate matches (highest priority)
     console.log('  → Phase 1: Exact coordinate matching...');
@@ -35,8 +40,8 @@ class ShowerDataProcessor {
     console.log('  → Phase 2: Address-based matching...');
     this.findAddressDuplicates(uniqueLocations);
 
-    // Step 3: Fuzzy title matching within same area
-    console.log('  → Phase 3: Fuzzy title matching...');
+    // Step 3: Enhanced fuzzy title matching with chain protection
+    console.log('  → Phase 3: Smart fuzzy title matching...');
     this.findFuzzyTitleDuplicates(uniqueLocations);
 
     // Step 4: Phone number matching
@@ -55,26 +60,45 @@ class ShowerDataProcessor {
     this.finalizeUniqueLocations(uniqueLocations);
 
     console.log(`  ✓ Removed ${this.duplicateCount} total duplicates`);
+    console.log(`  ✓ Protected ${this.chainsProtected} legitimate chain locations`);
     this.printDuplicateStatistics();
+    this.printCoordinateExamples();
     console.log(`  ✓ ${this.allLocations.length} unique locations remaining\n`);
   }
 
   /**
-   * Find duplicates with identical coordinates (within 0.0001 degrees ~11 meters)
+   * Find duplicates with exactly identical coordinates (no approximation)
    */
   findExactCoordinateDuplicates(uniqueLocations) {
     const coordMap = new Map();
     let exactCoordDupes = 0;
+    const examples = []; // Track examples for summary
 
     this.allLocations.forEach((location, index) => {
-      const lat = parseFloat(location.lat || 0);
-      const lng = parseFloat(location.lng || 0);
+      const lat = location.lat;
+      const lng = location.lng;
       
-      // Create coordinate key with precision to ~11 meters
-      const coordKey = `${lat.toFixed(4)}_${lng.toFixed(4)}`;
+      // Only process if coordinates exist
+      if (!lat || !lng) {
+        coordMap.set(`no_coords_${index}`, { ...location, _index: index });
+        return;
+      }
+      
+      // Create coordinate key using exact values (no rounding/approximation)
+      const coordKey = `${lat}_${lng}`;
       
       if (coordMap.has(coordKey)) {
         const existing = coordMap.get(coordKey);
+        
+        // Save example for logging
+        if (examples.length < 3) {
+          examples.push({
+            title1: existing.title,
+            title2: location.title,
+            coords: `${lat}, ${lng}`
+          });
+        }
+        
         const merged = this.mergeLocations(existing, location, 'exact_coordinates');
         coordMap.set(coordKey, merged);
         exactCoordDupes++;
@@ -92,6 +116,9 @@ class ShowerDataProcessor {
     if (exactCoordDupes > 0) {
       console.log(`    ✓ Found ${exactCoordDupes} exact coordinate duplicates`);
       this.duplicateReasons.set('exact_coordinates', exactCoordDupes);
+      
+      // Store examples for summary
+      this.coordExamples = examples;
     }
   }
 
@@ -136,7 +163,7 @@ class ShowerDataProcessor {
   }
 
   /**
-   * Find duplicates using fuzzy string matching on business names
+   * Enhanced fuzzy title matching with chain store protection
    */
   findFuzzyTitleDuplicates(uniqueLocations) {
     const locations = Array.from(uniqueLocations.values());
@@ -167,7 +194,14 @@ class ShowerDataProcessor {
         const similarity = this.calculateStringSimilarity(normalizedTitleA, normalizedTitleB);
         
         if (similarity > 0.85) { // 85% similarity threshold
-          const merged = this.mergeLocations(locationA, locationB, 'fuzzy_title');
+          
+          // ENHANCED: Check if these are legitimate different chain locations
+          if (this.areLegitimateChainLocations(locationA, locationB)) {
+            this.chainsProtected++;
+            continue; // Skip merging - keep both locations
+          }
+          
+          const merged = this.mergeLocations(locationA, locationB, 'fuzzy_title_confirmed');
           toAdd.push(merged);
           toRemove.add(i);
           toRemove.add(j);
@@ -190,9 +224,168 @@ class ShowerDataProcessor {
     });
 
     if (fuzzyDupes > 0) {
-      console.log(`    ✓ Found ${fuzzyDupes} fuzzy title duplicates`);
-      this.duplicateReasons.set('fuzzy_title', fuzzyDupes);
+      console.log(`    ✓ Found ${fuzzyDupes} confirmed fuzzy title duplicates`);
+      this.duplicateReasons.set('fuzzy_title_confirmed', fuzzyDupes);
     }
+  }
+
+  /**
+   * Determine if two similar-named locations are legitimate chain locations vs duplicates
+   */
+  areLegitimateChainLocations(loc1, loc2) {
+    // 1. Different cities = definitely different locations
+    if (loc1.city && loc2.city && loc1.state && loc2.state) {
+      const city1 = loc1.city.toLowerCase().trim();
+      const city2 = loc2.city.toLowerCase().trim();
+      const state1 = loc1.state.toLowerCase().trim();
+      const state2 = loc2.state.toLowerCase().trim();
+      
+      if (city1 !== city2 || state1 !== state2) {
+        console.log(`    → Keeping separate: Different cities (${city1}, ${state1} vs ${city2}, ${state2})`);
+        return true; // Different cities/states = legitimate different locations
+      }
+    }
+
+    // 2. Calculate distance between locations
+    const distance = this.calculateDistance(
+      parseFloat(loc1.lat || 0), parseFloat(loc1.lng || 0),
+      parseFloat(loc2.lat || 0), parseFloat(loc2.lng || 0)
+    );
+
+    // If more than 3 miles apart, very likely different legitimate locations
+    if (distance > 3) {
+      console.log(`    → Keeping separate: Far apart (${distance.toFixed(1)} km)`);
+      return true;
+    }
+
+    // 3. Different phone numbers = likely different locations
+    if (loc1.phone && loc2.phone) {
+      const phone1 = this.normalizePhoneNumber(loc1.phone);
+      const phone2 = this.normalizePhoneNumber(loc2.phone);
+      if (phone1 && phone2 && phone1 !== phone2) {
+        console.log(`    → Keeping separate: Different phones (${loc1.phone} vs ${loc2.phone})`);
+        return true; // Different phone numbers
+      }
+    }
+
+    // 4. Very different addresses = different locations
+    if (loc1.address && loc2.address) {
+      const addressSimilarity = this.calculateAddressSimilarity(loc1.address, loc2.address);
+      if (addressSimilarity < 0.6) {
+        console.log(`    → Keeping separate: Different addresses (${addressSimilarity.toFixed(2)} similarity)`);
+        return true; // Substantially different addresses
+      }
+    }
+
+    // 5. Different store numbers or identifiers
+    if (this.haveDifferentStoreNumbers(loc1, loc2)) {
+      console.log(`    → Keeping separate: Different store identifiers`);
+      return true;
+    }
+
+    // 6. If it's a known chain business and they're more than 1 mile apart
+    if (this.isKnownChainBusiness(loc1.title) && distance > 1) {
+      console.log(`    → Keeping separate: Chain business >1 mile apart (${distance.toFixed(1)} km)`);
+      return true;
+    }
+
+    // 7. Very close proximity with similar addresses = likely duplicate
+    if (distance <= 0.1 && loc1.address && loc2.address) { // Within 100 meters
+      const addressSimilarity = this.calculateAddressSimilarity(loc1.address, loc2.address);
+      if (addressSimilarity > 0.8) {
+        console.log(`    → Likely duplicate: Very close with similar addresses (${(distance * 1000).toFixed(0)}m, ${addressSimilarity.toFixed(2)} addr similarity)`);
+        return false; // Likely duplicate
+      }
+    }
+
+    // Default: if uncertain and they're close, treat as potential duplicate
+    const keepSeparate = distance > 0.5; // If more than 500m apart, keep separate
+    if (keepSeparate) {
+      console.log(`    → Keeping separate: Default protection (${distance.toFixed(1)} km apart)`);
+    } else {
+      console.log(`    → Potential duplicate: Close proximity (${(distance * 1000).toFixed(0)}m apart)`);
+    }
+    return keepSeparate;
+  }
+
+  /**
+   * Check if two locations have different store numbers or identifiers
+   */
+  haveDifferentStoreNumbers(loc1, loc2) {
+    const getStoreNumber = (title) => {
+      if (!title) return null;
+      const match = title.match(/\b(#|no\.?\s*|store\s*|location\s*|exit\s*)(\d+)/i);
+      return match ? match[2] : null;
+    };
+
+    const number1 = getStoreNumber(loc1.title);
+    const number2 = getStoreNumber(loc2.title);
+
+    if (number1 && number2 && number1 !== number2) {
+      return true; // Different store numbers
+    }
+
+    // Check for different street numbers in addresses
+    const getStreetNumber = (address) => {
+      if (!address) return null;
+      const match = address.match(/^\s*(\d+)\s/);
+      return match ? match[1] : null;
+    };
+
+    const streetNum1 = getStreetNumber(loc1.address);
+    const streetNum2 = getStreetNumber(loc2.address);
+
+    if (streetNum1 && streetNum2 && streetNum1 !== streetNum2) {
+      return true; // Different street numbers
+    }
+
+    return false;
+  }
+
+  /**
+   * Check if a business name matches known chain patterns
+   */
+  isKnownChainBusiness(title) {
+    if (!title) return false;
+    
+    const chainPatterns = [
+      /love'?s/i,
+      /pilot/i,
+      /flying\s*j/i,
+      /travel\s*america/i,
+      /petro/i,
+      /speedway/i,
+      /shell/i,
+      /exxon/i,
+      /chevron/i,
+      /bp/i,
+      /mobil/i,
+      /valero/i,
+      /circle\s*k/i,
+      /7\s*eleven/i,
+      /wawa/i,
+      /sheetz/i,
+      /kwik\s*trip/i,
+      /casey'?s/i,
+      /maverik/i,
+      /ta\s*truck/i,
+      /truck\s*stop/i,
+      /travel\s*center/i
+    ];
+    
+    return chainPatterns.some(pattern => pattern.test(title));
+  }
+
+  /**
+   * Calculate similarity between two addresses
+   */
+  calculateAddressSimilarity(addr1, addr2) {
+    if (!addr1 || !addr2) return 0;
+    
+    const normalized1 = this.normalizeAddress(addr1);
+    const normalized2 = this.normalizeAddress(addr2);
+    
+    return this.calculateStringSimilarity(normalized1, normalized2);
   }
 
   /**
@@ -211,8 +404,8 @@ class ShowerDataProcessor {
       if (phoneMap.has(normalizedPhone)) {
         const existing = phoneMap.get(normalizedPhone);
         
-        // Only merge if they're reasonably close (within 100 miles)
-        if (this.areLocationsNearby(existing, location, 100)) {
+        // Much stricter criteria for phone matching
+        if (this.shouldMergeByPhone(existing, location)) {
           const merged = this.mergeLocations(existing, location, 'phone_match');
           phoneMap.set(normalizedPhone, merged);
           
@@ -222,6 +415,9 @@ class ShowerDataProcessor {
           uniqueLocations.delete(existingKey);
           uniqueLocations.delete(currentKey);
           phoneDupes++;
+        } else {
+          console.log(`    → Skipping phone merge: Different businesses with same phone`);
+          console.log(`      "${existing.title}" vs "${location.title}"`);
         }
       } else {
         phoneMap.set(normalizedPhone, location);
@@ -238,6 +434,56 @@ class ShowerDataProcessor {
       console.log(`    ✓ Found ${phoneDupes} phone number duplicates`);
       this.duplicateReasons.set('phone_match', phoneDupes);
     }
+  }
+
+  /**
+   * Determine if two locations with same phone should be merged
+   */
+  shouldMergeByPhone(loc1, loc2) {
+    // Must be very close (within 5 miles) - businesses rarely share phones across cities
+    const distance = this.calculateDistance(
+      parseFloat(loc1.lat || 0), parseFloat(loc1.lng || 0),
+      parseFloat(loc2.lat || 0), parseFloat(loc2.lng || 0)
+    );
+    
+    if (distance > 5) {
+      return false;
+    }
+
+    // Must have similar business names (>60% similarity)
+    const titleSimilarity = this.calculateStringSimilarity(
+      this.normalizeBusinessName(loc1.title || ''),
+      this.normalizeBusinessName(loc2.title || '')
+    );
+    
+    if (titleSimilarity < 0.6) {
+      return false; // Very different business names
+    }
+
+    // Must be in same city if city info available
+    if (loc1.city && loc2.city) {
+      const city1 = loc1.city.toLowerCase().trim();
+      const city2 = loc2.city.toLowerCase().trim();
+      if (city1 !== city2) {
+        return false;
+      }
+    }
+
+    // Similar addresses boost confidence
+    if (loc1.address && loc2.address) {
+      const addressSimilarity = this.calculateAddressSimilarity(loc1.address, loc2.address);
+      if (addressSimilarity > 0.7) {
+        return true; // Similar names + same phone + similar addresses = likely same business
+      }
+    }
+
+    // Same category if available
+    if (loc1.category && loc2.category && loc1.category === loc2.category) {
+      return true;
+    }
+
+    // Default: only merge if very similar names and very close
+    return titleSimilarity > 0.8 && distance < 1;
   }
 
   /**
@@ -266,23 +512,19 @@ class ShowerDataProcessor {
           parseFloat(locationB.lat), parseFloat(locationB.lng)
         );
 
-        // If within 100 meters and similar names or same category
-        if (distance <= 0.1) { // 100 meters
-          const titleSimilarity = this.calculateStringSimilarity(
-            this.normalizeBusinessName(locationA.title || ''),
-            this.normalizeBusinessName(locationB.title || '')
-          );
+        // Only merge if VERY close (within 50 meters) AND pass strict similarity checks
+        if (distance <= 0.05) { // 50 meters - must be extremely close
           
-          const sameCategory = locationA.category && locationB.category && 
-                              locationA.category === locationB.category;
-          
-          if (titleSimilarity > 0.6 || sameCategory) {
+          if (this.shouldMergeByProximity(locationA, locationB, distance)) {
             const merged = this.mergeLocations(locationA, locationB, 'proximity');
             toAdd.push(merged);
             toRemove.add(i);
             toRemove.add(j);
             proximityDupes++;
             break;
+          } else {
+            console.log(`    → Skipping proximity merge: Different facilities nearby`);
+            console.log(`      "${locationA.title}" vs "${locationB.title}" (${(distance * 1000).toFixed(0)}m apart)`);
           }
         }
       }
@@ -307,6 +549,45 @@ class ShowerDataProcessor {
   }
 
   /**
+   * Determine if two nearby locations should be merged based on proximity
+   */
+  shouldMergeByProximity(loc1, loc2, distance) {
+    // Must have very similar business names (>75% similarity)
+    const titleSimilarity = this.calculateStringSimilarity(
+      this.normalizeBusinessName(loc1.title || ''),
+      this.normalizeBusinessName(loc2.title || '')
+    );
+    
+    if (titleSimilarity < 0.75) {
+      return false; // Very different names = different businesses
+    }
+
+    // Must have similar addresses if both exist (>70% similarity)
+    if (loc1.address && loc2.address) {
+      const addressSimilarity = this.calculateAddressSimilarity(loc1.address, loc2.address);
+      if (addressSimilarity < 0.7) {
+        return false; // Different addresses = different locations
+      }
+    }
+
+    // If same phone number, likely same business
+    if (loc1.phone && loc2.phone) {
+      const phone1 = this.normalizePhoneNumber(loc1.phone);
+      const phone2 = this.normalizePhoneNumber(loc2.phone);
+      if (phone1 && phone2 && phone1 === phone2) {
+        return true; // Same phone = likely same business
+      }
+    }
+
+    // Same category helps but isn't decisive
+    const sameCategory = loc1.category && loc2.category && 
+                        loc1.category === loc2.category;
+
+    // Only merge if high name similarity AND (same category OR very close distance)
+    return titleSimilarity > 0.85 && (sameCategory || distance <= 0.02); // 20 meters for very high similarity
+  }
+
+  /**
    * Find duplicates using normalized business names (handles variations)
    */
   findNormalizedNameDuplicates(uniqueLocations) {
@@ -323,8 +604,9 @@ class ShowerDataProcessor {
       if (normalizedMap.has(key)) {
         const existing = normalizedMap.get(key);
         
-        // Only merge if they're in the same city/area
-        if (this.areLocationsNearby(existing, location, 25)) {
+        // Only merge if they're in the same city/area AND pass chain check
+        if (this.areLocationsNearby(existing, location, 25) && 
+            !this.areLegitimateChainLocations(existing, location)) {
           const merged = this.mergeLocations(existing, location, 'normalized_name');
           normalizedMap.set(key, merged);
           
@@ -334,6 +616,8 @@ class ShowerDataProcessor {
           uniqueLocations.delete(existingKey);
           uniqueLocations.delete(currentKey);
           normalizedDupes++;
+        } else if (this.areLegitimateChainLocations(existing, location)) {
+          this.chainsProtected++;
         }
       } else {
         normalizedMap.set(key, location);
@@ -537,6 +821,13 @@ class ShowerDataProcessor {
   mergeLocations(loc1, loc2, reason) {
     this.duplicateCount++;
     
+    // Log the merge for transparency
+    console.log(`    → Merging: "${loc1.title}" + "${loc2.title}" (${reason})`);
+    if (loc1.address && loc2.address) {
+      console.log(`      Address 1: ${loc1.address}`);
+      console.log(`      Address 2: ${loc2.address}`);
+    }
+    
     const merged = { ...loc1 };
     
     // Keep the most complete title
@@ -620,6 +911,18 @@ class ShowerDataProcessor {
   }
 
   /**
+   * Print coordinate duplicate examples
+   */
+  printCoordinateExamples() {
+    if (this.coordExamples && this.coordExamples.length > 0) {
+      console.log('    Examples of coordinate duplicates merged:');
+      this.coordExamples.forEach(example => {
+        console.log(`      "${example.title1}" + "${example.title2}" (${example.coords})`);
+      });
+    }
+  }
+
+  /**
    * Print statistics about duplicate detection
    */
   printDuplicateStatistics() {
@@ -631,14 +934,12 @@ class ShowerDataProcessor {
     }
   }
 
-  // ... rest of the original methods (readAllFiles, groupByState, etc.) remain the same ...
-
   /**
    * Main processing function
    */
   async process() {
     try {
-      console.log('Starting data processing with enhanced duplicate detection...\n');
+      console.log('Starting data processing with enhanced chain-aware duplicate detection...\n');
       
       // Step 1: Read all JSON files
       await this.readAllFiles();
@@ -995,6 +1296,7 @@ class ShowerDataProcessor {
       totalLocations: this.allLocations.length,
       totalStates: Object.keys(this.locationsByState).length,
       duplicatesRemoved: this.duplicateCount,
+      chainsProtected: this.chainsProtected,
       totalWithPhone: this.allLocations.filter(loc => loc.phone).length,
       duplicateBreakdown: Object.fromEntries(this.duplicateReasons),
       states: Object.entries(this.locationsByState).map(([state, data]) => ({
@@ -1021,10 +1323,11 @@ class ShowerDataProcessor {
     const totalWithPhone = this.allLocations.filter(loc => loc.phone).length;
     
     console.log('='.repeat(60));
-    console.log('PROCESSING COMPLETE');
+    console.log('PROCESSING COMPLETE - CHAIN-AWARE DEDUPLICATION');
     console.log('='.repeat(60));
     console.log(`Total unique locations: ${this.allLocations.length}`);
     console.log(`Duplicates removed: ${this.duplicateCount}`);
+    console.log(`Chain locations protected: ${this.chainsProtected}`);
     console.log(`Locations with phone: ${totalWithPhone} (${(totalWithPhone/this.allLocations.length*100).toFixed(1)}%)`);
     console.log(`States processed: ${Object.keys(this.locationsByState).length}\n`);
     
@@ -1039,6 +1342,8 @@ class ShowerDataProcessor {
       });
     
     console.log('\nFiles saved to:', this.outputDir);
+    console.log('\n📍 Note: This processor protects legitimate chain store locations');
+    console.log('   from being incorrectly merged while still removing true duplicates.');
   }
 }
 

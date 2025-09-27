@@ -1,0 +1,321 @@
+{
+  "generated": "2025-09-26T07:15:53.864Z",
+  "coverageGaps": {
+    "major": [
+      {
+        "city": "Chicago",
+        "state": "IL",
+        "population": 2693976,
+        "marketPotential": "Very High"
+      },
+      {
+        "city": "Albuquerque",
+        "state": "NM",
+        "population": 564559,
+        "marketPotential": "Very High"
+      },
+      {
+        "city": "Atlanta",
+        "state": "GA",
+        "population": 498715,
+        "marketPotential": "High"
+      },
+      {
+        "city": "Colorado Springs",
+        "state": "CO",
+        "population": 478961,
+        "marketPotential": "High"
+      },
+      {
+        "city": "Minneapolis",
+        "state": "MN",
+        "population": 429954,
+        "marketPotential": "High"
+      },
+      {
+        "city": "New Orleans",
+        "state": "LA",
+        "population": 383997,
+        "marketPotential": "High"
+      },
+      {
+        "city": "Wichita",
+        "state": "KS",
+        "population": 389938,
+        "marketPotential": "High"
+      }
+    ],
+    "semiMajor": [
+      {
+        "city": "Honolulu",
+        "state": "HI",
+        "population": 345064,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Riverside",
+        "state": "CA",
+        "population": 331360,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Greensboro",
+        "state": "NC",
+        "population": 295570,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Anchorage",
+        "state": "AK",
+        "population": 291247,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Lincoln",
+        "state": "NE",
+        "population": 295178,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Fort Wayne",
+        "state": "IN",
+        "population": 270402,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Madison",
+        "state": "WI",
+        "population": 269840,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Reno",
+        "state": "NV",
+        "population": 264165,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Boise",
+        "state": "ID",
+        "population": 235684,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Richmond",
+        "state": "VA",
+        "population": 230436,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Baton Rouge",
+        "state": "LA",
+        "population": 227470,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "San Bernardino",
+        "state": "CA",
+        "population": 222101,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Spokane",
+        "state": "WA",
+        "population": 228989,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Modesto",
+        "state": "CA",
+        "population": 218464,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Oxnard",
+        "state": "CA",
+        "population": 202063,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Fontana",
+        "state": "CA",
+        "population": 208393,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Columbus",
+        "state": "GA",
+        "population": 206922,
+        "marketPotential": "Medium"
+      },
+      {
+        "city": "Montgomery",
+        "state": "AL",
+        "population": 200603,
+        "marketPotential": "Medium"
+      }
+    ],
+    "important": [
+      {
+        "city": "Mobile",
+        "state": "AL",
+        "population": 187041,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Grand Rapids",
+        "state": "MI",
+        "population": 198917,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Tallahassee",
+        "state": "FL",
+        "population": 194500,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Worcester",
+        "state": "MA",
+        "population": 185877,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Santa Clarita",
+        "state": "CA",
+        "population": 176320,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Providence",
+        "state": "RI",
+        "population": 190934,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Eugene",
+        "state": "OR",
+        "population": 176654,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Santa Rosa",
+        "state": "CA",
+        "population": 178127,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Sioux Falls",
+        "state": "SD",
+        "population": 192517,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Springfield",
+        "state": "MO",
+        "population": 169176,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Cape Coral",
+        "state": "FL",
+        "population": 194016,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Flint",
+        "state": "MI",
+        "population": 95538,
+        "marketPotential": "Low"
+      },
+      {
+        "city": "Coral Springs",
+        "state": "FL",
+        "population": 134394,
+        "marketPotential": "Low"
+      }
+    ]
+  },
+  "citiesWithGoodCoverage": [
+    {
+      "city": "St. Louis, MO",
+      "locationCount": 347
+    },
+    {
+      "city": "Cincinnati, OH",
+      "locationCount": 318
+    },
+    {
+      "city": "Columbus, OH",
+      "locationCount": 299
+    },
+    {
+      "city": "Raleigh, NC",
+      "locationCount": 291
+    },
+    {
+      "city": "Washington, DC",
+      "locationCount": 258
+    },
+    {
+      "city": "Charlotte, NC",
+      "locationCount": 257
+    },
+    {
+      "city": "Cleveland, OH",
+      "locationCount": 221
+    },
+    {
+      "city": "Las Vegas, NV",
+      "locationCount": 204
+    },
+    {
+      "city": "Indianapolis, IN",
+      "locationCount": 196
+    },
+    {
+      "city": "Memphis, TN",
+      "locationCount": 177
+    },
+    {
+      "city": "Philadelphia, PA",
+      "locationCount": 176
+    },
+    {
+      "city": "Los Angeles, CA",
+      "locationCount": 161
+    },
+    {
+      "city": "Houston, TX",
+      "locationCount": 160
+    },
+    {
+      "city": "Jacksonville, FL",
+      "locationCount": 158
+    },
+    {
+      "city": "Oklahoma City, OK",
+      "locationCount": 154
+    },
+    {
+      "city": "Dallas, TX",
+      "locationCount": 151
+    },
+    {
+      "city": "New York, NY",
+      "locationCount": 142
+    },
+    {
+      "city": "Pittsburgh, PA",
+      "locationCount": 139
+    },
+    {
+      "city": "San Antonio, TX",
+      "locationCount": 134
+    },
+    {
+      "city": "Phoenix, AZ",
+      "locationCount": 131
+    }
+  ]
+}

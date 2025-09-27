@@ -11,8 +11,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "44.2117406",
-      "lng": "-72.5804594",
+      "lat": "44.2115682",
+      "lng": "-72.5761886",
       "phone": "(802) 229-5291",
       "website": "https://www.exxon.com/en/find-station/200304445",
       "content": "Maplewood Vermont Travelers Service Center may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -180,7 +180,7 @@
       "showerReviewCount": 13,
       "showerReviewSummary": "6 shower-related reviews found. Generally Positive mentions of: shower, clean, restroom, bathroom",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "159 Paine Turnpike N, Berlin, VT 05602",
+      "address": "159 Paine Turnpike N, Berlin, VT 05602",
       "rating": "3.6",
       "reviewCount": "",
       "priceLevel": "",
@@ -197,7 +197,14 @@
       "sourceCity": "Fair Haven",
       "sourceState": "VT",
       "timestamp": "2025-09-22T11:28:52.930Z",
-      "state": "VT"
+      "state": "VT",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:45.727Z",
+        "originalLat": "44.2117406",
+        "originalLng": "-72.5804594",
+        "matchedAddress": "159 Paine Turnpike N, Berlin, VT 05602",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "ATM (Fair Haven Travel Center)",
@@ -208,8 +215,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "43.6042651",
-      "lng": "-73.280439",
+      "lat": "43.598329",
+      "lng": "-73.272142",
       "phone": "(802) 265-3500",
       "website": "https://www.exxon.com/en/find-station/200304445",
       "content": "Mac's Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -235,7 +242,7 @@
       "showerReviewCount": 1,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "22 Washington St Ext A, Fair Haven, VT 05743",
+      "address": "22 Washington St Ext A, Fair Haven, VT 05743",
       "rating": "4.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -252,7 +259,14 @@
       "sourceCity": "Fair Haven",
       "sourceState": "VT",
       "timestamp": "2025-09-22T11:28:52.930Z",
-      "state": "VT"
+      "state": "VT",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:45.727Z",
+        "originalLat": "43.6042651",
+        "originalLng": "-73.280439",
+        "matchedAddress": "22 Washington St Ext A, Fair Haven, VT 05743",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Mobil",
@@ -263,8 +277,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "43.6032163",
-      "lng": "-73.2796919",
+      "lat": "43.6033026",
+      "lng": "-73.2750335",
       "phone": "(802) 265-3009",
       "website": "https://www.exxon.com/en/find-station/200304445",
       "content": "Mobil may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -359,7 +373,7 @@
       "showerReviewCount": 7,
       "showerReviewSummary": "7 shower-related reviews found. Generally Positive mentions of: shower, clean, showers",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "699 Washington St, Fair Haven, VT 05743",
+      "address": "699 Washington St, Fair Haven, VT 05743",
       "rating": "4.3",
       "reviewCount": "",
       "priceLevel": "",
@@ -376,7 +390,14 @@
       "sourceCity": "Fair Haven",
       "sourceState": "VT",
       "timestamp": "2025-09-22T11:28:52.930Z",
-      "state": "VT"
+      "state": "VT",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:45.727Z",
+        "originalLat": "43.6032163",
+        "originalLng": "-73.2796919",
+        "matchedAddress": "699 Washington St, Fair Haven, VT 05743",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "IRVING 24",
@@ -387,8 +408,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "43.590738",
-      "lng": "-72.9728921",
+      "lat": "43.590641",
+      "lng": "-72.9683",
       "phone": "(802) 775-9021",
       "website": "https://www.exxon.com/en/find-station/200304445",
       "content": "IRVING 24 may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -401,7 +422,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open ⋅ Closes 9 pm Monday5 am–9 pmTuesday5 am–9 pmWednesday5 am–9 pmThursday5 am–9 pmFriday5 am–9 pmSaturday6 am–9 pmSunday6 am–9 pmSuggest new hours",
-      "address": "258 S Main St, Rutland, VT 05701",
+      "address": "258 S Main St, Rutland, VT 05701",
       "rating": "3.8",
       "reviewCount": "",
       "priceLevel": "",
@@ -418,7 +439,14 @@
       "sourceCity": "Fair Haven",
       "sourceState": "VT",
       "timestamp": "2025-09-22T11:28:52.930Z",
-      "state": "VT"
+      "state": "VT",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:45.728Z",
+        "originalLat": "43.590738",
+        "originalLng": "-72.9728921",
+        "matchedAddress": "258 S Main St, Rutland, VT 05701",
+        "updateSource": "csv_coordinate_correction"
+      }
     }
   ],
   "cities": [
@@ -432,6 +460,11 @@
     "Public Facility"
   ],
   "locationsWithPhone": 4,
-  "timestamp": "2025-09-24T08:19:44.630Z",
-  "locationCount": 4
+  "timestamp": "2025-09-27T10:25:18.808Z",
+  "locationCount": 4,
+  "coordinateUpdateSummary": {
+    "updatedAt": "2025-09-27T11:34:45.728Z",
+    "locationsUpdated": 4,
+    "updateSource": "csv_coordinate_correction"
+  }
 }

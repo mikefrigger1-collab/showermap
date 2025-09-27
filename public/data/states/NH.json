@@ -11,8 +11,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "43.121688",
-      "lng": "-71.4852481",
+      "lat": "43.16372967",
+      "lng": "-71.51509048",
       "phone": "(603) 223-6885",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "Pilot Dealer may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -143,7 +143,7 @@
       "showerReviewCount": 10,
       "showerReviewSummary": "10 shower-related reviews found. Mixed/Negative mentions of: shower, showers, clean, bathroom",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "728 NH-3A, Bow, NH 03304",
+      "address": "728 NH-3A, Bow, NH 03304",
       "rating": "3.3",
       "reviewCount": "",
       "priceLevel": "",
@@ -160,10 +160,17 @@
       "sourceCity": "Merrimack",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "NH"
+      "state": "NH",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:43.679Z",
+        "originalLat": "43.121688",
+        "originalLng": "-71.4852481",
+        "matchedAddress": "728 NH-3A, Bow, NH 03304",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
-      "title": "Kennebunk North Travel Plaza",
+      "title": "TA Travel Center",
       "street": "TA Travel Center 3.7(971)Truck stop",
       "city": "Greenland",
       "province": "",
@@ -171,12 +178,12 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "43.4101219",
-      "lng": "-70.5652132",
+      "lat": "43.042825",
+      "lng": "-70.818559",
       "phone": "(603) 436-3636",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "TA Travel Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Truck Stop, Public Facility",
+      "category": "Truck Stop",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -321,24 +328,13 @@
           ],
           "index": 86,
           "uniqueId": "Mr. Boro (Ollie)_…_was_very_helpful._So_I’m_a_new_driver_I_get_the_5 years ago"
-        },
-        {
-          "reviewerName": "Philip 2791",
-          "rating": "3 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "For PRO TRUCKERS this truck stop IS NO PLACE TO SHOWER AND LAUNDRy, do not stop here if you need to 34 reset this facility does not have shower or laundry, NO SHOWER, NO LAUNDRY HERE DRIVERS SKIP THIS PLACE UNLESS YOU JUST WANT TO FUEL UP …",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 0,
-          "uniqueId": "Philip 2791_For_PRO_TRUCKERS_this_truck_stop_IS_NO_PLACE_TO_SH_2 years ago"
         }
       ],
-      "showerReviewCount": 13,
+      "showerReviewCount": 12,
       "showerReviewSummary": "2 shower-related reviews found. Generally Positive mentions of: shower, clean",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "Mile 25 Southbound, Maine Turnpike, Kennebunk, ME 04043",
-      "rating": "4.1",
+      "address": "108 Ocean Rd, Greenland, NH 03840",
+      "rating": "3.7",
       "reviewCount": "",
       "priceLevel": "",
       "businessType": "Truck stop",
@@ -354,7 +350,14 @@
       "sourceCity": "Merrimack",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "NH"
+      "state": "NH",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:43.679Z",
+        "originalLat": "43.043049",
+        "originalLng": "-70.8227956",
+        "matchedAddress": "108 Ocean Rd, Greenland, NH 03840",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Evans Expressmart (Enfield)",
@@ -365,8 +368,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "44.162185",
-      "lng": "-74.3974913",
+      "lat": "43.6111128",
+      "lng": "-72.187275",
       "phone": "(603) 788-4600",
       "website": "https://www.valero.com/",
       "content": "TJ'S Truck Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -614,7 +617,7 @@
       "showerReviewCount": 20,
       "showerReviewSummary": "3 shower-related reviews found. Generally Positive mentions of: shower, showers, clean",
       "hours": "",
-      "address": "11 Eastman Hill Rd, Enfield, NH 03748",
+      "address": "11 Eastman Hill Rd, Enfield, NH 03748",
       "rating": "5.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -631,7 +634,14 @@
       "sourceCity": "Lancaster",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:41:55.608Z",
-      "state": "NH"
+      "state": "NH",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:43.680Z",
+        "originalLat": "44.162185",
+        "originalLng": "-74.3974913",
+        "matchedAddress": "11 Eastman Hill Rd, Enfield, NH 03748",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "EXIT 18 TRUCK STOP",
@@ -642,8 +652,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "43.6507903",
-      "lng": "-72.2463226",
+      "lat": "43.65080885",
+      "lng": "-72.24235525",
       "phone": "(603) 448-5510",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "EXIT 18 TRUCK STOP may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -705,7 +715,7 @@
       "showerReviewCount": 4,
       "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: shower, showering, showers",
       "hours": "Open ⋅ Closes 11 pm Monday5 am–11 pmTuesday5 am–11 pmWednesday5 am–11 pmThursday5 am–11 pmFriday5 am–11 pmSaturday5 am–11 pmSunday5 am–11 pmSuggest new hours",
-      "address": "151 Heater Rd, Lebanon, NH 03766",
+      "address": "151 Heater Rd, Lebanon, NH 03766",
       "rating": "3.8",
       "reviewCount": "",
       "priceLevel": "",
@@ -722,7 +732,14 @@
       "sourceCity": "Merrimack",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "NH"
+      "state": "NH",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:43.680Z",
+        "originalLat": "43.6507903",
+        "originalLng": "-72.2463226",
+        "matchedAddress": "151 Heater Rd, Lebanon, NH 03766",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "ATM (Exit 5 Truck Stop Inc)",
@@ -733,8 +750,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.9154228",
-      "lng": "-71.3720496",
+      "lat": "42.91514689",
+      "lng": "-71.366654",
       "phone": "(603) 437-9929",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "RMZ TRAVEL CENTER may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -805,7 +822,7 @@
       "showerReviewCount": 5,
       "showerReviewSummary": "4 shower-related reviews found. Generally Positive mentions of: clean, shower, showers, restroom",
       "hours": "Open 24 hours MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hoursSuggest new hours",
-      "address": "137 Rockingham Rd, Londonderry, NH 03053",
+      "address": "137 Rockingham Rd, Londonderry, NH 03053",
       "rating": "4.7",
       "reviewCount": "",
       "priceLevel": "",
@@ -822,7 +839,14 @@
       "sourceCity": "Merrimack",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "NH"
+      "state": "NH",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:43.680Z",
+        "originalLat": "42.9154228",
+        "originalLng": "-71.3720496",
+        "matchedAddress": "137 Rockingham Rd, Londonderry, NH 03053",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Advantage Truck Group - Manchester",
@@ -833,8 +857,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.9537175",
-      "lng": "-71.4535108",
+      "lat": "42.95260442",
+      "lng": "-71.4474104",
       "phone": "(800) 360-5360",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "Advantage Truck Group - Manchester may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -847,7 +871,7 @@
       "showerReviewCount": 0,
       "showerReviewSummary": "No shower-related reviews found",
       "hours": "Open ⋅ Closes 12 am Monday7 am–12 amTuesday7 am–12 amWednesday7 am–12 amThursday7 am–12 amFriday7 am–12 amSaturday7 am–3:30 pmSundayClosedSuggest new hours",
-      "address": "220 Frontage Rd, Manchester, NH 03103",
+      "address": "220 Frontage Rd, Manchester, NH 03103",
       "rating": "4.0",
       "reviewCount": "",
       "priceLevel": "",
@@ -864,7 +888,14 @@
       "sourceCity": "Merrimack",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "NH"
+      "state": "NH",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:43.681Z",
+        "originalLat": "42.9537175",
+        "originalLng": "-71.4535108",
+        "matchedAddress": "220 Frontage Rd, Manchester, NH 03103",
+        "updateSource": "csv_coordinate_correction"
+      }
     },
     {
       "title": "Mobil",
@@ -875,8 +906,8 @@
       "country": "USA",
       "businessDescription": "",
       "extractedHours": "",
-      "lat": "42.8140572",
-      "lng": "-71.4909462",
+      "lat": "42.81799421",
+      "lng": "-71.48620532",
       "phone": "(603) 402-1036",
       "website": "https://www.exxon.com/en/find-station/200304361",
       "content": "Mobil may offer shower facilities. Contact directly to confirm availability and pricing.",
@@ -913,7 +944,7 @@
       "showerReviewCount": 2,
       "showerReviewSummary": "1 shower-related reviews found. Mixed mentions of: shower",
       "hours": "",
-      "address": "140 Daniel Webster Hwy, Merrimack, NH 03054",
+      "address": "140 Daniel Webster Hwy, Merrimack, NH 03054",
       "rating": "4.9",
       "reviewCount": "",
       "priceLevel": "",
@@ -930,7 +961,14 @@
       "sourceCity": "Merrimack",
       "sourceState": "NH",
       "timestamp": "2025-09-22T12:06:43.478Z",
-      "state": "NH"
+      "state": "NH",
+      "coordinateUpdate": {
+        "updatedAt": "2025-09-27T11:34:43.681Z",
+        "originalLat": "42.8140572",
+        "originalLng": "-71.4909462",
+        "matchedAddress": "140 Daniel Webster Hwy, Merrimack, NH 03054",
+        "updateSource": "csv_coordinate_correction"
+      }
     }
   ],
   "cities": [
@@ -942,15 +980,19 @@
     "Manchester",
     "Merrimack"
   ],
-  "totalReviews": 54,
+  "totalReviews": 53,
   "categories": [
     "Public Facility",
     "Truck Stop",
     "Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Truck Stop, Public Facility, Truck Stop",
-    "Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop",
-    "Truck Stop, Public Facility"
+    "Truck Stop, Truck Stop, Public Facility, Truck Stop, Truck Stop, Truck Stop"
   ],
   "locationsWithPhone": 7,
-  "timestamp": "2025-09-24T08:19:44.630Z",
-  "locationCount": 7
+  "timestamp": "2025-09-27T10:25:18.808Z",
+  "locationCount": 7,
+  "coordinateUpdateSummary": {
+    "updatedAt": "2025-09-27T11:34:43.681Z",
+    "locationsUpdated": 7,
+    "updateSource": "csv_coordinate_correction"
+  }
 }

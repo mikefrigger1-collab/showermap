@@ -1,0 +1,676 @@
+{
+  "generated": "2025-09-26T07:15:53.870Z",
+  "stateAnalysis": {
+    "NY": {
+      "majorCities": 3,
+      "citiesWithLocations": 3,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "CA": {
+      "majorCities": 25,
+      "citiesWithLocations": 18,
+      "citiesWithoutLocations": [
+        {
+          "city": "Riverside",
+          "population": 331360,
+          "tier": "semi-major"
+        },
+        {
+          "city": "San Bernardino",
+          "population": 222101,
+          "tier": "semi-major"
+        },
+        {
+          "city": "Modesto",
+          "population": 218464,
+          "tier": "semi-major"
+        },
+        {
+          "city": "Fontana",
+          "population": 208393,
+          "tier": "semi-major"
+        },
+        {
+          "city": "Oxnard",
+          "population": 202063,
+          "tier": "semi-major"
+        },
+        {
+          "city": "Santa Rosa",
+          "population": 178127,
+          "tier": "important"
+        },
+        {
+          "city": "Santa Clarita",
+          "population": 176320,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "72.0%"
+    },
+    "IL": {
+      "majorCities": 1,
+      "citiesWithLocations": 0,
+      "citiesWithoutLocations": [
+        {
+          "city": "Chicago",
+          "population": 2693976,
+          "tier": "major"
+        }
+      ],
+      "coveragePercentage": "0.0%"
+    },
+    "TX": {
+      "majorCities": 17,
+      "citiesWithLocations": 17,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "AZ": {
+      "majorCities": 8,
+      "citiesWithLocations": 8,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "PA": {
+      "majorCities": 2,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "FL": {
+      "majorCities": 11,
+      "citiesWithLocations": 8,
+      "citiesWithoutLocations": [
+        {
+          "city": "Tallahassee",
+          "population": 194500,
+          "tier": "important"
+        },
+        {
+          "city": "Cape Coral",
+          "population": 194016,
+          "tier": "important"
+        },
+        {
+          "city": "Coral Springs",
+          "population": 134394,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "72.7%"
+    },
+    "OH": {
+      "majorCities": 4,
+      "citiesWithLocations": 4,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "IN": {
+      "majorCities": 2,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "Fort Wayne",
+          "population": 270402,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "50.0%"
+    },
+    "NC": {
+      "majorCities": 6,
+      "citiesWithLocations": 5,
+      "citiesWithoutLocations": [
+        {
+          "city": "Greensboro",
+          "population": 295570,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "83.3%"
+    },
+    "WA": {
+      "majorCities": 3,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [
+        {
+          "city": "Spokane",
+          "population": 228989,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "66.7%"
+    },
+    "CO": {
+      "majorCities": 3,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [
+        {
+          "city": "Colorado Springs",
+          "population": 478961,
+          "tier": "major"
+        }
+      ],
+      "coveragePercentage": "66.7%"
+    },
+    "DC": {
+      "majorCities": 1,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "MA": {
+      "majorCities": 2,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "Worcester",
+          "population": 185877,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "50.0%"
+    },
+    "TN": {
+      "majorCities": 4,
+      "citiesWithLocations": 4,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "MI": {
+      "majorCities": 3,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "Grand Rapids",
+          "population": 198917,
+          "tier": "important"
+        },
+        {
+          "city": "Flint",
+          "population": 95538,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "33.3%"
+    },
+    "OK": {
+      "majorCities": 2,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "OR": {
+      "majorCities": 2,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "Eugene",
+          "population": 176654,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "50.0%"
+    },
+    "NV": {
+      "majorCities": 4,
+      "citiesWithLocations": 3,
+      "citiesWithoutLocations": [
+        {
+          "city": "Reno",
+          "population": 264165,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "75.0%"
+    },
+    "KY": {
+      "majorCities": 2,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "MD": {
+      "majorCities": 1,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "WI": {
+      "majorCities": 2,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "Madison",
+          "population": 269840,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "50.0%"
+    },
+    "NM": {
+      "majorCities": 1,
+      "citiesWithLocations": 0,
+      "citiesWithoutLocations": [
+        {
+          "city": "Albuquerque",
+          "population": 564559,
+          "tier": "major"
+        }
+      ],
+      "coveragePercentage": "0.0%"
+    },
+    "MO": {
+      "majorCities": 3,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [
+        {
+          "city": "Springfield",
+          "population": 169176,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "66.7%"
+    },
+    "GA": {
+      "majorCities": 3,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "Atlanta",
+          "population": 498715,
+          "tier": "major"
+        },
+        {
+          "city": "Columbus",
+          "population": 206922,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "33.3%"
+    },
+    "NE": {
+      "majorCities": 2,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "Lincoln",
+          "population": 295178,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "50.0%"
+    },
+    "VA": {
+      "majorCities": 5,
+      "citiesWithLocations": 4,
+      "citiesWithoutLocations": [
+        {
+          "city": "Richmond",
+          "population": 230436,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "80.0%"
+    },
+    "MN": {
+      "majorCities": 2,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "Minneapolis",
+          "population": 429954,
+          "tier": "major"
+        }
+      ],
+      "coveragePercentage": "50.0%"
+    },
+    "LA": {
+      "majorCities": 3,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [
+        {
+          "city": "New Orleans",
+          "population": 383997,
+          "tier": "major"
+        },
+        {
+          "city": "Baton Rouge",
+          "population": 227470,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "33.3%"
+    },
+    "KS": {
+      "majorCities": 3,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [
+        {
+          "city": "Wichita",
+          "population": 389938,
+          "tier": "major"
+        }
+      ],
+      "coveragePercentage": "66.7%"
+    },
+    "HI": {
+      "majorCities": 1,
+      "citiesWithLocations": 0,
+      "citiesWithoutLocations": [
+        {
+          "city": "Honolulu",
+          "population": 345064,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "0.0%"
+    },
+    "AK": {
+      "majorCities": 1,
+      "citiesWithLocations": 0,
+      "citiesWithoutLocations": [
+        {
+          "city": "Anchorage",
+          "population": 291247,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "0.0%"
+    },
+    "NJ": {
+      "majorCities": 2,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "ID": {
+      "majorCities": 1,
+      "citiesWithLocations": 0,
+      "citiesWithoutLocations": [
+        {
+          "city": "Boise",
+          "population": 235684,
+          "tier": "semi-major"
+        }
+      ],
+      "coveragePercentage": "0.0%"
+    },
+    "AL": {
+      "majorCities": 4,
+      "citiesWithLocations": 2,
+      "citiesWithoutLocations": [
+        {
+          "city": "Montgomery",
+          "population": 200603,
+          "tier": "semi-major"
+        },
+        {
+          "city": "Mobile",
+          "population": 187041,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "50.0%"
+    },
+    "IA": {
+      "majorCities": 1,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "AR": {
+      "majorCities": 1,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "UT": {
+      "majorCities": 1,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    },
+    "RI": {
+      "majorCities": 1,
+      "citiesWithLocations": 0,
+      "citiesWithoutLocations": [
+        {
+          "city": "Providence",
+          "population": 190934,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "0.0%"
+    },
+    "SD": {
+      "majorCities": 1,
+      "citiesWithLocations": 0,
+      "citiesWithoutLocations": [
+        {
+          "city": "Sioux Falls",
+          "population": 192517,
+          "tier": "important"
+        }
+      ],
+      "coveragePercentage": "0.0%"
+    },
+    "MS": {
+      "majorCities": 1,
+      "citiesWithLocations": 1,
+      "citiesWithoutLocations": [],
+      "coveragePercentage": "100.0%"
+    }
+  },
+  "bestCoveredStates": [
+    {
+      "state": "NY",
+      "coverage": "100.0%",
+      "citiesWithLocations": 3,
+      "totalMajorCities": 3
+    },
+    {
+      "state": "TX",
+      "coverage": "100.0%",
+      "citiesWithLocations": 17,
+      "totalMajorCities": 17
+    },
+    {
+      "state": "AZ",
+      "coverage": "100.0%",
+      "citiesWithLocations": 8,
+      "totalMajorCities": 8
+    },
+    {
+      "state": "PA",
+      "coverage": "100.0%",
+      "citiesWithLocations": 2,
+      "totalMajorCities": 2
+    },
+    {
+      "state": "OH",
+      "coverage": "100.0%",
+      "citiesWithLocations": 4,
+      "totalMajorCities": 4
+    },
+    {
+      "state": "DC",
+      "coverage": "100.0%",
+      "citiesWithLocations": 1,
+      "totalMajorCities": 1
+    },
+    {
+      "state": "TN",
+      "coverage": "100.0%",
+      "citiesWithLocations": 4,
+      "totalMajorCities": 4
+    },
+    {
+      "state": "OK",
+      "coverage": "100.0%",
+      "citiesWithLocations": 2,
+      "totalMajorCities": 2
+    },
+    {
+      "state": "KY",
+      "coverage": "100.0%",
+      "citiesWithLocations": 2,
+      "totalMajorCities": 2
+    },
+    {
+      "state": "MD",
+      "coverage": "100.0%",
+      "citiesWithLocations": 1,
+      "totalMajorCities": 1
+    }
+  ],
+  "worstCoveredStates": [
+    {
+      "state": "IL",
+      "coverage": "0.0%",
+      "citiesWithLocations": 0,
+      "totalMajorCities": 1,
+      "gaps": [
+        {
+          "city": "Chicago",
+          "population": 2693976,
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "state": "NM",
+      "coverage": "0.0%",
+      "citiesWithLocations": 0,
+      "totalMajorCities": 1,
+      "gaps": [
+        {
+          "city": "Albuquerque",
+          "population": 564559,
+          "tier": "major"
+        }
+      ]
+    },
+    {
+      "state": "HI",
+      "coverage": "0.0%",
+      "citiesWithLocations": 0,
+      "totalMajorCities": 1,
+      "gaps": [
+        {
+          "city": "Honolulu",
+          "population": 345064,
+          "tier": "semi-major"
+        }
+      ]
+    },
+    {
+      "state": "AK",
+      "coverage": "0.0%",
+      "citiesWithLocations": 0,
+      "totalMajorCities": 1,
+      "gaps": [
+        {
+          "city": "Anchorage",
+          "population": 291247,
+          "tier": "semi-major"
+        }
+      ]
+    },
+    {
+      "state": "ID",
+      "coverage": "0.0%",
+      "citiesWithLocations": 0,
+      "totalMajorCities": 1,
+      "gaps": [
+        {
+          "city": "Boise",
+          "population": 235684,
+          "tier": "semi-major"
+        }
+      ]
+    },
+    {
+      "state": "RI",
+      "coverage": "0.0%",
+      "citiesWithLocations": 0,
+      "totalMajorCities": 1,
+      "gaps": [
+        {
+          "city": "Providence",
+          "population": 190934,
+          "tier": "important"
+        }
+      ]
+    },
+    {
+      "state": "SD",
+      "coverage": "0.0%",
+      "citiesWithLocations": 0,
+      "totalMajorCities": 1,
+      "gaps": [
+        {
+          "city": "Sioux Falls",
+          "population": 192517,
+          "tier": "important"
+        }
+      ]
+    },
+    {
+      "state": "MI",
+      "coverage": "33.3%",
+      "citiesWithLocations": 1,
+      "totalMajorCities": 3,
+      "gaps": [
+        {
+          "city": "Grand Rapids",
+          "population": 198917,
+          "tier": "important"
+        },
+        {
+          "city": "Flint",
+          "population": 95538,
+          "tier": "important"
+        }
+      ]
+    },
+    {
+      "state": "GA",
+      "coverage": "33.3%",
+      "citiesWithLocations": 1,
+      "totalMajorCities": 3,
+      "gaps": [
+        {
+          "city": "Atlanta",
+          "population": 498715,
+          "tier": "major"
+        },
+        {
+          "city": "Columbus",
+          "population": 206922,
+          "tier": "semi-major"
+        }
+      ]
+    },
+    {
+      "state": "LA",
+      "coverage": "33.3%",
+      "citiesWithLocations": 1,
+      "totalMajorCities": 3,
+      "gaps": [
+        {
+          "city": "New Orleans",
+          "population": 383997,
+          "tier": "major"
+        },
+        {
+          "city": "Baton Rouge",
+          "population": 227470,
+          "tier": "semi-major"
+        }
+      ]
+    }
+  ]
+}
