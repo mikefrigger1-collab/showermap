@@ -9,7 +9,7 @@ const path = require('path');
 // Load your actual location data
 function loadLocations() {
   try {
-    const dataPath = path.join(process.cwd(), 'public', 'data', 'locations-by-state');
+    const dataPath = path.join(process.cwd(), 'public', 'data', 'states');
     const states = fs.readdirSync(dataPath);
     const allUrls = [];
     

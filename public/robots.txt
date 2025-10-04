@@ -3,9 +3,25 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /_next/
+Disallow: /admin/
+Disallow: /draft/
+Disallow: /*.json$
+Disallow: /server-sitemap.xml
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+# bingbot
+User-agent: bingbot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
 
 # Host
-Host: https://www.showermap.com/
+Host: https://www.showermap.com
 
 # Sitemaps
 Sitemap: https://www.showermap.com/sitemap.xml
