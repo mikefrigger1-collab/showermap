@@ -114,26 +114,27 @@ const createSlug = (title: string): string => {
 // ============================================================================
 
 /**
- * Create a custom marker icon
+ * Create a custom marker icon with category-based colors
  */
 function createMarkerIcon(category: string, verified: boolean = false): L.DivIcon {
-  const color = verified ? '#259dd1ff' : '#6b7280'; // Light blue for verified, gray for unverified
-  
+  // Use category color, fallback to default gray
+  const color = CATEGORY_COLORS[category] || CATEGORY_COLORS['default'];
+
   return L.divIcon({
     html: `
       <div style="
         position: relative;
-        width: 24px;
-        height: 32px;
+        width: 28px;
+        height: 36px;
       ">
         <div style="
           background-color: ${color};
-          width: 24px;
-          height: 24px;
+          width: 28px;
+          height: 28px;
           border-radius: 50% 50% 50% 0;
           transform: rotate(-45deg);
           border: 2px solid white;
-          box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+          box-shadow: 0 2px 4px rgba(0,0,0,0.3);
           position: absolute;
           top: 0;
           left: 0;
@@ -141,20 +142,27 @@ function createMarkerIcon(category: string, verified: boolean = false): L.DivIco
         ${verified ? `
           <div style="
             position: absolute;
-            top: 3px;
-            left: 6px;
-            color: white;
-            font-size: 12px;
-            font-weight: bold;
-            z-index: 1;
-          ">✓</div>
+            top: -4px;
+            right: -4px;
+            background-color: #10b981;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+          ">
+            <span style="color: white; font-size: 9px; font-weight: bold;">✓</span>
+          </div>
         ` : ''}
       </div>
     `,
     className: 'custom-div-icon',
-    iconSize: [24, 32],
-    iconAnchor: [12, 32],
-    popupAnchor: [0, -32],
+    iconSize: [28, 36],
+    iconAnchor: [14, 36],
+    popupAnchor: [0, -36],
   });
 }
 
@@ -274,11 +282,52 @@ function isCluster(item: MapLocation | Cluster): item is Cluster {
 function formatHours(hours: Record<string, string>): string {
   const today = new Date().toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();
   const todayHours = hours[today];
-  
-  if (!todayHours) return 'Hours not available';
+
+  if (!todayHours) return 'Hours vary';
   if (todayHours.toLowerCase() === 'closed') return 'Closed today';
-  
-  return `Today: ${todayHours}`;
+
+  // Clean up hours display
+  const cleaned = todayHours
+    .replace(/&ndash;/g, '-')
+    .replace(/&#8211;/g, '-')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  return cleaned || 'Hours vary';
+}
+
+/**
+ * Get the correct URL path for a location based on its country
+ */
+function getLocationUrl(location: MapLocation): string {
+  // Determine country slug
+  const country = (location.country || 'USA').toLowerCase();
+  let countrySlug = 'usa';
+
+  if (country === 'uk' || country === 'united kingdom' || country.includes('britain')) {
+    countrySlug = 'uk';
+  } else if (country === 'australia' || country === 'au') {
+    countrySlug = 'australia';
+  }
+
+  // Determine region slug based on country
+  let regionSlug = '';
+
+  if (countrySlug === 'usa') {
+    // USA uses state codes
+    regionSlug = getStateSlug(location.state);
+  } else if (countrySlug === 'uk') {
+    // UK uses ukRegion field or province
+    regionSlug = (location as any).ukRegion || location.state?.toLowerCase().replace(/\s+/g, '-') || 'london';
+  } else if (countrySlug === 'australia') {
+    // Australia uses state names as slugs
+    regionSlug = location.state?.toLowerCase().replace(/\s+/g, '-') || 'queensland';
+  }
+
+  // Use existing slug if available, otherwise create from title
+  const locationSlug = location.slug || createSlug(location.title);
+
+  return `/${countrySlug}/${regionSlug}/${locationSlug}/`;
 }
 
 /**
@@ -337,114 +386,136 @@ function MapEventHandler({
  * Location popup content
  */
 function LocationPopup({ location }: { location: MapLocation }) {
-      if (!location || !location.title) {
+  if (!location || !location.title) {
     return <div className="p-2 text-gray-500">Location data unavailable</div>;
   }
+
+  // Check if location is free
+  const costLower = (location.cost || '').toLowerCase();
+  const isFree = costLower === 'free' || costLower.includes('free');
+
+  // Get category color for accent
+  const categoryColor = CATEGORY_COLORS[location.categories[0]] || CATEGORY_COLORS['default'];
+
   return (
-    <div className="p-1 min-w-[280px] max-w-[320px]">
-      {/* Header */}
-      <div className="flex items-start justify-between gap-2 mb-3">
-        <h3 className="font-semibold text-base leading-tight">{location.title}</h3>
-        {location.verified && (
-          <span title="Verified location">
-            <BadgeCheck className="h-4 w-4 text-green-600 flex-shrink-0" />
-          </span>
-        )}
-      </div>
-      
-      {/* Address */}
-      <div className="flex items-start gap-1 text-sm text-gray-600 mb-2">
-        <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
-        <span>{location.address || `${location.city}, ${location.state}`}</span>
-      </div>
-      
-      {/* Quick info */}
-      <div className="space-y-1 text-sm mb-3">
-        {/* Cost */}
-        <div className="flex items-center gap-1">
-          <DollarSign className="h-4 w-4 text-gray-500" />
-          <span className="font-medium">
-            {location.cost || 'Contact for pricing'}
-          </span>
-        </div>
-        
-        {/* Hours */}
-        <div className="flex items-center gap-1">
-          <Clock className="h-4 w-4 text-gray-500" />
-          <span>{formatHours(location.hours)}</span>
-        </div>
-        
-        {/* Rating */}
-        {location.rating && (
-          <div className="flex items-center gap-1">
-            <Star className="h-4 w-4 text-yellow-500" />
-            <span>{location.rating} stars</span>
-          </div>
-        )}
-        
-        {/* Phone */}
-        {location.phone && (
-          <div className="flex items-center gap-1">
-            <Phone className="h-4 w-4 text-gray-500" />
-            <a href={`tel:${location.phone}`} className="text-blue-600 hover:text-blue-700">
-              {location.phone}
-            </a>
-          </div>
-        )}
-      </div>
-      
-      {/* Categories */}
-      {location.categories.length > 0 && (
-        <div className="flex flex-wrap gap-1 mb-3">
-          {location.categories.slice(0, 3).map((category, idx) => (
-            <span 
-              key={idx}
-              className="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded"
-            >
-              {category}
-            </span>
-          ))}
-        </div>
-      )}
-      
-      {/* Amenities */}
-      {location.amenities.length > 0 && (
-        <div className="flex flex-wrap gap-1 mb-3">
-          {location.amenities.slice(0, 4).map((amenity, idx) => (
-            <span 
-              key={idx}
-              className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded"
-            >
-              {amenity}
-            </span>
-          ))}
-          {location.amenities.length > 4 && (
-            <span className="text-xs text-gray-500">
-              +{location.amenities.length - 4} more
+    <div className="min-w-[280px] max-w-[320px]" style={{ borderLeft: `4px solid ${categoryColor}` }}>
+      <div className="p-3">
+        {/* Header */}
+        <div className="flex items-start justify-between gap-2 mb-2">
+          <h3 className="font-bold text-base leading-tight text-gray-900">{location.title}</h3>
+          {location.verified && (
+            <span title="Verified location" className="flex items-center gap-1 bg-green-100 text-green-700 text-xs px-1.5 py-0.5 rounded-full">
+              <BadgeCheck className="h-3 w-3" />
+              <span>Verified</span>
             </span>
           )}
         </div>
-      )}
-      
-      {/* Action buttons */}
-      <div className="grid grid-cols-2 gap-2 pt-2 border-t">
-        <Link
-          href={`/usa/${getStateSlug(location.state)}/${createSlug(location.title)}/`}
-          className="flex items-center justify-center gap-1 bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 rounded text-sm font-medium transition-colors"
-        >
-          <Info className="h-3 w-3" />
-          Details
-        </Link>
-        
-        <a
-          href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center gap-1 bg-gray-600 hover:bg-gray-700 text-white px-3 py-1.5 rounded text-sm font-medium transition-colors"
-        >
-          <ExternalLink className="h-3 w-3" />
-          Directions
-        </a>
+
+        {/* Address */}
+        <div className="flex items-start gap-1.5 text-sm text-gray-600 mb-3">
+          <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5 text-gray-400" />
+          <span>{location.address || `${location.city}, ${location.state}`}</span>
+        </div>
+
+        {/* Cost - Prominent display */}
+        <div className="mb-3">
+          {isFree ? (
+            <span className="inline-flex items-center gap-1 bg-green-500 text-white text-sm font-bold px-3 py-1 rounded-full">
+              <DollarSign className="h-4 w-4" />
+              FREE
+            </span>
+          ) : (
+            <span className="inline-flex items-center gap-1 bg-gray-100 text-gray-800 text-sm font-medium px-3 py-1 rounded-full">
+              <DollarSign className="h-4 w-4 text-gray-500" />
+              {location.cost || 'Contact for pricing'}
+            </span>
+          )}
+        </div>
+
+        {/* Quick info grid */}
+        <div className="grid grid-cols-2 gap-2 text-sm mb-3">
+          {/* Hours */}
+          <div className="flex items-center gap-1.5 text-gray-600">
+            <Clock className="h-4 w-4 text-gray-400" />
+            <span>{formatHours(location.hours)}</span>
+          </div>
+
+          {/* Rating */}
+          {location.rating ? (
+            <div className="flex items-center gap-1.5">
+              <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
+              <span className="font-medium">{location.rating}</span>
+            </div>
+          ) : null}
+
+          {/* Phone */}
+          {location.phone && (
+            <div className="flex items-center gap-1.5 col-span-2">
+              <Phone className="h-4 w-4 text-gray-400" />
+              <a href={`tel:${location.phone}`} className="text-blue-600 hover:text-blue-700 hover:underline">
+                {location.phone}
+              </a>
+            </div>
+          )}
+        </div>
+
+        {/* Categories */}
+        {location.categories.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 mb-3">
+            {location.categories.slice(0, 3).map((category, idx) => {
+              const catColor = CATEGORY_COLORS[category] || CATEGORY_COLORS['default'];
+              return (
+                <span
+                  key={idx}
+                  className="text-xs font-medium px-2 py-1 rounded"
+                  style={{ backgroundColor: `${catColor}15`, color: catColor }}
+                >
+                  {category}
+                </span>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Amenities */}
+        {location.amenities.length > 0 && (
+          <div className="flex flex-wrap gap-1 mb-3">
+            {location.amenities.slice(0, 4).map((amenity, idx) => (
+              <span
+                key={idx}
+                className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded"
+              >
+                {amenity}
+              </span>
+            ))}
+            {location.amenities.length > 4 && (
+              <span className="text-xs text-gray-500">
+                +{location.amenities.length - 4} more
+              </span>
+            )}
+          </div>
+        )}
+
+        {/* Action buttons */}
+        <div className="grid grid-cols-2 gap-2 pt-3 border-t border-gray-100">
+          <Link
+            href={getLocationUrl(location)}
+            className="flex items-center justify-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+          >
+            <Info className="h-4 w-4" />
+            Details
+          </Link>
+
+          <a
+            href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-1.5 bg-gray-100 hover:bg-gray-200 text-gray-700 px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+          >
+            <ExternalLink className="h-4 w-4" />
+            Directions
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@
 
 export interface MapLocation {
   id: string;
+  slug?: string;
   title: string;
   lat: number;
   lng: number;
@@ -238,6 +239,7 @@ function transformToMapLocation(rawLocation: any, stateCode: string): MapLocatio
   
   return {
     id,
+    slug: rawLocation.slug || undefined,
     title: rawLocation.title || 'Unknown Facility',
     lat,
     lng,
@@ -357,6 +359,7 @@ function transformUKToMapLocation(rawLocation: any, regionSlug: string): MapLoca
 
   return {
     id,
+    slug: rawLocation.slug || undefined,
     title: rawLocation.title || 'Unknown Facility',
     lat,
     lng,
@@ -588,6 +591,7 @@ function transformAustraliaToMapLocation(rawLocation: any, stateSlug: string): M
 
   return {
     id,
+    slug: rawLocation.slug || undefined,
     title: rawLocation.title || 'Unknown Facility',
     lat,
     lng,
