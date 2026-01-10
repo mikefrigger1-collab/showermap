@@ -496,7 +496,8 @@ function LocationPopup({ location }: { location: MapLocation }) {
         <div className="grid grid-cols-2 gap-2 pt-3 border-t border-gray-100">
           <Link
             href={getLocationUrl(location)}
-            className="flex items-center justify-center gap-1.5 bg-orange-500 hover:bg-orange-600 text-white px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
+            className="flex items-center justify-center gap-1.5 bg-orange-500 hover:bg-orange-600 px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
+            style={{ color: 'white' }}
           >
             Details
           </Link>
@@ -505,7 +506,8 @@ function LocationPopup({ location }: { location: MapLocation }) {
             href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-1.5 bg-warm-100 hover:bg-warm-200 text-warm-800 px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
+            className="flex items-center justify-center gap-1.5 bg-gray-100 hover:bg-gray-200 px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
+            style={{ color: '#1f2937' }}
           >
             Directions
           </a>
