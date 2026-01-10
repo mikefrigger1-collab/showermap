@@ -675,40 +675,124 @@ export default function LightweightMapClient() {
   const [viewMode, setViewMode] = useState<ViewMode>('map');
   const [filtersOpen, setFiltersOpen] = useState(false);
 
+  // Reverse geocode to find user's region
+  const reverseGeocode = async (lat: number, lng: number) => {
+    try {
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}&zoom=5`,
+        {
+          headers: {
+            'User-Agent': 'ShowerMap/1.0'
+          }
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error('Geocoding failed');
+      }
+
+      const data = await response.json();
+      const address = data.address || {};
+      const countryCode = address.country_code?.toLowerCase();
+
+      // Determine country and region
+      if (countryCode === 'us') {
+        const stateCode = address.state ? getStateCodeFromName(address.state) : null;
+        if (stateCode) {
+          setFilters(prev => ({ ...prev, country: 'usa', state: stateCode }));
+        }
+      } else if (countryCode === 'gb') {
+        const ukRegion = getUKRegionFromAddress(address);
+        if (ukRegion) {
+          setFilters(prev => ({ ...prev, country: 'uk', state: ukRegion }));
+        }
+      } else if (countryCode === 'au') {
+        const auState = getAustraliaStateFromAddress(address);
+        if (auState) {
+          setFilters(prev => ({ ...prev, country: 'australia', state: auState }));
+        }
+      }
+    } catch (err) {
+      console.error('Reverse geocoding error:', err);
+      // Still set user location even if geocoding fails
+    }
+  };
+
+  // Helper to get US state code from state name
+  const getStateCodeFromName = (stateName: string): string | null => {
+    const state = US_STATES.find(s =>
+      s.name.toLowerCase() === stateName.toLowerCase()
+    );
+    return state?.code || null;
+  };
+
+  // Helper to determine UK region from address
+  const getUKRegionFromAddress = (address: Record<string, string>): string | null => {
+    const region = address.state || address.county || address.city || '';
+    const regionLower = region.toLowerCase();
+
+    // Map common regions
+    if (regionLower.includes('london') || regionLower.includes('greater london')) return 'london';
+    if (regionLower.includes('scotland')) return 'scotland';
+    if (regionLower.includes('wales')) return 'wales';
+    if (regionLower.includes('northern ireland')) return 'northern-ireland';
+    if (regionLower.includes('yorkshire')) return 'yorkshire';
+    if (regionLower.includes('manchester') || regionLower.includes('liverpool') || regionLower.includes('lancashire')) return 'north-west';
+    if (regionLower.includes('birmingham') || regionLower.includes('west midlands')) return 'west-midlands';
+    if (regionLower.includes('nottingham') || regionLower.includes('leicester') || regionLower.includes('derby')) return 'east-midlands';
+    if (regionLower.includes('cambridge') || regionLower.includes('norfolk') || regionLower.includes('suffolk')) return 'east-of-england';
+    if (regionLower.includes('newcastle') || regionLower.includes('durham') || regionLower.includes('tyne')) return 'north-east';
+    if (regionLower.includes('brighton') || regionLower.includes('kent') || regionLower.includes('surrey') || regionLower.includes('sussex')) return 'south-east';
+    if (regionLower.includes('bristol') || regionLower.includes('devon') || regionLower.includes('cornwall') || regionLower.includes('somerset')) return 'south-west';
+
+    return 'london'; // Default to London
+  };
+
+  // Helper to determine Australia state from address
+  const getAustraliaStateFromAddress = (address: Record<string, string>): string | null => {
+    const state = address.state || '';
+    const stateLower = state.toLowerCase();
+
+    if (stateLower.includes('new south wales') || stateLower === 'nsw') return 'new-south-wales';
+    if (stateLower.includes('victoria') || stateLower === 'vic') return 'victoria';
+    if (stateLower.includes('queensland') || stateLower === 'qld') return 'queensland';
+    if (stateLower.includes('western australia') || stateLower === 'wa') return 'western-australia';
+    if (stateLower.includes('south australia') || stateLower === 'sa') return 'south-australia';
+    if (stateLower.includes('tasmania') || stateLower === 'tas') return 'tasmania';
+    if (stateLower.includes('northern territory') || stateLower === 'nt') return 'northern-territory';
+    if (stateLower.includes('australian capital territory') || stateLower === 'act') return 'australian-capital-territory';
+
+    return 'new-south-wales'; // Default
+  };
+
   // Geolocation function
   const getCurrentLocation = useCallback(() => {
-    console.log('Getting location clicked...'); // Debug
     setLocationLoading(true);
-    setError(null); // Clear any previous errors
-    
+    setError(null);
+
     if (!navigator.geolocation) {
-      const errorMsg = 'Geolocation is not supported by this browser';
-      console.error(errorMsg);
-      setError(errorMsg);
+      setError('Geolocation is not supported by this browser');
       setLocationLoading(false);
       return;
     }
 
-    console.log('Requesting geolocation permission...'); // Debug
-    
     navigator.geolocation.getCurrentPosition(
-      (position) => {
-        console.log('Location success:', position.coords); // Debug
+      async (position) => {
         const newLocation = {
           lat: position.coords.latitude,
           lng: position.coords.longitude,
           accuracy: position.coords.accuracy
         };
         setUserLocation(newLocation);
+
+        // Reverse geocode to find the user's region
+        await reverseGeocode(newLocation.lat, newLocation.lng);
+
         setLocationLoading(false);
-        
-        // Auto-select state based on location (optional enhancement)
-        // You could add logic here to determine which state the user is in
       },
       (error) => {
-        console.error('Geolocation error:', error);
         let errorMsg = 'Unable to get your location. ';
-        
+
         switch(error.code) {
           case error.PERMISSION_DENIED:
             errorMsg += 'Location access was denied. Please enable location permissions in your browser.';
@@ -723,14 +807,14 @@ export default function LightweightMapClient() {
             errorMsg += 'An unknown error occurred.';
             break;
         }
-        
+
         setError(errorMsg);
         setLocationLoading(false);
       },
       {
         enableHighAccuracy: true,
-        timeout: 15000, // 15 seconds
-        maximumAge: 300000 // 5 minutes
+        timeout: 15000,
+        maximumAge: 300000
       }
     );
   }, []);

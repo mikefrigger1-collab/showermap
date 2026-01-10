@@ -496,7 +496,7 @@ function LocationPopup({ location }: { location: MapLocation }) {
         <div className="grid grid-cols-2 gap-2 pt-3 border-t border-gray-100">
           <Link
             href={getLocationUrl(location)}
-            className="flex items-center justify-center gap-1.5 bg-primary-500 hover:bg-primary-600 text-white px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
+            className="flex items-center justify-center gap-1.5 bg-orange-500 hover:bg-orange-600 text-white px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
           >
             Details
           </Link>
