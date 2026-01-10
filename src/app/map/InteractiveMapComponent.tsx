@@ -5,13 +5,10 @@ import { useEffect, useState, useMemo } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, CircleMarker, Tooltip, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { 
-  MapPin, 
-  Clock, 
-  DollarSign, 
-  Phone, 
-  ExternalLink,
-  Info,
+import {
+  Clock,
+  DollarSign,
+  Phone,
   BadgeCheck,
   Star,
   Users
@@ -398,7 +395,7 @@ function LocationPopup({ location }: { location: MapLocation }) {
   const categoryColor = CATEGORY_COLORS[location.categories[0]] || CATEGORY_COLORS['default'];
 
   return (
-    <div className="min-w-[280px] max-w-[320px]" style={{ borderLeft: `4px solid ${categoryColor}` }}>
+    <div className="min-w-[280px] max-w-[320px]">
       <div className="p-3">
         {/* Header */}
         <div className="flex items-start justify-between gap-2 mb-2">
@@ -412,9 +409,8 @@ function LocationPopup({ location }: { location: MapLocation }) {
         </div>
 
         {/* Address */}
-        <div className="flex items-start gap-1.5 text-sm text-gray-600 mb-3">
-          <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5 text-gray-400" />
-          <span>{location.address || `${location.city}, ${location.state}`}</span>
+        <div className="text-sm text-gray-600 mb-3">
+          {location.address || `${location.city}, ${location.state}`}
         </div>
 
         {/* Cost - Prominent display */}
@@ -500,9 +496,8 @@ function LocationPopup({ location }: { location: MapLocation }) {
         <div className="grid grid-cols-2 gap-2 pt-3 border-t border-gray-100">
           <Link
             href={getLocationUrl(location)}
-            className="flex items-center justify-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+            className="flex items-center justify-center gap-1.5 bg-primary-500 hover:bg-primary-600 text-white px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
           >
-            <Info className="h-4 w-4" />
             Details
           </Link>
 
@@ -510,9 +505,8 @@ function LocationPopup({ location }: { location: MapLocation }) {
             href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-1.5 bg-gray-100 hover:bg-gray-200 text-gray-700 px-3 py-2 rounded-lg text-sm font-medium transition-colors"
+            className="flex items-center justify-center gap-1.5 bg-warm-100 hover:bg-warm-200 text-warm-800 px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
           >
-            <ExternalLink className="h-4 w-4" />
             Directions
           </a>
         </div>
