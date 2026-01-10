@@ -677,7 +677,7 @@
       "phone": "(913) 422-7010",
       "website": "",
       "content": "Bonner Springs Community Center may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Community Center, Public Facility",
+      "category": "Community Center",
       "amenities": "Hot Water",
       "cost": "$5-10",
       "access": "Public/Day Pass",
@@ -2966,7 +2966,7 @@
       "phone": "(913) 573-8300",
       "website": "https://www.wycokck.org/Departments/Parks-Recreation/Recreation",
       "content": "Wyandotte County Parks & Rec may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Gym",
+      "category": "Gym",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -3919,104 +3919,6 @@
         "originalLat": "39.0157336",
         "originalLng": "-94.8862751",
         "matchedAddress": "13438 W 62nd Terrace, Shawnee, KS 66216",
-        "updateSource": "csv_coordinate_correction"
-      }
-    },
-    {
-      "title": "Casey's",
-      "street": "USD 10–20Truck stop",
-      "city": "Liberal",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "37.03853462",
-      "lng": "-100.9050275",
-      "phone": "(620) 240-9918",
-      "website": "https://www.loves.com/locations/632",
-      "content": "Casey's may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility",
-      "amenities": "Hot Water",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": "truck stop",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "",
-      "address": "764 E Pancake Blvd, Liberal, KS 67901",
-      "rating": "3.4",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Pizza takeaway",
-      "placeId": "Casey's",
-      "googleMapsUrl": "https://www.google.com/maps/place/Casey's/@37.0376355,-100.9094848,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87081352670831e3:0x7c59220be2cd4be2!8m2!3d37.0376355!4d-100.9049787!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQ1waXp6YXRha2Vhd2F5qgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11sf0_p132?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "Liberal",
-      "sourceState": "KS",
-      "timestamp": "2025-09-25T08:13:17.520Z",
-      "state": "KS",
-      "coordinateUpdate": {
-        "updatedAt": "2025-09-27T11:34:42.444Z",
-        "originalLat": "37.0376355",
-        "originalLng": "-100.9094848",
-        "matchedAddress": "764 E Pancake Blvd, Liberal, KS 67901",
-        "updateSource": "csv_coordinate_correction"
-      }
-    },
-    {
-      "title": "Kost Truck Supply",
-      "street": "Kost Truck Supply 4.7(64)Truck stop",
-      "city": "Liberal",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "37.03862776",
-      "lng": "-100.9221957",
-      "phone": "(620) 624-4800",
-      "website": "https://www.loves.com/locations/632",
-      "content": "Kost Truck Supply may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility",
-      "amenities": "Hot Water",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": "truck stop",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Closed ⋅ Opens 8 am Thursday8 am–6 pmFriday8 am–6 pmSaturday8 am–12 pmSundayClosedMonday8 am–6 pmTuesday8 am–6 pmWednesday8 am–6 pmSuggest new hours",
-      "address": "131 S Kansas Ave, Liberal, KS 67901",
-      "rating": "4.7",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Truck accessories store",
-      "placeId": "Kost+Truck+Supply",
-      "googleMapsUrl": "https://www.google.com/maps/place/Kost+Truck+Supply/@37.0368858,-100.926538,17z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x8708138fc4de7c9f:0xe60c6483f2ce2870!8m2!3d37.0368858!4d-100.9220319!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSARd0cnVja19hY2Nlc3Nvcmllc19zdG9yZZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VScU1uWjVSbmgzUlJBQqoBTAoIL20vMDdyMDQQASoOIgp0cnVjayBzdG9wKAAyHhABIhpKPEmamZsDAeBWaum6iXbd6OdmWzbEYK9AITIOEAIiCnRydWNrIHN0b3DgAQD6AQUIuQEQNg!16s%2Fg%2F1v41_xs9?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
-      "hasDetailedHours": false,
-      "sourceCity": "Liberal",
-      "sourceState": "KS",
-      "timestamp": "2025-09-25T08:13:17.520Z",
-      "state": "KS",
-      "coordinateUpdate": {
-        "updatedAt": "2025-09-27T11:34:42.448Z",
-        "originalLat": "37.0368858",
-        "originalLng": "-100.926538",
-        "matchedAddress": "131 S Kansas Ave, Liberal, KS 67901",
         "updateSource": "csv_coordinate_correction"
       }
     },
@@ -5112,7 +5014,7 @@
       "phone": "(785) 672-3900",
       "website": "https://www.caseys.com/general-store/ks-ulysses/420-e-oklahoma-ave/3719?utm_medium=organic&utm_source=google&utm_campaign=DAC",
       "content": "JJ Travel Stop may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Truck Stop",
+      "category": "Truck Stop",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -5621,7 +5523,7 @@
       "phone": "(913) 993-7800",
       "website": "",
       "content": "West Vikings Hoops may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Community Center",
+      "category": "Community Center",
       "amenities": "Hot Water",
       "cost": "Contact for pricing",
       "access": "Contact for access",
@@ -8049,334 +7951,6 @@
       }
     },
     {
-      "title": "Springfield Truck Stop",
-      "street": "USD 1–10Truck stop",
-      "city": "Ulysses",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "38.00672084",
-      "lng": "-100.8839415",
-      "phone": "(620) 287-2650",
-      "website": "https://www.caseys.com/general-store/ks-ulysses/420-e-oklahoma-ave/3719?utm_medium=organic&utm_source=google&utm_campaign=DAC",
-      "content": "Casey's may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility, Public Facility, Truck Stop, Public Facility, Public Facility, Truck Stop, Public Facility, Public Facility, Public Facility, Public Facility, Truck Stop, Truck Stop",
-      "amenities": "Hot Water",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": "truck stop",
-      "showerReviews": [
-        {
-          "reviewerName": "Gigi Baty",
-          "rating": "1 stars",
-          "reviewDate": "9 months ago",
-          "reviewText": "Don't stop here if you need to use the women's bathroom. Staff lie with a sign about \"a man cleaning it,\" and tell you to \"see cashier about using the shower.\" Then the shower is full and they tell you \"you'll have to wait.\" Then a woman …",
-          "showerKeywords": [
-            "shower",
-            "bathroom",
-            "clean"
-          ],
-          "index": 0,
-          "uniqueId": "Gigi Baty_Don't_stop_here_if_you_need_to_use_the_women's_bat_9 months ago"
-        },
-        {
-          "reviewerName": "rogueyogitoo",
-          "rating": "1 stars",
-          "reviewDate": "5 years ago",
-          "reviewText": "Dirty.  No soap at sink,  gross buckets of water sitting in counter.   Counters were filthy with food coffee sugar.\nCannot imagine what the shower's look like",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 8,
-          "uniqueId": "rogueyogitoo_Dirty._No_soap_at_sink,_gross_buckets_of_water_s_5 years ago"
-        },
-        {
-          "reviewerName": "Curtis Hair",
-          "rating": "1 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "Came in here a week ago splattered toothpaste on the wall come in today get the same shower room same toothpaste on the wall they only spent about an average of 2 minutes cleaning their showers after you're done with them just really lazy …",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 15,
-          "uniqueId": "Curtis Hair_Came_in_here_a_week_ago_splattered_toothpaste_on_t_3 years ago"
-        },
-        {
-          "reviewerName": "Vasyl Vasylyshyn",
-          "rating": "5 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "probably the only updated gas station. the first human, clean and well-kept gas station in my experience. 🤗🤸🛀🥳\n🅿️  Parking\n\n🍔 Food\n\n🚿  Shower\n\n🛎️  Service\n\n🚻  Restroom\neverything is at the highest level …",
-          "showerKeywords": [
-            "shower",
-            "restroom",
-            "clean"
-          ],
-          "index": 0,
-          "uniqueId": "Vasyl Vasylyshyn_probably_the_only_updated_gas_station._the_first_h_a year ago"
-        },
-        {
-          "reviewerName": "CC Cordero",
-          "rating": "3 stars",
-          "reviewDate": "Edited 3 months ago",
-          "reviewText": "… Showers are clean and you can control the water temp from hot hot to cold and the pressure is good, but the lack of ventilation is crazy bad. You’ll be sweating before you can dry off and if you have long hair and need to use a hair dryer, …",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 11,
-          "uniqueId": "CC Cordero_…_Showers_are_clean_and_you_can_control_the_water__Edited 3 months ago"
-        },
-        {
-          "reviewerName": "Michael Michetti",
-          "rating": "2 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "The store and every aspect were awesome. Except for the showers, there is no water pressure, what so ever which makes the shower floor super slippery and extremely dangerous from the soap not being able to rinsed fast enough",
-          "showerKeywords": [
-            "shower",
-            "showers"
-          ],
-          "index": 19,
-          "uniqueId": "Michael Michetti_The_store_and_every_aspect_were_awesome._Except_fo_a year ago"
-        },
-        {
-          "reviewerName": "T A COUR",
-          "rating": "4 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Very clean showers. Should be a 5 star on being so clean. Only two small problems,  1) Needs better water pressure.  Very low.    2) No soap dish in shower.",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "clean"
-          ],
-          "index": 26,
-          "uniqueId": "T A COUR_Very_clean_showers._Should_be_a_5_star_on_being_so_a year ago"
-        },
-        {
-          "reviewerName": "Boogie",
-          "rating": "5 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "This is a NEW TA! Super nice staff and brand new showers water takes about 5 or 6 minutes to heat up, no soap dispensers in shower stalls yet so make sure you bring your own...Also no restaurants yet. But they do have small pizzas, hot …",
-          "showerKeywords": [
-            "shower",
-            "showers"
-          ],
-          "index": 33,
-          "uniqueId": "Boogie_This_is_a_NEW_TA!_Super_nice_staff_and_brand_new_s_2 years ago"
-        },
-        {
-          "reviewerName": "Robert Burcham",
-          "rating": "3 stars",
-          "reviewDate": "8 months ago",
-          "reviewText": "The place was nice and clean with friendly staff. But the water pressure in the shower was very bad and the hot water wasn't working half the time.",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 41,
-          "uniqueId": "Robert Burcham_The_place_was_nice_and_clean_with_friendly_staff.__8 months ago"
-        },
-        {
-          "reviewerName": "Chris Descottes",
-          "rating": "1 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Not happy that one can not get a shower after fueling 200 gallons of fuel from the receipt anymore....have to have an UltraOne card, had one, but TA deactivates them after 6 months of no use...tried to call to get card reactivated, but call …",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 48,
-          "uniqueId": "Chris Descottes_Not_happy_that_one_can_not_get_a_shower_after_fuel_a year ago"
-        },
-        {
-          "reviewerName": "Amanda Bratcher",
-          "rating": "5 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "We got fuel, took a shower and got some stuff in the store. The staff were very helpful. The facility is very clean.",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 56,
-          "uniqueId": "Amanda Bratcher_We_got_fuel,_took_a_shower_and_got_some_stuff_in_t_a year ago"
-        },
-        {
-          "reviewerName": "None of your business",
-          "rating": "1 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "… not clean. When they gave me my shower there was dirty towels still in the bathroom, hair in the sink, Q-tips in the toilet, and the shower was covered in scum, hair and even had a chew pouch in the corner of the shower. I think the …",
-          "showerKeywords": [
-            "shower",
-            "bathroom",
-            "clean"
-          ],
-          "index": 0,
-          "uniqueId": "None of your business_…_not_clean._When_they_gave_me_my_shower_there_was_3 years ago"
-        },
-        {
-          "reviewerName": "Donna Snelling",
-          "rating": "5 stars",
-          "reviewDate": "4 years ago",
-          "reviewText": "… dates but overall a decent truck stop. They do have Hunts Brothers pizza available, a small driver's lounge that has a shower or two, and an apartment size washer and dryer available. They just renovated the restrooms in the main …",
-          "showerKeywords": [
-            "shower",
-            "restroom",
-            "wash"
-          ],
-          "index": 11,
-          "uniqueId": "Donna Snelling_…_dates_but_overall_a_decent_truck_stop._They_do_h_4 years ago"
-        },
-        {
-          "reviewerName": "Irene Chaparro",
-          "rating": "2 stars",
-          "reviewDate": "7 years ago",
-          "reviewText": "It's clean, has good value for diesel gas, but the people that work there aren't very fast. And make sure your shower door is locked bcuz they just charge in. No knock. Nothing. My door lock was broken but I didn't know that and she just …",
-          "showerKeywords": [
-            "shower",
-            "clean"
-          ],
-          "index": 19,
-          "uniqueId": "Irene Chaparro_It's_clean,_has_good_value_for_diesel_gas,_but_the_7 years ago"
-        },
-        {
-          "reviewerName": "JasmineYusuf pasharasheed",
-          "rating": "4 stars",
-          "reviewDate": "3 years ago",
-          "reviewText": "Huge place to park overnight,  good food and many other daily needs (mini market) have shower.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 27,
-          "uniqueId": "JasmineYusuf pasharasheed_Huge_place_to_park_overnight,_good_food_and_many__3 years ago"
-        },
-        {
-          "reviewerName": "Jason Rigby",
-          "rating": "1 stars",
-          "reviewDate": "8 years ago",
-          "reviewText": "Horrible do not stop register crackhead freaking like hell pissed off at the world one tile shower no I did not even get dinner this'll be the last place on Earth I'd ever stop",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 34,
-          "uniqueId": "Jason Rigby_Horrible_do_not_stop_register_crackhead_freaking_l_8 years ago"
-        },
-        {
-          "reviewerName": "Thomas Moran",
-          "rating": "5 stars",
-          "reviewDate": "6 years ago",
-          "reviewText": "Great shower.  Helpful and accommodating staff.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 41,
-          "uniqueId": "Thomas Moran_Great_shower._Helpful_and_accommodating_staff._6 years ago"
-        },
-        {
-          "reviewerName": "Dima Bykov",
-          "rating": "4 stars",
-          "reviewDate": "7 years ago",
-          "reviewText": "Big parking lot. Not bed shower.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 49,
-          "uniqueId": "Dima Bykov_Big_parking_lot._Not_bed_shower._7 years ago"
-        },
-        {
-          "reviewerName": "Hairo Alonzo",
-          "rating": "3 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "Not enough shower available.",
-          "showerKeywords": [
-            "shower"
-          ],
-          "index": 56,
-          "uniqueId": "Hairo Alonzo_Not_enough_shower_available._2 years ago"
-        },
-        {
-          "reviewerName": "Eric Morrison",
-          "rating": "5 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Everything I expect from a Love's-- fuel, food, and clean restrooms. Great selection of chips, especially happy that they were carrying Carolina Reaper and Ghost Pepper chips in their selection. Good selection of beverages as well.",
-          "showerKeywords": [
-            "restroom",
-            "clean"
-          ],
-          "index": 0,
-          "uniqueId": "Eric Morrison_Everything_I_expect_from_a_Love's--_fuel,_food,_an_a year ago"
-        },
-        {
-          "reviewerName": "Caleigh Knight",
-          "rating": "5 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "Great place! I'm constantly impressed by Loves when it comes to quality. This one in specific is very clean and sturdy. But the main thing I love about this Loves is that it has free air. So whenever my tires are a little deflated, I can …",
-          "showerKeywords": [
-            "clean"
-          ],
-          "index": 41,
-          "uniqueId": "Caleigh Knight_Great_place!_I'm_constantly_impressed_by_Loves_whe_2 years ago"
-        },
-        {
-          "reviewerName": "robert long",
-          "rating": "1 stars",
-          "reviewDate": "a year ago",
-          "reviewText": "Mens Restroom closed for cleaning. I understand that, but then they have two showers would not let no one use the bathroom in them. They was open.",
-          "showerKeywords": [
-            "shower",
-            "showers",
-            "bathroom",
-            "restroom",
-            "clean"
-          ],
-          "index": 49,
-          "uniqueId": "robert long_Mens_Restroom_closed_for_cleaning._I_understand_th_a year ago"
-        },
-        {
-          "reviewerName": "G_Na Ru",
-          "rating": "4 stars",
-          "reviewDate": "2 years ago",
-          "reviewText": "Clean restrooms and friendly workers. This is a smaller store and doesn't have many truck items. However, they have the basics, some pantry items, roller foods, and plenty of snacks and drinks. The Subway inside was clean and had seating to …",
-          "showerKeywords": [
-            "restroom",
-            "clean"
-          ],
-          "index": 64,
-          "uniqueId": "G_Na Ru_Clean_restrooms_and_friendly_workers._This_is_a_sm_2 years ago"
-        }
-      ],
-      "showerReviewCount": 23,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "",
-      "address": "US Hwy 400, 1265 Solar Ave, Garden City, KS 67846",
-      "rating": "4.6",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Pizza takeaway",
-      "placeId": "Casey's",
-      "googleMapsUrl": "https://www.google.com/maps/place/Casey's/@37.5771036,-103.660786,8z/data=!4m10!1m2!2m1!1struck+stop!3m6!1s0x87090787aab44781:0x4298406d0f95c6a2!8m2!3d37.5771036!4d-101.3536571!15sCgp0cnVjayBzdG9wWgwiCnRydWNrIHN0b3CSAQ1waXp6YXRha2Vhd2F5qgFMCggvbS8wN3IwNBABKg4iCnRydWNrIHN0b3AoADIeEAEiGko8SZqZmwMB4FZq6bqJdt3o52ZbNsRgr0AhMg4QAiIKdHJ1Y2sgc3RvcOABAA!16s%2Fg%2F11f7swsrvk?entry=ttu&g_ep=EgoyMDI1MDkxNy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "Convenience-store chain offering fuel, drinks & food, including pizza, sandwiches & baked goods.",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "Ulysses",
-      "sourceState": "KS",
-      "timestamp": "2025-09-22T13:14:27.548Z",
-      "state": "KS",
-      "coordinateUpdate": {
-        "updatedAt": "2025-09-27T11:34:42.468Z",
-        "originalLat": "37.5771036",
-        "originalLng": "-103.660786",
-        "matchedAddress": "US Hwy 400, 1265 Solar Ave, Garden City, KS 67846",
-        "updateSource": "csv_coordinate_correction"
-      }
-    },
-    {
       "title": "Valley Center Swimming Pool",
       "street": "255 E Allen St",
       "city": "Valley Center",
@@ -8821,55 +8395,6 @@
         "originalLat": "38.7188162",
         "originalLng": "-95.3685541",
         "matchedAddress": "201 E 6th St, Wellsville, KS 66092",
-        "updateSource": "csv_coordinate_correction"
-      }
-    },
-    {
-      "title": "Wichita Park & Recreation",
-      "street": "+1 316-268-4361WebsiteDirections \"I highly recommend checking out their programs",
-      "city": "which are all affordable.\"",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "37.692352",
-      "lng": "-97.34014",
-      "phone": "(316) 268-4361",
-      "website": "https://ymcawichita.org/locations/robert-d-love-downtown-ymca",
-      "content": "Wichita Park & Recreation may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Recreation Center",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": "public pools",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Closed ⋅ Opens 8 am Friday8 am–5 pmSaturdayClosedSundayClosedMonday8 am–5 pmTuesday8 am–5 pmWednesday8 am–5 pmThursday8 am–5 pmSuggest new hours",
-      "address": "455 N Main 11, Wichita, KS 67202",
-      "rating": "3.7",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "City government office",
-      "placeId": "Wichita+Park+%26+Recreation",
-      "googleMapsUrl": "https://www.google.com/maps/place/Wichita+Park+%26+Recreation/@37.6929167,-97.3568907,15z/data=!3m1!5s0x87bae3c4bd3e65e9:0x7ead30b5c25f70b0!4m10!1m2!2m1!1spublic+pools!3m6!1s0x87bae3c4bab28641:0x450fe15151bd3629!8m2!3d37.6929167!4d-97.3388663!15sCgxwdWJsaWMgcG9vbHNaDiIMcHVibGljIHBvb2xzkgEWY2l0eV9nb3Zlcm5tZW50X29mZmljZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOSGMxOVFiVWhSRUFFqgFQCggvbS8wYl9ycxABKhAiDHB1YmxpYyBwb29scygAMh4QASIaqLzuIlpBRPT8l2Y4NXoGL0GNFaPRVr8OTvwyEBACIgxwdWJsaWMgcG9vbHPgAQD6AQUIlwEQSQ!16s%2Fg%2F1th28x_8?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
-      "hasDetailedHours": false,
-      "sourceCity": "Wichita",
-      "sourceState": "KS",
-      "timestamp": "2025-09-26T10:32:45.511Z",
-      "state": "KS",
-      "coordinateUpdate": {
-        "updatedAt": "2025-09-27T11:34:42.471Z",
-        "originalLat": "37.6929167",
-        "originalLng": "-97.3568907",
-        "matchedAddress": "455 N Main 11, Wichita, KS 67202",
         "updateSource": "csv_coordinate_correction"
       }
     },
@@ -9867,55 +9392,6 @@
         "originalLat": "37.697443",
         "originalLng": "-97.4543824",
         "matchedAddress": "854 N Socora St, Wichita, KS 67212",
-        "updateSource": "csv_coordinate_correction"
-      }
-    },
-    {
-      "title": "Goldenrod Park Community Facility",
-      "street": "1340 S Pattie St",
-      "city": "Wichita",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "Closed ⋅ Opens 8 am",
-      "lat": "37.66911422",
-      "lng": "-97.32233159",
-      "phone": "(316) 268-4361",
-      "website": "https://www.wichita.gov/855/Community-Facilities",
-      "content": "Goldenrod Park Community Facility may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "Public Facility",
-      "amenities": "Hot Water",
-      "cost": "Contact for pricing",
-      "access": "Contact for access",
-      "source": "rec center",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "Closed ⋅ Opens 8 am Friday8 am–10 pmSaturday8 am–10 pmSunday8 am–10 pmMonday8 am–10 pmTuesday8 am–10 pmWednesday8 am–10 pmThursday8 am–10 pmSuggest new hours",
-      "address": "1340 S Pattie St, Wichita, KS 67211",
-      "rating": "4.3",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Event venue",
-      "placeId": "Goldenrod+Park+Community+Facility",
-      "googleMapsUrl": "https://www.google.com/maps/place/Goldenrod+Park+Community+Facility/@37.6687835,-97.3581146,14z/data=!4m10!1m2!2m1!1srec+center!3m6!1s0x87bae389b294940f:0x4b6eda0170381c99!8m2!3d37.6687835!4d-97.3220657!15sCgpyZWMgY2VudGVyWgwiCnJlYyBjZW50ZXKSAQtldmVudF92ZW51ZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VScU9UUTJTRmgzRUFFqgFCEAEqDiIKcmVjIGNlbnRlcigAMh4QASIaSjv4B5XZauZAbiV04jKseMD5CLAj8i-uh9UyDhACIgpyZWMgY2VudGVy4AEA-gEECB4QMQ!16s%2Fg%2F11b5qs9mb9?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": true,
-      "hasDetailedHours": false,
-      "sourceCity": "Wichita",
-      "sourceState": "KS",
-      "timestamp": "2025-09-26T10:32:45.511Z",
-      "state": "KS",
-      "coordinateUpdate": {
-        "updatedAt": "2025-09-27T11:34:42.476Z",
-        "originalLat": "37.6687835",
-        "originalLng": "-97.3581146",
-        "matchedAddress": "1340 S Pattie St, Wichita, KS 67211",
         "updateSource": "csv_coordinate_correction"
       }
     },
@@ -11101,55 +10577,6 @@
         "originalLat": "37.629621",
         "originalLng": "-97.3989891",
         "matchedAddress": "Wichita, KS 67216",
-        "updateSource": "csv_coordinate_correction"
-      }
-    },
-    {
-      "title": "WSU YMCA",
-      "street": "WSU YMCA 5.0(2)Bus stopDirections",
-      "city": "Wichita",
-      "province": "",
-      "zip": "",
-      "country": "USA",
-      "businessDescription": "",
-      "extractedHours": "",
-      "lat": "37.69739756",
-      "lng": "-97.28382681",
-      "phone": "(316) 264-9374",
-      "website": "https://ymcawichita.org/locations/robert-d-love-downtown-ymca",
-      "content": "WSU YMCA may offer shower facilities. Contact directly to confirm availability and pricing.",
-      "category": "YMCA",
-      "amenities": "Hot Water|Towels|Lockers|Soap|Accessible",
-      "cost": "Day Pass $10-20",
-      "access": "Day Pass",
-      "source": "YMCA",
-      "showerReviews": [],
-      "showerReviewCount": 0,
-      "showerReviewSummary": "No shower-related reviews found",
-      "hours": "",
-      "address": "Wichita, KS 67208",
-      "rating": "5.0",
-      "reviewCount": "",
-      "priceLevel": "",
-      "businessType": "Bus stop",
-      "placeId": "WSU+YMCA",
-      "googleMapsUrl": "https://www.google.com/maps/place/WSU+YMCA/@37.72008,-97.3079744,15z/data=!4m10!1m2!2m1!1sYMCA!3m6!1s0x87bae2e6361d5c3d:0x2592a340df1b4c75!8m2!3d37.72008!4d-97.28995!15sCgRZTUNBkgEIYnVzX3N0b3CqAUAKCC9tLzBsemc3EAEqCCIEeW1jYSgAMh4QASIa3DN5S_11Gf3qjOdbZOUYJ9OrtTR21SO_WpoyCBACIgR5bWNh4AEA!16s%2Fg%2F11l9vc62qg?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D",
-      "businessStatus": "",
-      "description": "",
-      "dailyHours": {},
-      "dailyHoursFormatted": "",
-      "isOpen24Hours": false,
-      "isClosed": false,
-      "hasDetailedHours": false,
-      "sourceCity": "Wichita",
-      "sourceState": "KS",
-      "timestamp": "2025-09-26T10:32:45.511Z",
-      "state": "KS",
-      "coordinateUpdate": {
-        "updatedAt": "2025-09-27T11:34:42.486Z",
-        "originalLat": "37.72008",
-        "originalLng": "-97.3079744",
-        "matchedAddress": "Wichita, KS 67208",
         "updateSource": "csv_coordinate_correction"
       }
     }

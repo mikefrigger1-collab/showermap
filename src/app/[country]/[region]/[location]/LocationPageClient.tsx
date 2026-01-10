@@ -316,14 +316,9 @@ const schemaData = {
             // Function to clean HTML entities and special characters from hours string
             const cleanHours = (hoursString: string) => {
               if (!hoursString) return 'Closed';
-              
-              // Create a temporary element to decode HTML entities
-              const textarea = document.createElement('textarea');
-              textarea.innerHTML = hoursString;
-              let decoded = textarea.value;
-              
-              // Replace common HTML entities
-              decoded = decoded
+
+              // Decode HTML entities without using document (works on server and client)
+              let decoded = hoursString
                 .replace(/&nbsp;/g, ' ')
                 .replace(/&ndash;/g, '-')
                 .replace(/&mdash;/g, '-')
@@ -339,7 +334,7 @@ const schemaData = {
                 .replace(/[^\w\s:,-]/gi, '')  // Remove any other special characters except word chars, spaces, colons, commas, and dashes
                 .replace(/\s+/g, ' ')  // Replace multiple spaces with single space
                 .trim();
-              
+
               // If after cleaning we have an empty string, return 'Closed'
               return decoded || 'Closed';
             };
@@ -371,20 +366,23 @@ const schemaData = {
           const currentDay = days[now.getDay()];
           const todayHours = location.hours[currentDay];
           
-          // Clean the today hours as well
+          // Clean the today hours as well (without using document for SSR compatibility)
           const cleanHours = (hoursString: string) => {
             if (!hoursString) return null;
-            
-            const textarea = document.createElement('textarea');
-            textarea.innerHTML = hoursString;
-            let decoded = textarea.value;
-            
-            decoded = decoded
+
+            // Decode HTML entities without using document
+            const decoded = hoursString
+              .replace(/&nbsp;/g, ' ')
+              .replace(/&ndash;/g, '-')
+              .replace(/&mdash;/g, '-')
+              .replace(/&#8211;/g, '-')
+              .replace(/&#8212;/g, '-')
+              .replace(/&amp;/g, '&')
               .replace(/\*/g, '')  // Remove asterisks
               .replace(/[^\w\s:,-]/gi, '')  // Remove special characters
               .replace(/\s+/g, ' ')  // Normalize spaces
               .trim();
-              
+
             return decoded || null;
           };
           

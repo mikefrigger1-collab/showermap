@@ -1,298 +1,131 @@
 'use client';
 
-import { Shield, Heart, Users, AlertCircle, CheckCircle, Info } from 'lucide-react';
 import GlobalHeader from '../components/GlobalHeader';
 import GlobalFooter from '../components/GlobalFooter';
+import Link from 'next/link';
 
 export default function GuidelinesPage() {
   return (
     <>
       <GlobalHeader />
-      
+
       <main className="min-h-screen bg-white">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <Shield className="h-16 w-16 text-blue-600 mx-auto mb-6" />
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Usage Guidelines
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              ShowerMap connects people with essential hygiene facilities. Please follow these 
-              guidelines to ensure safe, respectful access for everyone in our community.
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <h1 className="text-3xl font-bold text-gray-900 mb-2">Usage Guidelines</h1>
+          <p className="text-gray-600 mb-8">
+            ShowerMap helps you find public shower facilities across the UK, USA, and Australia.
+            These guidelines will help you make the most of the facilities you visit.
+          </p>
+
+          <div className="prose prose-gray max-w-none">
+            <h2>Before You Visit</h2>
+            <ul>
+              <li>Check the facility&apos;s opening hours - they may vary by day or season</li>
+              <li>Confirm pricing and payment methods (cash, card, membership required)</li>
+              <li>Call ahead if you&apos;re unsure about access requirements</li>
+              <li>Bring your own towel and toiletries unless the listing says they&apos;re provided</li>
+              <li>Check if booking or registration is required</li>
+            </ul>
+
+            <h2>At the Facility</h2>
+            <ul>
+              <li>Follow all posted rules and staff instructions</li>
+              <li>Be mindful of time limits, especially during busy periods</li>
+              <li>Keep your belongings secure - use lockers where available</li>
+              <li>Leave the shower area clean for the next person</li>
+              <li>Respect other users&apos; privacy and personal space</li>
+            </ul>
+
+            <h2>Facility Types</h2>
+
+            <h3>Leisure Centres and Public Pools</h3>
+            <p>
+              Most leisure centres have showers in their changing rooms. Some require you to pay
+              for pool or gym access, while others offer shower-only access at a reduced rate.
+              Ask at reception about your options.
+            </p>
+
+            <h3>Gyms and Fitness Centres</h3>
+            <p>
+              Day passes are usually available if you&apos;re not a member. Some budget gyms offer
+              very affordable rates. Towels may be included or available for hire.
+            </p>
+
+            <h3>Truck Stops and Service Stations</h3>
+            <p>
+              Professional driver facilities often have excellent showers available to the public.
+              These typically include a private room with towels and basic toiletries. Payment is
+              usually required upfront at the counter.
+            </p>
+
+            <h3>Beach and Outdoor Showers</h3>
+            <p>
+              Coastal areas often have free outdoor rinse showers near beaches. These are usually
+              cold water only and are intended for rinsing off sand and salt. Some surf clubs and
+              beach facilities have more complete shower options.
+            </p>
+
+            <h3>Hostels</h3>
+            <p>
+              Some hostels offer day-use shower access to non-guests for a small fee. This is
+              more common in major cities and tourist areas. Call ahead to check availability.
+            </p>
+
+            <h3>Community Centres</h3>
+            <p>
+              Local community centres sometimes have shower facilities, often at low or no cost.
+              These may have limited hours and availability.
+            </p>
+
+            <h2>Contributing to ShowerMap</h2>
+            <p>Help keep our directory accurate and useful:</p>
+            <ul>
+              <li>Report any changes to hours, pricing, or access requirements</li>
+              <li>Let us know if a facility has closed or moved</li>
+              <li>Share details about accessibility features for those who need them</li>
+              <li>Suggest new facilities we should add</li>
+            </ul>
+            <p>
+              You can submit updates through our <Link href="/contact/" className="text-blue-600 hover:underline">Contact page</Link>.
+            </p>
+
+            <h2>Emergency Contacts</h2>
+            <p>If you need immediate assistance:</p>
+
+            <h3>United Kingdom</h3>
+            <ul>
+              <li>Emergency services: 999</li>
+              <li>Non-emergency police: 101</li>
+              <li>NHS urgent care: 111</li>
+              <li>Samaritans: 116 123</li>
+              <li>Shelter (housing help): 0808 800 4444</li>
+            </ul>
+
+            <h3>United States</h3>
+            <ul>
+              <li>Emergency services: 911</li>
+              <li>Social services helpline: 211</li>
+              <li>Suicide and Crisis Lifeline: 988</li>
+              <li>National Domestic Violence Hotline: 1-800-799-7233</li>
+            </ul>
+
+            <h3>Australia</h3>
+            <ul>
+              <li>Emergency services: 000</li>
+              <li>Police assistance: 131 444</li>
+              <li>Lifeline crisis support: 13 11 14</li>
+              <li>Homelessness services: 1800 474 753</li>
+            </ul>
+
+            <h2>Questions?</h2>
+            <p>
+              If you have questions about using ShowerMap or want to report an issue,
+              please visit our <Link href="/contact/" className="text-blue-600 hover:underline">Contact page</Link>.
             </p>
           </div>
-        </section>
-
-        {/* General Guidelines */}
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8">
-              <div className="flex items-center">
-                <Info className="h-6 w-6 text-blue-600 mr-3" />
-                <h2 className="text-2xl font-bold text-gray-900">
-                  General Guidelines
-                </h2>
-              </div>
-            </div>
-
-            <div className="space-y-8">
-              <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <div className="flex items-start space-x-4">
-                  <CheckCircle className="h-6 w-6 text-green-600 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                      Respect Facility Rules
-                    </h3>
-                    <p className="text-gray-600 mb-3">
-                      Each facility has its own policies regarding access, hours, and usage. 
-                      Always follow posted rules and staff instructions.
-                    </p>
-                    <ul className="text-gray-600 space-y-1 ml-4 list-disc">
-                      <li>Check operating hours before visiting</li>
-                      <li>Understand payment requirements (day passes, memberships, donations)</li>
-                      <li>Respect time limits if posted</li>
-                      <li>Follow dress codes and facility-specific policies</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <div className="flex items-start space-x-4">
-                  <Heart className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                      Be Considerate of Others
-                    </h3>
-                    <p className="text-gray-600 mb-3">
-                      Remember that you&apos;re sharing facilities with community members, 
-                      other travelers, and people in various circumstances.
-                    </p>
-                    <ul className="text-gray-600 space-y-1 ml-4 list-disc">
-                      <li>Keep shower time reasonable during busy periods</li>
-                      <li>Clean up after yourself</li>
-                      <li>Respect others&apos; privacy and space</li>
-                      <li>Be patient and kind with staff and other users</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <div className="flex items-start space-x-4">
-                  <Shield className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                      Safety and Security
-                    </h3>
-                    <p className="text-gray-600 mb-3">
-                      Your safety and the safety of others is paramount. 
-                      Use common sense and trust your instincts.
-                    </p>
-                    <ul className="text-gray-600 space-y-1 ml-4 list-disc">
-                      <li>Secure your belongings while showering</li>
-                      <li>Report any safety concerns to facility staff</li>
-                      <li>Avoid visiting unfamiliar locations alone at night</li>
-                      <li>Keep emergency contacts and identification accessible</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Specific Facility Types */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-              Facility-Specific Guidelines
-            </h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">🏊 Public Pools & Rec Centers</h3>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• May require pool entry or facility day pass</li>
-                  <li>• Often have specific shower-only hours</li>
-                  <li>• Swimwear may be required in pool areas</li>
-                  <li>• Towels usually not provided</li>
-                </ul>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">🏋️ YMCAs & Gyms</h3>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• Day passes typically required</li>
-                  <li>• Some offer sliding scale pricing</li>
-                  <li>• Towels may be included or available for rent</li>
-                  <li>• Peak hours may have time limits</li>
-                </ul>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">🚛 Truck Stops</h3>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• Usually available 24/7</li>
-                  <li>• Private shower rooms with locks</li>
-                  <li>• Towels and basic toiletries often provided</li>
-                  <li>• Payment required upfront</li>
-                </ul>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">🏖️ Beach & Park Facilities</h3>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• Often outdoor rinse stations</li>
-                  <li>• May be cold water only</li>
-                  <li>• Usually free but basic facilities</li>
-                  <li>• Seasonal hours in some locations</li>
-                </ul>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">🏠 Community Centers</h3>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• May offer free or low-cost access</li>
-                  <li>• Some have programs for those in need</li>
-                  <li>• Limited hours, often weekdays only</li>
-                  <li>• Respectful approach appreciated</li>
-                </ul>
-              </div>
-              
-              <div className="bg-white p-6 rounded-lg shadow-sm">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">🎒 Hostels</h3>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>• Usually require accommodation booking</li>
-                  <li>• Some offer day-use shower access</li>
-                  <li>• Shared facilities with other travelers</li>
-                  <li>• Towels may be available for rent</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Community Standards */}
-        <section className="py-16 bg-white">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
-              <div className="flex items-center">
-                <AlertCircle className="h-6 w-6 text-amber-600 mr-3" />
-                <h2 className="text-2xl font-bold text-gray-900">
-                  Community Standards
-                </h2>
-              </div>
-            </div>
-
-            <div className="space-y-6">
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  Maintaining Our Directory
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Help keep ShowerMap accurate and helpful by contributing verified information:
-                </p>
-                <ul className="text-gray-600 space-y-2 ml-6 list-disc">
-                  <li>Report changes in hours, pricing, or facility conditions</li>
-                  <li>Leave honest, helpful reviews based on recent visits</li>
-                  <li>Update accessibility information for people with disabilities</li>
-                  <li>Share safety concerns or positive experiences</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  Respectful Communication
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Our community includes people from diverse backgrounds and circumstances:
-                </p>
-                <ul className="text-gray-600 space-y-2 ml-6 list-disc">
-                  <li>Use respectful language in reviews and communications</li>
-                  <li>Avoid judgment about why someone needs shower access</li>
-                  <li>Focus on facility conditions, not other users</li>
-                  <li>Report inappropriate behavior through proper channels</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  Privacy and Discretion
-                </h3>
-                <p className="text-gray-600 mb-4">
-                  Respect privacy and maintain discretion:
-                </p>
-                <ul className="text-gray-600 space-y-2 ml-6 list-disc">
-                  <li>Don&apos;t photograph people in shower facilities</li>
-                  <li>Keep conversations about other users private</li>
-                  <li>Respect that some people may prefer not to interact</li>
-                  <li>Be mindful of personal space and boundaries</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Emergency and Support */}
-        <section className="py-16 bg-red-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-8">
-              <AlertCircle className="h-12 w-12 text-red-600 mx-auto mb-4" />
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Emergency Situations & Support
-              </h2>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    If You Need Immediate Help
-                  </h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Emergency services: 911</li>
-                    <li>• Homeless services: 211</li>
-                    <li>• Crisis support: 988 (Suicide & Crisis Lifeline)</li>
-                    <li>• Local social services: Contact city/county offices</li>
-                  </ul>
-                </div>
-                
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    Reporting Issues
-                  </h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Safety concerns at facilities</li>
-                    <li>• Incorrect information on ShowerMap</li>
-                    <li>• Discrimination or mistreatment</li>
-                    <li>• Facility closures or changes</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="py-16 bg-blue-600">
-          <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-            <Users className="h-12 w-12 text-white mx-auto mb-4" />
-            <h2 className="text-3xl font-bold text-white mb-4">
-              Together We Build a Better Community
-            </h2>
-            <p className="text-xl text-blue-100 mb-6">
-              By following these guidelines, we create a safe, respectful environment 
-              where everyone can access the hygiene facilities they need.
-            </p>
-            <div className="text-blue-100 text-sm">
-              <p>Thank you for being part of the ShowerMap community.</p>
-            </div>
-          </div>
-        </section>
+        </div>
       </main>
-      
+
       <GlobalFooter />
     </>
   );

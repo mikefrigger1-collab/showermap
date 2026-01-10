@@ -1,19 +1,45 @@
 // lib/stateContent.ts
 
+// New schema matching UK content approach - conversational narratives
+interface CityHighlight {
+  name: string;
+  description: string;
+}
+
+interface FacilityType {
+  name: string;
+  description: string;
+}
+
 interface StateInfo {
   name: string;
   code: string;
-  majorCities: string[];
-  universityTowns: string[];
-  popularVenues: string[];
-  majorHighways: string[];
-  stateParkSystems: string[];
+  narrative: {
+    intro: string;
+    travelersNote?: string;
+    localTip?: string;
+  };
+  cities: CityHighlight[];
+  facilityTypes: FacilityType[];
+  pricingContext: {
+    budget: string;
+    midRange: string;
+    premium?: string;
+  };
+  beforeYouGo?: string;
+  priceRange: { low: number; high: number };
+
+  // Legacy fields - kept for backwards compatibility during migration
+  majorCities?: string[];
+  universityTowns?: string[];
+  popularVenues?: string[];
+  majorHighways?: string[];
+  stateParkSystems?: string[];
   regulations?: string;
   climateNote?: string;
   seasonalEvents?: string[];
-  localContext: string;
-  priceRange: { low: number; high: number };
-  commonFacilities: string[];
+  localContext?: string;
+  commonFacilities?: string[];
 }
 
 // Comprehensive state-specific data for all 50 states
@@ -21,832 +47,1604 @@ const stateData: Record<string, StateInfo> = {
   'alabama': {
     name: 'Alabama',
     code: 'AL',
-    majorCities: ['Birmingham', 'Montgomery', 'Huntsville', 'Mobile', 'Tuscaloosa'],
-    universityTowns: ['Tuscaloosa (University of Alabama)', 'Auburn', 'Troy'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'YMCA of Greater Birmingham', 'Love\'s Travel Stops', 'Pilot Flying J'],
-    majorHighways: ['I-65', 'I-20', 'I-59', 'I-10'],
-    stateParkSystems: ['Gulf State Park', 'Oak Mountain State Park', 'Cheaha State Park'],
-    regulations: 'Alabama Department of Public Health regulates public bathing facilities under Chapter 420-6-2.',
-    climateNote: 'Hot, humid summers from May through September increase shower demand. Gulf Coast facilities may close during hurricane season.',
-    seasonalEvents: ['Spring break (March)', 'Football season (Fall)', 'Beach season (May-September)'],
-  localContext: 'Alabama\'s Gulf Shores and Orange Beach areas maintain year-round public beach rinse stations popular with tourists. The I-65 corridor from Mobile to Tennessee serves as a major trucking route with well-established stops every 30-50 miles. Birmingham\'s legacy of public recreation centers dates to the civil rights era, many still offering affordable shower access. College towns see surge pricing during football season, with some facilities restricting access to members only during home games. Rural Black Belt counties have limited options beyond school facilities.',
-    priceRange: { low: 0, high: 18 },
-    commonFacilities: ['Truck stops', 'State parks', 'Recreation centers', 'University gyms', 'Beach facilities']
+    narrative: {
+      intro: `Whether you're road-tripping down to Gulf Shores, passing through on I-65, or catching a game in Tuscaloosa, Alabama has more shower options than you might expect. The Gulf Coast beaches at Orange Beach and Gulf Shores offer free rinse stations year-round-nothing fancy, but perfect after a day in the sand. Inland, Birmingham's network of public recreation centers (many dating back decades) still offer affordable shower access to visitors for just a few dollars.`,
+      travelersNote: `The I-65 corridor from Mobile to the Tennessee border is well-served by truck stops every 30-50 miles, most with clean, private shower rooms. College football weekends can make facilities in Tuscaloosa and Auburn harder to access-some gyms restrict to members only on game days.`,
+      localTip: `State parks like Gulf State Park and Oak Mountain have excellent shower facilities if you're camping or just passing through. Day-use fees are reasonable and the facilities tend to be well-maintained.`
+    },
+    cities: [
+      { name: 'Birmingham', description: 'Best network of public rec centers in the state, many with day passes under $10' },
+      { name: 'Mobile', description: 'Gulf Coast gateway with truck stops and beach facilities nearby' },
+      { name: 'Huntsville', description: 'Modern facilities serving the tech and space industry workforce' },
+      { name: 'Montgomery', description: 'State capital with YMCA and municipal pool options' },
+      { name: 'Tuscaloosa', description: 'College town-expect crowds and restrictions on football Saturdays' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'Love\'s and Pilot Flying J along I-65 and I-20 with 24/7 private showers' },
+      { name: 'State parks', description: 'Gulf State Park, Oak Mountain, and Cheaha offer campground showers' },
+      { name: 'Recreation centers', description: 'Birmingham area has excellent municipal facilities with day passes' },
+      { name: 'Beach facilities', description: 'Free rinse stations at Gulf Shores and Orange Beach' },
+      { name: 'Fitness centers', description: 'Planet Fitness and Anytime Fitness locations statewide' }
+    ],
+    pricingContext: {
+      budget: `Free beach rinses at Gulf Shores, state park day-use for $2-5, and some rec centers under $5`,
+      midRange: `Truck stop showers run $12-15, most gym day passes $10-15`,
+      premium: `Premium gyms and university facilities up to $18`
+    },
+    beforeYouGo: `Summers are hot and humid (May-September) so you'll want that shower. Gulf Coast facilities may close during hurricane season. Football weekends in college towns get crowded-plan accordingly.`,
+    priceRange: { low: 0, high: 18 }
   },
   
   'alaska': {
     name: 'Alaska',
     code: 'AK',
-    majorCities: ['Anchorage', 'Fairbanks', 'Juneau', 'Sitka', 'Ketchikan'],
-    universityTowns: ['Fairbanks (UAF)', 'Anchorage (UAA)'],
-    popularVenues: ['Alaska Club', 'YMCA of Anchorage', 'Planet Fitness Anchorage', 'Recreation centers'],
-    majorHighways: ['AK-1 (Seward Highway)', 'AK-2 (Sterling Highway)', 'AK-3 (Parks Highway)'],
-    stateParkSystems: ['Chugach State Park', 'Denali State Park', 'Kachemak Bay State Park'],
-    regulations: 'Alaska Administrative Code Title 18 Chapter 30 covers public accommodations and recreational facilities.',
-    climateNote: 'Extended winter conditions October-April. Many outdoor facilities seasonal. 24-hour daylight in summer affects operating hours.',
-    seasonalEvents: ['Summer tourism (May-September)', 'Iditarod (March)', 'Cruise season (May-September)'],
-  localContext: 'Alaska\'s unique challenges include extreme remoteness where some communities are only accessible by plane or boat. Anchorage and Fairbanks concentrate most public facilities, with suburban rec centers offering day passes. Bush communities often rely on school gymnasiums that open to public during specific hours. Summer tourism creates temporary shower facilities at RV parks and campgrounds from May-September. Many facilities offer "shower only" rates for travelers, typically $5-15. Winter conditions can close facilities unexpectedly, and some remote areas rely on tribal community centers.',   priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Recreation centers', 'Hotels with day use', 'RV parks', 'Community centers', 'Fitness clubs']
+    narrative: {
+      intro: `Alaska presents unique challenges for finding shower facilities, but if you know where to look, options exist even in this vast frontier state. Anchorage and Fairbanks have the most reliable access, with municipal recreation centers offering day passes that include full locker room facilities. The Alaska Club chain is popular locally, though day passes can be pricey.`,
+      travelersNote: `If you're traveling the road system during summer, RV parks and campgrounds between Anchorage and Fairbanks typically offer shower access to non-guests for $5-15. In bush communities only accessible by plane or boat, your best bet is asking at the local school gym or tribal community center.`,
+      localTip: `Many Alaskan hotels offer "shower only" rates for travelers who just need to freshen up. It never hurts to ask at the front desk, especially in smaller towns along the highway.`
+    },
+    cities: [
+      { name: 'Anchorage', description: 'Best selection in the state with rec centers, gyms, and the YMCA' },
+      { name: 'Fairbanks', description: 'University facilities and community pools with day access' },
+      { name: 'Juneau', description: 'Limited options in the capital, try the Augustus Brown Swimming Pool' },
+      { name: 'Ketchikan', description: 'Cruise port town with a few gym options for visitors' },
+      { name: 'Sitka', description: 'Small town with community pool facilities' }
+    ],
+    facilityTypes: [
+      { name: 'Recreation centers', description: 'Municipal facilities in Anchorage and Fairbanks with day passes' },
+      { name: 'RV parks', description: 'Shower access for non-guests along the highway system, $5-15' },
+      { name: 'Hotels', description: 'Many offer shower-only rates, especially in smaller towns' },
+      { name: 'Community centers', description: 'Tribal and community facilities in remote areas' },
+      { name: 'Fitness clubs', description: 'Alaska Club locations, though day passes are expensive' }
+    ],
+    pricingContext: {
+      budget: `RV parks charge $5-10 for shower access, some community pools under $10`,
+      midRange: `Recreation center day passes run $10-15, hotel shower rates similar`,
+      premium: `Premium gyms like Alaska Club can charge $20-25 for day access`
+    },
+    beforeYouGo: `Winter (October-April) can close facilities unexpectedly due to weather. Summer brings 24-hour daylight which affects some facility hours. Plan ahead in remote areas as options can be 100+ miles apart.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'arizona': {
     name: 'Arizona',
     code: 'AZ',
-    majorCities: ['Phoenix', 'Tucson', 'Mesa', 'Chandler', 'Scottsdale'],
-    universityTowns: ['Tempe (ASU)', 'Tucson (U of A)', 'Flagstaff (NAU)'],
-    popularVenues: ['LA Fitness', 'EōS Fitness', 'Mountainside Fitness', 'Love\'s Travel Stops', 'YMCA Valley of the Sun'],
-    majorHighways: ['I-10', 'I-17', 'I-40', 'I-8'],
-    stateParkSystems: ['Lake Havasu State Park', 'Slide Rock State Park', 'Lost Dutchman State Park'],
-    regulations: 'Arizona Administrative Code Title 9 Chapter 8 Article 8 governs public bathing places.',
-    climateNote: 'Extreme summer heat (June-August) with temperatures over 110°F. Winter influx of snowbirds increases demand.',
-    seasonalEvents: ['Spring training (February-March)', 'Snowbird season (October-April)', 'Monsoon season (July-September)'],
-  localContext: 'Arizona\'s snowbird population (500,000+ winter visitors) drives seasonal demand with RV resorts offering day passes ranging from $5-20. Phoenix metro has the highest concentration of budget gym chains in the nation. Summer heat makes outdoor facilities unusable from June-September when temperatures exceed 115°F. Border towns like Nogales and Yuma have truck stops catering to international commerce. Native American reservations may require permits for facility use. Sedona and Flagstaff mountain areas provide cooler alternatives during summer months.',
-    priceRange: { low: 0, high: 22 },
-    commonFacilities: ['Fitness centers', 'RV parks', 'Recreation centers', 'Truck stops', 'Resort day passes']
+    narrative: {
+      intro: `Arizona is one of the easiest states to find an affordable shower. The Phoenix metro area has the highest concentration of budget gym chains in the country, with EoS Fitness, Planet Fitness, and LA Fitness locations everywhere. Most offer day passes for $5-15, and you'll find clean, air-conditioned facilities when you need them most.`,
+      travelersNote: `If you're passing through on I-10 or I-40, truck stops are plentiful and well-maintained. The snowbird population (500,000+ winter visitors) means RV resorts throughout the state offer day passes for showers, typically $5-20. In summer, head to Flagstaff or Sedona in the mountains to escape the brutal desert heat.`,
+      localTip: `During extreme summer heat (June-September), outdoor facilities are essentially unusable. Stick to air-conditioned gyms and rec centers when temperatures hit 110°F+.`
+    },
+    cities: [
+      { name: 'Phoenix', description: 'Endless gym options, easily the best coverage in the state' },
+      { name: 'Tucson', description: 'University of Arizona area has good options, plus municipal pools' },
+      { name: 'Flagstaff', description: 'Mountain town with cooler temps and NAU campus facilities' },
+      { name: 'Scottsdale', description: 'More upscale options, resort day passes available' },
+      { name: 'Yuma', description: 'Border town with truck stops serving I-8 traffic' }
+    ],
+    facilityTypes: [
+      { name: 'Budget gyms', description: 'EoS, Planet Fitness, LA Fitness everywhere in Phoenix metro' },
+      { name: 'RV parks', description: 'Snowbird-friendly resorts offer day passes statewide' },
+      { name: 'Truck stops', description: 'Love\'s and Pilot along I-10, I-17, and I-40 corridors' },
+      { name: 'Recreation centers', description: 'Municipal facilities in most cities with day rates' },
+      { name: 'Resort day passes', description: 'Scottsdale and Sedona resorts offer spa access' }
+    ],
+    pricingContext: {
+      budget: `Budget gyms run $5-10 for day passes, some RV parks charge $5 for showers`,
+      midRange: `Truck stops $12-15, nicer gym chains $15-20`,
+      premium: `Resort and spa day passes in Scottsdale area $20-50+`
+    },
+    beforeYouGo: `Summer heat is no joke - temperatures exceed 115°F from June through September. Spring training (Feb-March) and snowbird season (Oct-April) increase demand at facilities. Native American reservations may have different access rules.`,
+    priceRange: { low: 0, high: 22 }
   },
   
   'arkansas': {
     name: 'Arkansas',
     code: 'AR',
-    majorCities: ['Little Rock', 'Fort Smith', 'Fayetteville', 'Springdale', 'Jonesboro'],
-    universityTowns: ['Fayetteville (U of A)', 'Conway (UCA)', 'Arkadelphia'],
-    popularVenues: ['10 Fitness', 'Planet Fitness', 'Anytime Fitness', 'Love\'s Travel Stops', 'YMCA of Greater Little Rock'],
-    majorHighways: ['I-30', 'I-40', 'I-55', 'I-49'],
-    stateParkSystems: ['Hot Springs National Park', 'Devil\'s Den State Park', 'Petit Jean State Park'],
-    regulations: 'Arkansas Department of Health Rules and Regulations for Public Swimming Pools and Spas.',
-    climateNote: 'Hot, humid summers with mild winters. Spring severe weather season may affect facility operations.',
-    seasonalEvents: ['Razorback football (Fall)', 'Hot Springs racing season (January-March)', 'Lake season (May-September)'],
-  localContext: 'Arkansas\'s natural hot springs in the Ouachita Mountains offer unique bathing experiences with day rates at commercial springs. Little Rock\'s downtown revival includes modern fitness facilities catering to young professionals. The Mississippi River corridor has fewer facilities than interstate routes. Walmart\'s headquarters in Bentonville has driven upscale fitness development in Northwest Arkansas. State parks with shower facilities often close seasonally (November-March). Rural Delta region has minimal public options, with many communities relying on high school facilities.',
-    priceRange: { low: 0, high: 18 },
-    commonFacilities: ['State parks', 'Truck stops', 'Community centers', 'Hot springs facilities', 'Lake recreation areas']
+    narrative: {
+      intro: `Arkansas has a hidden gem that sets it apart: natural hot springs. The Ouachita Mountains around Hot Springs National Park offer a unique bathing experience you won't find elsewhere, with commercial bathhouses charging day rates for a proper soak and shower. Beyond the springs, Little Rock has solid gym options and the YMCA network serves most of the state.`,
+      travelersNote: `If you're driving I-40 or I-30, truck stops are your reliable option. Northwest Arkansas around Bentonville and Fayetteville has surprisingly upscale facilities thanks to Walmart's corporate presence. The Delta region along the Mississippi has very limited options - plan ahead.`,
+      localTip: `State parks like Devil's Den and Petit Jean have campground showers, but many close November through March. During Razorback football season, Fayetteville facilities get crowded on game weekends.`
+    },
+    cities: [
+      { name: 'Little Rock', description: 'Downtown revival brought modern fitness options, plus YMCA locations' },
+      { name: 'Fayetteville', description: 'College town with good options, busy during football season' },
+      { name: 'Hot Springs', description: 'Famous bathhouses offer unique shower and soak experiences' },
+      { name: 'Bentonville', description: 'Upscale facilities driven by Walmart corporate presence' },
+      { name: 'Fort Smith', description: 'Western Arkansas hub with basic gym and truck stop options' }
+    ],
+    facilityTypes: [
+      { name: 'Hot springs', description: 'Commercial bathhouses in Hot Springs area with day rates' },
+      { name: 'Truck stops', description: 'Love\'s along I-40 and I-30 corridors' },
+      { name: 'State parks', description: 'Campground showers at Devil\'s Den, Petit Jean (seasonal)' },
+      { name: 'Fitness centers', description: '10 Fitness, Planet Fitness in larger cities' },
+      { name: 'YMCAs', description: 'Network across the state with day pass options' }
+    ],
+    pricingContext: {
+      budget: `State park day-use under $5, some community centers $3-5`,
+      midRange: `Truck stops $12-15, gym day passes $10-15`,
+      premium: `Hot springs bathhouses $15-40 for full experience`
+    },
+    beforeYouGo: `Hot, humid summers and mild winters. Spring severe weather can affect operations. The Delta region has minimal facilities - often just high school gyms that may allow public access.`,
+    priceRange: { low: 0, high: 18 }
   },
   
   'california': {
     name: 'California',
     code: 'CA',
-    majorCities: ['Los Angeles', 'San Francisco', 'San Diego', 'Sacramento', 'San Jose', 'Fresno', 'Oakland', 'Long Beach'],
-    universityTowns: ['Berkeley (UC Berkeley)', 'Davis (UC Davis)', 'Isla Vista (UCSB)', 'San Luis Obispo (Cal Poly)'],
-    popularVenues: ['24 Hour Fitness', 'LA Fitness', 'Planet Fitness', 'Equinox', 'YMCA of San Francisco', 'Venice Beach facilities'],
-    majorHighways: ['I-5', 'I-10', 'I-15', 'I-80', 'US-101', 'I-405'],
-    stateParkSystems: ['California State Parks', 'Huntington Beach', 'Big Sur State Parks', 'Lake Tahoe parks'],
-    regulations: 'California Health and Safety Code Section 116035-116068 governs public swimming pools and shower facilities.',
-    climateNote: 'Mediterranean climate with year-round mild weather on coast. Mountain areas have winter snow. Desert regions extremely hot in summer.',
-    seasonalEvents: ['Summer beach season (May-October)', 'Coachella (April)', 'Ski season (December-March)', 'Fire season (August-November)'],
-  localContext: 'California leads the nation in free public beach shower access with over 200 beaches offering rinse stations. San Francisco\'s extensive rec center network charges just $3-7 for shower access. Los Angeles has stark contrasts between affluent West Side gyms ($150+/month) and community centers serving lower-income areas. Silicon Valley tech campuses often allow public access to facilities with advance booking. Homeless populations have created dedicated shower programs in major cities - SF\'s Lava Mae, LA\'s Refresh Spot. Mountain towns like Mammoth and Tahoe cater to seasonal sports enthusiasts.',    priceRange: { low: 0, high: 35 },
-    commonFacilities: ['Beach showers', 'State beaches', 'Recreation centers', 'YMCAs', 'Premium gyms', 'University facilities']
+    narrative: {
+      intro: `California leads the nation in free public shower access. With over 200 beaches offering rinse stations from San Diego to Crescent City, you're never far from a free outdoor shower on the coast. San Francisco's recreation centers charge just $3-7 for full locker room access, making it one of the most affordable major cities for travelers needing a proper wash.`,
+      travelersNote: `The contrast between regions is stark. LA's West Side has gyms charging $150+/month while community centers in other neighborhoods offer day passes for $5. In the mountains, ski towns like Mammoth and Tahoe have facilities catering to van-lifers and seasonal workers. The Central Valley along I-5 has fewer options - truck stops are your best bet.`,
+      localTip: `Major cities have dedicated shower programs for those in need - SF's Lava Mae mobile showers and LA's Refresh Spot. State beach campgrounds offer showers to day visitors for a small fee, usually $5-10.`
+    },
+    cities: [
+      { name: 'Los Angeles', description: 'Beach showers everywhere, huge range from budget gyms to premium clubs' },
+      { name: 'San Francisco', description: 'Excellent rec center network with affordable day rates' },
+      { name: 'San Diego', description: 'Beach showers along the coast, good gym coverage' },
+      { name: 'Sacramento', description: 'State capital with standard gym chains and municipal pools' },
+      { name: 'Lake Tahoe', description: 'Ski resort facilities and campground showers' }
+    ],
+    facilityTypes: [
+      { name: 'Beach showers', description: 'Free rinse stations at 200+ beaches statewide' },
+      { name: 'Recreation centers', description: 'City-run facilities with day passes, especially good in SF' },
+      { name: 'State parks', description: 'Campground showers at state beaches, small day-use fee' },
+      { name: 'Fitness centers', description: '24 Hour Fitness, LA Fitness, Planet Fitness everywhere' },
+      { name: 'University facilities', description: 'UC and CSU campuses often allow community access' }
+    ],
+    pricingContext: {
+      budget: `Free beach showers, SF rec centers $3-7, state park day-use $5-10`,
+      midRange: `Gym day passes $10-20, truck stops along I-5 $12-15`,
+      premium: `Equinox and premium gyms $25-40, resort day spas $50+`
+    },
+    beforeYouGo: `Year-round mild weather on the coast. Mountain areas have winter snow. Desert regions (Palm Springs, Death Valley) are brutal in summer. Fire season (Aug-Nov) can close facilities and affect air quality.`,
+    priceRange: { low: 0, high: 35 }
   },
   
   'colorado': {
     name: 'Colorado',
     code: 'CO',
-    majorCities: ['Denver', 'Colorado Springs', 'Aurora', 'Fort Collins', 'Boulder'],
-    universityTowns: ['Boulder (CU)', 'Fort Collins (CSU)', 'Greeley (UNC)', 'Golden (Mines)'],
-    popularVenues: ['24 Hour Fitness', 'Anytime Fitness', 'Chuze Fitness', 'YMCA of Metro Denver', 'Recreation Centers of Denver'],
-    majorHighways: ['I-25', 'I-70', 'I-76', 'US-285'],
-    stateParkSystems: ['Rocky Mountain National Park', 'Cherry Creek State Park', 'Chatfield State Park'],
-    regulations: 'Colorado Department of Public Health regulations 5 CCR 1003-5 cover swimming pools and mineral baths.',
-    climateNote: 'High altitude affects visitors. Ski season November-April. Summer hiking season increases backcountry facility demand.',
-    seasonalEvents: ['Ski season (November-April)', 'Summer festival season', 'Hiking season (June-October)', 'College football (Fall)'],
-  localContext: 'Colorado\'s fitness-obsessed culture means gyms on every corner in Denver/Boulder. Ski resorts offer day shower passes ($10-25) primarily for van-lifers and seasonal workers. The I-70 mountain corridor gets overwhelmed on weekends with limited facilities. Cannabis tourism has increased demand for hostel-style facilities. Hot springs range from developed resorts ($40+) to primitive pools (free-$15). Recreation centers pride themselves on accessibility with income-based pricing. Altitude sickness drives demand for recovery facilities. Mountain towns struggle with seasonal worker housing, making public showers essential.',
-    priceRange: { low: 0, high: 28 },
-    commonFacilities: ['Recreation centers', 'Hot springs', 'Ski resort facilities', 'University gyms', 'Climbing gyms']
+    narrative: {
+      intro: `Colorado's fitness-obsessed culture means you'll find gyms on every corner in Denver and Boulder. The state's recreation centers are particularly good, with many offering income-based pricing and welcoming attitudes toward travelers. Hot springs scattered throughout the mountains provide a unique option ranging from developed resorts to free primitive pools.`,
+      travelersNote: `Ski resorts offer day shower passes ($10-25) primarily aimed at van-lifers and seasonal workers - a lifesaver if you're living out of your vehicle. The I-70 mountain corridor gets overwhelmed on weekends, so weekday access is easier. Mountain towns struggle with seasonal worker housing, making public showers essential infrastructure.`,
+      localTip: `Denver's recreation centers pride themselves on accessibility. Ask about day passes - they're usually reasonable and include full locker room access. For a treat, check out the natural hot springs in Glenwood Springs, Steamboat, or the more rustic options around Buena Vista.`
+    },
+    cities: [
+      { name: 'Denver', description: 'Excellent rec center network plus every gym chain imaginable' },
+      { name: 'Boulder', description: 'Fitness culture capital with premium options' },
+      { name: 'Colorado Springs', description: 'Military town with good gym coverage' },
+      { name: 'Fort Collins', description: 'College town with CSU facilities and local gyms' },
+      { name: 'Glenwood Springs', description: 'Famous hot springs resort with day access' }
+    ],
+    facilityTypes: [
+      { name: 'Recreation centers', description: 'Denver and Front Range cities have excellent municipal facilities' },
+      { name: 'Hot springs', description: 'Developed resorts to primitive backcountry pools throughout the mountains' },
+      { name: 'Ski resorts', description: 'Day shower passes available at most resorts, $10-25' },
+      { name: 'Fitness centers', description: '24 Hour Fitness, Chuze, Anytime Fitness across the Front Range' },
+      { name: 'Climbing gyms', description: 'Many include locker rooms with showers' }
+    ],
+    pricingContext: {
+      budget: `Primitive hot springs free-$15, some rec centers under $10`,
+      midRange: `Gym day passes $10-20, ski resort showers $10-25`,
+      premium: `Developed hot springs resorts $25-50, premium Denver gyms $25+`
+    },
+    beforeYouGo: `High altitude (Denver is 5,280 ft) affects visitors - take it easy. Ski season runs Nov-April. Summer hiking season increases backcountry demand. I-70 traffic on weekends can make mountain facilities hard to reach.`,
+    priceRange: { low: 0, high: 28 }
   },
   
   'connecticut': {
     name: 'Connecticut',
     code: 'CT',
-    majorCities: ['Hartford', 'New Haven', 'Stamford', 'Bridgeport', 'Waterbury'],
-    universityTowns: ['New Haven (Yale)', 'Storrs (UConn)', 'Middletown (Wesleyan)'],
-    popularVenues: ['Planet Fitness', 'Edge Fitness', 'Chelsea Piers', 'YMCA locations', 'LA Fitness'],
-    majorHighways: ['I-95', 'I-84', 'I-91', 'Route 15 (Merritt Parkway)'],
-    stateParkSystems: ['Hammonasset Beach State Park', 'Silver Sands State Park', 'Gillette Castle State Park'],
-    regulations: 'Connecticut Public Health Code Section 19-13-B33 regulates public swimming pools.',
-    climateNote: 'Four distinct seasons. Beach facilities seasonal May-September. Winter weather may affect operations.',
-    seasonalEvents: ['Summer beach season', 'Fall foliage (September-October)', 'College seasons'],
-  localContext: 'Connecticut\'s wealth disparity shows in facility access - Greenwich and Westport have exclusive clubs while cities like Bridgeport rely on aging YMCAs. Long Island Sound beaches charge out-of-state visitors premium rates ($20-30) while residents enter free. Yale opens select facilities to New Haven residents as community outreach. Casino resorts (Mohegan Sun, Foxwoods) offer spa facilities to non-guests. NYC commuters use gym chains near train stations for morning showers. State parks provide basic facilities but many close after Labor Day. Shore towns restrict beach access to residents during peak season.',
-    priceRange: { low: 0, high: 30 },
-    commonFacilities: ['Beach facilities', 'YMCAs', 'Premium fitness clubs', 'State parks', 'University facilities']
+    narrative: {
+      intro: `Connecticut is a small state with big disparities in facility access. Wealthy towns like Greenwich and Westport have exclusive clubs, while cities like Bridgeport and Hartford rely on YMCAs and community centers. The good news: the state is small enough that you're never far from something, and the Long Island Sound beaches offer shower facilities during summer months.`,
+      travelersNote: `NYC commuters keep gym chains near train stations busy with early morning showers. If you're passing through on I-95, know that beach parking for non-residents can be expensive ($20-30) during summer. Casino resorts at Mohegan Sun and Foxwoods offer spa access to non-guests if you want a more luxurious option.`,
+      localTip: `State parks like Hammonasset Beach have shower facilities but many close after Labor Day. Yale opens some facilities to New Haven residents as community outreach - worth checking if you're in the area.`
+    },
+    cities: [
+      { name: 'Hartford', description: 'State capital with YMCA and basic gym options' },
+      { name: 'New Haven', description: 'Yale area with some university facilities open to public' },
+      { name: 'Stamford', description: 'NYC commuter hub with gym chains near Metro-North stations' },
+      { name: 'Bridgeport', description: 'Working class city with community centers and YMCAs' },
+      { name: 'New London', description: 'Near casinos with spa access options' }
+    ],
+    facilityTypes: [
+      { name: 'Beach facilities', description: 'Long Island Sound beaches with showers (May-Sept), pricey parking for non-residents' },
+      { name: 'YMCAs', description: 'Solid network throughout the state with day passes' },
+      { name: 'Casino resorts', description: 'Mohegan Sun and Foxwoods offer spa/pool day access' },
+      { name: 'State parks', description: 'Hammonasset and Silver Sands have seasonal facilities' },
+      { name: 'Fitness centers', description: 'Planet Fitness, Edge Fitness, LA Fitness in most towns' }
+    ],
+    pricingContext: {
+      budget: `YMCA day passes $10-15, state park day-use $7-15`,
+      midRange: `Gym day passes $10-20, beach parking + shower $20-30 for non-residents`,
+      premium: `Casino spa day passes $30-50, premium clubs $25+`
+    },
+    beforeYouGo: `Four distinct seasons. Beach facilities are seasonal (May-Sept). Shore towns can restrict beach access to residents during peak summer - check policies before driving out.`,
+    priceRange: { low: 0, high: 30 }
   },
   
   'delaware': {
     name: 'Delaware',
     code: 'DE',
-    majorCities: ['Wilmington', 'Dover', 'Newark', 'Rehoboth Beach', 'Lewes'],
-    universityTowns: ['Newark (University of Delaware)', 'Dover (Delaware State)'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'YMCA of Delaware', 'Rehoboth Beach facilities'],
-    majorHighways: ['I-95', 'US-13', 'US-1', 'DE-1'],
-    stateParkSystems: ['Cape Henlopen State Park', 'Delaware Seashore State Park', 'Lums Pond State Park'],
-    regulations: 'Delaware Health and Social Services regulations govern public bathing facilities.',
-    climateNote: 'Beach season May-September. Humid summers, mild winters. Tourist season affects coastal facility availability.',
-    seasonalEvents: ['Beach season (Memorial Day-Labor Day)', 'NASCAR races (Dover)', 'Tax-free shopping'],
-  localContext: 'Delaware\'s beaches draw 7+ million annual visitors, with Rehoboth Beach alone providing 20+ public shower stations. Tax-free shopping brings Pennsylvania and Maryland residents who use gym day passes while on shopping trips. Corporate presence in Wilmington (credit card companies) ensures high-end fitness options downtown. Dover Air Force Base influences local gym culture. Beach towns have "shower only" pricing ($3-5) for day-trippers. Many facilities close or reduce hours October through April. The state\'s small size means most facilities are within 30-minute drives.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Beach showers', 'State parks', 'Fitness centers', 'YMCAs', 'Hotel day passes']
+    narrative: {
+      intro: `Delaware may be small, but its beaches draw 7+ million visitors annually and the shower infrastructure reflects that. Rehoboth Beach alone has 20+ public shower stations along the boardwalk and beach access points. The state's compact size means you're never more than 30 minutes from a facility, whether you're in Wilmington's corporate district or the quieter southern beaches.`,
+      travelersNote: `Tax-free shopping brings Maryland and Pennsylvania residents who often use gym day passes while on shopping trips. Beach towns offer "shower only" pricing ($3-5) for day-trippers who just need a quick rinse. Many coastal facilities reduce hours or close entirely from October through April.`,
+      localTip: `Cape Henlopen and Delaware Seashore State Parks have excellent beach facilities. If you're near Wilmington, the corporate presence (credit card company headquarters) means there are solid gym options downtown.`
+    },
+    cities: [
+      { name: 'Rehoboth Beach', description: '20+ public shower stations, the beach town hub' },
+      { name: 'Wilmington', description: 'Corporate downtown with good gym options' },
+      { name: 'Dover', description: 'State capital, Air Force Base nearby influences gym culture' },
+      { name: 'Newark', description: 'University of Delaware town with campus facilities' },
+      { name: 'Lewes', description: 'Quieter beach town with Cape Henlopen State Park nearby' }
+    ],
+    facilityTypes: [
+      { name: 'Beach showers', description: 'Free rinse stations throughout Rehoboth and beach towns' },
+      { name: 'State parks', description: 'Cape Henlopen and Delaware Seashore with beach facilities' },
+      { name: 'Fitness centers', description: 'Planet Fitness, Anytime Fitness statewide' },
+      { name: 'YMCAs', description: 'YMCA of Delaware locations with day passes' },
+      { name: 'Hotel day passes', description: 'Beach hotels sometimes offer pool/shower access' }
+    ],
+    pricingContext: {
+      budget: `Free beach showers, "shower only" rates at beach businesses $3-5`,
+      midRange: `Gym day passes $10-15, state park day-use $5-10`,
+      premium: `Wilmington premium gyms $20-25`
+    },
+    beforeYouGo: `Beach season runs Memorial Day to Labor Day. Many coastal facilities close or reduce hours Oct-April. NASCAR races at Dover bring crowds. The whole state is small - nothing is far.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'florida': {
     name: 'Florida',
     code: 'FL',
-    majorCities: ['Miami', 'Tampa', 'Jacksonville', 'Orlando', 'St. Petersburg', 'Fort Lauderdale', 'Tallahassee'],
-    universityTowns: ['Gainesville (UF)', 'Tallahassee (FSU)', 'Tampa (USF)', 'Orlando (UCF)'],
-    popularVenues: ['LA Fitness', 'Anytime Fitness', 'YouFit', 'Pilot Flying J', 'YMCA locations', 'Beach facilities'],
-    majorHighways: ['I-95', 'I-75', 'I-4', 'I-10', 'Florida Turnpike'],
-    stateParkSystems: ['Everglades National Park', 'John Pennekamp Coral Reef', 'Bahia Honda State Park'],
-    regulations: 'Florida Administrative Code Chapter 64E-9 governs public swimming pools and bathing places.',
-    climateNote: 'Year-round warm weather. Hurricane season June-November may affect coastal facilities. High humidity year-round.',
-    seasonalEvents: ['Spring break (March)', 'Hurricane season (June-Nov)', 'Snowbird season (Nov-April)', 'Theme park peak (summer, holidays)'],
-  localContext: 'Florida\'s 1,350-mile coastline means nearly every beach has public showers, from basic cold-water rinses to heated facilities with changing areas. Miami Beach alone has 40+ shower stations. Theme park areas (Orlando, Tampa) have numerous budget motels offering day passes for pool/shower use ($10-20). Retirement communities often restrict access to residents and guests. The Keys have limited facilities between Key Largo and Key West. Truck stops along Florida\'s Turnpike are modern "travel plazas" with premium shower facilities. Hurricane evacuations can overwhelm inland facilities. Spring break brings temporary shower trailers to popular beaches.',    priceRange: { low: 0, high: 30 },
-    commonFacilities: ['Beach showers', 'Theme park area facilities', 'State parks', 'Truck stops', 'Resort day passes']
+    narrative: {
+      intro: `Florida's 1,350-mile coastline means you're never far from a free beach shower. Nearly every public beach has rinse stations, from basic cold-water setups to heated facilities with changing areas. Miami Beach alone has 40+ shower stations. The year-round warm weather means facilities operate constantly, making Florida one of the easiest states to find a shower.`,
+      travelersNote: `Theme park areas around Orlando and Tampa have budget motels offering day passes for pool and shower use ($10-20). If you're driving the Turnpike or I-95, the truck stops are modern "travel plazas" with quality shower facilities. The Keys are beautiful but have limited options between Key Largo and Key West - plan your stops.`,
+      localTip: `Snowbird season (Nov-April) increases demand at facilities across the state. During hurricane season (June-Nov), coastal facilities may close with little notice. Spring break overwhelms beach facilities in March, but some towns bring in temporary shower trailers.`
+    },
+    cities: [
+      { name: 'Miami', description: '40+ beach shower stations, endless gym options' },
+      { name: 'Orlando', description: 'Theme park area with budget motel day passes available' },
+      { name: 'Tampa', description: 'Beach access plus good gym coverage' },
+      { name: 'Jacksonville', description: 'Large city with beaches and standard facilities' },
+      { name: 'Key West', description: 'Limited but available at the end of the Keys' }
+    ],
+    facilityTypes: [
+      { name: 'Beach showers', description: 'Free rinse stations at nearly every public beach' },
+      { name: 'Truck stops', description: 'Modern travel plazas along Turnpike and I-95' },
+      { name: 'State parks', description: 'Bahia Honda, John Pennekamp, and others with beach facilities' },
+      { name: 'Fitness centers', description: 'LA Fitness, YouFit, Anytime Fitness everywhere' },
+      { name: 'Motel day passes', description: 'Budget motels in tourist areas offer pool/shower access' }
+    ],
+    pricingContext: {
+      budget: `Free beach showers everywhere, state park day-use $4-8`,
+      midRange: `Truck stops $12-15, gym day passes $10-15, motel day passes $10-20`,
+      premium: `Resort day passes $25-50+`
+    },
+    beforeYouGo: `Year-round warm weather but high humidity. Hurricane season (June-Nov) can close coastal facilities. Spring break (March) overwhelms beach facilities. Snowbird season (Nov-April) increases demand statewide.`,
+    priceRange: { low: 0, high: 30 }
   },
   
   'georgia': {
     name: 'Georgia',
     code: 'GA',
-    majorCities: ['Atlanta', 'Columbus', 'Augusta', 'Macon', 'Savannah', 'Athens'],
-    universityTowns: ['Athens (UGA)', 'Atlanta (Georgia Tech)', 'Statesboro (Georgia Southern)'],
-    popularVenues: ['LA Fitness', 'Planet Fitness', 'Anytime Fitness', 'Love\'s Travel Stops', 'YMCA of Metro Atlanta'],
-    majorHighways: ['I-75', 'I-85', 'I-20', 'I-95', 'I-16'],
-    stateParkSystems: ['Cloudland Canyon', 'Tybee Island', 'Amicalola Falls State Park'],
-    regulations: 'Georgia Department of Public Health Rules Chapter 511-3-5 covers public swimming pools.',
-    climateNote: 'Hot, humid summers. Mild winters. Spring pollen season may affect outdoor facilities.',
-    seasonalEvents: ['Masters Tournament (April)', 'College football (Fall)', 'Peach season (June-August)', 'Atlanta conventions year-round'],
-  localContext: 'Atlanta\'s sprawl means facilities cluster in specific areas - Buckhead for premium gyms, suburbs for family-focused chains. The city\'s role as a transportation hub makes it the "truck stop capital of the South" with major facilities at every interstate junction. Savannah\'s historic district has limited options, pushing visitors to Tybee Island (20 minutes). College towns transform during football season with Athens and Atlanta seeing 100,000+ visitors on game days. The Appalachian Trail\'s southern terminus at Springer Mountain creates seasonal demand for hiker facilities. CDC presence brings health-conscious culture to Atlanta area.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Truck stops', 'Fitness centers', 'Recreation centers', 'University facilities', 'State parks']
+    narrative: {
+      intro: `Atlanta's position as a major transportation hub makes Georgia the "truck stop capital of the South" with quality facilities at every interstate junction. The city's sprawl means gyms cluster in specific areas - Buckhead for premium options, suburbs for family chains. Beyond Atlanta, you'll find good coverage in most cities, though rural areas between interstates can be sparse.`,
+      travelersNote: `Savannah's charming historic district has limited shower options - most visitors head to Tybee Island (20 minutes away) for beach facilities. College football transforms Athens and Atlanta on game days, with 100,000+ visitors making facilities crowded. If you're hiking the Appalachian Trail, Springer Mountain (the southern terminus) has nearby facilities catering to thru-hikers.`,
+      localTip: `The CDC headquarters in Atlanta has fostered a health-conscious culture, so you'll find more gym options per capita than you might expect. State parks like Cloudland Canyon and Amicalola Falls have campground showers.`
+    },
+    cities: [
+      { name: 'Atlanta', description: 'Major hub with facilities clustered by neighborhood, great truck stop coverage' },
+      { name: 'Savannah', description: 'Historic district is limited, head to Tybee Island for beach showers' },
+      { name: 'Athens', description: 'UGA college town, busy on football weekends' },
+      { name: 'Augusta', description: 'Masters Tournament in April affects availability' },
+      { name: 'Macon', description: 'Central Georgia with standard gym options' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'Love\'s and Pilot at every major interstate junction' },
+      { name: 'Fitness centers', description: 'LA Fitness, Planet Fitness, Anytime Fitness throughout metro areas' },
+      { name: 'Recreation centers', description: 'YMCA of Metro Atlanta plus municipal facilities' },
+      { name: 'State parks', description: 'Cloudland Canyon, Amicalola Falls with campground showers' },
+      { name: 'Beach facilities', description: 'Tybee Island and Georgia coast beaches' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $5, beach showers free at Tybee Island`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Buckhead premium gyms $20-25`
+    },
+    beforeYouGo: `Hot, humid summers. College football weekends (especially UGA in Athens) overwhelm facilities. Masters Tournament in April makes Augusta area very busy. Spring pollen season is intense.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'hawaii': {
     name: 'Hawaii',
     code: 'HI',
-    majorCities: ['Honolulu', 'Pearl City', 'Hilo', 'Kailua-Kona', 'Kahului'],
-    universityTowns: ['Honolulu (UH Manoa)', 'Hilo (UH Hilo)'],
-    popularVenues: ['24 Hour Fitness', 'Anytime Fitness', 'YMCA of Honolulu', 'Beach park facilities'],
-    majorHighways: ['H-1', 'H-2', 'H-3', 'Route 11', 'Route 19'],
-    stateParkSystems: ['Hawaii Volcanoes National Park', 'Hanauma Bay', 'Diamond Head State Monument'],
-    regulations: 'Hawaii Administrative Rules Title 11 Chapter 10 governs public swimming pools.',
-    climateNote: 'Year-round tropical climate. Trade winds provide natural cooling. Occasional tropical storms.',
-    seasonalEvents: ['Peak tourist season (December-April)', 'Summer break (June-August)', 'Ironman (October)', 'Surf season (November-February)'],
-  localContext: 'Hawaii\'s beach culture means virtually every beach park has shower facilities - over 150 locations statewide. Waikiki alone has 30+ public showers. Local etiquette requires rinsing before entering ocean (remove sunscreen) and after (remove salt). Military bases (Pearl Harbor, Schofield Barracks) restrict access but influence surrounding gym development. Neighbor islands have fewer commercial gyms but excellent beach facilities. Japanese tourism drives demand for clean, well-maintained facilities. Homeless populations\' use of beach showers creates occasional maintenance issues and hour restrictions. Many facilities now use low-flow fixtures due to water scarcity concerns.',    priceRange: { low: 0, high: 35 },
-    commonFacilities: ['Beach park showers', 'Hotel day passes', 'Fitness centers', 'YMCAs', 'Community pools']
+    narrative: {
+      intro: `Hawaii's beach culture makes it one of the easiest places to find a free shower. Virtually every beach park has shower facilities - over 150 locations statewide. Waikiki alone has 30+ public showers along the beach. Local etiquette actually requires rinsing before entering the ocean (to remove sunscreen) and after (to remove salt), so the infrastructure is built for it.`,
+      travelersNote: `The neighbor islands (Maui, Big Island, Kauai) have fewer commercial gyms than Oahu but excellent beach facilities throughout. Hotel day passes for pool and shower access are common in tourist areas, though prices vary widely. Military bases restrict access but influence surrounding gym development.`,
+      localTip: `Many beach showers now use low-flow fixtures due to water scarcity - be mindful of usage. If you need a more private shower, community pools often offer affordable access. The YMCA of Honolulu is a reliable option on Oahu.`
+    },
+    cities: [
+      { name: 'Honolulu', description: 'Waikiki has 30+ beach showers, plus gyms and YMCA' },
+      { name: 'Kahului', description: 'Maui hub with beach parks and basic gym options' },
+      { name: 'Kailua-Kona', description: 'Big Island west side with beach facilities' },
+      { name: 'Hilo', description: 'Big Island east side, UH Hilo campus area' },
+      { name: 'Lihue', description: 'Kauai main town with beach access nearby' }
+    ],
+    facilityTypes: [
+      { name: 'Beach park showers', description: 'Free at 150+ beach parks statewide' },
+      { name: 'Hotel day passes', description: 'Pool and shower access at resort hotels, prices vary' },
+      { name: 'Community pools', description: 'Affordable access with shower facilities' },
+      { name: 'Fitness centers', description: '24 Hour Fitness, Anytime Fitness mainly on Oahu' },
+      { name: 'YMCAs', description: 'YMCA of Honolulu with day pass options' }
+    ],
+    pricingContext: {
+      budget: `Free beach showers everywhere, community pools $3-5`,
+      midRange: `Gym day passes $15-20, some hotel day passes $15-25`,
+      premium: `Resort pool day passes $30-75+`
+    },
+    beforeYouGo: `Year-round tropical weather with trade winds. Peak tourist season (Dec-April) and Ironman in October (Big Island) increase demand. Water conservation is important - be mindful of shower usage.`,
+    priceRange: { low: 0, high: 35 }
   },
   
   'idaho': {
     name: 'Idaho',
     code: 'ID',
-    majorCities: ['Boise', 'Meridian', 'Idaho Falls', 'Pocatello', 'Coeur d\'Alene'],
-    universityTowns: ['Moscow (U of I)', 'Pocatello (ISU)', 'Boise (Boise State)'],
-    popularVenues: ['Anytime Fitness', 'Planet Fitness', 'The Athletic Club', 'YMCA locations'],
-    majorHighways: ['I-84', 'I-15', 'I-90', 'US-95'],
-    stateParkSystems: ['Craters of the Moon', 'Ponderosa State Park', 'Harriman State Park'],
-    regulations: 'Idaho Administrative Code IDAPA 16.02.19 governs public swimming pools.',
-    climateNote: 'Four seasons with cold winters. Mountain areas have heavy snow. Hot springs available year-round.',
-    seasonalEvents: ['Ski season (December-March)', 'River season (June-September)', 'Harvest season (Fall)'],
-    localContext: 'Idaho has over 130 soakable hot springs, ranging from developed resorts to primitive backcountry pools requiring hiking access. Boise\'s growth has brought modern fitness chains while rural areas depend on school facilities that open to public evenings/weekends. Sun Valley attracts wealthy tourists with high-end spa facilities. Mormon influence in eastern Idaho affects Sunday operations. Agricultural workers in Magic Valley have limited access, with some churches providing shower programs. White water rafting companies offer end-of-trip shower facilities. Winter road conditions can make facilities inaccessible for days. Californian transplants to Boise have increased demand for premium fitness options.',
-    priceRange: { low: 0, high: 20 },
-    commonFacilities: ['Hot springs', 'Recreation centers', 'State parks', 'University gyms', 'Fitness centers']
+    narrative: {
+      intro: `Idaho has over 130 soakable hot springs, making it unique for shower access. These range from developed resorts with full facilities to primitive backcountry pools requiring a hike. Beyond the springs, Boise's recent growth has brought modern fitness chains, though rural areas still depend on school facilities that open to the public during evenings and weekends.`,
+      travelersNote: `Sun Valley attracts wealthy tourists with high-end spa facilities, while the rest of the state is more modest. White water rafting companies along the Salmon and Payette Rivers typically offer end-of-trip shower facilities for their guests. Winter road conditions in the mountains can make facilities inaccessible for days.`,
+      localTip: `Eastern Idaho has strong Mormon influence, so many facilities close on Sundays. If you're passing through the Magic Valley agricultural area, options are limited - some churches run shower programs for seasonal workers.`
+    },
+    cities: [
+      { name: 'Boise', description: 'Growing city with modern gym chains and increasing premium options' },
+      { name: 'Coeur d\'Alene', description: 'North Idaho resort town with lake facilities' },
+      { name: 'Idaho Falls', description: 'Eastern Idaho hub, watch for Sunday closures' },
+      { name: 'Pocatello', description: 'ISU college town with campus facilities' },
+      { name: 'Sun Valley', description: 'Upscale ski resort with high-end spa options' }
+    ],
+    facilityTypes: [
+      { name: 'Hot springs', description: '130+ locations from developed resorts to primitive pools' },
+      { name: 'Recreation centers', description: 'Municipal facilities in larger cities' },
+      { name: 'Fitness centers', description: 'Anytime Fitness, Planet Fitness in Boise area' },
+      { name: 'Rafting outfitters', description: 'End-of-trip showers for river trip guests' },
+      { name: 'School facilities', description: 'Rural areas open school gyms to public evenings/weekends' }
+    ],
+    pricingContext: {
+      budget: `Primitive hot springs free-$10, school facilities often free or donation`,
+      midRange: `Gym day passes $10-15, developed hot springs $10-20`,
+      premium: `Sun Valley resort spa $30+, premium Boise gyms $20+`
+    },
+    beforeYouGo: `Four seasons with cold winters. Mountain roads can be impassable in winter. Eastern Idaho has Sunday closures. Hot springs are available year-round but some primitive ones require hiking.`,
+    priceRange: { low: 0, high: 20 }
   },
   
   'illinois': {
     name: 'Illinois',
     code: 'IL',
-    majorCities: ['Chicago', 'Aurora', 'Rockford', 'Joliet', 'Naperville', 'Springfield'],
-    universityTowns: ['Champaign-Urbana (UIUC)', 'Carbondale (SIU)', 'Normal (ISU)', 'Evanston (Northwestern)'],
-    popularVenues: ['LA Fitness', 'Planet Fitness', 'Xsport Fitness', 'Chicago Park District', 'YMCA of Metro Chicago'],
-    majorHighways: ['I-55', 'I-57', 'I-80', 'I-90', 'I-94'],
-    stateParkSystems: ['Starved Rock State Park', 'Illinois Beach State Park', 'Giant City State Park'],
-    regulations: 'Illinois Department of Public Health Administrative Code Title 77 Chapter I governs public swimming facilities.',
-    climateNote: 'Cold winters with lake effect snow. Hot, humid summers. Spring and fall moderate.',
-    seasonalEvents: ['Summer festivals (June-August)', 'College sports seasons', 'State Fair (August)', 'Lake Michigan beach season'],
-  localContext: 'Chicago Park District operates 70+ facilities with shower access, most charging $20-35 day passes. Lake Michigan beaches have 30+ shower stations open May-October. The Loop has premium gyms catering to finance workers with early opening hours (4:30am). South and West sides have fewer commercial options but strong community center networks. Winter creates "gym refugees" when outdoor runners need indoor alternatives. O\'Hare area has numerous hotels offering day rates for layover passengers. Downstate Illinois relies heavily on YMCAs, with many small towns having no other options. Universities open facilities to community members for higher fees during summer.',
-    priceRange: { low: 0, high: 30 },
-    commonFacilities: ['Park district facilities', 'Beach houses', 'Fitness centers', 'YMCAs', 'University facilities']
+    narrative: {
+      intro: `Chicago dominates Illinois shower options with the Park District operating 70+ facilities across the city. Lake Michigan beaches have 30+ shower stations open from May through October - completely free to use. The Loop caters to finance workers with premium gyms opening as early as 4:30am, while South and West sides have strong community center networks.`,
+      travelersNote: `If you're passing through O'Hare, numerous hotels offer day rates for layover passengers needing a shower. Downstate Illinois is a different story - many small towns rely entirely on YMCAs, and some have no public options at all. University towns like Champaign-Urbana open campus facilities to the community, especially during summer.`,
+      localTip: `Chicago Park District day passes run $20-35 but include pool access. If you just need a quick shower after the beach, the lakefront beach houses are free. Winter creates demand for indoor facilities when outdoor runners need alternatives.`
+    },
+    cities: [
+      { name: 'Chicago', description: '70+ Park District facilities, 30+ beach showers along lakefront' },
+      { name: 'Springfield', description: 'State capital with basic municipal options' },
+      { name: 'Champaign-Urbana', description: 'UIUC college town with university facilities' },
+      { name: 'Rockford', description: 'Northern Illinois city with YMCAs and gyms' },
+      { name: 'Naperville', description: 'Affluent suburb with good gym coverage' }
+    ],
+    facilityTypes: [
+      { name: 'Park District facilities', description: 'Chicago runs 70+ facilities with day passes $20-35' },
+      { name: 'Beach houses', description: 'Free showers at 30+ Lake Michigan beach locations (May-Oct)' },
+      { name: 'Fitness centers', description: 'LA Fitness, Xsport, Planet Fitness in metro areas' },
+      { name: 'YMCAs', description: 'The backbone of downstate Illinois access' },
+      { name: 'University facilities', description: 'Campus rec centers open to community, especially summer' }
+    ],
+    pricingContext: {
+      budget: `Free Lake Michigan beach showers, some community centers under $10`,
+      midRange: `Gym day passes $10-20, Park District facilities $20-35 with pool access`,
+      premium: `Loop premium gyms $25-40`
+    },
+    beforeYouGo: `Cold winters with lake effect snow. Beach facilities open May-Oct only. O'Hare area hotels offer day rates for travelers. Downstate options are limited compared to Chicago.`,
+    priceRange: { low: 0, high: 30 }
   },
   
   'indiana': {
     name: 'Indiana',
     code: 'IN',
-    majorCities: ['Indianapolis', 'Fort Wayne', 'Evansville', 'South Bend', 'Bloomington'],
-    universityTowns: ['Bloomington (IU)', 'West Lafayette (Purdue)', 'Notre Dame', 'Muncie (Ball State)'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'LA Fitness', 'YMCA locations', 'Community centers'],
-    majorHighways: ['I-65', 'I-69', 'I-70', 'I-74', 'I-80/90'],
-    stateParkSystems: ['Indiana Dunes National Park', 'Brown County State Park', 'Turkey Run State Park'],
-    regulations: 'Indiana State Department of Health 410 IAC 6-2.1 governs public swimming pools.',
-    climateNote: 'Four distinct seasons. Cold winters, hot humid summers. Lake Michigan moderates northern climate.',
-    seasonalEvents: ['Indianapolis 500 (May)', 'State Fair (August)', 'College basketball season', 'Football season (Fall)'],
-  localContext: 'Indianapolis 500 brings 300,000+ visitors in May, straining facilities citywide. Basketball culture means even small towns have recreation centers with showers. Religious conservatism affects some facilities\' policies on family changing areas. RV manufacturing in Elkhart area supports numerous campgrounds with facilities. Indiana Dunes provides beach showers but water is cold even in summer. Amish country in northern Indiana has very limited public facilities. College towns see dramatic population shifts affecting access and pricing. Truck stops along I-65 and I-70 serve as crucial facilities for rural areas between cities.',
-    priceRange: { low: 0, high: 22 },
-    commonFacilities: ['Recreation centers', 'YMCAs', 'University facilities', 'Truck stops', 'State parks']
+    narrative: {
+      intro: `Indiana's basketball culture means even small towns have recreation centers with showers - the gym is central to community life here. Indianapolis has solid coverage with YMCAs and fitness chains, while college towns like Bloomington and West Lafayette offer campus facilities. Truck stops along I-65 and I-70 serve as crucial facilities for the stretches of rural farmland between cities.`,
+      travelersNote: `The Indianapolis 500 in May brings 300,000+ visitors and strains facilities citywide - plan ahead if visiting during race week. Indiana Dunes National Park has beach showers, though Lake Michigan water is cold even in summer. Amish country in northern Indiana has very limited public facilities.`,
+      localTip: `The RV manufacturing hub around Elkhart supports numerous campgrounds with shower facilities - useful if you're passing through on I-80/90. College towns empty out in summer, making university facilities more accessible.`
+    },
+    cities: [
+      { name: 'Indianapolis', description: 'State capital with YMCAs, gyms, and rec centers throughout' },
+      { name: 'Bloomington', description: 'IU college town with campus facilities' },
+      { name: 'Fort Wayne', description: 'Second largest city with standard gym coverage' },
+      { name: 'South Bend', description: 'Notre Dame area with university influence' },
+      { name: 'Gary', description: 'Near Indiana Dunes with beach shower access' }
+    ],
+    facilityTypes: [
+      { name: 'Recreation centers', description: 'Basketball culture means most towns have a gym with showers' },
+      { name: 'YMCAs', description: 'Strong network throughout the state' },
+      { name: 'Truck stops', description: 'Along I-65, I-70, and I-80/90 corridors' },
+      { name: 'University facilities', description: 'IU, Purdue, Notre Dame with varying public access' },
+      { name: 'State parks', description: 'Indiana Dunes, Brown County, Turkey Run with campground showers' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $5-7, some community centers under $5`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Premium Indianapolis gyms $20+`
+    },
+    beforeYouGo: `Four seasons with cold winters and humid summers. Indy 500 (May) overwhelms the city. Amish areas have limited facilities. College towns change dramatically between school year and summer.`,
+    priceRange: { low: 0, high: 22 }
   },
   
   'iowa': {
     name: 'Iowa',
     code: 'IA',
-    majorCities: ['Des Moines', 'Cedar Rapids', 'Davenport', 'Sioux City', 'Iowa City'],
-    universityTowns: ['Iowa City (U of Iowa)', 'Ames (Iowa State)', 'Cedar Falls (UNI)'],
-    popularVenues: ['Anytime Fitness', 'Planet Fitness', 'YMCA locations', 'Love\'s Travel Stops'],
-    majorHighways: ['I-35', 'I-80', 'I-29', 'I-380'],
-    stateParkSystems: ['Backbone State Park', 'Maquoketa Caves State Park', 'Clear Lake State Park'],
-    regulations: 'Iowa Administrative Code Chapter 15 governs swimming pools and spas.',
-    climateNote: 'Continental climate with cold winters and hot summers. Spring severe weather season.',
-    seasonalEvents: ['Iowa State Fair (August)', 'RAGBRAI (July)', 'College football (Fall)', 'Caucus season'],
-  localContext: 'RAGBRAI (bike ride across Iowa) creates a moving demand for shower facilities each July, with small towns opening schools and churches. Iowa\'s agricultural character means many rural communities have only school facilities available after hours. Caucus season brings media and political operatives seeking facilities. The world\'s largest truck stop (Iowa 80) sets the standard for interstate shower facilities. College towns have stark contrasts between student-focused and community facilities. Many small-town pools built in the 1960s-70s are aging out with limited replacement funds. Wind farm workers in rural areas create unexpected demand in formerly quiet towns.',
-    priceRange: { low: 0, high: 18 },
-    commonFacilities: ['Truck stops', 'Community centers', 'YMCAs', 'University facilities', 'Recreation centers']
+    narrative: {
+      intro: `Iowa is home to the world's largest truck stop - Iowa 80 on I-80 - which sets the standard for interstate shower facilities. Beyond the highways, the state's agricultural character means many rural communities have only school facilities available after hours, but the cities have solid YMCA and gym coverage. Des Moines, Cedar Rapids, and the college towns offer the most options.`,
+      travelersNote: `RAGBRAI (the famous bike ride across Iowa) each July creates moving demand as small towns open schools and churches for cyclists. College towns like Iowa City and Ames have good facilities but stark differences between student-focused and community options. Wind farm workers in rural areas create unexpected demand in formerly quiet towns.`,
+      localTip: `Iowa 80 truck stop near Walcott is worth a stop even if you're not a trucker - clean facilities, food options, and a trucking museum. Many small-town pools built in the 1960s-70s are aging, so quality varies.`
+    },
+    cities: [
+      { name: 'Des Moines', description: 'State capital with the best facility coverage' },
+      { name: 'Iowa City', description: 'University of Iowa town with campus rec facilities' },
+      { name: 'Cedar Rapids', description: 'Second largest city with YMCAs and gyms' },
+      { name: 'Ames', description: 'Iowa State University town' },
+      { name: 'Davenport', description: 'Quad Cities area on the Mississippi' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'Iowa 80 is world-famous, plus Love\'s along I-80 and I-35' },
+      { name: 'YMCAs', description: 'Network throughout the state' },
+      { name: 'Community centers', description: 'Small towns often have a community pool or rec center' },
+      { name: 'University facilities', description: 'Iowa, Iowa State, UNI with varying access' },
+      { name: 'School facilities', description: 'Rural areas open schools after hours' }
+    ],
+    pricingContext: {
+      budget: `School and community facilities often under $5, some free`,
+      midRange: `Truck stops $12-15, gym day passes $10-15`,
+      premium: `Premium Des Moines gyms $15-20`
+    },
+    beforeYouGo: `Continental climate with cold winters and hot summers. RAGBRAI in July transforms small towns. Iowa State Fair in August brings crowds to Des Moines. Caucus season (every 4 years) brings media crowds.`,
+    priceRange: { low: 0, high: 18 }
   },
   
   'kansas': {
     name: 'Kansas',
     code: 'KS',
-    majorCities: ['Wichita', 'Kansas City', 'Topeka', 'Lawrence', 'Manhattan'],
-    universityTowns: ['Lawrence (KU)', 'Manhattan (K-State)', 'Pittsburg (Pitt State)'],
-    popularVenues: ['Genesis Health Clubs', 'Planet Fitness', 'Anytime Fitness', 'YMCA locations'],
-    majorHighways: ['I-35', 'I-70', 'I-135', 'US-54'],
-    stateParkSystems: ['Eisenhower State Park', 'Milford State Park', 'Wilson State Park'],
-    regulations: 'Kansas Administrative Regulations 28-14 governs swimming pools and spas.',
-    climateNote: 'Continental climate with hot summers and cold winters. Tornado season April-June.',
-    seasonalEvents: ['Sunflower season (September)', 'College basketball season', 'State Fair (September)'],
-  localContext: 'Kansas\'s position on cross-country trucking routes means excellent truck stop facilities every 50-75 miles on I-70. Basketball obsession ensures most communities have gymnasiums with shower facilities. Agricultural areas have seasonal worker populations with limited access. Oil field workers in western Kansas rely on hotel day rates and truck stops. Small towns often have single facility serving entire community - typically the school. Tornado damage can eliminate a town\'s only facility. Military presence at Fort Riley and McConnell AFB influences nearby civilian facilities. German-Russian heritage areas maintain strong community center traditions.',
-    priceRange: { low: 0, high: 20 },
-    commonFacilities: ['Truck stops', 'Community centers', 'University gyms', 'Recreation centers', 'Fitness centers']
+    narrative: {
+      intro: `Kansas's position on cross-country trucking routes means excellent truck stop facilities every 50-75 miles along I-70. Like neighboring Indiana, basketball culture runs deep here, so most communities have gymnasiums with shower facilities. The cities - Wichita, Kansas City (KS), Topeka - have standard gym and YMCA coverage.`,
+      travelersNote: `Western Kansas is oil field country where workers rely on hotel day rates and truck stops. Small towns often have just one facility serving the entire community, typically the school gym. College towns Lawrence (KU) and Manhattan (K-State) have good options but get overwhelmed during basketball season.`,
+      localTip: `Fort Riley and McConnell AFB influence nearby civilian facilities in Junction City and Wichita respectively. German-Russian heritage communities in central Kansas maintain strong community center traditions with welcoming attitudes.`
+    },
+    cities: [
+      { name: 'Wichita', description: 'Largest city with Genesis Health Clubs and major chains' },
+      { name: 'Kansas City', description: 'KCK side of metro area with gym coverage' },
+      { name: 'Lawrence', description: 'KU college town, busy during basketball season' },
+      { name: 'Topeka', description: 'State capital with standard options' },
+      { name: 'Manhattan', description: 'K-State town with university facilities' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'Every 50-75 miles along I-70, good coverage on I-35' },
+      { name: 'Community centers', description: 'Basketball culture means most towns have a gym' },
+      { name: 'University facilities', description: 'KU and K-State with varying public access' },
+      { name: 'Fitness centers', description: 'Genesis Health Clubs (regional), Planet Fitness, Anytime Fitness' },
+      { name: 'School facilities', description: 'Small towns often open schools to public' }
+    ],
+    pricingContext: {
+      budget: `School and community facilities often under $5`,
+      midRange: `Truck stops $12-15, gym day passes $10-15`,
+      premium: `Premium Wichita gyms $15-20`
+    },
+    beforeYouGo: `Hot summers and cold winters. Tornado season (April-June) can damage or close facilities. Basketball season makes college towns busy. Western Kansas has long stretches between facilities.`,
+    priceRange: { low: 0, high: 20 }
   },
   
   'kentucky': {
     name: 'Kentucky',
     code: 'KY',
-    majorCities: ['Louisville', 'Lexington', 'Bowling Green', 'Owensboro', 'Covington'],
-    universityTowns: ['Lexington (UK)', 'Louisville (U of L)', 'Bowling Green (WKU)', 'Richmond (EKU)'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'Baptist Health/Milestone Wellness', 'YMCA of Greater Louisville'],
-    majorHighways: ['I-65', 'I-75', 'I-24', 'I-71'],
-    stateParkSystems: ['Mammoth Cave National Park', 'Lake Cumberland State Resort Park', 'Natural Bridge State Resort Park'],
-    regulations: 'Kentucky Administrative Regulations Title 902 KAR 10:120 governs public swimming pools.',
-    climateNote: 'Humid subtropical climate. Hot summers, mild winters. Cave systems maintain constant temperatures.',
-    seasonalEvents: ['Kentucky Derby (May)', 'Bourbon Trail season', 'College basketball season', 'Fall foliage'],
-  localContext: 'Kentucky\'s unique state resort park system includes lodges with public shower access even for non-guests. Basketball culture rivals Indiana\'s, ensuring recreation centers in most communities. Bourbon tourism has created upscale facilities along the trail routes. Eastern Kentucky\'s coal country has limited options with some communities relying entirely on school facilities. Lake Cumberland and Land Between the Lakes provide seasonal facilities for boaters. Louisville\'s Derby Week sees prices triple and restricted access at many facilities. Appalachian areas may have cultural hesitancy about public facilities. Fort Campbell influences Hopkinsville area facilities.',
-    priceRange: { low: 0, high: 22 },
-    commonFacilities: ['State resort parks', 'Lake facilities', 'University gyms', 'YMCAs', 'Truck stops']
+    narrative: {
+      intro: `Kentucky has a unique asset: the state resort park system. These parks include lodges with public shower access even for non-guests, making them a reliable option throughout the state. Basketball culture here rivals Indiana's, so most communities have recreation centers. Louisville and Lexington have solid gym coverage, and the bourbon tourism boom has brought upscale facilities along the trail routes.`,
+      travelersNote: `Eastern Kentucky's coal country has limited options - some communities rely entirely on school facilities. Lake Cumberland and Land Between the Lakes provide seasonal facilities for boaters. Louisville's Derby Week (first Saturday in May) sees prices triple and restricted access at many facilities - avoid if you can.`,
+      localTip: `State resort parks like Lake Cumberland, Natural Bridge, and Cumberland Falls are worth knowing about - they're scattered throughout the state and offer reliable shower access even if you're not staying overnight.`
+    },
+    cities: [
+      { name: 'Louisville', description: 'Largest city with YMCAs and major gym chains, crazy during Derby' },
+      { name: 'Lexington', description: 'UK college town with university facilities and horse country gyms' },
+      { name: 'Bowling Green', description: 'WKU town with campus and community options' },
+      { name: 'Covington', description: 'Northern Kentucky near Cincinnati with shared metro facilities' },
+      { name: 'Lake Cumberland area', description: 'Resort park and lake facilities for boaters' }
+    ],
+    facilityTypes: [
+      { name: 'State resort parks', description: 'Unique to Kentucky - lodges with public shower access' },
+      { name: 'Recreation centers', description: 'Basketball culture means most towns have a gym' },
+      { name: 'Lake facilities', description: 'Lake Cumberland, Land Between the Lakes for boaters' },
+      { name: 'University facilities', description: 'UK, U of L, WKU with varying access' },
+      { name: 'Truck stops', description: 'Along I-65, I-75, and I-64 corridors' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $5-10, community facilities under $5`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Bourbon Trail area premium facilities $20+, Louisville Derby week prices triple`
+    },
+    beforeYouGo: `Humid summers and mild winters. Kentucky Derby (May) makes Louisville impossible. Basketball season affects college towns. Eastern Kentucky has limited options - state parks are your backup.`,
+    priceRange: { low: 0, high: 22 }
   },
   
   'louisiana': {
     name: 'Louisiana',
     code: 'LA',
-    majorCities: ['New Orleans', 'Baton Rouge', 'Shreveport', 'Lafayette', 'Lake Charles'],
-    universityTowns: ['Baton Rouge (LSU)', 'New Orleans (Tulane)', 'Ruston (LA Tech)', 'Hammond (Southeastern)'],
-    popularVenues: ['Anytime Fitness', 'Planet Fitness', 'Franco\'s Athletic Club', 'YMCA locations'],
-    majorHighways: ['I-10', 'I-12', 'I-20', 'I-49'],
-    stateParkSystems: ['Fontainebleau State Park', 'Chicot State Park', 'Lake Bistineau State Park'],
-    regulations: 'Louisiana Administrative Code Title 51 Part XIV governs public swimming pools.',
-    climateNote: 'Subtropical climate with high humidity. Hurricane season June-November. Hot summers year-round warmth.',
-    seasonalEvents: ['Mardi Gras (February/March)', 'Jazz Fest (April/May)', 'Festival season (Spring/Fall)', 'Hurricane season'],
-  localContext: 'New Orleans\' tourism creates year-round demand with French Quarter gyms offering day passes to visitors. Mardi Gras and Jazz Fest can make facilities completely inaccessible to non-members. Post-Katrina infrastructure varies widely by parish. Oil industry workers in offshore rotation use facilities during shore time. Sportsman\'s Paradise region has boat launch facilities with showers. Cultural attitudes about public bathing vary between Cajun/Creole communities. Casino resorts in Lake Charles and Shreveport offer day spa access. Hurricane evacuations can overwhelm facilities in northern parishes. Some facilities still recovering from 2020-2021 hurricane damage.',
-    priceRange: { low: 0, high: 20 },
-    commonFacilities: ['Community centers', 'State parks', 'Truck stops', 'University facilities', 'Recreation centers']
+    narrative: {
+      intro: `New Orleans drives Louisiana's tourism, and French Quarter gyms have adapted by offering day passes to visitors year-round. Outside the city, Baton Rouge has LSU facilities and standard gym chains, while the rest of the state varies widely. Casino resorts in Lake Charles and Shreveport offer spa and fitness day access if you want something nicer.`,
+      travelersNote: `During Mardi Gras (Feb/March) and Jazz Fest (April/May), New Orleans facilities can be completely inaccessible to non-members - plan accordingly or skip the city during these times. Oil industry workers on offshore rotation use facilities during shore time, creating unusual demand patterns in coastal parishes.`,
+      localTip: `Post-Katrina infrastructure varies widely by parish, and some facilities are still recovering from 2020-2021 hurricane damage. State parks like Fontainebleau have reliable campground showers. Boat launch facilities in the "Sportsman's Paradise" region often have basic showers.`
+    },
+    cities: [
+      { name: 'New Orleans', description: 'French Quarter gyms offer tourist day passes, avoid during Mardi Gras' },
+      { name: 'Baton Rouge', description: 'LSU campus facilities plus standard gym chains' },
+      { name: 'Lafayette', description: 'Cajun country hub with community centers' },
+      { name: 'Shreveport', description: 'Casino resort spa access available' },
+      { name: 'Lake Charles', description: 'Casino town with spa day passes' }
+    ],
+    facilityTypes: [
+      { name: 'Community centers', description: 'Parish-run facilities throughout the state' },
+      { name: 'Casino resorts', description: 'Lake Charles and Shreveport offer spa day access' },
+      { name: 'State parks', description: 'Fontainebleau, Chicot with campground showers' },
+      { name: 'University facilities', description: 'LSU, Tulane with varying access' },
+      { name: 'Truck stops', description: 'Along I-10, I-20, and I-49' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $3-5, community centers under $5`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Casino spa day passes $20-40, New Orleans premium gyms $20+`
+    },
+    beforeYouGo: `Subtropical humidity year-round. Mardi Gras and Jazz Fest make New Orleans facilities inaccessible. Hurricane season (June-Nov) can close coastal facilities. Infrastructure quality varies by parish.`,
+    priceRange: { low: 0, high: 20 }
   },
   
   'maine': {
     name: 'Maine',
     code: 'ME',
-    majorCities: ['Portland', 'Lewiston', 'Bangor', 'Augusta', 'Biddeford'],
-    universityTowns: ['Orono (U of Maine)', 'Portland (USM)', 'Waterville (Colby)'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'YMCA locations', 'Portland Community Centers'],
-    majorHighways: ['I-95', 'I-295', 'US-1', 'US-2'],
-    stateParkSystems: ['Acadia National Park', 'Baxter State Park', 'Sebago Lake State Park'],
-    regulations: 'Maine CDC rules 10-144 CMR Chapter 202 govern public swimming pools.',
-    climateNote: 'Cold winters with significant snow. Cool summers. Short beach season July-August.',
-    seasonalEvents: ['Summer tourism (July-August)', 'Fall foliage (September-October)', 'Ski season (December-March)', 'Lobster season'],
-  localContext: 'Maine\'s 3,500-mile coastline has limited warm-water beach days, making beach showers less common than other coastal states. Portland\'s food scene brings tourists who use urban gym day passes. Acadia National Park area has seasonal facilities overwhelmed in summer. Remote northern Maine has vast areas with no public facilities. Lobster fishermen communities have informal networks for shower access. Winter conditions can isolate communities for days. Many facilities are seasonal (May-October) due to freeze concerns. L.L.Bean employees and outdoor culture drive Freeport area facilities. French-Canadian influence in northern areas affects facility design.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['YMCAs', 'State parks', 'Beach facilities', 'Recreation centers', 'Ski resorts']
+    narrative: {
+      intro: `Maine's 3,500-mile coastline is rugged and cold, making beach showers less common than other coastal states - the water is rarely warm enough for casual swimming. Portland has become a food destination, and tourists use urban gym day passes while visiting. Acadia National Park area has facilities but they're overwhelmed in summer. Much of northern Maine has vast areas with no public facilities at all.`,
+      travelersNote: `Many facilities are seasonal (May-October) due to freeze concerns. Winter conditions can isolate communities for days. If you're heading to Acadia in summer, book accommodations with shower access - the park area gets extremely crowded and facilities fill up.`,
+      localTip: `The L.L.Bean flagship store area in Freeport has influenced local outdoor culture, and you'll find good facilities nearby. Ski resorts in winter offer shower access to day visitors. French-Canadian influence in northern Maine affects some facility customs.`
+    },
+    cities: [
+      { name: 'Portland', description: 'Food destination city with urban gym day passes available' },
+      { name: 'Bangor', description: 'Gateway to northern Maine with YMCA and basic options' },
+      { name: 'Bar Harbor', description: 'Acadia gateway, overwhelmed in summer' },
+      { name: 'Augusta', description: 'State capital with limited but available facilities' },
+      { name: 'Freeport', description: 'L.L.Bean town with outdoor culture and good options nearby' }
+    ],
+    facilityTypes: [
+      { name: 'YMCAs', description: 'Primary option in most Maine cities' },
+      { name: 'State parks', description: 'Acadia, Baxter, Sebago Lake with seasonal facilities' },
+      { name: 'Recreation centers', description: 'Portland and larger towns have municipal facilities' },
+      { name: 'Ski resorts', description: 'Winter shower access for day visitors' },
+      { name: 'Fitness centers', description: 'Planet Fitness, Anytime Fitness in southern Maine' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $6-8, some community pools under $5`,
+      midRange: `YMCA and gym day passes $10-20`,
+      premium: `Resort and spa facilities $25+`
+    },
+    beforeYouGo: `Cold winters with heavy snow. Cool summers with short beach season (July-Aug only). Many facilities seasonal May-Oct. Northern Maine has vast areas with nothing - plan ahead. Acadia area overwhelmed in summer.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'maryland': {
     name: 'Maryland',
     code: 'MD',
-    majorCities: ['Baltimore', 'Silver Spring', 'Germantown', 'Waldorf', 'Rockville', 'Annapolis'],
-    universityTowns: ['College Park (UMD)', 'Baltimore (Johns Hopkins)', 'Towson', 'Annapolis (Naval Academy)'],
-    popularVenues: ['LA Fitness', 'Planet Fitness', '24 Hour Fitness', 'Merritt Clubs', 'YMCA of Central Maryland'],
-    majorHighways: ['I-95', 'I-495', 'I-70', 'I-83', 'US-50'],
-    stateParkSystems: ['Sandy Point State Park', 'Deep Creek Lake State Park', 'Assateague State Park'],
-    regulations: 'COMAR 10.17.01 Maryland Department of Health regulations govern public swimming pools.',
-    climateNote: 'Four seasons with humid summers. Chesapeake Bay moderates climate. Beach season May-September.',
-    seasonalEvents: ['Beach season (Memorial Day-Labor Day)', 'Crab season (April-November)', 'Naval Academy events'],
-  localContext: 'Maryland\'s DC suburbs have extensive premium facilities serving federal workers and contractors. Ocean City\'s 10-mile beach has shower stations every few blocks during season. Baltimore\'s neighborhood pools serve as crucial community resources but many are underfunded. Chesapeake Bay facilities focus on boaters rather than swimmers. Naval Academy restricts access but influences Annapolis area gym culture. Montgomery County\'s wealth shows in exceptional public recreation centers. Deep Creek Lake area serves as "Western Maryland\'s beach" with seasonal facilities. Federal facilities (NIH, Fort Meade) have restricted access but excellent quality.',
-    priceRange: { low: 0, high: 30 },
-    commonFacilities: ['Beach facilities', 'Recreation centers', 'Premium gyms', 'YMCAs', 'State parks']
+    narrative: {
+      intro: `Maryland's DC suburbs have extensive premium facilities serving federal workers and contractors - Montgomery County's public recreation centers are among the best in the nation. Ocean City's 10-mile beach has shower stations every few blocks during season. Baltimore has neighborhood pools serving as community resources, though funding varies by area.`,
+      travelersNote: `The Chesapeake Bay is for boaters more than swimmers, so facilities there focus on marinas rather than beaches. Deep Creek Lake in Western Maryland serves as the region's "beach" destination with seasonal facilities. Federal facilities (NIH, Fort Meade) have restricted access but influence surrounding areas.`,
+      localTip: `Montgomery County recreation centers are exceptional and worth seeking out if you're in the DC suburbs. Ocean City is very seasonal - facilities close or reduce hours significantly after Labor Day. The Naval Academy influences Annapolis gym culture.`
+    },
+    cities: [
+      { name: 'Baltimore', description: 'Neighborhood pools and YMCAs, quality varies by area' },
+      { name: 'Ocean City', description: 'Beach showers every few blocks, very seasonal' },
+      { name: 'Bethesda/Rockville', description: 'Exceptional Montgomery County rec centers' },
+      { name: 'Annapolis', description: 'Naval Academy area with maritime culture' },
+      { name: 'College Park', description: 'UMD campus facilities' }
+    ],
+    facilityTypes: [
+      { name: 'Beach facilities', description: 'Ocean City and Assateague with seasonal showers' },
+      { name: 'Recreation centers', description: 'Montgomery County facilities are exceptional' },
+      { name: 'Premium gyms', description: 'Merritt Clubs, LA Fitness throughout DC suburbs' },
+      { name: 'YMCAs', description: 'YMCA of Central Maryland network' },
+      { name: 'State parks', description: 'Sandy Point, Assateague, Deep Creek Lake' }
+    ],
+    pricingContext: {
+      budget: `Free Ocean City beach showers, state park day-use $5-7`,
+      midRange: `Montgomery County rec centers $10-15, gym day passes $15-20`,
+      premium: `Merritt Clubs and DC suburb premium gyms $25-30`
+    },
+    beforeYouGo: `Humid summers. Beach season Memorial Day to Labor Day only. Ocean City very seasonal. Montgomery County has the best public facilities. Federal workers influence gym culture in DC suburbs.`,
+    priceRange: { low: 0, high: 30 }
   },
   
   'massachusetts': {
     name: 'Massachusetts',
     code: 'MA',
-    majorCities: ['Boston', 'Worcester', 'Springfield', 'Cambridge', 'Lowell', 'Brockton'],
-    universityTowns: ['Cambridge (Harvard/MIT)', 'Amherst (UMass)', 'Medford (Tufts)', 'Chestnut Hill (BC)'],
-    popularVenues: ['Planet Fitness', 'Equinox', 'BSC', 'YMCAs', 'Cambridge Athletic Clubs'],
-    majorHighways: ['I-90', 'I-95', 'I-495', 'I-93', 'Route 2'],
-    stateParkSystems: ['Cape Cod National Seashore', 'Walden Pond', 'Mount Greylock State Reservation'],
-    regulations: 'Massachusetts 105 CMR 435.000 State Sanitary Code Chapter V governs swimming pools.',
-    climateNote: 'Four distinct seasons. Cold, snowy winters. Beach season limited to summer months.',
-    seasonalEvents: ['Summer beach season', 'Boston Marathon (April)', 'College move-in (September)', 'Fall foliage'],
-  localContext: 'Boston area has 50+ colleges creating huge September demand during move-in week. Cape Cod beaches provide extensive facilities but parking costs can exceed $30/day for non-residents. Cambridge/Somerville has the highest concentration of premium fitness options in New England. Working-class cities like Lynn and Brockton depend on YMCAs and community centers. MDC (Metropolitan District Commission) pools and facilities serve greater Boston. Northampton/Amherst area has progressive co-op style facilities. Maritime heritage means many coastal towns have "fishermen\'s facilities" with informal public access. T-accessible gyms command premium prices.',
-    priceRange: { low: 0, high: 35 },
-    commonFacilities: ['University facilities', 'YMCAs', 'Beach facilities', 'Premium fitness clubs', 'Community centers']
+    narrative: {
+      intro: `Boston area has 50+ colleges, creating a unique fitness landscape. Cambridge and Somerville have the highest concentration of premium fitness options in New England, while working-class cities like Lynn and Brockton depend on YMCAs and community centers. Cape Cod beaches provide extensive shower facilities but parking can cost $30+/day for non-residents during summer.`,
+      travelersNote: `September college move-in week creates huge demand across greater Boston. MDC (Metropolitan District Commission) pools serve the metro area with affordable access. The Northampton/Amherst area has progressive co-op style facilities with welcoming attitudes. Maritime heritage means some coastal towns have informal "fishermen's facilities."`,
+      localTip: `T-accessible gyms in Boston command premium prices, but you can find better deals slightly outside the city. Cape Cod parking is the real expense - if you can get there, the beach facilities are extensive and free. Walden Pond has shower facilities and is worth the trip.`
+    },
+    cities: [
+      { name: 'Boston', description: 'Dense gym coverage but premium prices, good MDC facilities' },
+      { name: 'Cambridge', description: 'Harvard/MIT area with highest concentration of fitness options' },
+      { name: 'Cape Cod', description: 'Extensive beach facilities, expensive parking for non-residents' },
+      { name: 'Worcester', description: 'Central Mass hub with YMCAs and standard gyms' },
+      { name: 'Northampton', description: 'Progressive college town with co-op style facilities' }
+    ],
+    facilityTypes: [
+      { name: 'University facilities', description: '50+ colleges with varying public access' },
+      { name: 'Beach facilities', description: 'Cape Cod National Seashore and coastal towns' },
+      { name: 'YMCAs', description: 'Essential in working-class cities' },
+      { name: 'MDC facilities', description: 'Metropolitan District pools serving greater Boston' },
+      { name: 'Premium gyms', description: 'Equinox, BSC in Cambridge/Boston' }
+    ],
+    pricingContext: {
+      budget: `MDC pools $5-10, beach facilities free (parking extra)`,
+      midRange: `YMCA and gym day passes $15-25`,
+      premium: `Boston/Cambridge premium gyms $30-40, Cape Cod parking $30+`
+    },
+    beforeYouGo: `Cold snowy winters. Beach season summer only. September college move-in week is chaotic. Cape Cod parking costs are the real expense. T-accessible Boston gyms cost more.`,
+    priceRange: { low: 0, high: 35 }
   },
   
   'michigan': {
     name: 'Michigan',
     code: 'MI',
-    majorCities: ['Detroit', 'Grand Rapids', 'Warren', 'Lansing', 'Ann Arbor', 'Flint'],
-    universityTowns: ['Ann Arbor (U of M)', 'East Lansing (MSU)', 'Kalamazoo (WMU)', 'Mount Pleasant (CMU)'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'Lifetime Fitness', 'YMCA locations', 'LA Fitness'],
-    majorHighways: ['I-75', 'I-94', 'I-96', 'I-69', 'US-131'],
-    stateParkSystems: ['Sleeping Bear Dunes', 'Mackinac Island State Park', 'Holland State Park'],
-    regulations: 'Michigan Administrative Code R 325.2121 governs public swimming pools.',
-    climateNote: 'Great Lakes moderate climate. Cold winters with lake effect snow. Beach season June-August.',
-    seasonalEvents: ['Summer lake season', 'Fall colors (September-October)', 'Winter sports season', 'Auto shows'],
-  localContext: 'Michigan has more miles of Great Lakes coastline than any other state, with 200+ public beaches offering shower facilities. Detroit\'s recovery includes new recreation centers in previously underserved neighborhoods. "Up North" culture means seasonal facility demand from Memorial Day to Labor Day. Mackinac Island\'s no-car policy creates unique facility access challenges. University of Michigan football Saturdays make Ann Arbor facilities inaccessible. Auto industry heritage means strong UAW-negotiated gym benefits affecting private gym competition. Winter creates "polar bear" swimmers who use beach facilities year-round. Arab American communities in Dearborn have culturally-specific facility needs.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Beach facilities', 'State parks', 'Recreation centers', 'YMCAs', 'University facilities']
+    narrative: {
+      intro: `Michigan has more Great Lakes coastline than any other state, with 200+ public beaches offering shower facilities. This makes summer access excellent, especially along Lake Michigan's western shore. Detroit's recovery has brought new recreation centers to previously underserved neighborhoods, and Grand Rapids has emerged as a strong fitness market. The auto industry heritage means UAW-negotiated gym benefits affect the private gym landscape.`,
+      travelersNote: `"Up North" culture means seasonal demand from Memorial Day to Labor Day - facilities in northern Michigan and the Upper Peninsula may be limited outside summer. University of Michigan football Saturdays make Ann Arbor facilities virtually inaccessible. Mackinac Island's no-car policy creates unique facility access challenges.`,
+      localTip: `Sleeping Bear Dunes and Holland State Park have excellent beach facilities. Dearborn's Arab American community has influenced local facilities with culturally-specific options. Some hardy "polar bear" swimmers use beach facilities year-round, so winter access may be possible.`
+    },
+    cities: [
+      { name: 'Detroit', description: 'Recovering city with new rec centers in previously underserved areas' },
+      { name: 'Grand Rapids', description: 'Growing west Michigan hub with good gym coverage' },
+      { name: 'Ann Arbor', description: 'U of M town - avoid on football Saturdays' },
+      { name: 'Traverse City', description: 'Northern Michigan summer destination' },
+      { name: 'Lansing', description: 'State capital with MSU nearby' }
+    ],
+    facilityTypes: [
+      { name: 'Beach facilities', description: '200+ Great Lakes beaches with showers' },
+      { name: 'State parks', description: 'Sleeping Bear Dunes, Holland State Park with excellent facilities' },
+      { name: 'Recreation centers', description: 'Detroit recovery includes new municipal facilities' },
+      { name: 'YMCAs', description: 'Network throughout the state' },
+      { name: 'University facilities', description: 'U of M, MSU, WMU with varying access' }
+    ],
+    pricingContext: {
+      budget: `Beach showers free, state park day-use $10-15`,
+      midRange: `Gym day passes $10-20, rec centers $10-15`,
+      premium: `Lifetime Fitness $25+, Ann Arbor premium gyms $20+`
+    },
+    beforeYouGo: `Cold winters with lake effect snow. Beach season June-August. "Up North" facilities are seasonal. U of M football Saturdays (fall) make Ann Arbor impossible. Auto shows bring crowds to Detroit area.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'minnesota': {
     name: 'Minnesota',
     code: 'MN',
-    majorCities: ['Minneapolis', 'St. Paul', 'Rochester', 'Duluth', 'Bloomington'],
-    universityTowns: ['Minneapolis (U of M)', 'St. Cloud (SCSU)', 'Mankato (MSU)', 'Winona'],
-    popularVenues: ['Life Time Fitness', 'Anytime Fitness', 'LA Fitness', 'YMCA of the Greater Twin Cities', 'Snap Fitness'],
-    majorHighways: ['I-35', 'I-94', 'I-90', 'US-169'],
-    stateParkSystems: ['Voyageurs National Park', 'Itasca State Park', 'Gooseberry Falls State Park'],
-    regulations: 'Minnesota Rules Chapter 4717 governs public swimming pools.',
-    climateNote: 'Extreme winters with subzero temperatures. Short, warm summers. 10,000 lakes provide seasonal facilities.',
-    seasonalEvents: ['State Fair (August-September)', 'Ice fishing season', 'Summer lake season', 'Fall colors'],
-  localContext: 'Minnesota originated Life Time Fitness and Anytime Fitness, creating a strong gym culture. The state\'s 11,842 lakes mean most communities have seasonal lake facilities. Minneapolis park system is consistently rated best in nation with year-round facilities. Skyway system in Twin Cities connects many fitness facilities for winter access. Mayo Clinic brings medical tourists to Rochester needing accessible facilities. Boundary Waters area has primitive facilities for wilderness enthusiasts. Mall of America area caters to tourists with day-pass options. Somali and Hmong communities have influenced facility offerings in Twin Cities. Winter forces creativity - some facilities offer "sauna to ice plunge" experiences.',
-    priceRange: { low: 0, high: 28 },
-    commonFacilities: ['Fitness centers', 'YMCAs', 'Lake facilities', 'Recreation centers', 'Community centers']
+    narrative: {
+      intro: `Minnesota is the birthplace of Life Time Fitness and Anytime Fitness, creating a uniquely strong gym culture for a cold-weather state. The Minneapolis park system is consistently rated best in the nation with year-round facilities. With 11,842 lakes, most communities have seasonal lake facilities during summer. The Twin Cities skyway system connects many downtown fitness facilities for winter access without going outside.`,
+      travelersNote: `Mayo Clinic brings medical tourists to Rochester needing accessible facilities - the area is well-equipped. The Boundary Waters area has only primitive facilities for wilderness enthusiasts. Mall of America area caters to tourists with day-pass gym options. Winter forces creativity - some facilities offer unique "sauna to ice plunge" experiences.`,
+      localTip: `Minneapolis park system facilities are exceptional and affordable. Somali and Hmong communities have influenced Twin Cities facility offerings. The State Fair (late August) brings crowds to the metro area. Lake facilities are seasonal but abundant from Memorial Day to Labor Day.`
+    },
+    cities: [
+      { name: 'Minneapolis', description: 'Best-in-nation park system with year-round facilities' },
+      { name: 'St. Paul', description: 'Twin Cities partner with strong YMCA network' },
+      { name: 'Rochester', description: 'Mayo Clinic area with accessible facilities for medical tourists' },
+      { name: 'Duluth', description: 'Lake Superior gateway with seasonal options' },
+      { name: 'Bloomington', description: 'Mall of America area with tourist-friendly day passes' }
+    ],
+    facilityTypes: [
+      { name: 'Fitness centers', description: 'Birthplace of Life Time Fitness and Anytime Fitness' },
+      { name: 'Park facilities', description: 'Minneapolis park system is nationally renowned' },
+      { name: 'Lake facilities', description: '11,842 lakes with seasonal community facilities' },
+      { name: 'YMCAs', description: 'Strong network in Twin Cities and throughout state' },
+      { name: 'Community centers', description: 'Diverse offerings influenced by immigrant communities' }
+    ],
+    pricingContext: {
+      budget: `Lake facilities often free or under $5, park system pools $5-10`,
+      midRange: `Gym day passes $15-20, YMCA $15-20`,
+      premium: `Life Time Fitness $25-35`
+    },
+    beforeYouGo: `Extreme winters with subzero temps - skyway system helps downtown. Short warm summers. State Fair (late August) brings crowds. Lake facilities seasonal. Rochester well-equipped for medical visitors.`,
+    priceRange: { low: 0, high: 28 }
   },
   
   'mississippi': {
     name: 'Mississippi',
     code: 'MS',
-    majorCities: ['Jackson', 'Gulfport', 'Hattiesburg', 'Biloxi', 'Meridian'],
-    universityTowns: ['Oxford (Ole Miss)', 'Starkville (MSU)', 'Hattiesburg (USM)'],
-    popularVenues: ['Courthouse Racquet & Fitness', 'Planet Fitness', 'Anytime Fitness', 'YMCA locations'],
-    majorHighways: ['I-55', 'I-20', 'I-59', 'I-10'],
-    stateParkSystems: ['Gulf Islands National Seashore', 'Tishomingo State Park', 'Percy Quin State Park'],
-    regulations: 'Mississippi State Department of Health regulations govern public swimming pools.',
-    climateNote: 'Hot, humid subtropical climate. Hurricane risk on coast. Long summer season.',
-    seasonalEvents: ['Beach season (April-October)', 'College football (Fall)', 'Blues festivals', 'Hurricane season'],
-  localContext: 'Mississippi Gulf Coast casinos provide spa/fitness facilities accessible to non-guests for day fees. Hurricane Katrina\'s effects still visible in coastal facility infrastructure. Delta region has fewest options with some counties having no public facilities. Oxford\'s literary tourism and Ole Miss create unusual demand patterns. SEC football Saturdays completely transform university towns. Racial history affects facility access and development patterns. Many rural communities depend entirely on school facilities. Poverty levels mean cost is significant barrier even at low-price facilities. Casino workers on coast have negotiated facility access at some properties.',
-    priceRange: { low: 0, high: 18 },
-    commonFacilities: ['Beach facilities', 'State parks', 'University gyms', 'Community centers', 'Truck stops']
+    narrative: {
+      intro: `Mississippi's Gulf Coast casinos provide spa and fitness facilities accessible to non-guests for day fees - this is your best option on the coast. Beyond Biloxi and Gulfport, facilities are limited. The Delta region has some of the fewest options in the country, with some counties having no public facilities at all. Jackson and the college towns offer the most reliable access.`,
+      travelersNote: `Hurricane Katrina's effects are still visible in coastal facility infrastructure. SEC football Saturdays completely transform Oxford and Starkville - avoid university town facilities on game days. Many rural communities depend entirely on school facilities, and poverty levels mean even low prices can be barriers.`,
+      localTip: `Gulf Islands National Seashore has beach facilities. Casino workers on the coast have negotiated facility access at some properties, so asking at casinos is worth it. State parks like Tishomingo offer campground showers.`
+    },
+    cities: [
+      { name: 'Biloxi', description: 'Casino town with spa/fitness day passes available' },
+      { name: 'Gulfport', description: 'Gulf Coast with beach and casino facilities' },
+      { name: 'Jackson', description: 'State capital with the most reliable options' },
+      { name: 'Oxford', description: 'Ole Miss town - avoid on football Saturdays' },
+      { name: 'Hattiesburg', description: 'USM town with university and community options' }
+    ],
+    facilityTypes: [
+      { name: 'Casino facilities', description: 'Biloxi and Gulfport casinos offer day passes' },
+      { name: 'Beach facilities', description: 'Gulf Islands National Seashore has shower access' },
+      { name: 'State parks', description: 'Tishomingo, Percy Quin with campground showers' },
+      { name: 'University facilities', description: 'Ole Miss, MSU, USM with varying access' },
+      { name: 'Truck stops', description: 'Along I-55, I-20, I-10 corridors' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $3-5, some community centers under $5`,
+      midRange: `Casino spa day passes $15-25, gym day passes $10-15`,
+      premium: `Premium casino spa facilities $25+`
+    },
+    beforeYouGo: `Hot, humid summers. Hurricane season affects coast (June-Nov). SEC football Saturdays transform college towns. Delta region has extremely limited options. Katrina damage still affects some coastal infrastructure.`,
+    priceRange: { low: 0, high: 18 }
   },
   
   'missouri': {
     name: 'Missouri',
     code: 'MO',
-    majorCities: ['Kansas City', 'St. Louis', 'Springfield', 'Columbia', 'Independence'],
-    universityTowns: ['Columbia (Mizzou)', 'Rolla (S&T)', 'Springfield (MSU)', 'St. Louis (WashU)'],
-    popularVenues: ['Club Fitness', 'Planet Fitness', 'Anytime Fitness', 'YMCA locations', 'The Lodge Des Peres'],
-    majorHighways: ['I-70', 'I-44', 'I-55', 'I-35', 'I-29'],
-    stateParkSystems: ['Lake of the Ozarks State Park', 'Bennett Spring State Park', 'Meramec State Park'],
-    regulations: 'Missouri Code of State Regulations 19 CSR 20-20.010 governs public swimming pools.',
-    climateNote: 'Continental climate with hot summers and cold winters. Tornado season in spring.',
-    seasonalEvents: ['Lake of the Ozarks season (May-September)', 'State Fair (August)', 'Cardinals baseball', 'Chiefs football'],
-  localContext: 'Lake of the Ozarks creates massive seasonal demand with numerous marinas offering shower facilities to boaters. St. Louis\'s free Forest Park facilities serve as national model for public access. Kansas City\'s sprawl means facilities cluster in suburbs rather than urban core. Branson\'s entertainment tourism supports numerous hotel day-pass options. University of Missouri\'s SEC membership changed Columbia\'s facility landscape. Ozark mountain culture maintains suspicion of "fancy" fitness facilities. St. Louis\'s unique high school question ("Where did you go to school?") extends to gym loyalties. Arch grounds redevelopment improved downtown St. Louis facility access.',
-    priceRange: { low: 0, high: 22 },
-    commonFacilities: ['Lake facilities', 'Recreation centers', 'YMCAs', 'University facilities', 'Truck stops']
+    narrative: {
+      intro: `Missouri has two distinct facility landscapes: the cities and the Lake of the Ozarks. St. Louis's Forest Park facilities are a national model for free public access. Kansas City's sprawl means facilities cluster in suburbs rather than downtown. Lake of the Ozarks creates massive seasonal demand with marinas offering shower facilities to boaters throughout the summer.`,
+      travelersNote: `Branson's entertainment tourism supports numerous hotel day-pass options if you're in the area. Columbia transformed when Mizzou joined the SEC, affecting facility capacity on game days. Ozark mountain culture tends to favor practical over fancy - don't expect premium gyms outside the cities.`,
+      localTip: `Forest Park in St. Louis has excellent free facilities worth seeking out. Lake of the Ozarks marinas typically offer shower access to non-boaters for a fee. Bennett Spring State Park has campground showers and is a popular stop.`
+    },
+    cities: [
+      { name: 'St. Louis', description: 'Forest Park sets national standard for free public access' },
+      { name: 'Kansas City', description: 'Suburban sprawl means facilities outside downtown core' },
+      { name: 'Columbia', description: 'Mizzou SEC town - game days are crowded' },
+      { name: 'Springfield', description: 'Ozarks gateway with standard options' },
+      { name: 'Branson', description: 'Entertainment tourism supports hotel day passes' }
+    ],
+    facilityTypes: [
+      { name: 'Lake facilities', description: 'Lake of the Ozarks marinas offer shower access to boaters' },
+      { name: 'Recreation centers', description: 'St. Louis and KC municipal facilities' },
+      { name: 'YMCAs', description: 'Network throughout the state' },
+      { name: 'University facilities', description: 'Mizzou, WashU with varying access' },
+      { name: 'Truck stops', description: 'Along I-70, I-44, I-55 corridors' }
+    ],
+    pricingContext: {
+      budget: `St. Louis Forest Park facilities free, state parks $3-5`,
+      midRange: `Gym day passes $10-15, marina showers $5-15`,
+      premium: `St. Louis premium gyms $20+`
+    },
+    beforeYouGo: `Hot summers, cold winters. Tornado season in spring. Lake of the Ozarks is seasonal (May-Sept). Mizzou game days affect Columbia. Cardinals and Chiefs games affect their respective cities.`,
+    priceRange: { low: 0, high: 22 }
   },
   
   'montana': {
     name: 'Montana',
     code: 'MT',
-    majorCities: ['Billings', 'Missoula', 'Great Falls', 'Bozeman', 'Helena'],
-    universityTowns: ['Missoula (U of M)', 'Bozeman (MSU)', 'Dillon', 'Havre'],
-    popularVenues: ['The Ridge Athletic Club', 'Anytime Fitness', 'Planet Fitness', 'YMCA locations'],
-    majorHighways: ['I-90', 'I-94', 'I-15', 'US-93'],
-    stateParkSystems: ['Glacier National Park', 'Yellowstone (partial)', 'Flathead Lake State Park'],
-    regulations: 'Montana Administrative Rules 17.38.201 governs public swimming pools.',
-    climateNote: 'Continental climate with cold winters. Short summer season. Mountain weather varies by elevation.',
-    seasonalEvents: ['Ski season (November-April)', 'Summer tourism (June-August)', 'Hunting season (Fall)'],
-  localContext: 'Montana\'s vast distances (147,000 sq miles, 1 million people) mean some residents drive 100+ miles to facilities. Bozeman\'s tech boom has brought upscale fitness options uncommon elsewhere in state. Natural hot springs dot the state with 20+ commercial and dozens of primitive sites. Yellowstone and Glacier tourism creates seasonal facility demand. Native American reservations have limited facilities, often just tribal schools. Oil boom in Bakken region stressed Williston-area facilities. Ranch culture means many rural residents have never used public facilities. Winter road closures can isolate communities for weeks. "Shoulder season" (April-May, October-November) sees many facilities closed.',
-    priceRange: { low: 0, high: 22 },
-    commonFacilities: ['Hot springs', 'Recreation centers', 'Ski resorts', 'University facilities', 'Fitness centers']
+    narrative: {
+      intro: `Montana's vast distances (147,000 square miles, 1 million people) mean some residents drive 100+ miles to facilities. The good news: natural hot springs dot the state with 20+ commercial sites and dozens of primitive backcountry pools. Bozeman's tech boom has brought upscale fitness options uncommon elsewhere. Yellowstone and Glacier tourism creates concentrated seasonal demand near the parks.`,
+      travelersNote: `Native American reservations have limited facilities, often just tribal schools. Ranch culture means many rural residents have never used public facilities - don't expect extensive options outside cities. Winter road closures can isolate communities for weeks. "Shoulder season" (April-May, Oct-Nov) sees many facilities closed.`,
+      localTip: `Hot springs are your unique Montana option - from developed resorts like Chico Hot Springs to primitive roadside pools. Ski resorts offer shower access to day visitors in winter. Plan ahead in summer as Glacier and Yellowstone areas get overwhelmed.`
+    },
+    cities: [
+      { name: 'Bozeman', description: 'Tech boom brought upscale options uncommon elsewhere' },
+      { name: 'Missoula', description: 'University of Montana town with campus facilities' },
+      { name: 'Billings', description: 'Largest city with standard gym coverage' },
+      { name: 'Whitefish', description: 'Glacier gateway with ski resort facilities' },
+      { name: 'Helena', description: 'State capital with basic options' }
+    ],
+    facilityTypes: [
+      { name: 'Hot springs', description: '20+ commercial sites plus primitive backcountry pools' },
+      { name: 'Ski resorts', description: 'Winter shower access for day visitors' },
+      { name: 'Recreation centers', description: 'Municipal facilities in larger towns' },
+      { name: 'University facilities', description: 'U of Montana, MSU with varying access' },
+      { name: 'Fitness centers', description: 'Limited to Bozeman, Billings, Missoula' }
+    ],
+    pricingContext: {
+      budget: `Primitive hot springs free, state park camping $5-10`,
+      midRange: `Developed hot springs $10-20, gym day passes $10-15`,
+      premium: `Bozeman premium gyms $20+, resort hot springs $20+`
+    },
+    beforeYouGo: `Cold winters with road closures possible. Short summer (June-Aug). Vast distances between facilities - plan ahead. Glacier and Yellowstone areas overwhelmed in summer. Shoulder seasons see many closures.`,
+    priceRange: { low: 0, high: 22 }
   },
   
   'nebraska': {
     name: 'Nebraska',
     code: 'NE',
-    majorCities: ['Omaha', 'Lincoln', 'Grand Island', 'Kearney', 'Fremont'],
-    universityTowns: ['Lincoln (UNL)', 'Kearney (UNK)', 'Wayne', 'Chadron'],
-    popularVenues: ['Genesis Health Clubs', 'Planet Fitness', 'Anytime Fitness', 'YMCA locations'],
-    majorHighways: ['I-80', 'I-29', 'US-275', 'US-77'],
-    stateParkSystems: ['Eugene T. Mahoney State Park', 'Chadron State Park', 'Lake McConaughy'],
-    regulations: 'Nebraska Administrative Code Title 178 Chapter 5 governs swimming pools.',
-    climateNote: 'Continental climate with hot summers and cold winters. Tornado season in spring.',
-    seasonalEvents: ['College World Series (June)', 'State Fair (August-September)', 'Cornhusker football (Fall)'],
-  localContext: 'Nebraska football Saturdays make Lincoln the state\'s third-largest city, overwhelming all facilities. Omaha\'s insurance industry headquarters support extensive corporate fitness options. I-80 corridor has some of the nation\'s cleanest truck stops due to competition. Rural counties may have only a single school facility serving multiple communities. College World Series brings 300,000+ visitors to Omaha each June. Agricultural economy means seasonal worker populations with limited access. Sandhills region has vast areas with no facilities. Warren Buffett\'s influence keeps some Omaha facilities surprisingly affordable. Kearney\'s position on crane migration route brings unique seasonal eco-tourism demand.',
-    priceRange: { low: 0, high: 20 },
-    commonFacilities: ['Truck stops', 'University facilities', 'YMCAs', 'Recreation centers', 'Community centers']
+    narrative: {
+      intro: `Nebraska's I-80 corridor has some of the nation's cleanest truck stops due to intense competition - a lifesaver if you're crossing the country. Omaha has excellent corporate fitness options thanks to insurance industry headquarters, and Warren Buffett's influence keeps some facilities surprisingly affordable. Lincoln is solid but transforms on Cornhusker football Saturdays when it becomes the state's third-largest city.`,
+      travelersNote: `College World Series brings 300,000+ visitors to Omaha each June - plan accordingly. Rural counties may have only a single school facility serving multiple communities. The Sandhills region has vast areas with no facilities at all. Kearney sees unique seasonal demand during spring crane migration.`,
+      localTip: `Genesis Health Clubs (regional chain) and YMCAs are your best bets in the cities. Lake McConaughy has beach facilities in summer. Avoid Lincoln entirely on Cornhusker game days unless you're going to the game.`
+    },
+    cities: [
+      { name: 'Omaha', description: 'Best options in the state, corporate gyms and affordable facilities' },
+      { name: 'Lincoln', description: 'Good except on Cornhusker Saturdays when the city overwhelms' },
+      { name: 'Kearney', description: 'I-80 corridor town with crane migration tourism' },
+      { name: 'Grand Island', description: 'Central Nebraska hub with basic options' },
+      { name: 'North Platte', description: 'Western Nebraska truck stop town' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'I-80 corridor has excellent, clean facilities' },
+      { name: 'Fitness centers', description: 'Genesis Health Clubs, Planet Fitness in cities' },
+      { name: 'YMCAs', description: 'Network in Omaha and Lincoln' },
+      { name: 'University facilities', description: 'UNL with varying access' },
+      { name: 'Lake facilities', description: 'Lake McConaughy has summer beach facilities' }
+    ],
+    pricingContext: {
+      budget: `School facilities in rural areas often free, state parks $5-7`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Omaha premium gyms $15-20`
+    },
+    beforeYouGo: `Hot summers, cold winters. Tornado season in spring. Cornhusker football Saturdays (fall) make Lincoln impossible. College World Series (June) crowds Omaha. Sandhills region has no facilities.`,
+    priceRange: { low: 0, high: 20 }
   },
   
   'nevada': {
     name: 'Nevada',
     code: 'NV',
-    majorCities: ['Las Vegas', 'Henderson', 'Reno', 'North Las Vegas', 'Sparks'],
-    universityTowns: ['Reno (UNR)', 'Las Vegas (UNLV)'],
-    popularVenues: ['Las Vegas Athletic Clubs', 'EōS Fitness', 'Planet Fitness', 'Life Time Fitness'],
-    majorHighways: ['I-15', 'I-80', 'US-95', 'US-93'],
-    stateParkSystems: ['Valley of Fire State Park', 'Lake Tahoe Nevada State Park', 'Red Rock Canyon'],
-    regulations: 'Nevada Administrative Code Chapter 444 governs public bathing places.',
-    climateNote: 'Desert climate with extreme summer heat. Mild winters. Lake Tahoe area has winter snow.',
-    seasonalEvents: ['Convention season (year-round)', 'EDC (May)', 'Pool season (March-October)', 'Burning Man (August)'],
-  localContext: 'Las Vegas operates 24/7 with gyms and spas following suit - true round-the-clock access. Casino employees get facility access at major properties as employment benefit. Pool day passes at Strip hotels range from $25-75+ depending on DJ/event. Burning Man preparation creates unusual demand for shower facilities in Reno area. Local\'s casinos offer much cheaper facility access than Strip properties. Nevada\'s legalized prostitution means some rural facilities have unusual policies. Military presence (Nellis AFB, NAS Fallon) influences facility development. Water conservation measures affect shower timer systems throughout state. Downtown Las Vegas renovation has brought new boutique fitness options.',
-    priceRange: { low: 0, high: 40 },
-    commonFacilities: ['Casino/hotel facilities', 'Fitness centers', 'Recreation centers', 'Truck stops', 'Day spas']
+    narrative: {
+      intro: `Las Vegas operates 24/7 and gyms follow suit - true round-the-clock access is available. The city has two tiers: Strip hotel pool/spa day passes ($25-75+ depending on the DJ or event) and locals' casinos offering much cheaper facility access. EoS Fitness and Las Vegas Athletic Clubs serve the resident population with affordable options. Reno has a more modest scene but solid coverage.`,
+      travelersNote: `Casino employees get facility access at major properties as an employment benefit, which affects what's available to visitors. Burning Man (late August) creates unusual demand in the Reno area - book ahead. Water conservation measures mean many showers have timers. Lake Tahoe Nevada side has winter ski facilities.`,
+      localTip: `Skip the Strip for affordable showers - locals' casinos like Station Casinos properties offer gym access for much less. Downtown Las Vegas renovation has brought new boutique fitness options. Red Rock Canyon has limited facilities for day visitors.`
+    },
+    cities: [
+      { name: 'Las Vegas', description: '24/7 gym access, huge range from budget to ultra-premium' },
+      { name: 'Henderson', description: 'Locals\' area with affordable gym chains' },
+      { name: 'Reno', description: 'More modest scene, UNR campus facilities' },
+      { name: 'Lake Tahoe (NV side)', description: 'Ski resort facilities in winter' },
+      { name: 'Laughlin', description: 'Small casino town with some day pass options' }
+    ],
+    facilityTypes: [
+      { name: 'Casino facilities', description: 'Strip hotels expensive, locals\' casinos much cheaper' },
+      { name: 'Fitness centers', description: 'EoS, LVAC, Planet Fitness for residents' },
+      { name: 'Recreation centers', description: 'Municipal facilities in Las Vegas and Henderson' },
+      { name: 'Truck stops', description: 'Along I-15 and I-80' },
+      { name: 'Day spas', description: 'Premium Strip spa day passes' }
+    ],
+    pricingContext: {
+      budget: `Locals' casino gyms $5-10, municipal rec centers $10-15`,
+      midRange: `Chain gym day passes $10-20, truck stops $12-15`,
+      premium: `Strip hotel pool passes $25-75+, premium spas $50+`
+    },
+    beforeYouGo: `Extreme summer heat in desert (June-Sept). Water conservation means shower timers. Burning Man (Aug) affects Reno area. 24/7 access in Vegas. Strip prices much higher than locals' options.`,
+    priceRange: { low: 0, high: 40 }
   },
   
   'new-hampshire': {
     name: 'New Hampshire',
     code: 'NH',
-    majorCities: ['Manchester', 'Nashua', 'Concord', 'Portsmouth', 'Dover'],
-    universityTowns: ['Durham (UNH)', 'Hanover (Dartmouth)', 'Plymouth', 'Keene'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'Executive Health & Sports Center', 'YMCA locations'],
-    majorHighways: ['I-93', 'I-89', 'I-95', 'US-3'],
-    stateParkSystems: ['White Mountain National Forest', 'Hampton Beach State Park', 'Franconia Notch State Park'],
-    regulations: 'New Hampshire Code of Administrative Rules Env-Wq 1100 governs public swimming pools.',
-    climateNote: 'Four distinct seasons. Cold, snowy winters. Short beach season. Mountain weather varies.',
-    seasonalEvents: ['Ski season (December-March)', 'Fall foliage (September-October)', 'Lake season (June-August)', 'Motorcycle Week (June)'],
-  localContext: 'New Hampshire\'s "Live Free or Die" motto extends to minimal facility regulations. White Mountains draw hikers needing facilities after multi-day trips. Lakes Region has 273 lakes with varying levels of public access. Massachusetts residents fleeing taxes use NH facilities while shopping. Ski areas struggle with providing affordable facilities for seasonal workers. Portsmouth\'s seacoast area has limited beach facilities due to cold water. Dartmouth\'s influence makes Hanover facilities more expensive than surrounding areas. State\'s frugal culture means many facilities are basic but functional. Presidential Primary season brings temporary demand spikes to small towns.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Ski resorts', 'Lake facilities', 'YMCAs', 'Recreation centers', 'State parks']
+    narrative: {
+      intro: `New Hampshire's "Live Free or Die" culture extends to minimal facility regulations and a frugal approach - facilities tend to be basic but functional. The White Mountains draw hikers needing showers after multi-day trips. The Lakes Region has 273 lakes with varying levels of public access. Massachusetts residents fleeing taxes use NH facilities while shopping, creating unusual cross-border demand.`,
+      travelersNote: `Ski areas struggle with providing affordable facilities for seasonal workers - worth asking about. Portsmouth's seacoast area has limited beach facilities since the water is cold. Dartmouth's influence makes Hanover facilities more expensive than surrounding areas. Presidential Primary season (every 4 years) brings temporary demand spikes.`,
+      localTip: `White Mountain National Forest and Franconia Notch have basic facilities for hikers. Ski resorts offer shower access in winter. Hampton Beach State Park has seasonal beach facilities. YMCAs are your most reliable option in the cities.`
+    },
+    cities: [
+      { name: 'Manchester', description: 'Largest city with YMCA and standard gym options' },
+      { name: 'Nashua', description: 'Southern NH near MA border with good coverage' },
+      { name: 'Portsmouth', description: 'Seacoast area but limited beach facilities' },
+      { name: 'Hanover', description: 'Dartmouth town - facilities pricier than surroundings' },
+      { name: 'North Conway', description: 'White Mountains gateway with ski resort facilities' }
+    ],
+    facilityTypes: [
+      { name: 'Ski resorts', description: 'Winter shower access for day visitors' },
+      { name: 'Lake facilities', description: '273 lakes with varying public access' },
+      { name: 'YMCAs', description: 'Most reliable option in cities' },
+      { name: 'State parks', description: 'White Mountains, Hampton Beach with basic facilities' },
+      { name: 'Fitness centers', description: 'Planet Fitness, Anytime Fitness in southern NH' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $4-5, some community facilities under $5`,
+      midRange: `Gym day passes $10-15, YMCA $15-20`,
+      premium: `Hanover/Dartmouth area $20+, resort facilities $20+`
+    },
+    beforeYouGo: `Cold snowy winters. Short beach season. Lake season June-Aug. Ski season Dec-March. Fall foliage (Sept-Oct) brings crowds. Motorcycle Week (June) affects Laconia area. Frugal culture means basic facilities.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'new-jersey': {
     name: 'New Jersey',
     code: 'NJ',
-    majorCities: ['Newark', 'Jersey City', 'Paterson', 'Elizabeth', 'Trenton', 'Atlantic City'],
-    universityTowns: ['New Brunswick (Rutgers)', 'Princeton', 'Newark (NJIT)', 'Hoboken (Stevens)'],
-    popularVenues: ['LA Fitness', 'Planet Fitness', 'Retro Fitness', 'Edge Fitness', 'YMCA locations'],
-    majorHighways: ['I-95', 'I-80', 'I-78', 'I-287', 'Garden State Parkway', 'NJ Turnpike'],
-    stateParkSystems: ['Island Beach State Park', 'Liberty State Park', 'High Point State Park'],
-    regulations: 'N.J.A.C. 8:26 Public Recreational Bathing Code governs swimming facilities.',
-    climateNote: 'Four seasons with hot, humid summers. Beach season May-September. Winter snow varies by region.',
-    seasonalEvents: ['Shore season (Memorial Day-Labor Day)', 'Atlantic City events', 'Fall foliage', 'College seasons'],
-  localContext: 'Jersey Shore culture includes 130 miles of beaches with most towns charging beach badges ($5-15/day) that include shower access. "Bennies" (tourists) versus locals tension affects facility access and pricing. Atlantic City casinos offer day passes to pool/spa facilities. NYC commuters use NJ gyms near train stations for better prices. Property taxes (highest in nation) fund excellent municipal recreation centers. Taylor Ham vs. Pork Roll divide extends to North/South facility preferences. Urban areas like Newark and Camden struggle with facility maintenance. Princeton area has premium facilities serving pharmaceutical executives.',
-    priceRange: { low: 0, high: 30 },
-    commonFacilities: ['Beach showers', 'Fitness centers', 'YMCAs', 'Recreation centers', 'Casino facilities']
+    narrative: {
+      intro: `New Jersey's 130 miles of Shore coastline means extensive beach shower facilities - but most towns charge beach badges ($5-15/day) that include shower access. The state's highest-in-nation property taxes fund excellent municipal recreation centers, especially in wealthier suburbs. NYC commuters use NJ gyms near train stations for better prices than Manhattan, creating demand at places like Hoboken and Jersey City.`,
+      travelersNote: `"Bennies" (tourists) versus locals tension affects Shore facility access and pricing - expect some restrictions at peak times. Atlantic City casinos offer day passes to pool/spa facilities. Urban areas like Newark and Camden struggle with facility maintenance compared to suburbs. Princeton area has premium facilities serving pharmaceutical executives.`,
+      localTip: `Beach badges are your entry to Shore shower facilities - factor the cost in. Island Beach State Park has facilities without the badge system. Train station gyms in commuter towns offer good value. Municipal rec centers are worth seeking out in the suburbs.`
+    },
+    cities: [
+      { name: 'Jersey City', description: 'NYC commuter hub with good gym coverage' },
+      { name: 'Atlantic City', description: 'Casino spa day passes available' },
+      { name: 'Princeton', description: 'Premium facilities serving pharma executives' },
+      { name: 'Newark', description: 'Urban area with varying facility quality' },
+      { name: 'Shore towns', description: 'Beach badges include shower access' }
+    ],
+    facilityTypes: [
+      { name: 'Beach facilities', description: '130 miles of Shore with showers - beach badge required ($5-15)' },
+      { name: 'Recreation centers', description: 'Excellent municipal facilities funded by property taxes' },
+      { name: 'Casino facilities', description: 'Atlantic City spa day passes' },
+      { name: 'Fitness centers', description: 'LA Fitness, Retro Fitness, Edge Fitness throughout' },
+      { name: 'YMCAs', description: 'Network across the state' }
+    ],
+    pricingContext: {
+      budget: `Some municipal pools $5-10, beach badges $5-15 (include shower)`,
+      midRange: `Gym day passes $10-20, rec center day passes $10-15`,
+      premium: `Atlantic City casino spa $25-50, Princeton area gyms $25+`
+    },
+    beforeYouGo: `Hot humid summers. Shore season Memorial Day to Labor Day. Beach badges required at most Shore towns. Property taxes fund good suburban rec centers. Urban area facilities vary in quality.`,
+    priceRange: { low: 0, high: 30 }
   },
   
   'new-mexico': {
     name: 'New Mexico',
     code: 'NM',
-    majorCities: ['Albuquerque', 'Las Cruces', 'Santa Fe', 'Rio Rancho', 'Roswell'],
-    universityTowns: ['Albuquerque (UNM)', 'Las Cruces (NMSU)', 'Portales (ENMU)'],
-    popularVenues: ['Defined Fitness', 'Planet Fitness', 'Anytime Fitness', 'Chuze Fitness', 'YMCA locations'],
-    majorHighways: ['I-25', 'I-40', 'I-10', 'US-285'],
-    stateParkSystems: ['White Sands National Park', 'Carlsbad Caverns', 'Elephant Butte Lake State Park'],
-    regulations: 'New Mexico Administrative Code 7.18.2 governs public swimming pools.',
-    climateNote: 'High desert climate with hot summers and mild winters. Significant elevation changes affect temperature.',
-    seasonalEvents: ['Balloon Fiesta (October)', 'Ski season (December-March)', 'Art markets', 'Chile season (Fall)'],
-  localContext: 'New Mexico has numerous natural hot springs, from developed resorts (Ojo Caliente, Ten Thousand Waves) to primitive roadside pools. Native American pueblos generally don\'t allow non-tribal access to facilities. Santa Fe\'s art scene supports high-end spa facilities beyond typical gym offerings. Military presence (Los Alamos, White Sands, Kirtland AFB) creates security restrictions. Border proximity means some facilities serve international clientele. High altitude (Santa Fe at 7,000 feet) affects visitor stamina at facilities. Rural areas between Albuquerque and El Paso have 50+ mile gaps in facilities. Breaking Bad tourism has oddly increased demand for Albuquerque facilities.',
-    priceRange: { low: 0, high: 22 },
-    commonFacilities: ['Hot springs', 'Recreation centers', 'Fitness centers', 'State parks', 'Truck stops']
+    narrative: {
+      intro: `New Mexico has numerous natural hot springs, from developed resorts like Ojo Caliente and Ten Thousand Waves to primitive roadside pools scattered throughout the state. Santa Fe's art scene supports high-end spa facilities beyond typical gym offerings. Albuquerque has standard gym coverage with regional chains like Defined Fitness, plus the UNM campus.`,
+      travelersNote: `Native American pueblos generally don't allow non-tribal access to facilities. Military presence at Los Alamos, White Sands, and Kirtland AFB creates security restrictions in some areas. Rural stretches between Albuquerque and El Paso have 50+ mile gaps with no facilities. High altitude (Santa Fe at 7,000 feet) affects visitor stamina.`,
+      localTip: `Hot springs are the unique New Mexico experience - from rustic to luxurious. Elephant Butte Lake State Park has facilities for boaters. The Balloon Fiesta in October brings crowds to Albuquerque. Breaking Bad tourism has oddly increased facility demand in ABQ.`
+    },
+    cities: [
+      { name: 'Albuquerque', description: 'Largest city with Defined Fitness and standard chains' },
+      { name: 'Santa Fe', description: 'Art scene supports high-end spas beyond typical gyms' },
+      { name: 'Las Cruces', description: 'NMSU town in southern New Mexico' },
+      { name: 'Taos', description: 'Ski town with resort and hot spring access' },
+      { name: 'Ojo Caliente', description: 'Famous hot springs resort' }
+    ],
+    facilityTypes: [
+      { name: 'Hot springs', description: 'From developed resorts to primitive pools throughout the state' },
+      { name: 'Fitness centers', description: 'Defined Fitness (regional), Planet Fitness in cities' },
+      { name: 'State parks', description: 'Elephant Butte Lake and others with facilities' },
+      { name: 'Recreation centers', description: 'Municipal facilities in larger cities' },
+      { name: 'Truck stops', description: 'Along I-25, I-40, I-10' }
+    ],
+    pricingContext: {
+      budget: `Primitive hot springs free, state parks $5, community pools $3-5`,
+      midRange: `Gym day passes $10-15, developed hot springs $15-25`,
+      premium: `Santa Fe spas $30-75+, Ten Thousand Waves $40+`
+    },
+    beforeYouGo: `High desert with hot summers, mild winters. High altitude affects stamina. Balloon Fiesta (Oct) crowds Albuquerque. Rural areas have 50+ mile gaps. Native American lands have restricted access.`,
+    priceRange: { low: 0, high: 22 }
   },
   
   'new-york': {
     name: 'New York',
     code: 'NY',
-    majorCities: ['New York City', 'Buffalo', 'Rochester', 'Syracuse', 'Albany', 'Yonkers'],
-    universityTowns: ['Ithaca (Cornell)', 'Syracuse', 'Binghamton', 'New Paltz', 'Geneseo'],
-    popularVenues: ['Equinox', 'Planet Fitness', 'New York Sports Clubs', 'Blink Fitness', 'YMCA locations'],
-    majorHighways: ['I-87', 'I-90', 'I-95', 'I-84', 'I-81'],
-    stateParkSystems: ['Niagara Falls State Park', 'Jones Beach State Park', 'Adirondack Park'],
-    regulations: 'New York State Sanitary Code Part 6 governs swimming pools.',
-    climateNote: 'Varied climate by region. NYC moderate, Upstate has cold winters. Beach season limited to summer.',
-    seasonalEvents: ['NYC summer events', 'Fall foliage', 'Ski season (December-March)', 'Beach season (June-August)'],
-  localContext: 'NYC has 500+ fitness facilities but Manhattan prices can exceed $300/month. City recreation centers offer $150/year memberships for residents. Long Island beaches have extensive facilities but parking fees can reach $50/day. Adirondack Park (6 million acres) has scattered facilities mainly at campgrounds. Buffalo\'s proximity to Niagara Falls creates unique tourist facility demand. Finger Lakes wine tourism has spawned spa facilities at many wineries. Orthodox Jewish communities in Brooklyn have gender-separated facility requirements. Hamptons facilities become exclusive clubs Memorial Day through Labor Day. Upstate struggles with maintaining facilities through harsh winters.',    priceRange: { low: 0, high: 40 },
-    commonFacilities: ['Recreation centers', 'Beach facilities', 'YMCAs', 'Premium gyms', 'State parks']
+    narrative: {
+      intro: `New York is really two states: NYC and everything else. The city has 500+ fitness facilities, but Manhattan prices can exceed $300/month. The secret is NYC recreation centers, which offer $150/year memberships for residents - some of the best value in the country. Long Island beaches have extensive facilities but parking can reach $50/day. Upstate is more modest with YMCAs and local gyms.`,
+      travelersNote: `Adirondack Park (6 million acres) has scattered facilities mainly at campgrounds. Finger Lakes wine tourism has spawned spa facilities at wineries. Orthodox Jewish communities in Brooklyn have gender-separated facility requirements. Hamptons facilities become exclusive clubs Memorial Day through Labor Day. Upstate struggles with winter maintenance.`,
+      localTip: `NYC recreation centers are the move for residents. For visitors, Blink Fitness offers the best day pass value in Manhattan. Jones Beach has excellent facilities. Niagara Falls area has tourist-focused options. Ithaca (Cornell) has good campus-area facilities.`
+    },
+    cities: [
+      { name: 'New York City', description: '500+ facilities, huge price range from budget to ultra-premium' },
+      { name: 'Long Island', description: 'Extensive beach facilities, expensive parking' },
+      { name: 'Buffalo', description: 'Niagara Falls tourism influences facility options' },
+      { name: 'Ithaca', description: 'Cornell town with good campus options' },
+      { name: 'Albany', description: 'State capital with standard coverage' }
+    ],
+    facilityTypes: [
+      { name: 'Recreation centers', description: 'NYC centers are incredible value for residents' },
+      { name: 'Beach facilities', description: 'Long Island and Jones Beach with extensive showers' },
+      { name: 'Premium gyms', description: 'Equinox, NYSC in Manhattan' },
+      { name: 'Budget gyms', description: 'Blink Fitness, Planet Fitness throughout' },
+      { name: 'State parks', description: 'Adirondacks, Finger Lakes with campground facilities' }
+    ],
+    pricingContext: {
+      budget: `NYC rec centers $150/year for residents, Blink Fitness $15 day pass`,
+      midRange: `YMCA $20-25, standard gym day passes $15-25`,
+      premium: `Manhattan Equinox $40+ day pass, Hamptons summer access $50+`
+    },
+    beforeYouGo: `NYC and upstate are different worlds. Beach season June-Aug. Long Island parking expensive. Hamptons exclusive in summer. Adirondacks have scattered facilities. Cold upstate winters affect operations.`,
+    priceRange: { low: 0, high: 40 }
   },
   
   'north-carolina': {
     name: 'North Carolina',
     code: 'NC',
-    majorCities: ['Charlotte', 'Raleigh', 'Durham', 'Winston-Salem', 'Fayetteville', 'Cary'],
-    universityTowns: ['Chapel Hill (UNC)', 'Durham (Duke)', 'Raleigh (NC State)', 'Boone (App State)'],
-    popularVenues: ['YMCA locations', 'O2 Fitness', 'Planet Fitness', 'Anytime Fitness', 'Gold\'s Gym'],
-    majorHighways: ['I-95', 'I-85', 'I-40', 'I-77', 'I-26'],
-    stateParkSystems: ['Great Smoky Mountains National Park', 'Cape Hatteras National Seashore', 'Blue Ridge Parkway'],
-    regulations: 'North Carolina Administrative Code Title 15A Chapter 18A governs public swimming pools.',
-    climateNote: 'Varied climate from mountains to coast. Humid summers, mild winters. Hurricane risk on coast.',
-    seasonalEvents: ['Beach season (May-September)', 'Mountain tourism (Fall)', 'College basketball season', 'NASCAR races'],
-  localContext: 'North Carolina\'s 300-mile coastline from Outer Banks to Calabash provides extensive beach shower facilities. Research Triangle (Raleigh-Durham-Chapel Hill) has premium facilities serving tech and pharma workers. Asheville\'s wellness culture supports numerous alternative facilities including communal bathhouses. Great Smoky Mountains National Park visitors strain Gatlinburg/Cherokee facilities. Military bases (Fort Bragg, Camp Lejeune) restrict access but influence surrounding civilian facilities. Charlotte\'s banking center has corporate gyms in most towers. NASCAR race weekends completely overwhelm facilities near tracks. Mountain communities often rely on seasonal tourism facilities that close in winter. Hurricane evacuations from coast stress inland facilities.',    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Beach facilities', 'Mountain resorts', 'YMCAs', 'University facilities', 'Recreation centers']
+    narrative: {
+      intro: `North Carolina stretches from 300 miles of coastline to the Great Smoky Mountains, with facilities to match. The Outer Banks and coastal towns have extensive beach shower facilities. The Research Triangle (Raleigh-Durham-Chapel Hill) has premium options serving tech and pharma workers. Charlotte's banking center has corporate gyms in most towers. Asheville's wellness culture supports alternative facilities including communal bathhouses.`,
+      travelersNote: `Military bases (Fort Bragg, Camp Lejeune) restrict access but influence surrounding civilian facilities. NASCAR race weekends completely overwhelm facilities near tracks in Charlotte and beyond. Great Smoky Mountains visitors strain Cherokee and Gatlinburg-area facilities. Hurricane evacuations from coast stress inland facilities seasonally.`,
+      localTip: `YMCAs are strong throughout the state. O2 Fitness is a good regional chain. Cape Hatteras National Seashore has beach facilities. Asheville is worth seeking out for unique wellness options. Mountain communities may close tourist facilities in winter.`
+    },
+    cities: [
+      { name: 'Charlotte', description: 'Banking center with corporate gyms and premium options' },
+      { name: 'Raleigh-Durham', description: 'Research Triangle with tech/pharma premium facilities' },
+      { name: 'Asheville', description: 'Wellness culture supports alternative facilities and bathhouses' },
+      { name: 'Outer Banks', description: 'Extensive beach shower facilities along coast' },
+      { name: 'Chapel Hill', description: 'UNC town with university and community options' }
+    ],
+    facilityTypes: [
+      { name: 'Beach facilities', description: '300 miles of coast from Outer Banks to Calabash' },
+      { name: 'YMCAs', description: 'Strong network throughout the state' },
+      { name: 'Fitness centers', description: 'O2 Fitness (regional), Planet Fitness, Gold\'s Gym' },
+      { name: 'Mountain facilities', description: 'Ski resorts and wellness centers in Blue Ridge' },
+      { name: 'University facilities', description: 'UNC, Duke, NC State with varying access' }
+    ],
+    pricingContext: {
+      budget: `Beach showers free, state park day-use $5-7`,
+      midRange: `YMCA and gym day passes $10-20`,
+      premium: `Charlotte/Triangle premium gyms $25+, Asheville spa facilities $30+`
+    },
+    beforeYouGo: `Varied climate - humid coast, cooler mountains. Beach season May-Sept. Hurricane risk on coast. NASCAR weekends overwhelm local facilities. College basketball season affects Triangle towns.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'north-dakota': {
     name: 'North Dakota',
     code: 'ND',
-    majorCities: ['Fargo', 'Bismarck', 'Grand Forks', 'Minot', 'Williston'],
-    universityTowns: ['Grand Forks (UND)', 'Fargo (NDSU)', 'Dickinson', 'Minot'],
-    popularVenues: ['Courts Plus', 'Family Wellness', 'Anytime Fitness', 'YMCA locations'],
-    majorHighways: ['I-94', 'I-29', 'US-2', 'US-83'],
-    stateParkSystems: ['Theodore Roosevelt National Park', 'Lake Sakakawea State Park', 'Fort Abraham Lincoln State Park'],
-    regulations: 'North Dakota Administrative Code Article 33-29 governs public swimming pools.',
-    climateNote: 'Continental climate with very cold winters and warm summers. Short outdoor season.',
-    seasonalEvents: ['State Fair (July)', 'Oil boom activity', 'Winter sports season', 'Summer lake season'],
-  localContext: 'North Dakota\'s oil boom (Bakken formation) transformed small towns with man camps requiring shower facilities. Brutal winters (-40°F) mean many outdoor facilities are unusable 6 months/year. Fargo-Moorhead area shares facilities with Minnesota across the Red River. Native American reservations (Spirit Lake, Standing Rock) have limited facilities often centered at tribal colleges. Agricultural areas see seasonal demand from harvest workers. Some towns are 100+ miles from nearest public facility. Norwegian heritage influences sauna culture in some communities. Missouri River recreation areas provide seasonal facilities. Population density (11 people/sq mile) makes facility sustainability challenging.',    priceRange: { low: 0, high: 20 },
-    commonFacilities: ['Community centers', 'Truck stops', 'YMCAs', 'University facilities', 'Recreation centers']
+    narrative: {
+      intro: `Finding a shower in North Dakota takes some planning - this is one of the least densely populated states in the country, and facilities can be 100+ miles apart in some areas. The good news is that Fargo-Moorhead (which shares facilities with Minnesota across the Red River) has excellent coverage, and even small towns along I-94 have truck stops with clean shower facilities.`,
+      travelersNote: `The Bakken oil boom transformed western North Dakota, and towns like Williston now have facilities that didn't exist a decade ago. That said, if you're heading through the rural areas between cities, the truck stops along I-94 and I-29 are often your only option - and they're reliable. Winter is brutal here (-40F is not unusual) so indoor facilities are essential October through April.`,
+      localTip: `Norwegian heritage runs deep here, and some communities have saunas at their rec centers - a nice bonus if you're looking for more than just a quick shower. The university towns (Fargo, Grand Forks) are your best bet for variety and affordability.`
+    },
+    cities: [
+      { name: 'Fargo', description: 'Best coverage in the state, shares metro area with Moorhead MN' },
+      { name: 'Bismarck', description: 'State capital with rec centers and standard gym options' },
+      { name: 'Grand Forks', description: 'UND college town with university facilities' },
+      { name: 'Minot', description: 'Air Force base town with military influence on facilities' },
+      { name: 'Williston', description: 'Oil boom town with newer facilities serving workers' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'Love\'s along I-94 and I-29, essential for rural stretches' },
+      { name: 'Recreation centers', description: 'Courts Plus and Family Wellness in major cities' },
+      { name: 'YMCAs', description: 'Locations in Fargo and Bismarck with day passes' },
+      { name: 'University facilities', description: 'UND and NDSU with community access options' },
+      { name: 'Community pools', description: 'Small town pools often the only local option' }
+    ],
+    pricingContext: {
+      budget: `Community pools $3-5, some rec centers under $10`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Premium fitness centers $15-20`
+    },
+    beforeYouGo: `Brutal winters close outdoor facilities October-April. Summer lake season (June-August) opens more options. Oil field areas can have strained facilities. Some rural areas have no facilities for 100+ miles.`,
+    priceRange: { low: 0, high: 20 }
   },
   
   'ohio': {
     name: 'Ohio',
     code: 'OH',
-    majorCities: ['Columbus', 'Cleveland', 'Cincinnati', 'Toledo', 'Akron', 'Dayton'],
-    universityTowns: ['Columbus (OSU)', 'Athens (Ohio U)', 'Oxford (Miami)', 'Bowling Green', 'Kent'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'LA Fitness', 'Lifetime Fitness', 'YMCA locations'],
-    majorHighways: ['I-70', 'I-71', 'I-75', 'I-77', 'I-80', 'I-90'],
-    stateParkSystems: ['Hocking Hills State Park', 'Lake Erie State Parks', 'Cuyahoga Valley National Park'],
-    regulations: 'Ohio Administrative Code Chapter 3701-31 governs public swimming pools.',
-    climateNote: 'Four seasons with cold winters and humid summers. Lake Erie moderates northern climate.',
-    seasonalEvents: ['State Fair (July-August)', 'College football (Fall)', 'Cedar Point season (May-October)', 'Lake Erie summer'],
-  localContext: 'Ohio\'s rust belt cities have aging infrastructure with many pools/facilities built in the 1960s-70s needing updates. Columbus growth has brought modern facilities while Cleveland and Cincinnati struggle with maintenance budgets. Lake Erie provides 312 miles of shoreline with beach facilities concentrated near population centers. Amish country (Holmes County) has virtually no public facilities. Ohio State football Saturdays make Columbus the third-largest city in Ohio, straining all facilities. Cedar Point amusement park area has seasonal facilities catering to tourists. Cuyahoga Valley National Park provides limited facilities along towpath trail. Health-conscious culture weaker than coasts, affecting facility demand.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Recreation centers', 'YMCAs', 'Fitness centers', 'Lake facilities', 'University facilities']
+    narrative: {
+      intro: `Ohio's three major cities - Columbus, Cleveland, and Cincinnati - each have solid shower coverage, though the character varies. Columbus has grown rapidly with modern fitness chains everywhere, while Cleveland and Cincinnati show their rust belt heritage with aging but functional municipal facilities. Lake Erie's 312-mile shoreline provides beach showers at state parks, and the interstate highway network means truck stops are never far.`,
+      travelersNote: `The interstate system through Ohio is excellent for facilities. I-70, I-71, I-75, and I-80/90 all have truck stops every 30-50 miles with reliable showers. College towns like Athens (Ohio U) and Oxford (Miami) have good options but watch for football weekends - Ohio State Saturdays turn Columbus into the third-largest city in the state.`,
+      localTip: `Amish country in Holmes County has virtually no public shower facilities - plan accordingly if you're visiting. The Hocking Hills region near Athens has campground showers but limited other options. Lake Erie beaches north of Cleveland are your best bet for free seasonal rinse stations.`
+    },
+    cities: [
+      { name: 'Columbus', description: 'Fastest-growing city with modern gym chains everywhere' },
+      { name: 'Cleveland', description: 'Lake Erie access plus municipal rec centers, some aging' },
+      { name: 'Cincinnati', description: 'River city with YMCAs and standard gym coverage' },
+      { name: 'Toledo', description: 'Northern Ohio hub near Lake Erie beaches' },
+      { name: 'Akron', description: 'Near Cuyahoga Valley National Park with basic options' }
+    ],
+    facilityTypes: [
+      { name: 'Fitness centers', description: 'Planet Fitness, LA Fitness, Anytime Fitness statewide' },
+      { name: 'YMCAs', description: 'Strong network throughout the state' },
+      { name: 'Recreation centers', description: 'Municipal facilities in major cities, some aging but functional' },
+      { name: 'Lake facilities', description: 'Lake Erie state parks with seasonal beach showers' },
+      { name: 'University gyms', description: 'OSU, Ohio U, Miami with varying public access' }
+    ],
+    pricingContext: {
+      budget: `State park beach showers free, some municipal pools $3-5`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Lifetime Fitness and premium Columbus gyms $20-25`
+    },
+    beforeYouGo: `Cold winters and humid summers. Beach facilities seasonal (May-October). Ohio State football weekends strain Columbus facilities. Amish country has no public facilities. Cedar Point area gets crowded in summer.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'oklahoma': {
     name: 'Oklahoma',
     code: 'OK',
-    majorCities: ['Oklahoma City', 'Tulsa', 'Norman', 'Broken Arrow', 'Edmond'],
-    universityTowns: ['Norman (OU)', 'Stillwater (OSU)', 'Ada (ECU)', 'Weatherford (SWOSU)'],
-    popularVenues: ['Lifetime Fitness', 'Planet Fitness', 'Gold\'s Gym', 'YMCA locations', 'Love\'s Travel Stops'],
-    majorHighways: ['I-35', 'I-40', 'I-44', 'US-69'],
-    stateParkSystems: ['Lake Murray State Park', 'Robbers Cave State Park', 'Natural Falls State Park'],
-    regulations: 'Oklahoma Administrative Code Title 310 Chapter 215 governs public bathing places.',
-    climateNote: 'Variable climate with hot summers and mild winters. Tornado season April-June.',
-    seasonalEvents: ['State Fair (September)', 'College football (Fall)', 'Tornado season', 'Lake season (May-September)'],
-  localContext: 'Oklahoma\'s 400+ miles of Route 66 heritage creates nostalgic truck stop culture with excellent facilities. Lake culture (200+ lakes) means most facilities are seasonal May-September. Native American population (9% of state) has limited facilities on tribal lands, though some casinos offer public access. Tornado damage regularly destroys community facilities requiring rebuilding. Oil field workers in western Oklahoma rely heavily on truck stops. University towns (Norman, Stillwater) see dramatic population swings on game days. Medical marijuana licenses have created unexpected facility demand patterns. Churches often provide shower facilities during disaster relief. Braum\'s ice cream stores oddly serve as community gathering points near facilities.',
-    priceRange: { low: 0, high: 20 },
-    commonFacilities: ['Lake facilities', 'Truck stops', 'YMCAs', 'Recreation centers', 'University gyms']
+    narrative: {
+      intro: `Oklahoma's 400+ miles of historic Route 66 established a truck stop culture that serves travelers well to this day. Love's Travel Stops is headquartered here, and you'll find their facilities (and competitors') at every major interstate junction. Oklahoma City and Tulsa have standard gym coverage, while the state's 200+ lakes create a summer recreation culture with seasonal facilities.`,
+      travelersNote: `The I-35, I-40, and I-44 corridors are well-served with truck stops every 30-40 miles. Lake facilities are seasonal (May-September) so don't count on them off-season. University towns like Norman (OU) and Stillwater (OSU) have good options but get overwhelmed on football weekends - these are serious football schools.`,
+      localTip: `Tribal casinos often have pool facilities open to the public, worth asking if you're near one. After a tornado (they're common April-June), churches frequently set up shower stations for relief workers. The oil field areas in western Oklahoma have truck stops catering to workers.`
+    },
+    cities: [
+      { name: 'Oklahoma City', description: 'State capital with Lifetime Fitness and standard gym chains' },
+      { name: 'Tulsa', description: 'Second city with similar coverage, YMCAs and fitness centers' },
+      { name: 'Norman', description: 'OU college town, crowded on football Saturdays' },
+      { name: 'Stillwater', description: 'OSU college town, same football weekend warning' },
+      { name: 'Edmond', description: 'OKC suburb with good gym options' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'Love\'s everywhere plus Pilot along major interstates' },
+      { name: 'Lake facilities', description: '200+ lakes with seasonal shower access (May-Sept)' },
+      { name: 'Fitness centers', description: 'Lifetime, Planet Fitness, Gold\'s in metro areas' },
+      { name: 'YMCAs', description: 'Locations in OKC and Tulsa with day passes' },
+      { name: 'State parks', description: 'Lake Murray, Robbers Cave with campground showers' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $5-10, some community pools $3-5`,
+      midRange: `Truck stops $12-15, gym day passes $10-15`,
+      premium: `Lifetime Fitness $20+, casino spa day passes $20-30`
+    },
+    beforeYouGo: `Hot summers and tornado season (April-June). Lake facilities are seasonal. Football weekends in Norman and Stillwater get extremely crowded. Oil field areas have good truck stop coverage but few other options.`,
+    priceRange: { low: 0, high: 20 }
   },
   
   'oregon': {
     name: 'Oregon',
     code: 'OR',
-    majorCities: ['Portland', 'Salem', 'Eugene', 'Bend', 'Medford', 'Beaverton'],
-    universityTowns: ['Eugene (U of O)', 'Corvallis (OSU)', 'La Grande (EOU)', 'Ashland (SOU)'],
-    popularVenues: ['24 Hour Fitness', 'Planet Fitness', 'LA Fitness', 'Portland Parks & Recreation', 'YMCA locations'],
-    majorHighways: ['I-5', 'I-84', 'US-101', 'US-97'],
-    stateParkSystems: ['Crater Lake National Park', 'Silver Falls State Park', 'Cannon Beach', 'Smith Rock State Park'],
-    regulations: 'Oregon Administrative Rules Chapter 333 Division 60 governs public swimming pools.',
-    climateNote: 'Mild, wet winters on coast. Dry summers inland. Mountain areas have snow. Beach water stays cold year-round.',
-    seasonalEvents: ['Summer festival season', 'Ski season (December-March)', 'Wine harvest (Fall)', 'Beach season (July-September)'],
-  localContext: 'Oregon\'s outdoors-obsessed culture means extensive facilities even in small towns. Portland has 50+ community centers with shower access, many offering "shower only" rates. Coast beaches provide rinse stations but Pacific water stays cold (50-60°F) year-round. Homeless population has led to innovative programs like mobile shower units. Bend area serves as base for Cascade adventures with facilities catering to van-lifers. Crater Lake and Mount Hood create seasonal tourist demand. Cannabis tourism adds unexpected facility users. Environmental consciousness means many facilities use gray water systems. Rural eastern Oregon has vast areas without facilities.',
-      priceRange: { low: 0, high: 28 },
-    commonFacilities: ['Recreation centers', 'Hot springs', 'Beach facilities', 'Fitness centers', 'University facilities']
+    narrative: {
+      intro: `Oregon's outdoors-obsessed culture means you'll find shower facilities even in surprisingly small towns. Portland alone has 50+ community centers with shower access, and many offer "shower only" rates if you just need a quick rinse. The coast has rinse stations at most beaches, though the Pacific stays cold year-round (50-60F). Bend has become a hub for van-lifers with facilities catering to that crowd.`,
+      travelersNote: `Portland's homeless crisis led to innovative mobile shower programs that serve anyone in need. The I-5 corridor from California to Washington has good truck stop coverage. Eastern Oregon is a different story - once you cross the Cascades, facilities can be 100+ miles apart. Hot springs scattered throughout the state offer a more interesting bathing option.`,
+      localTip: `Ask Portland community centers about "shower only" rates - they're often just a few dollars. The Bend area has facilities that explicitly welcome van-lifers, including some hostels with shower-only options. Oregon's environmental consciousness means you'll see low-flow fixtures and gray water systems.`
+    },
+    cities: [
+      { name: 'Portland', description: '50+ community centers, strong infrastructure for all income levels' },
+      { name: 'Eugene', description: 'U of O college town with university and community options' },
+      { name: 'Bend', description: 'Van-lifer friendly town with outdoor recreation focus' },
+      { name: 'Salem', description: 'State capital with standard municipal facilities' },
+      { name: 'Ashland', description: 'Theater town near California border with basic options' }
+    ],
+    facilityTypes: [
+      { name: 'Recreation centers', description: 'Portland Parks & Rec runs 50+ facilities with day passes' },
+      { name: 'Hot springs', description: 'Natural springs throughout the Cascades and eastern Oregon' },
+      { name: 'Beach facilities', description: 'Rinse stations at coast beaches along US-101' },
+      { name: 'Fitness centers', description: '24 Hour Fitness, Planet Fitness, LA Fitness in metro areas' },
+      { name: 'Van-life facilities', description: 'Bend area hostels and campgrounds cater to travelers' }
+    ],
+    pricingContext: {
+      budget: `Beach rinse stations free, Portland "shower only" rates $3-7`,
+      midRange: `Gym day passes $10-20, developed hot springs $10-20`,
+      premium: `Premium Portland gyms $20-28`
+    },
+    beforeYouGo: `Wet winters west of Cascades, dry east. Beach water is cold year-round. Eastern Oregon has vast distances between facilities. Summer festival season increases demand in Portland and Bend.`,
+    priceRange: { low: 0, high: 28 }
   },
   
   'pennsylvania': {
     name: 'Pennsylvania',
     code: 'PA',
-    majorCities: ['Philadelphia', 'Pittsburgh', 'Allentown', 'Erie', 'Reading', 'Harrisburg'],
-    universityTowns: ['State College (Penn State)', 'Philadelphia (Penn, Temple)', 'Pittsburgh (Pitt, CMU)'],
-    popularVenues: ['Planet Fitness', 'LA Fitness', 'Crunch Fitness', 'YMCA locations', 'JCC facilities'],
-    majorHighways: ['I-76', 'I-80', 'I-81', 'I-95', 'I-70'],
-    stateParkSystems: ['Presque Isle State Park', 'Ohiopyle State Park', 'Ricketts Glen State Park'],
-    regulations: 'Pennsylvania Code Title 28 Chapter 18 governs public bathing places.',
-    climateNote: 'Four seasons with cold winters and humid summers. Lake Erie beaches in northwest.',
-    seasonalEvents: ['Summer shore season', 'Fall foliage', 'Penn State football (Fall)', 'Ski season (December-March)'],
-  localContext: 'Pennsylvania\'s coal and steel heritage left many communities with grand but aging facilities needing updates. Philadelphia has 150+ public pools and rec centers, though budget constraints affect maintenance. Pittsburgh\'s hilly terrain creates neighborhood isolation affecting facility access. Pocono Mountains resorts offer day passes primarily for skiing/waterpark visitors. Penn State becomes Pennsylvania\'s third-largest city on football weekends. Lancaster County\'s Plain communities don\'t use public facilities. Hersheypark area has tourist-focused options. Delaware Water Gap provides seasonal facilities. Presque Isle State Park offers Great Lakes beach access. Appalachian Trail through-hikers create seasonal demand.',
-    priceRange: { low: 0, high: 28 },
-    commonFacilities: ['YMCAs', 'Recreation centers', 'University facilities', 'State parks', 'Fitness centers']
+    narrative: {
+      intro: `Pennsylvania's two major cities couldn't be more different in character, but both have good shower coverage. Philadelphia has 150+ public pools and rec centers - many dating to the city's industrial heyday and showing their age, but functional. Pittsburgh's hilly terrain isolates neighborhoods, so you'll want to plan which area you're targeting. The state's extensive interstate network means truck stops are plentiful.`,
+      travelersNote: `I-80 and I-76 (Pennsylvania Turnpike) have truck stops with showers every 30-40 miles. Penn State football weekends turn State College into the third-largest city in Pennsylvania - plan accordingly. The Poconos resort area offers day passes primarily aimed at waterpark and ski visitors. If you're hiking the Appalachian Trail, towns like Duncannon and Delaware Water Gap cater to thru-hikers.`,
+      localTip: `Lancaster County's Amish communities don't use public facilities, so options are limited there. Presque Isle State Park in Erie has Great Lakes beach facilities. Many of Philly's neighborhood rec centers are underutilized and happy to have visitors.`
+    },
+    cities: [
+      { name: 'Philadelphia', description: '150+ pools and rec centers, some aging but functional' },
+      { name: 'Pittsburgh', description: 'Hilly terrain isolates neighborhoods, plan your target area' },
+      { name: 'State College', description: 'Penn State town, extremely crowded on football weekends' },
+      { name: 'Erie', description: 'Lake Erie access with Presque Isle beach facilities' },
+      { name: 'Harrisburg', description: 'State capital with standard gym and YMCA options' }
+    ],
+    facilityTypes: [
+      { name: 'Recreation centers', description: 'Philadelphia has 150+, Pittsburgh has neighborhood-based options' },
+      { name: 'YMCAs', description: 'Strong network throughout the state' },
+      { name: 'Truck stops', description: 'Along I-80, I-76 Turnpike, I-95, and I-81' },
+      { name: 'State parks', description: 'Presque Isle, Ohiopyle, Ricketts Glen with campground showers' },
+      { name: 'University facilities', description: 'Penn State, Pitt, Temple with varying public access' }
+    ],
+    pricingContext: {
+      budget: `Some Philly rec centers under $5, state park day-use $5-10`,
+      midRange: `Gym day passes $10-20, truck stops $12-15`,
+      premium: `Premium Philly gyms $20-28`
+    },
+    beforeYouGo: `Cold winters, humid summers. Penn State football weekends overwhelm State College. Amish country has limited facilities. Poconos facilities often tied to resort packages. Appalachian Trail towns cater to hikers.`,
+    priceRange: { low: 0, high: 28 }
   },
   
   'rhode-island': {
     name: 'Rhode Island',
     code: 'RI',
-    majorCities: ['Providence', 'Warwick', 'Cranston', 'Pawtucket', 'Newport'],
-    universityTowns: ['Providence (Brown, RISD)', 'Kingston (URI)', 'Newport (Salve Regina)'],
-    popularVenues: ['Planet Fitness', 'Edge Fitness', 'YMCA locations', 'JCC of Rhode Island'],
-    majorHighways: ['I-95', 'I-195', 'Route 6', 'Route 1'],
-    stateParkSystems: ['Misquamicut State Beach', 'Scarborough State Beach', 'Roger Williams Park'],
-    regulations: 'Rhode Island General Laws Title 23 Chapter 23-20 governs public swimming facilities.',
-    climateNote: 'Ocean State with moderate climate. Beach season May-September. Cold winters.',
-    seasonalEvents: ['Beach season (Memorial Day-Labor Day)', 'Newport events', 'College seasons', 'WaterFire Providence'],
-  localContext: 'Rhode Island\'s small size (48x37 miles) means everything is accessible within an hour. Newport\'s Gilded Age mansions contrast with accessible public beaches. Providence universities create September demand surge. Block Island ferry creates unique access patterns for facilities. Narragansett Bay beaches provide extensive shower stations. Italian-American heritage influences facility culture in Federal Hill area. Seasonal population swings (850K winter to 1.2M summer) affect availability. Many facilities close or reduce hours October-April. Warwick mall area serves as central facility hub. Portuguese communities in East Providence have distinct facility preferences.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Beach facilities', 'YMCAs', 'Fitness centers', 'State beaches', 'Recreation centers']
+    narrative: {
+      intro: `Rhode Island's small size (you can drive across it in an hour) means you're never far from a facility. Narragansett Bay beaches have extensive shower stations, and Providence has solid YMCA and gym coverage. The catch is that beach facilities are very seasonal - many close or reduce hours from October through April, and the summer population nearly doubles.`,
+      travelersNote: `Newport's Gilded Age mansions attract tourists, but the actual shower facilities are modest - most visitors head to the public beaches at Easton or Second Beach. Providence's universities (Brown, RISD) create a September demand surge. Block Island is accessible by ferry and has limited but available facilities on the island.`,
+      localTip: `The state beaches at Misquamicut and Scarborough have the best beach shower facilities, but expect crowds and parking fees in summer. If you're in Providence, the East Side near Brown has good gym options. The JCC of Rhode Island welcomes visitors with day passes.`
+    },
+    cities: [
+      { name: 'Providence', description: 'Capital city with YMCAs, gyms, and university-area options' },
+      { name: 'Newport', description: 'Tourist town with beach access, facilities modest for visitor volume' },
+      { name: 'Warwick', description: 'Central location with mall-area gyms' },
+      { name: 'Cranston', description: 'Providence suburb with standard options' },
+      { name: 'Narragansett', description: 'Beach town with good seasonal facilities' }
+    ],
+    facilityTypes: [
+      { name: 'Beach facilities', description: 'State beaches along Narragansett Bay with seasonal showers' },
+      { name: 'YMCAs', description: 'Providence area locations with day passes' },
+      { name: 'Fitness centers', description: 'Planet Fitness, Edge Fitness throughout metro area' },
+      { name: 'JCC', description: 'JCC of Rhode Island welcomes visitors' },
+      { name: 'State parks', description: 'Misquamicut, Scarborough with summer beach facilities' }
+    ],
+    pricingContext: {
+      budget: `State beach showers free (parking $10-15), some YMCAs under $15`,
+      midRange: `Gym day passes $10-20`,
+      premium: `Newport area premium options $20-25`
+    },
+    beforeYouGo: `Beach facilities are seasonal (May-Sept). Summer population nearly doubles, straining facilities. Newport gets very crowded during yacht season. Block Island requires ferry access. Many facilities reduce hours Oct-April.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'south-carolina': {
     name: 'South Carolina',
     code: 'SC',
-    majorCities: ['Charleston', 'Columbia', 'Greenville', 'Rock Hill', 'Myrtle Beach'],
-    universityTowns: ['Columbia (USC)', 'Clemson', 'Charleston (C of C)', 'Spartanburg (Wofford)'],
-    popularVenues: ['Planet Fitness', 'Gold\'s Gym', 'O2 Fitness', 'YMCA locations', 'Caine Halter YMCA'],
-    majorHighways: ['I-95', 'I-85', 'I-26', 'I-20', 'I-77'],
-    stateParkSystems: ['Myrtle Beach State Park', 'Hunting Island State Park', 'Table Rock State Park'],
-    regulations: 'South Carolina Code of Regulations 61-51 governs public swimming pools.',
-    climateNote: 'Humid subtropical with hot summers. Hurricane risk on coast. Mild winters.',
-    seasonalEvents: ['Beach season (April-October)', 'Golf season (year-round)', 'College football (Fall)', 'Spring break (March)'],
-  localContext: 'South Carolina\'s Grand Strand (60-mile beach stretch) has shower facilities every few blocks from Myrtle Beach to Georgetown. Charleston\'s historic district has limited facilities, pushing visitors to suburban gyms. Hilton Head and Kiawah Island cater to wealthy retirees with premium facilities. Columbia\'s brutal summer heat (100°F+) makes indoor facilities essential. Clemson football brings 80,000+ to a town of 17,000, overwhelming facilities. Gullah communities on sea islands maintain distinct cultural practices affecting facility use. Spring break and summer tourism can make coastal facilities inaccessible to locals. Many facilities still recovering from recent hurricane damages.',
-    priceRange: { low: 0, high: 22 },
-    commonFacilities: ['Beach facilities', 'Golf resorts', 'YMCAs', 'State parks', 'Recreation centers']
+    narrative: {
+      intro: `South Carolina's Grand Strand - the 60-mile beach stretch from Myrtle Beach to Georgetown - has shower facilities every few blocks, making it one of the easiest coastal regions for travelers. Charleston's historic district is charming but has limited facilities, so you'll likely head to the suburbs. Greenville in the upstate has become a destination with good gym coverage.`,
+      travelersNote: `Myrtle Beach is shower central for the coast, with public beach facilities everywhere. Spring break (March) and summer tourism can make these crowded, but they're rarely unavailable. Charleston visitors should note that the downtown historic district pushes you to Mount Pleasant or West Ashley for gyms. Clemson football brings 80,000+ to a town of 17,000 - avoid game weekends unless you plan way ahead.`,
+      localTip: `Columbia's summer heat regularly exceeds 100F - you'll want that shower, but stick to air-conditioned facilities. Hilton Head and Kiawah Island cater to wealthy retirees with premium pricing. Many beach facilities are still recovering from recent hurricane damage.`
+    },
+    cities: [
+      { name: 'Myrtle Beach', description: 'Beach shower facilities every few blocks along the Grand Strand' },
+      { name: 'Charleston', description: 'Historic downtown limited, better options in surrounding suburbs' },
+      { name: 'Columbia', description: 'State capital, brutal summer heat makes indoor facilities essential' },
+      { name: 'Greenville', description: 'Upstate city with good modern gym coverage' },
+      { name: 'Clemson', description: 'Small college town, completely overwhelmed on football weekends' }
+    ],
+    facilityTypes: [
+      { name: 'Beach facilities', description: 'Grand Strand has extensive public shower stations' },
+      { name: 'Fitness centers', description: 'Planet Fitness, Gold\'s, O2 Fitness in metro areas' },
+      { name: 'YMCAs', description: 'Strong network including well-known Caine Halter YMCA' },
+      { name: 'State parks', description: 'Myrtle Beach State Park, Hunting Island with campground showers' },
+      { name: 'Golf resorts', description: 'Hilton Head, Kiawah Island with premium day access' }
+    ],
+    pricingContext: {
+      budget: `Beach showers free, state park day-use $5-8`,
+      midRange: `Gym day passes $10-15, truck stops along I-95 $12-15`,
+      premium: `Hilton Head resort facilities $20-40+`
+    },
+    beforeYouGo: `Hot, humid summers. Hurricane risk on coast can close facilities. Spring break crowds Myrtle Beach. Clemson football weekends impossible. Some coastal facilities still recovering from storm damage.`,
+    priceRange: { low: 0, high: 22 }
   },
   
   'south-dakota': {
     name: 'South Dakota',
     code: 'SD',
-    majorCities: ['Sioux Falls', 'Rapid City', 'Aberdeen', 'Brookings', 'Watertown'],
-    universityTowns: ['Brookings (SDSU)', 'Vermillion (USD)', 'Spearfish (BHSU)'],
-    popularVenues: ['Avera McKennan Fitness', 'Anytime Fitness', 'Planet Fitness', 'YMCA locations'],
-    majorHighways: ['I-90', 'I-29', 'US-14', 'US-83'],
-    stateParkSystems: ['Badlands National Park', 'Custer State Park', 'Wind Cave National Park'],
-    regulations: 'South Dakota Administrative Rules Article 44:01 governs public swimming pools.',
-    climateNote: 'Continental climate with cold winters and hot summers. Black Hills have different weather patterns.',
-    seasonalEvents: ['Sturgis Rally (August)', 'State Fair (September)', 'Summer tourism', 'Pheasant hunting (Fall)'],
-  localContext: 'South Dakota\'s Sturgis Motorcycle Rally (500,000+ visitors) creates extreme temporary demand each August. Mount Rushmore tourism supports Black Hills facilities while east of Missouri River has limited options. Native American reservations (Pine Ridge, Rosebud) have severe facility shortages. Harsh winters (-30°F) close many facilities November-March. Pheasant hunting season brings temporary demand to rural areas. Wall Drug oddly serves as facility landmark for travelers. Some counties have no public facilities within 50+ miles. Seasonal workers at national parks struggle to find affordable shower access. Churches often provide only facilities in small towns.',
-    priceRange: { low: 0, high: 18 },
-    commonFacilities: ['Recreation centers', 'Hotels/motels', 'Truck stops', 'State parks', 'Community centers']
+    narrative: {
+      intro: `South Dakota is really two states for shower purposes. East of the Missouri River, Sioux Falls has good coverage with gyms and rec centers. West of the river, you're in tourist country - the Black Hills around Mount Rushmore and the Badlands have facilities catering to visitors, but it's sparse between attractions. The Sturgis Motorcycle Rally each August brings 500,000+ visitors to a state of 900,000, so avoid that week unless you're attending.`,
+      travelersNote: `I-90 runs the width of the state with truck stops at major exits, but stretches can be 50+ miles without services. Wall Drug has become a landmark for travelers (the signs start 300 miles away) and there are facilities nearby. The Black Hills towns - Rapid City, Spearfish, Deadwood - have tourist-oriented options. Native American reservations like Pine Ridge and Rosebud have severe facility shortages.`,
+      localTip: `Winter is brutal here (-30F is possible) and many facilities close November-March. Pheasant hunting season (October-January) brings temporary demand to rural areas. In small towns, the church may be your only option - don't be shy about asking.`
+    },
+    cities: [
+      { name: 'Sioux Falls', description: 'Largest city with best facility coverage in the state' },
+      { name: 'Rapid City', description: 'Black Hills gateway with tourist-oriented options' },
+      { name: 'Brookings', description: 'SDSU college town with university facilities' },
+      { name: 'Aberdeen', description: 'Northeastern hub with basic options' },
+      { name: 'Spearfish', description: 'Northern Black Hills with BHSU campus' }
+    ],
+    facilityTypes: [
+      { name: 'Recreation centers', description: 'Avera McKennan Fitness in Sioux Falls, municipal facilities elsewhere' },
+      { name: 'Truck stops', description: 'Along I-90 and I-29, essential for cross-state travel' },
+      { name: 'State parks', description: 'Custer State Park, campground showers in Black Hills' },
+      { name: 'Fitness centers', description: 'Anytime Fitness, Planet Fitness in larger towns' },
+      { name: 'Hotels/motels', description: 'Many offer shower access to non-guests for a fee' }
+    ],
+    pricingContext: {
+      budget: `State park campground showers $5, some community centers under $5`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Premium Sioux Falls facilities $15-18`
+    },
+    beforeYouGo: `Brutal winters close facilities Nov-March. Sturgis Rally (August) overwhelms the entire Black Hills region. Some counties have no facilities for 50+ miles. Reservations have severe facility shortages. Pheasant season brings temporary demand.`,
+    priceRange: { low: 0, high: 18 }
   },
   
   'tennessee': {
     name: 'Tennessee',
     code: 'TN',
-    majorCities: ['Nashville', 'Memphis', 'Knoxville', 'Chattanooga', 'Clarksville'],
-    universityTowns: ['Knoxville (UT)', 'Nashville (Vanderbilt)', 'Murfreesboro (MTSU)', 'Memphis (U of M)'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'YMCA locations', 'Love\'s Travel Stops', 'Gold\'s Gym'],
-    majorHighways: ['I-40', 'I-65', 'I-75', 'I-24', 'I-81'],
-    stateParkSystems: ['Great Smoky Mountains National Park', 'Fall Creek Falls State Park', 'Reelfoot Lake State Park'],
-    regulations: 'Tennessee Department of Environment and Conservation Chapter 0400-23-01 governs public pools.',
-    climateNote: 'Humid subtropical with hot summers and mild winters. Mountains have cooler temperatures.',
-    seasonalEvents: ['CMA Fest (June)', 'Bonnaroo (June)', 'Football season (Fall)', 'Spring wildflowers (April-May)'],
-  localContext: 'Tennessee\'s music tourism creates distinct patterns - Nashville\'s Broadway district gyms cater to musicians and tourists, Memphis Beale Street area has limited options. Great Smoky Mountains National Park (most visited in US) strains Gatlinburg/Pigeon Forge facilities. TVA lakes provide 50+ recreation areas with seasonal facilities. Truck stops along I-40 corridor serve as vital facilities for rural communities. Bonnaroo festival brings 80,000+ to tiny Manchester each June. Historically Black colleges (TSU, Fisk) in Nashville have community-accessible facilities. Appalachian communities in east maintain cultural wariness of public facilities. Dollywood area has surprising number of tourist-focused facilities.',
-    priceRange: { low: 0, high: 22 },
-    commonFacilities: ['Truck stops', 'YMCAs', 'Recreation centers', 'State parks', 'University facilities']
+    narrative: {
+      intro: `Tennessee stretches from the Appalachian Mountains to the Mississippi River, with three distinct regions and different facility landscapes. Nashville's music tourism has created gyms catering to musicians and tourists along Broadway. Memphis's Beale Street area has limited options - you'll head to the suburbs. The Great Smoky Mountains (most visited national park) strain Gatlinburg and Pigeon Forge facilities.`,
+      travelersNote: `I-40 runs the width of the state with truck stops every 30-40 miles - these are vital facilities in rural areas. The TVA created 50+ recreation areas along its lakes with seasonal shower access. Bonnaroo festival brings 80,000+ to tiny Manchester each June - if you're not attending, avoid the area. Knoxville gets overwhelmed during UT football weekends.`,
+      localTip: `Nashville's downtown gyms are used to visitors and often have reasonable day passes. The Dollywood area in Pigeon Forge has more facilities than you'd expect given the town size. Memphis's better gym options are in the Midtown or East Memphis areas, not near Beale Street.`
+    },
+    cities: [
+      { name: 'Nashville', description: 'Music city with tourist-friendly gyms, Broadway area well-served' },
+      { name: 'Memphis', description: 'Beale Street area limited, better options in Midtown and East Memphis' },
+      { name: 'Knoxville', description: 'UT college town, busy on football weekends' },
+      { name: 'Chattanooga', description: 'Outdoor recreation hub with good facilities' },
+      { name: 'Gatlinburg', description: 'Smokies gateway, tourist facilities strain during peak season' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'Love\'s, Pilot along I-40, I-65, I-75 - vital in rural areas' },
+      { name: 'YMCAs', description: 'Strong network in Nashville and Memphis metro areas' },
+      { name: 'Fitness centers', description: 'Planet Fitness, Anytime Fitness, Gold\'s in metro areas' },
+      { name: 'State parks', description: 'Fall Creek Falls, TVA lake recreation areas with campground showers' },
+      { name: 'University facilities', description: 'UT Knoxville, Vanderbilt with varying public access' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $5, some community centers under $10`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Premium Nashville gyms $18-22`
+    },
+    beforeYouGo: `Hot, humid summers. Bonnaroo (June) overwhelms Manchester area. UT football weekends strain Knoxville. Smokies tourist season (summer, fall foliage) crowds Gatlinburg facilities. CMA Fest (June) brings 80,000+ to Nashville.`,
+    priceRange: { low: 0, high: 22 }
   },
   
   'texas': {
     name: 'Texas',
     code: 'TX',
-    majorCities: ['Houston', 'Dallas', 'San Antonio', 'Austin', 'Fort Worth', 'El Paso', 'Arlington', 'Corpus Christi'],
-    universityTowns: ['Austin (UT)', 'College Station (A&M)', 'Lubbock (Tech)', 'Denton (UNT)', 'San Marcos (Texas State)'],
-    popularVenues: ['LA Fitness', 'Planet Fitness', 'Gold\'s Gym', 'Life Time', 'Love\'s Travel Stops', 'Buc-ee\'s'],
-    majorHighways: ['I-10', 'I-35', 'I-45', 'I-20', 'I-30', 'I-40'],
-    stateParkSystems: ['Big Bend National Park', 'Padre Island National Seashore', 'Garner State Park', 'Palo Duro Canyon'],
-    regulations: 'Texas Administrative Code Title 25 Part 1 Chapter 265 governs public swimming pools and spas.',
-    climateNote: 'Hot summers statewide with temperatures over 100°F common. Coastal humidity year-round. Mild winters except Panhandle.',
-    seasonalEvents: ['SXSW (March)', 'Spring break (March)', 'Summer vacation (June-August)', 'State Fair (September-October)', 'ACL Fest (October)'],
-  localContext: 'Texas leads the nation in truck stop facilities with Buc-ee\'s setting the gold standard (60+ pumps, dozens of shower stalls). Austin\'s tech boom created premium fitness culture contrasting with traditional Texas gym chains. Houston\'s sprawl means facilities cluster in suburbs with downtown having fewer options. Border towns (El Paso, Laredo, Brownsville) serve international travelers with bilingual facilities. Oil field workers in Permian Basin rely on man camps and truck stops. South Padre Island spring break brings temporary facilities for 100,000+ students. German heritage in Hill Country influences facility culture (New Braunfels, Fredericksburg). Hurricane Harvey recovery still affecting Houston-area facility infrastructure. Friday night football culture means many schools open facilities to community.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Truck stops', 'Fitness centers', 'Municipal pools', 'Recreation centers', 'University facilities', 'Beach showers']
+    narrative: {
+      intro: `Texas leads the nation in truck stop facilities, and it's not close. Buc-ee's has set a new standard with 60+ pump stations, dozens of immaculate shower stalls, and facilities that rival many gyms. You'll find them along every major highway. Beyond truck stops, the major metros have excellent gym coverage - Houston, Dallas-Fort Worth, San Antonio, and Austin all have every national chain plus local options.`,
+      travelersNote: `The distances here are real - El Paso is closer to San Diego than to Houston. Plan your stops. Austin's tech boom created a premium fitness culture with boutique studios, while Houston's sprawl means facilities cluster in suburbs rather than downtown. The Gulf Coast beaches from Galveston to South Padre have rinse stations. Oil field workers in the Permian Basin rely heavily on truck stops and man camps.`,
+      localTip: `Buc-ee's is genuinely worth seeking out - the facilities are spotless and they're scattered along I-10, I-35, and I-45. College football weekends can overwhelm Austin (UT) and College Station (A&M). South Padre Island becomes a shower challenge during spring break with 100,000+ students.`
+    },
+    cities: [
+      { name: 'Houston', description: 'Sprawling metro, facilities cluster in suburbs not downtown' },
+      { name: 'Dallas-Fort Worth', description: 'Good coverage across the metroplex' },
+      { name: 'Austin', description: 'Tech boom brought premium fitness culture, crowded UT football weekends' },
+      { name: 'San Antonio', description: 'Military presence influences gym culture, good coverage' },
+      { name: 'El Paso', description: 'Border city with bilingual facilities, far from everything else' }
+    ],
+    facilityTypes: [
+      { name: 'Truck stops', description: 'Buc-ee\'s sets the gold standard, plus Love\'s and Pilot everywhere' },
+      { name: 'Fitness centers', description: 'LA Fitness, Planet Fitness, Gold\'s, Life Time across metros' },
+      { name: 'Beach facilities', description: 'Galveston to South Padre with rinse stations' },
+      { name: 'Recreation centers', description: 'Municipal facilities in most cities' },
+      { name: 'University facilities', description: 'UT Austin, Texas A&M with varying public access' }
+    ],
+    pricingContext: {
+      budget: `Beach showers free, some municipal pools $3-5`,
+      midRange: `Gym day passes $10-15, truck stops $12-15 (Buc-ee's is free with purchase)`,
+      premium: `Life Time and Austin boutique studios $20-25`
+    },
+    beforeYouGo: `Hot summers - 100F+ is common statewide. Hurricane risk on Gulf Coast. Spring break overwhelms South Padre. SXSW and ACL Fest strain Austin facilities. Distances are vast - plan stops carefully.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'utah': {
     name: 'Utah',
     code: 'UT',
-    majorCities: ['Salt Lake City', 'Provo', 'St. George', 'Ogden', 'Sandy', 'Park City'],
-    universityTowns: ['Provo (BYU)', 'Salt Lake City (U of U)', 'Logan (USU)', 'Cedar City (SUU)'],
-    popularVenues: ['VASA Fitness', 'Planet Fitness', 'EōS Fitness', 'Lifetime Fitness', 'Park City Recreation'],
-    majorHighways: ['I-15', 'I-80', 'I-70', 'I-84', 'US-89'],
-    stateParkSystems: ['Zion National Park', 'Arches National Park', 'Antelope Island State Park', 'Wasatch Mountain State Park'],
-    regulations: 'Utah Administrative Code R392-302 governs public swimming pools.',
-    climateNote: 'Desert climate with hot, dry summers and cold winters. Mountain areas receive heavy snow. High elevation affects visitors.',
-    seasonalEvents: ['Ski season (November-April)', 'Sundance Film Festival (January)', 'National park season (April-October)', 'Pioneer Day (July 24)'],
-  localContext: 'Utah\'s "Mighty Five" national parks create seasonal tourist demand with limited facilities in remote areas. Salt Lake City\'s LDS influence means many facilities close Sundays and have family-focused policies. Park City and Alta ski resorts cater to wealthy tourists with premium facilities ($30+ day passes). VASA Fitness originated here, creating competitive gym market. Lake Powell houseboating culture includes marina shower facilities. Silicon Slopes tech boom in Lehi/Draper brings premium fitness options. BYU\'s Honor Code influences Provo-area facility policies. Desert areas require travelers to plan carefully as facilities can be 100+ miles apart. Polygamous communities in southern Utah generally avoid public facilities.',
-    priceRange: { low: 0, high: 28 },
-    commonFacilities: ['Recreation centers', 'Ski resorts', 'Fitness centers', 'Hot springs', 'National park facilities']
+    narrative: {
+      intro: `Utah's Wasatch Front (Salt Lake City to Provo) has excellent gym coverage - VASA Fitness originated here and the competition keeps prices reasonable. Outside the cities, you're in national park country. The "Mighty Five" parks (Zion, Arches, Bryce Canyon, Canyonlands, Capitol Reef) draw millions of visitors but have limited facilities in surrounding towns. Plan ahead in the desert - facilities can be 100+ miles apart.`,
+      travelersNote: `Salt Lake City's LDS influence means many facilities close Sundays - check before planning. Park City and the ski resorts cater to wealthy tourists with premium pricing ($30+ day passes). The Silicon Slopes tech boom in Lehi and Draper has brought premium fitness options. Lake Powell houseboating culture means marinas have shower facilities. BYU's Honor Code influences Provo-area facility policies.`,
+      localTip: `VASA Fitness is the local favorite with competitive day pass pricing. Hot springs scattered throughout the state offer a unique alternative - some are developed resorts (Crystal Hot Springs), others are free backcountry soaks. High altitude affects visitors - take it easy on your first day.`
+    },
+    cities: [
+      { name: 'Salt Lake City', description: 'Best coverage in state, note Sunday closures' },
+      { name: 'Provo', description: 'BYU town with family-focused facilities' },
+      { name: 'Park City', description: 'Ski resort town with premium pricing' },
+      { name: 'St. George', description: 'Southern Utah gateway to Zion, growing rapidly' },
+      { name: 'Moab', description: 'Arches/Canyonlands gateway, limited options for visitor volume' }
+    ],
+    facilityTypes: [
+      { name: 'Fitness centers', description: 'VASA Fitness, Planet Fitness, EoS across the Wasatch Front' },
+      { name: 'Ski resorts', description: 'Park City, Alta, Snowbird with day passes $30+' },
+      { name: 'Hot springs', description: 'Crystal Hot Springs, backcountry soaks throughout the state' },
+      { name: 'Recreation centers', description: 'Municipal facilities in most cities' },
+      { name: 'Marina facilities', description: 'Lake Powell marinas with shower access' }
+    ],
+    pricingContext: {
+      budget: `Backcountry hot springs free-$10, some rec centers under $10`,
+      midRange: `Gym day passes $10-15, developed hot springs $15-25`,
+      premium: `Park City ski resort facilities $28-40+`
+    },
+    beforeYouGo: `Sunday closures common due to LDS influence. High altitude affects visitors. National park gateway towns have limited facilities. Desert areas require careful planning - facilities 100+ miles apart. Ski season Nov-April brings premium pricing.`,
+    priceRange: { low: 0, high: 28 }
   },
   
   'vermont': {
     name: 'Vermont',
     code: 'VT',
-    majorCities: ['Burlington', 'South Burlington', 'Rutland', 'Barre', 'Montpelier'],
-    universityTowns: ['Burlington (UVM)', 'Middlebury', 'Northfield (Norwich)', 'Castleton'],
-    popularVenues: ['Edge Sports & Fitness', 'Planet Fitness', 'YMCA locations', 'The Gym VT'],
-    majorHighways: ['I-89', 'I-91', 'US-7', 'US-4'],
-    stateParkSystems: ['Green Mountain National Forest', 'Quechee State Park', 'Lake Champlain beaches'],
-    regulations: 'Vermont Department of Health regulations govern public swimming pools.',
-    climateNote: 'Cold winters with significant snowfall. Short, mild summers. Mud season in spring affects travel.',
-    seasonalEvents: ['Ski season (December-March)', 'Fall foliage (September-October)', 'Maple syrup season (March-April)', 'Summer lake season'],
-  localContext: 'Vermont\'s 251 towns include many with fewer than 1,000 residents and no facilities. Ski resorts (Stowe, Killington) provide year-round facilities but at premium prices. Burlington\'s progressive culture supports co-op and community-run facilities. Maple syrup season (March-April) brings agritourism demand. Long Trail and Appalachian Trail hikers need facilities after multi-day treks. Quarry swimming holes provide natural alternatives to facilities. Harsh winters and mud season isolate communities, making facilities inaccessible. New England frugality means facilities are basic but well-maintained. Second-home owners from Boston/NYC influence facility development in southern Vermont.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Ski resorts', 'YMCAs', 'Recreation centers', 'Lake facilities', 'Community centers']
+    narrative: {
+      intro: `Vermont's 251 towns include many with fewer than 1,000 residents and no public shower facilities at all. Burlington is your best bet with good gym and YMCA coverage. Ski resorts like Stowe and Killington have year-round facilities but at premium prices. The rest of the state requires planning - community centers and YMCAs are scattered, and distances add up on winding mountain roads.`,
+      travelersNote: `Long Trail and Appalachian Trail hikers create seasonal demand - towns like Killington and Manchester are used to hikers needing showers after multi-day treks and have options. Mud season (March-April) makes some facilities inaccessible. Harsh winters mean indoor facilities are essential November through April. Fall foliage season (late September-October) brings tourists who fill everything.`,
+      localTip: `Burlington's progressive culture supports community-run facilities with sliding-scale pricing. Natural quarry swimming holes throughout the state offer a Vermont-style alternative in summer. New England frugality means facilities are basic but well-maintained.`
+    },
+    cities: [
+      { name: 'Burlington', description: 'Best coverage in the state, UVM campus area has good options' },
+      { name: 'Stowe', description: 'Ski resort town with premium year-round facilities' },
+      { name: 'Killington', description: 'Another ski resort hub, hiker-friendly in summer' },
+      { name: 'Montpelier', description: 'Smallest state capital, limited but available options' },
+      { name: 'Rutland', description: 'Central Vermont hub with basic coverage' }
+    ],
+    facilityTypes: [
+      { name: 'Ski resorts', description: 'Stowe, Killington with year-round facilities at premium prices' },
+      { name: 'YMCAs', description: 'Burlington and scattered locations throughout' },
+      { name: 'Recreation centers', description: 'Community-run facilities in larger towns' },
+      { name: 'Lake facilities', description: 'Lake Champlain beaches with summer showers' },
+      { name: 'Community pools', description: 'Small town pools, often the only local option' }
+    ],
+    pricingContext: {
+      budget: `Community pools $3-5, some rec centers under $10`,
+      midRange: `YMCA day passes $10-20, gym day passes $10-15`,
+      premium: `Ski resort facilities $20-25`
+    },
+    beforeYouGo: `Cold winters (Nov-April) make indoor facilities essential. Mud season (March-April) can make facilities inaccessible. Fall foliage (Sept-Oct) brings crowds. Many small towns have no facilities. Winding mountain roads mean distances take longer than expected.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'virginia': {
     name: 'Virginia',
     code: 'VA',
-    majorCities: ['Virginia Beach', 'Norfolk', 'Richmond', 'Arlington', 'Alexandria', 'Newport News'],
-    universityTowns: ['Charlottesville (UVA)', 'Blacksburg (Virginia Tech)', 'Williamsburg (W&M)', 'Harrisonburg (JMU)'],
-    popularVenues: ['Gold\'s Gym', 'Planet Fitness', 'Anytime Fitness', 'ACAC Fitness', 'YMCA locations'],
-    majorHighways: ['I-95', 'I-64', 'I-81', 'I-77', 'I-66'],
-    stateParkSystems: ['Shenandoah National Park', 'Virginia Beach oceanfront', 'First Landing State Park', 'Smith Mountain Lake'],
-    regulations: 'Virginia Administrative Code 12VAC5-460 governs swimming pools and recreational water facilities.',
-    climateNote: 'Varied climate from mountains to coast. Hot, humid summers. Mild winters except in mountains.',
-    seasonalEvents: ['Beach season (May-September)', 'College football (Fall)', 'Blue Ridge Parkway season', 'Military events year-round'],
-  localContext: 'Virginia Beach\'s 38 miles of beaches provide the state\'s most extensive shower facilities. Northern Virginia\'s federal workforce supports premium fitness chains with security clearance considerations affecting some facilities. Norfolk/Hampton Roads military presence (world\'s largest naval base) creates unique demand patterns with deployment schedules. Shenandoah National Park and Blue Ridge Parkway provide seasonal facilities along scenic routes. Richmond\'s Fan district and Carytown have boutique fitness options. University towns see dramatic population shifts (Blacksburg goes from 45,000 to 110,000 on game days). Colonial Williamsburg area balances tourist facilities with historical preservation. Appalachian Trail runs 544 miles through state creating hiker facility demand.',
-    priceRange: { low: 0, high: 30 },
-    commonFacilities: ['Beach facilities', 'Military base gyms', 'Recreation centers', 'YMCAs', 'University facilities']
+    narrative: {
+      intro: `Virginia stretches from the Atlantic beaches to the Appalachian Mountains, with facility options varying dramatically by region. Virginia Beach's 38 miles of oceanfront have extensive free shower stations. Northern Virginia's federal workforce supports premium gym chains (though some require security clearances). Richmond has solid coverage with boutique options in the Fan district and Carytown.`,
+      travelersNote: `The Norfolk/Hampton Roads area hosts the world's largest naval base, which creates unique demand patterns and military-influenced gym culture. Shenandoah National Park and the Blue Ridge Parkway provide seasonal facilities but they're spread out. The Appalachian Trail runs 544 miles through the state - trail towns like Damascus are used to hikers needing showers. Virginia Tech football weekends turn Blacksburg from 45,000 to 110,000 people.`,
+      localTip: `Virginia Beach's boardwalk has free showers every few blocks. If you're in Northern Virginia, many gyms cater to federal workers with flexible hours. Colonial Williamsburg has limited public facilities - the historic area prioritizes preservation over modern amenities.`
+    },
+    cities: [
+      { name: 'Virginia Beach', description: '38 miles of beaches with extensive free shower stations' },
+      { name: 'Richmond', description: 'State capital with good coverage, boutique options in Fan/Carytown' },
+      { name: 'Norfolk', description: 'Military town with unique gym culture and demand patterns' },
+      { name: 'Arlington', description: 'DC suburb with federal worker-oriented premium gyms' },
+      { name: 'Blacksburg', description: 'Virginia Tech town, completely overwhelmed on football weekends' }
+    ],
+    facilityTypes: [
+      { name: 'Beach facilities', description: 'Virginia Beach oceanfront with free showers every few blocks' },
+      { name: 'Fitness centers', description: 'Gold\'s Gym (founded in VA), Planet Fitness, ACAC across the state' },
+      { name: 'YMCAs', description: 'Strong network throughout Virginia' },
+      { name: 'Recreation centers', description: 'Municipal facilities in most cities' },
+      { name: 'State parks', description: 'Shenandoah, First Landing with campground showers' }
+    ],
+    pricingContext: {
+      budget: `Beach showers free, state park day-use $5-10`,
+      midRange: `Gym day passes $10-20, truck stops along I-81 and I-95 $12-15`,
+      premium: `Northern Virginia premium gyms $25-30`
+    },
+    beforeYouGo: `Hot, humid summers on coast. Beach season May-September. Virginia Tech football weekends overwhelm Blacksburg. Colonial Williamsburg has limited modern facilities. Appalachian Trail towns cater to hikers. Blue Ridge Parkway facilities are seasonal.`,
+    priceRange: { low: 0, high: 30 }
   },
   
   'washington': {
     name: 'Washington',
     code: 'WA',
-    majorCities: ['Seattle', 'Spokane', 'Tacoma', 'Vancouver', 'Bellevue', 'Everett'],
-    universityTowns: ['Seattle (UW)', 'Pullman (WSU)', 'Bellingham (WWU)', 'Ellensburg (CWU)'],
-    popularVenues: ['24 Hour Fitness', 'LA Fitness', 'Planet Fitness', 'Seattle Parks & Recreation', 'YMCA of Greater Seattle'],
-    majorHighways: ['I-5', 'I-90', 'I-82', 'I-405', 'US-101'],
-    stateParkSystems: ['Olympic National Park', 'Mount Rainier National Park', 'Deception Pass State Park', 'San Juan Islands'],
-    regulations: 'Washington Administrative Code 246-260 governs water recreation facilities.',
-    climateNote: 'Marine climate west of Cascades with mild, wet winters. Eastern Washington has continental climate. Mountain areas receive heavy snow.',
-    seasonalEvents: ['Summer festival season', 'Ski season (December-March)', 'Salmon runs', 'Apple harvest (Fall)'],
-  localContext: 'Washington\'s Seattle freeze (social phenomenon) extends to gym culture with less interaction than other regions. Tech workers at Microsoft, Amazon, and Boeing campuses have extensive on-site facilities. Puget Sound provides cold-water beaches with basic rinse stations. Eastern Washington\'s agricultural areas have seasonal worker populations needing facilities. San Juan Islands accessible only by ferry have limited options. Mount Rainier and North Cascades create hiker demand for facilities. Seattle\'s homeless crisis has led to innovative hygiene center programs. Recreational marijuana has created cannabis tourism affecting facility demand patterns. Rain (150+ days/year in Seattle) means indoor facilities essential.',
-    priceRange: { low: 0, high: 35 },
-    commonFacilities: ['Recreation centers', 'Corporate gyms', 'Hot springs', 'State parks', 'Fitness centers']
+    narrative: {
+      intro: `Washington is really two states divided by the Cascades. West of the mountains, Seattle has excellent coverage - the Parks & Recreation department runs numerous facilities, and every gym chain is represented. Rain falls 150+ days a year, so indoor facilities are essential. East of the Cascades, Spokane has good options but agricultural areas rely on seasonal facilities and school gyms.`,
+      travelersNote: `Tech workers at Microsoft, Amazon, and Boeing campuses have extensive on-site facilities that aren't public, so don't count on corporate campus access. The San Juan Islands require ferry access and have limited options. Mount Rainier and Olympic National Parks create hiker demand for facilities in gateway towns. Seattle's homeless crisis led to innovative hygiene center programs that serve anyone in need.`,
+      localTip: `Seattle Parks & Recreation has surprisingly affordable day passes - many community centers offer shower access. The "Seattle freeze" social phenomenon means gym culture is less chatty than other regions. Hot springs in the Cascades offer unique bathing options if you're willing to hike.`
+    },
+    cities: [
+      { name: 'Seattle', description: 'Excellent coverage with Parks & Rec facilities and every gym chain' },
+      { name: 'Spokane', description: 'Eastern Washington hub with good standard options' },
+      { name: 'Tacoma', description: 'South Sound city with solid coverage' },
+      { name: 'Bellevue', description: 'Tech suburb with premium fitness options' },
+      { name: 'Bellingham', description: 'WWU college town near Canadian border' }
+    ],
+    facilityTypes: [
+      { name: 'Recreation centers', description: 'Seattle Parks & Rec runs affordable community facilities' },
+      { name: 'Fitness centers', description: '24 Hour Fitness, LA Fitness, Planet Fitness across metro areas' },
+      { name: 'Hot springs', description: 'Cascade mountain springs, some require hiking' },
+      { name: 'State parks', description: 'Deception Pass, Cape Disappointment with campground showers' },
+      { name: 'Hygiene centers', description: 'Seattle programs serving anyone in need' }
+    ],
+    pricingContext: {
+      budget: `Seattle Parks & Rec centers under $10, some hygiene centers free`,
+      midRange: `Gym day passes $15-25`,
+      premium: `Bellevue premium gyms $30-35`
+    },
+    beforeYouGo: `Rain 150+ days/year west of Cascades - indoor facilities essential. San Juan Islands require ferry. Eastern Washington has continental climate with hot summers and cold winters. National park gateway towns have limited facilities for visitor volume.`,
+    priceRange: { low: 0, high: 35 }
   },
   
   'west-virginia': {
     name: 'West Virginia',
     code: 'WV',
-    majorCities: ['Charleston', 'Huntington', 'Morgantown', 'Parkersburg', 'Wheeling'],
-    universityTowns: ['Morgantown (WVU)', 'Huntington (Marshall)', 'Shepherdstown', 'Athens (Concord)'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'YMCA locations', 'HealthWorks Fitness'],
-    majorHighways: ['I-64', 'I-77', 'I-79', 'I-68', 'I-70'],
-    stateParkSystems: ['New River Gorge National Park', 'Blackwater Falls State Park', 'Stonewall Resort State Park'],
-    regulations: 'West Virginia Code of State Rules Title 64 Series 19 governs public swimming pools.',
-    climateNote: 'Mountain climate with cold winters and mild summers. High humidity in valleys. Variable weather by elevation.',
-    seasonalEvents: ['White water season (April-October)', 'Ski season (December-March)', 'Fall foliage', 'Bridge Day (October)'],
-  localContext: 'West Virginia\'s mountainous terrain isolates communities, with some facilities 50+ miles apart on winding roads. Coal mining heritage left many towns with deteriorating infrastructure and limited funds for facilities. New River Gorge National Park designation (2020) is increasing tourist facility demand. Chemical Valley (Charleston-Huntington) has industrial workforce needing facilities. Whitewater rafting companies provide seasonal facilities April-October. Poverty levels (highest in nation) make even low-cost facilities unaffordable for many. Greenbrier Resort offers day passes but at premium prices ($50+). Churches and community organizations often provide the only facilities in former coal towns. Opioid crisis has affected facility operations and safety protocols.',
-    priceRange: { low: 0, high: 18 },
-    commonFacilities: ['State park lodges', 'YMCAs', 'University facilities', 'Recreation centers', 'Hot springs']
+    narrative: {
+      intro: `West Virginia's mountainous terrain isolates communities, and facilities can be 50+ miles apart on winding roads that take twice as long as you'd expect. The coal mining heritage left many towns with aging infrastructure and limited funds. Charleston and Huntington have the best coverage with YMCAs and basic gym chains. The New River Gorge area (now a national park as of 2020) is seeing increased facility development.`,
+      travelersNote: `Whitewater rafting companies in the New River and Gauley areas provide seasonal shower facilities April-October - worth asking even if you're not rafting. Morgantown has good options thanks to WVU, but football weekends are intense. The Greenbrier Resort offers day passes but at premium prices ($50+). Many former coal towns have only church-run facilities available.`,
+      localTip: `State parks like Blackwater Falls and Stonewall Resort have lodges with day-use shower access. Bridge Day in October brings 80,000+ people to Fayetteville - avoid that weekend unless you're attending. Churches and community organizations often provide the only facilities in rural areas.`
+    },
+    cities: [
+      { name: 'Charleston', description: 'State capital with best coverage, YMCAs and basic gyms' },
+      { name: 'Huntington', description: 'Marshall University town with campus and community options' },
+      { name: 'Morgantown', description: 'WVU college town, intense on football weekends' },
+      { name: 'Fayetteville', description: 'New River Gorge gateway, rafting companies have showers' },
+      { name: 'Wheeling', description: 'Northern panhandle city with basic options' }
+    ],
+    facilityTypes: [
+      { name: 'State parks', description: 'Blackwater Falls, Stonewall Resort with lodge day-use access' },
+      { name: 'YMCAs', description: 'Locations in Charleston and Huntington' },
+      { name: 'Rafting outfitters', description: 'New River and Gauley areas with seasonal facilities' },
+      { name: 'University facilities', description: 'WVU and Marshall with varying public access' },
+      { name: 'Church facilities', description: 'Often the only option in former coal towns' }
+    ],
+    pricingContext: {
+      budget: `State park day-use $5-10, church facilities often free/donation`,
+      midRange: `Gym day passes $10-15, YMCA day passes $10-15`,
+      premium: `Greenbrier Resort $50+`
+    },
+    beforeYouGo: `Mountainous terrain means winding roads take longer than expected. Facilities can be 50+ miles apart. WVU football weekends overwhelm Morgantown. Bridge Day (October) brings 80,000 to Fayetteville. Many communities have only church-run facilities.`,
+    priceRange: { low: 0, high: 18 }
   },
   
   'wisconsin': {
     name: 'Wisconsin',
     code: 'WI',
-    majorCities: ['Milwaukee', 'Madison', 'Green Bay', 'Kenosha', 'Racine', 'Appleton'],
-    universityTowns: ['Madison (UW-Madison)', 'Milwaukee (UWM)', 'La Crosse', 'Stevens Point', 'Eau Claire'],
-    popularVenues: ['Anytime Fitness', 'Planet Fitness', 'Snap Fitness', 'YMCA locations', 'Wisconsin Athletic Club'],
-    majorHighways: ['I-94', 'I-90', 'I-43', 'I-39', 'US-41'],
-    stateParkSystems: ['Devil\'s Lake State Park', 'Peninsula State Park', 'Wisconsin Dells parks'],
-    regulations: 'Wisconsin Administrative Code DHS 172 governs public swimming pools.',
-    climateNote: 'Cold winters with heavy snow. Warm, humid summers. Great Lakes moderate coastal climate.',
-    seasonalEvents: ['Summerfest (June-July)', 'State Fair (August)', 'Packers season (Fall-Winter)', 'Wisconsin Dells tourism'],
-  localContext: 'Wisconsin Dells "Waterpark Capital" has more concentrated water facilities than anywhere globally. Milwaukee and Madison have strong Germanic heritage influencing facility culture (saunas, thermal experiences). Frozen winters mean indoor facilities essential - many outdoor pools covered and heated year-round. Packers game days make Green Bay inaccessible, with Lambeau Field area facilities overwhelmed. Door County peninsula tourist season (May-October) creates dramatic demand shifts. North Woods lake culture provides thousands of seasonal facilities at resorts. Milwaukee\'s brewing heritage influences gym locations near historic breweries. Ice fishing culture creates unique winter facility patterns. Dairy farming areas have limited facilities, often just school-based.',
-    priceRange: { low: 0, high: 25 },
-    commonFacilities: ['Water parks', 'YMCAs', 'Recreation centers', 'Lake facilities', 'University facilities']
+    narrative: {
+      intro: `Wisconsin Dells is the "Waterpark Capital of the World" with more concentrated water facilities than anywhere else on earth - dozens of indoor and outdoor waterparks with shower access. Beyond the Dells, Milwaukee and Madison have solid coverage with Germanic heritage influencing facility culture (look for saunas). Cold winters make indoor facilities essential, and many communities have year-round indoor pools.`,
+      travelersNote: `Packers game days make Green Bay essentially inaccessible - Lambeau Field area facilities are overwhelmed and the whole city is gridlocked. Door County peninsula has strong tourist season (May-October) with resorts offering day passes. The North Woods lake country has thousands of seasonal facilities at resorts. If you're traveling I-94, truck stops are reliable between Milwaukee and Minneapolis.`,
+      localTip: `Wisconsin Dells waterparks often offer day passes with shower access - a fun option if you want more than just a shower. Madison's campus area has good options and the city is very bike-friendly. Milwaukee's brewing district has gyms near historic breweries.`
+    },
+    cities: [
+      { name: 'Milwaukee', description: 'Largest city with Germanic-influenced facilities, good coverage' },
+      { name: 'Madison', description: 'State capital and UW town, bike-friendly with campus options' },
+      { name: 'Green Bay', description: 'Packers town - avoid game days, completely inaccessible' },
+      { name: 'Wisconsin Dells', description: 'Waterpark capital with dozens of facilities offering day access' },
+      { name: 'Door County', description: 'Peninsula tourist area with seasonal resort options' }
+    ],
+    facilityTypes: [
+      { name: 'Waterparks', description: 'Wisconsin Dells has 20+ waterparks with day passes and showers' },
+      { name: 'YMCAs', description: 'Strong network throughout the state' },
+      { name: 'Fitness centers', description: 'Anytime Fitness, Planet Fitness, Wisconsin Athletic Club' },
+      { name: 'Lake resorts', description: 'North Woods resorts with seasonal day passes' },
+      { name: 'Recreation centers', description: 'Municipal facilities with year-round indoor pools' }
+    ],
+    pricingContext: {
+      budget: `Some community pools $3-5, basic gym day passes $10-15`,
+      midRange: `Waterpark day passes $20-40 (includes all amenities)`,
+      premium: `Wisconsin Athletic Club $20-25, premium resorts $25+`
+    },
+    beforeYouGo: `Cold winters make indoor facilities essential. Packers games overwhelm Green Bay. Door County is seasonal (May-Oct). Wisconsin Dells is packed in summer. North Woods lake season runs June-August. Summerfest (June-July) brings 800,000 to Milwaukee.`,
+    priceRange: { low: 0, high: 25 }
   },
   
   'wyoming': {
     name: 'Wyoming',
     code: 'WY',
-    majorCities: ['Cheyenne', 'Casper', 'Laramie', 'Gillette', 'Rock Springs', 'Jackson'],
-    universityTowns: ['Laramie (UW)', 'Powell (Northwest College)', 'Sheridan College'],
-    popularVenues: ['Planet Fitness', 'Anytime Fitness', 'Recreation centers', 'Hot springs resorts'],
-    majorHighways: ['I-80', 'I-25', 'I-90', 'US-287'],
-    stateParkSystems: ['Yellowstone National Park', 'Grand Teton National Park', 'Hot Springs State Park'],
-    regulations: 'Wyoming Department of Health Chapter 11 regulations govern public swimming pools.',
-    climateNote: 'High elevation with cold winters and mild summers. Wind is constant. Snow October through May in mountains.',
-    seasonalEvents: ['Cheyenne Frontier Days (July)', 'Ski season (November-April)', 'National park season (May-October)', 'Hunting season (Fall)'],
-  localContext: 'Wyoming has the nation\'s lowest population (580,000) spread across 98,000 square miles, creating vast facility deserts. Jackson Hole\'s extreme wealth disparity shows in facilities - $40 day passes next to basic community options. Yellowstone and Grand Teton bring 5+ million annual visitors overwhelming gateway town facilities. Natural hot springs throughout state range from developed (Thermopolis, Saratoga) to primitive backcountry soaks. Energy industry (coal, oil, gas, wind) creates boom-bust cycles affecting facility sustainability. Ranching culture means many residents have never used public facilities. Winter road closures can isolate communities for weeks. Altitude (most of state above 6,000 feet) affects visitor stamina. Some counties have no public facilities whatsoever.',
-    priceRange: { low: 0, high: 30 },
-    commonFacilities: ['Hot springs', 'National park facilities', 'Recreation centers', 'Truck stops', 'Resort facilities']
+    narrative: {
+      intro: `Wyoming has the nation's lowest population (580,000) spread across 98,000 square miles, creating vast facility deserts. But what it lacks in quantity, it makes up for with unique options - natural hot springs range from the developed pools at Thermopolis (world's largest mineral hot spring) to primitive backcountry soaks. Yellowstone and Grand Teton draw 5+ million visitors annually, overwhelming gateway town facilities.`,
+      travelersNote: `Jackson Hole shows extreme wealth disparity - $40 gym day passes alongside basic community options. The national park gateway towns (Jackson, Cody, West Yellowstone just over the Montana border) strain during tourist season but have reasonable options off-peak. I-80 across the southern part of the state has truck stops, but I-90 in the north is more sparse. Some counties have no public facilities at all.`,
+      localTip: `Hot Springs State Park in Thermopolis has free public pools fed by natural hot springs - a unique Wyoming experience. The high altitude (most of the state is above 6,000 feet) affects visitors. Winter road closures can isolate communities for weeks, so check conditions before relying on remote facilities.`
+    },
+    cities: [
+      { name: 'Jackson', description: 'Wealthy ski resort town with premium pricing, gateway to Tetons' },
+      { name: 'Cheyenne', description: 'State capital with basic municipal options' },
+      { name: 'Casper', description: 'Central Wyoming hub with standard coverage' },
+      { name: 'Cody', description: 'Yellowstone east entrance gateway with tourist facilities' },
+      { name: 'Thermopolis', description: 'Hot springs town with free public mineral pools' }
+    ],
+    facilityTypes: [
+      { name: 'Hot springs', description: 'Thermopolis has free public pools, Saratoga has developed resort' },
+      { name: 'Recreation centers', description: 'Municipal facilities in larger towns' },
+      { name: 'Truck stops', description: 'Along I-80 and I-25, sparse on I-90' },
+      { name: 'Resort facilities', description: 'Jackson Hole ski resort with premium day access' },
+      { name: 'National park facilities', description: 'Yellowstone and Grand Teton with campground showers' }
+    ],
+    pricingContext: {
+      budget: `Thermopolis Hot Springs State Park free, some community centers under $10`,
+      midRange: `Gym day passes $10-15, truck stops $12-15`,
+      premium: `Jackson Hole resort facilities $30-40+`
+    },
+    beforeYouGo: `Lowest population density in lower 48. Some counties have no facilities. High altitude affects visitors. Winter road closures isolate communities. National park season (May-Oct) strains gateway towns. Cheyenne Frontier Days (July) brings 200,000+ visitors.`,
+    priceRange: { low: 0, high: 30 }
   }
 };
 
 export class StateContentGenerator {
-  
+
   static generateStateSpecificContent(stateSlug: string, stats: any): string {
     const state = stateData[stateSlug];
     if (!state) {
       return this.generateGenericContent(stateSlug, stats);
     }
-    
+
     const sections: string[] = [];
-    
+
     // Opening with state-specific context
     sections.push(this.generateIntroSection(state, stats));
-    
-    // Regional information
-    sections.push(this.generateRegionalSection(state, stats));
-    
-    // Pricing and access
-    sections.push(this.generatePricingSection(state, stats));
-    
-    // Regulations and standards
-    if (state.regulations) {
-      sections.push(this.generateRegulationsSection(state));
+
+    // For new schema, use streamlined layout
+    if (state.narrative) {
+      // Pricing advice
+      sections.push(this.generatePricingSection(state, stats));
+
+      // Cities with descriptions
+      sections.push(this.generateCitiesSection(state, stats));
+
+      // Facility types
+      sections.push(this.generateFacilityTypesSection(state));
+
+      // Before You Go (replaces regulations + climate)
+      if (state.beforeYouGo) {
+        sections.push(`
+          <div class="helpful-note bg-accent-50 border-l-4 border-accent-400 p-5 rounded-r-lg mb-8">
+            <strong class="text-gray-900">Before you go:</strong>
+            <span class="text-gray-700"> ${state.beforeYouGo}</span>
+          </div>
+        `);
+      }
+    } else {
+      // Legacy schema - keep old layout
+      sections.push(this.generateRegionalSection(state, stats));
+      sections.push(this.generatePricingSection(state, stats));
+
+      if (state.regulations) {
+        sections.push(this.generateRegulationsSection(state));
+      }
+
+      if (state.climateNote) {
+        sections.push(this.generateClimateSection(state));
+      }
+
+      sections.push(this.generateCitiesSection(state, stats));
+      sections.push(this.generateFacilityTypesSection(state));
     }
-    
-    // Climate considerations
-    if (state.climateNote) {
-      sections.push(this.generateClimateSection(state));
-    }
-    
-    // Major cities
-    sections.push(this.generateCitiesSection(state, stats));
-    
-    // Facility types
-    sections.push(this.generateFacilityTypesSection(state));
-    
+
     return sections.join('\n\n');
   }
   
@@ -855,18 +1653,47 @@ export class StateContentGenerator {
 // lib/stateContent.ts - Updated TypeScript generator with H2 and H3 classes
 
 private static generateIntroSection(state: StateInfo, stats: any): string {
+  // Support new schema (narrative object) and legacy (localContext string)
+  if (state.narrative) {
+    const sections = [];
+
+    sections.push(`
+      <div class="region-intro prose prose-lg max-w-none mb-8">
+        <p class="intro-lead text-lg text-gray-700 leading-relaxed">${state.narrative.intro}</p>
+        ${state.narrative.travelersNote ? `<p class="mt-4 text-gray-600">${state.narrative.travelersNote}</p>` : ''}
+        ${state.narrative.localTip ? `
+          <div class="helpful-note bg-accent-50 border-l-4 border-accent-400 p-5 rounded-r-lg mt-6">
+            <strong>Local tip:</strong> ${state.narrative.localTip}
+          </div>
+        ` : ''}
+      </div>
+    `);
+
+    sections.push(`
+      <div class="stats-narrative bg-warm-50 p-6 rounded-xl mb-8">
+        <p class="text-gray-700">
+          We've mapped <strong class="text-gray-900">${stats.totalLocations}+ locations</strong> across ${state.name},
+          with <strong class="text-gray-900">${stats.verifiedCount}</strong> verified by recent visitor reviews.
+        </p>
+      </div>
+    `);
+
+    return sections.join('');
+  }
+
+  // Legacy schema fallback
   return `
     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8 relative pb-4">
       Public Shower Facilities in ${state.name}
     </h2>
-    
+
     <p class="intro-text">
-      ${state.localContext}
+      ${state.localContext || ''}
     </p>
-    
+
     <p>
-      Our directory tracks <span class="font-semibold text-gray-900">${stats.totalLocations}+</span> shower locations 
-      across ${state.name}, with <span class="font-semibold text-gray-900">${stats.verifiedCount}</span> facilities 
+      Our directory tracks <span class="font-semibold text-gray-900">${stats.totalLocations}+</span> shower locations
+      across ${state.name}, with <span class="font-semibold text-gray-900">${stats.verifiedCount}</span> facilities
       verified by recent visitor reviews.
     </p>
   `;
@@ -927,11 +1754,27 @@ private static generateRegionalSection(state: StateInfo, stats: any): string {
 }
 
 private static generatePricingSection(state: StateInfo, stats: any): string {
+  // Support new schema (pricingContext prose) and legacy (generic pricing grid)
+  if (state.pricingContext) {
+    return `
+      <h3 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">
+        What You'll Pay
+      </h3>
+
+      <div class="pricing-advice bg-white border border-warm-200 rounded-xl p-6 mb-8">
+        <p class="text-gray-700"><strong class="text-gray-900">Budget options ($0-10):</strong> ${state.pricingContext.budget}</p>
+        <p class="mt-3 text-gray-700"><strong class="text-gray-900">Mid-range ($10-20):</strong> ${state.pricingContext.midRange}</p>
+        ${state.pricingContext.premium ? `<p class="mt-3 text-gray-700"><strong class="text-gray-900">Premium ($20+):</strong> ${state.pricingContext.premium}</p>` : ''}
+      </div>
+    `;
+  }
+
+  // Legacy schema fallback
   return `
     <h3 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-6 mt-12">
       Pricing Guide for ${state.name}
     </h3>
-    
+
     <div class="pricing-container">
       <div class="pricing-header">
         <p>
@@ -998,16 +1841,33 @@ private static generateClimateSection(state: StateInfo): string {
 }
 
 private static generateCitiesSection(state: StateInfo, stats: any): string {
-  const topCities = state.majorCities.slice(0, 6);
-  const additionalCities = stats.cities.slice(6, 10).filter((city: string) => 
-    !topCities.includes(city) && city && city.length > 2
-  );
-  
+  // Support both new schema (cities array of objects) and legacy (majorCities string array)
+  if (state.cities && state.cities.length > 0) {
+    // New schema with descriptions
+    return `
+      <h3 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">
+        Where to Find Facilities
+      </h3>
+
+      <div class="city-highlights grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        ${state.cities.slice(0, 6).map(city => `
+          <div class="city-item bg-white border border-warm-200 rounded-lg p-4 hover:border-primary-300 transition-colors">
+            <strong class="text-gray-900">${city.name}</strong>
+            <span class="text-gray-600"> - ${city.description}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  // Legacy schema fallback
+  const topCities = state.majorCities?.slice(0, 6) || [];
+
   return `
     <h3 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-6 mt-12">
       Cities with Shower Facilities
     </h3>
-    
+
     <div class="city-grid">
       ${topCities.map(city => `
         <div class="city-card hover-lift">
@@ -1016,18 +1876,38 @@ private static generateCitiesSection(state: StateInfo, stats: any): string {
         </div>
       `).join('')}
     </div>
-    
   `;
 }
 
 private static generateFacilityTypesSection(state: StateInfo): string {
+  // Support new schema (facilityTypes with descriptions) and legacy (commonFacilities strings)
+  if (state.facilityTypes && state.facilityTypes.length > 0) {
+    // New schema - no numbered list, just category cards
+    return `
+      <h3 class="text-2xl font-semibold text-gray-800 mb-4 mt-8">
+        Types of Facilities
+      </h3>
+
+      <div class="facility-overview space-y-4 mb-8">
+        ${state.facilityTypes.map(facility => `
+          <div class="facility-category bg-white border border-warm-200 rounded-lg p-4">
+            <strong class="text-gray-900">${facility.name}</strong>
+            <p class="text-gray-600 mt-1">${facility.description}</p>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  // Legacy schema fallback
+  const facilities = state.commonFacilities || [];
   return `
     <h3 class="text-2xl md:text-3xl font-semibold text-gray-800 mb-6 mt-12">
       Types of Shower Facilities
     </h3>
-    
+
     <div class="facility-grid">
-      ${state.commonFacilities.map((facility, index) => `
+      ${facilities.map((facility, index) => `
         <div class="facility-card">
           <div class="facility-card-inner">
             <span class="facility-number">

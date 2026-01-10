@@ -1,5 +1,6 @@
 // ========================================
 // FILE: app/lib/dataLoader.ts
+// Multi-country support: USA, UK, and Australia
 // ========================================
 
 import fs from 'fs';
@@ -15,6 +16,8 @@ export interface ShowerLocation {
   province: string;
   state: string;
   zip: string;
+  postcode?: string; // UK postcode
+  ukRegion?: string; // UK region slug
   country: string;
   lat: number;
   lng: number;
@@ -47,6 +50,22 @@ export interface StateData {
   locations: any[];
 }
 
+export interface UKRegionData {
+  region: string;
+  regionName: string;
+  country: string;
+  locations: any[];
+  totalLocations: number;
+}
+
+export interface AustraliaStateData {
+  state: string;
+  stateName: string;
+  country: string;
+  locations: any[];
+  totalLocations: number;
+}
+
 export interface RegionInfo {
   slug: string;
   name: string;
@@ -56,9 +75,355 @@ export interface RegionInfo {
     totalLocations: number;
     freeLocations: number;
     cities: string[];
-    verifiedCount?: number; // Add this field
+    verifiedCount?: number;
   };
   featuredLocations: ShowerLocation[];
+}
+
+// ========================================
+// CATEGORY-BASED PRICING DEFAULTS
+// ========================================
+
+interface PricingInfo {
+  cost: string;
+  access: string;
+}
+
+// Determine cost and access based on facility category/type
+function getCategoryBasedPricing(category: string, country: string): PricingInfo {
+  const normalizedCategory = (category || '').toLowerCase();
+
+  // Currency symbol based on country
+  const currency = country === 'UK' ? '£' : country === 'Australia' ? 'A$' : '$';
+
+  // FREE facilities
+  if (
+    normalizedCategory.includes('beach') ||
+    normalizedCategory.includes('public shower') ||
+    normalizedCategory.includes('surf club') ||
+    normalizedCategory.includes('surf life saving') ||
+    normalizedCategory.includes('surf lifesaving') ||
+    normalizedCategory.includes('public bathroom') ||
+    normalizedCategory.includes('public toilet') ||
+    normalizedCategory.includes('wheelchair-accessible bathroom') ||
+    normalizedCategory.includes('promenade') ||
+    normalizedCategory.includes('outdoor bath') ||
+    normalizedCategory.includes('beach pavil') ||  // catches pavilion/pavillion
+    normalizedCategory.includes('homeless service') ||
+    normalizedCategory.includes('homeless shelter') ||
+    normalizedCategory.includes('national reserve') ||
+    normalizedCategory.includes('nature preserve') ||
+    normalizedCategory.includes('hiking area')
+  ) {
+    return { cost: 'Free', access: 'Public Access' };
+  }
+
+  // Council/public pools and leisure centres
+  if (
+    normalizedCategory.includes('leisure centre') ||
+    normalizedCategory.includes('leisure center') ||
+    normalizedCategory.includes('aquatic centre') ||
+    normalizedCategory.includes('aquatic center') ||
+    normalizedCategory.includes('swimming pool') ||
+    normalizedCategory.includes('swimming facility') ||
+    normalizedCategory.includes('swim club') ||
+    normalizedCategory.includes('swimming lake') ||
+    normalizedCategory.includes('swimming basin') ||
+    normalizedCategory.includes('public pool') ||
+    normalizedCategory.includes('council pool') ||
+    normalizedCategory.includes('lido')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£5-10', access: 'Pay & Play' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$5-10', access: 'Casual Entry' };
+    }
+    return { cost: '$5-10', access: 'Day Pass' };
+  }
+
+  // Gyms and fitness studios
+  if (
+    normalizedCategory.includes('gym') ||
+    normalizedCategory.includes('fitness') ||
+    normalizedCategory.includes('health club') ||
+    normalizedCategory.includes('yoga studio') ||
+    normalizedCategory.includes('pilates') ||
+    normalizedCategory.includes('boot camp') ||
+    normalizedCategory.includes('personal trainer') ||
+    normalizedCategory.includes('rock climbing') ||
+    normalizedCategory.includes('martial arts') ||
+    normalizedCategory.includes('jujitsu') ||
+    normalizedCategory.includes('boxing gym')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£8-20 day pass', access: 'Day Pass Available' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$15-25 day pass', access: 'Casual Visit' };
+    }
+    return { cost: '$10-25 day pass', access: 'Day Pass Available' };
+  }
+
+  // YMCA
+  if (normalizedCategory.includes('ymca')) {
+    if (country === 'UK') {
+      return { cost: '£5-15', access: 'Day Pass Available' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$10-20', access: 'Casual Visit' };
+    }
+    return { cost: '$10-20', access: 'Day Pass Available' };
+  }
+
+  // Recreation/Sports centres and clubs
+  if (
+    normalizedCategory.includes('recreation') ||
+    normalizedCategory.includes('sports centre') ||
+    normalizedCategory.includes('sports center') ||
+    normalizedCategory.includes('sports club') ||
+    normalizedCategory.includes('sports activity') ||
+    normalizedCategory.includes('athletics centre') ||
+    normalizedCategory.includes('athletics center') ||
+    normalizedCategory.includes('stadium') ||
+    normalizedCategory.includes('community center') ||
+    normalizedCategory.includes('community centre') ||
+    normalizedCategory.includes('tennis club') ||
+    normalizedCategory.includes('soccer club') ||
+    normalizedCategory.includes('basketball club') ||
+    normalizedCategory.includes('bowling')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£3-8', access: 'Pay & Play' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$5-12', access: 'Casual Entry' };
+    }
+    return { cost: '$5-15', access: 'Day Pass' };
+  }
+
+  // Hostels and Hotels
+  if (
+    normalizedCategory.includes('hostel') ||
+    normalizedCategory.includes('yha') ||
+    normalizedCategory.includes('backpacker') ||
+    normalizedCategory.includes('hotel') ||
+    normalizedCategory.includes('motel')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£3-8', access: 'Non-Guest Fee' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$5-10', access: 'Non-Guest Fee' };
+    }
+    return { cost: '$5-10', access: 'Non-Guest Fee' };
+  }
+
+  // Caravan parks / Holiday parks / Campsites / Accommodation
+  if (
+    normalizedCategory.includes('caravan') ||
+    normalizedCategory.includes('holiday park') ||
+    normalizedCategory.includes('holiday home') ||
+    normalizedCategory.includes('camping') ||
+    normalizedCategory.includes('campsite') ||
+    normalizedCategory.includes('campground') ||
+    normalizedCategory.includes('accommodation')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£3-6', access: 'Day Visitor' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$5-10', access: 'Day Visitor' };
+    }
+    return { cost: '$5-10', access: 'Day Visitor' };
+  }
+
+  // Motorway services / Truck stops / Rest stops
+  if (
+    normalizedCategory.includes('motorway') ||
+    normalizedCategory.includes('service') ||
+    normalizedCategory.includes('truck stop') ||
+    normalizedCategory.includes('travel center') ||
+    normalizedCategory.includes('travel centre') ||
+    normalizedCategory.includes('rest area') ||
+    normalizedCategory.includes('rest stop') ||
+    normalizedCategory.includes('toll road')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£5-8', access: 'Pay Per Use' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$5-10', access: 'Pay Per Use' };
+    }
+    return { cost: '$10-15', access: 'Pay Per Use' };
+  }
+
+  // Day Spas / Wellness centres / Massage (more expensive than basic spas)
+  if (
+    normalizedCategory.includes('day spa') ||
+    normalizedCategory.includes('wellness') ||
+    normalizedCategory.includes('massage spa') ||
+    normalizedCategory.includes('massage therapist')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£30-60', access: 'Entry Fee' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$30-60', access: 'Entry Fee' };
+    }
+    return { cost: '$30-60', access: 'Entry Fee' };
+  }
+
+  // Spas / Turkish baths (general spas)
+  if (
+    normalizedCategory.includes('spa') ||
+    normalizedCategory.includes('turkish bath') ||
+    normalizedCategory.includes('public bath')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£10-30', access: 'Entry Fee' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$20-50', access: 'Entry Fee' };
+    }
+    return { cost: '$20-50', access: 'Entry Fee' };
+  }
+
+  // Saunas
+  if (normalizedCategory.includes('sauna')) {
+    if (country === 'UK') {
+      return { cost: '£15-30', access: 'Entry Fee' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$15-30', access: 'Entry Fee' };
+    }
+    return { cost: '$15-30', access: 'Entry Fee' };
+  }
+
+  // Water parks
+  if (normalizedCategory.includes('water park')) {
+    if (country === 'UK') {
+      return { cost: '£20-40', access: 'Entry Fee' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$30-50', access: 'Entry Fee' };
+    }
+    return { cost: '$30-50', access: 'Entry Fee' };
+  }
+
+  // Sports complexes
+  if (normalizedCategory.includes('sports complex')) {
+    if (country === 'UK') {
+      return { cost: '£5-12', access: 'Pay & Play' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$8-15', access: 'Casual Entry' };
+    }
+    return { cost: '$8-15', access: 'Day Pass' };
+  }
+
+  // Swimming/Surf schools (lesson-based, not for casual showers)
+  if (
+    normalizedCategory.includes('swimming school') ||
+    normalizedCategory.includes('swim school') ||
+    normalizedCategory.includes('swimming instructor') ||
+    normalizedCategory.includes('surf school') ||
+    normalizedCategory.includes('sports school')
+  ) {
+    return { cost: 'Lesson-based', access: 'Students Only' };
+  }
+
+  // Petrol/Service stations with showers
+  if (
+    normalizedCategory.includes('petrol station') ||
+    normalizedCategory.includes('service station')
+  ) {
+    if (country === 'UK') {
+      return { cost: '£5-10', access: 'Pay Per Use' };
+    } else if (country === 'Australia') {
+      return { cost: 'A$5-10', access: 'Pay Per Use' };
+    }
+    return { cost: '$5-15', access: 'Pay Per Use' };
+  }
+
+  // Parks (public parks with shower facilities)
+  if (normalizedCategory.includes('park')) {
+    return { cost: 'Free', access: 'Public Access' };
+  }
+
+  // Default - contact for pricing
+  return { cost: 'Contact for pricing', access: 'Contact for access' };
+}
+
+// Apply pricing to a location based on its category
+function applyPricingDefaults(location: any, country: string): { cost: string; access: string } {
+  // If already has specific pricing (not the default), keep it
+  const currentCost = (location.cost || '').toLowerCase();
+  if (
+    currentCost &&
+    !currentCost.includes('contact') &&
+    currentCost !== ''
+  ) {
+    return { cost: location.cost, access: location.access || 'Contact for access' };
+  }
+
+  // Get category from businessType or categories array
+  const category = location.businessType ||
+    (Array.isArray(location.categories) ? location.categories[0] : location.categories) ||
+    '';
+
+  return getCategoryBasedPricing(category, country);
+}
+
+// UK Region mapping
+const ukRegionSlugMap: Record<string, { code: string; name: string }> = {
+  'london': { code: 'LON', name: 'London' },
+  'south-east': { code: 'SE', name: 'South East' },
+  'south-west': { code: 'SW', name: 'South West' },
+  'east-of-england': { code: 'EE', name: 'East of England' },
+  'east-midlands': { code: 'EM', name: 'East Midlands' },
+  'west-midlands': { code: 'WM', name: 'West Midlands' },
+  'yorkshire': { code: 'YH', name: 'Yorkshire and the Humber' },
+  'north-west': { code: 'NW', name: 'North West' },
+  'north-east': { code: 'NE', name: 'North East' },
+  'scotland': { code: 'SC', name: 'Scotland' },
+  'wales': { code: 'WA', name: 'Wales' },
+  'northern-ireland': { code: 'NI', name: 'Northern Ireland' }
+};
+
+// Australian States/Territories mapping
+const australiaStateSlugMap: Record<string, { code: string; name: string }> = {
+  'new-south-wales': { code: 'NSW', name: 'New South Wales' },
+  'victoria': { code: 'VIC', name: 'Victoria' },
+  'queensland': { code: 'QLD', name: 'Queensland' },
+  'western-australia': { code: 'WA', name: 'Western Australia' },
+  'south-australia': { code: 'SA', name: 'South Australia' },
+  'tasmania': { code: 'TAS', name: 'Tasmania' },
+  'northern-territory': { code: 'NT', name: 'Northern Territory' },
+  'australian-capital-territory': { code: 'ACT', name: 'Australian Capital Territory' }
+};
+
+// Get all UK region slugs
+export function getAllUKRegionSlugs(): string[] {
+  return Object.keys(ukRegionSlugMap);
+}
+
+// Check if a region slug is a valid UK region
+export function isUKRegion(slug: string): boolean {
+  return slug in ukRegionSlugMap;
+}
+
+// Get UK region name from slug
+export function getUKRegionName(slug: string): string | null {
+  return ukRegionSlugMap[slug]?.name || null;
+}
+
+// Get all Australia state slugs
+export function getAllAustraliaStateSlugs(): string[] {
+  return Object.keys(australiaStateSlugMap);
+}
+
+// Check if a region slug is a valid Australia state/territory
+export function isAustraliaState(slug: string): boolean {
+  return slug in australiaStateSlugMap;
+}
+
+// Get Australia state name from slug
+export function getAustraliaStateName(slug: string): string | null {
+  return australiaStateSlugMap[slug]?.name || null;
+}
+
+// Get Australia state code from slug
+export function getAustraliaStateCode(slug: string): string | null {
+  return australiaStateSlugMap[slug]?.code || null;
 }
 
 // Map state codes to URL-friendly slugs
@@ -250,12 +615,12 @@ function consolidateCategory(category: string): string | null {
 // Update the transformLocation function to use the consolidated category function
 export function transformLocation(rawLocation: any, index: number): ShowerLocation {
   const slug = createSlug(rawLocation.title);
-  
+
   // Parse amenities from pipe-separated string
-  const amenities = rawLocation.amenities 
+  const amenities = rawLocation.amenities
     ? rawLocation.amenities.split('|').filter((a: string) => a.trim())
     : [];
-  
+
   // Process categories using the same logic as mapDataLoader
   const categoriesSet = new Set<string>();
 
@@ -273,7 +638,7 @@ export function transformLocation(rawLocation: any, index: number): ShowerLocati
       .split(',')
       .map((cat: string) => cat.trim())
       .filter((cat: string) => cat.length > 0);
-      
+
     categoryValues.forEach((cat: string) => {
       const consolidated = consolidateCategory(cat);
       if (consolidated) {
@@ -284,7 +649,7 @@ export function transformLocation(rawLocation: any, index: number): ShowerLocati
 
   // Convert Set to array and ensure uniqueness
   let categories = Array.from(categoriesSet);
-  
+
   // Additional deduplication for case-insensitive duplicates
   const uniqueCategories = categories.filter((category, index) => {
     return categories.findIndex(c => c.toLowerCase() === category.toLowerCase()) === index;
@@ -294,7 +659,7 @@ export function transformLocation(rawLocation: any, index: number): ShowerLocati
   if (uniqueCategories.length === 0) {
     uniqueCategories.push('Public Facility');
   }
-  
+
   // Parse hours - use the new parser if hours is a string, otherwise use dailyHours
   let hours = {};
   if (rawLocation.hours && typeof rawLocation.hours === 'string') {
@@ -302,7 +667,14 @@ export function transformLocation(rawLocation: any, index: number): ShowerLocati
   } else if (rawLocation.dailyHours) {
     hours = rawLocation.dailyHours;
   }
-  
+
+  // Apply category-based pricing defaults for USA
+  const pricing = applyPricingDefaults({
+    ...rawLocation,
+    categories: uniqueCategories,
+    businessType: rawLocation.businessType || uniqueCategories[0] || 'Public Facility'
+  }, 'USA');
+
   return {
     id: rawLocation.placeId || `loc_${index}`,
     slug: slug,
@@ -321,8 +693,8 @@ export function transformLocation(rawLocation: any, index: number): ShowerLocati
     content: rawLocation.content || rawLocation.businessDescription || '',
     categories: uniqueCategories, // Now using the same consolidation logic as mapDataLoader
     amenities: amenities,
-    cost: rawLocation.cost || 'Contact for pricing',
-    access: rawLocation.access || 'Contact for access',
+    cost: pricing.cost,
+    access: pricing.access,
     hours: hours,
     rating: parseFloat(rawLocation.rating) || 0,
     reviewCount: parseInt(rawLocation.reviewCount) || 0,
@@ -472,7 +844,7 @@ export function getStateCodeFromSlug(slug: string): string | null {
 // Get all available states
 export function getAllStates(): Array<{code: string, slug: string, name: string}> {
   const statesDir = path.join(process.cwd(), 'public', 'data', 'states');
-  
+
   try {
     const files = fs.readdirSync(statesDir);
     return files
@@ -491,4 +863,384 @@ export function getAllStates(): Array<{code: string, slug: string, name: string}
     console.error('Error reading states directory:', error);
     return [];
   }
+}
+
+// ========================================
+// UK-SPECIFIC FUNCTIONS
+// ========================================
+
+// Load UK region data from JSON file
+export function loadUKRegionData(regionSlug: string): UKRegionData | null {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'data', 'uk', `${regionSlug}.json`);
+    const jsonData = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(jsonData);
+  } catch (error) {
+    console.error(`Error loading UK region data for ${regionSlug}:`, error);
+    return null;
+  }
+}
+
+// Transform UK location to ShowerLocation format
+export function transformUKLocation(rawLocation: any, index: number): ShowerLocation {
+  const slug = rawLocation.slug || createSlug(rawLocation.title);
+
+  // Parse amenities if it's a string
+  const amenities = Array.isArray(rawLocation.amenities)
+    ? rawLocation.amenities
+    : rawLocation.amenities?.split('|').filter((a: string) => a.trim()) || [];
+
+  // Parse categories
+  const categories = Array.isArray(rawLocation.categories)
+    ? rawLocation.categories
+    : [rawLocation.businessType || 'Leisure Centre'];
+
+  // Apply category-based pricing defaults
+  const pricing = applyPricingDefaults({
+    ...rawLocation,
+    categories,
+    businessType: rawLocation.businessType || 'Leisure Centre'
+  }, 'UK');
+
+  return {
+    id: rawLocation.id || `uk_loc_${index}`,
+    slug: slug,
+    title: rawLocation.title || 'Unknown Facility',
+    street: rawLocation.address || '',
+    address: rawLocation.address || '',
+    city: rawLocation.city || '',
+    province: rawLocation.ukRegion || '',
+    state: '', // UK doesn't use states
+    zip: '', // Use postcode instead
+    postcode: rawLocation.postcode || '',
+    ukRegion: rawLocation.ukRegion || '',
+    country: 'UK',
+    lat: parseFloat(rawLocation.lat) || 0,
+    lng: parseFloat(rawLocation.lng) || 0,
+    phone: rawLocation.phone || '',
+    email: rawLocation.email,
+    website: rawLocation.website || '',
+    content: rawLocation.content || '',
+    categories: categories,
+    amenities: amenities,
+    cost: pricing.cost,
+    access: pricing.access,
+    hours: rawLocation.hours || {},
+    rating: parseFloat(rawLocation.rating) || 0,
+    reviewCount: parseInt(rawLocation.reviewCount) || 0,
+    lastUpdated: rawLocation.timestamp || new Date().toISOString(),
+    showerReviews: rawLocation.showerReviews || [],
+    showerReviewCount: rawLocation.showerReviewCount || 0,
+    businessType: rawLocation.businessType || 'Leisure Centre'
+  };
+}
+
+// Get UK region info
+export function getUKRegionInfo(regionSlug: string): RegionInfo | null {
+  const regionData = loadUKRegionData(regionSlug);
+  if (!regionData) return null;
+
+  // Transform all locations
+  const locations = regionData.locations.map((loc, idx) => transformUKLocation(loc, idx));
+
+  // Calculate stats
+  const cities = [...new Set(locations.map(loc => loc.city).filter(Boolean))];
+  const freeLocations = locations.filter(loc =>
+    loc.cost.toLowerCase().includes('free') ||
+    loc.cost === '0' ||
+    loc.cost === '£0'
+  ).length;
+
+  // Separate verified and non-verified locations
+  const verifiedLocations = locations.filter(loc => loc.showerReviewCount > 0);
+  const nonVerifiedLocations = locations.filter(loc => loc.showerReviewCount === 0);
+
+  // Sort each group by rating
+  const sortedVerified = verifiedLocations.sort((a, b) => b.rating - a.rating);
+  const sortedNonVerified = nonVerifiedLocations.sort((a, b) => b.rating - a.rating);
+
+  // Create featured locations array
+  const targetTotal = 50;
+  let featuredLocations: ShowerLocation[] = [];
+
+  if (sortedVerified.length >= 25) {
+    const verifiedCount = Math.min(30, sortedVerified.length);
+    featuredLocations = [
+      ...sortedVerified.slice(0, verifiedCount),
+      ...sortedNonVerified.slice(0, targetTotal - verifiedCount)
+    ];
+  } else {
+    featuredLocations = [
+      ...sortedVerified,
+      ...sortedNonVerified.slice(0, targetTotal - sortedVerified.length)
+    ];
+  }
+
+  // Mix verified and non-verified
+  const mixedLocations: ShowerLocation[] = [];
+  const featuredVerified = featuredLocations.filter(loc => loc.showerReviewCount > 0);
+  const featuredNonVerified = featuredLocations.filter(loc => loc.showerReviewCount === 0);
+
+  let vIndex = 0;
+  let nvIndex = 0;
+
+  while (vIndex < featuredVerified.length || nvIndex < featuredNonVerified.length) {
+    for (let i = 0; i < 2 && vIndex < featuredVerified.length; i++) {
+      mixedLocations.push(featuredVerified[vIndex++]);
+    }
+    if (nvIndex < featuredNonVerified.length) {
+      mixedLocations.push(featuredNonVerified[nvIndex++]);
+    }
+  }
+
+  const finalFeaturedLocations = mixedLocations.slice(0, targetTotal);
+
+  const regionName = ukRegionSlugMap[regionSlug]?.name || regionData.regionName;
+
+  return {
+    slug: regionSlug,
+    name: regionName,
+    country: 'uk',
+    countryName: 'United Kingdom',
+    stats: {
+      totalLocations: locations.length,
+      freeLocations: freeLocations,
+      cities: cities.slice(0, 10),
+      verifiedCount: verifiedLocations.length
+    },
+    featuredLocations: finalFeaturedLocations
+  };
+}
+
+// Get all UK locations for a region
+export function getUKRegionLocations(regionSlug: string): ShowerLocation[] {
+  const regionData = loadUKRegionData(regionSlug);
+  if (!regionData) return [];
+
+  return regionData.locations.map((loc, idx) => transformUKLocation(loc, idx));
+}
+
+// Get a single UK location by slug
+export function getUKLocationBySlug(regionSlug: string, locationSlug: string): ShowerLocation | null {
+  const locations = getUKRegionLocations(regionSlug);
+  return locations.find(loc => loc.slug === locationSlug) || null;
+}
+
+// Get all available UK regions
+export function getAllUKRegions(): Array<{code: string, slug: string, name: string}> {
+  return Object.entries(ukRegionSlugMap).map(([slug, info]) => ({
+    code: info.code,
+    slug: slug,
+    name: info.name
+  }));
+}
+
+// ========================================
+// AUSTRALIA DATA FUNCTIONS
+// ========================================
+
+// Load Australia state data from JSON file
+export function loadAustraliaStateData(stateSlug: string): AustraliaStateData | null {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'data', 'australia', `${stateSlug}.json`);
+    const jsonData = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(jsonData);
+  } catch (error) {
+    console.error(`Error loading Australia state data for ${stateSlug}:`, error);
+    return null;
+  }
+}
+
+// Transform Australia location to ShowerLocation format
+export function transformAustraliaLocation(rawLocation: any, index: number): ShowerLocation {
+  const slug = rawLocation.slug || createSlug(rawLocation.title);
+
+  // Parse amenities if it's a string
+  const amenities = Array.isArray(rawLocation.amenities)
+    ? rawLocation.amenities
+    : rawLocation.amenities?.split('|').filter((a: string) => a.trim()) || [];
+
+  // Parse categories
+  const categories = Array.isArray(rawLocation.categories)
+    ? rawLocation.categories
+    : [rawLocation.businessType || 'Leisure Centre'];
+
+  // Apply category-based pricing defaults
+  const pricing = applyPricingDefaults({
+    ...rawLocation,
+    categories,
+    businessType: rawLocation.businessType || categories[0] || 'Facility'
+  }, 'Australia');
+
+  return {
+    id: rawLocation.id || `au-${index}`,
+    slug: slug,
+    title: rawLocation.title || 'Unknown Facility',
+    street: rawLocation.street || rawLocation.address?.split(',')[0] || '',
+    address: rawLocation.address || 'Address not available',
+    city: rawLocation.city || '',
+    province: rawLocation.state || '',
+    state: rawLocation.state || '',
+    zip: rawLocation.postcode || '',
+    postcode: rawLocation.postcode,
+    country: 'Australia',
+    lat: parseFloat(rawLocation.lat) || 0,
+    lng: parseFloat(rawLocation.lng) || 0,
+    phone: rawLocation.phone || '',
+    email: rawLocation.email || '',
+    website: rawLocation.website || '',
+    content: rawLocation.content || `${rawLocation.title} is a shower facility located in ${rawLocation.city}, ${rawLocation.state}.`,
+    categories: categories,
+    amenities: amenities,
+    cost: pricing.cost,
+    access: pricing.access,
+    hours: rawLocation.hours || {},
+    rating: parseFloat(rawLocation.rating) || 0,
+    reviewCount: rawLocation.reviewCount || 0,
+    lastUpdated: rawLocation.lastUpdated || new Date().toISOString(),
+    showerReviews: rawLocation.showerReviews || [],
+    showerReviewCount: rawLocation.showerReviewCount || 0,
+    businessType: rawLocation.businessType || categories[0] || 'Facility'
+  };
+}
+
+// Get Australia state info
+export function getAustraliaStateInfo(stateSlug: string): RegionInfo | null {
+  const stateData = loadAustraliaStateData(stateSlug);
+  if (!stateData) return null;
+
+  // Transform all locations
+  const locations = stateData.locations.map((loc, idx) => transformAustraliaLocation(loc, idx));
+
+  // Calculate stats
+  const cities = [...new Set(locations.map(loc => loc.city).filter(Boolean))];
+  const freeLocations = locations.filter(loc =>
+    loc.cost.toLowerCase().includes('free') ||
+    loc.cost === '0' ||
+    loc.cost === '$0' ||
+    loc.cost === 'A$0'
+  ).length;
+
+  // Separate verified and non-verified locations
+  const verifiedLocations = locations.filter(loc => loc.showerReviewCount > 0);
+  const nonVerifiedLocations = locations.filter(loc => loc.showerReviewCount === 0);
+
+  // Sort each group by rating
+  const sortedVerified = verifiedLocations.sort((a, b) => b.rating - a.rating);
+  const sortedNonVerified = nonVerifiedLocations.sort((a, b) => b.rating - a.rating);
+
+  // Create featured locations array
+  const targetTotal = 50;
+  let featuredLocations: ShowerLocation[] = [];
+
+  // First, add all verified locations (up to targetTotal)
+  featuredLocations = sortedVerified.slice(0, targetTotal);
+
+  // If we need more, fill with non-verified
+  if (featuredLocations.length < targetTotal) {
+    const remaining = targetTotal - featuredLocations.length;
+    featuredLocations = [...featuredLocations, ...sortedNonVerified.slice(0, remaining)];
+  }
+
+  const stateName = getAustraliaStateName(stateSlug) || stateSlug;
+
+  return {
+    slug: stateSlug,
+    name: stateName,
+    country: 'australia',
+    countryName: 'Australia',
+    stats: {
+      totalLocations: locations.length,
+      freeLocations,
+      cities: cities.slice(0, 20),
+      verifiedCount: verifiedLocations.length
+    },
+    featuredLocations
+  };
+}
+
+// Get all Australia locations for a state
+export function getAustraliaStateLocations(stateSlug: string): ShowerLocation[] {
+  const stateData = loadAustraliaStateData(stateSlug);
+  if (!stateData) return [];
+
+  return stateData.locations.map((loc, idx) => transformAustraliaLocation(loc, idx));
+}
+
+// Get a single Australia location by slug
+export function getAustraliaLocationBySlug(stateSlug: string, locationSlug: string): ShowerLocation | null {
+  const locations = getAustraliaStateLocations(stateSlug);
+  return locations.find(loc => loc.slug === locationSlug) || null;
+}
+
+// Get all available Australia states
+export function getAllAustraliaStates(): Array<{code: string, slug: string, name: string}> {
+  return Object.entries(australiaStateSlugMap).map(([slug, info]) => ({
+    code: info.code,
+    slug: slug,
+    name: info.name
+  }));
+}
+
+// ========================================
+// MULTI-COUNTRY HELPER FUNCTIONS
+// ========================================
+
+// Get region info for any country
+export function getRegionInfoByCountry(country: string, regionSlug: string): RegionInfo | null {
+  if (country === 'usa') {
+    const stateCode = getStateCodeFromSlug(regionSlug);
+    if (!stateCode) return null;
+    return getRegionInfo(stateCode, regionSlug);
+  } else if (country === 'uk') {
+    return getUKRegionInfo(regionSlug);
+  } else if (country === 'australia') {
+    return getAustraliaStateInfo(regionSlug);
+  }
+  return null;
+}
+
+// Get location by slug for any country
+export function getLocationBySlugAndCountry(
+  country: string,
+  regionSlug: string,
+  locationSlug: string
+): ShowerLocation | null {
+  if (country === 'usa') {
+    const stateCode = getStateCodeFromSlug(regionSlug);
+    if (!stateCode) return null;
+    return getLocationBySlug(stateCode, locationSlug);
+  } else if (country === 'uk') {
+    return getUKLocationBySlug(regionSlug, locationSlug);
+  } else if (country === 'australia') {
+    return getAustraliaLocationBySlug(regionSlug, locationSlug);
+  }
+  return null;
+}
+
+// Check if a country is supported
+export function isSupportedCountry(country: string): boolean {
+  return ['usa', 'uk', 'australia'].includes(country);
+}
+
+// Check if a region is valid for a country
+export function isValidRegionForCountry(country: string, regionSlug: string): boolean {
+  if (country === 'usa') {
+    return getStateCodeFromSlug(regionSlug) !== null;
+  } else if (country === 'uk') {
+    return isUKRegion(regionSlug);
+  } else if (country === 'australia') {
+    return isAustraliaState(regionSlug);
+  }
+  return false;
+}
+
+// Get country display name
+export function getCountryDisplayName(country: string): string {
+  const countryNames: Record<string, string> = {
+    'usa': 'United States',
+    'uk': 'United Kingdom',
+    'australia': 'Australia'
+  };
+  return countryNames[country] || country.toUpperCase();
 }

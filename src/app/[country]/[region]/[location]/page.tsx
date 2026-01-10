@@ -1,11 +1,16 @@
 // ========================================
 // FILE: app/[country]/[region]/[location]/page.tsx
+// Multi-country support: USA, UK, and Australia
 // ========================================
 
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import LocationPageClient from './LocationPageClient';
-import { getLocationBySlug, getStateCodeFromSlug } from '../../../lib/dataLoader';
+import {
+  getLocationBySlugAndCountry,
+  isSupportedCountry,
+  isValidRegionForCountry
+} from '../../../lib/dataLoader';
 import { ContentWriter } from '../../../lib/contentWriter';
 
 // Helper function to check if location has verified shower reviews
@@ -53,30 +58,103 @@ function transformForContentWriter(location: any) {
   };
 }
 
-export async function generateMetadata({ 
-  params 
-}: { 
-  params: Promise<{ country: string; region: string; location: string }> 
+// Generate static params for all locations across all countries
+export async function generateStaticParams() {
+  const {
+    getAllStates,
+    getStateLocations,
+    getAllUKRegions,
+    getUKRegionLocations,
+    getAllAustraliaStates,
+    getAustraliaStateLocations
+  } = await import('../../../lib/dataLoader');
+
+  const params: Array<{ country: string; region: string; location: string }> = [];
+
+  // USA locations
+  try {
+    const usStates = getAllStates();
+    for (const state of usStates) {
+      const locations = getStateLocations(state.code);
+      for (const loc of locations) {
+        params.push({
+          country: 'usa',
+          region: state.slug,
+          location: loc.slug
+        });
+      }
+    }
+  } catch (e) {
+    console.error('Error generating USA params:', e);
+  }
+
+  // UK locations
+  try {
+    const ukRegions = getAllUKRegions();
+    for (const region of ukRegions) {
+      const locations = getUKRegionLocations(region.slug);
+      for (const loc of locations) {
+        params.push({
+          country: 'uk',
+          region: region.slug,
+          location: loc.slug
+        });
+      }
+    }
+  } catch (e) {
+    console.error('Error generating UK params:', e);
+  }
+
+  // Australia locations
+  try {
+    const ausStates = getAllAustraliaStates();
+    for (const state of ausStates) {
+      const locations = getAustraliaStateLocations(state.slug);
+      for (const loc of locations) {
+        params.push({
+          country: 'australia',
+          region: state.slug,
+          location: loc.slug
+        });
+      }
+    }
+  } catch (e) {
+    console.error('Error generating Australia params:', e);
+  }
+
+  return params;
+}
+
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ country: string; region: string; location: string }>
 }): Promise<Metadata> {
   // Await the params promise
   const resolvedParams = await params;
-  
-  if (resolvedParams.country !== 'usa') {
+
+  // Validate country
+  if (!isSupportedCountry(resolvedParams.country)) {
     return {
       title: 'Location Not Found | ShowerMap',
       description: 'The requested location could not be found.',
     };
   }
-  
-  const stateCode = getStateCodeFromSlug(resolvedParams.region);
-  if (!stateCode) {
+
+  // Validate region for the country
+  if (!isValidRegionForCountry(resolvedParams.country, resolvedParams.region)) {
     return {
       title: 'Location Not Found | ShowerMap',
       description: 'The requested location could not be found.',
     };
   }
-  
-  const location = getLocationBySlug(stateCode, resolvedParams.location);
+
+  // Get location using multi-country function
+  const location = getLocationBySlugAndCountry(
+    resolvedParams.country,
+    resolvedParams.region,
+    resolvedParams.location
+  );
   if (!location) {
     return {
       title: 'Location Not Found | ShowerMap',
@@ -108,24 +186,30 @@ export async function generateMetadata({
   };
 }
 
-export default async function LocationPage({ 
-  params 
-}: { 
-  params: Promise<{ country: string; region: string; location: string }> 
+export default async function LocationPage({
+  params
+}: {
+  params: Promise<{ country: string; region: string; location: string }>
 }) {
   // Await the params promise
   const resolvedParams = await params;
-  
-  if (resolvedParams.country !== 'usa') {
+
+  // Validate country
+  if (!isSupportedCountry(resolvedParams.country)) {
     notFound();
   }
-  
-  const stateCode = getStateCodeFromSlug(resolvedParams.region);
-  if (!stateCode) {
+
+  // Validate region for the country
+  if (!isValidRegionForCountry(resolvedParams.country, resolvedParams.region)) {
     notFound();
   }
-  
-  const location = getLocationBySlug(stateCode, resolvedParams.location);
+
+  // Get location using multi-country function
+  const location = getLocationBySlugAndCountry(
+    resolvedParams.country,
+    resolvedParams.region,
+    resolvedParams.location
+  );
   if (!location) {
     notFound();
   }

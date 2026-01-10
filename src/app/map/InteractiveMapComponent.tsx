@@ -43,6 +43,7 @@ interface InteractiveMapProps {
   locations: MapLocation[];
   userLocation?: UserLocation | null;
   height?: string;
+  country?: 'usa' | 'uk' | 'australia' | '';
 }
 
 interface Cluster {
@@ -199,40 +200,37 @@ function createClusters(locations: MapLocation[], zoom: number, bounds: L.LatLng
   }
   
   // Filter locations within bounds
-  const visibleLocations = locations.filter(loc => 
+  const visibleLocations = locations.filter(loc =>
     bounds.contains([loc.lat, loc.lng])
   );
-  
-  // Limit the number of locations processed for performance
-  const limitedLocations = visibleLocations.slice(0, 200);
-  
+
   // Simple grid-based clustering
   const clusters: Map<string, Cluster> = new Map();
   const processed = new Set<string>();
-  
+
   // Grid size based on zoom level
   const gridSize = Math.max(0.01, 1 / Math.pow(2, zoom - 2));
-  
-  limitedLocations.forEach(location => {
+
+  visibleLocations.forEach(location => {
     if (processed.has(location.id)) return;
-    
+
     const gridX = Math.floor(location.lng / gridSize);
     const gridY = Math.floor(location.lat / gridSize);
     const gridKey = `${gridX},${gridY}`;
-    
+
     if (!clusters.has(gridKey)) {
       // Find all nearby locations for this cluster
-      const clusterLocations = limitedLocations.filter(loc => {
+      const clusterLocations = visibleLocations.filter(loc => {
         const locGridX = Math.floor(loc.lng / gridSize);
         const locGridY = Math.floor(loc.lat / gridSize);
         return Math.abs(locGridX - gridX) <= 1 && Math.abs(locGridY - gridY) <= 1;
       });
-      
+
       if (clusterLocations.length > 1) {
         // Create cluster
         const clusterLat = clusterLocations.reduce((sum, loc) => sum + loc.lat, 0) / clusterLocations.length;
         const clusterLng = clusterLocations.reduce((sum, loc) => sum + loc.lng, 0) / clusterLocations.length;
-        
+
         const cluster: Cluster = {
           id: `cluster-${gridKey}`,
           lat: clusterLat,
@@ -240,26 +238,26 @@ function createClusters(locations: MapLocation[], zoom: number, bounds: L.LatLng
           count: clusterLocations.length,
           locations: clusterLocations
         };
-        
+
         clusters.set(gridKey, cluster);
         clusterLocations.forEach(loc => processed.add(loc.id));
       }
     }
   });
-  
+
   // Combine clusters and unclustered locations
   const result: (MapLocation | Cluster)[] = [];
-  
+
   // Add clusters
   clusters.forEach(cluster => result.push(cluster));
-  
+
   // Add unclustered locations
-  limitedLocations.forEach(location => {
+  visibleLocations.forEach(location => {
     if (!processed.has(location.id)) {
       result.push(location);
     }
   });
-  
+
   return result;
 }
 
@@ -492,17 +490,35 @@ function ClusterPopup({ cluster, onZoomToCluster }: {
 // MAIN COMPONENT
 // ============================================================================
 
-export default function InteractiveMapComponent({ 
-  locations, 
-  userLocation, 
-  height = '500px' 
+// Default map centers for each country
+const COUNTRY_CENTERS: Record<string, { center: [number, number]; zoom: number }> = {
+  usa: { center: [39.8283, -98.5795], zoom: 4 },
+  uk: { center: [54.5, -2.5], zoom: 6 },
+  australia: { center: [-25.2744, 133.7751], zoom: 4 },
+};
+
+export default function InteractiveMapComponent({
+  locations,
+  userLocation,
+  height = '500px',
+  country = 'usa'
 }: InteractiveMapProps) {
-  const [mapCenter, setMapCenter] = useState<[number, number]>([39.8283, -98.5795]);
-  const [mapZoom, setMapZoom] = useState<number>(4);
+  // Get initial center based on country
+  const countrySettings = COUNTRY_CENTERS[country] || COUNTRY_CENTERS.usa;
+  const [mapCenter, setMapCenter] = useState<[number, number]>(countrySettings.center);
+  const [mapZoom, setMapZoom] = useState<number>(countrySettings.zoom);
   const [currentZoom, setCurrentZoom] = useState<number>(4);
   const [currentBounds, setCurrentBounds] = useState<L.LatLngBounds | null>(null);
   const [mapInstance, setMapInstance] = useState<L.Map | null>(null);
   
+  // Update map center when country changes
+  useEffect(() => {
+    const settings = COUNTRY_CENTERS[country] || COUNTRY_CENTERS.usa;
+    if (mapInstance) {
+      mapInstance.setView(settings.center, settings.zoom);
+    }
+  }, [country, mapInstance]);
+
   // Calculate map center and zoom based on locations and user location
   useEffect(() => {
     if (userLocation) {

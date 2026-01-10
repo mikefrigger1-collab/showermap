@@ -7,26 +7,26 @@ const path = require('path');
 // Function to load all your location URLs from data files
 function loadDynamicPaths() {
   const urls = [];
-  
+
+  // Load USA locations
   try {
-    // Check if you have location data files
-    const dataPath = path.join(process.cwd(), 'public', 'data', 'locations-by-state');
-    
-    if (fs.existsSync(dataPath)) {
-      const stateFiles = fs.readdirSync(dataPath);
-      
+    const usaDataPath = path.join(process.cwd(), 'public', 'data', 'states');
+
+    if (fs.existsSync(usaDataPath)) {
+      const stateFiles = fs.readdirSync(usaDataPath);
+
       stateFiles.forEach(file => {
         if (file.endsWith('.json')) {
           const stateData = JSON.parse(
-            fs.readFileSync(path.join(dataPath, file), 'utf8')
+            fs.readFileSync(path.join(usaDataPath, file), 'utf8')
           );
-          
+
           // Add state page
           if (stateData.slug) {
             urls.push(`/usa/${stateData.slug}/`);
           }
-          
-          // Add location pages
+
+          // Add ALL location pages (no limit)
           if (stateData.locations && Array.isArray(stateData.locations)) {
             stateData.locations.forEach(location => {
               if (location.slug) {
@@ -38,23 +38,75 @@ function loadDynamicPaths() {
       });
     }
   } catch (error) {
-    console.log('Note: Location data not found, using default paths only');
+    console.log('Note: USA location data not found');
   }
-  
-  // If no data files exist yet, add some default state URLs
-  if (urls.length === 0) {
-    const defaultStates = [
-      'california', 'texas', 'new-york', 'florida', 'illinois',
-      'pennsylvania', 'ohio', 'georgia', 'north-carolina', 'michigan',
-      'washington', 'arizona', 'massachusetts', 'tennessee', 'indiana',
-      'missouri', 'maryland', 'wisconsin', 'colorado', 'minnesota'
-    ];
-    
-    defaultStates.forEach(state => {
-      urls.push(`/usa/${state}/`);
-    });
+
+  // Load UK locations
+  try {
+    const ukDataPath = path.join(process.cwd(), 'public', 'data', 'uk');
+
+    if (fs.existsSync(ukDataPath)) {
+      const regionFiles = fs.readdirSync(ukDataPath);
+
+      regionFiles.forEach(file => {
+        if (file.endsWith('.json')) {
+          const regionData = JSON.parse(
+            fs.readFileSync(path.join(ukDataPath, file), 'utf8')
+          );
+
+          // Add region page
+          if (regionData.slug) {
+            urls.push(`/uk/${regionData.slug}/`);
+          }
+
+          // Add ALL location pages
+          if (regionData.locations && Array.isArray(regionData.locations)) {
+            regionData.locations.forEach(location => {
+              if (location.slug) {
+                urls.push(`/uk/${regionData.slug}/${location.slug}/`);
+              }
+            });
+          }
+        }
+      });
+    }
+  } catch (error) {
+    console.log('Note: UK location data not found');
   }
-  
+
+  // Load Australia locations
+  try {
+    const ausDataPath = path.join(process.cwd(), 'public', 'data', 'australia');
+
+    if (fs.existsSync(ausDataPath)) {
+      const stateFiles = fs.readdirSync(ausDataPath);
+
+      stateFiles.forEach(file => {
+        if (file.endsWith('.json')) {
+          const stateData = JSON.parse(
+            fs.readFileSync(path.join(ausDataPath, file), 'utf8')
+          );
+
+          // Add state page
+          if (stateData.slug) {
+            urls.push(`/australia/${stateData.slug}/`);
+          }
+
+          // Add ALL location pages
+          if (stateData.locations && Array.isArray(stateData.locations)) {
+            stateData.locations.forEach(location => {
+              if (location.slug) {
+                urls.push(`/australia/${stateData.slug}/${location.slug}/`);
+              }
+            });
+          }
+        }
+      });
+    }
+  } catch (error) {
+    console.log('Note: Australia location data not found');
+  }
+
   return urls;
 }
 
@@ -88,25 +140,30 @@ module.exports = {
     const getPriority = (url) => {
       // Homepage - highest priority
       if (url === '/') return 1.0;
-      
+
       // Map page - very high priority
       if (url === '/map/') return 0.95;
-      
-      // State/region pages - high priority for SEO
-      if (url.match(/^\/usa\/[a-z-]+\/$/) && url.split('/').filter(Boolean).length === 2) {
+
+      // Country pages - high priority
+      if (url.match(/^\/(usa|uk|australia)\/$/) && url.split('/').filter(Boolean).length === 1) {
+        return 0.9;
+      }
+
+      // State/region pages - high priority for SEO (USA, UK, Australia)
+      if (url.match(/^\/(usa|uk|australia)\/[a-z-]+\/$/) && url.split('/').filter(Boolean).length === 2) {
         return 0.85;
       }
-      
-      // Individual location pages - medium-high priority
-      if (url.match(/^\/usa\/[a-z-]+\/[a-z-]+\/$/) && url.split('/').filter(Boolean).length === 3) {
+
+      // Individual location pages - medium-high priority (all countries)
+      if (url.match(/^\/(usa|uk|australia)\/[a-z-]+\/[a-z0-9-]+\/$/) && url.split('/').filter(Boolean).length === 3) {
         return 0.7;
       }
-      
+
       // Static pages - lower priority
       if (['/about/', '/contact/', '/guidelines/', '/privacy/', '/terms/'].includes(url)) {
         return 0.5;
       }
-      
+
       // Default
       return 0.6;
     };
@@ -115,24 +172,27 @@ module.exports = {
     const getChangefreq = (url) => {
       // Homepage - updates daily with new locations
       if (url === '/') return 'daily';
-      
+
       // Map page - updates frequently
       if (url === '/map/') return 'daily';
-      
-      // State pages - update weekly
-      if (url.match(/^\/usa\/[a-z-]+\/$/)) return 'weekly';
-      
+
+      // Country pages - update weekly
+      if (url.match(/^\/(usa|uk|australia)\/$/)) return 'weekly';
+
+      // State/region pages - update weekly (all countries)
+      if (url.match(/^\/(usa|uk|australia)\/[a-z-]+\/$/)) return 'weekly';
+
       // Location pages - update weekly (hours/status might change)
-      if (url.match(/^\/usa\/[a-z-]+\/[a-z-]+\/$/)) return 'weekly';
-      
+      if (url.match(/^\/(usa|uk|australia)\/[a-z-]+\/[a-z0-9-]+\/$/)) return 'weekly';
+
       // Static pages - rarely change
       if (['/about/', '/guidelines/', '/privacy/', '/terms/'].includes(url)) {
         return 'monthly';
       }
-      
+
       // Contact page - occasional updates
       if (url === '/contact/') return 'monthly';
-      
+
       return 'weekly';
     };
     

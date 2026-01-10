@@ -21,9 +21,10 @@ import {
   Map as MapIcon
 } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import GlobalHeader from '../components/GlobalHeader';
 import GlobalFooter from '../components/GlobalFooter';
-import { loadStateLocations } from './mapDataLoader';
+import { loadStateLocations, loadUKRegionLocations, loadAustraliaStateLocations } from './mapDataLoader';
 import type { MapLocation } from './mapDataLoader';
 
 // Dynamically import the map component to avoid SSR issues
@@ -94,6 +95,32 @@ const US_STATES = [
   { code: 'WY', name: 'Wyoming', region: 'West' }
 ];
 
+const UK_REGIONS = [
+  { code: 'london', name: 'London', region: 'England' },
+  { code: 'south-east', name: 'South East', region: 'England' },
+  { code: 'south-west', name: 'South West', region: 'England' },
+  { code: 'east-of-england', name: 'East of England', region: 'England' },
+  { code: 'east-midlands', name: 'East Midlands', region: 'England' },
+  { code: 'west-midlands', name: 'West Midlands', region: 'England' },
+  { code: 'yorkshire', name: 'Yorkshire', region: 'England' },
+  { code: 'north-west', name: 'North West', region: 'England' },
+  { code: 'north-east', name: 'North East', region: 'England' },
+  { code: 'scotland', name: 'Scotland', region: 'Scotland' },
+  { code: 'wales', name: 'Wales', region: 'Wales' },
+  { code: 'northern-ireland', name: 'Northern Ireland', region: 'Northern Ireland' }
+];
+
+const AUSTRALIA_STATES = [
+  { code: 'new-south-wales', name: 'New South Wales', region: 'Eastern' },
+  { code: 'victoria', name: 'Victoria', region: 'Eastern' },
+  { code: 'queensland', name: 'Queensland', region: 'Eastern' },
+  { code: 'western-australia', name: 'Western Australia', region: 'Western' },
+  { code: 'south-australia', name: 'South Australia', region: 'Central' },
+  { code: 'tasmania', name: 'Tasmania', region: 'Eastern' },
+  { code: 'northern-territory', name: 'Northern Territory', region: 'Northern' },
+  { code: 'australian-capital-territory', name: 'ACT', region: 'Eastern' }
+];
+
 const CATEGORY_COLORS: Record<string, string> = {
   'YMCA': 'bg-red-100 text-red-800',
   'Gym': 'bg-purple-100 text-purple-800',
@@ -148,7 +175,8 @@ const createSlug = (title: string): string => {
 // ============================================================================
 
 interface Filters {
-  state: string;
+  country: 'usa' | 'uk' | 'australia' | '';
+  state: string; // US state code, UK region slug, or Australia state slug
   city: string;
   category: string;
   costType: 'all' | 'free' | 'paid';
@@ -214,74 +242,164 @@ function locationMatchesFilters(location: MapLocation, filters: Filters): boolea
 // COMPONENTS
 // ============================================================================
 
-function StateSelector({ selectedState, onStateSelect, onGetLocation, locationLoading }: {
-  selectedState: string;
-  onStateSelect: (state: string) => void;
+function RegionSelector({
+  selectedCountry,
+  selectedRegion,
+  onCountrySelect,
+  onRegionSelect,
+  onGetLocation,
+  locationLoading
+}: {
+  selectedCountry: string;
+  selectedRegion: string;
+  onCountrySelect: (country: 'usa' | 'uk' | 'australia') => void;
+  onRegionSelect: (region: string) => void;
   onGetLocation: () => void;
   locationLoading: boolean;
 }) {
+  const getSelectedName = () => {
+    if (selectedCountry === 'usa') {
+      return US_STATES.find(s => s.code === selectedRegion)?.name;
+    } else if (selectedCountry === 'uk') {
+      return UK_REGIONS.find(r => r.code === selectedRegion)?.name;
+    } else if (selectedCountry === 'australia') {
+      return AUSTRALIA_STATES.find(s => s.code === selectedRegion)?.name;
+    }
+    return null;
+  };
+
   return (
-<div className="bg-white rounded-lg border p-6 mb-6">
-  <div className="flex flex-col items-center text-center mb-6">
-    <h2 className="text-xl font-semibold flex items-center gap-2 mb-4">
-      Select a State to Browse Locations
-    </h2>
+    <div className="bg-white rounded-lg border p-6 mb-6">
+      <div className="flex flex-col items-center text-center mb-6">
+        <h2 className="text-xl font-semibold flex items-center gap-2 mb-4">
+          Select a Location to Browse
+        </h2>
 
-      {/* State Dropdown */}
-  <div className="max-w-md mx-auto">
-    <select
-      id="state-select"
-      value={selectedState}
-      onChange={(e) => onStateSelect(e.target.value)}
-      className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
-    >
-      <option value="">Select a state...</option>
-      {US_STATES.map(state => (
-        <option key={state.code} value={state.code}>
-          {state.name}
-        </option>
-      ))}
-    </select>
-  </div>
+        {/* Country Tabs */}
+        <div className="flex flex-wrap justify-center gap-2 mb-4">
+          <button
+            onClick={() => onCountrySelect('usa')}
+            className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+              selectedCountry === 'usa'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            🇺🇸 USA
+          </button>
+          <button
+            onClick={() => onCountrySelect('uk')}
+            className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+              selectedCountry === 'uk'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            🇬🇧 UK
+          </button>
+          <button
+            onClick={() => onCountrySelect('australia')}
+            className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+              selectedCountry === 'australia'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            🇦🇺 Australia
+          </button>
+        </div>
 
-    {selectedState && (
-    <div className="mt-4 p-3 bg-blue-50 rounded border border-blue-200 max-w-md mx-auto">
-      <p className="text-sm text-blue-800 text-center">
-        <span className="font-semibold">
-          {US_STATES.find(s => s.code === selectedState)?.name}
-        </span> selected. Use the view toggle to switch between map and list views.
-      </p>
+        {/* Region Dropdown */}
+        <div className="max-w-md mx-auto w-full">
+          <select
+            id="region-select"
+            value={selectedRegion}
+            onChange={(e) => onRegionSelect(e.target.value)}
+            className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
+          >
+            {selectedCountry === 'usa' ? (
+              <>
+                <option value="">Select a state...</option>
+                {US_STATES.map(state => (
+                  <option key={state.code} value={state.code}>
+                    {state.name}
+                  </option>
+                ))}
+              </>
+            ) : selectedCountry === 'uk' ? (
+              <>
+                <option value="">Select a region...</option>
+                {UK_REGIONS.map(region => (
+                  <option key={region.code} value={region.code}>
+                    {region.name}
+                  </option>
+                ))}
+              </>
+            ) : selectedCountry === 'australia' ? (
+              <>
+                <option value="">Select a state or territory...</option>
+                {AUSTRALIA_STATES.map(state => (
+                  <option key={state.code} value={state.code}>
+                    {state.name}
+                  </option>
+                ))}
+              </>
+            ) : (
+              <option value="">Select a country first...</option>
+            )}
+          </select>
+        </div>
+
+        {selectedRegion && (
+          <div className="mt-4 p-3 bg-blue-50 rounded border border-blue-200 max-w-md mx-auto">
+            <p className="text-sm text-blue-800 text-center">
+              <span className="font-semibold">{getSelectedName()}</span> selected.
+              Use the view toggle to switch between map and list views.
+            </p>
+          </div>
+        )}
+
+        {/* Geolocation Button */}
+        <button
+          onClick={onGetLocation}
+          disabled={locationLoading}
+          className="flex items-center justify-center gap-2 px-4 py-2 mt-8 bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white rounded-lg font-medium transition-colors mb-0"
+        >
+          {locationLoading ? (
+            <Loader2 className="h-4 w-4 animate-spin" />
+          ) : (
+            <Navigation className="h-4 w-4" />
+          )}
+          {locationLoading ? 'Getting Location...' : 'Use My Location'}
+        </button>
+      </div>
     </div>
-  )}
-  
-    
-    {/* Geolocation Button */}
-    <button
-      onClick={onGetLocation}
-      disabled={locationLoading}
-      className="flex items-center justify-center gap-2 px-4 py-2 mt-8 bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white rounded-lg font-medium transition-colors mb-0"
-    >
-      {locationLoading ? (
-        <Loader2 className="h-4 w-4 animate-spin" />
-      ) : (
-        <Navigation className="h-4 w-4" />
-      )}
-      {locationLoading ? 'Getting Location...' : 'Use My Location'}
-    </button>
-  </div>
-  
-
-
-</div>
   );
 }
 
-function LocationCard({ location, viewMode }: { 
-  location: MapLocation; 
+function LocationCard({ location, viewMode, country }: {
+  location: MapLocation;
   viewMode: ViewMode;
+  country: 'usa' | 'uk' | 'australia';
 }) {
   const categoryColor = CATEGORY_COLORS[location.categories[0]] || CATEGORY_COLORS.default;
-  
+
+  // Build the correct URL based on country
+  const getLocationUrl = () => {
+    if (country === 'uk') {
+      return `/uk/${location.ukRegion || location.state}/${createSlug(location.title)}/`;
+    } else if (country === 'australia') {
+      return `/australia/${location.state}/${createSlug(location.title)}/`;
+    }
+    return `/usa/${getStateSlug(location.state)}/${createSlug(location.title)}/`;
+  };
+
+  const locationLabel = country === 'uk'
+    ? `${location.city}, ${location.ukRegion || location.state}`
+    : country === 'australia'
+    ? `${location.city}, ${location.state}`
+    : `${location.city}, ${location.state}`;
+
   if (viewMode === 'list') {
     return (
       <div className="bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
@@ -304,29 +422,29 @@ function LocationCard({ location, viewMode }: {
             </div>
           )}
         </div>
-        
+
         <div className="grid md:grid-cols-2 gap-4">
           <div className="space-y-2">
             <div className="flex items-center text-gray-600 text-sm">
               <MapPin className="h-4 w-4 mr-2 flex-shrink-0" />
-              {location.address || `${location.city}, ${location.state}`}
+              {location.address || locationLabel}
             </div>
-            
+
             <div className="flex items-center text-gray-600 text-sm">
               <DollarSign className="h-4 w-4 mr-2 flex-shrink-0" />
               {location.cost}
             </div>
-            
+
             <div className="flex items-center text-gray-600 text-sm">
               <Clock className="h-4 w-4 mr-2 flex-shrink-0" />
               {formatHours(location.hours)}
             </div>
           </div>
-          
+
           <div className="space-y-2">
             <div className="flex flex-wrap gap-1">
               {location.categories.slice(0, 2).map((category, idx) => (
-                <span 
+                <span
                   key={idx}
                   className={`text-xs px-2 py-1 rounded ${categoryColor}`}
                 >
@@ -334,7 +452,7 @@ function LocationCard({ location, viewMode }: {
                 </span>
               ))}
             </div>
-            
+
             {location.phone && (
               <div className="flex items-center text-gray-600 text-sm">
                 <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
@@ -345,14 +463,14 @@ function LocationCard({ location, viewMode }: {
             )}
           </div>
         </div>
-        
+
         <div className="flex gap-2 mt-4 pt-3 border-t">
-<Link
-  href={`/usa/${getStateSlug(location.state)}/${createSlug(location.title)}/`}
-  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
->
-  View Details
-</Link>
+          <Link
+            href={getLocationUrl()}
+            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
+          >
+            View Details
+          </Link>
           <a
             href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
             target="_blank"
@@ -366,7 +484,7 @@ function LocationCard({ location, viewMode }: {
       </div>
     );
   }
-  
+
   return (
     <div className="bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
       <div className="flex justify-between items-start mb-2">
@@ -377,19 +495,19 @@ function LocationCard({ location, viewMode }: {
           <BadgeCheck className="h-4 w-4 text-green-600 flex-shrink-0 ml-2" />
         )}
       </div>
-      
+
       <div className="text-sm text-gray-600 mb-2 flex items-center">
         <MapPin className="h-3 w-3 mr-1 flex-shrink-0" />
-        <span className="truncate">{location.city}, {location.state}</span>
+        <span className="truncate">{locationLabel}</span>
       </div>
-      
+
       <div className="text-sm font-medium text-gray-900 mb-3">
         {location.cost}
       </div>
-      
+
       <div className="flex flex-wrap gap-1 mb-3">
         {location.categories.slice(0, 2).map((category, idx) => (
-          <span 
+          <span
             key={idx}
             className={`text-xs px-2 py-1 rounded ${categoryColor}`}
           >
@@ -397,14 +515,14 @@ function LocationCard({ location, viewMode }: {
           </span>
         ))}
       </div>
-      
+
       <div className="grid grid-cols-2 gap-2">
-<Link
-  href={`/usa/${getStateSlug(location.state)}/${createSlug(location.title)}/`}
-  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
->
-  View Details
-</Link>
+        <Link
+          href={getLocationUrl()}
+          className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
+        >
+          View Details
+        </Link>
         <a
           href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
           target="_blank"
@@ -545,6 +663,7 @@ export default function LightweightMapClient() {
   const [locationLoading, setLocationLoading] = useState(false);
   
   const [filters, setFilters] = useState<Filters>({
+    country: 'usa',
     state: '',
     city: '',
     category: '',
@@ -633,23 +752,40 @@ export default function LightweightMapClient() {
     }
   }, []);
 
-  // Load locations when state filter changes
+  // Load locations when country or region changes
   useEffect(() => {
-    if (!filters.state) {
+    if (!filters.state || !filters.country) {
       setLocations([]);
       return;
     }
-    
+
     const loadData = async () => {
       setLoading(true);
       setError(null);
-      
+
       try {
-        const stateLocations = await loadStateLocations(filters.state);
-        setLocations(stateLocations);
-        
-        if (stateLocations.length === 0) {
-          setError(`No locations found for ${filters.state}`);
+        let loadedLocations: MapLocation[] = [];
+
+        if (filters.country === 'usa') {
+          loadedLocations = await loadStateLocations(filters.state);
+        } else if (filters.country === 'uk') {
+          loadedLocations = await loadUKRegionLocations(filters.state);
+        } else if (filters.country === 'australia') {
+          loadedLocations = await loadAustraliaStateLocations(filters.state);
+        }
+
+        setLocations(loadedLocations);
+
+        if (loadedLocations.length === 0) {
+          let regionName: string | undefined;
+          if (filters.country === 'usa') {
+            regionName = US_STATES.find(s => s.code === filters.state)?.name;
+          } else if (filters.country === 'uk') {
+            regionName = UK_REGIONS.find(r => r.code === filters.state)?.name;
+          } else if (filters.country === 'australia') {
+            regionName = AUSTRALIA_STATES.find(s => s.code === filters.state)?.name;
+          }
+          setError(`No locations found for ${regionName || filters.state}`);
         }
       } catch (err) {
         setError('Failed to load location data');
@@ -658,9 +794,9 @@ export default function LightweightMapClient() {
         setLoading(false);
       }
     };
-    
+
     loadData();
-  }, [filters.state]);
+  }, [filters.state, filters.country]);
 
   // Filter and sort locations
   const filteredLocations = useMemo(() => {
@@ -694,11 +830,21 @@ export default function LightweightMapClient() {
     return categories.sort();
   }, [locations]);
 
-  const handleStateSelect = (stateCode: string) => {
+  const handleCountrySelect = (country: 'usa' | 'uk' | 'australia') => {
     setFilters(prev => ({
       ...prev,
-      state: stateCode,
-      city: '', // Reset city when changing state
+      country,
+      state: '', // Reset region when changing country
+      city: '',
+      category: ''
+    }));
+  };
+
+  const handleRegionSelect = (regionCode: string) => {
+    setFilters(prev => ({
+      ...prev,
+      state: regionCode,
+      city: '',
       category: ''
     }));
   };
@@ -717,14 +863,40 @@ export default function LightweightMapClient() {
   return (
     <>
       <GlobalHeader />
-      
+
+      {/* Hero Banner */}
+      <section className="relative h-32 md:h-40 overflow-hidden">
+        <Image
+          src="/images/william-rudolph-FwbSDeJm4hI-unsplash.jpg"
+          alt="Find public showers worldwide"
+          fill
+          className="object-cover object-center"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-blue-700/60" />
+        <div className="absolute inset-0 flex items-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div className="flex items-center gap-3">
+              <MapIcon className="h-8 w-8 text-white" />
+              <div>
+                <h1 className="text-2xl md:text-3xl font-bold text-white">Interactive Shower Map</h1>
+                <p className="text-blue-100 text-sm md:text-base">Find public showers across the USA, UK, and Australia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <main className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          
-          {/* State Selection */}
-          <StateSelector 
-            selectedState={filters.state} 
-            onStateSelect={handleStateSelect}
+
+          {/* Country & Region Selection */}
+          <RegionSelector
+            selectedCountry={filters.country}
+            selectedRegion={filters.state}
+            onCountrySelect={handleCountrySelect}
+            onRegionSelect={handleRegionSelect}
             onGetLocation={getCurrentLocation}
             locationLoading={locationLoading}
           />
@@ -752,7 +924,13 @@ export default function LightweightMapClient() {
                   <div className="flex items-center justify-between">
                     <div>
                       <h2 className="text-xl font-semibold">
-                        Shower Locations in {US_STATES.find(s => s.code === filters.state)?.name}
+                        Shower Locations in {
+                          filters.country === 'usa'
+                            ? US_STATES.find(s => s.code === filters.state)?.name
+                            : filters.country === 'uk'
+                            ? UK_REGIONS.find(r => r.code === filters.state)?.name
+                            : AUSTRALIA_STATES.find(s => s.code === filters.state)?.name
+                        }
                       </h2>
                       <p className="text-gray-600 text-sm mt-1">
                         {loading ? 'Loading...' : `${filteredLocations.length} locations found`}
@@ -808,10 +986,11 @@ export default function LightweightMapClient() {
                         <p className="text-gray-600">Loading interactive map...</p>
                       </div>
                     }>
-                      <InteractiveMapComponent 
+                      <InteractiveMapComponent
                         locations={filteredLocations}
                         userLocation={userLocation}
                         height="600px"
+                        country={filters.country}
                       />
                     </Suspense>
                   </div>
@@ -820,15 +999,16 @@ export default function LightweightMapClient() {
                 {/* Grid/List View */}
                 {!loading && !error && filteredLocations.length > 0 && viewMode !== 'map' && (
                   <div className={
-                    viewMode === 'grid' 
+                    viewMode === 'grid'
                       ? 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'
                       : 'space-y-4'
                   }>
                     {filteredLocations.map(location => (
-                      <LocationCard 
-                        key={location.id} 
-                        location={location} 
+                      <LocationCard
+                        key={location.id}
+                        location={location}
                         viewMode={viewMode}
+                        country={filters.country as 'usa' | 'uk' | 'australia'}
                       />
                     ))}
                   </div>
@@ -853,10 +1033,16 @@ export default function LightweightMapClient() {
                     <MapIcon className="h-12 w-12 text-gray-400 mx-auto mb-4" />
                     <h3 className="text-lg font-medium text-gray-900 mb-2">No locations available</h3>
                     <p className="text-gray-600 mb-4">
-                      We don't have shower location data for {US_STATES.find(s => s.code === filters.state)?.name} yet.
+                      We don't have shower location data for {
+                        filters.country === 'usa'
+                          ? US_STATES.find(s => s.code === filters.state)?.name
+                          : filters.country === 'uk'
+                          ? UK_REGIONS.find(r => r.code === filters.state)?.name
+                          : AUSTRALIA_STATES.find(s => s.code === filters.state)?.name
+                      } yet.
                     </p>
                     <p className="text-sm text-gray-500">
-                      Try selecting a different state or check back later.
+                      Try selecting a different {filters.country === 'usa' ? 'state' : 'region'} or check back later.
                     </p>
                   </div>
                 )}

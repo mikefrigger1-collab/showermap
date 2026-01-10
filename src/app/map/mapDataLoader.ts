@@ -8,6 +8,8 @@ export interface MapLocation {
   address: string;
   city: string;
   state: string;
+  ukRegion?: string; // For UK locations
+  country?: string;
   categories: string[];
   amenities: string[];
   cost: string;
@@ -279,7 +281,7 @@ export async function loadAllLocations(): Promise<MapLocation[]> {
         if (stateData.locations && Array.isArray(stateData.locations)) {
           const stateLocations = stateData.locations
             .map((loc: any) => transformToMapLocation(loc, stateCode))
-            .filter((loc): loc is MapLocation => loc !== null);
+            .filter((loc: MapLocation | null): loc is MapLocation => loc !== null);
           
           return stateLocations;
         }
@@ -309,12 +311,12 @@ export async function loadStateLocations(stateCode: string): Promise<MapLocation
     const response = await fetch(`/data/states/${stateCode}.json`);
     if (response.ok) {
       const stateData: StateData = await response.json();
-      
+
       if (stateData.locations && Array.isArray(stateData.locations)) {
         const locations = stateData.locations
           .map((loc: any) => transformToMapLocation(loc, stateCode))
-          .filter((loc): loc is MapLocation => loc !== null);
-        
+          .filter((loc: MapLocation | null): loc is MapLocation => loc !== null);
+
         console.log(`Loaded ${locations.length} locations for ${stateCode}`);
         return locations;
       }
@@ -322,7 +324,313 @@ export async function loadStateLocations(stateCode: string): Promise<MapLocation
   } catch (error) {
     console.error(`Error loading data for ${stateCode}:`, error);
   }
-  
+
+  return [];
+}
+
+/**
+ * Transform UK location data to map format
+ */
+function transformUKToMapLocation(rawLocation: any, regionSlug: string): MapLocation | null {
+  const lat = parseFloat(rawLocation.lat);
+  const lng = parseFloat(rawLocation.lng);
+
+  if (isNaN(lat) || isNaN(lng) || lat === 0 || lng === 0) {
+    return null;
+  }
+
+  const id = rawLocation.id ||
+    (rawLocation.title || 'location').toLowerCase().replace(/[^a-z0-9]+/g, '-') + '-' + regionSlug;
+
+  // Get categories
+  const categories = Array.isArray(rawLocation.categories)
+    ? rawLocation.categories
+    : [rawLocation.businessType || 'Leisure Centre'];
+
+  // Get amenities
+  const amenities = Array.isArray(rawLocation.amenities)
+    ? rawLocation.amenities
+    : rawLocation.amenities?.split('|').filter((a: string) => a.trim()) || ['Contact for amenities'];
+
+  // Determine if verified
+  const verified = (rawLocation.showerReviewCount && rawLocation.showerReviewCount > 0) || false;
+
+  return {
+    id,
+    title: rawLocation.title || 'Unknown Facility',
+    lat,
+    lng,
+    address: rawLocation.address || 'Address not available',
+    city: rawLocation.city || '',
+    state: regionSlug, // Use region slug as state equivalent
+    ukRegion: rawLocation.ukRegion || regionSlug,
+    country: 'UK',
+    categories,
+    amenities,
+    cost: rawLocation.cost || 'Contact for pricing',
+    hours: rawLocation.hours || {},
+    phone: rawLocation.phone || undefined,
+    website: rawLocation.website || undefined,
+    rating: parseFloat(rawLocation.rating) || undefined,
+    verified,
+    showerReviewCount: rawLocation.showerReviewCount || 0,
+    businessType: rawLocation.businessType,
+    access: rawLocation.access || 'Contact for access'
+  };
+}
+
+/**
+ * Load locations for a specific UK region
+ */
+export async function loadUKRegionLocations(regionSlug: string): Promise<MapLocation[]> {
+  try {
+    const response = await fetch(`/data/uk/${regionSlug}.json`);
+    if (response.ok) {
+      const regionData = await response.json();
+
+      if (regionData.locations && Array.isArray(regionData.locations)) {
+        const locations = regionData.locations
+          .map((loc: any) => transformUKToMapLocation(loc, regionSlug))
+          .filter((loc: MapLocation | null): loc is MapLocation => loc !== null);
+
+        console.log(`Loaded ${locations.length} UK locations for ${regionSlug}`);
+        return locations;
+      }
+    }
+  } catch (error) {
+    console.error(`Error loading UK data for ${regionSlug}:`, error);
+  }
+
+  return [];
+}
+
+/**
+ * Get category-based pricing for Australia locations
+ * Mirrors the logic in dataLoader.ts to ensure consistency between map and region pages
+ */
+function getAustraliaPricing(category: string): { cost: string; access: string } {
+  const normalizedCategory = (category || '').toLowerCase();
+
+  // FREE facilities
+  if (
+    normalizedCategory.includes('beach') ||
+    normalizedCategory.includes('public shower') ||
+    normalizedCategory.includes('surf club') ||
+    normalizedCategory.includes('surf life saving') ||
+    normalizedCategory.includes('surf lifesaving') ||
+    normalizedCategory.includes('public bathroom') ||
+    normalizedCategory.includes('public toilet') ||
+    normalizedCategory.includes('promenade') ||
+    normalizedCategory.includes('outdoor bath') ||
+    normalizedCategory.includes('beach pavil') ||
+    normalizedCategory.includes('homeless service') ||
+    normalizedCategory.includes('homeless shelter') ||
+    normalizedCategory.includes('park')
+  ) {
+    return { cost: 'Free', access: 'Public Access' };
+  }
+
+  // Council/public pools and leisure centres
+  if (
+    normalizedCategory.includes('leisure centre') ||
+    normalizedCategory.includes('leisure center') ||
+    normalizedCategory.includes('aquatic centre') ||
+    normalizedCategory.includes('aquatic center') ||
+    normalizedCategory.includes('swimming pool') ||
+    normalizedCategory.includes('swimming facility') ||
+    normalizedCategory.includes('swim club') ||
+    normalizedCategory.includes('public pool') ||
+    normalizedCategory.includes('lido')
+  ) {
+    return { cost: 'A$5-10', access: 'Casual Entry' };
+  }
+
+  // Gyms and fitness
+  if (
+    normalizedCategory.includes('gym') ||
+    normalizedCategory.includes('fitness') ||
+    normalizedCategory.includes('health club') ||
+    normalizedCategory.includes('yoga') ||
+    normalizedCategory.includes('pilates')
+  ) {
+    return { cost: 'A$15-25 day pass', access: 'Casual Visit' };
+  }
+
+  // YMCA
+  if (normalizedCategory.includes('ymca')) {
+    return { cost: 'A$10-20', access: 'Casual Visit' };
+  }
+
+  // Recreation/Sports centres
+  if (
+    normalizedCategory.includes('recreation') ||
+    normalizedCategory.includes('sports centre') ||
+    normalizedCategory.includes('sports center') ||
+    normalizedCategory.includes('sports club') ||
+    normalizedCategory.includes('stadium') ||
+    normalizedCategory.includes('community center') ||
+    normalizedCategory.includes('community centre')
+  ) {
+    return { cost: 'A$5-12', access: 'Casual Entry' };
+  }
+
+  // Hostels and Hotels
+  if (
+    normalizedCategory.includes('hostel') ||
+    normalizedCategory.includes('backpacker') ||
+    normalizedCategory.includes('hotel') ||
+    normalizedCategory.includes('motel')
+  ) {
+    return { cost: 'A$5-10', access: 'Non-Guest Fee' };
+  }
+
+  // Caravan parks / Camping
+  if (
+    normalizedCategory.includes('caravan') ||
+    normalizedCategory.includes('holiday park') ||
+    normalizedCategory.includes('camping') ||
+    normalizedCategory.includes('campsite') ||
+    normalizedCategory.includes('campground')
+  ) {
+    return { cost: 'A$5-10', access: 'Day Visitor' };
+  }
+
+  // Truck stops / Rest stops
+  if (
+    normalizedCategory.includes('truck stop') ||
+    normalizedCategory.includes('travel center') ||
+    normalizedCategory.includes('travel centre') ||
+    normalizedCategory.includes('rest area') ||
+    normalizedCategory.includes('rest stop') ||
+    normalizedCategory.includes('petrol station') ||
+    normalizedCategory.includes('service station')
+  ) {
+    return { cost: 'A$5-10', access: 'Pay Per Use' };
+  }
+
+  // Day Spas / Wellness
+  if (
+    normalizedCategory.includes('day spa') ||
+    normalizedCategory.includes('wellness') ||
+    normalizedCategory.includes('massage spa') ||
+    normalizedCategory.includes('massage therapist')
+  ) {
+    return { cost: 'A$30-60', access: 'Entry Fee' };
+  }
+
+  // Spas
+  if (normalizedCategory.includes('spa') || normalizedCategory.includes('public bath')) {
+    return { cost: 'A$20-50', access: 'Entry Fee' };
+  }
+
+  // Saunas
+  if (normalizedCategory.includes('sauna')) {
+    return { cost: 'A$15-30', access: 'Entry Fee' };
+  }
+
+  // Water parks
+  if (normalizedCategory.includes('water park')) {
+    return { cost: 'A$30-50', access: 'Entry Fee' };
+  }
+
+  // Swimming schools (lesson-based)
+  if (
+    normalizedCategory.includes('swimming school') ||
+    normalizedCategory.includes('swim school') ||
+    normalizedCategory.includes('swimming instructor')
+  ) {
+    return { cost: 'Lesson-based', access: 'Students Only' };
+  }
+
+  // Default
+  return { cost: 'Contact for pricing', access: 'Contact for access' };
+}
+
+/**
+ * Transform Australia location data to map format
+ */
+function transformAustraliaToMapLocation(rawLocation: any, stateSlug: string): MapLocation | null {
+  const lat = parseFloat(rawLocation.lat);
+  const lng = parseFloat(rawLocation.lng);
+
+  if (isNaN(lat) || isNaN(lng) || lat === 0 || lng === 0) {
+    return null;
+  }
+
+  const id = rawLocation.id ||
+    (rawLocation.title || 'location').toLowerCase().replace(/[^a-z0-9]+/g, '-') + '-' + stateSlug;
+
+  // Get categories
+  const categories = Array.isArray(rawLocation.categories)
+    ? rawLocation.categories
+    : [rawLocation.businessType || 'Aquatic Centre'];
+
+  // Get amenities
+  const amenities = Array.isArray(rawLocation.amenities)
+    ? rawLocation.amenities
+    : rawLocation.amenities?.split('|').filter((a: string) => a.trim()) || ['Contact for amenities'];
+
+  // Determine if verified
+  const verified = (rawLocation.showerReviewCount && rawLocation.showerReviewCount > 0) || rawLocation.verified || false;
+
+  // Apply category-based pricing if no specific pricing is set
+  const currentCost = (rawLocation.cost || '').toLowerCase();
+  let cost = rawLocation.cost || 'Contact for pricing';
+  let access = rawLocation.access || 'Contact for access';
+
+  if (!currentCost || currentCost.includes('contact') || currentCost === '') {
+    // Get pricing based on businessType (most specific)
+    const category = rawLocation.businessType || categories[0] || '';
+    const pricing = getAustraliaPricing(category);
+    cost = pricing.cost;
+    access = pricing.access;
+  }
+
+  return {
+    id,
+    title: rawLocation.title || 'Unknown Facility',
+    lat,
+    lng,
+    address: rawLocation.address || 'Address not available',
+    city: rawLocation.city || '',
+    state: stateSlug,
+    country: 'Australia',
+    categories,
+    amenities,
+    cost,
+    hours: rawLocation.hours || {},
+    phone: rawLocation.phone || undefined,
+    website: rawLocation.website || undefined,
+    rating: parseFloat(rawLocation.rating) || undefined,
+    verified,
+    showerReviewCount: rawLocation.showerReviewCount || 0,
+    businessType: rawLocation.businessType,
+    access
+  };
+}
+
+/**
+ * Load locations for a specific Australia state
+ */
+export async function loadAustraliaStateLocations(stateSlug: string): Promise<MapLocation[]> {
+  try {
+    const response = await fetch(`/data/australia/${stateSlug}.json`);
+    if (response.ok) {
+      const stateData = await response.json();
+
+      if (stateData.locations && Array.isArray(stateData.locations)) {
+        const locations = stateData.locations
+          .map((loc: any) => transformAustraliaToMapLocation(loc, stateSlug))
+          .filter((loc: MapLocation | null): loc is MapLocation => loc !== null);
+
+        console.log(`Loaded ${locations.length} Australia locations for ${stateSlug}`);
+        return locations;
+      }
+    }
+  } catch (error) {
+    console.error(`Error loading Australia data for ${stateSlug}:`, error);
+  }
+
   return [];
 }
 

@@ -1,0 +1,11 @@
+{
+  "country": "UK",
+  "countryName": "United Kingdom",
+  "totalLocations": 20,
+  "totalRegions": 1,
+  "regionStats": {
+    "london": 20
+  },
+  "lastUpdated": "2026-01-04T05:14:30.397Z",
+  "dataSource": "OpenStreetMap"
+}
