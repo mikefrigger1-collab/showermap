@@ -1,6 +1,7 @@
 // src/app/layout.tsx - ONLY TypeScript/React code
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import { Suspense } from 'react';
 import './globals.css';
 import LoadingBar from './components/LoadingBar';
@@ -97,6 +98,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
+      {/* Google Analytics */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-WRM60V1ER6"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-WRM60V1ER6');
+        `}
+      </Script>
       <head>
         {/* Preconnect to external domains for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
