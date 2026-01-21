@@ -214,21 +214,9 @@ const schemaData = {
               {/* Left Column - Generated Content */}
               <div className="lg:col-span-2">
                 <div className="bg-white rounded-lg shadow-lg p-8">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                    About This Shower Facility
-                  </h2>
-                  
-                  <div className="prose prose-lg max-w-none text-gray-600">
-                    {generatedContent.content.split('\n\n').map((paragraph, index) => (
-                      <p key={index} className="mb-4">
-                        {paragraph}
-                      </p>
-                    ))}
-                  </div>
-                  
                   {/* Amenities */}
                   {location.amenities.length > 0 && (
-                    <div className="mt-8 pt-8 border-t">
+                    <div>
                       <h3 className="text-xl font-semibold text-gray-900 mb-4">
                         Available Amenities
                       </h3>
