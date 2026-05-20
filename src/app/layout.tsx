@@ -180,14 +180,13 @@ export default function RootLayout({
         </Suspense>
         {children}
         
-        {/* Google Auto Ads - Add when ready */}
-        {process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID && (
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID}`}
-            crossOrigin="anonymous"
-          />
-        )}
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6736999079825175"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
