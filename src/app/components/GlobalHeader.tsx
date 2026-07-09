@@ -222,6 +222,13 @@ const GlobalHeader = () => {
               >
                 Guidelines
               </Link>
+
+              <Link
+                href="/blog/"
+                className="text-warm-600 hover:text-primary-500 font-medium transition-colors duration-200 py-2"
+              >
+                Guides
+              </Link>
             </nav>
 
             {/* Mobile Menu Button */}
@@ -352,6 +359,14 @@ const GlobalHeader = () => {
               className="block px-4 py-3 text-warm-700 hover:text-primary-600 hover:bg-primary-50 rounded-xl font-medium transition-colors duration-200"
             >
               Guidelines
+            </Link>
+
+            <Link
+              href="/blog/"
+              onClick={() => setIsMenuOpen(false)}
+              className="block px-4 py-3 text-warm-700 hover:text-primary-600 hover:bg-primary-50 rounded-xl font-medium transition-colors duration-200"
+            >
+              Guides
             </Link>
           </nav>
 

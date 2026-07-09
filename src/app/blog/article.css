@@ -1,0 +1,253 @@
+/* src/app/blog/article.css
+ * Global editorial styles for ALL blog articles (current + future).
+ * Aesthetic: bold condensed outdoor-magazine, Oswald display headings over
+ * Inter body, terracotta accents, real vertical rhythm, hand-built details.
+ *
+ * SCOPING: typographic rules target DIRECT children of `.article` (and known
+ * list nesting) so the in-content affiliate components (OfferList, AffiliateCTA,
+ * ComparisonTable, GeoOffer) keep their own styling and are never leaked into.
+ */
+
+.font-display {
+  font-family: var(--font-display), 'Oswald', system-ui, sans-serif;
+}
+
+.article {
+  --rule: #e7e5e4;          /* warm-200 */
+  --ink: #292524;           /* warm-800 */
+  --ink-strong: #1c1917;    /* warm-900 */
+  --muted: #78716c;         /* warm-500 */
+  --terra: #d4502f;         /* primary-600 */
+  --terra-bright: #e66a4d;  /* primary-500 */
+
+  color: var(--ink);
+  font-size: 1.1875rem;     /* ~19px */
+  line-height: 1.75;
+  font-feature-settings: 'kern', 'liga';
+  text-rendering: optimizeLegibility;
+}
+
+/* ---- Body copy ---------------------------------------------------------- */
+.article > p {
+  margin: 0 0 1.6rem;
+  max-width: 68ch;
+}
+
+/* Lead paragraph: larger, with a terracotta drop cap. */
+.article > p:first-of-type {
+  font-size: 1.35rem;
+  line-height: 1.55;
+  color: var(--ink-strong);
+}
+.article > p:first-of-type::first-letter {
+  font-family: var(--font-display), 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 3.6em;
+  line-height: 0.82;
+  float: left;
+  margin: 0.06em 0.12em 0 0;
+  color: var(--terra);
+  text-transform: uppercase;
+}
+
+/* ---- Headings ----------------------------------------------------------- */
+.article {
+  counter-reset: step;
+}
+
+.article > h2 {
+  font-family: var(--font-display), 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  font-size: clamp(1.7rem, 1.1rem + 2.4vw, 2.4rem);
+  line-height: 1.04;
+  color: var(--ink-strong);
+  margin: 3.6rem 0 1.25rem;
+  padding-left: 1.1rem;
+  position: relative;
+}
+/* Signature: a terracotta bar to the left of every H2. */
+.article > h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.12em;
+  bottom: 0.12em;
+  width: 5px;
+  background: var(--terra);
+}
+
+/* Numbered "step" headings (mark with class="step") → 01, 02, 03 … */
+.article > h2.step {
+  counter-increment: step;
+  padding-left: 4.4rem;
+}
+.article > h2.step::after {
+  content: counter(step, decimal-leading-zero);
+  position: absolute;
+  left: 1.1rem;
+  top: -0.02em;
+  font-family: var(--font-display), 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 0.82em;
+  color: var(--terra);
+  -webkit-text-stroke: 0;
+}
+
+.article > h3 {
+  font-family: var(--font-display), 'Oswald', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  font-size: 1.45rem;
+  line-height: 1.15;
+  color: var(--ink-strong);
+  margin: 2.5rem 0 0.9rem;
+}
+
+.article > h2 + p,
+.article > h3 + p {
+  margin-top: 0;
+}
+
+/* ---- Links -------------------------------------------------------------- */
+.article > p a,
+.article > ul li a,
+.article > ol li a,
+.article > blockquote a {
+  color: var(--terra);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(212, 80, 47, 0.35);
+  transition: text-decoration-color 0.15s ease, background-color 0.15s ease;
+}
+.article > p a:hover,
+.article > ul li a:hover,
+.article > ol li a:hover,
+.article > blockquote a:hover {
+  text-decoration-color: var(--terra);
+  background: rgba(230, 106, 77, 0.08);
+}
+
+/* ---- Lists -------------------------------------------------------------- */
+.article > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.6rem;
+  max-width: 66ch;
+}
+.article > ul > li {
+  position: relative;
+  padding-left: 1.6rem;
+  margin: 0 0 0.7rem;
+}
+/* Editorial dash marker, not a bullet, not an emoji. */
+.article > ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.82em;
+  width: 0.85rem;
+  height: 2px;
+  background: var(--terra);
+}
+
+.article > ol {
+  list-style: none;
+  counter-reset: li;
+  padding: 0;
+  margin: 0 0 1.6rem;
+  max-width: 66ch;
+}
+.article > ol > li {
+  position: relative;
+  padding-left: 2.4rem;
+  margin: 0 0 0.7rem;
+}
+.article > ol > li::before {
+  counter-increment: li;
+  content: counter(li, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  font-family: var(--font-display), 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 0.95em;
+  color: var(--terra);
+}
+
+/* ---- Pull quote --------------------------------------------------------- */
+.article > blockquote {
+  margin: 2.6rem 0;
+  padding: 0.2rem 0 0.2rem 1.6rem;
+  border-left: 3px solid var(--terra);
+  font-family: var(--font-display), 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: var(--ink-strong);
+  max-width: 60ch;
+}
+.article > blockquote p {
+  margin: 0;
+}
+
+/* ---- Emphasis ----------------------------------------------------------- */
+.article > p strong,
+.article > ul li strong,
+.article > ol li strong {
+  font-weight: 700;
+  color: var(--ink-strong);
+}
+.article > p em {
+  font-style: italic;
+}
+
+/* ---- Divider ------------------------------------------------------------ */
+.article > hr {
+  border: 0;
+  width: 56px;
+  height: 3px;
+  background: var(--terra);
+  margin: 3rem 0;
+}
+
+/* ---- Figures / images --------------------------------------------------- */
+.article > figure {
+  margin: 2.4rem 0;
+}
+.article > figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+.article > figure figcaption {
+  margin-top: 0.6rem;
+  font-family: var(--font-display), 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+/* Inline label utility (an "eyebrow" you can drop above a section). */
+.article .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-display), 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--terra);
+}
+.article .eyebrow::before {
+  content: '';
+  width: 1.4rem;
+  height: 3px;
+  background: var(--terra);
+}

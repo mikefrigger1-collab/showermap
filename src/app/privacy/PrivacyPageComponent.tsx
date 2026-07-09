@@ -91,6 +91,18 @@ export default function PrivacyPage() {
               cookies may affect the functionality of our website.
             </p>
 
+            <h2>4a. Approximate Location</h2>
+            <p>
+              On some pages we show offers and tips relevant to your country. To do this we may
+              detect your approximate country using your browser&apos;s timezone or a third-party IP
+              lookup service (ipapi.co). We store only a two-letter country code on your device and
+              do not store your IP address. See{' '}
+              <a href="https://ipapi.co/privacy/" target="_blank" rel="noopener noreferrer">
+                ipapi.co&apos;s privacy policy
+              </a>{' '}
+              for how they handle requests.
+            </p>
+
             <h2>5. How We Use Your Information</h2>
             <ul>
               <li>To provide and improve our service</li>

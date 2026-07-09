@@ -111,6 +111,10 @@ export default function RootLayout({
           gtag('config', 'G-WRM60V1ER6');
         `}
       </Script>
+      {/* Impact.com Universal Tracking Tag */}
+      <Script id="impact-utt" strategy="afterInteractive">
+        {`(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A1208251-96e8-4ad1-9237-96be996804701.js','script','impactStat',document,window);impactStat('transformLinks');impactStat('trackImpression');`}
+      </Script>
       <head>
         {/* Google AdSense */}
         <script

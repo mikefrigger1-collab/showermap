@@ -7,6 +7,7 @@ import { MapPin, Clock, Phone, Globe, DollarSign, Star, CheckCircle, BadgeCheck,
 import Link from 'next/link';
 import GlobalHeader from '../../../components/GlobalHeader';
 import GlobalFooter from '../../../components/GlobalFooter';
+import { trackGetDirections, trackEvent } from '../../../lib/analytics';
 
 interface ShowerLocation {
   id: string;
@@ -284,6 +285,12 @@ const schemaData = {
                           )}`}
                           target="_blank"
                           rel="noopener noreferrer"
+                          onClick={() => trackGetDirections({
+                            location_title: location.title,
+                            country: params.country,
+                            region: params.region,
+                            source: 'detail_page',
+                          })}
                           className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center gap-1 mt-1"
                         >
                           Get Directions →
@@ -407,8 +414,13 @@ const schemaData = {
                         <Phone className="h-5 w-5 text-gray-400 mt-0.5" />
                         <div>
                           <div className="font-medium text-gray-900">Phone</div>
-                          <a 
+                          <a
                             href={`tel:${location.phone}`}
+                            onClick={() => trackEvent('call_location', {
+                              location_title: location.title,
+                              country: params.country,
+                              region: params.region,
+                            })}
                             className="text-blue-600 hover:text-blue-800"
                           >
                             {formatPhone(location.phone)}
@@ -425,10 +437,15 @@ const schemaData = {
                         <Globe className="h-5 w-5 text-gray-400 mt-0.5" />
                         <div>
                           <div className="font-medium text-gray-900">Website</div>
-                          <a 
+                          <a
                             href={location.website}
                             target="_blank"
                             rel="noopener noreferrer"
+                            onClick={() => trackEvent('visit_website', {
+                              location_title: location.title,
+                              country: params.country,
+                              region: params.region,
+                            })}
                             className="text-blue-600 hover:text-blue-800 text-sm"
                           >
                             Visit Website →
@@ -457,8 +474,14 @@ const schemaData = {
                     </div>
                     
                     {location.phone && (
-                      <a 
+                      <a
                         href={`tel:${location.phone}`}
+                        onClick={() => trackEvent('call_location', {
+                          location_title: location.title,
+                          country: params.country,
+                          region: params.region,
+                          source: 'cta_button',
+                        })}
                         className="mt-4 block w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg font-semibold text-center transition-colors"
                       >
                         Call {formatPhone(location.phone)}

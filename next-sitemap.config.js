@@ -107,6 +107,17 @@ function loadDynamicPaths() {
     console.log('Note: Australia location data not found');
   }
 
+  // Blog: index + every post slug from the registry.
+  try {
+    const { getPostSlugs } = require('./src/app/blog/posts/registry');
+    urls.push('/blog/');
+    getPostSlugs().forEach((slug) => {
+      urls.push(`/blog/${slug}/`);
+    });
+  } catch (error) {
+    console.log('Note: blog registry not found for sitemap');
+  }
+
   return urls;
 }
 
@@ -159,6 +170,10 @@ module.exports = {
         return 0.7;
       }
 
+      // Blog index + posts
+      if (url === '/blog/') return 0.8;
+      if (url.match(/^\/blog\/[a-z0-9-]+\/$/)) return 0.7;
+
       // Static pages - lower priority
       if (['/about/', '/contact/', '/guidelines/', '/privacy/', '/terms/'].includes(url)) {
         return 0.5;
@@ -184,6 +199,10 @@ module.exports = {
 
       // Location pages - update weekly (hours/status might change)
       if (url.match(/^\/(usa|uk|australia)\/[a-z-]+\/[a-z0-9-]+\/$/)) return 'weekly';
+
+      // Blog index + posts
+      if (url === '/blog/') return 'weekly';
+      if (url.match(/^\/blog\/[a-z0-9-]+\/$/)) return 'monthly';
 
       // Static pages - rarely change
       if (['/about/', '/guidelines/', '/privacy/', '/terms/'].includes(url)) {

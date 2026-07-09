@@ -41,3 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# Local analytics exports (GA4 / Search Console CSVs) - data, not code
+analytics/

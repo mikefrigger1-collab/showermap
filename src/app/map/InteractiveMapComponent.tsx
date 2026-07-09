@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 import type { MapLocation } from './mapDataLoader';
+import { trackSelectLocation, trackGetDirections, trackClusterZoom } from '../lib/analytics';
 
 // Fix Leaflet default marker icons
 if (typeof window !== 'undefined') {
@@ -382,7 +383,7 @@ function MapEventHandler({
 /**
  * Location popup content
  */
-function LocationPopup({ location }: { location: MapLocation }) {
+function LocationPopup({ location, country }: { location: MapLocation; country?: string }) {
   if (!location || !location.title) {
     return <div className="p-2 text-gray-500">Location data unavailable</div>;
   }
@@ -496,6 +497,12 @@ function LocationPopup({ location }: { location: MapLocation }) {
         <div className="grid grid-cols-2 gap-2 pt-3 border-t border-gray-100">
           <Link
             href={getLocationUrl(location)}
+            onClick={() => trackSelectLocation({
+              location_title: location.title,
+              country,
+              region: location.state,
+              source: 'map_popup',
+            })}
             className="flex items-center justify-center gap-1.5 bg-orange-500 hover:bg-orange-600 px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
             style={{ color: 'white' }}
           >
@@ -506,6 +513,12 @@ function LocationPopup({ location }: { location: MapLocation }) {
             href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackGetDirections({
+              location_title: location.title,
+              country,
+              region: location.state,
+              source: 'map_popup',
+            })}
             className="flex items-center justify-center gap-1.5 bg-gray-100 hover:bg-gray-200 px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
             style={{ color: '#1f2937' }}
           >
@@ -628,6 +641,7 @@ export default function InteractiveMapComponent({
   
   // Handle cluster click to zoom in
   const handleClusterClick = (cluster: Cluster) => {
+    trackClusterZoom(cluster.count);
     if (mapInstance) {
       // Calculate bounds for cluster locations
       const bounds = getLocationBounds(cluster.locations);
@@ -692,7 +706,7 @@ export default function InteractiveMapComponent({
         icon={createMarkerIcon(item.categories[0], item.verified)}
       >
         <Popup>
-          <LocationPopup location={item} />
+          <LocationPopup location={item} country={country} />
         </Popup>
       </Marker>
     );

@@ -24,8 +24,18 @@ import Link from 'next/link';
 import Image from 'next/image';
 import GlobalHeader from '../components/GlobalHeader';
 import GlobalFooter from '../components/GlobalFooter';
+import GuideCTA from '../components/GuideCTA';
 import { loadStateLocations, loadUKRegionLocations, loadAustraliaStateLocations } from './mapDataLoader';
 import type { MapLocation } from './mapDataLoader';
+import {
+  trackSelectRegion,
+  trackSearch,
+  trackUseMyLocation,
+  trackViewModeChange,
+  trackSelectLocation,
+  trackGetDirections,
+  trackFilterApply,
+} from '../lib/analytics';
 
 // Dynamically import the map component to avoid SSR issues
 const InteractiveMapComponent = dynamic(() => import('./InteractiveMapComponent'), {
@@ -400,6 +410,15 @@ function LocationCard({ location, viewMode, country }: {
     ? `${location.city}, ${location.state}`
     : `${location.city}, ${location.state}`;
 
+  const cardSource = viewMode === 'list' ? 'list_card' : 'grid_card';
+  const region = (location.ukRegion || location.state) as string;
+  const onDetailsClick = () => trackSelectLocation({
+    location_title: location.title, country, region, source: cardSource,
+  });
+  const onDirectionsClick = () => trackGetDirections({
+    location_title: location.title, country, region, source: cardSource,
+  });
+
   if (viewMode === 'list') {
     return (
       <div className="bg-white border rounded-lg p-4 hover:shadow-md transition-shadow">
@@ -467,6 +486,7 @@ function LocationCard({ location, viewMode, country }: {
         <div className="flex gap-2 mt-4 pt-3 border-t">
           <Link
             href={getLocationUrl()}
+            onClick={onDetailsClick}
             className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
           >
             View Details
@@ -475,6 +495,7 @@ function LocationCard({ location, viewMode, country }: {
             href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={onDirectionsClick}
             className="flex-1 bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors flex items-center justify-center gap-1"
           >
             <ExternalLink className="h-3 w-3" />
@@ -519,6 +540,7 @@ function LocationCard({ location, viewMode, country }: {
       <div className="grid grid-cols-2 gap-2">
         <Link
           href={getLocationUrl()}
+          onClick={onDetailsClick}
           className="flex-1 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-medium text-center transition-colors"
         >
           View Details
@@ -527,6 +549,7 @@ function LocationCard({ location, viewMode, country }: {
           href={`https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`}
           target="_blank"
           rel="noopener noreferrer"
+          onClick={onDirectionsClick}
           className="bg-gray-600 hover:bg-gray-700 text-white px-3 py-1.5 rounded text-xs font-medium text-center transition-colors flex items-center justify-center gap-1"
         >
           <ExternalLink className="h-3 w-3" />
@@ -596,7 +619,10 @@ function FilterSidebar({
               </label>
               <select
                 value={filters.category}
-                onChange={(e) => setFilters(prev => ({...prev, category: e.target.value}))}
+                onChange={(e) => {
+                  if (e.target.value) trackFilterApply('category', e.target.value);
+                  setFilters(prev => ({...prev, category: e.target.value}));
+                }}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               >
                 <option value="">All Types</option>
@@ -614,7 +640,10 @@ function FilterSidebar({
             </label>
             <select
               value={filters.costType}
-              onChange={(e) => setFilters(prev => ({...prev, costType: e.target.value as any}))}
+              onChange={(e) => {
+                trackFilterApply('cost', e.target.value);
+                setFilters(prev => ({...prev, costType: e.target.value as any}));
+              }}
               className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             >
               <option value="all">All Options</option>
@@ -629,7 +658,10 @@ function FilterSidebar({
               type="checkbox"
               id="verified"
               checked={filters.verifiedOnly}
-              onChange={(e) => setFilters(prev => ({...prev, verifiedOnly: e.target.checked}))}
+              onChange={(e) => {
+                trackFilterApply('verified', e.target.checked);
+                setFilters(prev => ({...prev, verifiedOnly: e.target.checked}));
+              }}
               className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
             />
             <label htmlFor="verified" className="ml-2 text-sm text-gray-700 flex items-center gap-1">
@@ -769,6 +801,7 @@ export default function LightweightMapClient() {
   const getCurrentLocation = useCallback(() => {
     setLocationLoading(true);
     setError(null);
+    trackUseMyLocation('requested');
 
     if (!navigator.geolocation) {
       setError('Geolocation is not supported by this browser');
@@ -784,6 +817,7 @@ export default function LightweightMapClient() {
           accuracy: position.coords.accuracy
         };
         setUserLocation(newLocation);
+        trackUseMyLocation('success');
 
         // Reverse geocode to find the user's region
         await reverseGeocode(newLocation.lat, newLocation.lng);
@@ -791,6 +825,7 @@ export default function LightweightMapClient() {
         setLocationLoading(false);
       },
       (error) => {
+        trackUseMyLocation('error');
         let errorMsg = 'Unable to get your location. ';
 
         switch(error.code) {
@@ -882,6 +917,18 @@ export default function LightweightMapClient() {
     loadData();
   }, [filters.state, filters.country]);
 
+  // Track searches (debounced so we log a query, not every keystroke)
+  useEffect(() => {
+    const query = filters.searchQuery.trim();
+    if (query.length < 3) return;
+
+    const timer = setTimeout(() => {
+      trackSearch(query, filters.country, filters.state);
+    }, 800);
+
+    return () => clearTimeout(timer);
+  }, [filters.searchQuery, filters.country, filters.state]);
+
   // Filter and sort locations
   const filteredLocations = useMemo(() => {
     let filtered = locations.filter(location => 
@@ -925,12 +972,18 @@ export default function LightweightMapClient() {
   };
 
   const handleRegionSelect = (regionCode: string) => {
+    if (regionCode) trackSelectRegion(filters.country, regionCode);
     setFilters(prev => ({
       ...prev,
       state: regionCode,
       city: '',
       category: ''
     }));
+  };
+
+  const handleViewModeChange = (mode: ViewMode) => {
+    trackViewModeChange(mode);
+    setViewMode(mode);
   };
 
   const clearFilters = () => {
@@ -1023,14 +1076,14 @@ export default function LightweightMapClient() {
                     
                     <div className="flex items-center gap-2">
                       <button
-                        onClick={() => setViewMode('map')}
+                        onClick={() => handleViewModeChange('map')}
                         className={`p-2 rounded ${viewMode === 'map' ? 'bg-blue-100 text-blue-700' : 'text-gray-500 hover:text-gray-700'}`}
                         title="Map view"
                       >
                         <MapIcon className="h-4 w-4" />
                       </button>
                       <button
-                        onClick={() => setViewMode('list')}
+                        onClick={() => handleViewModeChange('list')}
                         className={`p-2 rounded ${viewMode === 'list' ? 'bg-blue-100 text-blue-700' : 'text-gray-500 hover:text-gray-700'}`}
                         title="List view"
                       >
@@ -1039,6 +1092,21 @@ export default function LightweightMapClient() {
                     </div>
                   </div>
                 </div>
+
+                {/* Van-life guide CTA — gated to van-life-relevant geos (US/AU) */}
+                {(filters.country === 'usa' || filters.country === 'australia') && (
+                  <div className="mb-6">
+                    <GuideCTA
+                      placement="map_results_header"
+                      country={filters.country}
+                      region={filters.state}
+                      variant="banner"
+                      headline="Traveling by van or RV?"
+                      sub="See how full-time van lifers shower on the road — gyms, truck stops & portable kits."
+                      cta="Read the guide"
+                    />
+                  </div>
+                )}
 
                 {/* Loading State */}
                 {loading && (

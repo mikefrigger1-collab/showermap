@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        // Condensed display face for blog headings (loaded via next/font on the
+        // blog routes, which set --font-display). Falls back to Oswald/system.
+        display: ['var(--font-display)', 'Oswald', 'system-ui', 'sans-serif'],
+      },
       colors: {
         // Primary: Terracotta/Coral warmth
         primary: {
@@ -92,5 +97,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
